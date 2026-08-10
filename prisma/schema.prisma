@@ -210,6 +210,11 @@ enum MatchStrength {
   NEEDS_VERIFICATION
 }
 
+enum UserRole {
+  STUDENT
+  ADMIN
+}
+
 enum ApplicationStatus {
   SAVED
   PLANNING
@@ -599,6 +604,7 @@ model User {
   email         String    @unique
   passwordHash  String?
   name          String?
+  role          UserRole  @default(STUDENT)
   emailVerified DateTime?
   image         String?
   createdAt     DateTime  @default(now())

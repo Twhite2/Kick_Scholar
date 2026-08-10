@@ -8,7 +8,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-mono);
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -27,6 +27,7 @@
   --color-input: var(--input);
   --color-border: var(--border);
   --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
@@ -39,6 +40,18 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+
+  /* KickScholar semantic colors — see the brand color language in the plan:
+     blue = discovery/navigation/primary, green = funding/qualification,
+     red = deadlines/missing requirements, white = space/clarity. */
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-kick-blue: var(--kick-blue);
+  --color-kick-green: var(--kick-green);
+  --color-kick-red: var(--kick-red);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -49,72 +62,103 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --background: #ffffff;
+  --foreground: oklch(0.18 0.02 250);
+  --card: #ffffff;
+  --card-foreground: oklch(0.18 0.02 250);
+  --popover: #ffffff;
+  --popover-foreground: oklch(0.18 0.02 250);
+
+  /* KickScholar Blue — primary brand, discovery/navigation */
+  --primary: #0b4f8c;
+  --primary-foreground: #ffffff;
+
+  --secondary: #f4f6f8;
+  --secondary-foreground: oklch(0.18 0.02 250);
+  --muted: #f8fafc;
+  --muted-foreground: oklch(0.5 0.02 250);
+  --accent: #f4f6f8;
+  --accent-foreground: #0b4f8c;
+
+  /* KickScholar Red — deadlines / missing requirements / urgency */
+  --destructive: #c62828;
+  --destructive-foreground: #ffffff;
+
+  /* KickScholar Green — funding / qualification / positive matches */
+  --success: #2e8b57;
+  --success-foreground: #ffffff;
+
+  --kick-blue: #0b4f8c;
+  --kick-green: #2e8b57;
+  --kick-red: #c62828;
+  --surface: #f8fafc;
+  --surface-alt: #f4f6f8;
+
+  --border: oklch(0.9 0.01 250);
+  --input: oklch(0.9 0.01 250);
+  --ring: #0b4f8c;
+  --chart-1: #0b4f8c;
+  --chart-2: #2e8b57;
+  --chart-3: #c62828;
+  --chart-4: oklch(0.6 0.05 250);
+  --chart-5: oklch(0.4 0.02 250);
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #f8fafc;
+  --sidebar-foreground: oklch(0.18 0.02 250);
+  --sidebar-primary: #0b4f8c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f4f6f8;
+  --sidebar-accent-foreground: #0b4f8c;
+  --sidebar-border: oklch(0.9 0.01 250);
+  --sidebar-ring: #0b4f8c;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
+  --background: oklch(0.16 0.02 250);
+  --foreground: oklch(0.96 0.005 250);
+  --card: oklch(0.2 0.02 250);
+  --card-foreground: oklch(0.96 0.005 250);
+  --popover: oklch(0.2 0.02 250);
+  --popover-foreground: oklch(0.96 0.005 250);
+
+  --primary: #3d8bd1;
+  --primary-foreground: oklch(0.16 0.02 250);
+
+  --secondary: oklch(0.27 0.02 250);
+  --secondary-foreground: oklch(0.96 0.005 250);
+  --muted: oklch(0.27 0.02 250);
+  --muted-foreground: oklch(0.7 0.02 250);
+  --accent: oklch(0.27 0.02 250);
+  --accent-foreground: #6fb1e6;
+
+  --destructive: #e57373;
+  --destructive-foreground: oklch(0.16 0.02 250);
+
+  --success: #4caf7d;
+  --success-foreground: oklch(0.16 0.02 250);
+
+  --kick-blue: #3d8bd1;
+  --kick-green: #4caf7d;
+  --kick-red: #e57373;
+  --surface: oklch(0.21 0.02 250);
+  --surface-alt: oklch(0.25 0.02 250);
+
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --ring: #3d8bd1;
+  --chart-1: #3d8bd1;
+  --chart-2: #4caf7d;
+  --chart-3: #e57373;
+  --chart-4: oklch(0.6 0.05 250);
+  --chart-5: oklch(0.75 0.02 250);
+  --sidebar: oklch(0.19 0.02 250);
+  --sidebar-foreground: oklch(0.96 0.005 250);
+  --sidebar-primary: #3d8bd1;
+  --sidebar-primary-foreground: oklch(0.16 0.02 250);
+  --sidebar-accent: oklch(0.27 0.02 250);
+  --sidebar-accent-foreground: #6fb1e6;
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --sidebar-ring: #3d8bd1;
 }
 
 @layer base {
@@ -126,5 +170,16 @@
   }
   html {
     @apply font-sans;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
