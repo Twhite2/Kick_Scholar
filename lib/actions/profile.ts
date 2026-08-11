@@ -1,38 +1,9 @@
 "use server";
 
-import { z } from "zod";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { runMatchForStudent } from "@/lib/matching/runMatchForStudent";
-
-const languageProficiencySchema = z.object({
-  testName: z.string().min(1),
-  score: z.number().nullable(),
-  cefrLevel: z.string().nullable(),
-});
-
-export const profileInputSchema = z.object({
-  nationality: z.string().nullable(),
-  dateOfBirth: z.iso.date().nullable(),
-  currentEducationLevel: z
-    .enum(["HIGH_SCHOOL", "BACHELOR", "MASTER", "PHD", "DIPLOMA", "CERTIFICATE", "OTHER"])
-    .nullable(),
-  currentGpa: z.number().nullable(),
-  gpaScale: z.number().nullable(),
-  fieldOfStudy: z.string().nullable(),
-  desiredDegreeLevel: z
-    .enum(["HIGH_SCHOOL", "BACHELOR", "MASTER", "PHD", "DIPLOMA", "CERTIFICATE", "OTHER"])
-    .nullable(),
-  desiredFields: z.array(z.string()),
-  preferredCountries: z.array(z.string()),
-  budgetMaxPerYear: z.number().nullable(),
-  budgetCurrency: z.string().nullable(),
-  workExperienceMonths: z.number().nullable(),
-  financialNeedSelfReported: z.boolean().nullable(),
-  languageProficiencies: z.array(languageProficiencySchema),
-});
-
-export type ProfileInput = z.infer<typeof profileInputSchema>;
+import { profileInputSchema, type ProfileInput } from "./profile-schema";
 
 // Fields that count toward "profile strength" (Phase 5's completion ring).
 // Kept intentionally small — the fields that most directly unlock or block
