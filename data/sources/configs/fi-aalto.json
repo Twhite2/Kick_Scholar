@@ -1,0 +1,20 @@
+{
+  "id": "src-aalto",
+  "name": "Aalto University — official website",
+  "type": "UNIVERSITY",
+  "country": "FI",
+  "baseUrl": "https://www.aalto.fi",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "MANUAL",
+  "status": "ACTIVE",
+  "seedUrls": ["https://www.aalto.fi/en/study-options"],
+  "urlPatterns": {
+    "include": ["aalto.fi/en/study-options"],
+    "exclude": ["/login"]
+  },
+  "maxDepth": 2,
+  "maxPages": 20,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "notes": "University-level source, complements the Studyinfo.fi national portal for Finland."
+}

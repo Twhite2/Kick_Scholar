@@ -1,0 +1,26 @@
+{
+  "id": "src-tu-berlin",
+  "name": "TU Berlin — official website",
+  "type": "UNIVERSITY",
+  "country": "DE",
+  "baseUrl": "https://www.tu.berlin",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "MANUAL",
+  "status": "ACTIVE",
+  "seedUrls": [
+    "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-m-sc",
+    "https://www.tu.berlin/en/studying/applying-and-enrolling/dates-deadlines"
+  ],
+  "urlPatterns": {
+    "include": ["tu.berlin/en/"],
+    "exclude": ["/login", "/intranet"]
+  },
+  "maxDepth": 0,
+  "maxPages": 5,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "detail": "Study-course pages have a 'Basic information' table (period of study, credit points, admission type, language). The dates-deadlines page has separate application windows per semester/admission-type that must be matched to the specific program's admission type."
+  },
+  "notes": "robots.txt sets Content-Signal: ai-train=no, ai-input=no, search=yes and otherwise Allow: / — this crawl is for building a cited, source-linked factual catalog (equivalent in spirit to search indexing), not model training/input, and every fact loaded from it retains its sourceUrl for direct attribution. Seed URLs confirmed real and reachable (2026-08-10); the /en/study/degree-programs/* path guessed during planning was a 404 and has been replaced with the real /en/studying/study-programs/all-programs-offered/study-course/* path discovered via the site's own navigation."
+}

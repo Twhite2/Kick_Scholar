@@ -1,0 +1,69 @@
+{
+  "sourceId": "src-studyinfo",
+  "sourceDocumentId": "src-studyinfo:1f7fba6b0548b57fadcca0dabf87adc57a030a9a7bbeb2a6bd765ac93992762b",
+  "extractedBy": "manual",
+  "extractedAt": "2026-08-10T16:30:00Z",
+  "universities": [
+    {
+      "name": "South-Eastern Finland University of Applied Sciences (Xamk)",
+      "country": "FI",
+      "city": "Mikkeli",
+      "website": "https://www.xamk.fi/en/",
+      "description": null,
+      "sourceUrl": "https://opintopolku.fi/konfo/en/toteutus/1.2.246.562.17.00000000000000000486",
+      "sourceQuote": "South-Eastern Finland University of Applied Sciences Xamk"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "South-Eastern Finland University of Applied Sciences (Xamk)",
+      "universityWebsite": "https://www.xamk.fi/en/",
+      "name": "Master of Business Administration, International Business Management, part-time studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Business Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 30,
+      "instructionLanguages": ["English"],
+      "tuitionType": "PAID",
+      "tuitionAmount": 13500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "UNKNOWN",
+      "intakes": [],
+      "programUrl": "https://opintopolku.fi/konfo/en/toteutus/1.2.246.562.17.00000000000000000486",
+      "description": "The Master's Degree Programme in Business Administration aims to strengthen students' professional competence for demanding development, management and expert positions. Organized as blended studies (lectures, online studies, project-based tasks), all courses in English.",
+      "sourceUrl": "https://opintopolku.fi/konfo/en/toteutus/1.2.246.562.17.00000000000000000486",
+      "sourceQuote": "# Master of Business Administration, International Business Management, part-time studies",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "You can apply for a master’s degree programme if you have completed a suitable bachelor’s degree. In some cases, an equivalent degree obtained in other post-secondary level education also gives you eligibility to apply.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "months",
+          "sourceQuote": "Additionally, a minimum of two years of work experience is required.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application ongoing",
+          "intake": null,
+          "sourceQuote": "#### Application ongoing\nCheck out study programmes available for application and fill in the application form.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

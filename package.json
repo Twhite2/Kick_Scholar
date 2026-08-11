@@ -6,7 +6,10 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sources:sync": "tsx lib/sources/syncSourcesToDb.ts",
+    "crawl": "tsx lib/crawler/runCrawlJob.ts",
+    "pipeline:load": "tsx lib/pipeline/loadExtractedToDb.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",

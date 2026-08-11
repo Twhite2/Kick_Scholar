@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-bright-scholarship",
+  "sourceDocumentId": "src-bright-scholarship:b1ea330976c1bafab15db6d0566811e71e2c39082af900fa384901b7faf1517d",
+  "extractedBy": "manual",
+  "extractedAt": "2026-08-10T16:40:00Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Belgium Government ARES Scholarship 2027-28",
+      "providerName": "ARES (Académie de Recherche et d'Enseignement Supérieur)",
+      "providerType": "GOVERNMENT",
+      "country": "BE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "FULL_FUNDING",
+      "description": "Fully Funded Scholarships offered by the Belgium Government (ARES / Wallonia-Brussels Federation) to study a one-year specialized Master's degree program or a 2-to-6-month advanced training course. 220 scholarships awarded per year.",
+      "applicationUrl": "https://form.ares-ac.be/international_trainings_2027_2028",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": "src-bright-scholarship",
+      "discoveryUrl": "https://brightscholarship.com/belgium-government-ares-scholarship-2027-28/",
+      "officialSourceUrl": "https://www.ares-ac.be/en/international-training-scholarships-2027-2028",
+      "sourceUrl": "https://brightscholarship.com/belgium-government-ares-scholarship-2027-28/",
+      "sourceQuote": "Applications are invited to apply for the Belgium Government ARES Scholarship 2027-28 in Belgium. International Students from developing countries are eligible to apply for Belgium Government Scholarships.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": ["BACHELOR", "MASTER", "OTHER"],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Degree level: | Bachelors, Master & Training Course",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Benin", "Bolivia", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Cuba",
+            "Democratic Republic of Congo", "Ecuador", "Ethiopia", "Haiti", "Indonesia", "Kenya",
+            "Madagascar", "Morocco", "Mozambique", "Nepal", "Niger", "Peru", "Philippines",
+            "Republic of Guinea (Conakry)", "Rwanda", "Senegal", "South Africa", "Tanzania",
+            "Tunisia", "Uganda", "Vietnam", "Zimbabwe"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "List of Eligible Countries: Benin, Bolivia, Burkina Faso, Burundi, Cambodia, Cameroon, Cuba, Democratic Republic of Congo, Ecuador, Ethiopia, Haiti, Indonesia, Kenya, Madagascar, Morocco, Mozambique, Nepal, Niger, Peru, Philippines, Republic of Guinea (Conakry), Rwanda, Senegal, South Africa, Tanzania, Tunisia, Uganda, Vietnam and Zimbabwe.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 40,
+          "textValue": "Under 40 for degree programs (under 45 for training courses), at the time training begins",
+          "sourceQuote": "Be Under the age of 40 for Degree programs, and Under 45 for Training Courses, at the time the training is scheduled to begin.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Passive knowledge of English (reading) required",
+          "sourceQuote": "Passive knowledge of English (reading) is required.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "SCHOLARSHIP_APPLICATION",
+          "date": "2026-09-18T23:59:00+02:00",
+          "dateText": null,
+          "intake": null,
+          "sourceQuote": "The last date to apply for the International Scholarship in Belgium 2027-28 for international students is 18th September 2026.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ]
+}

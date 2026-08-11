@@ -1,0 +1,25 @@
+{
+  "id": "src-bright-scholarship",
+  "name": "Bright Scholarship",
+  "type": "SCHOLARSHIP_AGGREGATOR",
+  "country": null,
+  "baseUrl": "https://brightscholarship.com",
+  "authorityLevel": "DISCOVERY",
+  "crawlFrequency": "MANUAL",
+  "status": "ACTIVE",
+  "seedUrls": [
+    "https://brightscholarship.com/belgium-government-ares-scholarship-2027-28/"
+  ],
+  "urlPatterns": {
+    "include": ["brightscholarship.com/"],
+    "exclude": ["/wp-admin", "/tag/", "/category/"]
+  },
+  "maxDepth": 0,
+  "maxPages": 3,
+  "rateLimitMs": 4000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "detail": "Each scholarship post states degree level/coverage/eligible nationality/deadline in a summary table plus prose, and usually links an 'Official Link' — that link is the officialSourceUrl candidate for verification, always worth fetching directly rather than trusting this source's own restatement of the facts."
+  },
+  "notes": "DISCOVERY authority only. Seed post (Belgium Government ARES Scholarship 2027-28) confirmed real and reachable (2026-08-10); its stated 'Official Link' (ares-ac.be) was independently fetched and corroborates the deadline exactly (18 September 2026) with a largely-overlapping but not identical eligible-country list — a genuine real-world example of partial corroboration, handled by lib/verification/flagConflicts.ts rather than silently merged."
+}

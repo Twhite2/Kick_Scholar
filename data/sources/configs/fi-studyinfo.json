@@ -1,0 +1,26 @@
+{
+  "id": "src-studyinfo",
+  "name": "Studyinfo.fi",
+  "type": "NATIONAL_EDUCATION_PORTAL",
+  "country": "FI",
+  "baseUrl": "https://opintopolku.fi",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "MANUAL",
+  "status": "ACTIVE",
+  "seedUrls": [
+    "https://opintopolku.fi/konfo/en/toteutus/1.2.246.562.17.00000000000000000486"
+  ],
+  "urlPatterns": {
+    "include": ["opintopolku.fi/konfo/en/toteutus/", "opintopolku.fi/konfo/en/koulutus/"],
+    "exclude": ["/haku/", "/haku-app/", "/hakemus/", "/etusivu/", "/m/", "/calendar/", "/swagger/"]
+  },
+  "maxDepth": 0,
+  "maxPages": 3,
+  "rateLimitMs": 30000,
+  "delayBeforeReturnHtmlSeconds": 4,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "detail": "Client-rendered SPA (konfo). 'Basic information' block has language/scope/duration/tuition; program body states degree prerequisites and work-experience requirements in prose."
+  },
+  "notes": "Domain corrected to opintopolku.fi (studyinfo.fi redirects here; Studyinfo is the English brand name for Finland's Opintopolku system). robots.txt disallows /konfo/en/haku/ (search) and declares crawl-delay: 30 — rateLimitMs set accordingly. Seed URL is a real toteutus (programme instance) page found via the site's public sitemap, confirmed reachable and extractable via Crawl4AI with a 4s post-load delay (2026-08-10)."
+}

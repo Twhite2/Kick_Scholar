@@ -42,8 +42,10 @@ next-env.d.ts
 
 /lib/generated/prisma
 
-# python crawler venv
+# python crawler venv + bytecode cache
 /crawler/.venv
+__pycache__/
+*.pyc
 
 # raw crawl artifacts (large, regenerable — never the source of truth)
 /data/raw/*

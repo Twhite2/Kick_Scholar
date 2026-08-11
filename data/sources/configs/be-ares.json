@@ -1,0 +1,17 @@
+{
+  "id": "src-ares",
+  "name": "ARES (Académie de Recherche et d'Enseignement Supérieur)",
+  "type": "GOVERNMENT",
+  "country": "BE",
+  "baseUrl": "https://www.ares-ac.be",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "MANUAL",
+  "status": "ACTIVE",
+  "seedUrls": ["https://www.ares-ac.be/en/international-training-scholarships-2027-2028"],
+  "urlPatterns": { "include": ["ares-ac.be/en/"], "exclude": [] },
+  "maxDepth": 0,
+  "maxPages": 5,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "notes": "Official Belgian federal body coordinating ARES International Training Scholarships. Independently confirmed (2026-08-10) to corroborate the deadline (18 September 2026, exact match) and broadly overlapping eligible-country list stated on the Bright Scholarship discovery post for the same scholarship — used as the PRIMARY-authority cross-reference in lib/verification/crossReferenceCheck.ts. Crawl4AI's anti-bot heuristic currently blocks a clean render of this page (no <body> tag detected); corroboration was confirmed via a direct fetch instead, so this source is registered for citation/provenance purposes even though its automated crawl is not yet working."
+}

@@ -1,0 +1,68 @@
+{
+  "sourceId": "src-tu-berlin",
+  "sourceDocumentId": "src-tu-berlin:85f5353cc35feca64a7884e8089ddd89657ecd5cdabbfa82b115af73e83ef8c2",
+  "extractedBy": "manual",
+  "extractedAt": "2026-08-10T16:35:00Z",
+  "universities": [
+    {
+      "name": "Technical University of Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.tu.berlin",
+      "description": null,
+      "sourceUrl": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-m-sc",
+      "sourceQuote": "Computer Engineering M.Sc. - TU Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Berlin",
+      "universityWebsite": "https://www.tu.berlin",
+      "name": "Computer Engineering M.Sc.",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computer Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": ["German"],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": ["Summer", "Winter"],
+      "programUrl": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-m-sc",
+      "description": "The program qualifies you for a technically-oriented career in computer engineering, focused on the development of hardware and software systems, closely linked to the Faculty's research activities.",
+      "sourceUrl": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-engineering-m-sc",
+      "sourceQuote": "| Standard period of study  |  4 semesters   |  \n| Credit points  | 120  |  \n| Program start  |  Summer and winter semester   |  \n| Admission  |  Open admission   |  \n| Language of instruction  |  German   |",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "a minimum of 20 credit points in the fundamentals of mathematics and natural sciences, a minimum of 18 credit points in electrical engineering or media technology, a minimum of 18 credit points in computer science as well as 18 credit points in computer engineering or information technology.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "01.12.2025 until 28.02.2026",
+          "intake": "Summer semester 2026",
+          "sourceQuote": "Application for master’s programs with open admission: | 01.12.2025 until 28.02.2026",
+          "sourceUrl": "https://www.tu.berlin/en/studying/applying-and-enrolling/dates-deadlines"
+        },
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "01.06.2026 until 31.08.2026",
+          "intake": "Winter semester 2026/2027",
+          "sourceQuote": "Application for master’s programs with open admission: | 01.06.2026 until 31.08.2026",
+          "sourceUrl": "https://www.tu.berlin/en/studying/applying-and-enrolling/dates-deadlines"
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

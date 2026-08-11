@@ -1,0 +1,22 @@
+{
+  "id": "src-daad",
+  "name": "DAAD (German Academic Exchange Service)",
+  "type": "NATIONAL_EDUCATION_PORTAL",
+  "country": "DE",
+  "baseUrl": "https://www.daad.de",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "MANUAL",
+  "status": "PAUSED",
+  "seedUrls": [
+    "https://www.daad.de/en/studying-in-germany/universities/international-programmes/"
+  ],
+  "urlPatterns": {
+    "include": ["daad.de/en/"],
+    "exclude": ["/login"]
+  },
+  "maxDepth": 2,
+  "maxPages": 20,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "notes": "GO/NO-GO RESULT (2026-08-10): FAILED. Plain curl timed out during planning; a real headless-browser Crawl4AI attempt against both the listing page and the bare domain root (daad.de/) also timed out completely (45s, no response at all — Page.goto never reaches domcontentloaded). This is consistent with a network-level block from this environment rather than a JS bot-challenge (a challenge page would still return HTML quickly). Paused per the plan's documented fallback: Germany coverage continues via TU Berlin (src-tu-berlin). Retry later from a different network/IP before re-activating."
+}
