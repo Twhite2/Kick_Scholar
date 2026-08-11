@@ -9,7 +9,9 @@
     "lint": "eslint",
     "sources:sync": "tsx lib/sources/syncSourcesToDb.ts",
     "crawl": "tsx lib/crawler/runCrawlJob.ts",
-    "pipeline:load": "tsx lib/pipeline/loadExtractedToDb.ts"
+    "pipeline:load": "tsx lib/pipeline/loadExtractedToDb.ts",
+    "match:run": "tsx lib/matching/runMatchForStudent.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",
@@ -46,6 +48,7 @@
     "eslint-config-next": "16.3.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.12",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.10"
   }
 }

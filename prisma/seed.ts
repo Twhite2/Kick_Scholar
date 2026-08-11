@@ -248,7 +248,9 @@ async function main() {
         id: "req-tub-cs-gpa",
         programId: tubCompSci.id,
         requirementType: "MIN_GPA",
-        operator: "GTE",
+        // German grading is inverted (1.0 = best, 4.0 = pass), so "2.5 or
+        // better" means the applicant's grade must be <= 2.5, not >=.
+        operator: "LTE",
         value: "2.5",
         unit: "German scale (1.0 best – 4.0 pass)",
         description: "Bachelor's degree with a final grade of 2.5 or better on the German scale.",
