@@ -2,6 +2,7 @@ import "dotenv/config";
 import { PrismaClient } from "../generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { loadAllConfigs } from "./registry";
+import { isCliEntrypoint } from "../cliEntrypoint";
 import type { SourceConfig } from "./schema";
 
 /**
@@ -58,7 +59,7 @@ async function runAsCli() {
 
 // Only run as a script when invoked directly (`tsx lib/sources/syncSourcesToDb.ts`),
 // not when imported by other modules (e.g. the future admin "sync sources" action).
-if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
+if (isCliEntrypoint(import.meta.url)) {
   runAsCli().catch((err) => {
     console.error(err);
     process.exit(1);

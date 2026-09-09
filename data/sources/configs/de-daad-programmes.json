@@ -1,0 +1,29 @@
+{
+  "id": "src-daad-programmes",
+  "name": "DAAD International Programmes in Germany",
+  "type": "NATIONAL_EDUCATION_PORTAL",
+  "country": "DE",
+  "baseUrl": "https://www2.daad.de",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "MONTHLY",
+  "status": "ACTIVE",
+  "seedUrls": [
+    "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/"
+  ],
+  "sitemapUrls": ["https://www2.daad.de/sitemap.xml"],
+  "sitemapUrlPattern": "international-programmes/en/detail/\\d+",
+  "sitemapMaxUrls": 4000,
+  "urlPatternMode": "regex",
+  "urlPatterns": {
+    "include": ["^https://www2\\.daad\\.de/deutschland/studienangebote/"],
+    "exclude": ["/watchlist/", "\\.pdf$"]
+  },
+  "maxDepth": 0,
+  "maxPages": 4000,
+  "rateLimitMs": 2000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "detail": "Programme detail pages carry degree type, teaching language, programme duration, beginning/intake, application deadline, tuition fees and the host university name. The university name is the join key to the University table."
+  },
+  "notes": "Programme-level catalogue for Germany — 3,666 English detail pages enumerated from www2.daad.de/sitemap.xml (verified 2026-09-05; these are in <loc> directly, unlike the scholarship database whose English URLs live in hreflang alternates). This is the source that makes scholarship→programme linking meaningful: DAAD scholarships state applicability rules rather than naming institutions, so they need a real German programme catalogue to expand those rules against. Shares the DAAD sitemap and Crawl-delay: 2 with src-daad. Full crawl is ~2 hours at 2s/page."
+}

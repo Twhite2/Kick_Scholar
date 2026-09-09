@@ -1,0 +1,5762 @@
+[
+  {
+    "rorId": "05pb4em20",
+    "name": "Bonn-Cologne Graduate School of Physics and Astronomy",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05jghsy80",
+    "name": "Holbein-Gymnasium Augsburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "039a0eq51",
+    "name": "Ostkirchliches Institut Regensburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05k2sh226",
+    "name": "Bard College Berlin",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02hapf869",
+    "name": "Institute of Early Childhood Research",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04b98k103",
+    "name": "Döpfer Schulen Regensburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03zvpee43",
+    "name": "Hochschule für Gesundheitsorientierte Wissenschaften Rhein-Neckar",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00apjgf04",
+    "name": "Schiller International University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01btqj997",
+    "name": "Salomon Ludwig Steinheim-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "009dxjw45",
+    "name": "Faurecia (Germany)",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02nq6sy34",
+    "name": "Akademie für Gesundheitsberufe",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02652az59",
+    "name": "Control Union Academy",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05gxhfq53",
+    "name": "Hochschule der Polizei Rheinland Pfalz",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04tenkb98",
+    "name": "German Graduate School of Management and Law",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00nm1ws09",
+    "name": "Institut für Nachhaltiges Management",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04g99jx54",
+    "name": "University of Applied Sciences Stralsund",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04vjfp916",
+    "name": "Hochschule Magdeburg-Stendal",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "058ddgs73",
+    "name": "Center for Art and Media Karlsruhe",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q3196771,Q7075,Q27030941)"
+  },
+  {
+    "rorId": "05k2sh226",
+    "name": "Bard College Berlin",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01trbq046",
+    "name": "German Research School for Simulation Sciences",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "01crqqh49",
+    "name": "Parmenides Foundation",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q163740)"
+  },
+  {
+    "rorId": "042seb440",
+    "name": "Berufsförderungszentrum Essen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01trbq046",
+    "name": "German Research School for Simulation Sciences",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "01crqqh49",
+    "name": "Parmenides Foundation",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q163740)"
+  },
+  {
+    "rorId": "02dby2462",
+    "name": "Interdisziplinäres Zentrum für Nanostrukturierte Filme",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ft66751",
+    "name": "Stuttgart Center for Simulation Science",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "031x70h91",
+    "name": "Else Kröner Fresenius Center for Digital Health",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04zs4zc67",
+    "name": "Bayerisches Hochschulzentrum für Lateinamerika",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ys3xe45",
+    "name": "SRH University Campus Dresden",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "045f0ws19",
+    "name": "Universities of Giessen and Marburg Lung Center",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "0080y7t67",
+    "name": "Max Planck Institute for Political and Social Science",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q6019423)"
+  },
+  {
+    "rorId": "03waye253",
+    "name": "Hochschule Meißen (FH) und Fortbildungszentrum",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04qbqv677",
+    "name": "Filmuniversität Babelsberg KONRAD WOLF",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02bxzcy64",
+    "name": "Technische Hochschule Ingolstadt",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01ptm9403",
+    "name": "Palucca Hochschule für Tanz Dresden",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02xstm723",
+    "name": "HMU Health and Medical University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00k195394",
+    "name": "Institute of Epigenetics and Stem Cells",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05ekkb842",
+    "name": "Institute of Functional Epigenetics",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "011ka6a50",
+    "name": "Munich Center for Neurosciences – Brain and Mind",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02nfh7608",
+    "name": "Centre de Coopération Universitaire Franco-Bavarois",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01gq10q51",
+    "name": "Akademie für Technikfolgenabschätzung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "000jzpp78",
+    "name": "International University in Germany",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "022598c22",
+    "name": "University of Maryland University College Europe",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01tkb3y54",
+    "name": "GISMA Business School",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "025e8aw85",
+    "name": "Comenius-Institut",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q7075)"
+  },
+  {
+    "rorId": "02nfh7608",
+    "name": "Centre de Coopération Universitaire Franco-Bavarois",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01gq10q51",
+    "name": "Akademie für Technikfolgenabschätzung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "000jzpp78",
+    "name": "International University in Germany",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "022598c22",
+    "name": "University of Maryland University College Europe",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01tkb3y54",
+    "name": "GISMA Business School",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05jghsy80",
+    "name": "Holbein-Gymnasium Augsburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "039a0eq51",
+    "name": "Ostkirchliches Institut Regensburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05pb4em20",
+    "name": "Bonn-Cologne Graduate School of Physics and Astronomy",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "042seb440",
+    "name": "Berufsförderungszentrum Essen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02hapf869",
+    "name": "Institute of Early Childhood Research",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00apjgf04",
+    "name": "Schiller International University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01btqj997",
+    "name": "Salomon Ludwig Steinheim-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "009dxjw45",
+    "name": "Faurecia (Germany)",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02nq6sy34",
+    "name": "Akademie für Gesundheitsberufe",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02652az59",
+    "name": "Control Union Academy",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05gxhfq53",
+    "name": "Hochschule der Polizei Rheinland Pfalz",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04tenkb98",
+    "name": "German Graduate School of Management and Law",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00nm1ws09",
+    "name": "Institut für Nachhaltiges Management",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02qtztk24",
+    "name": "Abnoba (Germany)",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03crxcn36",
+    "name": "Albstadt-Sigmaringen University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "052gzq419",
+    "name": "Hochschule für Jüdische Studien",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "028j9tc52",
+    "name": "Niedersächsisches Institut für frühkindliche Bildung und Entwicklung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03ccc5z68",
+    "name": "Evangelische Hochschule Ludwigsburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "037tt6b65",
+    "name": "Cusanus Institut",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "02bjrmf75",
+    "name": "Deutsche Institut für angewandte Pflegeforschung e.V.",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00xnq7h44",
+    "name": "Hochschule für Künste im Sozialen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05f3gj938",
+    "name": "BTK University of Arts & Design",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03yxw1t21",
+    "name": "Academy of Fine Arts Nuremberg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00dnfj623",
+    "name": "Hanns Eisler College or Academy of Music",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01hkc4630",
+    "name": "University of Applied Sciences Erfurt",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01h7vw195",
+    "name": "German Police University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03vz3qc29",
+    "name": "Protestant University of Applied Sciences Rhineland-Westphalia-Lippe",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05b7xvc63",
+    "name": "Nuremberg University of Music",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "026kenw55",
+    "name": "SRH Hochschule für Gesundheit Gera",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "021f61w41",
+    "name": "Lübeck Academy of Music",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02832sw36",
+    "name": "Trossingen University of Music",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02d89at43",
+    "name": "University of Applied Labour Studies of the Federal Employment Agency",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "026c3xn33",
+    "name": "University of Applied Management Studies",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00vcnds94",
+    "name": "Philosophisch-Theologische Hochschule Benediktbeuern",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01ej3e061",
+    "name": "Philosophisch-Theologische Hochschule SVD St. Augustin",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02hdve317",
+    "name": "Academy of Fine Arts Karlsruhe",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "044rf5p19",
+    "name": "Academy of Fine Arts Munich",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03bthq143",
+    "name": "West Coast University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00zbhen47",
+    "name": "Kunsthochschule Berlin-Weißensee",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04z03cz64",
+    "name": "Hochschule der Bildenden Künste Saar",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02743t710",
+    "name": "Norddeutsche Hochschule für Rechtspflege",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02g11qe83",
+    "name": "Fachhochschule für Rechtspflege Nordrhein Westfalen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0572yc306",
+    "name": "SRH Hochschule für Wirtschaft und Medien Calw",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04tr4sk76",
+    "name": "Fachhochschule für Finanzen Nordrhein Westfalen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04j1sr579",
+    "name": "Hochschule für Gesundheit & Sport, Technik & Kunst",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01d4n6n22",
+    "name": "Hochschule für Kunsttherapie Nürtingen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02qbcmz19",
+    "name": "University of Applied Sciences for Public Administration and Management",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05d6z1532",
+    "name": "Hochschule für Finanzen Rheinland Pfalz",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02e5n0e79",
+    "name": "Akademie Mode & Design",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02a8wk986",
+    "name": "AKAD University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0167r2g29",
+    "name": "Merz Akademie",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0243j3z07",
+    "name": "Europäische Fernhochschule Hamburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04580fn28",
+    "name": "Hamburger Fern-Hochschule",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01eyhzm47",
+    "name": "Fachhochschule für Verwaltung des Saarlandes",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01qjbb734",
+    "name": "Saxon Police Force",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "015a98c38",
+    "name": "Accadis Hochschule Bad Homburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00vkbtf98",
+    "name": "Wilhelm Büchner Hochschule",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01gm0md04",
+    "name": "Provadis School of International Management and Technology",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04mvanw22",
+    "name": "University of Applied Police Sciences Saxony Anhalt",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "051rc7j94",
+    "name": "Diploma Hochschule",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "048gb8814",
+    "name": "Schwetzingen Technical Institute & Graduate Court Registrars' College",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01v0c1y10",
+    "name": "EBZ Business School",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00yvfbm89",
+    "name": "Fachhochschule der Diakonie",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04qfbfc73",
+    "name": "Berufskolleg Am Wasserturm",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0355d9b09",
+    "name": "Sprachen & Dolmetscher Institut München",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "02g2sh456",
+    "name": "University of Education Schwaebisch Gmuend",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03av75f26",
+    "name": "Max Planck Institute for Multidisciplinary Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04b98k103",
+    "name": "Döpfer Schulen Regensburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03zvpee43",
+    "name": "Hochschule für Gesundheitsorientierte Wissenschaften Rhein-Neckar",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02gf6fa33",
+    "name": "Research Institute for Music Theater Studies",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03gsqqb61",
+    "name": "Institut für Soziale Infrastruktur",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "025e8aw85",
+    "name": "Comenius-Institut",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q7075)"
+  },
+  {
+    "rorId": "04g99jx54",
+    "name": "University of Applied Sciences Stralsund",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0436y2h42",
+    "name": "Hermann Staudinger Gymnasium",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02nkxrq89",
+    "name": "Ruhr West University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01awf8081",
+    "name": "BilSE - Institut für Bildung und Forschung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "003cqeh33",
+    "name": "Institut Dr. Flad",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00f7ytv44",
+    "name": "Curculio Institute",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05eqhkk72",
+    "name": "German Adult Education Association",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q1156831)"
+  },
+  {
+    "rorId": "04d5zsn45",
+    "name": "Deutsch Amerikanisches Institut Saarland",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q113805953,Q163740)"
+  },
+  {
+    "rorId": "01b2gkw73",
+    "name": "Deutsche Angestellten-Akademie",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q4830453)"
+  },
+  {
+    "rorId": "044w5t390",
+    "name": "European Centre for Community Education",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "045ky2r08",
+    "name": "Erich-Brost-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0583z7951",
+    "name": "Eckert Schools International",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03a8y0358",
+    "name": "FIVE - Forschungs- und Innovationsverbund an der Evangelischen Hochschule Freiburg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "038ftp957",
+    "name": "German Foreign Trade and Transport Academy",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02ezvhm25",
+    "name": "Progenius",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "019vk5v89",
+    "name": "Hamburg Institute for Vocational Education and Training",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01m2aa958",
+    "name": "Hanse Institut Oldenburg Bildung und Gesundheit",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01kxwcg54",
+    "name": "Schweißtechnische Lehr- und Versuchsanstalt Nord",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00pg0dt16",
+    "name": "Hessische Lehrkräfteakademie",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03xkxsc82",
+    "name": "Institut für Berufs- und Sozialpädagogik",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03e5gcq07",
+    "name": "Institut für Ausbildung Jugendlicher",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ea83k06",
+    "name": "Institut für Kommunikation und Wirtschaftsbildung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00dg4wf63",
+    "name": "Institut zur Förderung von Bildung und Integration",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01n1byn02",
+    "name": "Institut der Feuerwehr Nordrhein-Westfalen",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q1667447)"
+  },
+  {
+    "rorId": "00sf4jq50",
+    "name": "Institut für Brand- und Katastrophenschutz Heyrothsberge",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q1667447)"
+  },
+  {
+    "rorId": "04fcjpg80",
+    "name": "Holzbau Deutschland-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01qve8440",
+    "name": "Institut für Berufliche Bildung",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q783794)"
+  },
+  {
+    "rorId": "04x6bfw13",
+    "name": "Gesellschaft für Pädagogik und Information",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00wg9tw09",
+    "name": "Institut für Textoptimierung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01c1pcz80",
+    "name": "Kleine Private Lehrinstitut Derksen",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q423208,Q1542966,Q163740)"
+  },
+  {
+    "rorId": "03dyvyv84",
+    "name": "Felsenweg-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0547r0f90",
+    "name": "Landesinstitut für Schule und Medien Berlin-Brandenburg",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "03qwtkn62",
+    "name": "Lebensmittelinstitut KIN",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03225mv93",
+    "name": "Museumspädagogische Zentrum",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q33506,Q2385804)"
+  },
+  {
+    "rorId": "00mczy147",
+    "name": "Medien Management Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "018fbs662",
+    "name": "Nestor Bildungsinstitut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01rxgdr42",
+    "name": "PECO-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "047d27s15",
+    "name": "Permakultur Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ptgb077",
+    "name": "Staatsinstitut für Schulqualität und Bildungsforschung",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "03jyr3j92",
+    "name": "Staatliche Lehr- und Versuchsanstalt für Gartenbau",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "054kgce12",
+    "name": "An-Institut für Transfer und Weiterbildung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02dm92c46",
+    "name": "Europa-Institut",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q178706,Q1378057,Q31855)"
+  },
+  {
+    "rorId": "01k8fm112",
+    "name": "Universität Bayern",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02dxkcn59",
+    "name": "Hochschuldidaktischen Zentrum Sachsen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05bv91d86",
+    "name": "Mannheim Centre for European Social Research",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229,Q31855)"
+  },
+  {
+    "rorId": "03rw8a492",
+    "name": "German University Association of Advanced Graduate Training",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01n1byn02",
+    "name": "Institut der Feuerwehr Nordrhein-Westfalen",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q1667447)"
+  },
+  {
+    "rorId": "00sf4jq50",
+    "name": "Institut für Brand- und Katastrophenschutz Heyrothsberge",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q1667447)"
+  },
+  {
+    "rorId": "04fcjpg80",
+    "name": "Holzbau Deutschland-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01qve8440",
+    "name": "Institut für Berufliche Bildung",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q783794)"
+  },
+  {
+    "rorId": "04x6bfw13",
+    "name": "Gesellschaft für Pädagogik und Information",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00wg9tw09",
+    "name": "Institut für Textoptimierung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01c1pcz80",
+    "name": "Kleine Private Lehrinstitut Derksen",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q423208,Q1542966,Q163740)"
+  },
+  {
+    "rorId": "03dyvyv84",
+    "name": "Felsenweg-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0547r0f90",
+    "name": "Landesinstitut für Schule und Medien Berlin-Brandenburg",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "03qwtkn62",
+    "name": "Lebensmittelinstitut KIN",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03225mv93",
+    "name": "Museumspädagogische Zentrum",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q33506,Q2385804)"
+  },
+  {
+    "rorId": "00mczy147",
+    "name": "Medien Management Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "018fbs662",
+    "name": "Nestor Bildungsinstitut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01rxgdr42",
+    "name": "PECO-Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "047d27s15",
+    "name": "Permakultur Institut",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ptgb077",
+    "name": "Staatsinstitut für Schulqualität und Bildungsforschung",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "03jyr3j92",
+    "name": "Staatliche Lehr- und Versuchsanstalt für Gartenbau",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "054kgce12",
+    "name": "An-Institut für Transfer und Weiterbildung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02dby2462",
+    "name": "Interdisziplinäres Zentrum für Nanostrukturierte Filme",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ft66751",
+    "name": "Stuttgart Center for Simulation Science",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01ge5zt06",
+    "name": "Eberswalde University for Sustainable Development",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04gg60e72",
+    "name": "Hochschule Aalen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "001rdde17",
+    "name": "Hamm-Lippstadt University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0044w3h23",
+    "name": "Heidelberg University of Education",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "031x70h91",
+    "name": "Else Kröner Fresenius Center for Digital Health",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04zs4zc67",
+    "name": "Bayerisches Hochschulzentrum für Lateinamerika",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05myv7q56",
+    "name": "Hochschule Geisenheim University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01syejz95",
+    "name": "Helmholtz Graduate School for Hadron and Ion Research",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05f23gs03",
+    "name": "Université franco-allemande",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02f04tm31",
+    "name": "Göttingen Campus Institut für Dynamic biologischer Netzwerke",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03kzgcv48",
+    "name": "Giessen School of Theology",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01a2z2x66",
+    "name": "Cologne Institute for Economic Research",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q155271,Q31855,Q163740)"
+  },
+  {
+    "rorId": "001yqrb02",
+    "name": "Hochschule Bremerhaven",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05dzdqr92",
+    "name": "Universitätsverlag Kiel",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q45400320,Q479716,Q2085381,Q1320047,Q334453)"
+  },
+  {
+    "rorId": "03d1zwe41",
+    "name": "Center for Behavioral Brain Sciences",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q2467461)"
+  },
+  {
+    "rorId": "044sxzm68",
+    "name": "Campus-Institut Data Science (CIDAS)",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "00zmw2160",
+    "name": "ICN Business School - Berlin",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05emy3e34",
+    "name": "Max Planck School of Photonics",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05874db82",
+    "name": "Excellence Cluster Universe",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "03eqwj662",
+    "name": "Leibniz University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02f04tm31",
+    "name": "Göttingen Campus Institut für Dynamic biologischer Netzwerke",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03kzgcv48",
+    "name": "Giessen School of Theology",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01a2z2x66",
+    "name": "Cologne Institute for Economic Research",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q155271,Q31855,Q163740)"
+  },
+  {
+    "rorId": "001yqrb02",
+    "name": "Hochschule Bremerhaven",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05xy1nn52",
+    "name": "Multiscale Bioimaging",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q48975698)"
+  },
+  {
+    "rorId": "02k4gk709",
+    "name": "Christiani",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "03fzkfr34",
+    "name": "Landesinstitut für Pädagogik und Medien",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q294163)"
+  },
+  {
+    "rorId": "038t2yw28",
+    "name": "Institute for Educational Quality Improvement",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q482329,Q163740)"
+  },
+  {
+    "rorId": "023392c84",
+    "name": "Musikwissenschaftliches Seminar Detmold/Paderborn",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "02zp2df93",
+    "name": "Institute of Empirical Health Economics",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05myv7q56",
+    "name": "Hochschule Geisenheim University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01syejz95",
+    "name": "Helmholtz Graduate School for Hadron and Ion Research",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04kt7rq05",
+    "name": "HMU Health and Medical University Erfurt",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05874db82",
+    "name": "Excellence Cluster Universe",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "03eqwj662",
+    "name": "Leibniz University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "000tpgs13",
+    "name": "Muthesius University of Fine Arts and Design",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00whjrr70",
+    "name": "Education and Training Service for Hamburg Businesses",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05t6wee76",
+    "name": "EU Business School, Munich",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01d8fne82",
+    "name": "Wirtschaftsakademie Schleswig-Holstein",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229,Q2385804)"
+  },
+  {
+    "rorId": "000tpgs13",
+    "name": "Muthesius University of Fine Arts and Design",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00whjrr70",
+    "name": "Education and Training Service for Hamburg Businesses",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05t6wee76",
+    "name": "EU Business School, Munich",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01d8fne82",
+    "name": "Wirtschaftsakademie Schleswig-Holstein",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229,Q2385804)"
+  },
+  {
+    "rorId": "03gc4br58",
+    "name": "Institut für Ethik, Geschichte und Theorie der Medizin",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02fa5cb34",
+    "name": "Institut für Schlaganfall- und Demenzforschung",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03dftj863",
+    "name": "Anatomische Anstalt",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04eb1yz45",
+    "name": "Institut für Medizinische Informationsverarbeitung, Biometrie und Epidemiologie",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "049ajfa91",
+    "name": "Institut und Poliklinik für Arbeits-, Sozial- und Umweltmedizin",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03tw5w184",
+    "name": "Institut für Kardiovaskuläre Physiologie und Pathophysiologie",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03gfgbw10",
+    "name": "Institut für Prophylaxe und Epidemiologie der Kreislaufkrankheiten",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02fhhwa39",
+    "name": "Institut für Notfallmedizin und Medizinmanagement",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05na4hm84",
+    "name": "Max-von-Pettenkofer-Institut für Hygiene und Medizinische Mikrobiologie",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "03ggzay52",
+    "name": "Neu-Ulm University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0060pja03",
+    "name": "Institute for Chemistry and Biology of the Marine Environment",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "042ahds41",
+    "name": "Forschungsinstitut Gesellschaftlicher Zusammenhalt",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "029e6qe04",
+    "name": "LMU Open Science Center",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "04jghfn91",
+    "name": "Berufsbildungswerk Leipzig für Hör- und Sprachgeschädigte gGmbH",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q828823,Q423208)"
+  },
+  {
+    "rorId": "027b9qx26",
+    "name": "Hochschule Niederrhein",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "024nr0776",
+    "name": "Catholic University of Applied Sciences of North Rhine – Westphalia",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03czk8k96",
+    "name": "Hochschule Macromedia",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04qj3gf68",
+    "name": "Brandenburg University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "003r76697",
+    "name": "Nordakademie",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "029e6qe04",
+    "name": "LMU Open Science Center",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "04jghfn91",
+    "name": "Berufsbildungswerk Leipzig für Hör- und Sprachgeschädigte gGmbH",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q828823,Q423208)"
+  },
+  {
+    "rorId": "04rnfrn04",
+    "name": "Center for Psychobiology and Behavioral Medicine",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04d8gk172",
+    "name": "Duale Hochschule Sachsen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01t4ttr56",
+    "name": "Center for Scalable Data Analytics and Artificial Intelligence",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00jp83f12",
+    "name": "Bochum University of Applied Sciences Health Campus",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00xdvw685",
+    "name": "Hochschule 21",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03ggzay52",
+    "name": "Neu-Ulm University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01ge5zt06",
+    "name": "Eberswalde University for Sustainable Development",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04gg60e72",
+    "name": "Hochschule Aalen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "001rdde17",
+    "name": "Hamm-Lippstadt University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0044w3h23",
+    "name": "Heidelberg University of Education",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "027b9qx26",
+    "name": "Hochschule Niederrhein",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "024nr0776",
+    "name": "Catholic University of Applied Sciences of North Rhine – Westphalia",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03czk8k96",
+    "name": "Hochschule Macromedia",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04qj3gf68",
+    "name": "Brandenburg University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "003r76697",
+    "name": "Nordakademie",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "031eq5e98",
+    "name": "University of Education Weingarten",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02ge27m07",
+    "name": "Hochschule für Technik und Wirtschaft des Saarlandes",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "056tzgr32",
+    "name": "Zittau/Görlitz University of Applied Sciences",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03w8kgm26",
+    "name": "SB Science Management",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00zk46w34",
+    "name": "Hochschule Fresenius Heidelberg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03b7zcy46",
+    "name": "FiGD Akademie GmbH",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "01femje42",
+    "name": "Universitätsverlag Potsdam",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q1320047,Q479716)"
+  },
+  {
+    "rorId": "02dsdsv34",
+    "name": "Hochschule für Polizei und Öffentliche Verwaltung Nordrhein-Westfalen",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02r724415",
+    "name": "Evangelische Hochschule Dresden",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00g07sz63",
+    "name": "SRH Hochschule Heidelberg",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05e5kd476",
+    "name": "Technische Hochschule Ulm",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03xp99m49",
+    "name": "Institute for Integrated Management of Material Fluxes and of Resources",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "04e209f39",
+    "name": "Loewe Center for Synthetic Microbiology",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "02ezyhx94",
+    "name": "International Max Planck Research School on Earth System Modelling",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00kg2yq63",
+    "name": "Institute of Computational Biology",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "044fhy270",
+    "name": "Medizinische Universität Lausitz - Carl Thiem",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "044fhy270",
+    "name": "Medizinische Universität Lausitz - Carl Thiem",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03pqf0084",
+    "name": "International University Institute (IHI) Zittau",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277,Q2385804)"
+  },
+  {
+    "rorId": "03xp99m49",
+    "name": "Institute for Integrated Management of Material Fluxes and of Resources",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "04e209f39",
+    "name": "Loewe Center for Synthetic Microbiology",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "02ezyhx94",
+    "name": "International Max Planck Research School on Earth System Modelling",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ys3xe45",
+    "name": "SRH University Campus Dresden",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "045f0ws19",
+    "name": "Universities of Giessen and Marburg Lung Center",
+    "country": "DE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "02xstm723",
+    "name": "HMU Health and Medical University",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00k195394",
+    "name": "Institute of Epigenetics and Stem Cells",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05ekkb842",
+    "name": "Institute of Functional Epigenetics",
+    "country": "DE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02d8tke50",
+    "name": "Emergency Services College",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "012s3vx96",
+    "name": "Sámi Education Institute",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01fvgpx90",
+    "name": "Institut Français de Finlande",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04vpw9274",
+    "name": "University Consortium of Pori",
+    "country": "FI",
+    "reason": "wikidata P31 has no higher-ed class (Q11902868)"
+  },
+  {
+    "rorId": "04zy9j617",
+    "name": "University of the Arctic",
+    "country": "FI",
+    "reason": "wikidata P31 has no higher-ed class (Q15911314,Q131421938)"
+  },
+  {
+    "rorId": "017zq4f19",
+    "name": "Espoo Music Institute",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0033qx680",
+    "name": "Vamia",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "004skt070",
+    "name": "TTS Työtehoseura",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02fv47851",
+    "name": "Salpaus Further Education",
+    "country": "FI",
+    "reason": "wikidata P31 has no higher-ed class (Q322563)"
+  },
+  {
+    "rorId": "051v6v138",
+    "name": "South Eastern Finland University of Applied Sciences",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04j3r8z61",
+    "name": "Bank of Finland",
+    "country": "FI",
+    "reason": "wikidata P31 has no higher-ed class (Q66344)"
+  },
+  {
+    "rorId": "04y6ym692",
+    "name": "Kuvataideakatemia",
+    "country": "FI",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02xng2h21",
+    "name": "Teatterikorkeakoulu",
+    "country": "FI",
+    "reason": "wikidata P31 has no higher-ed class (Q2143781)"
+  },
+  {
+    "rorId": "00vyw7j44",
+    "name": "Swedish Institute for Studies in Education and Research",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0519hrc61",
+    "name": "Tekniska Högskolans Studentkår",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01jq9hd27",
+    "name": "Specialpedagogiska Skolmyndigheten",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0490cs563",
+    "name": "Samernas Utbildningscentrum",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05rnj0j91",
+    "name": "Royal Physiographic Society of Lund",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "023j1w312",
+    "name": "Skandinaviska Kiropraktorhögskolan",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05s9h0j72",
+    "name": "Royal Gustavus Adolphus Academy",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03z2ts232",
+    "name": "Swedish Film Institute",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "046p5eg67",
+    "name": "Futurum - Akademin för Hälsa och Vård",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "05fsww483",
+    "name": "Sunderby Folkhögskola",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03ezj6665",
+    "name": "NyföretagarCentrum",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04dxwt824",
+    "name": "Studieförbundet Näringsliv och Samhälle",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "043kppn11",
+    "name": "Swedish Institute of Space Physics",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q68295960)"
+  },
+  {
+    "rorId": "043kppn11",
+    "name": "Swedish Institute of Space Physics",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q68295960)"
+  },
+  {
+    "rorId": "01kdbb633",
+    "name": "University College Stockholm",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q233324)"
+  },
+  {
+    "rorId": "0145rpw38",
+    "name": "Stockholm Resilience Centre",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "05rnj0j91",
+    "name": "Royal Physiographic Society of Lund",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0490cs563",
+    "name": "Samernas Utbildningscentrum",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "046p5eg67",
+    "name": "Futurum - Akademin för Hälsa och Vård",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "04dxwt824",
+    "name": "Studieförbundet Näringsliv och Samhälle",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02haktn42",
+    "name": "Swedish University of Agricultural Sciences, Alnarp",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03gc71b86",
+    "name": "Swedish Collegium for Advanced Study",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "00sarvh59",
+    "name": "ALT School of Theology",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "028hcgr48",
+    "name": "Raoul Wallenberg Institute of Human Rights and Humanitarian Law",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00rky3x16",
+    "name": "ArchLab",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05fsww483",
+    "name": "Sunderby Folkhögskola",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03ezj6665",
+    "name": "NyföretagarCentrum",
+    "country": "SE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03vyspr60",
+    "name": "Johannelund School of Theology",
+    "country": "SE",
+    "reason": "wikidata P31 has no higher-ed class (Q233324)"
+  },
+  {
+    "rorId": "04wk3wd50",
+    "name": "Académie de Nancy-Metz",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05d34d003",
+    "name": "Institut Supérieur de Plasturgie d'Alençon",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01bb5z206",
+    "name": "Technologie Médicale (France)",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01909jb21",
+    "name": "Lycée Pierre-de-Fermat",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0453rk787",
+    "name": "Laboratoire de Sciences de la Terre",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01hpbbx98",
+    "name": "Académie de Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00gdq8383",
+    "name": "Alliance Université-Entreprise de Grenoble",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03hgh1k95",
+    "name": "Collège de Physique et de Philosophie",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00w56r274",
+    "name": "IPAG Business School",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04gwzr713",
+    "name": "Ingésup",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02je6ph26",
+    "name": "Institut Paul Bocuse",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ykfqt39",
+    "name": "European Nuclear Safety Training & Tutoring Institute",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01xw83c56",
+    "name": "Registre général des cancers de Lille et de sa région",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05bdngh08",
+    "name": "ECAM-EPMI",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q163740)"
+  },
+  {
+    "rorId": "05xamdp54",
+    "name": "Le Fresnoy - Studio National des Arts Contemporains",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "055khg266",
+    "name": "Institut Universitaire de France",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720)"
+  },
+  {
+    "rorId": "03f099r71",
+    "name": "Instituts Universitaires de Technologie",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q20857129)"
+  },
+  {
+    "rorId": "05eyymj94",
+    "name": "École Supérieure de Biotechnologie de Strasbourg",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q43229)"
+  },
+  {
+    "rorId": "03ag8py18",
+    "name": "Académie de Montpellier",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "024t72v35",
+    "name": "Terre des Sciences",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01qv87150",
+    "name": "European School of Haematology",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "04ss55z27",
+    "name": "Observatoire des énergies renouvelables",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02e10zk80",
+    "name": "ORT France",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03xabhe73",
+    "name": "Communauté d'universités et établissements de Toulouse",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "05wfw4946",
+    "name": "École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01180st77",
+    "name": "ENCPB - Lycée Pierre-Gilles-de-Gennes",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2511322)"
+  },
+  {
+    "rorId": "055q9jt53",
+    "name": "Laboratoire Arts et pratiques du texte, de l’image, de l’écran et de la scène",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "05pwkex33",
+    "name": "Observatoire des Sciences de l'Environnement de Rennes",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242,Q109623111)"
+  },
+  {
+    "rorId": "01bch8q67",
+    "name": "Observatoire de Physique du Globe de Clermont-Ferrand",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05v33q311",
+    "name": "Unité Propre de Recherche et d’Innovation",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03rndwg50",
+    "name": "Laboratoire de Physiologie Expérimentale Cardiovasculaire",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01wrrzv62",
+    "name": "Laboratoire Identité Culturelle, Textes et Théâtralité",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05q7mnw87",
+    "name": "Le Laboratoire des sciences Juridiques, Politique, Économiques et de Gestion",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01c7wz417",
+    "name": "VetAgro Sup",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030bahv93",
+    "name": "Université Jean Monnet",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "025nwkd90",
+    "name": "Bibliothèque nationale et universitaire de Strasbourg",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q22806,Q856234,Q43229)"
+  },
+  {
+    "rorId": "000d7xf38",
+    "name": "Laboratoire de Mathématiques d'Avignon",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05xamdp54",
+    "name": "Le Fresnoy - Studio National des Arts Contemporains",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "012x47023",
+    "name": "Centre de Génie Industriel",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "03tasdg80",
+    "name": "Istec Business School Paris",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "01x1mwt32",
+    "name": "Centre de recherche interdisciplinaire sur les modèles esthétiques et littéraires",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q15343039)"
+  },
+  {
+    "rorId": "03jms8710",
+    "name": "Centre Gabriel Naudé",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "02rvv6x76",
+    "name": "Institut d'Etudes Avancées Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03xsqa235",
+    "name": "Institut Supérieur d'Agriculture Rhône-Alpes",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01dn7gg32",
+    "name": "École Européenne Supérieure de l'Image",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030txnd05",
+    "name": "École Navale",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q12622609,Q1935049)"
+  },
+  {
+    "rorId": "00y523k32",
+    "name": "Laboratoire Universitaire Histoire Cultures Italie Europe",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "043qd1272",
+    "name": "École Nationale Supérieure Maritime",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01pczmy17",
+    "name": "ISblue",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "045s62606",
+    "name": "GIP CEI",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04n4xt623",
+    "name": "École nationale supérieure de la photographie",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "05rf37997",
+    "name": "IPC – Facultés Libres de Philosophie et de Psychologie",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q423208,Q1138671)"
+  },
+  {
+    "rorId": "044eye907",
+    "name": "École nationale supérieure d'arts de Paris-Cergy",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "00afqrg82",
+    "name": "ISART Digital",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q423208)"
+  },
+  {
+    "rorId": "05yp7vw70",
+    "name": "Académie de Grenoble",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04nx9ps90",
+    "name": "École Supérieure d'Électronique de l'Ouest",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "020120f86",
+    "name": "Institut supérieur de l'automobile et des transports",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "0458ana96",
+    "name": "Institut Français de la Brasserie et de la Malterie",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03azwf096",
+    "name": "École d'Enseignement Supérieur d'Art de Bordeaux",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "04eghjs57",
+    "name": "École Nationale Supérieure d'Architecture de Bretagne",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04rw0w260",
+    "name": "École Européenne Supérieure d'Art de Bretagne",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00bpw1b12",
+    "name": "École des Avocats Nord-Ouest",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0167nty12",
+    "name": "École des Avocats du Grand Ouest",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01fss9e11",
+    "name": "École Supérieure d'Art et Design de Saint-Étienne",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01crz4r71",
+    "name": "École Supérieure d'Art des Pyrénées",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "031ve8169",
+    "name": "École de Formation Professionnelle des Barreaux de la Cour d'Appel de Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00drbxw02",
+    "name": "Pôle Supérieur d'Enseignement Artistique of Paris Boulogne-Billancourt",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03x8h1v05",
+    "name": "École Supérieure du Bois",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02kbwgp44",
+    "name": "École Supérieure d'Art et de Design d'Orléans",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "047e48t34",
+    "name": "École Nationale d'Administration Pénitentiaire",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05x346678",
+    "name": "École Supérieure d'Art et de Design Tours-Angers-Le Mans",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00c62es15",
+    "name": "École Supérieure d'Arts & Médias de Caen/Cherbourg",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "054qp2w77",
+    "name": "Institut des Hautes Études du Ministère de l'Intérieur",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "01swx2932",
+    "name": "Institut Catholique d'Arts et Métiers",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01dbwa206",
+    "name": "ENOES",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00gdq8383",
+    "name": "Alliance Université-Entreprise de Grenoble",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02je6ph26",
+    "name": "Institut Paul Bocuse",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ykfqt39",
+    "name": "European Nuclear Safety Training & Tutoring Institute",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01xw83c56",
+    "name": "Registre général des cancers de Lille et de sa région",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04gwzr713",
+    "name": "Ingésup",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05jgrm680",
+    "name": "Observatoire des sciences de l'Univers en région Centre Val de Loire",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q1254933,Q31855)"
+  },
+  {
+    "rorId": "03fg2km54",
+    "name": "Institute for Advanced Study in Toulouse",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "021wgs783",
+    "name": "Nutrition Metabolism Aquaculture",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "04ch3k260",
+    "name": "École Supérieure d'Art et de Design de Reims",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01r0cs760",
+    "name": "Laboratoire Mathématiques, Image et Applications",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01x1mwt32",
+    "name": "Centre de recherche interdisciplinaire sur les modèles esthétiques et littéraires",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q15343039)"
+  },
+  {
+    "rorId": "03jms8710",
+    "name": "Centre Gabriel Naudé",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "02rvv6x76",
+    "name": "Institut d'Etudes Avancées Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03xsqa235",
+    "name": "Institut Supérieur d'Agriculture Rhône-Alpes",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01dn7gg32",
+    "name": "École Européenne Supérieure de l'Image",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030txnd05",
+    "name": "École Navale",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q12622609,Q1935049)"
+  },
+  {
+    "rorId": "00y523k32",
+    "name": "Laboratoire Universitaire Histoire Cultures Italie Europe",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "043qd1272",
+    "name": "École Nationale Supérieure Maritime",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03affdz79",
+    "name": "École Nationale de la Magistrature",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "00genbz89",
+    "name": "Méthodes et Histoire de l'architecture",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "02wrd4e19",
+    "name": "Architecture, Environnement & Cultures Constructives",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "008kvxw43",
+    "name": "École Supérieure des Technologies Industrielles Avancées",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05q7mnw87",
+    "name": "Le Laboratoire des sciences Juridiques, Politique, Économiques et de Gestion",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01c7wz417",
+    "name": "VetAgro Sup",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030bahv93",
+    "name": "Université Jean Monnet",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05wfw4946",
+    "name": "École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01180st77",
+    "name": "ENCPB - Lycée Pierre-Gilles-de-Gennes",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2511322)"
+  },
+  {
+    "rorId": "055q9jt53",
+    "name": "Laboratoire Arts et pratiques du texte, de l’image, de l’écran et de la scène",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "03sjcn752",
+    "name": "Conservatoire national supérieur de musique et de danse de Lyon",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04e71td73",
+    "name": "École Supérieure des Géomètres et Topographes",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "03kfkzp90",
+    "name": "Institut Universitaire de Recherche Clinique",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00a5dxw64",
+    "name": "École Nationale Supérieure d'Architecture de Normandie",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "013r8c450",
+    "name": "Centre du Droit de l'Entreprise",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "039j4x695",
+    "name": "Laboratoire Biosciences et bioingénierie pour la Santé",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "0557vhy43",
+    "name": "Laboratoire Biologie et Biotechnologie pour la Santé",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ggqtz82",
+    "name": "Institut Français de la Mer",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0180r7w69",
+    "name": "Centre de Robotique",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03y0qc033",
+    "name": "Institut National des Sciences Appliquées Centre Val de Loire",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0372th171",
+    "name": "Université de Bretagne Occidentale",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05tegpz81",
+    "name": "ISTOM - École supérieure d'agro-développement international",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q163740)"
+  },
+  {
+    "rorId": "05pbb8783",
+    "name": "Université de Montpellier Paul-Valéry",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0486rp510",
+    "name": "Centre de ressources, d'expertise et de performance sportive de Toulouse",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2945474)"
+  },
+  {
+    "rorId": "03zmd3y94",
+    "name": "ESPI Marseille",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00cd48p72",
+    "name": "Établissement public Campus Condorcet",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q209465)"
+  },
+  {
+    "rorId": "021kdsb71",
+    "name": "École Nationale Supérieure d'Architecture de Saint-Étienne",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q294163)"
+  },
+  {
+    "rorId": "02b20wd09",
+    "name": "Pratiques et ressources de l’information et des médiations",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03vaaek59",
+    "name": "ESPI Nantes",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05y4mmt95",
+    "name": "ESPI Montpellier",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "008cerz11",
+    "name": "ESPI Bordeaux",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02qds7b08",
+    "name": "ESPI Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "021r2cx19",
+    "name": "École Supérieure des Professions Immobilières",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03kpnfe55",
+    "name": "ESPI Lyon",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01tkg4p45",
+    "name": "ESPI Lille",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0106ccb15",
+    "name": "École Nationale Supérieure de Techniques Avancées Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02yv0b554",
+    "name": "Centre d’Economie Industrielle - CERNA",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04yy24g58",
+    "name": "EPLEFPA Le Valentin – Valence",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02k6n4s14",
+    "name": "École Centrale d'Électronique",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05jn03e26",
+    "name": "Les arts décoratifs",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3152824)"
+  },
+  {
+    "rorId": "04gvzsd39",
+    "name": "ISEG",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03h00nx35",
+    "name": "École supérieure de commerce international",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0248pfh71",
+    "name": "Institut de management et de communication interculturels",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q163740)"
+  },
+  {
+    "rorId": "01r5wky88",
+    "name": "Pharmacologie et Pathologies Fragilisantes",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01ag91m47",
+    "name": "Centre de recherche droit Dauphine",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "0535cbn94",
+    "name": "Systèmes Moléculaires et nanoMatériaux pour l'Énergie et la Santé",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3550864)"
+  },
+  {
+    "rorId": "01027m165",
+    "name": "Brain Tech Laboratory",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03rs37749",
+    "name": "Métis-Lab",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03sjcn752",
+    "name": "Conservatoire national supérieur de musique et de danse de Lyon",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ef94584",
+    "name": "Institut Libre d'Education Physique Supérieur",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00bq8vv83",
+    "name": "IMT Mines Albi",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "022zdgq74",
+    "name": "École Nationale de l’Aviation Civile",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3577883)"
+  },
+  {
+    "rorId": "01aexyw02",
+    "name": "Droit & sociétés religieuses",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "00b0abc98",
+    "name": "Sigmund Freud Privatuniversität - Standort Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03zav0w05",
+    "name": "Institut Universitaire de Technologie de Dijon/Auxerre",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05jn03e26",
+    "name": "Les arts décoratifs",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3152824)"
+  },
+  {
+    "rorId": "04gvzsd39",
+    "name": "ISEG",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03h00nx35",
+    "name": "École supérieure de commerce international",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0248pfh71",
+    "name": "Institut de management et de communication interculturels",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q163740)"
+  },
+  {
+    "rorId": "01em43w09",
+    "name": "École Nationale Supérieure d'Ingénieurs du Mans",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "04py2s465",
+    "name": "ESIEE-IT",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0207fe012",
+    "name": "ESC Dijon Bourgogne, École supérieure de commerce de Dijon-Bourgogne",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "007wbr017",
+    "name": "École supérieure de journalisme de Lille",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q352102)"
+  },
+  {
+    "rorId": "05jhv1f87",
+    "name": "Nîmes Université",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00a89ga42",
+    "name": "IDRAC Business School",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "01aexyw02",
+    "name": "Droit & sociétés religieuses",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242)"
+  },
+  {
+    "rorId": "00b0abc98",
+    "name": "Sigmund Freud Privatuniversität - Standort Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03zav0w05",
+    "name": "Institut Universitaire de Technologie de Dijon/Auxerre",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0005r2j17",
+    "name": "Institut Agronomique Méditerranéen de Montpellier",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04e71td73",
+    "name": "École Supérieure des Géomètres et Topographes",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "03kfkzp90",
+    "name": "Institut Universitaire de Recherche Clinique",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00a5dxw64",
+    "name": "École Nationale Supérieure d'Architecture de Normandie",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "013r8c450",
+    "name": "Centre du Droit de l'Entreprise",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "039j4x695",
+    "name": "Laboratoire Biosciences et bioingénierie pour la Santé",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "0557vhy43",
+    "name": "Laboratoire Biologie et Biotechnologie pour la Santé",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ggqtz82",
+    "name": "Institut Français de la Mer",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0180r7w69",
+    "name": "Centre de Robotique",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ef94584",
+    "name": "Institut Libre d'Education Physique Supérieur",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00bq8vv83",
+    "name": "IMT Mines Albi",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "022zdgq74",
+    "name": "École Nationale de l’Aviation Civile",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3577883)"
+  },
+  {
+    "rorId": "008kvxw43",
+    "name": "École Supérieure des Technologies Industrielles Avancées",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04m6skt51",
+    "name": "École Supérieure des Metiers Artistiques",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914)"
+  },
+  {
+    "rorId": "05339ng12",
+    "name": "Polytech Lille",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03cw6ep97",
+    "name": "Fédération Régionale des Acteurs en Promotion de la Santé",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02efpnz39",
+    "name": "Académie de Versailles",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2822246)"
+  },
+  {
+    "rorId": "03scfd225",
+    "name": "Arab Center for International Humanitarian Law and Human Rights Education",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00j7d4t09",
+    "name": "Institut Européen De La Qualité Totale",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01nnh1n81",
+    "name": "CIEP",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q28599747,Q43229)"
+  },
+  {
+    "rorId": "054qp2w77",
+    "name": "Institut des Hautes Études du Ministère de l'Intérieur",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "05nddf786",
+    "name": "Institut national des sciences et techniques nucléaires",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "01bv2n867",
+    "name": "Institut Supérieur d’Informatique, de Modélisation et de leurs Applications",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "021kdsb71",
+    "name": "École Nationale Supérieure d'Architecture de Saint-Étienne",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q294163)"
+  },
+  {
+    "rorId": "02b20wd09",
+    "name": "Pratiques et ressources de l’information et des médiations",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03vaaek59",
+    "name": "ESPI Nantes",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05y4mmt95",
+    "name": "ESPI Montpellier",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "008cerz11",
+    "name": "ESPI Bordeaux",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02qds7b08",
+    "name": "ESPI Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "021r2cx19",
+    "name": "École Supérieure des Professions Immobilières",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03kpnfe55",
+    "name": "ESPI Lyon",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01tkg4p45",
+    "name": "ESPI Lille",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00har9915",
+    "name": "École Nationale Supérieure des Sciences Agronomiques de Bordeaux-Aquitaine",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "04xsj2p07",
+    "name": "Observatoire astronomique de Strasbourg",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q33506,Q3550864,Q1254933)"
+  },
+  {
+    "rorId": "02vb4k656",
+    "name": "École supérieure des agricultures",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0530qwm02",
+    "name": "Institut Terre & Environnement de Strasbourg",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "04ch3k260",
+    "name": "École Supérieure d'Art et de Design de Reims",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02w0vb190",
+    "name": "Observatoire des Sciences de l'Univers Nantes Atlantique",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q483242,Q109623111)"
+  },
+  {
+    "rorId": "008h1f725",
+    "name": "Interfaces, Confinement, Matériaux et Nanostructures",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030qxve40",
+    "name": "École & Observatoire des Sciences de la Terre",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q483242)"
+  },
+  {
+    "rorId": "01x50wq05",
+    "name": "ISEN Ouest",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00gnrwz95",
+    "name": "Centre Informatique National de l'Enseignement Supérieur",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "035hv2v80",
+    "name": "Observatoire des sciences de l'univers de l'Université Versailles Saint-Quentin",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q1254933,Q109623111,Q3550863)"
+  },
+  {
+    "rorId": "03vyv3y87",
+    "name": "Haute Technologie Animale Grenobloise",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03j307b25",
+    "name": "Observatoire de Lyon",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q1254933)"
+  },
+  {
+    "rorId": "01yxtfe92",
+    "name": "École Nationale Supérieure d'Architecture de Grenoble",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "054qv7y42",
+    "name": "Institut Polytechnique de Bordeaux",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030h5jp79",
+    "name": "Conservatoire national supérieur de musique et de danse de Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "022bnxw24",
+    "name": "Institut d'Astrophysique de Paris",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q3550864)"
+  },
+  {
+    "rorId": "054qv7y42",
+    "name": "Institut Polytechnique de Bordeaux",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030h5jp79",
+    "name": "Conservatoire national supérieur de musique et de danse de Paris",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "022bnxw24",
+    "name": "Institut d'Astrophysique de Paris",
+    "country": "FR",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q3550864)"
+  },
+  {
+    "rorId": "003tmp461",
+    "name": "Schiller International University",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02btqjz37",
+    "name": "École Nationale Supérieure d'Architecture de Strasbourg",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04f87d812",
+    "name": "Centre d'Etudes Superieures Industrielles",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02ptn8z56",
+    "name": "École Nationale Supérieure d'Architecture de Versailles",
+    "country": "FR",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0449h4696",
+    "name": "Graduate School Neurosciences Amsterdam Rotterdam",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0175ya539",
+    "name": "Royal Dutch Kentalis",
+    "country": "NL",
+    "reason": "wikidata P31 has no higher-ed class (Q4287745,Q2385804)"
+  },
+  {
+    "rorId": "0183vre95",
+    "name": "TiFN",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01p232496",
+    "name": "Fons Vitae Lyceum",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05dbptw67",
+    "name": "Netherlands Graduate School of Linguistics",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02gd5t807",
+    "name": "Christelijk Gymnasium Utrecht",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02rdwwh89",
+    "name": "Christelijke Scholengemeenschap Walcheren",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03pdfag88",
+    "name": "Marecollege",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03wyamy27",
+    "name": "Huizinga Instituut",
+    "country": "NL",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "039ryse59",
+    "name": "Ichthus College",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "008za0b72",
+    "name": "Openbare Scholengemeenschap De Hogeberg",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030ms0k96",
+    "name": "Alfa College",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04jrdcy74",
+    "name": "Dutch Network of Systems and Control",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0567f1w19",
+    "name": "Netherlands Institute for Catalysis Research",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05rxmpb48",
+    "name": "BC Broekhin Roermond",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "002g6sj22",
+    "name": "Bertrand Russell College",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "027hreq63",
+    "name": "Koninklijke Scholengemeenschap",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02z0ywx65",
+    "name": "Regionale scholengemeenschap Goeree-Overflakkee",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03nk3sc73",
+    "name": "Bonaventuracollege",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ryr8437",
+    "name": "Udens College",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "002fzqp75",
+    "name": "University for Peace",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "020dp5a36",
+    "name": "C.T. de Wit Graduate School for Production Ecology and Resource Conservation",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "033958n71",
+    "name": "Netherlands School of Public Administration",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "053qcv951",
+    "name": "European Association of Distance Teaching Universities",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00bscyw28",
+    "name": "International Bureau of Fiscal Documentation",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "023p2b446",
+    "name": "Dutch Art Institute",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "005rems48",
+    "name": "Interuniversity Center for Social Science Theory and Methodology",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "041deym60",
+    "name": "Center for Technology & Innovation Management",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03xws5b35",
+    "name": "Marnix Academie",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05nrjb178",
+    "name": "Katholieke Pabo Zwolle",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03skjap48",
+    "name": "Hague Academy of International Law",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "025gshh98",
+    "name": "NTI University",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02552gk22",
+    "name": "Islamic University of Rotterdam",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "014dvgf17",
+    "name": "BASilar artery International Cooperation Study",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03bkq6a07",
+    "name": "Dutch Research School for Medieval Studies",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01k5b0b60",
+    "name": "De Berekuyl Academy",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "003meye08",
+    "name": "Habeo+",
+    "country": "NL",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "00e39jm60",
+    "name": "Curio",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "039vq9023",
+    "name": "Design Academy Eindhoven",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01dcz6f16",
+    "name": "Scalda",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01dn09e98",
+    "name": "Terra",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "053jpjd80",
+    "name": "Gerrit Rietveld Academy",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04mx1wt49",
+    "name": "Netherlands Research School for Literary Studies",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0265xav62",
+    "name": "Dutch postgraduate School for Art History",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "059fp9t53",
+    "name": "International Institute of Social Studies",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "056k6yz11",
+    "name": "Hogeschool de Kempel",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00e39jm60",
+    "name": "Curio",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "039vq9023",
+    "name": "Design Academy Eindhoven",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05nrjb178",
+    "name": "Katholieke Pabo Zwolle",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03skjap48",
+    "name": "Hague Academy of International Law",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02dnd4c36",
+    "name": "Van Lodenstein College",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03y974j42",
+    "name": "Nefrovisie",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02fq0hm69",
+    "name": "Friesland College",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03tqe0950",
+    "name": "Expertisecentrum Nederlands",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "025fr4535",
+    "name": "Netherlands Graduate Research School of Science, Technology and Modern Culture",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ftg6h50",
+    "name": "European Graduate School of Neuroscience",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01rps2j56",
+    "name": "Koning Willem I College",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04mx1wt49",
+    "name": "Netherlands Research School for Literary Studies",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030deh410",
+    "name": "IHE Delft Institute for Water Education",
+    "country": "NL",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277,Q31855)"
+  },
+  {
+    "rorId": "05jext738",
+    "name": "Driestar Christian University",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "017xhef20",
+    "name": "Institute for Social Sciences and Humanities - ISSH (Iran Academia)",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00gxyk415",
+    "name": "Center for Language Studies",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0230zs006",
+    "name": "Hogeschool iPabo",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04x5wnb75",
+    "name": "Academic Center for Dentistry Amsterdam",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "030deh410",
+    "name": "IHE Delft Institute for Water Education",
+    "country": "NL",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277,Q31855)"
+  },
+  {
+    "rorId": "003meye08",
+    "name": "Habeo+",
+    "country": "NL",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "01g0n8690",
+    "name": "Amsterdam Institute for Advanced Metropolitan Solutions",
+    "country": "NL",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q43229)"
+  },
+  {
+    "rorId": "01n92vv28",
+    "name": "Oncode Institute",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "026e19k63",
+    "name": "Stichting Aeres Groep",
+    "country": "NL",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04zbzhb67",
+    "name": "Danish National Academy of Music",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04n0kdq05",
+    "name": "Samsø Energy Academy",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03twmm656",
+    "name": "Syddansk Erhvervsskole",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03xj8qc33",
+    "name": "Dania Academy of Higher Education",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "055dvgm08",
+    "name": "Business Academy Aarhus",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04gd58c86",
+    "name": "International Business Academy",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01rhp6n73",
+    "name": "Zealand Institute of Business and Technology",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00h2bx184",
+    "name": "Royal Danish Defence College",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05f5sjj19",
+    "name": "Nordic Institute of Asian Studies",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "01pqwyc94",
+    "name": "Danish Film Institute",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05165er51",
+    "name": "Danish College of General Practitioners",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "012pts076",
+    "name": "Danish Institute for Quality and Accreditation in Healthcare",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02j0qcn83",
+    "name": "Institute for the Blind and Partially Sighted",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720)"
+  },
+  {
+    "rorId": "012rrxx37",
+    "name": "Copenhagen Academy for Medical Education and Simulation",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05jjqbw81",
+    "name": "Lillebaelt Academy University of Applied Sciences",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02rf6w514",
+    "name": "Hou Maritime Idrætsefterskole",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03kw9kr66",
+    "name": "Mercantec",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02rtcze97",
+    "name": "The Danish Town Planning Institute",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "05pvcyy59",
+    "name": "Aarhus Business College",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q322563)"
+  },
+  {
+    "rorId": "017vsz909",
+    "name": "EUC Nordvestsjaelland",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "018z2vp10",
+    "name": "Rybners",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03gzqe894",
+    "name": "Niels Brock",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q322563)"
+  },
+  {
+    "rorId": "01r1pse25",
+    "name": "VUC Aarhus",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "024tfg483",
+    "name": "Copenhagen Hospitality College",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "01v2b9475",
+    "name": "Svendborg International Maritime Academy",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "044rdrs62",
+    "name": "Danish School of Media and Journalism",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "05p5g9717",
+    "name": "Business Academy SouthWest",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01r1pse25",
+    "name": "VUC Aarhus",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03nqjyg83",
+    "name": "Novo Nordisk Foundation Center for Stem Cell Medicine",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00tge7270",
+    "name": "Erhvervsakademi København",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "004r9h172",
+    "name": "University College Copenhagen",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00r79yp05",
+    "name": "HF & VUC Klar",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05pvcyy59",
+    "name": "Aarhus Business College",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q322563)"
+  },
+  {
+    "rorId": "017vsz909",
+    "name": "EUC Nordvestsjaelland",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "018z2vp10",
+    "name": "Rybners",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03gzqe894",
+    "name": "Niels Brock",
+    "country": "DK",
+    "reason": "wikidata P31 has no higher-ed class (Q322563)"
+  },
+  {
+    "rorId": "05c0k5d98",
+    "name": "Danish Cardiovascular Academy",
+    "country": "DK",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "036fhj216",
+    "name": "Mære Landbruksskole",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02ans6w40",
+    "name": "Network Learning Lab",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00xrcsz24",
+    "name": "Hvorfor det",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "004cakc07",
+    "name": "Norwegian Academy of Technological Sciences",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02q9r3565",
+    "name": "Kainun Institutti",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "052x09g67",
+    "name": "Norwegian Film Institute",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "003t41316",
+    "name": "Rogaland Training & Education Centre",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "036k6sw03",
+    "name": "Tone Lise Academy",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "052gr5r08",
+    "name": "Simula School",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04efgec06",
+    "name": "Sikkerhetssenteret Rørvik",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01x5kq968",
+    "name": "Studix",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02hwjhx76",
+    "name": "Universities Norway",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q45400320,Q43229)"
+  },
+  {
+    "rorId": "00v8hqs51",
+    "name": "NewSchool",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "040he7428",
+    "name": "Royal Norwegian Naval Academy",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0191b3351",
+    "name": "VID Specialized University",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00v8hqs51",
+    "name": "NewSchool",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "02hwjhx76",
+    "name": "Universities Norway",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q45400320,Q43229)"
+  },
+  {
+    "rorId": "0434zpn71",
+    "name": "International Sámi Film Institute",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q104649845)"
+  },
+  {
+    "rorId": "01xpf5964",
+    "name": "Sámi High School and Reindeer Husbandry School",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05y8hw592",
+    "name": "Ansgar University College",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q47002003,Q423208)"
+  },
+  {
+    "rorId": "020mpkg22",
+    "name": "University College of Norwegian Correctional Service",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04r8kt465",
+    "name": "University College of Vocational Education",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01z3bp082",
+    "name": "Royal Norwegian Society of Sciences and Letters",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05phns765",
+    "name": "Western Norway University of Applied Sciences",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02dx4dc92",
+    "name": "University of Inland Norway",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01svqjv39",
+    "name": "University Graduate Center",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q163740)"
+  },
+  {
+    "rorId": "04jthgw29",
+    "name": "Center for Digital Narrative",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q7315155,Q1298668,Q5059994)"
+  },
+  {
+    "rorId": "05fdt2q64",
+    "name": "NLA University College",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "015rzvz05",
+    "name": "Lovisenberg Diakonale Høgskole",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00a4e3a70",
+    "name": "Trondheim Hjertesenter",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ep2t954",
+    "name": "Fridtjof Nansen Institute",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720)"
+  },
+  {
+    "rorId": "03gss5916",
+    "name": "Høyskolen Kristiania",
+    "country": "NO",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q2385804,Q163740)"
+  },
+  {
+    "rorId": "040he7428",
+    "name": "Royal Norwegian Naval Academy",
+    "country": "NO",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "048n5xe95",
+    "name": "Centre d'Enseignement et de Recherches des Industries Alimentaires et Chimiques",
+    "country": "BE",
+    "reason": "wikidata P31 has no higher-ed class (Q19691007)"
+  },
+  {
+    "rorId": "05bh7ff72",
+    "name": "Centre d’Economie rurale",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02kwk6c15",
+    "name": "International Management Institute",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00cm6et23",
+    "name": "Higher Education Institution Lucia de Brouckère",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02mrv4556",
+    "name": "Technopolis",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ffw0491",
+    "name": "Artevelde University College Ghent",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01kdhhd16",
+    "name": "Brussels Management School",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "007cpvh39",
+    "name": "Haute École en Hainaut",
+    "country": "BE",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "02k7ygp86",
+    "name": "Académie des Beaux-Arts de Tournai",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0200zrw72",
+    "name": "Académie Royale des Beaux-Arts",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00y3r0391",
+    "name": "La Cambre",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05ez1q344",
+    "name": "École Supérieure des Arts de l'Image Le 75",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01qhsr268",
+    "name": "Institut des Arts de Diffusion",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0578r5v59",
+    "name": "Institut National Supérieur des Arts du Spectacle et des Techniques de Diffusion",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01hr7tp17",
+    "name": "Institut Supérieur de Musique et de Pédagogie",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00tf9x563",
+    "name": "Arts²",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03y37ca41",
+    "name": "Haute École de la Ville de Liège",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "027jqwm11",
+    "name": "Haute École Francisco Ferrer",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "051e52h07",
+    "name": "Haute École de Namur-Liège-Luxembourg",
+    "country": "BE",
+    "reason": "wikidata P31 has no higher-ed class (Q4671277)"
+  },
+  {
+    "rorId": "033wswd35",
+    "name": "Royal Conservatory of Brussels",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02d2pe314",
+    "name": "Carolus Magnus University",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02ceryg42",
+    "name": "Belgian Society for Pneumology",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03sear378",
+    "name": "Fondation Travail-Université",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0161df093",
+    "name": "PharmaTrain Federation",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04x57eq39",
+    "name": "St John Berchmans University College",
+    "country": "BE",
+    "reason": "wikidata P31 has no higher-ed class (Q44613)"
+  },
+  {
+    "rorId": "05p3a9320",
+    "name": "ORSI Academy",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00hm4a331",
+    "name": "Antwerp Management School",
+    "country": "BE",
+    "reason": "wikidata P31 has no higher-ed class (Q4830453)"
+  },
+  {
+    "rorId": "04q2cc503",
+    "name": "Network of the Universities from the Capitals of Europe",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0114pns79",
+    "name": "Université du Travail Paul Pastur",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00q03be40",
+    "name": "L’Institut Wallon de l’Évaluation, de la Prospective et de la Statistique",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "019axjh19",
+    "name": "ECAM Institut Supérieur Industriel",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01t44jj41",
+    "name": "Institute Born-Bunge",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00zx7z876",
+    "name": "Haute École Albert Jacquard",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03sfp2d76",
+    "name": "Haute École Louvain en Hainaut",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03er55z68",
+    "name": "Haute École Charlemagne",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03r7nsz84",
+    "name": "Haute École Robert Schuman",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01h3dr788",
+    "name": "Stichting tegen Kanker",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02c89h825",
+    "name": "Odisee, University of Applied Sciences",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02c191v59",
+    "name": "Orpheus Institute",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02rnb8t27",
+    "name": "Katholieke Hogeschool Vives",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03zq0dg86",
+    "name": "University Colleges Leuven-Limburg",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03qsbr555",
+    "name": "Hogeschool PXL",
+    "country": "BE",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q2385804)"
+  },
+  {
+    "rorId": "02qzsgg04",
+    "name": "NATO Science and Technology Organization",
+    "country": "BE",
+    "reason": "wikidata P31 has no higher-ed class (Q484652,Q783794)"
+  },
+  {
+    "rorId": "02a22tx41",
+    "name": "Haute École Provinciale de Hainaut Condorcet",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01mt46z25",
+    "name": "Leuven Stem Cell Institute",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00q3h2974",
+    "name": "Vlaamse Interuniversitaire Raad",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04e7kpf57",
+    "name": "Thomas More Kempen",
+    "country": "BE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01et03p29",
+    "name": "Kerry Education and Training Board",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "014yvnw28",
+    "name": "Project Arts Centre",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05nh9ky12",
+    "name": "Irish Archaeology Field School",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05ga7sz51",
+    "name": "King's Inns",
+    "country": "IE",
+    "reason": "wikidata P31 has no higher-ed class (Q1110684,Q5341295,Q2385804,Q163740)"
+  },
+  {
+    "rorId": "0040bha74",
+    "name": "Milltown Institute of Theology and Philosophy",
+    "country": "IE",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q2385804)"
+  },
+  {
+    "rorId": "057cchs06",
+    "name": "Isles International University",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0379ysz10",
+    "name": "CCT College Dublin",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05mdmem94",
+    "name": "Newpark Music Centre",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "024esq841",
+    "name": "Innopharma Education",
+    "country": "IE",
+    "reason": "wikidata P31 has no higher-ed class (Q4830453)"
+  },
+  {
+    "rorId": "0265sk121",
+    "name": "Royal College of Physicians of Ireland",
+    "country": "IE",
+    "reason": "wikidata P31 has no higher-ed class (Q10729872,Q163740)"
+  },
+  {
+    "rorId": "011hy5f81",
+    "name": "Irish Management Institute",
+    "country": "IE",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q163740)"
+  },
+  {
+    "rorId": "05bga9v72",
+    "name": "Institute of Child Education and Psychology Europe",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "009k2vc47",
+    "name": "Irish College of General Practitioners",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "054tsxk98",
+    "name": "Transport Infrastructure Ireland",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02vtemz45",
+    "name": "Discovery Programme",
+    "country": "IE",
+    "reason": "wikidata P31 has no higher-ed class (Q7315155)"
+  },
+  {
+    "rorId": "04wvj5008",
+    "name": "Institute of Public Administration",
+    "country": "IE",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "021a7d287",
+    "name": "Royal College of Surgeons of Edinburgh",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q7373991,Q163740)"
+  },
+  {
+    "rorId": "02gdqk794",
+    "name": "Royal Society of Medicine",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1110684,Q45400320,Q10729872)"
+  },
+  {
+    "rorId": "01a8ynn13",
+    "name": "The Langton Grammar School for Boys",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q967098,Q159334,Q1713379,Q5474524)"
+  },
+  {
+    "rorId": "01thz0w07",
+    "name": "Wessex Institute of Technology",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q2385804)"
+  },
+  {
+    "rorId": "02a5smf05",
+    "name": "Cockcroft Institute",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q31855)"
+  },
+  {
+    "rorId": "0267nkd62",
+    "name": "Higher Education Academy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q43229,Q708676)"
+  },
+  {
+    "rorId": "01gdbf303",
+    "name": "Royal College of General Practitioners",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q45400320,Q10729872,Q163740)"
+  },
+  {
+    "rorId": "02tenpc86",
+    "name": "Scottish Universities Life Sciences Alliance",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03dgngj22",
+    "name": "Andover College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "021w6ye38",
+    "name": "Blueberry Academy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0391mhw96",
+    "name": "The David Hume Institute",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04wvz8b06",
+    "name": "Hospitalfield",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0585r9546",
+    "name": "Farr Institute",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0250yzd02",
+    "name": "Beacon Hill Academy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01cm06k44",
+    "name": "American University in London",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04mtyr016",
+    "name": "Schiller International University",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "05w1x0w37",
+    "name": "Polar Scientific",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "010vv9h56",
+    "name": "London Studio Centre",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03356n642",
+    "name": "Lister Institute of Preventive Medicine",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q708676)"
+  },
+  {
+    "rorId": "02vk7w417",
+    "name": "Welsh National College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05mh8bc44",
+    "name": "Manchester Grammar School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q2418495,Q1713379,Q708676)"
+  },
+  {
+    "rorId": "029ted261",
+    "name": "Sabhal Mòr Ostaig",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02m6eba18",
+    "name": "Mountview Theatre School",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "051wgfj58",
+    "name": "Institute of Biological, Environmental and Rural Sciences",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q11946645)"
+  },
+  {
+    "rorId": "05pwe3434",
+    "name": "The Federal Trust",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q155271)"
+  },
+  {
+    "rorId": "040ysda03",
+    "name": "British Scoliosis Research Foundation",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02y2mwn89",
+    "name": "British Association of Endocrine and Thyroid Surgeons",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04w315h57",
+    "name": "British Biophysical Society",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "031tkkf47",
+    "name": "Adam Smith Institute",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q155271)"
+  },
+  {
+    "rorId": "011gedn87",
+    "name": "Sussex Downs College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "02mht3s70",
+    "name": "City of Westminster College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02bjw4523",
+    "name": "Chartered Institute of Linguists",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05362bq16",
+    "name": "Royal College of Anaesthetists",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1110684)"
+  },
+  {
+    "rorId": "05s86pb97",
+    "name": "Royal College of Ophthalmologists",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1110684)"
+  },
+  {
+    "rorId": "01gdbf303",
+    "name": "Royal College of General Practitioners",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q45400320,Q10729872,Q163740)"
+  },
+  {
+    "rorId": "02tenpc86",
+    "name": "Scottish Universities Life Sciences Alliance",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03dgngj22",
+    "name": "Andover College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00q519868",
+    "name": "Grwp Llandrillo Menai",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "021a7d287",
+    "name": "Royal College of Surgeons of Edinburgh",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q7373991,Q163740)"
+  },
+  {
+    "rorId": "02gdqk794",
+    "name": "Royal Society of Medicine",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1110684,Q45400320,Q10729872)"
+  },
+  {
+    "rorId": "01a8ynn13",
+    "name": "The Langton Grammar School for Boys",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q967098,Q159334,Q1713379,Q5474524)"
+  },
+  {
+    "rorId": "01thz0w07",
+    "name": "Wessex Institute of Technology",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q2385804)"
+  },
+  {
+    "rorId": "053883g38",
+    "name": "Institute of Coding",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01mcnhb78",
+    "name": "MRC Centre for Neurodevelopmental Disorders",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "04zkbxs23",
+    "name": "Royal College of Emergency Medicine",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "010dzxm21",
+    "name": "Barton Peveril College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q7533204,Q21822439)"
+  },
+  {
+    "rorId": "037tapg39",
+    "name": "Kingston College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "00ybkrr33",
+    "name": "Ripon College Cuddesdon",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q233324,Q708676)"
+  },
+  {
+    "rorId": "051sxdw86",
+    "name": "Royal Drawing School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q708676)"
+  },
+  {
+    "rorId": "01vq5dj09",
+    "name": "Shrewsbury College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "05mk08g75",
+    "name": "Sir John Deane's College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q967098,Q4671329)"
+  },
+  {
+    "rorId": "02txa2075",
+    "name": "Vision West Nottinghamshire College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "03q22e955",
+    "name": "Xaverian College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q967098,Q21822439)"
+  },
+  {
+    "rorId": "02neh0644",
+    "name": "Union School of Theology",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q94670589)"
+  },
+  {
+    "rorId": "038231w93",
+    "name": "Stanground Academy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q4671329,Q159334)"
+  },
+  {
+    "rorId": "03ffxvj05",
+    "name": "Rutlish School",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02fpe5k66",
+    "name": "British Institute of Technology and E-commerce",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "02ep9me51",
+    "name": "Tonbridge School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q269770,Q2418495,Q1493752,Q1713379,Q708676)"
+  },
+  {
+    "rorId": "01kxgx123",
+    "name": "Walsall Academy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q4671329,Q159334)"
+  },
+  {
+    "rorId": "04xvc2q17",
+    "name": "Lancaster Royal Grammar School",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01rjdjc72",
+    "name": "Olberon (United Kingdom)",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "003jb2109",
+    "name": "European School of Osteopathy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02h7wt813",
+    "name": "Scottish School of Primary Care",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "00da4q652",
+    "name": "Sutherland Cranial College of Osteopathy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0585r9546",
+    "name": "Farr Institute",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0250yzd02",
+    "name": "Beacon Hill Academy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01cm06k44",
+    "name": "American University in London",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04mtyr016",
+    "name": "Schiller International University",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "05w1x0w37",
+    "name": "Polar Scientific",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "010vv9h56",
+    "name": "London Studio Centre",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "040ysda03",
+    "name": "British Scoliosis Research Foundation",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02y2mwn89",
+    "name": "British Association of Endocrine and Thyroid Surgeons",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04w315h57",
+    "name": "British Biophysical Society",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "031tkkf47",
+    "name": "Adam Smith Institute",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q155271)"
+  },
+  {
+    "rorId": "04rpnrw35",
+    "name": "Cambridge Muslim College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0063dbm34",
+    "name": "Sheffield Children's University",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04rcnsw78",
+    "name": "Royal Hospital School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1935049,Q2418495,Q269770)"
+  },
+  {
+    "rorId": "01jw0fq74",
+    "name": "Grimsby Institute",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q21822439)"
+  },
+  {
+    "rorId": "05tjyqz67",
+    "name": "Holy Cross College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q21822439)"
+  },
+  {
+    "rorId": "02jp16h88",
+    "name": "Heart of Worcestershire College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "03ebzbt25",
+    "name": "Wakefield College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "01zk01k31",
+    "name": "City of Portsmouth College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04wdbw215",
+    "name": "Dover Technical College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02xf24951",
+    "name": "Folkestone College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03eg1sw22",
+    "name": "Sheppey College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01hzg6v66",
+    "name": "London Social Science",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00h9tn549",
+    "name": "Missenden Centre",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05bhhjy59",
+    "name": "Queen Elizabeth’s Academy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05j3nm367",
+    "name": "The Queen's Foundation",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q233324,Q708676)"
+  },
+  {
+    "rorId": "016055452",
+    "name": "Scottish Association of the Teachers of History",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "04vsshx67",
+    "name": "Scottish Graduate School for Arts & Humanities",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "056hg4387",
+    "name": "Shawlands Academy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334)"
+  },
+  {
+    "rorId": "04qzn0m54",
+    "name": "The Academy at Shotton Hall",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q4671329,Q159334)"
+  },
+  {
+    "rorId": "022kcpx61",
+    "name": "The Bewdley School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q5474524)"
+  },
+  {
+    "rorId": "02x6wmw65",
+    "name": "The National Centre for Early Music",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "04wn4j219",
+    "name": "National Telford Institute",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "020pnfy52",
+    "name": "University Alliance",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q131421938)"
+  },
+  {
+    "rorId": "01ftj8q07",
+    "name": "College of St George",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03247t449",
+    "name": "Campbell College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q967098)"
+  },
+  {
+    "rorId": "02fvbz323",
+    "name": "Dearne Valley College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "02qp5ew04",
+    "name": "Aquinas College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q21822439)"
+  },
+  {
+    "rorId": "03sptdk90",
+    "name": "Leeds City College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "01pen2t90",
+    "name": "Wiltshire College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "02q4zda14",
+    "name": "Derby College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "01m39r121",
+    "name": "Tate & Lyle (United Kingdom)",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q4830453,Q6881511,Q891723)"
+  },
+  {
+    "rorId": "01rxg5p40",
+    "name": "Institute of Mathematics and its Applications",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ed94f19",
+    "name": "Easton & Otley College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05hgy3t19",
+    "name": "North London College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "029ted261",
+    "name": "Sabhal Mòr Ostaig",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02m6eba18",
+    "name": "Mountview Theatre School",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "051wgfj58",
+    "name": "Institute of Biological, Environmental and Rural Sciences",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q11946645)"
+  },
+  {
+    "rorId": "05pwe3434",
+    "name": "The Federal Trust",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q155271)"
+  },
+  {
+    "rorId": "00vbzva31",
+    "name": "MRC Centre for Medical Mycology",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02vk7w417",
+    "name": "Welsh National College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05mh8bc44",
+    "name": "Manchester Grammar School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q2418495,Q1713379,Q708676)"
+  },
+  {
+    "rorId": "0530xmm89",
+    "name": "Royal College of Physicians",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q10729872,Q2385804,Q43229)"
+  },
+  {
+    "rorId": "054p3p004",
+    "name": "Academy of Medical Royal Colleges",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q4287745,Q708676)"
+  },
+  {
+    "rorId": "02v8s3859",
+    "name": "Azad University in Oxford",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "002rcdx19",
+    "name": "Institute and Faculty of Actuaries",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q4830453,Q1110684)"
+  },
+  {
+    "rorId": "00tf2g326",
+    "name": "Bolton Sixth Form College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q21822439)"
+  },
+  {
+    "rorId": "03bkgak51",
+    "name": "Christ the King Sixth Form College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q1138671,Q21822439)"
+  },
+  {
+    "rorId": "041f45z81",
+    "name": "Coleg Gwent",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "039da5s33",
+    "name": "The Sixth Form College Colchester",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q21822439)"
+  },
+  {
+    "rorId": "02sffrq32",
+    "name": "Glasgow Clyde College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439,Q163740)"
+  },
+  {
+    "rorId": "00ybkrr33",
+    "name": "Ripon College Cuddesdon",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q233324,Q708676)"
+  },
+  {
+    "rorId": "051sxdw86",
+    "name": "Royal Drawing School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q3914,Q708676)"
+  },
+  {
+    "rorId": "01vq5dj09",
+    "name": "Shrewsbury College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "05mk08g75",
+    "name": "Sir John Deane's College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q967098,Q4671329)"
+  },
+  {
+    "rorId": "02txa2075",
+    "name": "Vision West Nottinghamshire College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "03q22e955",
+    "name": "Xaverian College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q967098,Q21822439)"
+  },
+  {
+    "rorId": "02neh0644",
+    "name": "Union School of Theology",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q94670589)"
+  },
+  {
+    "rorId": "038231w93",
+    "name": "Stanground Academy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q4671329,Q159334)"
+  },
+  {
+    "rorId": "036d5c397",
+    "name": "ESCP Business School",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804)"
+  },
+  {
+    "rorId": "04n3mpk26",
+    "name": "Istituto Marangoni London",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "039rg3x29",
+    "name": "City of Bristol College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "011gedn87",
+    "name": "Sussex Downs College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "029d09756",
+    "name": "Cardiff and Vale College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "00561gr17",
+    "name": "Colchester Institute",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q21822439,Q2085381)"
+  },
+  {
+    "rorId": "02eqpx475",
+    "name": "Salford City College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334)"
+  },
+  {
+    "rorId": "04jqqz255",
+    "name": "Barnfield College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334)"
+  },
+  {
+    "rorId": "055rzsa90",
+    "name": "Nelson College London",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04d8yvw59",
+    "name": "Royal College of Physicians and Surgeons of Glasgow",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q163740)"
+  },
+  {
+    "rorId": "03ngjs524",
+    "name": "Bowel Cancer UK",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q708676)"
+  },
+  {
+    "rorId": "04x222a35",
+    "name": "Institute of Ismaili Studies",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q708676)"
+  },
+  {
+    "rorId": "01rxg5p40",
+    "name": "Institute of Mathematics and its Applications",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00ed94f19",
+    "name": "Easton & Otley College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05hgy3t19",
+    "name": "North London College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01040r538",
+    "name": "Telford College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "02q4zda14",
+    "name": "Derby College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "01m39r121",
+    "name": "Tate & Lyle (United Kingdom)",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q4830453,Q6881511,Q891723)"
+  },
+  {
+    "rorId": "00vbzva31",
+    "name": "MRC Centre for Medical Mycology",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01jw0fq74",
+    "name": "Grimsby Institute",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q21822439)"
+  },
+  {
+    "rorId": "05tjyqz67",
+    "name": "Holy Cross College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q21822439)"
+  },
+  {
+    "rorId": "02jp16h88",
+    "name": "Heart of Worcestershire College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "03ebzbt25",
+    "name": "Wakefield College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "01zk01k31",
+    "name": "City of Portsmouth College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00a2aqk21",
+    "name": "ICON College of Technology and Management",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01ahsqc77",
+    "name": "Kennedy Institute of Rheumatology",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0472ajt73",
+    "name": "Warnborough College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0266wrt04",
+    "name": "Barts Cancer Institute",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03wz10q85",
+    "name": "NIHR School for Primary Care Research",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0370htr03",
+    "name": "UCL Queen Square Institute of Neurology",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2467461,Q4671277)"
+  },
+  {
+    "rorId": "05hz3qz67",
+    "name": "New Model Institute for Technology & Engineering",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "024qcmm72",
+    "name": "The Bedford College Group",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05maz1p71",
+    "name": "The London Interdisciplinary School",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05p1kkx35",
+    "name": "Ellison Institute of Technology",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "013a0r905",
+    "name": "Henry Royce Institute",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q31855,Q41176)"
+  },
+  {
+    "rorId": "03rx0gp36",
+    "name": "Royal College of Paediatrics and Child Health",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1110684)"
+  },
+  {
+    "rorId": "0390mzx53",
+    "name": "London Institute for Mathematical Sciences",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q708676)"
+  },
+  {
+    "rorId": "0451qtk15",
+    "name": "Royal College of Physicians of Edinburgh",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q10729872,Q45400320,Q163740)"
+  },
+  {
+    "rorId": "05trey949",
+    "name": "Scottish Graduate School of Social Science",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0397gqg43",
+    "name": "Alef Trust",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02pds6c22",
+    "name": "The Royal Institute of Philosophy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q708676)"
+  },
+  {
+    "rorId": "04ve58z79",
+    "name": "Insigneo",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "036wgjt32",
+    "name": "Institute for Research in Schools",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02q2kw246",
+    "name": "The Institute of Concrete Technology",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00zyky634",
+    "name": "Institute of Family Therapy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04ffrx392",
+    "name": "Chartered Institute for Archaeologists",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1110684)"
+  },
+  {
+    "rorId": "002bahc84",
+    "name": "Institute of Materials Finishing",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03e5mh597",
+    "name": "Broadstairs College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04wdbw215",
+    "name": "Dover Technical College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02xf24951",
+    "name": "Folkestone College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "03eg1sw22",
+    "name": "Sheppey College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "01hzg6v66",
+    "name": "London Social Science",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "00h9tn549",
+    "name": "Missenden Centre",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05bhhjy59",
+    "name": "Queen Elizabeth’s Academy",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05j3nm367",
+    "name": "The Queen's Foundation",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q233324,Q708676)"
+  },
+  {
+    "rorId": "016055452",
+    "name": "Scottish Association of the Teachers of History",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "04vsshx67",
+    "name": "Scottish Graduate School for Arts & Humanities",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q43229)"
+  },
+  {
+    "rorId": "056hg4387",
+    "name": "Shawlands Academy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334)"
+  },
+  {
+    "rorId": "05maz1p71",
+    "name": "The London Interdisciplinary School",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05p1kkx35",
+    "name": "Ellison Institute of Technology",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "024qcmm72",
+    "name": "The Bedford College Group",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05yjmpq86",
+    "name": "Royal College of Veterinary Surgeons",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02ft9z011",
+    "name": "Royal College of Speech and Language Therapists",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q708676,Q1110684)"
+  },
+  {
+    "rorId": "053236z94",
+    "name": "City of Stoke-on-Trent Sixth Form College",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q159334,Q4671329)"
+  },
+  {
+    "rorId": "00cgyrr09",
+    "name": "Sussex Recovery College",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "05bnh6b29",
+    "name": "Institute of Group Analysis",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q5341295)"
+  },
+  {
+    "rorId": "059q04r73",
+    "name": "Leeds College of Building",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q21822439)"
+  },
+  {
+    "rorId": "0390mzx53",
+    "name": "London Institute for Mathematical Sciences",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2385804,Q708676)"
+  },
+  {
+    "rorId": "0451qtk15",
+    "name": "Royal College of Physicians of Edinburgh",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q10729872,Q45400320,Q163740)"
+  },
+  {
+    "rorId": "05trey949",
+    "name": "Scottish Graduate School of Social Science",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "0397gqg43",
+    "name": "Alef Trust",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "02pds6c22",
+    "name": "The Royal Institute of Philosophy",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q1664720,Q708676)"
+  },
+  {
+    "rorId": "01y7y4033",
+    "name": "Royal Academy of Dramatic Art",
+    "country": "GB",
+    "reason": "wikidata P31 has no higher-ed class (Q2143781)"
+  },
+  {
+    "rorId": "04cgczp52",
+    "name": "Transnational Press London",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  },
+  {
+    "rorId": "04cgczp52",
+    "name": "Transnational Press London",
+    "country": "GB",
+    "reason": "no wikidata id in ROR record"
+  }
+]

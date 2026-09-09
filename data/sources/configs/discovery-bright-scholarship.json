@@ -5,21 +5,30 @@
   "country": null,
   "baseUrl": "https://brightscholarship.com",
   "authorityLevel": "DISCOVERY",
-  "crawlFrequency": "MANUAL",
+  "crawlFrequency": "WEEKLY",
   "status": "ACTIVE",
   "seedUrls": [
     "https://brightscholarship.com/belgium-government-ares-scholarship-2027-28/"
   ],
+  "sitemapUrls": [
+    "https://brightscholarship.com/post-sitemap1.xml",
+    "https://brightscholarship.com/post-sitemap2.xml",
+    "https://brightscholarship.com/post-sitemap3.xml"
+  ],
+  "sitemapUrlPattern": "^https://brightscholarship\\.com/[^/]+/$",
+  "sitemapMaxUrls": 2500,
+  "urlPatternMode": "regex",
   "urlPatterns": {
-    "include": ["brightscholarship.com/"],
-    "exclude": ["/wp-admin", "/tag/", "/category/"]
+    "include": ["^https://brightscholarship\\.com/"],
+    "exclude": ["/wp-admin", "/tag/", "/category/", "/page/"]
   },
   "maxDepth": 0,
-  "maxPages": 3,
+  "maxPages": 2100,
   "rateLimitMs": 4000,
   "respectRobotsTxt": true,
   "extractionHints": {
-    "detail": "Each scholarship post states degree level/coverage/eligible nationality/deadline in a summary table plus prose, and usually links an 'Official Link' — that link is the officialSourceUrl candidate for verification, always worth fetching directly rather than trusting this source's own restatement of the facts."
+    "detail": "Each scholarship post states degree level/coverage/eligible nationality/deadline in a summary table plus prose, and usually links an 'Official Link' — that link is the officialSourceUrl candidate for verification, always worth fetching directly rather than trusting this source's own restatement of the facts.",
+    "hostInstitution": "Many posts name a specific university in the title (e.g. 'University of Potsdam Scholarships'). That is an explicit host-institution claim and should populate hostInstitutions with the verbatim quote naming it."
   },
-  "notes": "DISCOVERY authority only. Seed post (Belgium Government ARES Scholarship 2027-28) confirmed real and reachable (2026-08-10); its stated 'Official Link' (ares-ac.be) was independently fetched and corroborates the deadline exactly (18 September 2026) with a largely-overlapping but not identical eligible-country list — a genuine real-world example of partial corroboration, handled by lib/verification/flagConflicts.ts rather than silently merged."
+  "notes": "DISCOVERY authority only — nothing from here is verified without an independent PRIMARY/SECONDARY corroboration (see lib/verification/crossReferenceCheck.ts). Seed post (Belgium Government ARES Scholarship 2027-28) confirmed real and reachable (2026-08-10); its stated 'Official Link' (ares-ac.be) was independently fetched and corroborates the deadline exactly (18 September 2026) with a largely-overlapping but not identical eligible-country list — a genuine real-world example of partial corroboration, handled by lib/verification/flagConflicts.ts rather than silently merged. 2026-09-05: switched from single-seed to full sitemap discovery — the three post sitemaps enumerate 2,023 posts (1000/1000/23). Pointed at the post sitemaps directly rather than sitemap_index.xml so the tag/category/page sitemaps are never walked. The single-path-segment sitemapUrlPattern additionally excludes /tag/x/ and /category/x/ style URLs. Full crawl is ~2.2 hours at 4s/page."
 }

@@ -40,6 +40,21 @@ export const SourceConfigSchema = z.object({
       exclude: z.array(z.string()).default([]),
     })
     .default({ include: [], exclude: [] }),
+  // How include/exclude patterns above are interpreted. "substring" is the
+  // original behaviour and stays the default so existing configs are
+  // unaffected; "regex" allows anchoring (e.g. `^https://www2\.daad\.de/`),
+  // which substring matching cannot express.
+  urlPatternMode: z.enum(["substring", "regex"]).default("substring"),
+  // Sitemap-driven discovery — the site's own declaration of everything it
+  // publishes. This is what makes a *complete* crawl possible: link-following
+  // only reaches what happens to be hyperlinked from a seed, and some sources
+  // (DAAD's scholarship database) expose no crawlable listing at all.
+  sitemapUrls: z.array(z.url()).default([]),
+  // Regex selecting which <loc> entries to keep. One sitemap often mixes
+  // content types — www2.daad.de/sitemap.xml carries both scholarship detail
+  // pages and 3,666 programme pages, and each is a separate source config.
+  sitemapUrlPattern: z.string().nullable().default(null),
+  sitemapMaxUrls: z.number().int().min(1).default(2000),
   maxDepth: z.number().int().min(0).default(2),
   maxPages: z.number().int().min(1).default(25),
   rateLimitMs: z.number().int().min(0).default(3000),

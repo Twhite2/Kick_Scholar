@@ -5,10 +5,21 @@ import path from "node:path";
 import { createInterface } from "node:readline";
 import { PrismaClient } from "../generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
+import { isCliEntrypoint } from "../cliEntrypoint";
 import type { CrawlManifest } from "./types";
 
 const REPO_ROOT = path.resolve(import.meta.dirname, "..", "..");
-const VENV_PYTHON = path.join(REPO_ROOT, "crawler", ".venv", "bin", "python");
+// venv layout differs by platform: Scripts/python.exe on Windows, bin/python
+// elsewhere. KICKSCHOLAR_PYTHON overrides both (e.g. a system interpreter).
+const VENV_PYTHON =
+  process.env.KICKSCHOLAR_PYTHON ??
+  path.join(
+    REPO_ROOT,
+    "crawler",
+    ".venv",
+    process.platform === "win32" ? "Scripts" : "bin",
+    process.platform === "win32" ? "python.exe" : "python",
+  );
 const RUN_CRAWL_SCRIPT = path.join(REPO_ROOT, "crawler", "run_crawl.py");
 const CONFIGS_DIR = path.join(REPO_ROOT, "data", "sources", "configs");
 
@@ -44,7 +55,7 @@ async function findConfigPath(sourceId: string): Promise<string> {
 export async function runCrawlJob(
   prisma: PrismaClient,
   sourceId: string,
-  opts: { maxPages?: number } = {},
+  opts: { maxPages?: number; resume?: boolean } = {},
 ): Promise<RunCrawlJobResult> {
   const configPath = await findConfigPath(sourceId);
 
@@ -54,14 +65,35 @@ export async function runCrawlJob(
 
   const args = ["run_crawl.py", "--source-id", sourceId, "--config", configPath];
   if (opts.maxPages) args.push("--max-pages", String(opts.maxPages));
-
-  const child = spawn(VENV_PYTHON, args, { cwd: path.dirname(RUN_CRAWL_SCRIPT) });
+  // Skip URLs earlier runs already fetched — a multi-hour crawl that was
+  // interrupted resumes instead of starting over.
+  if (opts.resume) args.push("--resume");
 
   let manifestPath: string | null = null;
   let pagesDiscovered = 0;
   let pagesCrawled = 0;
   let pagesFailed = 0;
   const errorLines: string[] = [];
+
+  const child = spawn(VENV_PYTHON, args, { cwd: path.dirname(RUN_CRAWL_SCRIPT) });
+
+  // Attach the stderr listener BEFORE draining stdout. Until something reads
+  // stderr it buffers in the stream, and a large Python traceback can fill it
+  // and block the child mid-write while Node is still awaiting stdout —
+  // deadlocking the crawl. Attaching it late also silently dropped early
+  // output (including a missing-interpreter error) from errorLog.
+  const stderrChunks: Buffer[] = [];
+  child.stderr.on("data", (chunk) => stderrChunks.push(chunk));
+
+  // Without this, a missing venv rejects the `close` promise path with an
+  // unhandled 'error' event instead of a diagnosable CrawlJob row.
+  child.on("error", (err) => {
+    errorLines.push(
+      `Failed to spawn ${VENV_PYTHON}: ${err.message}. ` +
+        `Create the venv (python -m venv crawler/.venv), install ` +
+        `crawler/requirements.txt, then run 'playwright install chromium'.`,
+    );
+  });
 
   const rl = createInterface({ input: child.stdout });
   for await (const line of rl) {
@@ -71,6 +103,12 @@ export async function runCrawlJob(
     } catch {
       continue; // non-JSON stdout noise (crawl4ai's own console output)
     }
+    if (event.type === "error") {
+      errorLines.push(String(event.message));
+      continue;
+    }
+    if (event.type !== "progress" && event.type !== "complete") continue;
+
     if (event.type === "progress") {
       pagesCrawled = Number(event.pagesCrawled ?? pagesCrawled);
     }
@@ -79,17 +117,13 @@ export async function runCrawlJob(
       pagesCrawled = Number(event.pagesCrawled ?? pagesCrawled);
       pagesFailed = Number(event.pagesFailed ?? pagesFailed);
     }
-    if (event.type === "error") {
-      errorLines.push(String(event.message));
-    }
+    // Only write on events that actually move the counters — this previously
+    // issued a DB round-trip for every line of stdout.
     await prisma.crawlJob.update({
       where: { id: crawlJob.id },
       data: { pagesDiscovered, pagesCrawled, pagesFailed },
     });
   }
-
-  const stderrChunks: Buffer[] = [];
-  child.stderr.on("data", (chunk) => stderrChunks.push(chunk));
 
   const exitCode: number = await new Promise((resolve) => child.on("close", resolve));
 
@@ -170,15 +204,17 @@ export async function runCrawlJob(
 
 async function runAsCli() {
   const [, , sourceId, maxPagesArg] = process.argv;
+  const resume = process.argv.includes("--resume");
   if (!sourceId) {
-    console.error("Usage: tsx lib/crawler/runCrawlJob.ts <source-id> [maxPages]");
+    console.error("Usage: tsx lib/crawler/runCrawlJob.ts <source-id> [maxPages] [--resume]");
     process.exit(1);
   }
   const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
   const prisma = new PrismaClient({ adapter });
   try {
     const result = await runCrawlJob(prisma, sourceId, {
-      maxPages: maxPagesArg ? Number(maxPagesArg) : undefined,
+      maxPages: maxPagesArg && !maxPagesArg.startsWith("--") ? Number(maxPagesArg) : undefined,
+      resume,
     });
     console.log(result);
   } finally {
@@ -186,7 +222,7 @@ async function runAsCli() {
   }
 }
 
-if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
+if (isCliEntrypoint(import.meta.url)) {
   runAsCli().catch((err) => {
     console.error(err);
     process.exit(1);

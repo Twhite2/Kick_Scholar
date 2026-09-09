@@ -1,0 +1,16 @@
+{
+  "id": "src-ror",
+  "name": "ROR (Research Organization Registry)",
+  "type": "EDUCATION_DATABASE",
+  "country": null,
+  "baseUrl": "https://ror.org",
+  "authorityLevel": "SECONDARY",
+  "crawlFrequency": "MONTHLY",
+  "status": "PAUSED",
+  "seedUrls": ["https://api.ror.org/v2/organizations"],
+  "maxDepth": 0,
+  "maxPages": 1,
+  "rateLimitMs": 350,
+  "respectRobotsTxt": true,
+  "notes": "NOT CRAWLED — ingested via `npm run ingest:ror`, not the Crawl4AI path, which is why status is PAUSED (a crawl of this source would be meaningless). Registered here so ROR-sourced universities have a real Source row for provenance and citations. Replaces WHED, which is unusable: whed.net returns HTTP 403, its robots.txt bans ClaudeBot/GPTBot/CCBot with ai-train=no, and IAU's terms prohibit copying substantial parts and threaten legal action; bulk export is a paid MyWHED feature. ROR is CC0, needs no API key, and its v2 REST API allows 2000 requests/5min. SECONDARY authority, deliberately: ROR is authoritative for organisational IDENTITY (name, country, city, website, founding year) but not for programmes, tuition or scholarships — so a university's own official site (PRIMARY) outranks it on every scalar via shouldOverwriteScalar, while ROR can still corroborate identity. IMPORTANT: ROR's types:[\"education\"] is not a university filter — verified live, it returns 27,055 active orgs globally (2,211 across the 10 target countries) including secondary schools (Holbein-Gymnasium Augsburg) and pure research institutes (Forschungsinstitut für Kinderernährung). The importer therefore vets each record against Wikidata's P31 classification; anything unconfirmed is quarantined for review rather than imported or silently dropped. Note the API caps retrievable results at 10,000, which is why the importer pages per country rather than pulling a global list."
+}
