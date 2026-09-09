@@ -11,6 +11,7 @@ import { MatchStrengthBadge } from "@/components/eligibility/match-strength-badg
 import { FactorScoreBar } from "@/components/eligibility/factor-score-bar";
 import { OfficialVsExternalBadge } from "@/components/scholarships/official-vs-external-badge";
 import { FundingCoverageViz } from "@/components/scholarships/funding-coverage-viz";
+import { ApplicableInstitutions } from "@/components/scholarships/applicable-institutions";
 import { SaveButton } from "@/components/programs/save-button";
 import type { FactorScore } from "@/lib/matching/types";
 
@@ -25,7 +26,16 @@ export default async function ScholarshipDetailPage({ params }: PageProps<"/scho
       include: {
         eligibility: true,
         deadlines: true,
-        fundingOpportunities: { include: { program: { include: { university: true } } } },
+        fundingOpportunities: {
+          // Explicit (source-stated) links first so they are never buried
+          // under inferred ones, then the most confident inferences.
+          orderBy: [{ linkMethod: "asc" }, { confidence: "desc" }],
+          take: 40,
+          include: {
+            program: { include: { university: true } },
+            university: true,
+          },
+        },
       },
     }),
     prisma.match.findFirst({ where: { userId: session.user.id, scholarshipId: id } }),
@@ -80,25 +90,22 @@ export default async function ScholarshipDetailPage({ params }: PageProps<"/scho
           <p className="text-sm leading-relaxed">{scholarship.description ?? "No description available yet."}</p>
           <FundingCoverageViz coverageType={scholarship.coverageType} />
 
-          {scholarship.fundingOpportunities.length > 0 && (
-            <div>
-              <h4 className="text-sm font-semibold">Officially linked to</h4>
-              <div className="mt-2 space-y-2">
-                {scholarship.fundingOpportunities.map((fo) => (
-                  <Link
-                    key={fo.id}
-                    href={`/programs/${fo.programId}`}
-                    className="flex items-center justify-between rounded-xl border border-border p-3 text-sm transition-colors hover:bg-muted"
-                  >
-                    <span>{fo.program?.name}</span>
-                    <Badge variant={fo.fundingType === "OFFICIAL_UNIVERSITY_SCHOLARSHIP" ? "secondary" : "outline"}>
-                      {fo.fundingType.replace(/_/g, " ")}
-                    </Badge>
-                  </Link>
-                ))}
-              </div>
+          <div>
+            <h4 className="text-sm font-semibold">Where this can be used</h4>
+            <div className="mt-2">
+              <ApplicableInstitutions
+                links={scholarship.fundingOpportunities}
+                rule={
+                  (scholarship.fundingOpportunities.find((f) => f.linkMethod === "RULE_INFERENCE")
+                    ?.inferenceBasis as {
+                    countries?: string[];
+                    degreeLevels?: string[];
+                    fieldCategories?: string[];
+                  } | null) ?? null
+                }
+              />
             </div>
-          )}
+          </div>
           {!scholarship.verified && (
             <p className="rounded-xl bg-muted p-3 text-xs text-muted-foreground">
               This scholarship was discovered via a third-party aggregator and has not yet been independently

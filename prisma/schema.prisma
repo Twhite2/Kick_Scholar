@@ -182,6 +182,16 @@ enum FundingType {
   EXTERNAL_APPLICABLE
 }
 
+// How a scholarship came to be linked to an institution or programme. This is
+// the difference between "the source says so" and "our rules imply it", and it
+// must never be collapsed: EXPLICIT_SOURCE rows are citable facts, while
+// RULE_INFERENCE rows are the product's own reasoning and have to surface as
+// "may apply to" everywhere they are shown.
+enum LinkMethod {
+  EXPLICIT_SOURCE
+  RULE_INFERENCE
+}
+
 enum EligibilityCriterionType {
   NATIONALITY
   DEGREE_LEVEL
@@ -351,6 +361,16 @@ model University {
   accreditation String[]
   contactEmail  String?
 
+  // Stable external identity from the Research Organization Registry (CC0).
+  // Bare id ("05pb4em20"), not the URL. This is what makes the ROR import
+  // idempotent — name/city can be revised upstream, the ROR id cannot.
+  rorId       String? @unique
+  // Cross-registry ids ROR carries (grid / isni / wikidata / fundref). The
+  // wikidata id in particular is what the importer uses to confirm an
+  // institution is genuinely higher-education rather than a school or
+  // research institute — ROR's own "education" type includes both.
+  externalIds Json?
+
   // provenance
   primarySourceId    String
   primarySource      Source             @relation(fields: [primarySourceId], references: [id])
@@ -365,7 +385,8 @@ model University {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  programs Program[]
+  programs             Program[]
+  fundingOpportunities FundingOpportunity[]
 
   @@index([country])
   @@index([verificationStatus])
@@ -490,11 +511,26 @@ model FundingOpportunity {
   scholarshipId   String
   scholarship     Scholarship              @relation(fields: [scholarshipId], references: [id], onDelete: Cascade)
   universityId    String?
+  university      University?              @relation(fields: [universityId], references: [id], onDelete: Cascade)
   programId       String?
   program         Program?                 @relation(fields: [programId], references: [id], onDelete: Cascade)
   fundingType     FundingType
   coveragePercent Int?
   coverageType    ScholarshipCoverageType?
+
+  // EXPLICIT_SOURCE = the page named this institution. RULE_INFERENCE = the
+  // linker expanded the scholarship's own eligibility rules across the
+  // catalogue. Only RULE_INFERENCE rows are ever deleted by a re-run, which is
+  // what lets the inferred set converge without touching stated facts.
+  linkMethod LinkMethod @default(EXPLICIT_SOURCE)
+
+  // Reproducible identity for one (scholarship, university, program) triple,
+  // so re-running the linker upserts instead of accumulating duplicates.
+  dedupeKey String @unique
+
+  // Which predicates actually fired, and on what evidence. Without this an
+  // inferred row is an unexplainable assertion.
+  inferenceBasis Json?
 
   // provenance
   primarySourceId    String
@@ -512,6 +548,7 @@ model FundingOpportunity {
   @@index([scholarshipId])
   @@index([universityId])
   @@index([programId])
+  @@index([scholarshipId, linkMethod])
 }
 
 model Scholarship {

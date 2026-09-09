@@ -24,7 +24,11 @@ export default async function ProgramDetailPage({ params }: PageProps<"/programs
         university: true,
         requirements: true,
         deadlines: true,
-        fundingOpportunities: { include: { scholarship: true } },
+        fundingOpportunities: {
+          orderBy: [{ linkMethod: "asc" }, { confidence: "desc" }],
+          take: 40,
+          include: { scholarship: true },
+        },
       },
     }),
     prisma.match.findFirst({ where: { userId: session.user.id, programId: id } }),
@@ -166,23 +170,68 @@ export default async function ProgramDetailPage({ params }: PageProps<"/programs
         <TabsContent value="funding" className="space-y-3 pt-4">
           {program.fundingOpportunities.length === 0 ? (
             <p className="text-sm text-muted-foreground">
-              No officially-linked scholarships yet — check the Scholarships page for opportunities that may still apply.
+              No scholarships linked to this programme yet — check the Scholarships page for
+              opportunities that may still apply.
             </p>
           ) : (
-            program.fundingOpportunities.map((fo) => (
-              <Link
-                key={fo.id}
-                href={`/scholarships/${fo.scholarshipId}`}
-                className="flex items-center justify-between rounded-xl border border-border p-4 transition-colors hover:bg-muted"
-              >
-                <div>
-                  <p className="text-sm font-medium">{fo.scholarship.name}</p>
-                  <Badge variant={fo.fundingType === "OFFICIAL_UNIVERSITY_SCHOLARSHIP" ? "secondary" : "outline"} className="mt-1">
-                    {fo.fundingType.replace(/_/g, " ")}
-                  </Badge>
-                </div>
-              </Link>
-            ))
+            <>
+              {(() => {
+                const explicit = program.fundingOpportunities.filter(
+                  (fo) => fo.linkMethod === "EXPLICIT_SOURCE",
+                );
+                const inferred = program.fundingOpportunities.filter(
+                  (fo) => fo.linkMethod === "RULE_INFERENCE",
+                );
+                const section = (
+                  title: string,
+                  note: string,
+                  rows: typeof program.fundingOpportunities,
+                ) =>
+                  rows.length === 0 ? null : (
+                    <div key={title} className="space-y-2">
+                      <div>
+                        <h4 className="text-sm font-semibold">{title}</h4>
+                        <p className="text-xs text-muted-foreground">{note}</p>
+                      </div>
+                      {rows.map((fo) => (
+                        <Link
+                          key={fo.id}
+                          href={`/scholarships/${fo.scholarshipId}`}
+                          className="flex items-center justify-between gap-3 rounded-xl border border-border p-4 transition-colors hover:bg-muted"
+                        >
+                          <div className="min-w-0">
+                            <p className="truncate text-sm font-medium">{fo.scholarship.name}</p>
+                            <p className="truncate text-xs text-muted-foreground">
+                              {fo.scholarship.providerName}
+                            </p>
+                          </div>
+                          <Badge
+                            variant={
+                              fo.linkMethod === "EXPLICIT_SOURCE" ? "secondary" : "outline"
+                            }
+                          >
+                            {fo.fundingType.replace(/_/g, " ")}
+                          </Badge>
+                        </Link>
+                      ))}
+                    </div>
+                  );
+                return (
+                  <div className="space-y-6">
+                    {section(
+                      "Officially linked",
+                      "Named directly by the scholarship provider.",
+                      explicit,
+                    )}
+                    {section(
+                      "May apply here",
+                      "Matched from each scholarship's own stated rules — not confirmed by the provider. Check before applying.",
+                      inferred,
+                    )}
+                  </div>
+                );
+              })()}
+            </>
           )}
         </TabsContent>
 

@@ -5,6 +5,7 @@ import { PrismaClient } from "../generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { ExtractionFileSchema, type ExtractionFile } from "../extraction/schemas";
 import { validateProgram } from "../extraction/validate";
+import { normaliseGradeDirections } from "../extraction/llm/gradeScale";
 import { normalizeUniversity } from "../normalization/normalizeUniversity";
 import { normalizeProgram } from "../normalization/normalizeProgram";
 import { normalizeScholarship } from "../normalization/normalizeScholarship";
@@ -16,6 +17,7 @@ import {
 import { shouldOverwriteScalar } from "../deduplication/mergeRecords";
 import { crossReferenceCheck } from "../verification/crossReferenceCheck";
 import { loadAllConfigs } from "../sources/registry";
+import { isCliEntrypoint } from "../cliEntrypoint";
 
 export interface LoadResult {
   universitiesCreated: number;
@@ -24,6 +26,8 @@ export interface LoadResult {
   programsMerged: number;
   scholarshipsCreated: number;
   scholarshipsMerged: number;
+  /** German-scale grade comparisons flipped to the direction the page means. */
+  gradeDirectionsCorrected: number;
   warnings: string[];
 }
 
@@ -35,6 +39,7 @@ function emptyResult(): LoadResult {
     programsMerged: 0,
     scholarshipsCreated: 0,
     scholarshipsMerged: 0,
+    gradeDirectionsCorrected: 0,
     warnings: [],
   };
 }
@@ -209,9 +214,30 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
       result.programsCreated += 1;
     }
 
-    // Sub-facts are append-only: each source's statement of a requirement/
-    // deadline is its own row, never merged into an existing one.
-    for (const req of extractedProgram.requirements) {
+    // Sub-facts are append-only ACROSS sources: each source's statement of a
+    // requirement/deadline is its own row, never merged into another's.
+    //
+    // But re-reading the SAME page is not new evidence. Without this reset,
+    // re-running a load duplicated every requirement and deadline — observed
+    // at 4 copies per programme while reloading as a crawl grew. Clearing
+    // this document's own prior rows first makes the load idempotent per
+    // source-document while leaving other sources' rows untouched.
+    await prisma.programRequirement.deleteMany({
+      where: { programId, primarySourceId: extraction.sourceId },
+    });
+    await prisma.applicationDeadline.deleteMany({
+      where: { programId, primarySourceId: extraction.sourceId },
+    });
+    // Safety net for an error a verbatim quote cannot catch: German grades run
+    // 1.0 (best) to 4.0, so a page saying "at least 2.7" means <= 2.7. The
+    // extractor corrects this too, but applying it here as well means the
+    // database is right regardless of which extractor version wrote the file.
+    const { requirements: programRequirements, corrected: gradesCorrected } =
+      normaliseGradeDirections(extractedProgram.requirements);
+    if (gradesCorrected > 0) {
+      result.gradeDirectionsCorrected += gradesCorrected;
+    }
+    for (const req of programRequirements) {
       await prisma.programRequirement.create({
         data: {
           programId,
@@ -256,7 +282,13 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
     const normalized = normalizeScholarship(extractedScholarship);
     result.warnings.push(...normalized.warnings);
 
-    const candidates = await matchScholarshipCandidates(prisma, normalized);
+    // Pass provenance so a fuzzy name match can't merge two scholarships this
+    // same source published at different URLs (see matchScholarshipCandidates).
+    const candidates = await matchScholarshipCandidates(prisma, {
+      ...normalized,
+      sourceId: extraction.sourceId,
+      sourceUrl: extractedScholarship.sourceUrl,
+    });
     const provenance = {
       primarySourceId: extraction.sourceId,
       sourceUrl: extractedScholarship.sourceUrl,
@@ -354,6 +386,55 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
       }
     }
 
+    // Same idempotency rule as programme sub-facts above: this source's own
+    // previous statements are replaced, other sources' rows are preserved.
+    await prisma.scholarshipEligibility.deleteMany({
+      where: { scholarshipId, primarySourceId: extraction.sourceId },
+    });
+    await prisma.applicationDeadline.deleteMany({
+      where: { scholarshipId, primarySourceId: extraction.sourceId },
+    });
+
+    // Applicability rules persist as ScholarshipEligibility rows using the
+    // existing criterion enums, so no new table or migration is needed and
+    // the matching engine can already read them. This is the input the
+    // scholarship->institution linking stage expands across the catalogue:
+    //   countries        -> COUNTRY_OF_STUDY IN_LIST
+    //   degreeLevels     -> DEGREE_LEVEL     IN_LIST
+    //   fieldCategories  -> FIELD_OF_STUDY   IN_LIST
+    //   institutionTypes -> UNIVERSITY       IN_LIST  (first real writer of
+    //                                                  that criterion type)
+    for (const rule of extractedScholarship.applicability) {
+      const dimensions: Array<[string, string[]]> = [
+        ["COUNTRY_OF_STUDY", rule.countries],
+        ["DEGREE_LEVEL", rule.degreeLevels],
+        ["FIELD_OF_STUDY", rule.fieldCategories],
+        ["UNIVERSITY", rule.institutionTypes],
+      ];
+      for (const [criterionType, valueList] of dimensions) {
+        // An empty dimension means "not stated" — never "applies to all".
+        if (valueList.length === 0) continue;
+        await prisma.scholarshipEligibility.create({
+          data: {
+            scholarshipId,
+            criterionType: criterionType as never,
+            operator: "IN_LIST",
+            valueList,
+            numericValue: null,
+            textValue: null,
+            description: rule.sourceQuote,
+            primarySourceId: extraction.sourceId,
+            sourceUrl: rule.sourceUrl ?? extractedScholarship.sourceUrl,
+            authorityLevel,
+            confidence: authorityLevel === "PRIMARY" ? 1 : authorityLevel === "SECONDARY" ? 0.75 : 0.5,
+            verified: authorityLevel === "PRIMARY",
+            verificationStatus: authorityLevel === "PRIMARY" ? "VERIFIED" : "UNVERIFIED",
+            lastVerifiedAt: authorityLevel === "PRIMARY" ? new Date() : null,
+          },
+        });
+      }
+    }
+
     for (const elig of extractedScholarship.eligibility) {
       await prisma.scholarshipEligibility.create({
         data: {
@@ -401,22 +482,72 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
 }
 
 async function runAsCli() {
-  const filePath = process.argv[2];
-  if (!filePath) {
-    console.error("Usage: tsx lib/pipeline/loadExtractedToDb.ts <path-to-extraction.json>");
+  const target = process.argv[2];
+  if (!target) {
+    console.error(
+      "Usage: tsx lib/pipeline/loadExtractedToDb.ts <extraction.json | directory>",
+    );
     process.exit(1);
   }
+
+  // Accept a directory so a whole source can be loaded in one process —
+  // spawning tsx once per file for a 149-file source costs minutes of
+  // startup alone.
+  const resolved = path.resolve(target);
+  const { stat, readdir } = await import("node:fs/promises");
+  const isDir = (await stat(resolved)).isDirectory();
+  const files = isDir
+    ? (await readdir(resolved))
+        .filter((f) => f.endsWith(".json"))
+        .map((f) => path.join(resolved, f))
+        .sort()
+    : [resolved];
+
   const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
   const prisma = new PrismaClient({ adapter });
+  const totals = {
+    files: 0,
+    failed: 0,
+    universitiesCreated: 0,
+    universitiesMerged: 0,
+    programsCreated: 0,
+    programsMerged: 0,
+    scholarshipsCreated: 0,
+    scholarshipsMerged: 0,
+    gradeDirectionsCorrected: 0,
+    warnings: [] as string[],
+  };
   try {
-    const result = await loadExtractedFile(prisma, path.resolve(filePath));
-    console.log(JSON.stringify(result, null, 2));
+    for (const file of files) {
+      try {
+        const r = await loadExtractedFile(prisma, file);
+        totals.files += 1;
+        totals.universitiesCreated += r.universitiesCreated;
+        totals.universitiesMerged += r.universitiesMerged;
+        totals.programsCreated += r.programsCreated;
+        totals.programsMerged += r.programsMerged;
+        totals.scholarshipsCreated += r.scholarshipsCreated;
+        totals.scholarshipsMerged += r.scholarshipsMerged;
+        totals.gradeDirectionsCorrected += r.gradeDirectionsCorrected;
+        totals.warnings.push(...r.warnings);
+      } catch (err) {
+        totals.failed += 1;
+        totals.warnings.push(`${path.basename(file)}: ${(err as Error).message}`);
+      }
+    }
+    console.log(
+      JSON.stringify(
+        { ...totals, warnings: totals.warnings.slice(0, 25), warningCount: totals.warnings.length },
+        null,
+        2,
+      ),
+    );
   } finally {
     await prisma.$disconnect();
   }
 }
 
-if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
+if (isCliEntrypoint(import.meta.url)) {
   runAsCli().catch((err) => {
     console.error(err);
     process.exit(1);

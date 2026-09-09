@@ -163,7 +163,9 @@ async function main() {
     },
   });
 
-  const tubMechEng = await prisma.program.upsert({
+  // Still seeded as a second programme for the demo university; nothing
+  // references it now that the invented funding links are gone.
+  await prisma.program.upsert({
     where: { dedupeKey: "de-tub-msc-mechanical-engineering" },
     update: {},
     create: {
@@ -480,39 +482,20 @@ async function main() {
     ],
   });
 
-  // --- Funding opportunities (explicit, sourced links) ----------------------
-  await prisma.fundingOpportunity.createMany({
-    skipDuplicates: true,
-    data: [
-      {
-        id: "fund-daad-tub-cs",
-        scholarshipId: daadScholarship.id,
-        universityId: tub.id,
-        programId: tubCompSci.id,
-        fundingType: "GOVERNMENT_SPONSORED",
-        coverageType: "FULL_FUNDING",
-        ...requirementProvenance(daad.id, daadScholarship.sourceUrl),
-      },
-      {
-        id: "fund-daad-tub-mech",
-        scholarshipId: daadScholarship.id,
-        universityId: tub.id,
-        programId: tubMechEng.id,
-        fundingType: "GOVERNMENT_SPONSORED",
-        coverageType: "FULL_FUNDING",
-        ...requirementProvenance(daad.id, daadScholarship.sourceUrl),
-      },
-      {
-        id: "fund-aalto-ccis",
-        scholarshipId: aaltoScholarship.id,
-        universityId: aalto.id,
-        programId: aaltoCcis.id,
-        fundingType: "OFFICIAL_UNIVERSITY_SCHOLARSHIP",
-        coverageType: "PARTIAL_TUITION",
-        ...requirementProvenance(aaltoSource.id, aaltoScholarship.sourceUrl),
-      },
-    ],
-  });
+  // --- Funding opportunities -----------------------------------------------
+  //
+  // Deliberately none.
+  //
+  // FundingOpportunity used to be seeded with three hand-written rows tying
+  // the DAAD and Aalto scholarships to specific programmes. They were fiction:
+  // no source states those links, and they made an empty table look populated,
+  // which is the one thing a provenance-first product must never do.
+  //
+  // Real rows come from `npm run link:build`, which expands each scholarship's
+  // own extracted eligibility rules across the catalogue and marks every row
+  // RULE_INFERENCE so the UI can present it as "may apply to". Explicit rows
+  // (linkMethod EXPLICIT_SOURCE) are written by the loader when a source
+  // actually names an institution.
 
   console.log("Seed complete:");
   console.log(`  Sources: ${await prisma.source.count()}`);
