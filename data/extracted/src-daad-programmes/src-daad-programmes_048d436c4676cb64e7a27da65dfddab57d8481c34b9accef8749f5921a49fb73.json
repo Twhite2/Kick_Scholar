@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:048d436c4676cb64e7a27da65dfddab57d8481c34b9accef8749f5921a49fb73",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:10.417Z",
+  "universities": [
+    {
+      "name": "University of Freiburg",
+      "country": "DE",
+      "city": "Freiburg im Breisgau",
+      "website": "https://uni-freiburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4590/",
+      "sourceQuote": "University of Freiburg • Freiburg im Breisgau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Freiburg",
+      "universityWebsite": "https://uni-freiburg.de/",
+      "name": "Binational Double Master's in Biomedical Sciences (IMBS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Binational Double Master's in Biomedical Sciences (IMBS)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4590/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4590/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

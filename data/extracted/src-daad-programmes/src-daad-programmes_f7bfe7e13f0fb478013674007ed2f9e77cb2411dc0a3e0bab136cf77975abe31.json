@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f7bfe7e13f0fb478013674007ed2f9e77cb2411dc0a3e0bab136cf77975abe31",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:20:36.106Z",
+  "universities": [
+    {
+      "name": "Bielefeld University",
+      "country": "DE",
+      "city": "Bielefeld",
+      "website": "https://www.uni-bielefeld.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3962/",
+      "sourceQuote": "Bielefeld University • Bielefeld"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bielefeld University",
+      "universityWebsite": "https://www.uni-bielefeld.de",
+      "name": "Bielefeld Graduate School in History and Sociology (BGHS)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Bielefeld Graduate School in History and Sociology (BGHS)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 54,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3962/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3962/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants should have an above-average degree in social sciences or the humanities, preferably in history, sociology, anthropology, or political science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

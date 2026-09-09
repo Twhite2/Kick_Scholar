@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f49f3aced94b44e62c8e2be273f5e65c2af57e109317fc6484d8f5a7c9358a30",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:30:13.065Z",
+  "universities": [
+    {
+      "name": "SRH University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.srh-university.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4638/",
+      "sourceQuote": "SRH University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "SRH University",
+      "universityWebsite": "https://www.srh-university.de/en/",
+      "name": "MBA Healthcare Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MBA Healthcare Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 7900,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4638/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4638/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Bachelor's degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "* Minimum of two years of relevant work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:32d48f380111283e555a14b1a4a94cf548af1b96a1c0e77fbf54c48cee651af9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:28.151Z",
+  "universities": [
+    {
+      "name": "Ansbach University of Applied Sciences",
+      "country": "DE",
+      "city": "Ansbach",
+      "website": "https://www.hs-ansbach.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4616/",
+      "sourceQuote": "Ansbach University of Applied Sciences • Ansbach"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ansbach University of Applied Sciences",
+      "universityWebsite": "https://www.hs-ansbach.de",
+      "name": "International Product and Service Management (IPM) International Product and Service Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Product and Service Management (IPM) International Product and Service Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4616/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4616/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree from a university is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The degree has to be related in terms of subject-specific content to the Master's programme \"International Product and Service Management\".",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Degrees in Business Administration or Industrial Engineering are considered to be content-related.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants have to prove a minimum of 30 ECTS in business-related courses from their previous studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants who are not able to prove knowledge in business can be admitted subject to the successful completion of business modules provided by the university's Bachelor's programmes within one year.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "A1",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "B2",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

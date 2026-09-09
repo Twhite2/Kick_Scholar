@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:dd0c586414c885ff4e64e310cc79ab7554377332f7b9c7984b0fa4834377d38c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:53.976Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Köln - University of Applied Sciences",
+      "country": "DE",
+      "city": "Gummersbach",
+      "website": "https://www.th-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3961/",
+      "sourceQuote": "Technische Hochschule Köln - University of Applied Sciences • Gummersbach"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Köln - University of Applied Sciences",
+      "universityWebsite": "https://www.th-koeln.de/",
+      "name": "Automation & IT (Master of Engineering)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Automation & IT (Master of Engineering)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3961/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3961/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For admission to the Master's programme \"Automation & IT\" (MEng), applicants are required to have successfully completed studies in the fields of electrical engineering or related fields (Bachelor's or comparable degree).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "<https://www.th-koeln.de/en/academics/automation--it-master--how-to-apply_6812.php>",
+          "intake": null,
+          "sourceQuote": "<https://www.th-koeln.de/en/academics/automation--it-master--how-to-apply_6812.php>",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

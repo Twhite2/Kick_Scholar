@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3a4945db61a6fcef6ae70e2c253e142ce073f78d0358cca40a884b121fae0041",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:04.484Z",
+  "universities": [
+    {
+      "name": "Mainz University of Applied Sciences",
+      "country": "DE",
+      "city": "Mainz",
+      "website": "https://www.hs-mainz.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4515/",
+      "sourceQuote": "Mainz University of Applied Sciences • Mainz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Mainz University of Applied Sciences",
+      "universityWebsite": "https://www.hs-mainz.de",
+      "name": "Master of Arts in International Management – Latin America International Management – Latin America",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in International Management – Latin America International Management – Latin America",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 30,
+      "instructionLanguages": [
+        "English Spanish"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4515/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4515/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in management or business, engineering, science, economics or business law",
+          "unit": null,
+          "sourceQuote": "* Bachelor's degree in management or business, engineering, science, economics or business law with above-average marks: minimum requirement: ECTS mark C, or a minimum average grade from the Bachelor's studies of 2.5 (according to the German grading system). Please hand in an official transcript of your grades from your Bachelor's studies along with your application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "* Bachelor's degree in management or business, engineering, science, economics or business law with above-average marks: minimum requirement: ECTS mark C, or a minimum average grade from the Bachelor's studies of 2.5 (according to the German grading system). Please hand in an official transcript of your grades from your Bachelor's studies along with your application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

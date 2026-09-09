@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:61b3f413baa09d823664e810d7d806d9bb873a5e4b6e69fedc612422fda156a4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:09.272Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7639/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "Computer Science (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computer Science (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English German"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7639/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7639/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The prerequisite for studying the Master's programme in Computer Science is a Bachelor's degree in Computer Science, in a related programme with essentially the same content, or in an equivalent degree with an overall grade of at least \"good\" (2.5) according to the German grading system.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:91e42228f2936d05ac023300d51b74656c29f43bd9e781033acf707cfb3f4f8f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:58.564Z",
+  "universities": [
+    {
+      "name": "University of Kassel",
+      "country": "DE",
+      "city": "Kassel",
+      "website": "https://www.uni-kassel.de/uni/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4412/",
+      "sourceQuote": "University of Kassel • Kassel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Kassel",
+      "universityWebsite": "https://www.uni-kassel.de/uni/",
+      "name": "MSc Renewable Energy and Energy Efficiency - Management, Engineering, and Application (REMENA) MSc Renewable Energy and Energy Efficiency (REMENA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Renewable Energy and Energy Efficiency - Management, Engineering, and Application (REMENA) MSc Renewable Energy and Energy Efficiency (REMENA)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4412/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4412/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL Essentials",
+          "operator": "GTE",
+          "value": "8",
+          "unit": null,
+          "sourceQuote": "TOEFL Essentials: 8",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "**15 July** for the following winter semester, i.e. start of studies in September in Monastir, Tunisia, or Hyderabad, India **15 January** for the following summer semester, i.e. start of studies in March in Kassel, Germany",
+          "intake": null,
+          "sourceQuote": "**15 July** for the following winter semester, i.e. start of studies in September in Monastir, Tunisia, or Hyderabad, India **15 January** for the following summer semester, i.e. start of studies in March in Kassel, Germany",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

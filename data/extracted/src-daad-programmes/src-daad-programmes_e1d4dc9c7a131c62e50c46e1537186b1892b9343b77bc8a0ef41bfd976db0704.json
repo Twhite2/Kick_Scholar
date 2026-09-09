@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e1d4dc9c7a131c62e50c46e1537186b1892b9343b77bc8a0ef41bfd976db0704",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:40.858Z",
+  "universities": [
+    {
+      "name": "FAU Erlangen-Nürnberg",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://www.fau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4016/",
+      "sourceQuote": "FAU Erlangen-Nürnberg • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FAU Erlangen-Nürnberg",
+      "universityWebsite": "https://www.fau.de/",
+      "name": "International Master's in Physical Activity and Health",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master's in Physical Activity and Health",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4016/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4016/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

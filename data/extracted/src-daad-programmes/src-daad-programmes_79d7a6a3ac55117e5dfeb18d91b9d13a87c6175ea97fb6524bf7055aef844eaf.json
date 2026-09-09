@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:79d7a6a3ac55117e5dfeb18d91b9d13a87c6175ea97fb6524bf7055aef844eaf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:21:27.093Z",
+  "universities": [
+    {
+      "name": "University of Hamburg",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.uni-hamburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4054/",
+      "sourceQuote": "University of Hamburg • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hamburg",
+      "universityWebsite": "https://www.uni-hamburg.de/",
+      "name": "European Doctorate in Law & Economics (EDLE)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "European Doctorate in Law & Economics (EDLE)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1800,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4054/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4054/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's degree (or German \"Diplom\") in law or economics, or an equivalent university degree",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Master's degree (or German \"Diplom\") in law or economics, or an equivalent university degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "  * Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

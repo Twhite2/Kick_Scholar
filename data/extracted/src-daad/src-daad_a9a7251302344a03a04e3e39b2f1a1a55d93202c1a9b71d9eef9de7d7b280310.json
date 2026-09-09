@@ -1,0 +1,117 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:a9a7251302344a03a04e3e39b2f1a1a55d93202c1a9b71d9eef9de7d7b280310",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:58.275Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Federal Environmental Foundation (DBU): Fellowship Programme with CEE Countries",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The DBU awards up to 50 fellowships per year for advanced qualification in all fields of environmental protection and nature conservation. Highly qualified graduates of all disciplines from the countries of Central and Eastern Europe (CEE) are welcome to apply. The DBU fellowships cover a 6–12 months stay at German host institutions: universities, research institutes, companies, environmental- and nature protection agencies and authorities, NGOs, associations, etc. During the fellowship practical solutions for current environmental issues are developed. After their stay in Germany the alumni are well qualified to tackle these issues in their home countries thus assuring efficient knowledge transfer.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000203",
+      "deadlineText": "Applications due by 5 September and 5 March every year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000203",
+      "sourceQuote": "Graduates of any discipline from specific countries in Central and Eastern Europe who make a relevant contribution in the fields of environmental protection and nature conservation in their home countries or EU member states. The eligible countries and regions in Central and Eastern Europe are: Albania, Bosnia and Herzegovina, Bulgaria, the Czech Republic, Croatia, Estonia, Hungary, Kosovo, Latvia…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Albania",
+            "Bosnia and Herzegovina",
+            "Bulgaria",
+            "the Czech Republic",
+            "Croatia",
+            "Estonia",
+            "Hungary",
+            "Kosovo",
+            "Latvia",
+            "Lithuania",
+            "North Macedonia",
+            "Moldova",
+            "Montenegro",
+            "Poland",
+            "Romania",
+            "Serbia",
+            "Slovakia",
+            "Slovenia",
+            "Ukraine"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The eligible countries and regions in Central and Eastern Europe are: Albania, Bosnia and Herzegovina, Bulgaria, the Czech Republic, Croatia, Estonia, Hungary, Kosovo, Latvia, Lithuania, North Macedonia, Moldova, Montenegro, Poland, Romania, Serbia, Slovakia, Slovenia and Ukraine.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Master or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Environmental protection",
+            "Nature conservation"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "all fields of environmental protection and nature conservation.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "above-average university degree obtained within the last 5 years",
+          "sourceQuote": "above-average university degree (Master or equivalent) obtained within the last 5 years",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED",
+            "ANY"
+          ],
+          "sourceQuote": "The DBU fellowships cover a 6–12 months stay at German host institutions: universities, research institutes, companies, environmental- and nature protection agencies and authorities, NGOs, associations, etc.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

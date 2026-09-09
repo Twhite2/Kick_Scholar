@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d1fbbeb1cace052051e884f90ad461e57959db225473f2361ba1f15d361506be",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:56:58.753Z",
+  "universities": [
+    {
+      "name": "Ruhr-Universität Bochum",
+      "country": "DE",
+      "city": "Bochum",
+      "website": "https://www.ruhr-uni-bochum.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6244/",
+      "sourceQuote": "Ruhr-Universität Bochum • Bochum"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ruhr-Universität Bochum",
+      "universityWebsite": "https://www.ruhr-uni-bochum.de/de",
+      "name": "Religious Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Religious Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6244/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6244/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA Degree in Religious Studies or equivalent",
+          "unit": null,
+          "sourceQuote": "BA Degree in Religious Studies or equivalent: The degree should prove a minimum of three years of university study in Religious Studies or a related discipline.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "credit points",
+          "sourceQuote": "According to the European Credit Transfer System (ECTS), this should account for 10 credit points in undergraduate studies or equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "credit points",
+          "sourceQuote": "Applicants must prove basic knowledge in the history of religion or in at least one religious tradition – to an amount of 10 credit points.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "**B1** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

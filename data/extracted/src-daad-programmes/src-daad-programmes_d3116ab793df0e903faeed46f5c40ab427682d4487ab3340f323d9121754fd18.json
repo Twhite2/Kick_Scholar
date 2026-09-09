@@ -1,0 +1,72 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d3116ab793df0e903faeed46f5c40ab427682d4487ab3340f323d9121754fd18",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:15.427Z",
+  "universities": [
+    {
+      "name": "Bielefeld University",
+      "country": "DE",
+      "city": "Bielefeld",
+      "website": "https://www.uni-bielefeld.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8399/",
+      "sourceQuote": "Bielefeld University • Bielefeld"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bielefeld University",
+      "universityWebsite": "https://www.uni-bielefeld.de",
+      "name": "Master's in Literature (BiRoLi)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Literature (BiRoLi)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8399/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8399/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B1** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "If you are already enrolled in Literary Studies in Bielefeld, please send the documents listed below to biroli@uni-bielefeld.de and/or to Dr Anna Lenz (anna.lenz@uni-bielefeld.de).",
+          "intake": null,
+          "sourceQuote": "If you are already enrolled in Literary Studies in Bielefeld, please send the documents listed below to biroli@uni-bielefeld.de and/or to Dr Anna Lenz (anna.lenz@uni-bielefeld.de).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,181 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:91468abfab4282cef4b86470d847ac2d24ee101d4b0ddfe74a1e4d3a4690418b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:36.458Z",
+  "universities": [
+    {
+      "name": "University of Oldenburg",
+      "country": "DE",
+      "city": "Oldenburg",
+      "website": "https://www.uol.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4712/",
+      "sourceQuote": "University of Oldenburg • Oldenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Oldenburg",
+      "universityWebsite": "https://www.uol.de",
+      "name": "Research Master's in Neurocognitive Psychology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Research Master's in Neurocognitive Psychology",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4712/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4712/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180 ECTS credits",
+          "unit": null,
+          "sourceQuote": "Applicants are eligible for admission if they have completed a Bachelor's degree of at least 180 ECTS credits (three year full-time study) in the fields of psychology, cognitive science, or in a related field with the emphasis of study on psychology and/or cognitive sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "90 credit points",
+          "unit": null,
+          "sourceQuote": "At least 90 credit points (equivalent to 1.5 years) must have been obtained in the area of psychology and/or cognitive sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "psychology, cognitive science, or in a related field with the emphasis of study on psychology and/or cognitive sciences",
+          "unit": null,
+          "sourceQuote": "Applicants are eligible for admission if they have completed a Bachelor's degree of at least 180 ECTS credits (three year full-time study) in the fields of psychology, cognitive science, or in a related field with the emphasis of study on psychology and/or cognitive sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "natural sciences, mathematics, informatics, audiology, or medicine",
+          "unit": null,
+          "sourceQuote": "Alternatively, students with a Bachelor's degree from other relevant fields (natural sciences, mathematics, informatics, audiology, or medicine) may apply.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5 credit points",
+          "unit": null,
+          "sourceQuote": "* 5 credit points (150 hours) in statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5 credit points",
+          "unit": null,
+          "sourceQuote": "* 5 credit points (150 hours) in experimental psychological or neuroscientific work (e.g. research internship, experimental Bachelor's thesis, research assistant work, experimental projects as part of your studies)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5 credit points",
+          "unit": null,
+          "sourceQuote": "* 5 credit points (150 hours) in biological psychology/neurosciences",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "three months",
+          "unit": "months",
+          "sourceQuote": "* at least three months of proven work experience or relevant scientific activities, e.g. as a student assistant or a Bachelor's thesis concerning neuropsychology, neurology, neurocognitive psychiatry, or cognitive and neurosciences",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2 credit points",
+          "unit": null,
+          "sourceQuote": "* documented programming experience of at least 2 credit points or 60 hours",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60 hours",
+          "unit": "hours",
+          "sourceQuote": "* documented programming experience of at least 2 credit points or 60 hours",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "four months",
+          "unit": "months",
+          "sourceQuote": "* proven stay abroad relevant to the study of at least four months",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "* English skills at level C1 or higher, proof not older than two years",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "six months",
+          "unit": "months",
+          "sourceQuote": "* at least six months of continuous proven, voluntary social involvement (e.g. committee work, year of voluntary social work)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

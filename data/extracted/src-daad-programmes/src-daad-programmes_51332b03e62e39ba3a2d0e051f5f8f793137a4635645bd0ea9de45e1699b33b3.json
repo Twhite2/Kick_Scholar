@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:51332b03e62e39ba3a2d0e051f5f8f793137a4635645bd0ea9de45e1699b33b3",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:43.428Z",
+  "universities": [
+    {
+      "name": "University of Koblenz",
+      "country": "DE",
+      "city": "Koblenz",
+      "website": "https://www.uni-koblenz.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4688/",
+      "sourceQuote": "University of Koblenz • Koblenz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Koblenz",
+      "universityWebsite": "https://www.uni-koblenz.de/de",
+      "name": "Material Science (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Material Science (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4688/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4688/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

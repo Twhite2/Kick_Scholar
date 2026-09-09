@@ -1,0 +1,81 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:dad7dd18fca031d892fc1a6401568c8a830fa7f8672489f0bd7eaf97b1111fd3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:11:28.976Z",
+  "universities": [
+    {
+      "name": "University of Passau",
+      "country": "DE",
+      "city": "Passau",
+      "website": "https://www.uni-passau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3644/",
+      "sourceQuote": "University of Passau • Passau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Passau",
+      "universityWebsite": "https://www.uni-passau.de/",
+      "name": "Master of Arts in European Studies MA European Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in European Studies MA European Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3644/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3644/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "To apply, you need a good first university degree in a humanities subject or social science, earned after a standard period of three years' full-time study, with the result of 2.5 or better according to the [German marking system](https://www.uni-passau.de/en/international/coming-to-passau/information-for-new-students/grading-scale/?mtm_campaign=DAADIPG) (or an equivalent grade in a foreign grading system) or be ranked among the best 50% of your cohort.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "To apply, you need a good first university degree in a humanities subject or social science, earned after a standard period of three years' full-time study, with the result of 2.5 or better according to the [German marking system](https://www.uni-passau.de/en/international/coming-to-passau/information-for-new-students/grading-scale/?mtm_campaign=DAADIPG) (or an equivalent grade in a foreign grading system) or be ranked among the best 50% of your cohort.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

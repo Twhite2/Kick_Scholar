@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:29ea7ae5bdad38f8cd3e6c4f7b5899b8873f73133c957a1b16b3e5aa3a62870e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:06.482Z",
+  "universities": [
+    {
+      "name": "University of Cologne",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.uni-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7682/",
+      "sourceQuote": "University of Cologne • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Cologne",
+      "universityWebsite": "https://www.uni-koeln.de/",
+      "name": "Management, Economics and Social Sciences - Bachelor of Science Management, Economics and Social Sciences - BSc",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Management, Economics and Social Sciences - Bachelor of Science Management, Economics and Social Sciences - BSc",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7682/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7682/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.: \n  * Deutsche Sprachprüfung für den Hochschulzugang (DSH): DSH-2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * Cambridge English Qualifications: B2 First \n  * IELTS Academic: 5.5 \n  * TOEFL iBT (since 2026): 4 \n  * Reading: 4 \n  * Listening: 4 \n  * Speaking: 4 \n  * Writing: 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

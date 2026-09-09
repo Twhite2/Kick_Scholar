@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2170591768b6e2ea900cc7f9cf23c1eed4c3cfdb8ca54008069512925068ab82",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:11.812Z",
+  "universities": [
+    {
+      "name": "Dresden University of Technology",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://tu-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4257/",
+      "sourceQuote": "Dresden University of Technology • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden University of Technology",
+      "universityWebsite": "https://tu-dresden.de/",
+      "name": "Nanoelectronic Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Nanoelectronic Systems",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4257/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4257/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "electrical engineering, information technology, physics, or similar",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in electrical engineering, information technology, physics, or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "advanced mathematics knowledge (multi-variable differential and integral calculus, probability and statistics)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "analogue and digital circuit design",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "electro-magnetic fields",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "systems theory (Fourier, Laplace, and Z transformations)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "operation and construction of basic electron devices (e.g. diode, bipolar, and MOS transistors)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "object-oriented programming (e.g. C++, JAVA)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

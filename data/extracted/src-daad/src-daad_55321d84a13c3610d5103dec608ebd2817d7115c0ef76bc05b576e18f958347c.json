@@ -1,0 +1,69 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:55321d84a13c3610d5103dec608ebd2817d7115c0ef76bc05b576e18f958347c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:25:02.761Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Herzog August Bibliothek: Short-term Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The library annually awards short-term fellowships to a broad range of scholars of all career stages (from postdoc to emeriti) wishing to make a short visit in order to gather source material. Applications can be made for stays of between 1 and 3 months. The monthly fellowship is 1,800 EUR. A travel subsidy will also be paid (between 150 and max. 650 EUR, depending on country of origin). The collection of books and manuscripts of Duke Augustus the Younger, together with numerous other collections, form the nucleus of the Wolfenbüttel research library. In the context of ongoing international research into the medieval and early modern periods the holdings are continuously augmented.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000183",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000183",
+      "sourceQuote": "scholars of all career stages (from postdoc to emeriti) from all areas of historical study from Germany and abroad carrying out research projects centred on the library's historical holdings",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "doctoral degree or academic equivalent",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "scholars of all career stages (from postdoc to emeriti)",
+          "sourceQuote": "scholars of all career stages (from postdoc to emeriti) from all areas of historical study from Germany and abroad carrying out research projects centred on the library's historical holdings",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "scholars of all career stages (from postdoc to emeriti) from all areas of historical study from Germany and abroad carrying out research projects centred on the library's historical holdings",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

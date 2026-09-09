@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:80695efaf9eb6a16459cc2251eff468f693e0aa5fb7b9c446774d7b5a8510cb9",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:13.691Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4623/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "IDEA League Joint Master's in Applied Geophysics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "IDEA League Joint Master's in Applied Geophysics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 8655,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4623/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4623/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

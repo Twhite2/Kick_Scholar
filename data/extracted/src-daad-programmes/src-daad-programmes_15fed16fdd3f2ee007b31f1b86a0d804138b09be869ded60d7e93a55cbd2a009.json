@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:15fed16fdd3f2ee007b31f1b86a0d804138b09be869ded60d7e93a55cbd2a009",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:13.816Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6505/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "Forest and Ecosystem Sciences (FES)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Forest and Ecosystem Sciences (FES)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6505/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6505/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "a professional degree (BSc or equivalent) in forestry or a related field (e.g. forestry or environmental sciences, resource or ecosystem management, life sciences or applied computer sciences) with very good to good results conferred by an institute of higher education or a similar qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "81",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 81",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

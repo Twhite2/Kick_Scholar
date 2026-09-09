@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:da8695af24ca1e2f3751f3d67eb087b8a46d914d1fb344a56fe63d26b7a8d920",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:00.648Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Ingolstadt",
+      "country": "DE",
+      "city": "Ingolstadt",
+      "website": "https://www.thi.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6092/",
+      "sourceQuote": "Technische Hochschule Ingolstadt • Ingolstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Ingolstadt",
+      "universityWebsite": "https://www.thi.de",
+      "name": "International Automotive Engineering (MEng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Automotive Engineering (MEng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1200,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6092/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6092/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (or equivalent) in an engineering discipline or in computer science",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in an engineering discipline or in computer science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In the second stage, motivation, professional qualifications, and communication skills are determined and assessed in an interview.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

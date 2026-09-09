@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3c6d6ae348025234030f11d69836246fd63318e22571ed59ad43cd8fee6e7d15",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:44:52.896Z",
+  "universities": [
+    {
+      "name": "Deggendorf Institute of Technology",
+      "country": "DE",
+      "city": "Pfarrkirchen",
+      "website": "https://www.th-deg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4600/",
+      "sourceQuote": "Deggendorf Institute of Technology • Pfarrkirchen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Deggendorf Institute of Technology",
+      "universityWebsite": "https://www.th-deg.de",
+      "name": "MSc Digital Health",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Digital Health",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4600/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4600/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "medicine, health and natural sciences or computer science/information science",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in the fields of medicine, health and natural sciences or computer science/information science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Passed aptitude process",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 76",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

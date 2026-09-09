@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:57034429429d56e1723a3be35d151fc512d58b3491b0a4c56f6a30eee1173dd8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:57:19.945Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Ingolstadt",
+      "country": "DE",
+      "city": "Ingolstadt",
+      "website": "https://www.thi.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6921/",
+      "sourceQuote": "Technische Hochschule Ingolstadt • Ingolstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Ingolstadt",
+      "universityWebsite": "https://www.thi.de",
+      "name": "Global Economics and Business Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Global Economics and Business Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 800,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6921/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6921/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Requirements include a valid university entrance qualification (\"Hochschulzugangsberechtigung\").",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

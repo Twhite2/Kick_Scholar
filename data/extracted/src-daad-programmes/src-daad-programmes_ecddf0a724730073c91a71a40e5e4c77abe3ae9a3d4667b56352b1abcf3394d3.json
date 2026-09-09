@@ -1,0 +1,80 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ecddf0a724730073c91a71a40e5e4c77abe3ae9a3d4667b56352b1abcf3394d3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:26.009Z",
+  "universities": [
+    {
+      "name": "University of Bamberg",
+      "country": "DE",
+      "city": "Bamberg",
+      "website": "https://www.uni-bamberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4477/",
+      "sourceQuote": "University of Bamberg • Bamberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bamberg",
+      "universityWebsite": "https://www.uni-bamberg.de/",
+      "name": "Double Degree Programme in Business Administration",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Double Degree Programme in Business Administration",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4477/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4477/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A prerequisite for participation in a double degree programme is admission to a degree programme in Bamberg.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

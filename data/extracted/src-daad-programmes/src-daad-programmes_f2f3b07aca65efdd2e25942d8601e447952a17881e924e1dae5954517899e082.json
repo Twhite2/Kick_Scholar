@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f2f3b07aca65efdd2e25942d8601e447952a17881e924e1dae5954517899e082",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:31:23.864Z",
+  "universities": [
+    {
+      "name": "Otto von Guericke University Magdeburg",
+      "country": "DE",
+      "city": "Magdeburg",
+      "website": "https://www.ovgu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4427/",
+      "sourceQuote": "Otto von Guericke University Magdeburg • Magdeburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Otto von Guericke University Magdeburg",
+      "universityWebsite": "https://www.ovgu.de/",
+      "name": "Digital Engineering (DigiEng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Digital Engineering (DigiEng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4427/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4427/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in an Engineering discipline or Computer Science",
+          "unit": null,
+          "sourceQuote": "The Master's degree programme targets students with a Bachelor's degree in an Engineering discipline or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "* UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "EQ",
+          "value": "telc English C1",
+          "unit": null,
+          "sourceQuote": "* telc English: telc English C1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "EQ",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 76",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

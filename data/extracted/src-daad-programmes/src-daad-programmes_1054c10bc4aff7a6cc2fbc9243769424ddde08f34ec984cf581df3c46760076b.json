@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1054c10bc4aff7a6cc2fbc9243769424ddde08f34ec984cf581df3c46760076b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:55.238Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7661/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "Applied Geosciences",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Applied Geosciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7661/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7661/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree in geosciences or a comparable degree is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

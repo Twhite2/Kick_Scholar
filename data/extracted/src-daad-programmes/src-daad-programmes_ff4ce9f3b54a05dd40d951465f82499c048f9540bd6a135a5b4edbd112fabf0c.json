@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ff4ce9f3b54a05dd40d951465f82499c048f9540bd6a135a5b4edbd112fabf0c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:42.092Z",
+  "universities": [
+    {
+      "name": "SRH University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.srh-university.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7010/",
+      "sourceQuote": "SRH University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "SRH University",
+      "universityWebsite": "https://www.srh-university.de/en/",
+      "name": "Photography (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Photography (MA)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4980,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7010/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7010/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": null,
+          "sourceQuote": "* **Two or three creative works** - you can also add more works to your portfolio.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Secondary school certificate",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Curriculum vitae",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Copy of your passport/ID",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c6cb911b9daaa520f45da14df3823bc2114149fb03822b3051ba7863491b6bb4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:13.363Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6223/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Anthropology of the Americas",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Anthropology of the Americas",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English Spanish"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6223/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6223/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "A Bachelor's degree in a socio- or cultural-anthropological subject, or an archaeological or historically oriented subject that pertains to Latin American studies or Spanish studies.",
+          "unit": null,
+          "sourceQuote": "Admission to the MA programme in Anthropology of the Americas requires a Bachelor's degree in a socio- or cultural-anthropological subject, or an archaeological or historically oriented subject that pertains to Latin American studies or Spanish studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants from other degree programmes must have obtained regional knowledge of the Americas (24 credits) achieved through separate studies or participation in events with an average grade of at least 2.3 (in the German grading system) in their previous studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

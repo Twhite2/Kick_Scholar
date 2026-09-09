@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b51ac621ae4c7f2cbca93755fa30cdf2578afc66684fe706b083d53661569e29",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:42.632Z",
+  "universities": [
+    {
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "country": "DE",
+      "city": "Rheinbach",
+      "website": "https://www.h-brs.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3779/",
+      "sourceQuote": "Hochschule Bonn-Rhein-Sieg • Rheinbach"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Bonn-Rhein-Sieg",
+      "universityWebsite": "https://www.h-brs.de",
+      "name": "Applied Biology (BSc)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Applied Biology (BSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3779/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3779/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Secondary school leaving certificate(s)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "University entry examination certificate (if this applies in the applicant's home country)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

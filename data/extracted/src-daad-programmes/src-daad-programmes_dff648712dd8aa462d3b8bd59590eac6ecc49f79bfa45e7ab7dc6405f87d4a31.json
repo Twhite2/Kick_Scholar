@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:dff648712dd8aa462d3b8bd59590eac6ecc49f79bfa45e7ab7dc6405f87d4a31",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:17.673Z",
+  "universities": [
+    {
+      "name": "Hannover Medical School",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.mhh.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6382/",
+      "sourceQuote": "Hannover Medical School • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hannover Medical School",
+      "universityWebsite": "https://www.mhh.de/",
+      "name": "PhD Programme Auditory Sciences",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PhD Programme Auditory Sciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6382/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6382/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

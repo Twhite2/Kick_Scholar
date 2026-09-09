@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d7bda17c9d6a74f87884d3093718e3f8f8b1329834f2f4faceb810840700e2c1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:21.463Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6880/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master of European and International Business, Competition and Regulatory Law (MBL-FU) Master of Business, Competition and Regulatory Law",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of European and International Business, Competition and Regulatory Law (MBL-FU) Master of Business, Competition and Regulatory Law",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4750,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6880/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6880/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "240",
+          "unit": "ECTS",
+          "sourceQuote": "Applicants must have obtained a first university degree, preferably in law, of at least 240 ECTS.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "Additionally, they need at least one year of postgraduate work experience, preferably in competition law, traditional regulated markets, digital markets, data protection and compliance and related fields.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

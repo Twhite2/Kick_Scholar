@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4ec15aca969f7b770e48550255f293d1c2709278dc6995dfd811e2cfc2de5251",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:51.134Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4149/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "Crop Protection (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Crop Protection (MSc)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4149/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4149/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

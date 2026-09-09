@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1d5ae13a7f6490988fe2284a328eb774808c1f77739f7d5523dd87f55525c95c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:06.679Z",
+  "universities": [
+    {
+      "name": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "sourceQuote": "Humboldt-Universität zu Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Humboldt-Universität zu Berlin",
+      "universityWebsite": "https://www.hu-berlin.de/",
+      "name": "Master of Science in Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6323/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS credits",
+          "sourceQuote": "Applicants must have specialised knowledge in economic subjects amounting to at least 60 ECTS credits (excluding methodological subject areas of mathematics, statistics, econometrics, and final (Bachelor's) theses).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "LTE",
+          "value": "30",
+          "unit": "ECTS credits",
+          "sourceQuote": "If the degree is still outstanding at the time of application, proof must be provided that no more than 30 ECTS credits are yet to be acquired.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "ECTS credits",
+          "sourceQuote": "At least 24 ECTS credits must have been earned in the methodological fields in mathematics, statistics, and econometrics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\nC1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

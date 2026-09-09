@@ -1,0 +1,98 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:defc18299c6a457053b711855a9c81f566186dbdec514328586c4e58001e947f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:32.689Z",
+  "universities": [
+    {
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "country": "DE",
+      "city": "Würzburg",
+      "website": "https://www.uni-wuerzburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6088/",
+      "sourceQuote": "Julius-Maximilians-Universität Würzburg • Würzburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Julius-Maximilians-Universität Würzburg",
+      "universityWebsite": "https://www.uni-wuerzburg.de",
+      "name": "Modern China, Bachelor of Arts (BA)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Modern China, Bachelor of Arts (BA)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6088/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6088/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Goethe-Zertifikat: Goethe-Zertifikat B2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TestDaF",
+          "operator": "EQ",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "Listening: TDN 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TestDaF",
+          "operator": "EQ",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "Speaking: TDN 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "DSH",
+          "operator": "EQ",
+          "value": "1",
+          "unit": null,
+          "sourceQuote": "Deutsche Sprachprüfung für den Hochschulzugang (DSH): DSH-1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Beginners in Chinese are asked to register for the Chinese language beginners intensive course by 15 August by e-mailing michael.leibold@uni-wuerzburg.de.",
+          "intake": null,
+          "sourceQuote": "Beginners in Chinese are asked to register for the Chinese language beginners intensive course by 15 August by e-mailing michael.leibold@uni-wuerzburg.de.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

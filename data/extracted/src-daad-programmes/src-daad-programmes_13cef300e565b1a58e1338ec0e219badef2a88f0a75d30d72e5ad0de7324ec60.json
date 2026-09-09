@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:13cef300e565b1a58e1338ec0e219badef2a88f0a75d30d72e5ad0de7324ec60",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:56.518Z",
+  "universities": [
+    {
+      "name": "EBS Universität für Wirtschaft und Recht",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.ebs.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3957/",
+      "sourceQuote": "EBS Universität für Wirtschaft und Recht • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "EBS Universität für Wirtschaft und Recht",
+      "universityWebsite": "https://www.ebs.edu",
+      "name": "Master's in Real Estate (MSc) Master's in Real Estate",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Real Estate (MSc) Master's in Real Estate",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3957/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3957/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree and transcripts in **any field of study** with at least 180 ECTS or an equivalent recognised qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language certificate",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language certificate (details below)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "Business Admissions Test (BAT)",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "EBSgrad Test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "Common Admissions Test (CAT)",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If your application documents meet our admission requirements, we will invite you to an individual interview.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language certificate",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before 30 June (for a start in the winter semester). For international applicants who require a visa, we recommend that you submit your application before 30 May (for a start in the winter semester).",
+          "intake": null,
+          "sourceQuote": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before 30 June (for a start in the winter semester). For international applicants who require a visa, we recommend that you submit your application before 30 May (for a start in the winter semester).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

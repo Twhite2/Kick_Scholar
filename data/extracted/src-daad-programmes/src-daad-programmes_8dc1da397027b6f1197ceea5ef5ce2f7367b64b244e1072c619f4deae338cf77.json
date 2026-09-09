@@ -1,0 +1,64 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8dc1da397027b6f1197ceea5ef5ce2f7367b64b244e1072c619f4deae338cf77",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:04.509Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7066/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master of Science in Data Science MSc Data Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Data Science MSc Data Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7066/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7066/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

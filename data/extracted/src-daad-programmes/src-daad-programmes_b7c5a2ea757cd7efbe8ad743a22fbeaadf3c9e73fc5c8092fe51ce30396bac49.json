@@ -1,0 +1,164 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b7c5a2ea757cd7efbe8ad743a22fbeaadf3c9e73fc5c8092fe51ce30396bac49",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:50.352Z",
+  "universities": [
+    {
+      "name": "Bavarian University of Business and Technology (HDBW)",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.hdbw-hochschule.com/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7944/",
+      "sourceQuote": "Bavarian University of Business and Technology (HDBW) • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bavarian University of Business and Technology (HDBW)",
+      "universityWebsite": "https://www.hdbw-hochschule.com/",
+      "name": "Digital Business Modelling and Entrepreneurship",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Digital Business Modelling and Entrepreneurship",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4790,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7944/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7944/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Business administration",
+          "unit": null,
+          "sourceQuote": "* Business administration",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Industrial engineering",
+          "unit": null,
+          "sourceQuote": "* Industrial engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "(Business) Information Technology",
+          "unit": null,
+          "sourceQuote": "* (Business) Information Technology",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Other courses of study on request",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* In case of a non-EU Bachelor's degree, a [\"Pre-Master\"](https://www.hdbw-hochschule.com/masters-degrees-munich/pre-master) is compulsory with one semester prep course for academic skills and German language and culture classes.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* However, full recognition is possible with a matching Bachelor's degree and more than three years of work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "EQ",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "* For a Bachelor's degree with 180 ECTS, individual agreements will be made before the start of the Master's programme to obtain the missing ECTS.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications Business (BEC)",
+          "operator": "GTE",
+          "value": "B2 Business Vantage",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications Business (BEC) : B2 Business Vantage",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL Essentials",
+          "operator": "GTE",
+          "value": "8",
+          "unit": null,
+          "sourceQuote": "* TOEFL Essentials: 8",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

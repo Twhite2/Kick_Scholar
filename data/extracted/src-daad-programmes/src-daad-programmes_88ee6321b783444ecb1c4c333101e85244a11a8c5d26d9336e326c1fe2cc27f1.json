@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:88ee6321b783444ecb1c4c333101e85244a11a8c5d26d9336e326c1fe2cc27f1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:23:39.386Z",
+  "universities": [
+    {
+      "name": "TU Dortmund University",
+      "country": "DE",
+      "city": "Dortmund",
+      "website": "https://www.tu-dortmund.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4300/",
+      "sourceQuote": "TU Dortmund University • Dortmund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "TU Dortmund University",
+      "universityWebsite": "https://www.tu-dortmund.de/",
+      "name": "Master of Science in Manufacturing Technology (MMT) Manufacturing Technology MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Manufacturing Technology (MMT) Manufacturing Technology MSc",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4300/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4300/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "An appropriate **Bachelor of Science degree in the field of mechanical engineering** or a comparable degree with a total of **180 credit points (ECTS).**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "credit points (ECTS)",
+          "sourceQuote": "1. **mathematics** , covering at least 15 credit points (ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "9",
+          "unit": "credit points (ECTS)",
+          "sourceQuote": "2. **mechanics** , covering at least 9 credit points (ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "credit points (ECTS)",
+          "sourceQuote": "3. **materials engineering, production engineering, theory of design, and/or metallurgy and feedback control** , totalling at least 15 credit points (ECTS) to be divided individually",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "50",
+          "unit": "credit points (ECTS)",
+          "sourceQuote": "A minimum of 50 credit points must have been earned across the subject areas listed in points 1–3.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "CEFR",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Proof of English language proficiency, at least at level B2 of the Common European Framework of Reference (CEFR).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

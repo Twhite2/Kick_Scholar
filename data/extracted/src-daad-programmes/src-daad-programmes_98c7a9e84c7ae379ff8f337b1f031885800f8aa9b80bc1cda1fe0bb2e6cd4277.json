@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:98c7a9e84c7ae379ff8f337b1f031885800f8aa9b80bc1cda1fe0bb2e6cd4277",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:23:24.750Z",
+  "universities": [
+    {
+      "name": "Hannover Medical School",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.mhh.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3968/",
+      "sourceQuote": "Hannover Medical School • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hannover Medical School",
+      "universityWebsite": "https://www.mhh.de/",
+      "name": "PhD Programme: Regenerative Sciences (PhD RegSci)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PhD Programme: Regenerative Sciences (PhD RegSci)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3968/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3968/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's degree or equivalent in life or natural sciences, human or veterinary medicine, or in an engineering discipline with a biomedical focus",
+          "unit": null,
+          "sourceQuote": "In order to be eligible for the programme, you need to hold a Master's degree or equivalent in life or natural sciences, human or veterinary medicine, or in an engineering discipline with a biomedical focus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, you need to have wet-lab research experience, be highly motivated, and have a well-documented interest in regenerative sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

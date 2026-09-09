@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:58939b01df157c7bedbef805fd46fae34acf9c3ce2fb70d4a682c9a8aff82f76",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:24.053Z",
+  "universities": [
+    {
+      "name": "FAU Erlangen-Nürnberg",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://www.fau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3729/",
+      "sourceQuote": "FAU Erlangen-Nürnberg • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FAU Erlangen-Nürnberg",
+      "universityWebsite": "https://www.fau.de/",
+      "name": "MSc Chemical and Biological Engineering (CBI)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Chemical and Biological Engineering (CBI)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3729/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3729/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Deadline for applications is**15 July****for the winter semester** and **15****January** for the **summer semester.** International students are advised to apply well before the respective application deadline.",
+          "intake": null,
+          "sourceQuote": "Deadline for applications is**15 July****for the winter semester** and **15****January** for the **summer semester.** International students are advised to apply well before the respective application deadline.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

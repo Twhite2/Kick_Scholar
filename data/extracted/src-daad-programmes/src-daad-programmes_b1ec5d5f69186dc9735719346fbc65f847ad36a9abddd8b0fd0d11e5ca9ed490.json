@@ -1,0 +1,208 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b1ec5d5f69186dc9735719346fbc65f847ad36a9abddd8b0fd0d11e5ca9ed490",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:30.157Z",
+  "universities": [
+    {
+      "name": "University of Bayreuth",
+      "country": "DE",
+      "city": "Bayreuth",
+      "website": "https://www.uni-bayreuth.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3658/",
+      "sourceQuote": "University of Bayreuth • Bayreuth"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bayreuth",
+      "universityWebsite": "https://www.uni-bayreuth.de/",
+      "name": "Global Change Ecology (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Change Ecology (MSc)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3658/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3658/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "biology",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "geography",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "geoecology",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "environmental science",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "international economics & development",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "philosophy & economics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "physics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "law",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "hydrology",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "meteorology",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "environmental physics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "environmental informatics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "landscape ecology",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "forestry science",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "agricultural science",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an excellent Bachelor's degree in biology, geography, geoecology, environmental science, international economics & development, philosophy & economics, physics, law or equivalent graduation such as hydrology, meteorology, environmental physics, environmental informatics, landscape ecology, forestry science, agricultural science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must successfully pass an aptitude assessment test consisting of two parts:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* a pre-selection by means of the application documents (motivation letter and Bachelor's transcript of records; non-European international applicants also need a VPD)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

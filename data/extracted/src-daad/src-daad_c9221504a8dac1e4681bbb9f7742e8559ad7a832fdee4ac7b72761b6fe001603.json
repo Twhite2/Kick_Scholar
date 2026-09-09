@@ -1,0 +1,67 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c9221504a8dac1e4681bbb9f7742e8559ad7a832fdee4ac7b72761b6fe001603",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:00.801Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Government Scholarships Programme Paraguay BECAL-DAAD Promotion **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Graduates receive a scholarship to complete a doctoral degree in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57549329",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57549329",
+      "sourceQuote": "Paraguayan graduates",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Paraguayan"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Paraguayan graduates",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Graduates receive a scholarship to complete a doctoral degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Graduates receive a scholarship to complete a doctoral degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:26ea545aff2e42e568fc5d97653258ae2265ab43f7e2f83f5edccd79ead52eb1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:00.623Z",
+  "universities": [
+    {
+      "name": "Paderborn University",
+      "country": "DE",
+      "city": "Paderborn",
+      "website": "https://www.uni-paderborn.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5616/",
+      "sourceQuote": "Paderborn University • Paderborn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Paderborn University",
+      "universityWebsite": "https://www.uni-paderborn.de/",
+      "name": "Master of Science in Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5616/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5616/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's in Computer Science or in a comparable Bachelor's programme",
+          "unit": null,
+          "sourceQuote": "Applicants need a Bachelor's in Computer Science or in a comparable Bachelor's programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "credits",
+          "sourceQuote": "The Bachelor's programme should contain at least 20 credits in Software Engineering, at least 20 credits in Theoretical Computer Science, at least 15 credits in Technical Informatics and at least 15 credits in Basic Mathematics of Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "credits",
+          "sourceQuote": "The Bachelor's programme should contain at least 20 credits in Software Engineering, at least 20 credits in Theoretical Computer Science, at least 15 credits in Technical Informatics and at least 15 credits in Basic Mathematics of Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "credits",
+          "sourceQuote": "The Bachelor's programme should contain at least 20 credits in Software Engineering, at least 20 credits in Theoretical Computer Science, at least 15 credits in Technical Informatics and at least 15 credits in Basic Mathematics of Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "credits",
+          "sourceQuote": "The Bachelor's programme should contain at least 20 credits in Software Engineering, at least 20 credits in Theoretical Computer Science, at least 15 credits in Technical Informatics and at least 15 credits in Basic Mathematics of Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LT",
+          "value": "3.0",
+          "unit": "German system",
+          "sourceQuote": "The Bachelor's grade must be below 3.0 in the German system (where 1.0 is best).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE Revised General Test",
+          "operator": "GTE",
+          "value": "157",
+          "unit": "points in Quantitative Reasoning",
+          "sourceQuote": "International applicants from non-EU countries need to provide a \"[GRE Revised General Test](https://www.ets.org/gre.html)\" certificate or a \"[digital master test (dMat)](https://www.d-mat.de/)\" certificate.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE Revised General Test",
+          "operator": "GTE",
+          "value": "4.0",
+          "unit": "points in Analytical Writing",
+          "sourceQuote": "International applicants from non-EU countries need to provide a \"[GRE Revised General Test](https://www.ets.org/gre.html)\" certificate or a \"[digital master test (dMat)](https://www.d-mat.de/)\" certificate.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "digital master test (dMat)",
+          "operator": "GTE",
+          "value": "50",
+          "unit": "percentile rank",
+          "sourceQuote": "International applicants from non-EU countries need to provide a \"[GRE Revised General Test](https://www.ets.org/gre.html)\" certificate or a \"[digital master test (dMat)](https://www.d-mat.de/)\" certificate.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6.5 ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 80 ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "75",
+          "unit": null,
+          "sourceQuote": "  * PTE Academic: 75",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

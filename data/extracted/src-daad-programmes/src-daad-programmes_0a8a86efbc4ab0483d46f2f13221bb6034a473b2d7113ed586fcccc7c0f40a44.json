@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0a8a86efbc4ab0483d46f2f13221bb6034a473b2d7113ed586fcccc7c0f40a44",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:05.487Z",
+  "universities": [
+    {
+      "name": "Leipzig University",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.uni-leipzig.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8354/",
+      "sourceQuote": "Leipzig University • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leipzig University",
+      "universityWebsite": "https://www.uni-leipzig.de",
+      "name": "Meteorology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Meteorology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8354/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8354/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**GENERAL QUALIFICATION** for the degree course is proven by a first professionally recognised degree qualification or a qualification from a state or state-recognised university of cooperative education (German \"Berufsakademie”).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**SUBJECT SPECIFIC REQUIREMENTS**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* a first professionally recognised degree qualification in natural sciences with at least two courses on basics in physics or higher mathematics or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* evidence that the applicant can achieve this qualification in the regular course of study by the start of the Master's degree course and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "* proof of knowledge of the English language at level B2 of the Common European Framework of Reference for Languages (or equivalent; see \"language requirements\").",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

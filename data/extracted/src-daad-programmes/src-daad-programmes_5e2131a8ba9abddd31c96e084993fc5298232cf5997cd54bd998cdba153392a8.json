@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5e2131a8ba9abddd31c96e084993fc5298232cf5997cd54bd998cdba153392a8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:22:09.922Z",
+  "universities": [
+    {
+      "name": "Technical University of Munich",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.tum.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3595/",
+      "sourceQuote": "Technical University of Munich • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Munich",
+      "universityWebsite": "https://www.tum.de",
+      "name": "Computational Mechanics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Mechanics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 6000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3595/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3595/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "65",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 65",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 88",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

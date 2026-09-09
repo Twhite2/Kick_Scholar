@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:baf6275f4d32c53dfe97c3435eb344fcedb232b6368b6577070e9e5684eddea3",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:32:41.593Z",
+  "universities": [
+    {
+      "name": "University of Hamburg",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.uni-hamburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4115/",
+      "sourceQuote": "University of Hamburg • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hamburg",
+      "universityWebsite": "https://www.uni-hamburg.de/",
+      "name": "Master of Science in Integrated Climate System Sciences (MSc ICSS) Integrated Climate System Sciences (ICSS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Integrated Climate System Sciences (MSc ICSS) Integrated Climate System Sciences (ICSS)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4115/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4115/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

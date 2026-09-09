@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:dc6dbdeea1125a4877086014c69e28bdec33c0f5a5117b9f3e960a78009e9a1a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:06.117Z",
+  "universities": [
+    {
+      "name": "University of Cologne",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.uni-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5448/",
+      "sourceQuote": "University of Cologne • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Cologne",
+      "universityWebsite": "https://www.uni-koeln.de/",
+      "name": "Double Master's Programme in Health Economics and Management - Master of Science Double Master's Programme in Health Economics and Management, MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Double Master's Programme in Health Economics and Management - Master of Science Double Master's Programme in Health Economics and Management, MSc",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5448/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5448/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.7",
+          "unit": "German grading system",
+          "sourceQuote": "Overall grade equivalent to at least 2.7 (German grading system) in the Bachelor's degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "35",
+          "unit": "ECTS credits",
+          "sourceQuote": "* at least 35 ECTS credits in the fields of Business Administration and/or Economics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "25",
+          "unit": "ECTS credits",
+          "sourceQuote": "* at least 25 ECTS credits in Health Care",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* at least 10 ECTS credits in Quantitative Methods",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "92",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 92",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

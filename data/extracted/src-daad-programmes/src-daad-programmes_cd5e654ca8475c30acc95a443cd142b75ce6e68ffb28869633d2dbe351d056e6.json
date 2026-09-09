@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cd5e654ca8475c30acc95a443cd142b75ce6e68ffb28869633d2dbe351d056e6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:37.540Z",
+  "universities": [
+    {
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "country": "DE",
+      "city": "Rheinbach",
+      "website": "https://www.h-brs.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3778/",
+      "sourceQuote": "Hochschule Bonn-Rhein-Sieg • Rheinbach"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Bonn-Rhein-Sieg",
+      "universityWebsite": "https://www.h-brs.de",
+      "name": "Biomedical Sciences (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Biomedical Sciences (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3778/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3778/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "GTE",
+          "value": "B2-C1 University",
+          "unit": null,
+          "sourceQuote": "telc English: telc English B2-C1 University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For applicants with a visa requirement and a Bachelor's degree from abroad who do not yet have a visa for Germany, applications can be submitted from 15 January to 1 March for the winter semester of the respective year exclusively via uni-assist.",
+          "intake": null,
+          "sourceQuote": "For applicants with a visa requirement and a Bachelor's degree from abroad who do not yet have a visa for Germany, applications can be submitted from 15 January to 1 March for the winter semester of the respective year exclusively via uni-assist.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

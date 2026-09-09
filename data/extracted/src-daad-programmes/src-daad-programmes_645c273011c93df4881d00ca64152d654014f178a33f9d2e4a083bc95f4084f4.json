@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:645c273011c93df4881d00ca64152d654014f178a33f9d2e4a083bc95f4084f4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:27.836Z",
+  "universities": [
+    {
+      "name": "SRH University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.srh-university.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7011/",
+      "sourceQuote": "SRH University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "SRH University",
+      "universityWebsite": "https://www.srh-university.de/en/",
+      "name": "Film, Television and Digital Narratives (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Film, Television and Digital Narratives (MA)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5950,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7011/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7011/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "GTE",
+          "value": "five to eight pieces of film work",
+          "unit": null,
+          "sourceQuote": "* **five to eight pieces of film work** (film, screenplay/exposé for a screenplay or film analysis, links to films can be integrated in a PDF file)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "uncommented list with five favourite films and series",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "secondary school certificate",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "letter of motivation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "curriculum vitae",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "copy of your passport/ID",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

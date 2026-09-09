@@ -1,0 +1,93 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:880d335f3374f34e297526f95ea51e82cb06d2c5952bf0162b9014489cde09ec",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:49.324Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Study Scholarships - Master Studies for All Academic Disciplines **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This scholarship programme offers you the opportunity to continue your academic education in Germany with a postgraduate course of study. The scholarships are funded by the German Federal Foreign Office.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026200",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026200",
+      "sourceQuote": "You can apply if you have completed your first degree (e.g. Bachelor’s or Diplom) at the latest by the time the funding period begins. **Please note: For applicants from artistic disciplines and the field of architecture (including Urban Design)** , the DAAD offers the following scholarship programmes: [Architecture](https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-stipendiendatenban…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "DIPLOMA"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You can apply if you have completed your first degree (e.g. Bachelor’s or Diplom) at the latest by the time the funding period begins.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "residency in Germany must not exceed 15 months at the application deadline",
+          "sourceQuote": "Your application **cannot** be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "proof of proficiency in the language of instruction is required; accepted tests depend on the language of instruction",
+          "sourceQuote": "When you **apply to the DAAD for a scholarship** , you must provide proof of your **level of proficiency in the language of instruction** (German, English, or German **and** English) in your chosen study programme.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "This scholarship programme offers you the opportunity to continue your academic education in Germany with a postgraduate course of study.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Please note: For applicants from artistic disciplines and the field of architecture (including Urban Design)** , the DAAD offers the following scholarship programmes:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

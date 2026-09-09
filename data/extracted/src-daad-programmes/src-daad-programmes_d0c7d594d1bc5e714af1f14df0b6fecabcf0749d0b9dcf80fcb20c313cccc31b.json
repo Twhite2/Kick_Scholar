@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d0c7d594d1bc5e714af1f14df0b6fecabcf0749d0b9dcf80fcb20c313cccc31b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:00.769Z",
+  "universities": [
+    {
+      "name": "University of Erfurt",
+      "country": "DE",
+      "city": "Erfurt",
+      "website": "https://www.uni-erfurt.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5408/",
+      "sourceQuote": "University of Erfurt • Erfurt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Erfurt",
+      "universityWebsite": "https://www.uni-erfurt.de/",
+      "name": "Global Communication: Politics and Society",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Communication: Politics and Society",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5408/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5408/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The prerequisite for admission to the programme is a **relevant Bachelor's degree** in the area of **media and communication studies** **or journalism studies** or another related social science degree programme with proven communication and media science specialisations.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, **prior knowledge of empirical methods** is necessary (12 ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to study in the programme requires the**successful participation in the selection procedure** , which includes a personal interview.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application period for the winter semester **starts on 1 January and ends 15 July**. All applications are submitted digitally via an [**online application portal**](https://hio.uni-erfurt.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces) and will be continually processed. **Early application** is strongly recommended given lengthy visa processes.",
+          "intake": null,
+          "sourceQuote": "The application period for the winter semester **starts on 1 January and ends 15 July**. All applications are submitted digitally via an [**online application portal**](https://hio.uni-erfurt.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces) and will be continually processed. **Early application** is strongly recommended given lengthy visa processes.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

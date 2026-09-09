@@ -1,0 +1,132 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:34b031e35406c25dff4f72ccaa46aaf9fec373efcc87c3df41283ca335db7e7e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:33.147Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Study Scholarships - Postgraduate Studies in the Field of the Performing Arts **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This scholarship programme offers you the opportunity to continue your education in Germany with a postgraduate or continuing course of study. The scholarships also promote the exchange of experience and networking amongst colleagues.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50109971",
+      "deadlineText": "Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50109971",
+      "sourceQuote": "You can apply if you have gained a first university degree in the field of the Performing Arts at the latest by the time you commence your scholarship-supported study programme.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "postgraduate or continuing course of study",
+          "sourceQuote": "You can apply if you have gained a first university degree in the field of the Performing Arts at the latest by the time you commence your scholarship-supported study programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "Performing Arts / arts",
+          "sourceQuote": "You can apply if you have gained a first university degree in the field of the Performing Arts at the latest by the time you commence your scholarship-supported study programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "full-time and attendance study; no extra-occupational, part-time, or predominant e-learning programmes",
+          "sourceQuote": "Prerequisite for the funding is a full-time and attendance study.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "not resident in Germany for longer than 15 months at the application deadline",
+          "sourceQuote": "Your application cannot be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "knowledge of the language of instruction required by the chosen university by the start of the scholarship",
+          "sourceQuote": "You should have the knowledge of the language of instruction which corresponds to the requirements of the chosen university at the latest by the time you start the scholarship.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "This scholarship programme offers you the opportunity to continue your education in Germany with a postgraduate or continuing course of study.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "a) Master's degree/Postgraduate degree course:",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "b) Complementary studies not leading to a final qualification:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

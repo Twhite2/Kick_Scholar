@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9f7ed9f594526c52e4ea5952ad40375a8afb4e397d108f237b6f32e0e33175da",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:29.870Z",
+  "universities": [
+    {
+      "name": "FAU Erlangen-Nürnberg",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://www.fau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4144/",
+      "sourceQuote": "FAU Erlangen-Nürnberg • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FAU Erlangen-Nürnberg",
+      "universityWebsite": "https://www.fau.de/",
+      "name": "MA English Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA English Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4144/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4144/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The academic prerequisite for admission to the programme is an undergraduate degree (BA or equivalent) in English and American Studies (or a related subject).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "For all applicants, the final grade in the qualifying degree must be 2.5 or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "  * Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

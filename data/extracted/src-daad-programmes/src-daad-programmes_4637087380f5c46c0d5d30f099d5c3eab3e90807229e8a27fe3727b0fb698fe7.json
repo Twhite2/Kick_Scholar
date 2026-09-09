@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4637087380f5c46c0d5d30f099d5c3eab3e90807229e8a27fe3727b0fb698fe7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:01.451Z",
+  "universities": [
+    {
+      "name": "Ruhr-Universität Bochum",
+      "country": "DE",
+      "city": "Bochum",
+      "website": "https://www.ruhr-uni-bochum.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7022/",
+      "sourceQuote": "Ruhr-Universität Bochum • Bochum"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ruhr-Universität Bochum",
+      "universityWebsite": "https://www.ruhr-uni-bochum.de/de",
+      "name": "History & Philosophy of Science and Logic (HPS+Logic)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "History & Philosophy of Science and Logic (HPS+Logic)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7022/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7022/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to the Master's programme is open to students who have completed at least six semesters of a Bachelor's programme with a focus on humanities or social sciences, or on mathematics, natural sciences or engineering and who have a special aptitude for the programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A further admission requirement is proof of",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "1. **Foundations in philosophy and/or history of science** (6 CP) and in **Logic** (6 CP).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "2. In the case of a degree with a mathematics/science or engineering focus, additional humanities and social science studies must be proven (30 CP).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In order to successfully apply to HPS+Logic, in addition to other documents, a motivational essay must be submitted in which the applicants explain why they want to study HPS+Logic (see [application details](https://www.hpsplus.org/application) on the homepage of the programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

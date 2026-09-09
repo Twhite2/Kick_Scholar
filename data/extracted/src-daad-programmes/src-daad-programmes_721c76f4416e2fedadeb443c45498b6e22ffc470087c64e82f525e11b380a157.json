@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:721c76f4416e2fedadeb443c45498b6e22ffc470087c64e82f525e11b380a157",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:16.321Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/5af1a18720cd0258616823.jpeg",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4372/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/5af1a18720cd0258616823.jpeg",
+      "name": "Economics and Finance (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Economics and Finance (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4372/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4372/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

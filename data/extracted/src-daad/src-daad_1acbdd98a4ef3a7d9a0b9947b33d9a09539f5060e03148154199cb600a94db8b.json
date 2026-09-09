@@ -1,0 +1,31 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:1acbdd98a4ef3a7d9a0b9947b33d9a09539f5060e03148154199cb600a94db8b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:12.855Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Overseas Scholarship Scheme for MSc leading to PhD **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "**> >>>> The information is available in German only. Therefore, please switch to the [German version](https://www2.daad.de/deutschland/stipendium/datenbank/de/21148-stipendiendatenbank/?status=&origin=&subjectGrps=&daad=&intention=&q=&page=13&detail=50015450)**.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015450",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015450",
+      "sourceQuote": "**> >>>> The information is available in German only. Therefore, please switch to the [German version](https://www2.daad.de/deutschland/stipendium/datenbank/de/21148-stipendiendatenbank/?status=&origin=&subjectGrps=&daad=&intention=&q=&page=13&detail=50015450)**.",
+      "eligibility": [],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

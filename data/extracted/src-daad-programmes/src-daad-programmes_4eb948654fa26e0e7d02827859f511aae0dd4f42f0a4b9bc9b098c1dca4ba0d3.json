@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4eb948654fa26e0e7d02827859f511aae0dd4f42f0a4b9bc9b098c1dca4ba0d3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:17:50.786Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Ingolstadt",
+      "country": "DE",
+      "city": "Ingolstadt",
+      "website": "https://www.thi.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7168/",
+      "sourceQuote": "Technische Hochschule Ingolstadt • Ingolstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Ingolstadt",
+      "universityWebsite": "https://www.thi.de",
+      "name": "Engineering and Management (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Engineering and Management (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1200,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7168/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7168/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of a Bachelor’s degree in industrial engineering, mechanical engineering, automotive engineering, aerospace engineering, electrical engineering, computer science or a degree in another engineering or technological discipline at university level with at least 210 ECTS credit points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission is based on the grade point average that applicants have received in their Bachelor's degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

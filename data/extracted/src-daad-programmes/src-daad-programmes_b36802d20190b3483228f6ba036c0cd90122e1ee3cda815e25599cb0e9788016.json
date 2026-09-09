@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b36802d20190b3483228f6ba036c0cd90122e1ee3cda815e25599cb0e9788016",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:22:11.966Z",
+  "universities": [
+    {
+      "name": "University of Passau",
+      "country": "DE",
+      "city": "Passau",
+      "website": "https://www.uni-passau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4336/",
+      "sourceQuote": "University of Passau • Passau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Passau",
+      "universityWebsite": "https://www.uni-passau.de/",
+      "name": "Digital Platform Ecosystems (DFG Research Training Group 2720) Digital Platform Ecosystems (DFG RTG 2720)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Digital Platform Ecosystems (DFG Research Training Group 2720) Digital Platform Ecosystems (DFG RTG 2720)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4336/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4336/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

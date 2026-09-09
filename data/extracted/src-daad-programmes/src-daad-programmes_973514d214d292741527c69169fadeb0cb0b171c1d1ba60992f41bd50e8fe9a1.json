@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:973514d214d292741527c69169fadeb0cb0b171c1d1ba60992f41bd50e8fe9a1",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:10.928Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Extraterrestrial Physics",
+      "country": "DE",
+      "city": "Garching b. München",
+      "website": "https://www.mpe.mpg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3907/",
+      "sourceQuote": "Max Planck Institute for Extraterrestrial Physics • Garching b. München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Extraterrestrial Physics",
+      "universityWebsite": "https://www.mpe.mpg.de",
+      "name": "IMPRS - International Max Planck Research School on Astrophysics IMPRS on Astrophysics",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "IMPRS - International Max Planck Research School on Astrophysics IMPRS on Astrophysics",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3907/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3907/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

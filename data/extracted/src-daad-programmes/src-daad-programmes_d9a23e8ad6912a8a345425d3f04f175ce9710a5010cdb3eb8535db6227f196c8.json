@@ -1,0 +1,81 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d9a23e8ad6912a8a345425d3f04f175ce9710a5010cdb3eb8535db6227f196c8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:05:53.148Z",
+  "universities": [
+    {
+      "name": "University of Greifswald",
+      "country": "DE",
+      "city": "Greifswald",
+      "website": "https://www.uni-greifswald.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6264/",
+      "sourceQuote": "University of Greifswald • Greifswald"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Greifswald",
+      "universityWebsite": "https://www.uni-greifswald.de/",
+      "name": "Language Diversity",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Language Diversity",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6264/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6264/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "First degree (BA or comparable) in Anglophone, German, Baltic, Finnish, Scandinavian or Slavic philologies or equivalent",
+          "unit": null,
+          "sourceQuote": "First degree (BA or comparable) in Anglophone, German, Baltic, Finnish, Scandinavian or Slavic philologies or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

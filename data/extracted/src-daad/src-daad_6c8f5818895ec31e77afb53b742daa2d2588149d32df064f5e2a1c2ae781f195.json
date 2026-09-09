@@ -1,0 +1,95 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:6c8f5818895ec31e77afb53b742daa2d2588149d32df064f5e2a1c2ae781f195",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:28.190Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Hanse-Wissenschaftskolleg (HWK): Funded Regular and Junior Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Hanse-Wissenschaftskolleg (HWK) in Delmenhorst is an Institute for Advanced Study in the Northwest of Germany. Its fellowship programme offers outstanding researchers the opportunity to focus on research without the distraction of everyday routines in academia, to interact with colleagues from other disciplines, and to benefit from a diverse and vibrant fellowship community. The HWK awards fellowships to highly qualified researchers of all career levels from postdoctoral to senior researchers. With these fellowships, the HWK supports interdisciplinary and international collaboration both, between its fellows and research institutions in Germany's northwest region, and within the community of fellows residing on the HWK campus. **What is funded** The HWK awards fellowships to highly qualified researchers of all career levels from postdoctoral to senior researchers. Regular fellowships are available for researchers whose PhD (or equivalent) has been awarded more than 5 years ago and who have already gained substantial professional experience in academia and research. Junior fellowships are available for early career researchers whose PhD has been awarded less than 5 years ago and who have gained first professional experience in academia and research. Both, a continuation of previous research activities, or starting a new strand of research by using the expertise in the northwest region, are welcome, this includes crossing disciplinary boundaries. We also accept applications…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000666",
+      "deadlineText": "15 July of any given year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000666",
+      "sourceQuote": "Outstanding scientists from almost all scientific disciplines and career levels (postgraduate level and above) from all parts of the world (except northwest Germany)",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "PhD or equivalent",
+          "sourceQuote": "PhD or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 5,
+          "textValue": "Regular fellowships are available for researchers whose PhD (or equivalent) has been awarded more than 5 years ago and who have already gained substantial professional experience in academia and research.",
+          "sourceQuote": "Regular fellowships are available for researchers whose PhD (or equivalent) has been awarded more than 5 years ago and who have already gained substantial professional experience in academia and research.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 5,
+          "textValue": "Junior fellowships are available for early career researchers whose PhD has been awarded less than 5 years ago and who have gained first professional experience in academia and research.",
+          "sourceQuote": "Junior fellowships are available for early career researchers whose PhD has been awarded less than 5 years ago and who have gained first professional experience in academia and research.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Outstanding scientists from almost all scientific disciplines and career levels (postgraduate level and above) from all parts of the world (except northwest Germany)",
+          "sourceQuote": "Outstanding scientists from almost all scientific disciplines and career levels (postgraduate level and above) from all parts of the world (except northwest Germany)",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "ARTS",
+            "HEALTH",
+            "LAW",
+            "EDUCATION",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The HWK awards fellowships to highly qualified researchers of all career levels from postdoctoral to senior researchers.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

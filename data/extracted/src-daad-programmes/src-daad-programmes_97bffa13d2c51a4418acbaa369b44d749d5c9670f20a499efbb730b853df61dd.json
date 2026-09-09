@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:97bffa13d2c51a4418acbaa369b44d749d5c9670f20a499efbb730b853df61dd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:06.199Z",
+  "universities": [
+    {
+      "name": "Leuphana University Lüneburg",
+      "country": "DE",
+      "city": "Lüneburg",
+      "website": "https://www.leuphana.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6961/",
+      "sourceQuote": "Leuphana University Lüneburg • Lüneburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leuphana University Lüneburg",
+      "universityWebsite": "https://www.leuphana.de/",
+      "name": "Psychology (BSc)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Psychology (BSc)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6961/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6961/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

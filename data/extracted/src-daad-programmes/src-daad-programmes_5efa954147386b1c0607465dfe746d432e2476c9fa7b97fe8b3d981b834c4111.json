@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5efa954147386b1c0607465dfe746d432e2476c9fa7b97fe8b3d981b834c4111",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:05.282Z",
+  "universities": [
+    {
+      "name": "htw saar - University of Applied Sciences",
+      "country": "DE",
+      "city": "Saarbrücken",
+      "website": "https://www.htwsaar.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6562/",
+      "sourceQuote": "htw saar - University of Applied Sciences • Saarbrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "htw saar - University of Applied Sciences",
+      "universityWebsite": "https://www.htwsaar.de/en/",
+      "name": "International Business",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6562/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6562/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* **University entrance qualification** (\"Hochschulzugangsbe­rechtigung\", \"HZB\") for German universities or German universities of applied sciences",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "**B1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

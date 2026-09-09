@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:aa76be7d491ac0e85109faf91579386e6fd04fc93c8c077f7cacf8f34249bccb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:01.453Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Foundation of German Business (sdw): Academic study sponsorship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Foundation of German Business (sdw) offers undergraduate and graduate students a vast number of opportunities ranging from various seminars and training programmes to financial support. Courses are held in German, so that candidates should have at least intermediate-level command of German (C1 or DSH 2). The Klaus Murmann Fellowship Programme is centred on a variety of political, economic and social issues with corporate responsibility being an underlying theme throughout the entire course. The foundation strongly encourages communication between the students and representatives from the fields of business, science, politics, culture and administration. Additional programmes are aimed at prospective teachers (Studienkolleg), students of childhood education (NicK – Nachwuchsinitiative chancengerechte Kitas), and at students with an affinity for media and business (markt. medien. machen).",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000119",
+      "deadlineText": "Current information on the application period can be found [here](https://www.sdw.org/bewerbung).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000119",
+      "sourceQuote": "Any (future) undergraduate or graduate student with a residence status as [per BAföG](https://www.baf%C3%B6g.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/_documents/bafoeg-auch-ohne-deutschen-pass.html) is welcome to apply.",
+      "eligibility": [
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "intermediate-level command of German (C1 or DSH 2)",
+          "sourceQuote": "Courses are held in German, so that candidates should have at least intermediate-level command of German (C1 or DSH 2).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students pursuing a Bachelor's, Master's, Diplom, Magister or state examination degree at state or state-recognised higher education institutions in Germany can apply for a scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "DE"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students pursuing a Bachelor's, Master's, Diplom, Magister or state examination degree at state or state-recognised higher education institutions in Germany can apply for a scholarship.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Students pursuing a Bachelor's, Master's, Diplom, Magister or state examination degree at state or state-recognised higher education institutions in Germany can apply for a scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Furthermore, a complete course of study abroad in a country close to the border can be funded, provided that you can credibly assure active and regular participation in one of the sdw's regional groups.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

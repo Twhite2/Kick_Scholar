@@ -1,0 +1,93 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:ac0e31a2878e58239e6bc486744086e06bafb259ce0b63c03ed8e8482127169d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:55.368Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Practical Traineeships for Foreign Students of Natural and Technical Sciences, Agriculture and Forestry (IAESTE) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "This programme aims to improve the professional and practical qualifications and intercultural skills of programme participants.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57352834",
+      "deadlineText": "Applicants should contact the IAESTE committee in their country of origin to find out the closing date for applications. Students interested in completing an internship in Germany from the above disciplines should contact the IAESTE national committee in their home country. The addresses of the national committees and other details are available on the IAESTE website: [www.iaeste.org](http://www.i…",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57352834",
+      "sourceQuote": "Students of Natural and Technical Sciences, Agriculture and Forestry who are enrolled in member countries of the **I** nternational **A** ssociation for the **E** xchange of **S** tudents for **T** echnical **E** xperience (IAESTE). Students from non-member countries can find out about application options here: [IAESTE A.s.b.l. Non Member Countries.](https://iaeste.org/student-nonmembers)",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "Natural and Technical Sciences, Agriculture and Forestry",
+          "sourceQuote": "Students of Natural and Technical Sciences, Agriculture and Forestry who are enrolled in member countries of the I nternational A ssociation for the E xchange of S tudents for T echnical E xperience (IAESTE).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "IAESTE member countries"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students of Natural and Technical Sciences, Agriculture and Forestry who are enrolled in member countries of the I nternational A ssociation for the E xchange of S tudents for T echnical E xperience (IAESTE).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Good knowledge of German or basic German with proficiency in English; in most cases good command of English",
+          "sourceQuote": "German language requirements vary significantly; some employers expect interns to have a good knowledge of German, others only basic German if the applicant is also proficient in English. In most cases, interns only need a good command of English.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "University enrolment during internship period",
+          "sourceQuote": "Applicants must be enrolled at a university throughout the internship period.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM",
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The internships in Germany are offered abroad exclusively through the respective IAESTE national committees, which in turn find internships for German university interns.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

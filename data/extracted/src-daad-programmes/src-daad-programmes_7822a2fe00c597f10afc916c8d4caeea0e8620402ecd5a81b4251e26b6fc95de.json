@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7822a2fe00c597f10afc916c8d4caeea0e8620402ecd5a81b4251e26b6fc95de",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:35.217Z",
+  "universities": [
+    {
+      "name": "University of Freiburg",
+      "country": "DE",
+      "city": "Freiburg im Breisgau",
+      "website": "https://uni-freiburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3736/",
+      "sourceQuote": "University of Freiburg • Freiburg im Breisgau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Freiburg",
+      "universityWebsite": "https://uni-freiburg.de/",
+      "name": "Master of Science in Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3736/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3736/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

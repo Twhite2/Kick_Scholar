@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ff3b2bc17c7edcff613d0a8805afc3da7bd154b1707283012eadb75a25b194ca",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:44.805Z",
+  "universities": [
+    {
+      "name": "University of Freiburg",
+      "country": "DE",
+      "city": "Freiburg im Breisgau",
+      "website": "https://uni-freiburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3734/",
+      "sourceQuote": "University of Freiburg • Freiburg im Breisgau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Freiburg",
+      "universityWebsite": "https://uni-freiburg.de/",
+      "name": "Environmental Governance (MEG)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Environmental Governance (MEG)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3734/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3734/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a BSc (or an equivalent first degree) with a grade well above average in one of the following fields:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "Applicants for DAAD EPOS scholarships for candidates from developing countries must have two years of work experience at the time of application, and the last university degree must not be older than six years.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

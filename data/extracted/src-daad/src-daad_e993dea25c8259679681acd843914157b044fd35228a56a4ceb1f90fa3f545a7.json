@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:e993dea25c8259679681acd843914157b044fd35228a56a4ceb1f90fa3f545a7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:53.159Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Future Network Weimar Triangle: Science for Europe - Postdoctoral researchers (to Germany) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme **“Future Network Weimar Triangle: Science for Europe”** aims to expand the political initiative “Weimar Triangle”, launched in 1991 by the foreign ministers of Germany, France, and Poland, to include a sustainable science platform (to promote trilateral cooperation between Germany, France, and Poland). The programme aims to develop innovative solutions to European and global challenges through joint research projects and to strengthen European integration and the European Research Area through networking and exchange.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57871508",
+      "deadlineText": "Application deadline: November 2, 2026 Selection period: January 2027 Funding begins: April - September 2027",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57871508",
+      "sourceQuote": "Exceptionally qualified researchers in all disciplines who wish to apply for a research stay up to 24 months in Germany and would like to get involved in one of the future-oriented topics listed below and are open to taking on the role of technical coordinator for one of the five working groups within the scholarship programme: **Technologies for climate-neutral energy production and mobility, as…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You must have completed your doctoral degree with excellent results before the start of the fellowship (at least magna cum laude/very good for a doctoral degree earned in Germany).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You must have completed your doctoral degree with excellent results before the start of the fellowship (at least magna cum laude/very good for a doctoral degree earned in Germany).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The letter of invitation from the host institution must confirm that the applicant possesses the language skills necessary to carry out the research project.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "ARTS",
+            "HEALTH",
+            "LAW",
+            "EDUCATION",
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The programme aims to develop innovative solutions to European and global challenges through joint research projects and to strengthen European integration and the European Research Area through networking and exchange.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

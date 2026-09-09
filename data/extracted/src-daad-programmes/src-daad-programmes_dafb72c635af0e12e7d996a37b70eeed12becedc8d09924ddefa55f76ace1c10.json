@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:dafb72c635af0e12e7d996a37b70eeed12becedc8d09924ddefa55f76ace1c10",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:23.452Z",
+  "universities": [
+    {
+      "name": "University of Potsdam",
+      "country": "DE",
+      "city": "Potsdam",
+      "website": "https://www.uni-potsdam.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7263/",
+      "sourceQuote": "University of Potsdam • Potsdam"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Potsdam",
+      "universityWebsite": "https://www.uni-potsdam.de",
+      "name": "Mathematics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mathematics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7263/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7263/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "57",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 57",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "57",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 57",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B1 Preliminary",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B1 Preliminary",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "UNIcert® I",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® I",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

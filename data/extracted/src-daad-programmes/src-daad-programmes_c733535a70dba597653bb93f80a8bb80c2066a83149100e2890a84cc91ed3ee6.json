@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c733535a70dba597653bb93f80a8bb80c2066a83149100e2890a84cc91ed3ee6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:35.094Z",
+  "universities": [
+    {
+      "name": "Leibniz University Hannover",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.uni-hannover.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4124/",
+      "sourceQuote": "Leibniz University Hannover • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leibniz University Hannover",
+      "universityWebsite": "https://www.uni-hannover.de/de/",
+      "name": "International Master of Science in Water Resources and Environmental Engineering (WATENV) Water Resources and Environmental Engineering (WATENV)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master of Science in Water Resources and Environmental Engineering (WATENV) Water Resources and Environmental Engineering (WATENV)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4124/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4124/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students must hold a Bachelor's degree in a field relevant to the WATENV Master's programme, e.g. civil engineering, environmental sciences, natural sciences or geosciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Basic knowledge in mathematics and water sciences (hydrology, hydraulics, sanitary engineering) is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 76",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "EQ",
+          "value": "telc English B2-C1 University",
+          "unit": null,
+          "sourceQuote": "telc English: telc English B2-C1 University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

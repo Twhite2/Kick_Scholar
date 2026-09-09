@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5c8fc96ed09a1b94225be7c27c71cad2b4e222e9ca26fb9f9e12f793bcd360d8",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:29.708Z",
+  "universities": [
+    {
+      "name": "Ludwig-Maximilians-Universität München",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.lmu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4205/",
+      "sourceQuote": "Ludwig-Maximilians-Universität München • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ludwig-Maximilians-Universität München",
+      "universityWebsite": "https://www.lmu.de",
+      "name": "MSc Psychology: Learning Sciences and Human Development",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Psychology: Learning Sciences and Human Development",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4205/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4205/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

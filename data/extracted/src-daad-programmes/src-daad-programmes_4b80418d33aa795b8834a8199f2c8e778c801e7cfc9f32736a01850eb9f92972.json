@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4b80418d33aa795b8834a8199f2c8e778c801e7cfc9f32736a01850eb9f92972",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:45.645Z",
+  "universities": [
+    {
+      "name": "University of Bayreuth",
+      "country": "DE",
+      "city": "Bayreuth",
+      "website": "https://www.uni-bayreuth.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8290/",
+      "sourceQuote": "University of Bayreuth • Bayreuth"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bayreuth",
+      "universityWebsite": "https://www.uni-bayreuth.de/",
+      "name": "Battery Materials and Technology (Master of Science) Battery Materials and Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Battery Materials and Technology (Master of Science) Battery Materials and Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8290/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8290/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Chemistry, Polymer and Colloid Chemistry, Biochemistry, Physics, Material Science and Materials Engineering, Engineering Science or an equivalent degree from another university",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree in any of the following subject areas: Chemistry, Polymer and Colloid Chemistry, Biochemistry, Physics, Material Science and Materials Engineering, Engineering Science or an equivalent degree from another university",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "22",
+          "unit": "credits",
+          "sourceQuote": "This must include the following academic credits (total 22 credits):",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "4",
+          "unit": "credits",
+          "sourceQuote": "* Chemistry (min. 4)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "credits",
+          "sourceQuote": "* Physics (min. 5) and Mathematics (min. 8) for a total of 18 credits",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "8",
+          "unit": "credits",
+          "sourceQuote": "* Physics (min. 5) and Mathematics (min. 8) for a total of 18 credits",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "150",
+          "unit": "credit points",
+          "sourceQuote": "For candidates awaiting results or completion of their Bachelor’s degree, the application can already be submitted if 150 out of a total of 180 credit points (i.e. 83.33% of total credit points depending on the system) are already achieved.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

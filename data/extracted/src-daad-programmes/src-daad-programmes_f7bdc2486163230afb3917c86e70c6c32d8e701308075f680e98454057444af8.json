@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f7bdc2486163230afb3917c86e70c6c32d8e701308075f680e98454057444af8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:30:04.660Z",
+  "universities": [
+    {
+      "name": "Bauhaus-Universität Weimar",
+      "country": "DE",
+      "city": "Weimar",
+      "website": "https://www.uni-weimar.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3612/",
+      "sourceQuote": "Bauhaus-Universität Weimar • Weimar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bauhaus-Universität Weimar",
+      "universityWebsite": "https://www.uni-weimar.de",
+      "name": "Natural Hazards and Risks in Structural Engineering (NHRE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Natural Hazards and Risks in Structural Engineering (NHRE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3612/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3612/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "a Bachelor of Science degree in civil engineering or an equivalent university degree, a degree from a college of public administration, or a degree from a government or accredited professional school",
+          "unit": null,
+          "sourceQuote": "The minimum qualification for admission to this programme is normally a Bachelor of Science degree in civil engineering or an equivalent university degree, a degree from a college of public administration, or a degree from a government or accredited professional school.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The examination committee must ensure that the candidate's prior degree is equivalent to that of the Bachelor's programme in civil engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "The final grade for the first professionally qualifying Bachelor of Science degree should generally be 2.5 or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If the first university degree is not based on a final academic project, the applicants must submit other academic work they have produced.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "DAAD-EPOS application via the campus portal: from 1 July, deadline: until 15 October of the previous year",
+          "intake": null,
+          "sourceQuote": "DAAD-EPOS application via the campus portal: from 1 July, deadline: until 15 October of the previous year",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d4d0ccabfca9b3396c4a6f3371e0e5e38784cefce88e276a3f53313230f681ad",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:05:22.343Z",
+  "universities": [
+    {
+      "name": "Stralsund University of Applied Sciences",
+      "country": "DE",
+      "city": "Stralsund",
+      "website": "https://www.hochschule-stralsund.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6453/",
+      "sourceQuote": "Stralsund University of Applied Sciences • Stralsund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Stralsund University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-stralsund.de",
+      "name": "BA International Management Studies in the Baltic Sea Region (BMS) BA International Management (BMS)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BA International Management Studies in the Baltic Sea Region (BMS) BA International Management (BMS)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6453/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6453/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German higher education entrance qualification or equivalent foreign qualification (secondary school leaving certificate)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

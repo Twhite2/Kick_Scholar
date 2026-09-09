@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cad101f804c5a30000c37fbbdd155779e7f06b4720c5ef4fc0ce2f5b153dabd6",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:45.147Z",
+  "universities": [
+    {
+      "name": "University of Kassel",
+      "country": "DE",
+      "city": "Kassel",
+      "website": "https://www.uni-kassel.de/uni/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3759/",
+      "sourceQuote": "University of Kassel • Kassel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Kassel",
+      "universityWebsite": "https://www.uni-kassel.de/uni/",
+      "name": "Electrical Communication Engineering (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Communication Engineering (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3759/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3759/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*For winter semester:**",
+          "intake": null,
+          "sourceQuote": "*For winter semester:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

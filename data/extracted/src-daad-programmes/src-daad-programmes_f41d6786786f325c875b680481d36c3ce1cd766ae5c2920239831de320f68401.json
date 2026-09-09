@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f41d6786786f325c875b680481d36c3ce1cd766ae5c2920239831de320f68401",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:15:47.880Z",
+  "universities": [
+    {
+      "name": "Dresden International University",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://www.di-uni.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4731/",
+      "sourceQuote": "Dresden International University • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden International University",
+      "universityWebsite": "https://www.di-uni.de",
+      "name": "Logistics Management (MBA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Logistics Management (MBA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5502,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4731/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4731/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "a first university degree equivalent according to 240 ECTS credit points or a degree completed after eight semesters, preferable in economics or business administration;",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "basic knowledge of economics if this was not part of your previous studies;",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "at least two years of professional experience in logistics, production, sales, controlling or IT;",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "6.0",
+          "unit": null,
+          "sourceQuote": "proof of English proficiency at a level comparable to IELTS 6.0, TOEFL PBT 550, or TOEFL iBT 79.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

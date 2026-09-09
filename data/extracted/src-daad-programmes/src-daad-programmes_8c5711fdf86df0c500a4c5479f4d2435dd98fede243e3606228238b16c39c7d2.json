@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8c5711fdf86df0c500a4c5479f4d2435dd98fede243e3606228238b16c39c7d2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:11.874Z",
+  "universities": [
+    {
+      "name": "FAU Erlangen-Nürnberg",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://www.fau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4684/",
+      "sourceQuote": "FAU Erlangen-Nürnberg • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FAU Erlangen-Nürnberg",
+      "universityWebsite": "https://www.fau.de/",
+      "name": "Master of Science Molecular Medicine MSc Molecular Medicine",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science Molecular Medicine MSc Molecular Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4684/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4684/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Molecular Medicine or a closely related area",
+          "unit": null,
+          "sourceQuote": "To be considered for admission, applicants must have a Bachelor's degree in Molecular Medicine or a closely related area.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with a Bachelor's degree from the field of life sciences must participate in an admission test.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Applicants must have a good working knowledge of English (B2), are required to provide appropriate evidence of their language skills (see below) and must provide evidence of at least eight weeks of experience in experimental laboratory work (e.g. experimental Bachelor's thesis).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "8",
+          "unit": "weeks",
+          "sourceQuote": "Applicants must have a good working knowledge of English (B2), are required to provide appropriate evidence of their language skills (see below) and must provide evidence of at least eight weeks of experience in experimental laboratory work (e.g. experimental Bachelor's thesis).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

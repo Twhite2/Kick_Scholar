@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:9b19a62150afdcf04994433dda1a21152a66fc29a7ce523523b717da711f5d77",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:17.105Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "HessenFonds for Refugees and Researchers at Risk",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "As part of the HessenFonds, the Hessian Ministry of Higher Education, Research, Science and the Arts provides scholarships for exceptionally talented and high achieving students and researchers with refugee status at public higher education institutions in Hessen. The funding shall enable them to continue their studies or their scientific career at a public higher education institution in Hessen. Funding is usually awarded for 1 year. Students are supported above all in the introductory phase of their studies.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000575",
+      "deadlineText": "The next deadline for nominations of the candidates at the ministry can be found [here](https://wissenschaft.hessen.de/studieren/international-students/hessenfonds-fuer-fluechtlinge/hessenfonds-for-refugees). Please note that the application deadline at the higher education institution that is relevant for applicants is some time before the deadline for the nomination at the ministry. Further info…",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000575",
+      "sourceQuote": "funding line for students, PhD students and researchers with refugee status and funding line for persecuted and endangered PhD students and researchers",
+      "eligibility": [
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "exceptionally talented and high achieving",
+          "sourceQuote": "As part of the HessenFonds, the Hessian Ministry of Higher Education, Research, Science and the Arts provides scholarships for exceptionally talented and high achieving students and researchers with refugee status at public higher education institutions in Hessen.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "refugee status",
+          "sourceQuote": "As part of the HessenFonds, the Hessian Ministry of Higher Education, Research, Science and the Arts provides scholarships for exceptionally talented and high achieving students and researchers with refugee status at public higher education institutions in Hessen.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC"
+          ],
+          "sourceQuote": "As part of the HessenFonds, the Hessian Ministry of Higher Education, Research, Science and the Arts provides scholarships for exceptionally talented and high achieving students and researchers with refugee status at public higher education institutions in Hessen.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC"
+          ],
+          "sourceQuote": "The funding shall enable them to continue their studies or their scientific career at a public higher education institution in Hessen.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

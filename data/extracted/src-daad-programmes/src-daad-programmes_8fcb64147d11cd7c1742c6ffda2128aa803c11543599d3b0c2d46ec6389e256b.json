@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8fcb64147d11cd7c1742c6ffda2128aa803c11543599d3b0c2d46ec6389e256b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:07.036Z",
+  "universities": [
+    {
+      "name": "Leipzig University",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.uni-leipzig.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7056/",
+      "sourceQuote": "Leipzig University • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leipzig University",
+      "universityWebsite": "https://www.uni-leipzig.de",
+      "name": "Advanced Spectroscopy in Chemistry (ASC)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Advanced Spectroscopy in Chemistry (ASC)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7056/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7056/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "1) FIRST APPLICATION SESSION:",
+          "intake": null,
+          "sourceQuote": "1) FIRST APPLICATION SESSION:",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

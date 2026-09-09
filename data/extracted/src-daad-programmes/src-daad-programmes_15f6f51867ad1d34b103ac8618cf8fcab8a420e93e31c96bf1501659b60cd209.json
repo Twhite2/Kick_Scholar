@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:15f6f51867ad1d34b103ac8618cf8fcab8a420e93e31c96bf1501659b60cd209",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:24.333Z",
+  "universities": [
+    {
+      "name": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4714/",
+      "sourceQuote": "Humboldt-Universität zu Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Humboldt-Universität zu Berlin",
+      "universityWebsite": "https://www.hu-berlin.de/",
+      "name": "MSc Global Change Geography – The Physical Geography of Human-Environment Systems MSc Global Change Geography",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Global Change Geography – The Physical Geography of Human-Environment Systems MSc Global Change Geography",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4714/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4714/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "International students applying via uni-assist must submit their applications between 18 May and 28 June. Students with a German degree applying directly through HU’s online portal must complete their application between 1 June and 31 August.",
+          "intake": null,
+          "sourceQuote": "International students applying via uni-assist must submit their applications between 18 May and 28 June. Students with a German degree applying directly through HU’s online portal must complete their application between 1 June and 31 August.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

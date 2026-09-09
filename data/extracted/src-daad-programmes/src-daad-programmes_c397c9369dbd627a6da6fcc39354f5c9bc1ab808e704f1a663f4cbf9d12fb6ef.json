@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c397c9369dbd627a6da6fcc39354f5c9bc1ab808e704f1a663f4cbf9d12fb6ef",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:13.495Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Emden/Leer",
+      "country": "DE",
+      "city": "Leer (Ostfriesland)",
+      "website": "https://www.hs-emden-leer.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6918/",
+      "sourceQuote": "University of Applied Sciences Emden/Leer • Leer (Ostfriesland)"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Emden/Leer",
+      "universityWebsite": "https://www.hs-emden-leer.de",
+      "name": "Nautical Science and Maritime Transport (Nautik und Seeverkehr) Nautical Science and Maritime Transport",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Nautical Science and Maritime Transport (Nautik und Seeverkehr) Nautical Science and Maritime Transport",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6918/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6918/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Fitness for sea services (medical competence – according to STCW)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For all applicants: 15 March for the summer semester (March to August).",
+          "intake": null,
+          "sourceQuote": "For all applicants: 15 March for the summer semester (March to August).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:08fab982236c82caaa0fcb87fa923e789bb6f6306bac2a9337919562889aa56d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:18.451Z",
+  "universities": [
+    {
+      "name": "University of Siegen",
+      "country": "DE",
+      "city": "Siegen",
+      "website": "https://www.uni-siegen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4591/",
+      "sourceQuote": "University of Siegen • Siegen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Siegen",
+      "universityWebsite": "https://www.uni-siegen.de",
+      "name": "Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4591/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4591/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in computer science or computer engineering",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in computer science or computer engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The responsible board of examiners will decide on the equivalence of degrees acquired at other higher education institutions or in other degree courses and on the suitability for the Master's programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:91e272c20a2e8e5e1b88be15bc50af7ba0d3f2bbb50b7191eff096069abd2131",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:08.578Z",
+  "universities": [
+    {
+      "name": "Technische Universität Ilmenau",
+      "country": "DE",
+      "city": "Ilmenau",
+      "website": "https://www.tu-ilmenau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4812/",
+      "sourceQuote": "Technische Universität Ilmenau • Ilmenau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Ilmenau",
+      "universityWebsite": "https://www.tu-ilmenau.de/",
+      "name": "Bachelor of Science in Biomedical Engineering",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor of Science in Biomedical Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4812/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4812/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

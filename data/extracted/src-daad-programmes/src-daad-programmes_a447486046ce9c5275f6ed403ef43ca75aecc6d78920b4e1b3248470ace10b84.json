@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a447486046ce9c5275f6ed403ef43ca75aecc6d78920b4e1b3248470ace10b84",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:46.079Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7641/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "Applied Data Science (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Applied Data Science (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7641/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7641/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "A Bachelor’s degree with at least 180 ECTS is needed.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "135",
+          "unit": "ECTS",
+          "sourceQuote": "If the degree has not yet been awarded, a minimum of 135 ECTS is required for application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS",
+          "sourceQuote": "At least 60 ECTS have to be successfully completed in the area of data science, computer science, statistics, mathematics or a related field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "45",
+          "unit": "ECTS",
+          "sourceQuote": "15 ECTS of the above requirements can be completed after admission, i.e. the minimum requirement for application is 45 ECTS.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "All applicants who are on the shortlist for the programme will be invited to a personal interview, conducted as a video call.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert",
+          "operator": "EQ",
+          "value": "III",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

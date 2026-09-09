@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f64296cb4aae733319b497eb463182d802bbe98246b7790123cade5f81c32465",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:36.829Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8271/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "MSc Materials Engineering (International Profile)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Materials Engineering (International Profile)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8271/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8271/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "engineering, physics, chemistry, or related fields",
+          "unit": null,
+          "sourceQuote": "The Master's programme in Materials Engineering (International profile) is aimed at national as well as international Bachelor's graduates from degree programmes in engineering, physics, chemistry, or related fields.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants have to provide evidence of a predefined number of credits in fundamental subjects – mathematics, physics, chemistry, etc. – as well as engineering subjects – mechanics, electric engineering, machine elements, etc. – as outlined in the examination rules.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills are required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

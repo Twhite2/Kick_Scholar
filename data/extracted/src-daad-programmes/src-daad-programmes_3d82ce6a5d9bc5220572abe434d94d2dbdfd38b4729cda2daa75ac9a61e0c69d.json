@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3d82ce6a5d9bc5220572abe434d94d2dbdfd38b4729cda2daa75ac9a61e0c69d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:07:02.388Z",
+  "universities": [
+    {
+      "name": "Goethe University Frankfurt",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.uni-frankfurt.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6899/",
+      "sourceQuote": "Goethe University Frankfurt • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Goethe University Frankfurt",
+      "universityWebsite": "https://www.uni-frankfurt.de/de",
+      "name": "Master of Arts Anthropology and its Franco-German Perspectives",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts Anthropology and its Franco-German Perspectives",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German French"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6899/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6899/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "BA degree in Anthropology or a degree in a related field of study",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "French",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "very good knowledge of German and French (oral examination)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "motivation letter (500 to 700 words)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "15 June at Goethe University (for students enrolling in Frankfurt)",
+          "intake": null,
+          "sourceQuote": "15 June at Goethe University (for students enrolling in Frankfurt)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,96 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:bee779d6b881a482b59142dc0bfb6c30a478047ce53d3d973d28e3d3e4258897",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:46.060Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Academic Scholarship Foundation: Doctoral Scholarships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "In line with its statutes, the Studienstiftung des deutschen Volkes (German Academic Scholarship Foundation) supports the university education of young people who, because of their exceptional academic or artistic talents and personal qualities, can be expected to make an outstanding contribution to society as a whole. Doctoral candidates can apply for a doctoral scholarship together with their supervisor. Doctoral scholars receive 1,750 EUR a month, health insurance grants and additional family and childcare allowances are also possible. Doctoral scholarship holders who travel abroad for research, laboratory visits or a conference attendance can apply to receive grants for travel and living expenses as well as tuition fees. Applications are welcome from international candidates who have been accepted to a doctoral programme at a German university where the thesis will also be submitted.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000406",
+      "deadlineText": "An application is possible at any time, there are no deadlines.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000406",
+      "sourceQuote": "highly qualified PhD students with a commitment to social causes",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates can apply for a doctoral scholarship together with their supervisor.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "exceptional academic or artistic talents and personal qualities",
+          "sourceQuote": "In line with its statutes, the Studienstiftung des deutschen Volkes (German Academic Scholarship Foundation) supports the university education of young people who, because of their exceptional academic or artistic talents and personal qualities, can be expected to make an outstanding contribution to society as a whole.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "international candidates"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applications are welcome from international candidates who have been accepted to a doctoral programme at a German university where the thesis will also be submitted.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "accepted to a doctoral programme at a German university where the thesis will also be submitted",
+          "sourceQuote": "Applications are welcome from international candidates who have been accepted to a doctoral programme at a German university where the thesis will also be submitted.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "last academic degree completed no longer than 4 years prior to submission of the application",
+          "sourceQuote": "The last academic degree should have been completed no longer than 4 years prior to submission of the application.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Applications are welcome from international candidates who have been accepted to a doctoral programme at a German university where the thesis will also be submitted.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

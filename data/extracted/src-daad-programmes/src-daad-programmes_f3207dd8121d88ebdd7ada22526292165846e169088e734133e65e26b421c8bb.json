@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f3207dd8121d88ebdd7ada22526292165846e169088e734133e65e26b421c8bb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:26:11.890Z",
+  "universities": [
+    {
+      "name": "University of Stuttgart",
+      "country": "DE",
+      "city": "Stuttgart",
+      "website": "https://www.uni-stuttgart.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4499/",
+      "sourceQuote": "University of Stuttgart • Stuttgart"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Stuttgart",
+      "universityWebsite": "https://www.uni-stuttgart.de/",
+      "name": "Integrated Urbanism and Sustainable Design (IUSD)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Integrated Urbanism and Sustainable Design (IUSD)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4499/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4499/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "architecture, urban planning, landscape architecture, regional planning, civil engineering",
+          "unit": null,
+          "sourceQuote": "Applicants from all over the world with an internationally recognised Bachelor's degree (or equivalent) in architecture, urban planning, landscape architecture, regional planning, or civil engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Professionals with Bachelor's degrees in geography, sociology, environmental management, political science, economics, cultural studies, or Arabic, African, or Islamic studies with relevant professional experience will also be considered, but they should also provide proof of relevant professional experience in fields related to architecture, urban and development planning, or infrastructure design.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application period always begins on 1 June of the year before the programme’s start.",
+          "intake": null,
+          "sourceQuote": "The application period always begins on 1 June of the year before the programme’s start.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

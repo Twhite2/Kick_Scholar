@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f04a3408a7388cbcd0d4e813ee820a8c50be9b266ca0860ec164faa2e78b1819",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:01.078Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3657/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "German-Italian Studies / Deutsch-Italienische Studien German-Italian Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "German-Italian Studies / Deutsch-Italienische Studien German-Italian Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German Italian"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3657/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3657/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor of Arts in German-Italian Studies or a similar subject as well as very good knowledge of Italian and German literature, linguistics and culture.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

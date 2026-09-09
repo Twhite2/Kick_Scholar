@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3ea0ab3eb7f4694dc3b8e71a097539fdce9d47de21224ed68fa4262a6990d8df",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:18:57.368Z",
+  "universities": [
+    {
+      "name": "University of Regensburg",
+      "country": "DE",
+      "city": "Regensburg",
+      "website": "https://www.uni-regensburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4463/",
+      "sourceQuote": "University of Regensburg • Regensburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Regensburg",
+      "universityWebsite": "https://www.uni-regensburg.de",
+      "name": "Graduate School for East and Southeast European Studies",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Graduate School for East and Southeast European Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4463/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4463/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Relevant Master's or equivalent degree with a very good overall grade",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Research project proposal related to Eastern or Southeastern Europe, to one of the graduate school's research areas, and to a discipline in which supervision can be offered",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

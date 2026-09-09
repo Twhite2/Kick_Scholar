@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:76af1a7114bd1c8caf63df154de381410a0a0c81f2c661703fb9ee0eadcd252c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:08:18.084Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Emden/Leer",
+      "country": "DE",
+      "city": "Emden",
+      "website": "https://www.hs-emden-leer.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7054/",
+      "sourceQuote": "University of Applied Sciences Emden/Leer • Emden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Emden/Leer",
+      "universityWebsite": "https://www.hs-emden-leer.de",
+      "name": "Business Intelligence and Data Analytics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Business Intelligence and Data Analytics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5980,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7054/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7054/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic requirements include a German \"Diplom\" degree, a Bachelor's degree, or an equivalent qualification with three and a half years of study in a technical field such as electrical engineering, mechanical engineering, chemical engineering, natural sciences, information science, etc.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "A minimum of one year of postgraduate full time work experience is compulsory.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

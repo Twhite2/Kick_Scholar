@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ac3c08cb36540b85d850b34bf257138761be824ae39d0217341774d35fa33554",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:19:52.641Z",
+  "universities": [
+    {
+      "name": "FAU Erlangen-Nürnberg",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://www.fau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3727/",
+      "sourceQuote": "FAU Erlangen-Nürnberg • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FAU Erlangen-Nürnberg",
+      "universityWebsite": "https://www.fau.de/",
+      "name": "Computational Engineering (CE), MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Engineering (CE), MSc",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3727/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3727/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

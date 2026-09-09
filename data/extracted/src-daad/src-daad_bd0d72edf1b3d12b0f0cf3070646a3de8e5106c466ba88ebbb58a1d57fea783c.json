@@ -1,0 +1,93 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:bd0d72edf1b3d12b0f0cf3070646a3de8e5106c466ba88ebbb58a1d57fea783c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:48.118Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Future Ukraine: Research Grants for Ukrainian Master´s students and researchers **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Funding of highly qualified Ukrainian graduates, doctoral candidates and postdoctoral researchers for short research stays in Germany in order to strengthen cooperation between Ukrainian and German universities and to give young Ukrainian scientists access to research infrastructures in Germany. The aim of the programme is to support universities in Ukraine and to enable young scientists to contribute to the reconstruction of Ukraine and its science landscape.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57650857",
+      "deadlineText": "Applications for research stays in 2027 are now possible until **10. December 2026**. Selection date in March 2027, start of the funding from May 2027",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57650857",
+      "sourceQuote": "Highly qualified Ukrainian graduate students (Master's students), doctoral students, postdoctoral researchers (postdocs, university teachers) working/enrolled in higher education institutions in Ukraine, regardless of the country in which they currently reside.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Ukrainian"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants must be enrolled in or work at a Ukrainian university or a state-recognized research institution and have the Ukrainian citizenship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Highly qualified Ukrainian graduate students (Master's students), doctoral students, postdoctoral researchers (postdocs, university teachers) working/enrolled in higher education institutions in Ukraine, regardless of the country in which they currently reside.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants must be enrolled in or work at a Ukrainian university or a state-recognized research institution and have the Ukrainian citizenship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Good knowledge of German and/or English",
+          "sourceQuote": "Good knowledge of German and/or English",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Funding of highly qualified Ukrainian graduates, doctoral candidates and postdoctoral researchers for short research stays in Germany in order to strengthen cooperation between Ukrainian and German universities and to give young Ukrainian scientists access to research infrastructures in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

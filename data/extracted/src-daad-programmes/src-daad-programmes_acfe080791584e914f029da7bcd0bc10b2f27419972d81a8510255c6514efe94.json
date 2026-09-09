@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:acfe080791584e914f029da7bcd0bc10b2f27419972d81a8510255c6514efe94",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:31.623Z",
+  "universities": [
+    {
+      "name": "Darmstadt University of Applied Sciences",
+      "country": "DE",
+      "city": "Dieburg",
+      "website": "https://h-da.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6195/",
+      "sourceQuote": "Darmstadt University of Applied Sciences • Dieburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Darmstadt University of Applied Sciences",
+      "universityWebsite": "https://h-da.de/",
+      "name": "Augmented and Virtual Reality Design (BA)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Augmented and Virtual Reality Design (BA)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6195/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6195/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In order to study Augmented and Virtual Reality Design, you will need a valid university entrance certificate.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If you do not have a university entrance certificate at all and do not expect to obtain one in the year of your application, you may apply for admission based on outstanding artistic aptitude.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The application procedure for the Bachelor's programme in Augmented and Virtual Reality Design at the University of Applied Sciences Darmstadt consists of a formal application and an artistic entrance examination, which you apply for separately.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

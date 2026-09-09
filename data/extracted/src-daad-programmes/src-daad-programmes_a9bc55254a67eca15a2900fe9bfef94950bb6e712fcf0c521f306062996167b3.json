@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a9bc55254a67eca15a2900fe9bfef94950bb6e712fcf0c521f306062996167b3",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:20.782Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4195/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "Computational Neuroscience",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Neuroscience",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4195/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4195/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

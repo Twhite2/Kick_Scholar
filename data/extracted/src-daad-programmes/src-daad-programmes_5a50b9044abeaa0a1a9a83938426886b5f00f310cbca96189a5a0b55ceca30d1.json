@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5a50b9044abeaa0a1a9a83938426886b5f00f310cbca96189a5a0b55ceca30d1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:06:07.284Z",
+  "universities": [
+    {
+      "name": "University of Münster",
+      "country": "DE",
+      "city": "Münster",
+      "website": "https://www.uni-muenster.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6983/",
+      "sourceQuote": "University of Münster • Münster"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Münster",
+      "universityWebsite": "https://www.uni-muenster.de",
+      "name": "Master of Science in Geophysics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Geophysics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6983/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6983/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in geophysics, physics, mathematically oriented geosciences, or a closely related subject",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree in geophysics, physics, mathematically oriented geosciences, or a closely related subject with a minimum grade of \"C\" according to ECTS",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C",
+          "unit": "ECTS",
+          "sourceQuote": "A Bachelor's degree in geophysics, physics, mathematically oriented geosciences, or a closely related subject with a minimum grade of \"C\" according to ECTS",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Credit points in an amount comparable to the Bachelor’s programme in geophysics offered at the University of Münster in the following fields: geophysics, physics and mathematics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

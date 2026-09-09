@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e53b63bdec32e399784c154cb74253b29261d61a4c17ec15b7a34e450565ac4d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:54.804Z",
+  "universities": [
+    {
+      "name": "Offenburg University of Applied Sciences",
+      "country": "DE",
+      "city": "Offenburg",
+      "website": "https://www.hs-offenburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5240/",
+      "sourceQuote": "Offenburg University of Applied Sciences • Offenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Offenburg University of Applied Sciences",
+      "universityWebsite": "https://www.hs-offenburg.de/",
+      "name": "Master of Science in Biotechnology (MBT) MSc in Biotechnology (MBT)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Biotechnology (MBT) MSc in Biotechnology (MBT)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5240/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5240/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A first, job-qualifying degree of at least three years of study, such as a Bachelor of Science or Bachelor of Engineering, is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "EQ",
+          "value": "top-third of graduates of your institution",
+          "unit": null,
+          "sourceQuote": "Academic excellence: You should be among the top-third of graduates of your institution.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "55",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 55",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "APS (only for applicants from India, China and Vietnam)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Willingness to integrate into an international environment in which different cultures, ideas, perspectives, and approaches will be encountered.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "31 March for non-EU residents",
+          "intake": null,
+          "sourceQuote": "31 March for non-EU residents",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

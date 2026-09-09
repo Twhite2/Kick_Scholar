@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5b02dc40d4f8bd34d66eb309af3571c66398d1edc18423b7b63dfbe781f5a125",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:03.602Z",
+  "universities": [
+    {
+      "name": "Heidelberg University",
+      "country": "DE",
+      "city": "Heidelberg",
+      "website": "https://www.uni-heidelberg.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4279/",
+      "sourceQuote": "Heidelberg University • Heidelberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heidelberg University",
+      "universityWebsite": "https://www.uni-heidelberg.de/de",
+      "name": "Master's Programme German Studies in Cultural Comparison",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's Programme German Studies in Cultural Comparison",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4279/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4279/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in modern languages",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "DSH",
+          "operator": "GTE",
+          "value": "DSH-2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.: \n  * Deutsche Sprachprüfung für den Hochschulzugang (DSH): DSH-2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B1** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

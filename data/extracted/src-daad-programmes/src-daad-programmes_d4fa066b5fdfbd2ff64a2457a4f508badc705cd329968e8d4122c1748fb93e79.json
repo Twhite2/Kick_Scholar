@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d4fa066b5fdfbd2ff64a2457a4f508badc705cd329968e8d4122c1748fb93e79",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:17.321Z",
+  "universities": [
+    {
+      "name": "University of Münster",
+      "country": "DE",
+      "city": "Münster",
+      "website": "https://www.uni-muenster.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3877/",
+      "sourceQuote": "University of Münster • Münster"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Münster",
+      "universityWebsite": "https://www.uni-muenster.de",
+      "name": "Geoinformatics and Spatial Data Science (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Geoinformatics and Spatial Data Science (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3877/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3877/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc in Geoinformatics or equivalent (a degree with substantial coursework in computer science or data science, as well as geosciences)",
+          "unit": null,
+          "sourceQuote": "BSc in Geoinformatics or equivalent (a degree with substantial coursework in computer science or data science, as well as geosciences)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "No minimum language level required",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

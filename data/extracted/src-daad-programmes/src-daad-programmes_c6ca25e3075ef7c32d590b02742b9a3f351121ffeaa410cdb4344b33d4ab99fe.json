@@ -1,0 +1,155 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c6ca25e3075ef7c32d590b02742b9a3f351121ffeaa410cdb4344b33d4ab99fe",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:34.207Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3699/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "Electrical Power Engineering — Major of Electrical Engineering and Information Technology Electrical Power Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Power Engineering — Major of Electrical Engineering and Information Technology Electrical Power Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3699/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3699/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In order to apply to the RWTH Master's programme in \"Electrical Engineering and Information Technology\" with a specialisation in Electrical Power Engineering, applicants must have completed their basic studies (Bachelor of Science, Bachelor of Engineering, or equivalent) at an internationally recognised university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "28",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 28 ECTS credits for advanced mathematics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 10 ECTS credits for physics and physical principles of electronic devices",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "34",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 34 ECTS credits for fundamentals of electrical engineering including circuit technology",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "8",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 8ECTS credits for informatics (computer science) and programming",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 10ECTS credits for fundamentals of control and mathematical systems theory",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 10ECTS credits for advanced electromagnetic field theory or theoretical information theory",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 20 ECTS credits for application-oriented courses",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition, at the time of application, all applicants are obliged to prove that they have taken the Graduate Record Examination (GRE) General Test.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to this Master's programme requires proof of adequate knowledge of the English language (see below).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

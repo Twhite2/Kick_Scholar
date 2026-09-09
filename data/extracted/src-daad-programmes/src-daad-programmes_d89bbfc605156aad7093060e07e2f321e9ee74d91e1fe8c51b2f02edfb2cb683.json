@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d89bbfc605156aad7093060e07e2f321e9ee74d91e1fe8c51b2f02edfb2cb683",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:30.193Z",
+  "universities": [
+    {
+      "name": "Kaiserslautern University of Applied Sciences",
+      "country": "DE",
+      "city": "Kaiserslautern",
+      "website": "https://www.hs-kl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4202/",
+      "sourceQuote": "Kaiserslautern University of Applied Sciences • Kaiserslautern"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kaiserslautern University of Applied Sciences",
+      "universityWebsite": "https://www.hs-kl.de",
+      "name": "Mechanical Engineering/Mechatronics (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mechanical Engineering/Mechatronics (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4202/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4202/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a Bachelor's degree (210 ECTS) with an overall grade/mark well above average (such as \"with distinction\", \"excellent\" depending on the grading scale) in",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with a degree of 180 ECTS (six semesters, three years) will require additional courses/credits of in total 30 ECTS before the start of their Master's thesis.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Professional experience after obtaining the Bachelor's degree is not formally required (except for applicants holding a degree from a university in India), but it will often strengthen the application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2d1675ca9749ef3ae4f3d0eff828f4826b46a5ab88dc67c13e53f45f23914441",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:09.044Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6346/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "PhD/MD-PhD Programme – Experimental Medicine",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PhD/MD-PhD Programme – Experimental Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6346/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6346/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Graduation from medical school (German \"Staatsexamen Humanmedizin\" or \"Staatsexamen Zahnmedizin\" or equivalent degree) or a Master of Science or a German diploma degree in the life sciences and related disciplines (e.g. biomedical sciences, biology, biochemistry, physics, chemistry, psychology, computer sciences, engineering)",
+          "unit": null,
+          "sourceQuote": "Graduation from medical school (German \"Staatsexamen Humanmedizin\" or \"Staatsexamen Zahnmedizin\" or equivalent degree) or a Master of Science or a German diploma degree in the life sciences and related disciplines (e.g. biomedical sciences, biology, biochemistry, physics, chemistry, psychology, computer sciences, engineering)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Acceptance by an authorised academic supervisor at the medical faculty, excellent academic grades in previous studies and some previous research experience are prerequisites.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

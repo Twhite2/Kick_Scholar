@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:16f5657b90a17032ee331353a48b44c2b307a0399bf8956c66cbfc66258aa3ac",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:35.526Z",
+  "universities": [
+    {
+      "name": "Justus Liebig University Giessen",
+      "country": "DE",
+      "city": "Gießen",
+      "website": "https://www.uni-giessen.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3695/",
+      "sourceQuote": "Justus Liebig University Giessen • Gießen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Justus Liebig University Giessen",
+      "universityWebsite": "https://www.uni-giessen.de/de",
+      "name": "International PhD Programme (IPP) Literary and Cultural Studies International PhD Programme Literary and Cultural Studies",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International PhD Programme (IPP) Literary and Cultural Studies International PhD Programme Literary and Cultural Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3695/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3695/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

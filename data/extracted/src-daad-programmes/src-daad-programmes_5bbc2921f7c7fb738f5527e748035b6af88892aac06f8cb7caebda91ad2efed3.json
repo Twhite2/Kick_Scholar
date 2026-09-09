@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5bbc2921f7c7fb738f5527e748035b6af88892aac06f8cb7caebda91ad2efed3",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:08.122Z",
+  "universities": [
+    {
+      "name": "Leipzig University",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.uni-leipzig.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4633/",
+      "sourceQuote": "Leipzig University • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leipzig University",
+      "universityWebsite": "https://www.uni-leipzig.de",
+      "name": "Master of Arts Anthropology MA Anthropology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts Anthropology MA Anthropology",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4633/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4633/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "All international applicants need to apply to both uni-assist and directly to the institute by 31 May. Only applications that have applied to both can be considered in the selection process.",
+          "intake": null,
+          "sourceQuote": "All international applicants need to apply to both uni-assist and directly to the institute by 31 May. Only applications that have applied to both can be considered in the selection process.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

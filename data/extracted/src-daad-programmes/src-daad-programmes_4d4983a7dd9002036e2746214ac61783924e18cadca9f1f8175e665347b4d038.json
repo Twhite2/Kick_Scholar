@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4d4983a7dd9002036e2746214ac61783924e18cadca9f1f8175e665347b4d038",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:41.757Z",
+  "universities": [
+    {
+      "name": "Ludwig-Maximilians-Universität München",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.lmu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7872/",
+      "sourceQuote": "Ludwig-Maximilians-Universität München • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ludwig-Maximilians-Universität München",
+      "universityWebsite": "https://www.lmu.de",
+      "name": "Master of Science in Astrophysics MSc Astrophysics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Astrophysics MSc Astrophysics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7872/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7872/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The application for the MSc Astrophysics requires a first professional university degree or an equivalent degree from Germany or abroad in one of the subject areas physics, astrophysics or in another mathematical-scientific subject area.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

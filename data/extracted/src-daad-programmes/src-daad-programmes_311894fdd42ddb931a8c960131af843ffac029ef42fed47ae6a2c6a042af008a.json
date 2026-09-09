@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:311894fdd42ddb931a8c960131af843ffac029ef42fed47ae6a2c6a042af008a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:19.419Z",
+  "universities": [
+    {
+      "name": "SRH University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.srh-university.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7804/",
+      "sourceQuote": "SRH University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "SRH University",
+      "universityWebsite": "https://www.srh-university.de/en/",
+      "name": "Film & Motion Design (BA)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Film & Motion Design (BA)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7804/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7804/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "General higher education entrance qualification (Abitur) or university of applied sciences entrance qualification (Fachhochschulreife)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Portfolio with about three to five works from the cinematic field",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Copy of your identity card or passport",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

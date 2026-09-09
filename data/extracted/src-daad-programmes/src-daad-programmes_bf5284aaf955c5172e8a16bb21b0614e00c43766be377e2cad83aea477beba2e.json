@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:bf5284aaf955c5172e8a16bb21b0614e00c43766be377e2cad83aea477beba2e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:23:09.979Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4334/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "English: Language, Literatures and Cultures",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "English: Language, Literatures and Cultures",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4334/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4334/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "BA degree in English Studies or a related subject (180 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "50",
+          "unit": "ECTS",
+          "sourceQuote": "A minimum of 50 ECTS in modules relating to English as an academic subject are required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The clear majority of these must be on subject-specific aspects (e.g. language theory, literary and cultural developments, history of English, literary theory), not on areas of use of English.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "93",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 93",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 76",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

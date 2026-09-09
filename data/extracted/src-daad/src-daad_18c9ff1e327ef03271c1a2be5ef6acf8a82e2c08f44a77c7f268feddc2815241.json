@@ -1,0 +1,67 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:18c9ff1e327ef03271c1a2be5ef6acf8a82e2c08f44a77c7f268feddc2815241",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:39.278Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Government Scholarships Programme Oman **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme supports students from the Sultanate of Oman.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000335",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000335",
+      "sourceQuote": "The programme is aimed at applicants with a secondary education diploma wishing to take a Bachelor degree in Germany.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Sultanate of Oman"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme supports students from the Sultanate of Oman.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is aimed at applicants with a secondary education diploma wishing to take a Bachelor degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The programme is aimed at applicants with a secondary education diploma wishing to take a Bachelor degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

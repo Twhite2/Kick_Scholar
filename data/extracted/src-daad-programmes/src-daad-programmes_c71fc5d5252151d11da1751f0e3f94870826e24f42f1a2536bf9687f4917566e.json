@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c71fc5d5252151d11da1751f0e3f94870826e24f42f1a2536bf9687f4917566e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:04.509Z",
+  "universities": [
+    {
+      "name": "Technical University of Munich",
+      "country": "DE",
+      "city": "Freising",
+      "website": "https://www.tum.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3769/",
+      "sourceQuote": "Technical University of Munich • Freising"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Munich",
+      "universityWebsite": "https://www.tum.de",
+      "name": "Sustainable Resource Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Resource Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3769/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3769/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a qualified Bachelor’s degree obtained after a programme of at least six semesters from a domestic or foreign institution of higher education or at least an equivalent degree in engineering, science, economics, or social sciences or comparable programmes.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT Home Edition (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "65",
+          "unit": null,
+          "sourceQuote": "  * PTE Academic: 65",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

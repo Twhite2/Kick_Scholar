@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c0cd8d359630ffc12e8926f03b45ea9bdeb7875c7692babd98d8ba73b07a7d1c",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:49.798Z",
+  "universities": [
+    {
+      "name": "Bremen University of Applied Sciences",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.hs-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4530/",
+      "sourceQuote": "Bremen University of Applied Sciences • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bremen University of Applied Sciences",
+      "universityWebsite": "https://www.hs-bremen.de/",
+      "name": "International MBA – Focus International Logistics & Supply Chain Management Intl. MBA: Focus Intl. Logistics & Supply Chain Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International MBA – Focus International Logistics & Supply Chain Management Intl. MBA: Focus Intl. Logistics & Supply Chain Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5833,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4530/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4530/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/international-logistics-supply-chain-management-focus.html).",
+          "intake": null,
+          "sourceQuote": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/international-logistics-supply-chain-management-focus.html).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

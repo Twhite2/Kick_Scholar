@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9efd9bb11381483e33bf1fe051e33835d7b7e09faa95bb066cd4b3319ecc7bca",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:19.118Z",
+  "universities": [
+    {
+      "name": "Ruhr-Universität Bochum",
+      "country": "DE",
+      "city": "Bochum",
+      "website": "https://www.ruhr-uni-bochum.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4330/",
+      "sourceQuote": "Ruhr-Universität Bochum • Bochum"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ruhr-Universität Bochum",
+      "universityWebsite": "https://www.ruhr-uni-bochum.de/de",
+      "name": "Master of Arts Programme in Ethics – Economics, Law and Politics MA Programme in Ethics – Economics, Law and Politics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts Programme in Ethics – Economics, Law and Politics MA Programme in Ethics – Economics, Law and Politics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4330/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4330/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "philosophy, economics, law or political science",
+          "unit": null,
+          "sourceQuote": "For admission to the programme, a first degree (university or college of higher education, e.g. Bachelor's degree, licentiate degree, state examination) in philosophy, economics, law or political science is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "65",
+          "unit": "ECTS",
+          "sourceQuote": "If the Bachelor's programme consisted of two subjects, 65 ECTS must have been acquired in one of the subjects relevant to the EELP programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition an admission essay is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries non-EU countries Iceland Norway Liechtenstein Switzerland United Kingdom",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries non-EU countries Iceland Norway Liechtenstein Switzerland United Kingdom",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

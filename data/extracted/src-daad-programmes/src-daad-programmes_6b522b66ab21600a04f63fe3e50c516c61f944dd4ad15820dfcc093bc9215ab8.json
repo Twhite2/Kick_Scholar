@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6b522b66ab21600a04f63fe3e50c516c61f944dd4ad15820dfcc093bc9215ab8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:29:02.897Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4519/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "Molecular Medicine (Master of Science)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Molecular Medicine (Master of Science)",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4519/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4519/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "1) a Bachelor's degree/first degree in molecular medicine or a recognised equivalent from an accredited institution with 240 ECTS points and with a final grade of at least 3.0 in the German grading system; equivalence is tested by the selection committee.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "credits",
+          "sourceQuote": "2) at least six credits in each of the following subjects: Immunology, Infection Biology, Oncology and Neurosciences",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

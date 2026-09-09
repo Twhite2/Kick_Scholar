@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7baa2a0ea84e95c3d0478f619ad9991ea72422c36dddfa99f142318e6e62f525",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:23:35.481Z",
+  "universities": [
+    {
+      "name": "Ruhr-Universität Bochum",
+      "country": "DE",
+      "city": "Bochum",
+      "website": "https://www.ruhr-uni-bochum.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3848/",
+      "sourceQuote": "Ruhr-Universität Bochum • Bochum"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ruhr-Universität Bochum",
+      "universityWebsite": "https://www.ruhr-uni-bochum.de/de",
+      "name": "Master of Arts in Development Management MA Development Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Development Management MA Development Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3848/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3848/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Above-average (upper second or equivalent) BA or relevant degree in political science, social science, law, economics, human geography, or in other subjects related to planning and evaluation of development programmes and projects",
+          "unit": null,
+          "sourceQuote": "* Above-average (upper second or equivalent) BA or relevant degree in political science, social science, law, economics, human geography, or in other subjects related to planning and evaluation of development programmes and projects",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Practical experience related to the management of development programmes and projects",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application deadlines for the 2028-30 intake of the MA in Development Management are:",
+          "intake": null,
+          "sourceQuote": "Application deadlines for the 2028-30 intake of the MA in Development Management are:",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,71 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:be5be1e1a8ac22cac7f90cc16aeaf767e71b5b7d58d0e95fa3d1b3b2d7f7ff1a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:57:26.598Z",
+  "universities": [
+    {
+      "name": "Saarland University",
+      "country": "DE",
+      "city": "Saarbrücken",
+      "website": "https://www.uni-saarland.de/start.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6080/",
+      "sourceQuote": "Saarland University • Saarbrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Saarland University",
+      "universityWebsite": "https://www.uni-saarland.de/start.html",
+      "name": "AMASE: Joint European Master's Programme in Advanced Materials Science and Engineering Advanced Materials Science and Engineering (AMASE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "AMASE: Joint European Master's Programme in Advanced Materials Science and Engineering Advanced Materials Science and Engineering (AMASE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6080/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6080/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc or equivalent in the fields of materials science and engineering, physics, chemistry, or another engineering discipline",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a BSc or equivalent in the fields of materials science and engineering, physics, chemistry, or another engineering discipline.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

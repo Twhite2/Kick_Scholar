@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a0e103c627185d77b8e59333bbfc83d7a3b1f9e5d9c253903db7e7bd6e2dfa5a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:15:22.018Z",
+  "universities": [
+    {
+      "name": "Ludwig-Maximilians-Universität München",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.lmu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4487/",
+      "sourceQuote": "Ludwig-Maximilians-Universität München • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ludwig-Maximilians-Universität München",
+      "universityWebsite": "https://www.lmu.de",
+      "name": "Master of Science in Geobiology and Palaeobiology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Geobiology and Palaeobiology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4487/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4487/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants to the programme must possess the equivalent of a Bachelor's degree (in a programme of at least six semesters' duration) with a sufficient grade in one of the following fields:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Physical geography",
+          "unit": null,
+          "sourceQuote": "  * Physical geography",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "or a related subject",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "A1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:62c7fcabc7d323369d28d92517695fc1d9192faa09495c7678ec86ff67441042",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:12.281Z",
+  "universities": [
+    {
+      "name": "RPTU University Kaiserslautern-Landau",
+      "country": "DE",
+      "city": "Kaiserslautern",
+      "website": "https://rptu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4818/",
+      "sourceQuote": "RPTU University Kaiserslautern-Landau • Kaiserslautern"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RPTU University Kaiserslautern-Landau",
+      "universityWebsite": "https://rptu.de/",
+      "name": "Automation & Control (A&C)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Automation & Control (A&C)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4818/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4818/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

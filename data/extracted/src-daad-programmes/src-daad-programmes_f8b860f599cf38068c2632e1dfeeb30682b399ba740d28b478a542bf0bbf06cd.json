@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f8b860f599cf38068c2632e1dfeeb30682b399ba740d28b478a542bf0bbf06cd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:03.057Z",
+  "universities": [
+    {
+      "name": "OWL University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Lemgo",
+      "website": "https://www.th-owl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3632/",
+      "sourceQuote": "OWL University of Applied Sciences and Arts • Lemgo"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "OWL University of Applied Sciences and Arts",
+      "universityWebsite": "https://www.th-owl.de",
+      "name": "Information Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Information Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3632/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3632/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application periods are published on [this website](https://www.th-owl.de/en/iat/study/course-offerings/degree-programs/detail/information-technology/).",
+          "intake": null,
+          "sourceQuote": "The application periods are published on [this website](https://www.th-owl.de/en/iat/study/course-offerings/degree-programs/detail/information-technology/).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

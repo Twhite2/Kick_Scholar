@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7c60dbbccd3c349eb6cade6526fb0c429578e3cd51f7a94a747fcc4294f68967",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:39.380Z",
+  "universities": [
+    {
+      "name": "HTW Berlin University of Applied Sciences",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.htw-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3797/",
+      "sourceQuote": "HTW Berlin University of Applied Sciences • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HTW Berlin University of Applied Sciences",
+      "universityWebsite": "https://www.htw-berlin.de",
+      "name": "Master of International and Development Economics (MIDE) International and Development Economics (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of International and Development Economics (MIDE) International and Development Economics (MA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3797/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3797/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:60370166b87fbd29081007069aa2d15519256fe18c5a6242e6e3bffa9cc69fa6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:09:38.058Z",
+  "universities": [
+    {
+      "name": "Leipzig University",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.uni-leipzig.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8355/",
+      "sourceQuote": "Leipzig University • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leipzig University",
+      "universityWebsite": "https://www.uni-leipzig.de",
+      "name": "Earth System Data Science and Remote Sensing",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Earth System Data Science and Remote Sensing",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8355/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8355/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "BSc in a geoscience, environmental science or data science related science programme",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "35",
+          "unit": "ECTS",
+          "sourceQuote": "Minimum 35 ECTS from the areas geography, earth system and geosciences, environmental sciences, life science, data science, remote sensing or GIS",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "ECTS",
+          "sourceQuote": "Basic knowledge in statistics (minimum 5 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Basic skills in a scripting-language for scientific computing or a programming language (e.g. Python, R, Julia, etc.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English level B2 (also see \"language requirements\")",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f6556349ab3bf69f0f0b4b1fcd769313244a45edc88fc780834959b44eb5ea7c",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:54.742Z",
+  "universities": [
+    {
+      "name": "Hannover Medical School",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.mhh.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3967/",
+      "sourceQuote": "Hannover Medical School • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hannover Medical School",
+      "universityWebsite": "https://www.mhh.de/",
+      "name": "PhD Programme: Infection Biology (ZIB)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PhD Programme: Infection Biology (ZIB)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3967/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3967/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

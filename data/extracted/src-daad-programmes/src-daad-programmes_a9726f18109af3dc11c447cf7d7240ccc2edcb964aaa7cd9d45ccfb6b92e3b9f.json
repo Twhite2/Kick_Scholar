@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a9726f18109af3dc11c447cf7d7240ccc2edcb964aaa7cd9d45ccfb6b92e3b9f",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:58.640Z",
+  "universities": [
+    {
+      "name": "Hochschule München University of Applied Sciences",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.hm.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3627/",
+      "sourceQuote": "Hochschule München University of Applied Sciences • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule München University of Applied Sciences",
+      "universityWebsite": "https://www.hm.edu",
+      "name": "Master of Engineering in Paper Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Engineering in Paper Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3627/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3627/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

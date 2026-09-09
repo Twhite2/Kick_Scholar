@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e8f6a63e317a1eee67d6357fa25110991603c9d9ee3ee5bdc2d426f96be99937",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:44.660Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.uni-kiel.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6148/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.uni-kiel.de/de/",
+      "name": "Master of Science in Computer Science MSc Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Computer Science MSc Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6148/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6148/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to our Master's programme is only possible with a Bachelor's degree in computer science that is comparable to the Bachelor's degree in computer science awarded by our department.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants whose previous degrees do not exactly match the requirements but cover a significant portion of them may be invited to participate in an online exam to determine their suitability for the programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "43",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 43",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "3",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 3",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "43",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 43",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

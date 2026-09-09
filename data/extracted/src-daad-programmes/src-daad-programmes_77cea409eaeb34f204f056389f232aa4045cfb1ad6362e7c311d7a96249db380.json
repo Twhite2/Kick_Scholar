@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:77cea409eaeb34f204f056389f232aa4045cfb1ad6362e7c311d7a96249db380",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:40.148Z",
+  "universities": [
+    {
+      "name": "Max-Planck-Zentrum für Physik und Medizin",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://mpzpm.mpg.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8542/",
+      "sourceQuote": "Max-Planck-Zentrum für Physik und Medizin • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max-Planck-Zentrum für Physik und Medizin",
+      "universityWebsite": "https://mpzpm.mpg.de/de/",
+      "name": "International Max Planck Research School — Physics and Medicine (IMPRS-PM) IMPRS Physics and Medicine",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Max Planck Research School — Physics and Medicine (IMPRS-PM) IMPRS Physics and Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8542/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8542/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in physics, biology or medicine",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

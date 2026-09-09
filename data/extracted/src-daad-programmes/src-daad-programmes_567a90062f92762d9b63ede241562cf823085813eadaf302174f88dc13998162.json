@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:567a90062f92762d9b63ede241562cf823085813eadaf302174f88dc13998162",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:11.285Z",
+  "universities": [
+    {
+      "name": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH)",
+      "country": "DE",
+      "city": "Weiden in der Oberpfalz",
+      "website": "https://www.oth-aw.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7702/",
+      "sourceQuote": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH) • Weiden in der Oberpfalz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH)",
+      "universityWebsite": "https://www.oth-aw.de",
+      "name": "Digital Technology and Management (BSc) Digital Technology and Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Digital Technology and Management (BSc) Digital Technology and Management",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7702/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7702/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants from outside the European Union need to have their school leaving certificate, diploma or degree verified by an independent organisation (e.g. [uni-assist](https://www.uni-assist.de/)) before applying to the university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Only for Indian students: The APS certificate is mandatory before uni-assist will provide you with your Vorprüfungsdokumentation/VPD.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Winter semester application period:**",
+          "intake": null,
+          "sourceQuote": "*Winter semester application period:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

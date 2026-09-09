@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5da642f41a8beb1d5e948afe61d0de341a62fa55512d51c32bc3f1e8dc446b92",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:19:20.603Z",
+  "universities": [
+    {
+      "name": "Ulm University",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.uni-ulm.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3948/",
+      "sourceQuote": "Ulm University • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University",
+      "universityWebsite": "https://www.uni-ulm.de",
+      "name": "Master of Science in Energy Science and Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Energy Science and Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3948/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3948/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "A Bachelor's degree in chemistry, applied chemistry, chemical engineering, materials science, energy science with a natural scientific focus, physical sciences or a degree that is at least equivalent from a university, a university of applied sciences, a cooperative university or a recognised foreign higher education institution in the field of chemistry, applied chemistry, chemical engineering, materials science, energy science with a natural scientific focus, physical sciences or in a related or subject-specific programme with a minimum duration of three years of study",
+          "unit": null,
+          "sourceQuote": "Prerequisites for entrance to the Master's degree programme in Energy Science and Technology are as follows:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "3. a study-related, tabular CV of a maximum of two pages with (if available) corresponding proof of employment (job references, internship certificates, etc.),",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "4. the ability to conduct independent scientific work, demonstrated in particular by a thesis or comparable achievement corresponding to 9 ECTS credits,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "5. a written one-page report (in German or English) in which personal and subject-related reasons for applying for the chosen study programme are stated and the choice of programme (letter of motivation) is explained, and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

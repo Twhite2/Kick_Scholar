@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0236a8fd8d5cd00255e5fb3fd9c84a8730d76b183fee52c05bffdd5a72866cd6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:38.920Z",
+  "universities": [
+    {
+      "name": "Friedrich Schiller University Jena",
+      "country": "DE",
+      "city": "Jena",
+      "website": "https://www.uni-jena.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5203/",
+      "sourceQuote": "Friedrich Schiller University Jena • Jena"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Friedrich Schiller University Jena",
+      "universityWebsite": "https://www.uni-jena.de/",
+      "name": "Physics, Master of Science MSc Physics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Physics, Master of Science MSc Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5203/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5203/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For this Master's programme, you need a subject-specific Bachelor's degree (minimum six semesters/180 ECTS credits) or a recognised equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "credits (ECTS)",
+          "sourceQuote": "The curriculum of this degree should contain at least:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "credits (ECTS)",
+          "sourceQuote": "The curriculum of this degree should contain at least:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "credits (ECTS)",
+          "sourceQuote": "The curriculum of this degree should contain at least:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

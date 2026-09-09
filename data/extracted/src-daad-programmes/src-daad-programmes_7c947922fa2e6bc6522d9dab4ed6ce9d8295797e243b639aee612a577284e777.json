@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7c947922fa2e6bc6522d9dab4ed6ce9d8295797e243b639aee612a577284e777",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:30:51.261Z",
+  "universities": [
+    {
+      "name": "University of Stuttgart",
+      "country": "DE",
+      "city": "Stuttgart",
+      "website": "https://www.uni-stuttgart.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4439/",
+      "sourceQuote": "University of Stuttgart • Stuttgart"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Stuttgart",
+      "universityWebsite": "https://www.uni-stuttgart.de/",
+      "name": "Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4439/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4439/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.: \n  * PTE Academic: 76 \n  * Cambridge English Qualifications: C1 Advanced \n  * IELTS Academic: 7 \n  * TOEFL iBT Home Edition (before 2026): 95 \n  * TOEFL iBT Home Edition (since 2026): 5 \n  * TOEFL iBT (before 2026): 95 \n  * TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

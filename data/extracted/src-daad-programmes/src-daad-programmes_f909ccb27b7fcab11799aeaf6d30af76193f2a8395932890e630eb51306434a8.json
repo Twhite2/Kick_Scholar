@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f909ccb27b7fcab11799aeaf6d30af76193f2a8395932890e630eb51306434a8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:30:57.098Z",
+  "universities": [
+    {
+      "name": "Reutlingen University",
+      "country": "DE",
+      "city": "Reutlingen",
+      "website": "https://www.reutlingen-university.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3871/",
+      "sourceQuote": "Reutlingen University • Reutlingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Reutlingen University",
+      "universityWebsite": "https://www.reutlingen-university.de/",
+      "name": "ESB Business School: International Business (Bachelor of Science) ESB: International Business (BSc)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "ESB Business School: International Business (Bachelor of Science) ESB: International Business (BSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3871/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3871/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a German university entrance qualification or a foreign university entrance qualification equivalent to the German university entrance qualification.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "50",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 50",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2da9a3abcbcea2f2897d1b8d12e68803020d1066f00cfe8c4713a9a94caa9d1a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:18:34.944Z",
+  "universities": [
+    {
+      "name": "Bremen University of Applied Sciences",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.hs-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3709/",
+      "sourceQuote": "Bremen University of Applied Sciences • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bremen University of Applied Sciences",
+      "universityWebsite": "https://www.hs-bremen.de/",
+      "name": "Master's in Management Digitalisation & Transformation",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Management Digitalisation & Transformation",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4967,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3709/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3709/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in business and economics or equivalent*",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "year",
+          "sourceQuote": "Min. of one year of relevant experience after first degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Curriculum vitae",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/management-digitalization-and-transformation-ma.html).",
+          "intake": null,
+          "sourceQuote": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/management-digitalization-and-transformation-ma.html).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

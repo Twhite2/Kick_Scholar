@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cabf5d40bb8e1022a7fe2d8fb7b715b2c85030b2d63f4c801b1130fd1074022f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:21.994Z",
+  "universities": [
+    {
+      "name": "Anhalt University of Applied Sciences",
+      "country": "DE",
+      "city": "Köthen / Anhalt",
+      "website": "https://www.hs-anhalt.de/startseite.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8357/",
+      "sourceQuote": "Anhalt University of Applied Sciences • Köthen / Anhalt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Anhalt University of Applied Sciences",
+      "universityWebsite": "https://www.hs-anhalt.de/startseite.html",
+      "name": "Electrical and Computer Engineering (M Eng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical and Computer Engineering (M Eng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8357/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8357/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "EQ",
+          "value": "telc English C1",
+          "unit": null,
+          "sourceQuote": "telc English: telc English C1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 76",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

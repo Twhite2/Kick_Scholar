@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5c6540d9f9c3ae1d33a5ee38255d971542ef8361529149a5325983c7be60f920",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:17.262Z",
+  "universities": [
+    {
+      "name": "University of Kassel",
+      "country": "DE",
+      "city": "Witzenhausen",
+      "website": "https://www.uni-kassel.de/uni/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3634/",
+      "sourceQuote": "University of Kassel • Witzenhausen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Kassel",
+      "universityWebsite": "https://www.uni-kassel.de/uni/",
+      "name": "MSc International Food Business and Consumer Studies (IFBC)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc International Food Business and Consumer Studies (IFBC)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3634/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3634/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applicants with a first academic degree acquired outside Germany: 1 December - 1 March Applicants with a degree acquired in Germany: 1 June - 1 September",
+          "intake": null,
+          "sourceQuote": "Applicants with a first academic degree acquired outside Germany: 1 December - 1 March Applicants with a degree acquired in Germany: 1 June - 1 September",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

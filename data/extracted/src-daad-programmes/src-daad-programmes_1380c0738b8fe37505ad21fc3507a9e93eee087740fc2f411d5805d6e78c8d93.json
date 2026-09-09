@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1380c0738b8fe37505ad21fc3507a9e93eee087740fc2f411d5805d6e78c8d93",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:08.828Z",
+  "universities": [
+    {
+      "name": "Rosenheim Technical University of Applied Sciences",
+      "country": "DE",
+      "city": "Rosenheim",
+      "website": "https://www.th-rosenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7892/",
+      "sourceQuote": "Rosenheim Technical University of Applied Sciences • Rosenheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rosenheim Technical University of Applied Sciences",
+      "universityWebsite": "https://www.th-rosenheim.de/",
+      "name": "International Bachelor of Engineering (IBE)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Bachelor of Engineering (IBE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7892/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7892/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A general or subject-specific **higher education entrance qualification** is sufficient to qualify for the study programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "intake": null,
+          "sourceQuote": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

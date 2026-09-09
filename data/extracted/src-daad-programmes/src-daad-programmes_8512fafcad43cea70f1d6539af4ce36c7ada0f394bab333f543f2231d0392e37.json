@@ -1,0 +1,163 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8512fafcad43cea70f1d6539af4ce36c7ada0f394bab333f543f2231d0392e37",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:47.985Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5298/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master of Science in Biology MSc Biology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Biology MSc Biology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5298/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5298/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "A Bachelor’s degree in Biology from Freie Universität Berlin or other equivalent degree from a programme whose content and structure are commensurate with those of the above mentioned Bachelor’s programme",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree in Biology from Freie Universität Berlin or other equivalent degree from a programme whose content and structure are commensurate with those of the above mentioned Bachelor’s programme",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of English and German language skills (details below)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "EQ",
+          "value": "B2-C1 University",
+          "unit": null,
+          "sourceQuote": "* telc English: telc English B2-C1 University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "II",
+          "unit": null,
+          "sourceQuote": "* UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition (before 2026)",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (before 2026)",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c4f6a71165448f9dc9ae0971656ce6fba4207d55b14b75531f11c60800220979",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:48.810Z",
+  "universities": [
+    {
+      "name": "RPTU University Kaiserslautern-Landau",
+      "country": "DE",
+      "city": "Kaiserslautern",
+      "website": "https://rptu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5321/",
+      "sourceQuote": "RPTU University Kaiserslautern-Landau • Kaiserslautern"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RPTU University Kaiserslautern-Landau",
+      "universityWebsite": "https://rptu.de/",
+      "name": "Financial Engineering (DISC)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Financial Engineering (DISC)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2300,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5321/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5321/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

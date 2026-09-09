@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8e3d754e686db289628ff779b9aa0bd58f200d60e8edd3ac2cbb53a36832d059",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:00.605Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7961/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master of Arts in Archaeology of the Ancient World (MAAW)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Archaeology of the Ancient World (MAAW)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7961/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7961/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "To apply to the programme, you need to have a first university degree (usually a BA) in a discipline relevant to archaeology representing 180 ECTS (European Credit Transfer and Accumulation System credit points) and containing at least 60 ECTS in courses in archaeology.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

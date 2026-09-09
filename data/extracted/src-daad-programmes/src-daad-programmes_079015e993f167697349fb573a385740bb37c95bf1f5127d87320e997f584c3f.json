@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:079015e993f167697349fb573a385740bb37c95bf1f5127d87320e997f584c3f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:44.451Z",
+  "universities": [
+    {
+      "name": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "country": "DE",
+      "city": "Cottbus",
+      "website": "https://www.b-tu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7160/",
+      "sourceQuote": "Brandenburg University of Technology Cottbus-Senftenberg • Cottbus"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "universityWebsite": "https://www.b-tu.de",
+      "name": "Physics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7160/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7160/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission requirements include a first qualifying degree (at least a Bachelor's degree) or a qualification equivalent to this in a programme in Physics or in a Physics-Related field of study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For example, a Bachelor's degree in Electrical Engineering, Technical Physics or Mathematics qualifies students for admission to the international Master's programme in Physics, provided that the basic requirements in Theoretical and Experimental Physics that have been acquired in these programmes, are comparable to the Bachelor's programme in Physics offered at BTU.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

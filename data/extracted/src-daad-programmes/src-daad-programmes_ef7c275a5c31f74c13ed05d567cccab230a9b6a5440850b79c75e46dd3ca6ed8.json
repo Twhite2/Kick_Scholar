@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ef7c275a5c31f74c13ed05d567cccab230a9b6a5440850b79c75e46dd3ca6ed8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:08:33.017Z",
+  "universities": [
+    {
+      "name": "Heinrich Heine University Düsseldorf",
+      "country": "DE",
+      "city": "Düsseldorf",
+      "website": "https://www.hhu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7713/",
+      "sourceQuote": "Heinrich Heine University Düsseldorf • Düsseldorf"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heinrich Heine University Düsseldorf",
+      "universityWebsite": "https://www.hhu.de/",
+      "name": "MSc Biology (MBIO2)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Biology (MBIO2)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7713/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7713/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission requires a relevant BSc in Biology or a closely related field (at least six semesters) with a final grade of 3.2 or better (German grading scale).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3.2",
+          "unit": null,
+          "sourceQuote": "Admission requires a relevant BSc in Biology or a closely related field (at least six semesters) with a final grade of 3.2 or better (German grading scale).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

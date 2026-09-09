@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4a0cf8e3a20f7dacceb119df11eaf62ba5eb47311edc074bf406883ac630b07f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:02:10.683Z",
+  "universities": [
+    {
+      "name": "University of Duisburg-Essen",
+      "country": "DE",
+      "city": "Duisburg",
+      "website": "https://www.uni-due.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6253/",
+      "sourceQuote": "University of Duisburg-Essen • Duisburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Duisburg-Essen",
+      "universityWebsite": "https://www.uni-due.de/",
+      "name": "Management and Technology of Water and Waste Water",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Management and Technology of Water and Waste Water",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6253/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6253/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in an appropriate subject area, with adequate length of studies and with an average mark of at least 3.0 issued in Germany or a foreign equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3.0",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in an appropriate subject area, with adequate length of studies and with an average mark of at least 3.0 issued in Germany or a foreign equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

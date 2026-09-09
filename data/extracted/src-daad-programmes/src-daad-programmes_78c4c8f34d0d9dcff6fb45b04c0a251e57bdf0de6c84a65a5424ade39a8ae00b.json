@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:78c4c8f34d0d9dcff6fb45b04c0a251e57bdf0de6c84a65a5424ade39a8ae00b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:19:39.981Z",
+  "universities": [
+    {
+      "name": "Otto von Guericke University Magdeburg",
+      "country": "DE",
+      "city": "Magdeburg",
+      "website": "https://www.ovgu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4777/",
+      "sourceQuote": "Otto von Guericke University Magdeburg • Magdeburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Otto von Guericke University Magdeburg",
+      "universityWebsite": "https://www.ovgu.de/",
+      "name": "Operations Research and Business Analytics (ORBA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Operations Research and Business Analytics (ORBA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4777/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4777/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must provide proof of a Bachelor's degree, diploma, or another equivalent degree in a relevant subject from a recognised university with a **GPA from 1.0 up to 2.9** , **according to the German grading system.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "1.0",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "Applicants must provide proof of a Bachelor's degree, diploma, or another equivalent degree in a relevant subject from a recognised university with a **GPA from 1.0 up to 2.9** , **according to the German grading system.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.9",
+          "unit": null,
+          "sourceQuote": "Applicants must provide proof of a Bachelor's degree, diploma, or another equivalent degree in a relevant subject from a recognised university with a **GPA from 1.0 up to 2.9** , **according to the German grading system.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Chosen candidates will be invited to an **interview**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Previous advanced knowledge in computer science** , such as programming and previous job experience, as well as the **motivation letter** are important for the **selection process.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A selection procedure will apply, which includes the interview and ranking process.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

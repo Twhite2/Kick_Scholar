@@ -1,0 +1,102 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:0af1e2394169e31423c672568ac0229b597b638a41b94c539eaa80bd12730e4a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:46.717Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Ernst Ludwig Ehrlich Studienwerk: Doctoral Scholarship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Ernst Ludwig Ehrlich Studienwerk (ELES) is one of the foundations for the development of talent which are supported by the German Federal Ministry of Education and Research (BMBF). The Studienwerk specifically promotes talented Jewish students and doctoral candidates. ELES stands for a pluralistic, liberal and confident Judaism with a sense of its own history. Technically qualified Jewish doctoral candidates in all disciplines and concentrations (except medicine) are eligible for funding by ELES. Moreover, non-Jewish PhD students are invited to apply, provided that they propose a research project focusing on a Jewish subject. Candidates are expected to submit an innovative doctoral project of exceptional scientific quality which must be concluded within a range of 3 years and effective academic mentoring which is suitable for the candidate as well as for the project. In addition to having an outstanding academic record, applicants are actively involved in, e.g., the Jewish community, the social field, youth work, student organisations or their social environment. Furthermore, they should keep in regular contact with the liaison lecturer and actively participate in the scholarship’s non-material services, activities and organisations as well as – after the programme has ended – join and contribute to the alumni network of the Ernst Ludwig Ehrlich Studienwerk.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000418",
+      "deadlineText": "Deadlines for scholarship application are 31 March for admission on 1 October of the same year and 30 September for admission to the programme starting 1 April of the following year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000418",
+      "sourceQuote": "technically qualified Jewish doctoral candidates in all disciplines and concentrations (except medicine) and non-Jewish PhD students who propose a research project focusing on a Jewish subject",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Technically qualified Jewish doctoral candidates in all disciplines and concentrations (except medicine) are eligible for funding by ELES.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Moreover, non-Jewish PhD students are invited to apply, provided that they propose a research project focusing on a Jewish subject.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Medicine"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Technically qualified Jewish doctoral candidates in all disciplines and concentrations (except medicine) are eligible for funding by ELES.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Jewish identity or a research project focusing on a Jewish subject",
+          "sourceQuote": "Technically qualified Jewish doctoral candidates in all disciplines and concentrations (except medicine) are eligible for funding by ELES.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Admission to a doctoral programme at a state or state-recognised institution of higher education in Germany, or in an EU member state or Switzerland if the applicant holds German citizenship; justified cases may include extra-European countries.",
+          "sourceQuote": "admission to a doctoral programme at a state or state-recognised institution of higher education in Germany or, if the applicant holds German citizenship, in an EU member state or Switzerland",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "EU",
+            "CH"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "admission to a doctoral programme at a state or state-recognised institution of higher education in Germany or, if the applicant holds German citizenship, in an EU member state or Switzerland",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

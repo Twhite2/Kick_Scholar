@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:265755f80f9b1c59a9c4a62781b9ddd193ba295dee4d12e6bd7e1b3ec352611b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:12.462Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Herder Institute for Historical Research on East-Central Europe: Herder Fellowship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Herder Fellowship Programme is aimed at researchers of all qualification levels (doctoral students, postdocs and proven experts in historical research on East Central Europe), especially from East Central European countries and other Western European countries. It enables a short-term, intensive research stay of up to 4 weeks in the library and the scientific collections of the Herder Institute and is endowed with 1,900 EUR. Fellows have the option of staying in the guest house in the Behring Villa for the duration of their stay. In addition, fellows have the opportunity to present their project plans at one of the meetings of the Herder Institute Research Academy.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000123",
+      "deadlineText": "The Herder Institute's annual call for applications begins in April. Applications must be received by 15 August at the latest.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000123",
+      "sourceQuote": "PhD students and postdocs mainly from East-Central European countries and Western Europe (excluding Germany) doing research on East-Central European history",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "doctoral students and proven experts in historical research on East Central Europe",
+          "sourceQuote": "The Herder Fellowship Programme is aimed at researchers of all qualification levels (doctoral students, postdocs and proven experts in historical research on East Central Europe), especially from East Central European countries and other Western European countries.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "East-Central European countries",
+            "Western European countries"
+          ],
+          "numericValue": null,
+          "textValue": "especially from East Central European countries and other Western European countries",
+          "sourceQuote": "The Herder Fellowship Programme is aimed at researchers of all qualification levels (doctoral students, postdocs and proven experts in historical research on East Central Europe), especially from East Central European countries and other Western European countries.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "It enables a short-term, intensive research stay of up to 4 weeks in the library and the scientific collections of the Herder Institute and is endowed with 1,900 EUR.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

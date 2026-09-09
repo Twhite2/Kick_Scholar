@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:17851e89833f4ae8dba808a7d8bab54bace91ee1211db874f44c5b93e35f0b95",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:35.899Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "RISE Professional - Research Internships in Science and Engineering **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This program gives North American, British and Irish students and PhD students in the fields of science and engineering and computer science the opportunity to gain work and research experience while doing an internship in a German company or at a non-university research institution with strong relation to industry.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015638",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015638",
+      "sourceQuote": "The following groups from the fields of science or engineering and computer science from North American, British and Irish Universities are eligible to apply: Master’s students and PhD students who must be fully enrolled at the time of the internship, recent graduates who graduated no more than 7 months ago at the time of application, undergraduate students who are RISE Germany alumni. German lang…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "North American",
+            "British",
+            "Irish"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "This program gives North American, British and Irish students and PhD students in the fields of science and engineering and computer science the opportunity to gain work and research experience while doing an internship in a German company or at a non-university research institution with strong relation to industry.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The following groups from the fields of science or engineering and computer science from North American, British and Irish Universities are eligible to apply:  \r\n\r\n  * Master’s students and PhD students who must be fully enrolled at the time of the internship,\r\n  * recent graduates who graduated no more than 7 months ago at the time of application,\r\n  * undergraduate students who are RISE Germany alumni.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "science",
+            "engineering",
+            "computer science"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "This program gives North American, British and Irish students and PhD students in the fields of science and engineering and computer science the opportunity to gain work and research experience while doing an internship in a German company or at a non-university research institution with strong relation to industry.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "science",
+            "engineering",
+            "computer science"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The following groups from the fields of science or engineering and computer science from North American, British and Irish Universities are eligible to apply:  \r\n\r\n  * Master’s students and PhD students who must be fully enrolled at the time of the internship,\r\n  * recent graduates who graduated no more than 7 months ago at the time of application,\r\n  * undergraduate students who are RISE Germany alumni.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "North American",
+            "British and Irish"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The following groups from the fields of science or engineering and computer science from North American, British and Irish Universities are eligible to apply:  \r\n\r\n  * Master’s students and PhD students who must be fully enrolled at the time of the internship,\r\n  * recent graduates who graduated no more than 7 months ago at the time of application,\r\n  * undergraduate students who are RISE Germany alumni.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Must be fully enrolled at the time of the internship for Master’s students and PhD students.",
+          "sourceQuote": "Master’s students and PhD students who must be fully enrolled at the time of the internship,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Recent graduates must have graduated no more than 7 months ago at the time of application.",
+          "sourceQuote": "recent graduates who graduated no more than 7 months ago at the time of application,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Undergraduate students must be RISE Germany alumni.",
+          "sourceQuote": "undergraduate students who are RISE Germany alumni.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "This program gives North American, British and Irish students and PhD students in the fields of science and engineering and computer science the opportunity to gain work and research experience while doing an internship in a German company or at a non-university research institution with strong relation to industry.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

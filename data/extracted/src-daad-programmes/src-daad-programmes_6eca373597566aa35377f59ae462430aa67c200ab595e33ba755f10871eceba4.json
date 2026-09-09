@@ -1,0 +1,164 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6eca373597566aa35377f59ae462430aa67c200ab595e33ba755f10871eceba4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:56:55.379Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6917/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "Applied Geosciences – Applied Mineralogy and Crystallography (AMC) (MSc) Applied Geosciences – AMC (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Applied Geosciences – Applied Mineralogy and Crystallography (AMC) (MSc) Applied Geosciences – AMC (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6917/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6917/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "Bachelor of Science or Engineering with at least 180 ECTS and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "ECTS",
+          "sourceQuote": "  * at least 20 ECTS from natural sciences (biology, chemistry, mathematics and/or physics)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "80",
+          "unit": "ECTS",
+          "sourceQuote": "  * at least 80 ECTS from geosciences (e.g. geology, mineralogy, geochemistry, crystallography, geoengineering)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "ECTS",
+          "sourceQuote": "  * at least 5 ECTS from geoscientific field education",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "Bachelor of Science or Engineering with at least 180 ECTS and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "4",
+          "unit": "ECTS",
+          "sourceQuote": "  * a total of at least 4 ECTS from crystallography (an “Introduction to Crystallography” is mandatory)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "ECTS",
+          "sourceQuote": "  * a total of at least 30 ECTS from chemistry and/or physics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "40",
+          "unit": "ECTS",
+          "sourceQuote": "  * a total of at least 40 ECTS from analytical and/or material characterisation courses (e.g. mineralogy, petrology, analytical chemistry, crystallography, materials science, solid state physics, solid state chemistry, etc.).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "  * Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "  * UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

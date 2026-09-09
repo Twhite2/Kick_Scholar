@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6a1091b5ab1289ad3dbdc33d95d16c3d02949722a8fb1f3e51f94df6f4e9a8f9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:14.283Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6087/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Ecumenical and Extended Ecumenical Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Ecumenical and Extended Ecumenical Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6087/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6087/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Catholic Theology, Protestant Theology, Old Catholic Theology, Orthodox Theology, Religious Education, Religious Studies or a related field",
+          "unit": null,
+          "sourceQuote": "The “Ecumenical Studies” and “Extended Ecumenical Studies” consecutive Master’s programmes are aimed at applicants who have a first university degree in one of the subjects of Catholic Theology, Protestant Theology, Old Catholic Theology, Orthodox Theology, Religious Education, Religious Studies or a related field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "240",
+          "unit": "ECTS",
+          "sourceQuote": "For the Master’s programme in “Ecumenical Studies”, students need to have acquired at least 240 ECTS in their first academic degree; for the Master's programme in \"Extended Ecumenical Studies\", students need to have acquired at least 180 ECTS in their first academic degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "For the Master’s programme in “Ecumenical Studies”, students need to have acquired at least 240 ECTS in their first academic degree; for the Master's programme in \"Extended Ecumenical Studies\", students need to have acquired at least 180 ECTS in their first academic degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS",
+          "sourceQuote": "In-depth knowledge of a Christian denomination and its scientific reflection/interpretation, evidenced by study components amounting to at least 60 ECTS or comparable knowledge",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language proficiency with a minimum level of B2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "International applicants who are not considered equivalent to German citizens by or on the basis of international treaties and who do not have a German university entrance qualification must prove that they have passed the aptitude test for university studies (Annex 4, Examination Regulations).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Early--Bird Application period for the following academic year: 1 October - 30 October and 1 December - 31 December Regular Application period: 1 January - 1 July",
+          "intake": null,
+          "sourceQuote": "Early--Bird Application period for the following academic year: 1 October - 30 October and 1 December - 31 December Regular Application period: 1 January - 1 July",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

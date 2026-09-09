@@ -1,0 +1,172 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3bbb56cae8e3114a13a2c7aa5e47e6ded9e483594018e823ffc3f38b74e41116",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:18:03.736Z",
+  "universities": [
+    {
+      "name": "Ruhr-Universität Bochum",
+      "country": "DE",
+      "city": "Bochum",
+      "website": "https://www.ruhr-uni-bochum.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3847/",
+      "sourceQuote": "Ruhr-Universität Bochum • Bochum"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ruhr-Universität Bochum",
+      "universityWebsite": "https://www.ruhr-uni-bochum.de/de",
+      "name": "Computational Engineering (CompEng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Engineering (CompEng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3847/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3847/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "civil engineering",
+          "unit": null,
+          "sourceQuote": "Applicants can be admitted to the Master’s programme if they have a Bachelor’s degree or equivalent degree in civil engineering, mechanical engineering, or a related engineering discipline as well as mathematics or a comparable subject.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "mechanical engineering",
+          "unit": null,
+          "sourceQuote": "Applicants can be admitted to the Master’s programme if they have a Bachelor’s degree or equivalent degree in civil engineering, mechanical engineering, or a related engineering discipline as well as mathematics or a comparable subject.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "a related engineering discipline",
+          "unit": null,
+          "sourceQuote": "Applicants can be admitted to the Master’s programme if they have a Bachelor’s degree or equivalent degree in civil engineering, mechanical engineering, or a related engineering discipline as well as mathematics or a comparable subject.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "mathematics or a comparable subject",
+          "unit": null,
+          "sourceQuote": "Applicants can be admitted to the Master’s programme if they have a Bachelor’s degree or equivalent degree in civil engineering, mechanical engineering, or a related engineering discipline as well as mathematics or a comparable subject.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "computer science",
+          "unit": null,
+          "sourceQuote": "Students who completed their Bachelor's degree in the field of computer science, IT, architecture or with an MBA will **not** be accepted.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "IT",
+          "unit": null,
+          "sourceQuote": "Students who completed their Bachelor's degree in the field of computer science, IT, architecture or with an MBA will **not** be accepted.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "architecture",
+          "unit": null,
+          "sourceQuote": "Students who completed their Bachelor's degree in the field of computer science, IT, architecture or with an MBA will **not** be accepted.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "MBA",
+          "unit": null,
+          "sourceQuote": "Students who completed their Bachelor's degree in the field of computer science, IT, architecture or with an MBA will **not** be accepted.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein Switzerland United Kingdom",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein Switzerland United Kingdom",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b50077f8dd54186a90ff748bf16355af448715c8f41ca5b95765729fe84b2368",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:01.370Z",
+  "universities": [
+    {
+      "name": "Hertie School",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hertie-school.org/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4378/",
+      "sourceQuote": "Hertie School • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hertie School",
+      "universityWebsite": "https://www.hertie-school.org/de/",
+      "name": "Doctoral Programme in Governance",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Doctoral Programme in Governance",
+      "fieldCategory": "OTHER",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4378/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4378/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

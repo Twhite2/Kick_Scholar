@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e39d8a295bead578e24c1e2cda0c93af8b407e11132e4f8d7b2538392a55ba6b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:49.701Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6082/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "M.I.N.C. – Master of International Nature Conservation (MSc) Master of International Nature Conservation (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "M.I.N.C. – Master of International Nature Conservation (MSc) Master of International Nature Conservation (MSc)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6082/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6082/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree from a six-semester programme in biology, biodiversity, ecology, agricultural sciences, forest sciences, geography, nature conservation, wildlife management, environmental sciences or equivalent fields",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree from a six-semester programme in biology, biodiversity, ecology, agricultural sciences, forest sciences, geography, nature conservation, wildlife management, environmental sciences or equivalent fields",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "34%",
+          "unit": null,
+          "sourceQuote": "Applicants must provide evidence that at least 34% of their achievements from their previous studies have been in the fields of nature conservation, biology, ecology, biodiversity, wildlife management, environmental science, forestry, agricultural science, and/or geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "sufficient knowledge of the English language",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "personal motivation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "previous special experience and expertise in international nature conservation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "100",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 100",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "EQ",
+          "value": "telc English C1",
+          "unit": null,
+          "sourceQuote": "telc English: telc English C1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "the best applicants will be selected for a 20-minute interview within one month of the application deadline.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

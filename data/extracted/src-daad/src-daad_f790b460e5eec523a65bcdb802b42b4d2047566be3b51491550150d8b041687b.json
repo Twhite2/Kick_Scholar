@@ -1,0 +1,142 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f790b460e5eec523a65bcdb802b42b4d2047566be3b51491550150d8b041687b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:40.813Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Evangelisches Studienwerk: Scholarship for Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The ESV scholarships are open to protestant students from all disciplines and subjects wishing to study full-time at a state or state-recognised higher education institution. You are welcome to apply if you are not a member of a Protestant church. In this case, your application and specifically your letter of motivation will be evaluated by a committee, which decides whether you will be admitted to the first round of interviews. Applicants older than 35 years are required to include a special request into their application. The programme includes close and individual mentoring, a vast range of seminars and the opportunity for student participation at all levels. It is worth up to 855 EUR every month plus 300 EUR to cover study costs and offers further financial support, e.g. when students go abroad to study.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000117",
+      "deadlineText": "1 October to 15 January (midnight) for a scholarship for the following winter semester 1 April to 15 July (midnight) for a scholarship for the following summer semester",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000117",
+      "sourceQuote": "Students from all disciplines and subjects, who wish to start a degree course or are already studying at a higher education institution. Students with a non-academic family background and from universities of applied sciences are welcome to apply.",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ALL"
+          ],
+          "numericValue": null,
+          "textValue": "all disciplines and subjects",
+          "sourceQuote": "The ESV scholarships are open to protestant students from all disciplines and subjects wishing to study full-time at a state or state-recognised higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "protestant students",
+          "sourceQuote": "The ESV scholarships are open to protestant students from all disciplines and subjects wishing to study full-time at a state or state-recognised higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "full-time study",
+          "sourceQuote": "The ESV scholarships are open to protestant students from all disciplines and subjects wishing to study full-time at a state or state-recognised higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised higher education institution"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The ESV scholarships are open to protestant students from all disciplines and subjects wishing to study full-time at a state or state-recognised higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 36,
+          "textValue": null,
+          "sourceQuote": "Applicants older than 35 years are required to include a special request into their application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "EU member state",
+            "Switzerland"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German students who study or plan to study at higher education institutions in the EU or Switzerland",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "EU",
+            "Switzerland"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German students who study or plan to study at higher education institutions in the EU or Switzerland",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": "Master's degree programme cannot be applied for solely; only if previously funded in undergraduate degree.",
+          "sourceQuote": "It is not possible to apply solely for a Master's degree programme. Master's degree programmes can only be funded if the students have already been funded by the Evangelisches Studienwerk in their undergraduate degree programme.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "EU",
+            "CH"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The ESV scholarships are open to protestant students from all disciplines and subjects wishing to study full-time at a state or state-recognised higher education institution.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

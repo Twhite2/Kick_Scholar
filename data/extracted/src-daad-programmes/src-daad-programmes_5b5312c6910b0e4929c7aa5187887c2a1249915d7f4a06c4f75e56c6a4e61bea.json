@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5b5312c6910b0e4929c7aa5187887c2a1249915d7f4a06c4f75e56c6a4e61bea",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:23:57.345Z",
+  "universities": [
+    {
+      "name": "University of Duisburg-Essen",
+      "country": "DE",
+      "city": "Duisburg",
+      "website": "https://www.uni-due.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4280/",
+      "sourceQuote": "University of Duisburg-Essen • Duisburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Duisburg-Essen",
+      "universityWebsite": "https://www.uni-due.de/",
+      "name": "Master of Arts in Modern East Asian Studies (MA MEAS) MA in Modern East Asian Studies (MA MEAS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Modern East Asian Studies (MA MEAS) MA in Modern East Asian Studies (MA MEAS)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4280/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4280/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree or higher education degree equivalent to a Bachelor's degree in East Asian / Asian regional studies, social or political sciences or economics with 240 ECTS credits and a minimum grade average of 2.5 according to the German grading system",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": "German grading system",
+          "sourceQuote": "Bachelor's degree or higher education degree equivalent to a Bachelor's degree in East Asian / Asian regional studies, social or political sciences or economics with 240 ECTS credits and a minimum grade average of 2.5 according to the German grading system",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "ISE Digital",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "* ISE Digital: 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "ISE",
+          "operator": "EQ",
+          "value": "ISE III",
+          "unit": "paper edition",
+          "sourceQuote": "* ISE (paper edition): ISE III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Interview (conducted in English) if deemed necessary by the admission board",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*EU citizens and EU/EEA-educated non-EU citizens (\"BildungsinländerInnen\"):**",
+          "intake": null,
+          "sourceQuote": "*EU citizens and EU/EEA-educated non-EU citizens (\"BildungsinländerInnen\"):**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

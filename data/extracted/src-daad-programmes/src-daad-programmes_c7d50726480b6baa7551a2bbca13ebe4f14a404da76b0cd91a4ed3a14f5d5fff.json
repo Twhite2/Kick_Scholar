@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c7d50726480b6baa7551a2bbca13ebe4f14a404da76b0cd91a4ed3a14f5d5fff",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:08:01.045Z",
+  "universities": [
+    {
+      "name": "Anhalt University of Applied Sciences",
+      "country": "DE",
+      "city": "Köthen / Anhalt",
+      "website": "https://www.hs-anhalt.de/startseite.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7599/",
+      "sourceQuote": "Anhalt University of Applied Sciences • Köthen / Anhalt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Anhalt University of Applied Sciences",
+      "universityWebsite": "https://www.hs-anhalt.de/startseite.html",
+      "name": "International Master's in Biomedical Engineering (BME) Biomedical Engineering (BME)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master's in Biomedical Engineering (BME) Biomedical Engineering (BME)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7599/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7599/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must have a recognised first degree (Bachelor of Science or Engineering or equivalent, e.g. Dipl-Ing) in an engineering discipline.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

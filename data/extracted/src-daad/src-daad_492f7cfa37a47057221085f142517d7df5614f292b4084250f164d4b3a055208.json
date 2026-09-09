@@ -1,0 +1,76 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:492f7cfa37a47057221085f142517d7df5614f292b4084250f164d4b3a055208",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:15:17.038Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Standing Conference of the Ministers of Education and Cultural Affairs: Foreign Language Assistants from Abroad Teaching at German Schools",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Every year about 800 foreign students come to Germany as foreign-language assistants (FLA) to be placed in host schools and support the local subject-specialist teachers in their native languages. The FLA assist the teachers during 12 lessons per week and help make the situation of learning a foreign language lively and inspiring for the pupils. The FLA’s responsibilities include language tutorials and providing information for cultural studies lessons role playing or rehearsing exam situations with the pupils conversation exercises in small groups preparing illustrative and teaching materials.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000154",
+      "deadlineText": "The competent partner organisations in your country of origin will provide you with the application deadlines. Please find a detailed list at the [website of the Standing Conference of the Ministers of Education and Cultural Affairs](https://www.kmk-pad.org/programme/fremdsprachenassistenzkraefte/studierende-aus-dem-ausland.html).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000154",
+      "sourceQuote": "students from Australia, Belgium, Canada (Anglophone and Francophone), France, Ireland, Italy, New Zealand, Spain, Switzerland, Taiwan, the United Kingdom, and the United States.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Australia",
+            "Belgium",
+            "Canada",
+            "France",
+            "Ireland",
+            "Italy",
+            "New Zealand",
+            "Spain",
+            "Switzerland",
+            "Taiwan",
+            "the United Kingdom",
+            "the United States"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students from Australia, Belgium, Canada (Anglophone and Francophone), France, Ireland, Italy, New Zealand, Spain, Switzerland, Taiwan, the United Kingdom, and the United States.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "completed a degree course of at least 2 years at a higher education institution in their home countries with one of the subjects being German",
+          "sourceQuote": "As a rule, the future foreign-language assistants should have completed a degree course of at least 2 years at a higher education institution in their home countries with one of the subjects being German.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Every year about 800 foreign students come to Germany as foreign-language assistants (FLA) to be placed in host schools and support the local subject-specialist teachers in their native languages.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:8e1211d14d074ff2bd1f8d0564f2c7f8c5bfe896b2e6356c3b5ce0ffd5d48b8e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:24.839Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "University of Konstanz: ZUKOnnect Fellowships for Scholars from Africa, Asia and Latin America",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Zukunftskolleg Konnect Fellowships support early career researchers from Africa, Asia and Latin America, who do research that fits one of the 13 departments at the University of Konstanz. As a ZUKOnnect Fellow, you can use this time to extend your research networks and to get to know the research environment at the University of Konstanz while keeping your position at home. As these fellowships can build a first bridge to the German and European academic system, we also encourage doctoral students in their last year to apply. The Zukunftskolleg is an Institute for Advanced Study (IAS). It offers fellowships as well as a diverse support network to promote the independence of early career researchers. Researchers at the postdoctoral level can work with minimal administrative constraints, and enjoy the freedom to engage in meaningful exchange with other up-and-coming colleagues as well as with distinguished senior researchers. The Zukunftskolleg is a keystone in the University of Konstanz's institutional strategy and the University of Konstanz is one of Germany’s 11 Universities of Excellence. The foundation “Manfred Ulmer-Stiftung für Wissenschaft und Gesellschaft” at the University of Konstanz funds one of the fellowships. The \"Centre for the Advanced Study of Collective Behaviour\" and the Cluster of Excellence “The Politics of Inequality” fund up to 2 fellowships for related projects in one of their interdisciplinary research fields. Free applications are encouraged (Trac…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000681",
+      "deadlineText": "1 February 2026 The start date for the digital affiliation is 1 August 2026. The preferred start date for the on-site ZUKOnnect Fellowships is 1 October 2026.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000681",
+      "sourceQuote": "The Zukunftskolleg Konnect Fellowships support early career researchers from Africa, Asia and Latin America, who do research that fits one of the 13 departments at the University of Konstanz. As a ZUKOnnect Fellow, you can use this time to extend your research networks and to get to know the research environment at the University of Konstanz while keeping your position at home. As these fellowship…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Africa",
+            "Asia",
+            "Latin America"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Zukunftskolleg Konnect Fellowships support early career researchers from Africa, Asia and Latin America, who do research that fits one of the 13 departments at the University of Konstanz.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You hold a doctorate (max. 2 years, doctoral degree granted after 15 February 2024) OR are a doctoral student in your final year.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Latin America",
+            "Asia",
+            "Africa"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Your doctorate was/is going to be completed at a university in Latin America, Asia or Africa.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "doctoral student in final year",
+          "sourceQuote": "You hold a doctorate (max. 2 years, doctoral degree granted after 15 February 2024) OR are a doctoral student in your final year.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "no permanent professorship, habilitation or equivalent qualification",
+          "sourceQuote": "You do not hold a permanent professorship, nor do you have a habilitation or equivalent qualification (Venia legendi).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "research project should tie in with one of the disciplines represented at the University of Konstanz",
+          "sourceQuote": "Your research project should tie in with one of the disciplines represented at the University of Konstanz.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "As a ZUKOnnect Fellow, you can use this time to extend your research networks and to get to know the research environment at the University of Konstanz while keeping your position at home.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "On-campus research stays at the Zukunftskolleg are available for up to 3 months (with justification for up to 4 months).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

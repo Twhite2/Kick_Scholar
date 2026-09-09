@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e6129e3995d6f22f789d747f54cb641996afa9368840c31f97c1679bc83a5cac",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:32.478Z",
+  "universities": [
+    {
+      "name": "University of Augsburg",
+      "country": "DE",
+      "city": "Augsburg",
+      "website": "https://www.uni-augsburg.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6889/",
+      "sourceQuote": "University of Augsburg • Augsburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Augsburg",
+      "universityWebsite": "https://www.uni-augsburg.de/de/",
+      "name": "English and American Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "English and American Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6889/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6889/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor's degree (or equivalent) with a strong emphasis on English and American literary studies and/or linguistics (as opposed to English language courses).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS credit points",
+          "sourceQuote": "Strong emphasis means transcripts of prior degrees must contain at least 60 ECTS credit points in either fields of English/American literary studies or English linguistics (including cultural studies in anglophone cultures).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, please provide an official language certificate, e.g.: \n  * Goethe-Zertifikat: Goethe-Zertifikat A1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

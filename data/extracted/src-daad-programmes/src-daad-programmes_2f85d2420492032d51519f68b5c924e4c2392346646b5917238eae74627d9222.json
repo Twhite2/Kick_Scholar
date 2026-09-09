@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2f85d2420492032d51519f68b5c924e4c2392346646b5917238eae74627d9222",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:24.026Z",
+  "universities": [
+    {
+      "name": "University of Passau",
+      "country": "DE",
+      "city": "Passau",
+      "website": "https://www.uni-passau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6298/",
+      "sourceQuote": "University of Passau • Passau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Passau",
+      "universityWebsite": "https://www.uni-passau.de/",
+      "name": "Master of Arts in Governance and Public Policy MA Governance and Public Policy",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Governance and Public Policy MA Governance and Public Policy",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6298/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6298/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "undergraduate university degree in one or more social sciences or in economics or a law degree",
+          "unit": null,
+          "sourceQuote": "To apply for this degree programme, you need an undergraduate university degree in one or more **social sciences or in economics or a law degree**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German grading system",
+          "sourceQuote": "The final grade for your degree must be **2.5** (or better) according to the [German grading system](https://www.uni-passau.de/en/apply/apply-with-intl-qualifications/international-grade-converter/?mtm_campaign=DAADIPG).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "70",
+          "unit": "percent of cohort",
+          "sourceQuote": "If your degree falls short of the minimum grade requirement, you can still be admitted if you can provide an official document from your prior university stating that you were among the best **70%** of your cohort (i.e. your fellow students in the same exam period).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS credits",
+          "sourceQuote": "* **60 ECTS credits** from modules in the **social sciences and/or economics and/or law**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* **social and/or economic research modules** (i.e. mathematics, statistics or empirical social research or similar) in the amount of **10 ECTS credits**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "grade",
+          "sourceQuote": "* the final/preliminary **grade** of, or equivalent to, **2.5** (or better)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

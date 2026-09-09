@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:db05960ba35badb6fe5513cc931a4cf0b71e53f7cdd411bc760e3aca0cf16aa8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:06:39.778Z",
+  "universities": [
+    {
+      "name": "Bielefeld University",
+      "country": "DE",
+      "city": "Bielefeld",
+      "website": "https://www.uni-bielefeld.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7128/",
+      "sourceQuote": "Bielefeld University • Bielefeld"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bielefeld University",
+      "universityWebsite": "https://www.uni-bielefeld.de",
+      "name": "World Studies: Orders, Politics, Cultures",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "World Studies: Orders, Politics, Cultures",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7128/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7128/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "law, sociology, political science, history, or literature/cultural studies",
+          "unit": null,
+          "sourceQuote": "Prospective students must have an undergraduate degree in law, sociology, political science, history, or literature/cultural studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "a related field with at least three years of higher education (usually a Bachelor's degree)",
+          "unit": null,
+          "sourceQuote": "An undergraduate degree in a related field with at least three years of higher education (usually a Bachelor's degree) might also be suitable.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must submit a work sample from their previous studies (e.g. an essay or the BA thesis), in order to prove the relatedness of their qualification to at least one of the five core fields of \"World Studies\" in order to allow the selection committee a better appreciation of their skills.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If the BA diploma has not yet been received, other documents showing the content of the respective study course should be submitted.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants have to fill out a form (part of the online portal) detailing their verifiable knowledge in the methodology of one or more of the five core fields mentioned above.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "87",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 87",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "* UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

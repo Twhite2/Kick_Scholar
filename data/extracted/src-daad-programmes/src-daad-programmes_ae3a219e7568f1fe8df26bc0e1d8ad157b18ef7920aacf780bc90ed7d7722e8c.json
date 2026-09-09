@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ae3a219e7568f1fe8df26bc0e1d8ad157b18ef7920aacf780bc90ed7d7722e8c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:50.482Z",
+  "universities": [
+    {
+      "name": "Technical University of Applied Sciences Augsburg",
+      "country": "DE",
+      "city": "Augsburg",
+      "website": "https://www.tha.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6098/",
+      "sourceQuote": "Technical University of Applied Sciences Augsburg • Augsburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Applied Sciences Augsburg",
+      "universityWebsite": "https://www.tha.de/",
+      "name": "Master of International Business and Finance",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of International Business and Finance",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6098/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6098/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must have completed at least a Bachelor's degree in Business Management, Economics, International Management, International Business Studies, Business Law, Business Mathematics, or the equivalent with a focus on business or/and finance.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

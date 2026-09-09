@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c5edebd63736f53064a3cd8cad47bb3194f03ce310d3622e0ddf6a5ad8a84aa4",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:25.708Z",
+  "universities": [
+    {
+      "name": "University of Mannheim",
+      "country": "DE",
+      "city": "Mannheim",
+      "website": "https://www.uni-mannheim.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4716/",
+      "sourceQuote": "University of Mannheim • Mannheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Mannheim",
+      "universityWebsite": "https://www.uni-mannheim.de",
+      "name": "Master of Arts in Sociology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Sociology",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4716/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4716/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This year, subject to approval by the relevant committees, the application period starts on 1 April and ends on 15 May. The [Admissions Office](https://www.uni-mannheim.de/en/academics/before-your-studies/applying/masters-program/?mtm_campaign=DAAD-MSoc) is the central office for all applicants (German as well as international applicants).",
+          "intake": null,
+          "sourceQuote": "This year, subject to approval by the relevant committees, the application period starts on 1 April and ends on 15 May. The [Admissions Office](https://www.uni-mannheim.de/en/academics/before-your-studies/applying/masters-program/?mtm_campaign=DAAD-MSoc) is the central office for all applicants (German as well as international applicants).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

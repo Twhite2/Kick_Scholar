@@ -1,0 +1,124 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:abdee309f56cab41e2bf840ffb121dead5c2e82a168588e4aed277250fb031b7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:13.048Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Friedrich Ebert Foundation: Scholarship for International Doctoral Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "International students from all subjects (except the medical disciplines) who have been admitted to a doctoral programme at a German higher education institution are eligible to apply for the scholarship. Eligible candidates come from countries in the Global South (Asia, Africa, Latin America), post-Soviet states as well as eastern and south-eastern European (EU) countries. Eligibility criteria include an excellent academic record and voluntary social and political involvement. PhD students receive material and non-material support. Funded students should be able to concentrate on their studies without financial worries and have more time for their volunteer work.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000126",
+      "deadlineText": "Applications may be submitted at any time; there are, however, specific timelines which are detailed [here](https://www.fes.de/studienfoerderung/bewerbung).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000126",
+      "sourceQuote": "Anybody who has been unconditionally accepted for a doctorate at a German institution of higher education is invited to apply – except the medical disciplines. Eligible applicants come from countries in the Global South (Asia, Africa, Latin America), post-Soviet states as well as eastern and south-eastern European (EU) countries. PhD students from OECD countries cannot receive funding.",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "all subjects except medical disciplines",
+          "sourceQuote": "International students from all subjects (except the medical disciplines) who have been admitted to a doctoral programme at a German higher education institution are eligible to apply for the scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "International students from all subjects (except the medical disciplines) who have been admitted to a doctoral programme at a German higher education institution are eligible to apply for the scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Asia",
+            "Africa",
+            "Latin America",
+            "post-Soviet states",
+            "eastern and south-eastern European (EU) countries"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Eligible candidates come from countries in the Global South (Asia, Africa, Latin America), post-Soviet states as well as eastern and south-eastern European (EU) countries.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Eligibility criteria include an excellent academic record and voluntary social and political involvement.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "voluntary social and political involvement",
+          "sourceQuote": "Eligibility criteria include an excellent academic record and voluntary social and political involvement.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "German higher education institution"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "International students from all subjects (except the medical disciplines) who have been admitted to a doctoral programme at a German higher education institution are eligible to apply for the scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "PhD students from OECD countries cannot receive funding.",
+          "sourceQuote": "PhD students from OECD countries cannot receive funding.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "admission to a doctoral programme at a state or state-recognised higher education institution in Germany",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

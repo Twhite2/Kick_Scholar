@@ -1,0 +1,113 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f68216530e023058d4cdd71c83b41ca5bd9f044effe276c536f6200075841dbd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:03.398Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Evangelisches Studienwerk: Scholarship for Doctoral Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Every year the Studienwerk funds scholarships and a wide range of educational programmes for about 300 German and foreign doctoral candidates of protestant faith from all disciplines. The grants are awarded in accordance with the guidelines by the Federal Ministry of Education and Research.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000210",
+      "deadlineText": "There are 2 application periods per year: 1 September to the 1st working day in December (midnight) 1 March to the 1st working day in June (midnight)",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000210",
+      "sourceQuote": "German and foreign nationals of protestant faith with excellent academic standing who wish to obtain or are already studying for a doctorate at a German higher-education institution In well-founded cases, Germans can pursue their doctorate degree at a higher education institution in a member state of the European Union, in Great Britain, in Norway or in Switzerland. The following applies to applic…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "German",
+            "foreign"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German and foreign nationals of protestant faith with excellent academic standing who wish to obtain or are already studying for a doctorate at a German higher-education institution",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "protestant faith",
+          "sourceQuote": "German and foreign nationals of protestant faith with excellent academic standing who wish to obtain or are already studying for a doctorate at a German higher-education institution",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German and foreign nationals of protestant faith with excellent academic standing who wish to obtain or are already studying for a doctorate at a German higher-education institution",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German and foreign nationals of protestant faith with excellent academic standing who wish to obtain or are already studying for a doctorate at a German higher-education institution",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "admission to a doctorate at a German higher education institution",
+          "sourceQuote": "admission to a doctorate at a German higher education institution",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": null,
+          "sourceQuote": "An application is possible if the applicant has not worked on the project for more than 1 year.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "EU",
+            "GB",
+            "NO",
+            "CH"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HEALTH",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "In well-founded cases, Germans can pursue their doctorate degree at a higher education institution in a member state of the European Union, in Great Britain, in Norway or in Switzerland.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

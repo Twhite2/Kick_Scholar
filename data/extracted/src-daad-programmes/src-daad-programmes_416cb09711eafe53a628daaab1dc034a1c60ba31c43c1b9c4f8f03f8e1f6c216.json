@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:416cb09711eafe53a628daaab1dc034a1c60ba31c43c1b9c4f8f03f8e1f6c216",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:39.492Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Ingolstadt",
+      "country": "DE",
+      "city": "Ingolstadt",
+      "website": "https://www.thi.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4867/",
+      "sourceQuote": "Technische Hochschule Ingolstadt • Ingolstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Ingolstadt",
+      "universityWebsite": "https://www.thi.de",
+      "name": "Retail and Consumer Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Retail and Consumer Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1200,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4867/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4867/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

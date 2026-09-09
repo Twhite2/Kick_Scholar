@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:098ae22d07ac6cabf6a363a381225454f67bc157fa6128d7eb95f33580bb0582",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:46.008Z",
+  "universities": [
+    {
+      "name": "EBS Universität für Wirtschaft und Recht",
+      "country": "DE",
+      "city": "Oestrich-Winkel",
+      "website": "https://www.ebs.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8556/",
+      "sourceQuote": "EBS Universität für Wirtschaft und Recht • Oestrich-Winkel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "EBS Universität für Wirtschaft und Recht",
+      "universityWebsite": "https://www.ebs.edu",
+      "name": "Master's in Business Analytics (MSc) Master's in Business Analytics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Business Analytics (MSc) Master's in Business Analytics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8556/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8556/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree and transcripts in **any field of study** with at least 180 ECTS or an equivalent recognised qualification.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "Business Admissions Test (BAT)",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "EBSgrad Test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "Common Admissions Test (CAT)",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid GMAT (either classic or new Focus edition – scores will be based on GMAC's percentile tables), GRE, Business Admissions Test (BAT), EBSgrad Test, Common Admissions Test (CAT)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If your application documents meet our admission requirements, we will invite you to an individual interview.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before 30 June (for a start in the winter semester). For international applicants who require a visa, we recommend that you submit your application before 30 May (for a start in the winter semester).",
+          "intake": null,
+          "sourceQuote": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before 30 June (for a start in the winter semester). For international applicants who require a visa, we recommend that you submit your application before 30 May (for a start in the winter semester).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

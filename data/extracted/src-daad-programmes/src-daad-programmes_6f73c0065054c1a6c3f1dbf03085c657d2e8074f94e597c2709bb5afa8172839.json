@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6f73c0065054c1a6c3f1dbf03085c657d2e8074f94e597c2709bb5afa8172839",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:59.074Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8481/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "European Mining Course (EMC)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "European Mining Course (EMC)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8481/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8481/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A BSc degree corresponding to a minimum of 180 ECTS credits is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students in their final year of their Bachelor's studies are eligible to apply, provided they complete their Bachelor's degree by 31 July (before the start of the academic year in the coordinating university, Aalto) and submit the degree certificate (and its official translation if needed) by the given deadline.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The awarding institution has to be a recognised part of the official national education system of the country, i.e. to be listed as a degree-granting higher education institution by the country where it is located or by a relevant international organisation (such as UNESCO).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The applicant's previous university degree could be a BSc in Engineering or in Geosciences such as in Mining Engineering, in Resource Engineering, in Civil Engineering, in Geology in Earth Sciences, in Environmental Engineering, in Chemical Engineering, in Metallurgical Engineering or in Process Engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "92",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 92",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "92",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 92",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "62",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 62",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The admission to European Mining Course is organised once a year. The application period for studies runs from January to February.",
+          "intake": null,
+          "sourceQuote": "The admission to European Mining Course is organised once a year. The application period for studies runs from January to February.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

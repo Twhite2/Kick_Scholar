@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3f58495d7e9ca91804c87d1a31c292b2265c3c7b64158a0c982d1c9c0e03e0e7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:29.571Z",
+  "universities": [
+    {
+      "name": "Technical University of Munich",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.tum.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4717/",
+      "sourceQuote": "Technical University of Munich • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Munich",
+      "universityWebsite": "https://www.tum.de",
+      "name": "Master of Health Science – Prevention and Health Promotion",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Health Science – Prevention and Health Promotion",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4717/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4717/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Qualified Bachelor's degree of at least six semesters obtained at a national or foreign university or a degree of at least equivalent value.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Advanced knowledge in English must be demonstrated (see below).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Evidence of a successfully passed vocational internship (min. eight weeks in the field of health science) before starting the Master's studies is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must successfully pass the [selection procedure](https://www.mh.tum.de/en/mh/academic-programs/sport-and-health-sciences-programs/prospective-students/application-procedure/) (also a written test) in order to be admitted to the programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "65",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 65",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7ceb2e346c0d54795d57417683ed09192288a5a5192de220b5a95b44e2e91bef",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:48.558Z",
+  "universities": [
+    {
+      "name": "Rosenheim Technical University of Applied Sciences",
+      "country": "DE",
+      "city": "Rosenheim",
+      "website": "https://www.th-rosenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5281/",
+      "sourceQuote": "Rosenheim Technical University of Applied Sciences • Rosenheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rosenheim Technical University of Applied Sciences",
+      "universityWebsite": "https://www.th-rosenheim.de/",
+      "name": "Master of Science in Wood Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Wood Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5281/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5281/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to the Master’s degree programme requires a **Bachelor’s degree** (at least six semesters) in Wood Technology, Wood Building and Construction, Interior Engineering or a related field, or an equivalent qualification gained in Germany or abroad.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, the personal motivation for studying should be explained in a motivational letter.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English proficiency",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "The qualification requirement for the English-language degree programme is **English proficiency** at **level B2** of the Common European Framework of Reference for Languages (CEFR).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "If you do not have a German-language university entrance qualification, you must provide evidence of **German language skills** for English-taught degree programmes at **level A2** or higher according to the CEFR (Common European Framework for Languages).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "intake": null,
+          "sourceQuote": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

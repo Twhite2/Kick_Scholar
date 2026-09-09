@@ -1,0 +1,134 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c63c4fdc2b76adf837237f679dcb8a66454e88b5d13bd99cf29ec9d97cafbd90",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:59.477Z",
+  "universities": [
+    {
+      "name": "University of Freiburg",
+      "country": "DE",
+      "city": "Freiburg im Breisgau",
+      "website": "https://uni-freiburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5302/",
+      "sourceQuote": "University of Freiburg • Freiburg im Breisgau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Freiburg",
+      "universityWebsite": "https://uni-freiburg.de/",
+      "name": "MSc Biochemistry and Biophysics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Biochemistry and Biophysics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5302/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5302/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "biochemistry",
+          "unit": null,
+          "sourceQuote": "Building on Bachelor’s degrees in biochemistry, biophysics, life sciences, pharmaceutical sciences, biology, chemistry or molecular medicine, students acquire comprehensive qualifications in the interdisciplinary fields of biochemistry, biophysics, bioinformatics and bioengineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "biophysics",
+          "unit": null,
+          "sourceQuote": "Building on Bachelor’s degrees in biochemistry, biophysics, life sciences, pharmaceutical sciences, biology, chemistry or molecular medicine, students acquire comprehensive qualifications in the interdisciplinary fields of biochemistry, biophysics, bioinformatics and bioengineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "life sciences",
+          "unit": null,
+          "sourceQuote": "Building on Bachelor’s degrees in biochemistry, biophysics, life sciences, pharmaceutical sciences, biology, chemistry or molecular medicine, students acquire comprehensive qualifications in the interdisciplinary fields of biochemistry, biophysics, bioinformatics and bioengineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "pharmaceutical sciences",
+          "unit": null,
+          "sourceQuote": "Building on Bachelor’s degrees in biochemistry, biophysics, life sciences, pharmaceutical sciences, biology, chemistry or molecular medicine, students acquire comprehensive qualifications in the interdisciplinary fields of biochemistry, biophysics, bioinformatics and bioengineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "biology",
+          "unit": null,
+          "sourceQuote": "Building on Bachelor’s degrees in biochemistry, biophysics, life sciences, pharmaceutical sciences, biology, chemistry or molecular medicine, students acquire comprehensive qualifications in the interdisciplinary fields of biochemistry, biophysics, bioinformatics and bioengineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "chemistry",
+          "unit": null,
+          "sourceQuote": "Building on Bachelor’s degrees in biochemistry, biophysics, life sciences, pharmaceutical sciences, biology, chemistry or molecular medicine, students acquire comprehensive qualifications in the interdisciplinary fields of biochemistry, biophysics, bioinformatics and bioengineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "molecular medicine",
+          "unit": null,
+          "sourceQuote": "Building on Bachelor’s degrees in biochemistry, biophysics, life sciences, pharmaceutical sciences, biology, chemistry or molecular medicine, students acquire comprehensive qualifications in the interdisciplinary fields of biochemistry, biophysics, bioinformatics and bioengineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "  * 10 ECTS credits in the subject areas of biochemistry or biophysics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "  * 10 ECTS credits in the subject areas of mathematics, bioinformatics or physics",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Application period Freiburg:**",
+          "intake": null,
+          "sourceQuote": "*Application period Freiburg:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

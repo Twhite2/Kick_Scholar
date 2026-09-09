@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0524ae9145af4b71b724d587ce1b7b1d5d6d1b156acb4ea04fe745a862c5ba4d",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:55.040Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Ingolstadt",
+      "country": "DE",
+      "city": "Ingolstadt",
+      "website": "https://www.thi.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4685/",
+      "sourceQuote": "Technische Hochschule Ingolstadt • Ingolstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Ingolstadt",
+      "universityWebsite": "https://www.thi.de",
+      "name": "Renewable Energy Systems (RES)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Renewable Energy Systems (RES)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1200,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4685/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4685/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

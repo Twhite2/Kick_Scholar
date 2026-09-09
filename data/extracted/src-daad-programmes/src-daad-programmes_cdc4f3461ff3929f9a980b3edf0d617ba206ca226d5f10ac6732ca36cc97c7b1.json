@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cdc4f3461ff3929f9a980b3edf0d617ba206ca226d5f10ac6732ca36cc97c7b1",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:57.499Z",
+  "universities": [
+    {
+      "name": "Saarland University",
+      "country": "DE",
+      "city": "Saarbrücken",
+      "website": "https://www.uni-saarland.de/start.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4842/",
+      "sourceQuote": "Saarland University • Saarbrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Saarland University",
+      "universityWebsite": "https://www.uni-saarland.de/start.html",
+      "name": "Saarbrücken Graduate School of Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Saarbrücken Graduate School of Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4842/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4842/",
+      "sourceQuote": "Degree Master of Science other degree",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application deadlines are currently twice a year at the end of April and end of October for the following semester.",
+          "intake": null,
+          "sourceQuote": "Application deadlines are currently twice a year at the end of April and end of October for the following semester.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

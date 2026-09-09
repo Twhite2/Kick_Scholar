@@ -1,0 +1,87 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:da37cb2fcfb6f744b85cee8533fbbf55a87efd9325602c27176d30ca01848ca4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:04.996Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Alexander von Humboldt Foundation: Humboldt Research Fellowship for Experienced Researchers",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Highly-qualified international scientists and scholars from all disciplines who completed their doctorates less than 12 years ago and wish to spend extended periods of research in Germany are invited to apply. Candidates can come from any nation and are expected to have their own, clearly defined research profile: they should typically be working at least at the level of assistant professor or junior research group leader or be able to document independent research work over a number of years (Exception: Researchers from Brazil can currently not apply for a Humboldt Research Fellowship). The fellowship amounts to 3,200 EUR, offering the candidates the opportunity to carry out their own long-term research projects (6 to 18 months) in cooperation with academic hosts of their choice at research institutions in Germany. The sponsorship entails further benefits and may be flexibly divided into a maximum of 3 visits within a range of 3 years. Short-term visits for study and training purposes or for attending conferences are not eligible for sponsorship.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000169",
+      "deadlineText": "Applications can be submitted at any time. The Selection Committee responsible for reviewing applications to this programme meets every March, July and November.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000169",
+      "sourceQuote": "highly-qualified scientists and scholars from any discipline or nation who have completed their doctorates less than 12 years ago",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Highly-qualified international scientists and scholars from all disciplines who completed their doctorates less than 12 years ago and wish to spend extended periods of research in Germany are invited to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Brazil"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "(Exception: Researchers from Brazil can currently not apply for a Humboldt Research Fellowship).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ANY"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Highly-qualified international scientists and scholars from all disciplines who completed their doctorates less than 12 years ago and wish to spend extended periods of research in Germany are invited to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "highly-qualified international scientists and scholars",
+          "sourceQuote": "Highly-qualified international scientists and scholars from all disciplines who completed their doctorates less than 12 years ago and wish to spend extended periods of research in Germany are invited to apply.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The fellowship amounts to 3,200 EUR, offering the candidates the opportunity to carry out their own long-term research projects (6 to 18 months) in cooperation with academic hosts of their choice at research institutions in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

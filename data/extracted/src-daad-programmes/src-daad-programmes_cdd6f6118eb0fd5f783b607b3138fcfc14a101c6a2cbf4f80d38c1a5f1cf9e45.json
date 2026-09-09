@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cdd6f6118eb0fd5f783b607b3138fcfc14a101c6a2cbf4f80d38c1a5f1cf9e45",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:15.726Z",
+  "universities": [
+    {
+      "name": "University of Oldenburg",
+      "country": "DE",
+      "city": "Oldenburg",
+      "website": "https://www.uol.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3772/",
+      "sourceQuote": "University of Oldenburg • Oldenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Oldenburg",
+      "universityWebsite": "https://www.uol.de",
+      "name": "Bachelor of Engineering in Engineering Physics BEng in Engineering Physics",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor of Engineering in Engineering Physics BEng in Engineering Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3772/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3772/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Entrance qualification to a Bachelor's degree or an equivalent (secondary school degree equivalent to German \"Fachhochschulreife\" or \"Abitur\")",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

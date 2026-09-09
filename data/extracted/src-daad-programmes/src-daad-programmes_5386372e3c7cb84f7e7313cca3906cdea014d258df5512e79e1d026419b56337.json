@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5386372e3c7cb84f7e7313cca3906cdea014d258df5512e79e1d026419b56337",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:17.467Z",
+  "universities": [
+    {
+      "name": "Ludwig-Maximilians-Universität München",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.lmu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7983/",
+      "sourceQuote": "Ludwig-Maximilians-Universität München • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ludwig-Maximilians-Universität München",
+      "universityWebsite": "https://www.lmu.de",
+      "name": "Master of Arts in Environment and Society MA Environment and Society",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Environment and Society MA Environment and Society",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7983/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7983/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Copy of a Bachelor's degree (180 ECTS points or equivalent)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "Transcript of records (showing a grade of at least 2.5 on the German scale [or equivalent])",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "EQ",
+          "value": "96",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 96",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

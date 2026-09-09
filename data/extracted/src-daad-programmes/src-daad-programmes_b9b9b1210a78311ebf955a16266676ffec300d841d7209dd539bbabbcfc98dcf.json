@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b9b9b1210a78311ebf955a16266676ffec300d841d7209dd539bbabbcfc98dcf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:23:27.157Z",
+  "universities": [
+    {
+      "name": "Chemnitz University of Technology",
+      "country": "DE",
+      "city": "Chemnitz",
+      "website": "https://www.tu-chemnitz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4269/",
+      "sourceQuote": "Chemnitz University of Technology • Chemnitz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Chemnitz University of Technology",
+      "universityWebsite": "https://www.tu-chemnitz.de/",
+      "name": "Information and Communication Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Information and Communication Systems",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4269/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4269/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Electrical Engineering and Information Technology (\"Bachelorstudiengang Elektrotechnik und Informationstechnik\") of Chemnitz University of Technology; Equivalent degree (individual decision by a board of examiners)",
+          "unit": null,
+          "sourceQuote": "* Bachelor's degree in Electrical Engineering and Information Technology (\"Bachelorstudiengang Elektrotechnik und Informationstechnik\") of Chemnitz University of Technology\n  * Equivalent degree (individual decision by a board of examiners)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

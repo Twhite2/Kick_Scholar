@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:505f2eea229f25069b83760b46aaaaec443714e2e59d5f5c74f2b7178337c60d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:59:09.102Z",
+  "universities": [
+    {
+      "name": "Technische Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.tu.berlin/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5352/",
+      "sourceQuote": "Technische Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Berlin",
+      "universityWebsite": "https://www.tu.berlin/",
+      "name": "Sustainable Mobility Management (MBA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Mobility Management (MBA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 6600,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5352/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5352/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "First university degree (translation into English or German)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "Proof of at least one year of work experience after the completion of first university degree, preferably in the relevant areas of transport and planning",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "GMAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Only if available: Graduate Management Admission Test (GMAT) or Graduate Record Examination (GRE)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Only if available: Graduate Management Admission Test (GMAT) or Graduate Record Examination (GRE)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

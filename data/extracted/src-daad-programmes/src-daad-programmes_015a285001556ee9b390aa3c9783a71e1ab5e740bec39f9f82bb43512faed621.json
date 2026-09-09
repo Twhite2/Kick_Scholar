@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:015a285001556ee9b390aa3c9783a71e1ab5e740bec39f9f82bb43512faed621",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:53.497Z",
+  "universities": [
+    {
+      "name": "University of Duisburg-Essen",
+      "country": "DE",
+      "city": "Essen",
+      "website": "https://www.uni-due.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3897/",
+      "sourceQuote": "University of Duisburg-Essen • Essen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Duisburg-Essen",
+      "universityWebsite": "https://www.uni-due.de/",
+      "name": "Master of Science in Water Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Water Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3897/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3897/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A university Bachelor's degree (or equivalent) in natural sciences or engineering with chemical, analytical, biological and microbiological contents, including generally an experimental Bachelor's thesis on a topic relevant for the field of Water Science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "66",
+          "unit": "out of 100",
+          "sourceQuote": "GPA of at least 66 (out of 100), or in the German grading system: 3.0 or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Documented practical courses in essential chemical, analytical and microbiological topics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A completely filled out application form (available on the website of the Department of Chemistry: [https://www.uni-due.de/chemistry/study/study_programs/water_science_de.php; ](https://www.uni-due.de/chemistry/study/study_programs/water_science_de.php)<https://www.uni-due.de/water-science/index_en.php>)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students from non-EU member countries must enclose a letter of recommendation from their home institution.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "CHINESE, VIETNAMESE and INDIAN students please note: You have to provide an APS certificate along with your application documents.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

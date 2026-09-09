@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:05bd955e3a9e5f8fad0cf40aa694d367ce5574005873b75524806da6dd762bea",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:57.323Z",
+  "universities": [
+    {
+      "name": "University of Bayreuth",
+      "country": "DE",
+      "city": "Bayreuth",
+      "website": "https://www.uni-bayreuth.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5244/",
+      "sourceQuote": "University of Bayreuth • Bayreuth"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bayreuth",
+      "universityWebsite": "https://www.uni-bayreuth.de/",
+      "name": "Scientific Computing",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Scientific Computing",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5244/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5244/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "1. A **Bachelor’s degree** in mathematics, computer science, engineering science or physics (or a degree with equivalent content) with a final grade of 1.9 or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "1.9",
+          "unit": null,
+          "sourceQuote": "1. A **Bachelor’s degree** in mathematics, computer science, engineering science or physics (or a degree with equivalent content) with a final grade of 1.9 or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "16",
+          "unit": "credits",
+          "sourceQuote": "2. **Sufficient specialised knowledge in** numerical mathematics of at least 16 credits",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

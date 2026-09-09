@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2eb584871326b775ac18ab650bbf3b06ce6afc0592280d07daf2114caccdfa51",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:24.233Z",
+  "universities": [
+    {
+      "name": "Heilbronn University of Applied Sciences",
+      "country": "DE",
+      "city": "Heilbronn",
+      "website": "https://www.hs-heilbronn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3930/",
+      "sourceQuote": "Heilbronn University of Applied Sciences • Heilbronn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heilbronn University of Applied Sciences",
+      "universityWebsite": "https://www.hs-heilbronn.de/de",
+      "name": "International Business",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3930/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3930/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

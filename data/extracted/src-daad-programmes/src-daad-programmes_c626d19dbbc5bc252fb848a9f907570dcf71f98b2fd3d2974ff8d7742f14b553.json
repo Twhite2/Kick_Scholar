@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c626d19dbbc5bc252fb848a9f907570dcf71f98b2fd3d2974ff8d7742f14b553",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:05.411Z",
+  "universities": [
+    {
+      "name": "University of Kassel",
+      "country": "DE",
+      "city": "Kassel",
+      "website": "https://www.uni-kassel.de/uni/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3639/",
+      "sourceQuote": "University of Kassel • Kassel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Kassel",
+      "universityWebsite": "https://www.uni-kassel.de/uni/",
+      "name": "Global Political Economy and Development (MA GPED)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Political Economy and Development (MA GPED)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3639/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3639/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2b4647b917358ffc3597fe737f1c40f196a2f8e6693cc7cbace5a1a0bfdd5f18",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:33.356Z",
+  "universities": [
+    {
+      "name": "Technical University of Munich",
+      "country": "DE",
+      "city": "Straubing",
+      "website": "https://www.tum.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8505/",
+      "sourceQuote": "Technical University of Munich • Straubing"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Munich",
+      "universityWebsite": "https://www.tum.de",
+      "name": "Sustainable Management & Technology (BSMT)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Sustainable Management & Technology (BSMT)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8505/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8505/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "General higher education entrance qualification and aptitude assessment procedures",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "B2 required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

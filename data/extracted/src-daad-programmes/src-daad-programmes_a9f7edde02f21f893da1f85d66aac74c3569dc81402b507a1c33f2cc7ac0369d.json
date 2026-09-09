@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a9f7edde02f21f893da1f85d66aac74c3569dc81402b507a1c33f2cc7ac0369d",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:27.039Z",
+  "universities": [
+    {
+      "name": "Rhine-Waal University of Applied Sciences",
+      "country": "DE",
+      "city": "Kleve",
+      "website": "https://www.hochschule-rhein-waal.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4210/",
+      "sourceQuote": "Rhine-Waal University of Applied Sciences • Kleve"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rhine-Waal University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-rhein-waal.de",
+      "name": "International Business and Management, BA",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business and Management, BA",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4210/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4210/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

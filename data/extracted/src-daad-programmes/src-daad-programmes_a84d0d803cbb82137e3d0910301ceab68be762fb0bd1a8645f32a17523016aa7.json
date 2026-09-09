@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a84d0d803cbb82137e3d0910301ceab68be762fb0bd1a8645f32a17523016aa7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:25:30.008Z",
+  "universities": [
+    {
+      "name": "Osnabrück University of Applied Sciences",
+      "country": "DE",
+      "city": "Osnabrück",
+      "website": "https://www.hs-osnabrueck.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3619/",
+      "sourceQuote": "Osnabrück University of Applied Sciences • Osnabrück"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Osnabrück University of Applied Sciences",
+      "universityWebsite": "https://www.hs-osnabrueck.de",
+      "name": "International Management (BA)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Management (BA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3619/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3619/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Your secondary school diploma or university degree must be recognised as entitling you for admission to a Bachelor's programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

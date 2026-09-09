@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:766d9868f8c922c680b4bb9013bf6131b861199ba69a18f465f3e130d3f7ca6e",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:09.814Z",
+  "universities": [
+    {
+      "name": "University of Stuttgart",
+      "country": "DE",
+      "city": "Stuttgart",
+      "website": "https://www.uni-stuttgart.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4239/",
+      "sourceQuote": "University of Stuttgart • Stuttgart"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Stuttgart",
+      "universityWebsite": "https://www.uni-stuttgart.de/",
+      "name": "Computational Linguistics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Linguistics",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4239/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4239/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

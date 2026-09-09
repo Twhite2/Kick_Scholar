@@ -1,0 +1,184 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:9c8e136292a5b8b137c6352098f4ad00409bb35d3ce3a4219ba1f78a69c24531",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:15:07.587Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DLR-DAAD Research Fellowship Programme **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "'DLR-DAAD Research Fellowships' is a programme implemented by the 'German Aerospace Center' (DLR) and the 'German Academic Exchange Service' (DAAD). DLR is Germany’s national research centre for aeronautics and space. Its extensive research and development work in Aeronautics, Space, Energy and Transport is integrated into national and international cooperative ventures. As Germany’s space agency, DLR has been given responsibility for the forward planning and the implementation of the German space programme by the German federal government as well as for the international representation of German interests. Approximately 10,000 people plus approx. 550 visiting scientists are employed in DLR’s 55 institutes and facilities at 30 locations in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50019749",
+      "deadlineText": "If an application deadline exists, it is mentioned in the [current offers](https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/dlr/current-offers/). The DLR-DAAD scholarships are awarded with the principle 'first come first serve', therefore fellowship offers may sometimes be allocated to other applicants while your application is still processed.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50019749",
+      "sourceQuote": "This special programme is intended for highly-qualified foreign graduate and doctoral students as well as postdoctoral researchers and senior scientists. DLR-DAAD Fellowships are defined and awarded on an individual basis. Each fellowship announcement will indicate the specific qualification requirements and terms of visit.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "not be of German nationality, or must be able to proof that the main place of residence lies outside of Germany for at least six years,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "main place of residence lies outside of Germany for at least six years",
+          "sourceQuote": "not be of German nationality, or must be able to proof that the main place of residence lies outside of Germany for at least six years,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "be able to prove their outstanding study or research achievements in the field of research corresponding to the fellowship offer,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Type A –have completed a first qualifying degree (Bachelor's, Diploma, equivalent) and must be enrolled in a Master's programme at a foreign or German university,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 6,
+          "textValue": null,
+          "sourceQuote": "Type B – have completed their studies or research with a university degree not more than six years ago,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 2,
+          "textValue": null,
+          "sourceQuote": "Type C – have completed their studies with a doctorate/PhD/Candidate (Russia) not more than two years ago,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Type D – applicants are working in higher education or at a research institute; positions are open to outstandingly-qualified academics and scientists who should generally hold a doctorate/ PhD, additional prerequisites may differ and are stated in the fellowship offers,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Type E – PhD applicants have completed a first qualifying degree and are currently enrolled in PhD studies; Postdoc applicants must have completed their studies with a doctorate/PhD/Candidate (Russia) not more than two years ago.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "An excellent knowledge of English; knowledge of German is advantageous.",
+          "sourceQuote": "An excellent knowledge of English; knowledge of German is advantageous.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Type A –have completed a first qualifying degree (Bachelor's, Diploma, equivalent) and must be enrolled in a Master's programme at a foreign or German university,",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Type B – have completed their studies or research with a university degree not more than six years ago,",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Type C – have completed their studies with a doctorate/PhD/Candidate (Russia) not more than two years ago,",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Type D – applicants are working in higher education or at a research institute; positions are open to outstandingly-qualified academics and scientists who should generally hold a doctorate/ PhD, additional prerequisites may differ and are stated in the fellowship offers,",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Type E – PhD applicants have completed a first qualifying degree and are currently enrolled in PhD studies; Postdoc applicants must have completed their studies with a doctorate/PhD/Candidate (Russia) not more than two years ago.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:51fd7f3ded5b5e0ed58a78bf0410d3b1fba3fecbdcaaa94d56fa938434fb74c0",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:15:08.030Z",
+  "universities": [
+    {
+      "name": "Ulm University",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.uni-ulm.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3793/",
+      "sourceQuote": "Ulm University • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University",
+      "universityWebsite": "https://www.uni-ulm.de",
+      "name": "Communication and Information Technology (Master of Science)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Communication and Information Technology (Master of Science)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3793/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3793/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree or comparable degree at the level of at least three years of study",
+          "unit": null,
+          "sourceQuote": "Bachelor’s degree or comparable degree at the level of at least three years of study",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "in Electrical Engineering, Communications Engineering or Electronics, or in a degree programme in a closely related field with basic knowledge in six or more of the following eight topics: Fundamentals of Electrical Engineering, Mathematics, Fundamentals of Computer Science/Programming, Signals and Systems, Communications Engineering, Circuit Technology, Electromagnetic Fields and Waves, Semiconductor Technology, to the extent of at least one module each",
+          "unit": null,
+          "sourceQuote": "in Electrical Engineering, Communications Engineering or Electronics, or\n    * in a degree programme in a closely related field with basic knowledge in six or more of the following eight topics: Fundamentals of Electrical Engineering, Mathematics, Fundamentals of Computer Science/Programming, Signals and Systems, Communications Engineering, Circuit Technology, Electromagnetic Fields and Waves, Semiconductor Technology, to the extent of at least one module each",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.0",
+          "unit": null,
+          "sourceQuote": "an overall grade of 2.0 or better, or, if a degree has not yet been awarded, by the previous study and examination achievements showing an average of 2.0 or better by the application deadline, or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "or an official proof from the university that the applicant is in the top 20% of their year",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "IN_LIST",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 76",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

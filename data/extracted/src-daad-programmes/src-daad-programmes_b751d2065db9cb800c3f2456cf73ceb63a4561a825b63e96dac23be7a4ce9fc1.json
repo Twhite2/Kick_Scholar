@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b751d2065db9cb800c3f2456cf73ceb63a4561a825b63e96dac23be7a4ce9fc1",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:33.873Z",
+  "universities": [
+    {
+      "name": "Technische Universität Ilmenau",
+      "country": "DE",
+      "city": "Ilmenau",
+      "website": "https://www.tu-ilmenau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3979/",
+      "sourceQuote": "Technische Universität Ilmenau • Ilmenau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Ilmenau",
+      "universityWebsite": "https://www.tu-ilmenau.de/",
+      "name": "Master of Science in Communications and Signal Processing",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Communications and Signal Processing",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3979/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3979/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

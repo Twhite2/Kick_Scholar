@@ -1,0 +1,173 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e19909ab01849e310bcfae496357dcb6407e92cea0a15f601f8ca104b1282bc7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:27.662Z",
+  "universities": [
+    {
+      "name": "Heidelberg University",
+      "country": "DE",
+      "city": "Heidelberg",
+      "website": "https://www.uni-heidelberg.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4443/",
+      "sourceQuote": "Heidelberg University • Heidelberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heidelberg University",
+      "universityWebsite": "https://www.uni-heidelberg.de/de",
+      "name": "Master of Science in Scientific Computing",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Scientific Computing",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4443/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4443/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "ECTS",
+          "sourceQuote": "Solid mathematics education (**min. 24 ECTS**)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "Linear Algebra (min. 6 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "Analysis (min. 6 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "Advanced Mathematics – Numerics, Functional Analysis, Optimisation, Differential Equations or similar (min. 6 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "ECTS",
+          "sourceQuote": "Solid practical computer science education (**min. 24 ECTS**)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "Practical Computer Science (min. 6 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "Algorithms & Data Structures (min. 6 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "Advanced Computer Science – Image Process, Computer Graphics, Parallel Computing, Machine Learning (min. 6 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "16",
+          "unit": "ECTS",
+          "sourceQuote": "Application area (**min. 16 ECTS**)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "16",
+          "unit": "ECTS",
+          "sourceQuote": "Basic knowledge in a field of real applications for scientific computing – physics, biology, chemistry, economics, etc. (min. 16 ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

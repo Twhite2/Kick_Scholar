@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:78b4fefbcb374ef1950f664cfb913bd1c859822c4d9cbb8b14a9073e141746f8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:29:19.687Z",
+  "universities": [
+    {
+      "name": "Dortmund University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Dortmund",
+      "website": "https://www.fh-dortmund.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4879/",
+      "sourceQuote": "Dortmund University of Applied Sciences and Arts • Dortmund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dortmund University of Applied Sciences and Arts",
+      "universityWebsite": "https://www.fh-dortmund.de/",
+      "name": "Master's in Digital Transformation (MDT)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Digital Transformation (MDT)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4879/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4879/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "completion of a “Diplom” or Bachelor's course of study of Computer Science, Business Informatics, Information Technology, Software Engineering or equivalent at a university of applied sciences (\"Fachhochschule\") or a university, or the completion of a corresponding accredited Bachelor's qualification programme at a university of cooperative education (\"Berufsakademie\")",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include the completion of a “Diplom” or Bachelor's course of study of Computer Science, Business Informatics, Information Technology, Software Engineering or equivalent at a university of applied sciences (\"Fachhochschule\") or a university, or the completion of a corresponding accredited Bachelor's qualification programme at a university of cooperative education (\"Berufsakademie\") with an overall grade of at least “good” (2.5).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include the completion of a “Diplom” or Bachelor's course of study of Computer Science, Business Informatics, Information Technology, Software Engineering or equivalent at a university of applied sciences (\"Fachhochschule\") or a university, or the completion of a corresponding accredited Bachelor's qualification programme at a university of cooperative education (\"Berufsakademie\") with an overall grade of at least “good” (2.5).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition, competences in the field of study of Digital Systems and Software Engineering on a sufficient level need to be demonstrated.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "It must be evident that previous studies included a thesis.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

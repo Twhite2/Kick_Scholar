@@ -1,0 +1,86 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:745b4afc8e8eab80f6d427e111cfc5252e2e1c080cf1df4ada9af68f80881582",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:52.509Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Bayer Foundation: Otto Bayer Fellowship in Drug Discovery",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The scholarships are aimed at Master's and PhD students in the following disciplines: natural science, pharmacy or data science with relevance to the pharmaceutical and consumer healthcare (over-the-counter) industries. Students from Germany who are going abroad for a study project or practical work experience or students from abroad who are studying, researching or doing an internship in Germany can apply. Internships cannot be undertaken in a commercial organisation/industry. Candidates have a strong sense of commitment and motivation and submit an innovative research proposal, which will be funded individually.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000208",
+      "deadlineText": "The updated deadlines for application can be found [here](https://www.bayer-foundation.com/science/fellowships-stipends#ForMaster).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000208",
+      "sourceQuote": "students in Master's or PhD programmes from the following subjects: natural science pharmacy data science",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarships are aimed at Master's and PhD students in the following disciplines: natural science, pharmacy or data science with relevance to the pharmaceutical and consumer healthcare (over-the-counter) industries.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "natural science",
+            "pharmacy",
+            "data science"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarships are aimed at Master's and PhD students in the following disciplines: natural science, pharmacy or data science with relevance to the pharmaceutical and consumer healthcare (over-the-counter) industries.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "abroad"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students from Germany who are going abroad for a study project or practical work experience or students from abroad who are studying, researching or doing an internship in Germany can apply.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "HEALTH"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Students from Germany who are going abroad for a study project or practical work experience or students from abroad who are studying, researching or doing an internship in Germany can apply.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

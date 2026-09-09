@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e757f05d5e35807954c96c7478cb655a4fe0160a318688e131a02e7fcd3b1cf3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:01.172Z",
+  "universities": [
+    {
+      "name": "Bremen University of Applied Sciences",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.hs-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3812/",
+      "sourceQuote": "Bremen University of Applied Sciences • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bremen University of Applied Sciences",
+      "universityWebsite": "https://www.hs-bremen.de/",
+      "name": "International MBA (Dual Degree) Programme",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International MBA (Dual Degree) Programme",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5667,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3812/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3812/",
+      "sourceQuote": "Degree Master of Science Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Previous undergraduate degree in business management or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "At least two years of practical professional experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/international-mba-dual-degree.html).",
+          "intake": null,
+          "sourceQuote": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/international-mba-dual-degree.html).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

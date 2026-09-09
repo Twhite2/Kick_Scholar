@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:de43c3ac7fdc227935d47dc8245e245e320f842b5ec81c44fc79788776396d76",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:01.320Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4422/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master's in Global History",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Global History",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4422/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4422/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

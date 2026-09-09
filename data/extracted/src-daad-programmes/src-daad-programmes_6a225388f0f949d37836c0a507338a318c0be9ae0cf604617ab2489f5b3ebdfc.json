@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6a225388f0f949d37836c0a507338a318c0be9ae0cf604617ab2489f5b3ebdfc",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:20.403Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.uni-kiel.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4742/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.uni-kiel.de/de/",
+      "name": "Master of Science in Molecular Biology & Evolution (MAMBE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Molecular Biology & Evolution (MAMBE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4742/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4742/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

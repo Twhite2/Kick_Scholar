@@ -1,0 +1,85 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:a570e626b71a3d79017fe00aecc3b6379f8716a29218a71c77c952e613a0d25d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:22.320Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Alexander von Humboldt Foundation: International Climate Protection Fellowship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The International Climate Protection Fellowship supports prospective leaders working academically or practically in climate protection or climate-relevant resource conservation in their home countries - a [non-European developing or transition country](https://www.humboldt-foundation.de/fileadmin/Bewerben/Programme/Internationales-Klimaschutzstipendium/icf_list_of_countries.pdf). If you are a prospective leader you will do a 1-year research-related project in Germany as part of your fellowship; if you are a postdoc, long-term academic research (12-24 months). It should focus on combating climate change, adaptation strategies, preserving ecosystems and biodiversity, or on the sustainable use of the seas and oceans. Sustainability topics relating to natural resources, resource-efficient consumption or urban development are also welcome. The fellowship facilitates the mutual exchange of knowledge, methods and techniques with hosts in Germany; this also extends to questions of practical applicability in the countries of origin.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000550",
+      "deadlineText": "The programme announcement will usually be published in August; the closing date for applications is 1 February.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000550",
+      "sourceQuote": "prospective leaders working academically or practically in climate protection or climate-relevant resource conservation in their home countries - a [non-European developing or transition country](https://www.humboldt-foundation.de/fileadmin/Bewerben/Programme/Internationales-Klimaschutzstipendium/icf_list_of_countries.pdf)",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "non-European developing or transition country"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "prospective leaders working academically or practically in climate protection or climate-relevant resource conservation in their home countries - a [non-European developing or transition country](https://www.humboldt-foundation.de/fileadmin/Bewerben/Programme/Internationales-Klimaschutzstipendium/icf_list_of_countries.pdf)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Prospective leaders  \n\n  * completed their first academic degree (Bachelor's or comparable degree) during the last 12 years (cut-off date: 1 February of year of application)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Postdoctoral researchers  \n\n  * completed their first academic degree (Bachelor's or comparable degree) during the last 12 years (cut-off date: 1 February of year of application)\n  * completed their doctorate during the last 4 years or will complete their doctorate until 31 August of the respective selection year",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "If you are a prospective leader you will do a 1-year research-related project in Germany as part of your fellowship; if you are a postdoc, long-term academic research (12-24 months).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

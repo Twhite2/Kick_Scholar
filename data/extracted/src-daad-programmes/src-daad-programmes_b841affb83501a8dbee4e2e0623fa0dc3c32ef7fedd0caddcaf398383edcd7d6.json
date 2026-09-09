@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b841affb83501a8dbee4e2e0623fa0dc3c32ef7fedd0caddcaf398383edcd7d6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:20:13.166Z",
+  "universities": [
+    {
+      "name": "HTW Berlin University of Applied Sciences",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.htw-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3906/",
+      "sourceQuote": "HTW Berlin University of Applied Sciences • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HTW Berlin University of Applied Sciences",
+      "universityWebsite": "https://www.htw-berlin.de",
+      "name": "Bachelor's in International Business (BIB)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor's in International Business (BIB)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3906/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3906/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "If you have a German higher education entrance qualification, are a national of an EU or EEA country, are changing your degree programme within HTW Berlin or have successfully completed a preparatory course (Studienkolleg) in Germany, the following application periods apply for you:",
+          "intake": null,
+          "sourceQuote": "If you have a German higher education entrance qualification, are a national of an EU or EEA country, are changing your degree programme within HTW Berlin or have successfully completed a preparatory course (Studienkolleg) in Germany, the following application periods apply for you:",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

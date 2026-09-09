@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:12ca4bfd851c9e3274e28712a47cef77db8f9fb9cb3b00edcba36e80049dd561",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:28.867Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Bavarian Academic Center for Central, Eastern and Southeastern Europe: One-year scholarship programme sponsored by the Free State of Bavaria for graduates of Central, Eastern and Southeastern European states (BAYHOST)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The one-year scholarships are intended for graduates from Bulgaria, Croatia, Czechia, Hungary, Poland, Romania, Serbia, Slovakia and Ukraine who plan to complete postgraduate studies (i.e. Master's programmes), PhDs or one-year research stays at a Bavarian higher-education institution. The one-year scholarship can be generally extended twice for up to 3 years. An average of 40 scholarships worth 992 EUR per month are awarded each year. Single parents or scholars with at least one child may be awarded a monthly amount of 1,152 EUR. The programme aims to support scientific cooperation and academic exchange between the state of Bavaria and Central, Eastern and Southeastern Europe.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000128",
+      "deadlineText": "Please find the updated deadlines for application [here](https://www.uni-regensburg.de/en/bayhost/funding-and-scholarships/coming-to-bavaria/study-in-bavaria).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000128",
+      "sourceQuote": "graduates (with appropriate citizenship) from Bulgaria, Croatia, Czechia, Hungary, Poland, Romania, Serbia, Slovakia and Ukraine who plan to complete doctoral or postgraduate studies at a Bavarian higher-education institution. One-year research stays are also sponsored.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Bulgaria",
+            "Croatia",
+            "Czechia",
+            "Hungary",
+            "Poland",
+            "Romania",
+            "Serbia",
+            "Slovakia",
+            "Ukraine"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The one-year scholarships are intended for graduates from Bulgaria, Croatia, Czechia, Hungary, Poland, Romania, Serbia, Slovakia and Ukraine who plan to complete postgraduate studies (i.e. Master's programmes), PhDs or one-year research stays at a Bavarian higher-education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The one-year scholarships are intended for graduates from Bulgaria, Croatia, Czechia, Hungary, Poland, Romania, Serbia, Slovakia and Ukraine who plan to complete postgraduate studies (i.e. Master's programmes), PhDs or one-year research stays at a Bavarian higher-education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "IN_LIST",
+          "valueList": [
+            "one-year research stays"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The one-year scholarships are intended for graduates from Bulgaria, Croatia, Czechia, Hungary, Poland, Romania, Serbia, Slovakia and Ukraine who plan to complete postgraduate studies (i.e. Master's programmes), PhDs or one-year research stays at a Bavarian higher-education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Bachelor's degree or academic equivalent",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The one-year scholarships are intended for graduates from Bulgaria, Croatia, Czechia, Hungary, Poland, Romania, Serbia, Slovakia and Ukraine who plan to complete postgraduate studies (i.e. Master's programmes), PhDs or one-year research stays at a Bavarian higher-education institution.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The one-year scholarship can be generally extended twice for up to 3 years.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

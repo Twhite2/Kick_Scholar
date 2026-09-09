@@ -1,0 +1,90 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:1b878bcbf70222a33f432baef9c98bfc4653f485e6d54145b2535ef56a244b84",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:29.972Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German-Czech Fund for the Future: Grants for Study Stays of German and Czech Students in the Neighbour Countries",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The German-Czech Fund for the Future was launched in 1998 to create and support trust, encounters and cooperation between Germans and Czechs. The Fund's scholarship programme is aimed at German and Czech students researching German-Czech topics. They are to be given the opportunity to enter into a German-Czech academic exchange, broaden their horizons, deepen their language skills, familiarise themselves with culture and everyday life and make new cross-border friendships. The scholarship supports work on a research project related to German-Czech topics. Language courses are not funded. Students of the humanities and social sciences (history, politics, social sciences, law, economics, linguistics, literature, cultural studies, philosophy, etc.) in Bachelor's, Master's and PhD programmes at German and Czech higher education institutions are eligible to apply for a scholarship from the Fund.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000372",
+      "deadlineText": "The application deadline is 31 January for the following academic year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000372",
+      "sourceQuote": "students of the humanities and social sciences (history, politics, social sciences, law, economics, linguistics, literature, cultural studies, philosophy, etc.) in Bachelor's, Master's and PhD programmes",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "Czech"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Fund's scholarship programme is aimed at German and Czech students researching German-Czech topics.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "humanities",
+            "social sciences"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students of the humanities and social sciences (history, politics, social sciences, law, economics, linguistics, literature, cultural studies, philosophy, etc.) in Bachelor's, Master's and PhD programmes at German and Czech higher education institutions are eligible to apply for a scholarship from the Fund.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students of the humanities and social sciences (history, politics, social sciences, law, economics, linguistics, literature, cultural studies, philosophy, etc.) in Bachelor's, Master's and PhD programmes at German and Czech higher education institutions are eligible to apply for a scholarship from the Fund.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "CZ"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES",
+            "SOCIAL_SCIENCES"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Students of the humanities and social sciences (history, politics, social sciences, law, economics, linguistics, literature, cultural studies, philosophy, etc.) in Bachelor's, Master's and PhD programmes at German and Czech higher education institutions are eligible to apply for a scholarship from the Fund.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

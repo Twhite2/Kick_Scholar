@@ -1,0 +1,90 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:844c516fba585dacef1bb257c307bed4b48c94858b348436fdd308b04b057bb1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:03.613Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Foundation of the Berlin House of Representatives: Grant Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Grant Programme of the Berlin House of Representatives awards funding to young researchers in any subject area from the United States, the United Kingdom, France and states that once belonged to the Soviet Union. Eligible candidates are either researching Berlin and, therefore, German issues or the German international relations or they are working on projects requiring access to the Berlin research institutions. For almost an entire year, they are given the opportunity to participate in Berlin's scientific life and to get to know the culture, the way of life and the people in the German capital. The foundation assigns about 15 stipends each year which are worth 1,100 EUR per month for pre-doctoral students and 1,630 EUR per month for post-doctoral researchers over a period of 10 months. The support also includes a fixed allowance for the grant holder's travel to and from Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000131",
+      "deadlineText": "15 December of each year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000131",
+      "sourceQuote": "young researchers of excellent academic merit from the United States, the United Kingdom, France and the successor states of the Soviet Union, researching Berlin and, therefore, German issues or those concerning the German international relations, or applicants working on projects requiring access to the Berlin research institutions",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "United States",
+            "the United Kingdom",
+            "France",
+            "states that once belonged to the Soviet Union"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Grant Programme of the Berlin House of Representatives awards funding to young researchers in any subject area from the United States, the United Kingdom, France and states that once belonged to the Soviet Union.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "any subject area"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Grant Programme of the Berlin House of Representatives awards funding to young researchers in any subject area from the United States, the United Kingdom, France and states that once belonged to the Soviet Union.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "at least a first higher education qualification",
+          "sourceQuote": "Academic Requirements\nat least a first higher education qualification",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "young researchers of excellent academic merit from the United States, the United Kingdom, France and the successor states of the Soviet Union, researching Berlin and, therefore, German issues or those concerning the German international relations, or applicants working on projects requiring access to the Berlin research institutions",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "For almost an entire year, they are given the opportunity to participate in Berlin's scientific life and to get to know the culture, the way of life and the people in the German capital.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

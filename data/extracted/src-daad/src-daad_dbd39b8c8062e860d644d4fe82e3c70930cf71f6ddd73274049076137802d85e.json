@@ -1,0 +1,79 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:dbd39b8c8062e860d644d4fe82e3c70930cf71f6ddd73274049076137802d85e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:09.822Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Heinrich Böll Foundation: Sur-Place Scholarship Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Since 1997, the Heinrich Böll Foundation supports graduates from Latin America through its Sur-Place Programme in Mexico. The programme aims at strengthening and professionalising the expert and leadership potential in Central America. Through the expertise and experience gained as part of the programme, participants are to be enabled to contribute with innovative ideas and initiatives to the development of a stable civil society. The programme enables graduates to participate in selected postgraduate courses at renowned universities and scientific institutions in Mexico. The research project must be related to one of the Böll Foundation's fields of work.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000233",
+      "deadlineText": "Up-to-date information is available on the [programme website](https://mx.boell.org/es/categories/becas).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000233",
+      "sourceQuote": "graduates of a Bachelor's or Master's programme or equivalent citizens of Costa Rica, Cuba, Guatemala, Haiti, Honduras, Nicaragua and El Salvador",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "graduates of a Bachelor's or Master's programme or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Costa Rica",
+            "Cuba",
+            "Guatemala",
+            "Haiti",
+            "Honduras",
+            "Nicaragua",
+            "El Salvador"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "citizens of Costa Rica, Cuba, Guatemala, Haiti, Honduras, Nicaragua and El Salvador",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "MX"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED",
+            "ANY"
+          ],
+          "sourceQuote": "The programme enables graduates to participate in selected postgraduate courses at renowned universities and scientific institutions in Mexico.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

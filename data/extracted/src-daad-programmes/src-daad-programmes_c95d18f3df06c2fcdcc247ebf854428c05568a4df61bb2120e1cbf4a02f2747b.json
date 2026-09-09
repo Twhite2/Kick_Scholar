@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c95d18f3df06c2fcdcc247ebf854428c05568a4df61bb2120e1cbf4a02f2747b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:20:43.000Z",
+  "universities": [
+    {
+      "name": "Johannes Gutenberg University Mainz",
+      "country": "DE",
+      "city": "Mainz",
+      "website": "https://www.uni-mainz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4508/",
+      "sourceQuote": "Johannes Gutenberg University Mainz • Mainz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Johannes Gutenberg University Mainz",
+      "universityWebsite": "https://www.uni-mainz.de/",
+      "name": "Franco-German Bachelor of Arts / Licence in German and French Language, Literature and Culture Mainz-Dijon Bachelor of Arts in German/French Language, Literature & Culture",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Franco-German Bachelor of Arts / Licence in German and French Language, Literature and Culture Mainz-Dijon Bachelor of Arts in German/French Language, Literature & Culture",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German French"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4508/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4508/",
+      "sourceQuote": "Degree Bachelor of Arts other degree",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "High school diploma (Abitur, Baccalauréat, or equivalent)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

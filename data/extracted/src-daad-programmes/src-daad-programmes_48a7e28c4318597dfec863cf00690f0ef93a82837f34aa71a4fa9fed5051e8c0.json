@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:48a7e28c4318597dfec863cf00690f0ef93a82837f34aa71a4fa9fed5051e8c0",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:08.865Z",
+  "universities": [
+    {
+      "name": "Justus Liebig University Giessen",
+      "country": "DE",
+      "city": "Gießen",
+      "website": "https://www.uni-giessen.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7750/",
+      "sourceQuote": "Justus Liebig University Giessen • Gießen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Justus Liebig University Giessen",
+      "universityWebsite": "https://www.uni-giessen.de/de",
+      "name": "Insect Biotechnology and Bioresources",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Insect Biotechnology and Bioresources",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7750/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7750/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3 years (180 credits)",
+          "unit": "years/credits",
+          "sourceQuote": "In general, students can apply for this Master's programme if they hold a **Bachelor's degree** with a duration of at least **three years (180 credits)** or a comparable degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The Bachelor's degree must be completed in a closely related scientific field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For this degree programme the application includes a **letter of motivation** with 500 words (+/- 10%) outlining the candidate’s personal motivation and subject-specific knowledge.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

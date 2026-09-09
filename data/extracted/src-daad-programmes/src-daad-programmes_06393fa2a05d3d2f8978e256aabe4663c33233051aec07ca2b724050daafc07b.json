@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:06393fa2a05d3d2f8978e256aabe4663c33233051aec07ca2b724050daafc07b",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:39.239Z",
+  "universities": [
+    {
+      "name": "University of Greifswald",
+      "country": "DE",
+      "city": "Greifswald",
+      "website": "https://www.uni-greifswald.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3879/",
+      "sourceQuote": "University of Greifswald • Greifswald"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Greifswald",
+      "universityWebsite": "https://www.uni-greifswald.de/",
+      "name": "Earth Sciences and Global Change",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Earth Sciences and Global Change",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3879/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3879/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

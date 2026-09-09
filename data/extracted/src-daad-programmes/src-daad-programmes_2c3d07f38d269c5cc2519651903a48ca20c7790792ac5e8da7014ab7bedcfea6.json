@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2c3d07f38d269c5cc2519651903a48ca20c7790792ac5e8da7014ab7bedcfea6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:07.702Z",
+  "universities": [
+    {
+      "name": "University of Oldenburg",
+      "country": "DE",
+      "city": "Oldenburg",
+      "website": "https://www.uol.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4672/",
+      "sourceQuote": "University of Oldenburg • Oldenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Oldenburg",
+      "universityWebsite": "https://www.uol.de",
+      "name": "Master of Science in Neuroscience",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Neuroscience",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4672/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4672/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a **Bachelor's degree** , e.g. in neuroscience, biology, natural sciences, or engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "150",
+          "unit": "credit points",
+          "sourceQuote": "At least 150 credit points must be documented.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "credit points",
+          "sourceQuote": "At least **12 credit points** must have been obtained in **neuroscience** and a further **12 credit points in mathematics, statistics, or programming**.(We also acknowledge certificates from extracurricular online courses.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "credit points",
+          "sourceQuote": "At least **12 credit points** must have been obtained in **neuroscience** and a further **12 credit points in mathematics, statistics, or programming**.(We also acknowledge certificates from extracurricular online courses.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English proficiency",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of English proficiency",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "the **completed specific eligibility form**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

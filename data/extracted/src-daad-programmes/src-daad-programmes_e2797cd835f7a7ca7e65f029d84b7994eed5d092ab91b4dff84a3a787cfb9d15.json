@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e2797cd835f7a7ca7e65f029d84b7994eed5d092ab91b4dff84a3a787cfb9d15",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:06.491Z",
+  "universities": [
+    {
+      "name": "University of Cologne",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.uni-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5451/",
+      "sourceQuote": "University of Cologne • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Cologne",
+      "universityWebsite": "https://www.uni-koeln.de/",
+      "name": "Sociology and Social Research – Master of Science Sociology and Social Research – MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sociology and Social Research – Master of Science Sociology and Social Research – MSc",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5451/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5451/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor's degree or the equivalent in the respective field and an overall grade point average of at least 2.7 (German grade).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.7",
+          "unit": "German grade",
+          "sourceQuote": "Academic admission requirements include a Bachelor's degree or the equivalent in the respective field and an overall grade point average of at least 2.7 (German grade).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "At least 18 ECTS in the field of sociology or social psychology",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "At least 12 ECTS in the field of methods in quantitative social sciences and/or applied quantitative empirical social research and/or statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

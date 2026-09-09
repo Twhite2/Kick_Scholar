@@ -1,0 +1,146 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:46e2d87f32732124c1826c733d39da57f73c920eb8057b5daab0f7ddad0e0fea",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:59:55.728Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5227/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "Systems and Automation — Major of Electrical Engineering and Information Technology Systems and Automation",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Systems and Automation — Major of Electrical Engineering and Information Technology Systems and Automation",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5227/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5227/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In order to apply to the RWTH Master's programme in \"Electrical Engineering and Information Technology\" with a specialisation in Systems and Automation, applicants must have completed their basic studies (Bachelor of Science, Bachelor of Engineering, or equivalent) at an internationally recognised university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "28",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 28 ECTS credits for advanced mathematics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 10 ECTS credits for physics and physical principles of electronic devices",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "34",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 34 ECTS credits for fundamentals of electrical engineering including circuit technology",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "8",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 8 ECTS credits for informatics (computer science) and programming",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 10 ECTS credits for fundamentals of control and mathematical systems theory",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 10 ECTS credits for advanced electromagnetic field theory or theoretical information theory",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "ECTS credits",
+          "sourceQuote": "* At least 20 ECTS credits for application-oriented courses",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition, at the time of application, all applicants are obliged to prove that they have taken the Graduate Record Examination (GRE) General Test.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Admission to this Master's programme requires proof of adequate knowledge of the English language (see below).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

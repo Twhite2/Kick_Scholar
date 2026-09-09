@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:72d3ead812f99b1a704108d1efda8436ca992b2940668b6e57c0141965f766bf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:43.684Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Ravensburg-Weingarten",
+      "country": "DE",
+      "city": "Weingarten",
+      "website": "https://www.rwu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4854/",
+      "sourceQuote": "University of Applied Sciences Ravensburg-Weingarten • Weingarten"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Ravensburg-Weingarten",
+      "universityWebsite": "https://www.rwu.de/",
+      "name": "E-Mobility and Green Energy",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "E-Mobility and Green Energy",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4854/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4854/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "University entrance qualification / higher education entrance qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c63214972e89502b21f7e6589d4f6678fef0bbb30bcdad398d29f85371720dcb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:08:49.670Z",
+  "universities": [
+    {
+      "name": "FAU Erlangen-Nürnberg",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://www.fau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5223/",
+      "sourceQuote": "FAU Erlangen-Nürnberg • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FAU Erlangen-Nürnberg",
+      "universityWebsite": "https://www.fau.de/",
+      "name": "MSc Integrated Immunology (iImmune) Integrated Immunology (iImmune)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Integrated Immunology (iImmune) Integrated Immunology (iImmune)",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5223/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5223/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Biology",
+          "unit": null,
+          "sourceQuote": "Relevant Bachelor's degree with a grade of 2.5 or better (or equivalent international grade) in Biology, Biochemistry, Life Sciences, or a similar Bachelor's degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Biochemistry",
+          "unit": null,
+          "sourceQuote": "Relevant Bachelor's degree with a grade of 2.5 or better (or equivalent international grade) in Biology, Biochemistry, Life Sciences, or a similar Bachelor's degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Life Sciences",
+          "unit": null,
+          "sourceQuote": "Relevant Bachelor's degree with a grade of 2.5 or better (or equivalent international grade) in Biology, Biochemistry, Life Sciences, or a similar Bachelor's degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Relevant Bachelor's degree with a grade of 2.5 or better (or equivalent international grade) in Biology, Biochemistry, Life Sciences, or a similar Bachelor's degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The applicant should have completed or be currently completing a **practical Bachelor's thesis** in the field of molecular biology, cell biology, microbiology/virology or immunology or a **research project** with similar methodological expertise.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In a second step, applicants will be invited to take an online interview to test their suitability for the MSc Integrated Immunology.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In a second step, applicants will be invited to take an online interview to test their suitability for the MSc Integrated Immunology.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

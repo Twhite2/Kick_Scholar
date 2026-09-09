@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2f4322496a88c629bc864bf88dd2c4eb8620628711fe9dbc37319b477e8f8ae4",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:14.989Z",
+  "universities": [
+    {
+      "name": "University of Cologne",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.uni-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4023/",
+      "sourceQuote": "University of Cologne • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Cologne",
+      "universityWebsite": "https://www.uni-koeln.de/",
+      "name": "Bonn-Cologne Graduate School of Physics and Astronomy: MSc in Physics (Cologne) Bonn-Cologne Graduate School: MSc in Physics (Cologne)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Bonn-Cologne Graduate School of Physics and Astronomy: MSc in Physics (Cologne) Bonn-Cologne Graduate School: MSc in Physics (Cologne)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4023/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4023/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,145 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0a3e580d25b168aea8bd166172976532b7520434d461ad8195cdb912c9a72185",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:02:41.417Z",
+  "universities": [
+    {
+      "name": "Esslingen University of Applied Sciences",
+      "country": "DE",
+      "city": "Esslingen am Neckar",
+      "website": "https://www.hs-esslingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5423/",
+      "sourceQuote": "Esslingen University of Applied Sciences • Esslingen am Neckar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Esslingen University of Applied Sciences",
+      "universityWebsite": "https://www.hs-esslingen.de/",
+      "name": "Automotive Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Automotive Systems",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5423/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5423/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor of Automotive Engineering, Computer Engineering, other Bachelor of Engineering (Mechanical Engineering, Mechatronics, Electrical Engineering or equivalent)",
+          "unit": null,
+          "sourceQuote": "* Bachelor of Automotive Engineering, Computer Engineering, other Bachelor of Engineering (Mechanical Engineering, Mechatronics, Electrical Engineering or equivalent)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Two confidential letters of recommendation",
+          "unit": null,
+          "sourceQuote": "* Two confidential letters of recommendation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Letter of motivation",
+          "unit": null,
+          "sourceQuote": "* Letter of motivation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* English language test (Please see our website for details.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* The APS is required for applicants whose first degree is from PR China, Vietnam and India.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "71",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 71",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

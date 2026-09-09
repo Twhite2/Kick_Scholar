@@ -1,0 +1,208 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:473dbd05bbe917088e21b0760a9d1e6f35ca8dff4b71f776448362240b20603e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:02:59.022Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6302/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "Sustainable Forest and Nature Management (SUFONAMA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Forest and Nature Management (SUFONAMA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6302/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6302/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Biology, Geography and Geoinformatics or Natural Resources from University of Copenhagen",
+          "unit": null,
+          "sourceQuote": "* Biology, Geography and Geoinformatics or Natural Resources from University of Copenhagen",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Forest Sciences and Forest Ecology, Ecosystem Management or Ecosystem Sciences from University of Göttingen",
+          "unit": null,
+          "sourceQuote": "* Forest Sciences and Forest Ecology, Ecosystem Management or Ecosystem Sciences from University of Göttingen",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Forest Science or Biology from Swedish University of Agricultural Sciences",
+          "unit": null,
+          "sourceQuote": "* Forest Science or Biology from Swedish University of Agricultural Sciences",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Forestry and Environmental Sciences from University of Florence, Marche Polytechnic University, University of Naples Federico II, University of Basilicata, Palermo University, University of Turin or University of Tuscia",
+          "unit": null,
+          "sourceQuote": "* Forestry and Environmental Sciences from University of Florence, Marche Polytechnic University, University of Naples Federico II, University of Basilicata, Palermo University, University of Turin or University of Tuscia",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Forestry and Environmental Technologies from University of Molise or University of Padova",
+          "unit": null,
+          "sourceQuote": "* Forestry and Environmental Technologies from University of Molise or University of Padova",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Biology, Geography or Agrobiology from Aarhus University",
+          "unit": null,
+          "sourceQuote": "* Biology, Geography or Agrobiology from Aarhus University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Biology or Geography from Aalborg University",
+          "unit": null,
+          "sourceQuote": "* Biology or Geography from Aalborg University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Biology, Technological and Socio-Economic Planning (TekSam-Miljøplanlægning), Natural Sciences or Geography from Roskilde University",
+          "unit": null,
+          "sourceQuote": "* Biology, Technological and Socio-Economic Planning (TekSam-Miljøplanlægning), Natural Sciences or Geography from Roskilde University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Natural Sciences (intl. Bachelor’s degree) from Roskilde University",
+          "unit": null,
+          "sourceQuote": "* Natural Sciences (intl. Bachelor’s degree) from Roskilde University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Biology from University of Southern Denmark",
+          "unit": null,
+          "sourceQuote": "* Biology from University of Southern Denmark",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Forest and Landscape Engineering or Urban Landscape Engineering from University of Copenhagen",
+          "unit": null,
+          "sourceQuote": "* Forest and Landscape Engineering or Urban Landscape Engineering from University of Copenhagen",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with a Bachelor’s degree, Professional Bachelor’s degree or equivalent from Danish or international universities other than those listed above are qualified for admission to the MSc Programme in Sustainable Forest and Nature Management if the programme includes at least 20 ECTS of one of the following: within forestry, within biology, within ecology, within natural resource management, within nature management, or within physical geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The faculty may also admit applicants who, after an individual academic assessment, are deemed to possess educational qualifications equivalent to those required above.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The admission committee will evaluate your application individually.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 83",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 83",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

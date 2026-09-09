@@ -1,0 +1,107 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0f4ae9bf7a5c0d2e6b45782e1f305b1499a83ce366528ae9d29d4d52499ee9c3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:25:09.814Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4428/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "European Management (MSc) – Double Degree with France, Italy or England European Management (MSc) – Double Degree",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "European Management (MSc) – Double Degree with France, Italy or England European Management (MSc) – Double Degree",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4428/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4428/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree in Business Administration or Economics",
+          "unit": null,
+          "sourceQuote": "Admission to one of our double degree programmes requires a Bachelor’s degree in Business Administration or Economics with a grade better then 2.5, preferably a degree that amounts to 180 ECTS credits (e.g. a three-year Bachelor's degree programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GT",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Admission to one of our double degree programmes requires a Bachelor’s degree in Business Administration or Economics with a grade better then 2.5, preferably a degree that amounts to 180 ECTS credits (e.g. a three-year Bachelor's degree programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to one of our double degree programmes requires a Bachelor’s degree in Business Administration or Economics with a grade better then 2.5, preferably a degree that amounts to 180 ECTS credits (e.g. a three-year Bachelor's degree programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "European Management applicants are expected to display sound knowledge in all of the following:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If available, please provide proof of region-specific knowledge or relevant language skills.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,46 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8c8cae0340ace9a75ef41c23462f722654d69dc86cf390f98c628e17b7324ce1",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:40.804Z",
+  "universities": [
+    {
+      "name": "Darmstadt University of Applied Sciences",
+      "country": "DE",
+      "city": "Darmstadt",
+      "website": "https://h-da.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3980/",
+      "sourceQuote": "Darmstadt University of Applied Sciences • Darmstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Darmstadt University of Applied Sciences",
+      "universityWebsite": "https://h-da.de/",
+      "name": "Electrical Engineering and Information Technology — International Master of Science Electrical Engineering and Information Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Engineering and Information Technology — International Master of Science Electrical Engineering and Information Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3980/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3980/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

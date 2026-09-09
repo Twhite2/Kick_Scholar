@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e1e3c8b576c2b27637aac266eff8421d55666622051d4a32c43d310b12d429bd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:25.315Z",
+  "universities": [
+    {
+      "name": "Deggendorf Institute of Technology",
+      "country": "DE",
+      "city": "Pfarrkirchen",
+      "website": "https://www.th-deg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4822/",
+      "sourceQuote": "Deggendorf Institute of Technology • Pfarrkirchen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Deggendorf Institute of Technology",
+      "universityWebsite": "https://www.th-deg.de",
+      "name": "BSc Health Informatics",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BSc Health Informatics",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4822/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4822/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Higher education entrance qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* [A successfully completed admission test](https://www.th-deg.de/Fakult%C3%A4ten/ecri/eignungsfeststellungsverfahren_hi_en.pdf)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "  * PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "IN_LIST",
+          "value": "telc English B2",
+          "unit": null,
+          "sourceQuote": "  * telc English: telc English B2",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

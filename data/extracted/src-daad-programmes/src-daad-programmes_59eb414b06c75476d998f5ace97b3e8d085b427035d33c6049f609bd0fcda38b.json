@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:59eb414b06c75476d998f5ace97b3e8d085b427035d33c6049f609bd0fcda38b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:06:21.862Z",
+  "universities": [
+    {
+      "name": "Hochschule Fresenius - University of Applied Sciences",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hs-fresenius.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5617/",
+      "sourceQuote": "Hochschule Fresenius - University of Applied Sciences • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Fresenius - University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fresenius.de",
+      "name": "Fashion Design (BA)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Fashion Design (BA)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4710,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5617/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5617/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "70",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 70",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:09e3be0675d49a40204d467ed1488b2ca0cb96109b42c83de01724353aa5d5a2",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:57.547Z",
+  "universities": [
+    {
+      "name": "HTW Berlin University of Applied Sciences",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.htw-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4673/",
+      "sourceQuote": "HTW Berlin University of Applied Sciences • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HTW Berlin University of Applied Sciences",
+      "universityWebsite": "https://www.htw-berlin.de",
+      "name": "MBA & Engineering in Life Science Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MBA & Engineering in Life Science Management",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 6167,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4673/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4673/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

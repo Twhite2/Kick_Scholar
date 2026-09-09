@@ -1,0 +1,137 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f34bb25f804af8c4c875b1d6268bc7e9edb49136c3e1acb8e8f6fa9a0fc79e5d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:57:52.497Z",
+  "universities": [
+    {
+      "name": "Karlsruhe Institute of Technology",
+      "country": "DE",
+      "city": "Karlsruhe",
+      "website": "https://www.kit.edu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6400/",
+      "sourceQuote": "Karlsruhe Institute of Technology • Karlsruhe"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Karlsruhe Institute of Technology",
+      "universityWebsite": "https://www.kit.edu/",
+      "name": "Master of Science in Meteorology and Climate Physics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Meteorology and Climate Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6400/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6400/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's or equivalent degree in Meteorology and Climate Physics or a related discipline**with adequate content in physics, mathematics and atmospheric science** from a university or a university of applied sciences in Germany or a university abroad is needed.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "years",
+          "sourceQuote": "The programme must have been completed within a standard period of study of at least three years with a minimum of 180 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS credits",
+          "sourceQuote": "The programme must have been completed within a standard period of study of at least three years with a minimum of 180 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The admission requirements may also be fulfilled by a Bachelor's degree in other subjects, such as Physics, Mathematics, Geosciences, Oceanography or another natural science, and knowledge in relevant subjects conveyed by a Bachelor’s programme (e.g. as a subsidiary or supplementary subject) resulting in minimum achievements in the following areas:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "ECTS credits",
+          "sourceQuote": "  * Meteorology and Climate Physics in the amount of least 24 ECTS credits",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "ECTS credits",
+          "sourceQuote": "  * Physics in the amount of at least 24 ECTS credits",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "ECTS credits",
+          "sourceQuote": "  * Mathematics in the amount of at least 12 ECTS credits",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If the requirements are not fulfilled completely, a conditional admission may be possible (decided by the admission committee).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

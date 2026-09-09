@@ -1,0 +1,98 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3e9cc59478cea17ce91bdacedc8d87f08c0fc225cb91bf25d4ee9cdc6447d696",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:51.630Z",
+  "universities": [
+    {
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "country": "DE",
+      "city": "Würzburg",
+      "website": "https://www.uni-wuerzburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6089/",
+      "sourceQuote": "Julius-Maximilians-Universität Würzburg • Würzburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Julius-Maximilians-Universität Würzburg",
+      "universityWebsite": "https://www.uni-wuerzburg.de",
+      "name": "Chinese Studies, Master of Arts (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Chinese Studies, Master of Arts (MA)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6089/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6089/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Chinese studies or related fields",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in Chinese studies or related fields, grade for immediate admission of 1.9 (German grading system) or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1.9",
+          "unit": "German grading system",
+          "sourceQuote": "Bachelor's degree in Chinese studies or related fields, grade for immediate admission of 1.9 (German grading system) or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Interviews (with foreign applicants via Internet) will be held with all candidates.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

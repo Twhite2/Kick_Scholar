@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6e583b4c9acb001e56f456b7405dda0b859304cf58178573acabef443dc7d16f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:45:10.162Z",
+  "universities": [
+    {
+      "name": "Technical University of Munich",
+      "country": "DE",
+      "city": "Garching b. München",
+      "website": "https://www.tum.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3591/",
+      "sourceQuote": "Technical University of Munich • Garching b. München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Munich",
+      "universityWebsite": "https://www.tum.de",
+      "name": "Computational Science and Engineering (CSE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Science and Engineering (CSE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3591/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3591/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

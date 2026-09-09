@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fe152e2f7b0f1bc08c5cfa66ebcd87dadc4f15f72d874dd46ce04f1ceb698730",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:18:37.012Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Human Cognitive and Brain Sciences",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.cbs.mpg.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4639/",
+      "sourceQuote": "Max Planck Institute for Human Cognitive and Brain Sciences • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Human Cognitive and Brain Sciences",
+      "universityWebsite": "https://www.cbs.mpg.de/de",
+      "name": "International Max Planck Research School on Cognitive NeuroImaging (IMPRS CoNI) IMPRS on Cognitive NeuroImaging (IMPRS CoNI)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School on Cognitive NeuroImaging (IMPRS CoNI) IMPRS on Cognitive NeuroImaging (IMPRS CoNI)",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4639/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4639/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master’s degree",
+          "unit": null,
+          "sourceQuote": "Applicants are expected to hold an excellent Master’s degree (or equivalent) from a wide spectrum of potential disciplines such as cognitive neuroscience, computational neuroscience, translational neuroscience, psychology, medicine, neurobiology, computer science, engineering, mathematics, physics, neuroimaging, biochemistry, or related fields.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The Master’s degree should have been awarded by an internationally recognised university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Research experience in an area that is related to the scope of IMPRS CoNI is essential for successful candidates.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

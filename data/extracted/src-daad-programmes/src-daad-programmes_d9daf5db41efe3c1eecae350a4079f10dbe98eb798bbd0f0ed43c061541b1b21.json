@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d9daf5db41efe3c1eecae350a4079f10dbe98eb798bbd0f0ed43c061541b1b21",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:47.836Z",
+  "universities": [
+    {
+      "name": "Ulm University",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.uni-ulm.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4581/",
+      "sourceQuote": "Ulm University • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University",
+      "universityWebsite": "https://www.uni-ulm.de",
+      "name": "Cognitive Systems (Master of Science)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Cognitive Systems (Master of Science)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4581/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4581/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include proof of a Bachelor’s degree or a degree from a programme at a higher education institution in Germany or abroad.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "years of study",
+          "sourceQuote": "This degree must be from a programme with a minimum duration of three years of study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The degree programme should have covered basic knowledge in at least one of the following three areas related to cognitive science: information processing in natural systems, information processing in technical systems, or mathematical modelling.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Graduates in other subjects (particularly in engineering sciences, mathematics, physics, or biology with a specialisation in neurosciences) may also be considered.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "These graduates must demonstrate previous learning and/or practical experience that is relevant to the curriculum of the Master's programme and indicate this in the \"subject-specific additional information” form.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Proof of adequate examination results are either a Bachelor's degree with an overall grade of 2.5 or better or, if the programme has not yet been completed, examination results showing an average of 2.5 or better by the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

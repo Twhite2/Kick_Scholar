@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7908466e2f195b0939d9d1fa3e309896efa311e9c5716727d9307ad41175edd0",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:35.712Z",
+  "universities": [
+    {
+      "name": "Europa-Universität Flensburg",
+      "country": "DE",
+      "city": "Flensburg",
+      "website": "https://www.uni-flensburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6980/",
+      "sourceQuote": "Europa-Universität Flensburg • Flensburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Europa-Universität Flensburg",
+      "universityWebsite": "https://www.uni-flensburg.de/",
+      "name": "MA International Management Studies – BWL",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA International Management Studies – BWL",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6980/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6980/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree (or equivalent) from an economics programme with a minimum duration of three years",
+          "unit": null,
+          "sourceQuote": "Bachelor’s degree (or equivalent) from an economics programme with a minimum duration of three years, containing",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "CP",
+          "sourceQuote": "a) at least 30 CP in business administration / economics and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "CP",
+          "sourceQuote": "b) at least 15 CP in statistics / social science methods.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

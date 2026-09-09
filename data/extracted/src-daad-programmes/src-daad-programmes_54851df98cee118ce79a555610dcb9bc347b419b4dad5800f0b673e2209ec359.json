@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:54851df98cee118ce79a555610dcb9bc347b419b4dad5800f0b673e2209ec359",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:25.982Z",
+  "universities": [
+    {
+      "name": "University of Bamberg",
+      "country": "DE",
+      "city": "Bamberg",
+      "website": "https://www.uni-bamberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3905/",
+      "sourceQuote": "University of Bamberg • Bamberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bamberg",
+      "universityWebsite": "https://www.uni-bamberg.de/",
+      "name": "European Joint Master's Programme in English and American Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "European Joint Master's Programme in English and American Studies",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3905/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3905/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

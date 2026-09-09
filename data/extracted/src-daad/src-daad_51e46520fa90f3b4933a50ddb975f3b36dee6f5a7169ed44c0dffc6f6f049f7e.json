@@ -1,0 +1,59 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:51e46520fa90f3b4933a50ddb975f3b36dee6f5a7169ed44c0dffc6f6f049f7e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:19.584Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD-ACEH Scholarship of Excellence **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The aim of the programme is to support young scientists and academics in Aceh in the aftermath of the 2004 tsunami and help promote capacity development. The scholarships offer young scientists and academics the opportunity to carry out a research or continuing education project at a state or state-recognised German university or a non-university research institution in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50747186",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50747186",
+      "sourceQuote": "The programme is aimed at outstandingly qualified young scientists and academics from the province of Aceh, Indonesia.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Indonesia"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is aimed at outstandingly qualified young scientists and academics from the province of Aceh, Indonesia.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The scholarships offer young scientists and academics the opportunity to carry out a research or continuing education project at a state or state-recognised German university or a non-university research institution in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

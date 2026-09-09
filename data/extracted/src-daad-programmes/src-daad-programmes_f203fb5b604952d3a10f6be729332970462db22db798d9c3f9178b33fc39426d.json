@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f203fb5b604952d3a10f6be729332970462db22db798d9c3f9178b33fc39426d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:13.872Z",
+  "universities": [
+    {
+      "name": "Eberswalde University for Sustainable Development",
+      "country": "DE",
+      "city": "Eberswalde",
+      "website": "https://www.hnee.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6357/",
+      "sourceQuote": "Eberswalde University for Sustainable Development • Eberswalde"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Eberswalde University for Sustainable Development",
+      "universityWebsite": "https://www.hnee.de/",
+      "name": "International Forest Ecosystem Management (IFEM)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Forest Ecosystem Management (IFEM)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6357/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6357/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants have to show a higher education entrance qualification equivalent to the appropriate German qualifications.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*With a German university entrance qualification:**",
+          "intake": null,
+          "sourceQuote": "*With a German university entrance qualification:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

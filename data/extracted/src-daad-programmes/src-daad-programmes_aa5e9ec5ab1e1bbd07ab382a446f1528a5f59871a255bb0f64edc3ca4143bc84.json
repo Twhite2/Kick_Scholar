@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:aa5e9ec5ab1e1bbd07ab382a446f1528a5f59871a255bb0f64edc3ca4143bc84",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:22:03.681Z",
+  "universities": [
+    {
+      "name": "Technische Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.tu.berlin/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4532/",
+      "sourceQuote": "Technische Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Berlin",
+      "universityWebsite": "https://www.tu.berlin/",
+      "name": "Urban Design Master's Programme",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Urban Design Master's Programme",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4532/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4532/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "architecture, urban and regional planning, landscape architecture or a closely related field of study",
+          "unit": null,
+          "sourceQuote": "A condition for admission to Urban Design is a Bachelor’s degree or equivalent diploma in architecture, urban and regional planning, landscape architecture or a closely related field of study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "credits",
+          "sourceQuote": "A programme is closely related if at least 30 credits have been done in reference to architecture, urban and regional planning or landscape architecture.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "credits",
+          "sourceQuote": "Of these 30 credits, 12 credits can be replaced with work experience in the above-mentioned fields.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

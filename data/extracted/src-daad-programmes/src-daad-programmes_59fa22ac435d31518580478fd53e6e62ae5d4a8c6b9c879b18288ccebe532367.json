@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:59fa22ac435d31518580478fd53e6e62ae5d4a8c6b9c879b18288ccebe532367",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:08:27.995Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Ravensburg-Weingarten",
+      "country": "DE",
+      "city": "Weingarten",
+      "website": "https://www.rwu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7827/",
+      "sourceQuote": "University of Applied Sciences Ravensburg-Weingarten • Weingarten"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Ravensburg-Weingarten",
+      "universityWebsite": "https://www.rwu.de/",
+      "name": "Mechanical Engineering / International Project Engineering",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Mechanical Engineering / International Project Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7827/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7827/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "  * Cambridge English Qualifications: B2 First ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6 ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (since 2026): 5 ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "University entrance qualification / higher education entrance qualification",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

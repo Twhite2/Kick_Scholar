@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e671ef3a3dd69d5f0c5921858db879c908789512a7f51ca11f68ae9c686322bb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:06:36.239Z",
+  "universities": [
+    {
+      "name": "Fulda University of Applied Sciences",
+      "country": "DE",
+      "city": "Fulda",
+      "website": "https://www.hs-fulda.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5651/",
+      "sourceQuote": "Fulda University of Applied Sciences • Fulda"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Fulda University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fulda.de/",
+      "name": "International Business & Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business & Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5651/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5651/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "University entrance qualification (Hochschulzugangsberechtigung, HZB) for German universities",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language proficiency at a B2 level (except for applicants with English as their mother tongue)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

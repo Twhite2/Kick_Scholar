@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a36156506745d535df578a68d2d42d66a62fb01db80598d30d96d2ffaa7c59b5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:31:00.026Z",
+  "universities": [
+    {
+      "name": "University of Münster",
+      "country": "DE",
+      "city": "Münster",
+      "website": "https://www.uni-muenster.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3638/",
+      "sourceQuote": "University of Münster • Münster"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Münster",
+      "universityWebsite": "https://www.uni-muenster.de",
+      "name": "Master of German Law (LLM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of German Law (LLM)",
+      "fieldCategory": "LAW",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3638/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3638/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "DSH",
+          "operator": "GTE",
+          "value": "DSH-2",
+          "unit": null,
+          "sourceQuote": "* Deutsche Sprachprüfung für den Hochschulzugang (DSH): DSH-2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch C1 Hochschule",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* telc Deutsch C1 Hochschule: Passed",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® Deutsch",
+          "operator": "GTE",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "* UNIcert® Deutsch: UNIcert® III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "GTE",
+          "value": "Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom",
+          "unit": null,
+          "sourceQuote": "* Goethe-Zertifikat: Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TestDaF Listening",
+          "operator": "GTE",
+          "value": "TDN 4",
+          "unit": null,
+          "sourceQuote": "* Listening: TDN 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TestDaF Speaking",
+          "operator": "GTE",
+          "value": "TDN 4",
+          "unit": null,
+          "sourceQuote": "* Speaking: TDN 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "DSD",
+          "operator": "GTE",
+          "value": "DSD II",
+          "unit": null,
+          "sourceQuote": "* Deutsches Sprachdiplom der Kultusministerkonferenz (DSD): DSD II",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e9de74b1ff889ac4aaeb4b18f4a057cfe7a27755a3260fa6c4da652521a8ccce",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:02:24.440Z",
+  "universities": [
+    {
+      "name": "Technical University of Applied Sciences Augsburg",
+      "country": "DE",
+      "city": "Augsburg",
+      "website": "https://www.tha.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6968/",
+      "sourceQuote": "Technical University of Applied Sciences Augsburg • Augsburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Applied Sciences Augsburg",
+      "universityWebsite": "https://www.tha.de/",
+      "name": "Interactive Media Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Interactive Media Systems",
+      "fieldCategory": "ARTS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6968/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6968/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

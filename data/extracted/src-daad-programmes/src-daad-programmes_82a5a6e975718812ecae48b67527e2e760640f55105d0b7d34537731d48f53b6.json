@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:82a5a6e975718812ecae48b67527e2e760640f55105d0b7d34537731d48f53b6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:07:54.095Z",
+  "universities": [
+    {
+      "name": "FH Münster University of Applied Sciences",
+      "country": "DE",
+      "city": "Münster",
+      "website": "https://www.fh-muenster.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5247/",
+      "sourceQuote": "FH Münster University of Applied Sciences • Münster"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FH Münster University of Applied Sciences",
+      "universityWebsite": "https://www.fh-muenster.de",
+      "name": "Master International Marketing and Sales International Marketing and Sales",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master International Marketing and Sales International Marketing and Sales",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5247/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5247/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Business Administration or Economics",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in Business Administration or Economics with ECTS grade B or a minimum mark of 2.3 (according to ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "ECTS grade B",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in Business Administration or Economics with ECTS grade B or a minimum mark of 2.3 (according to ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.3",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in Business Administration or Economics with ECTS grade B or a minimum mark of 2.3 (according to ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

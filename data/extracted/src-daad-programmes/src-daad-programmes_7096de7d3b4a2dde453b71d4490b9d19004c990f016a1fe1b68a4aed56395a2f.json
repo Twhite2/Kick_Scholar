@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7096de7d3b4a2dde453b71d4490b9d19004c990f016a1fe1b68a4aed56395a2f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:23.430Z",
+  "universities": [
+    {
+      "name": "RPTU University Kaiserslautern-Landau",
+      "country": "DE",
+      "city": "Kaiserslautern",
+      "website": "https://rptu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3841/",
+      "sourceQuote": "RPTU University Kaiserslautern-Landau • Kaiserslautern"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RPTU University Kaiserslautern-Landau",
+      "universityWebsite": "https://rptu.de/",
+      "name": "Software Engineering for Embedded Systems (DISC)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Software Engineering for Embedded Systems (DISC)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2550,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3841/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3841/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

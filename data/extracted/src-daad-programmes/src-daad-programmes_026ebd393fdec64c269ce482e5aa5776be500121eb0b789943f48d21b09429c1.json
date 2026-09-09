@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:026ebd393fdec64c269ce482e5aa5776be500121eb0b789943f48d21b09429c1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:47.013Z",
+  "universities": [
+    {
+      "name": "Rhine-Waal University of Applied Sciences",
+      "country": "DE",
+      "city": "Kamp-Lintfort",
+      "website": "https://www.hochschule-rhein-waal.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4211/",
+      "sourceQuote": "Rhine-Waal University of Applied Sciences • Kamp-Lintfort"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rhine-Waal University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-rhein-waal.de",
+      "name": "International Business Administration, BA",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business Administration, BA",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4211/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4211/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "GTE",
+          "value": "telc English B2",
+          "unit": null,
+          "sourceQuote": "telc English: telc English B2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (since 2026)",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:323c9a875a5cead3c201058a9b565b11d44a4635453cb9d52f097d02235e9cbb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:52.403Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6941/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "Master of Peace Research and International Relations (MA) MA Peace Research and International Relations",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Peace Research and International Relations (MA) MA Peace Research and International Relations",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6941/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6941/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA examination or an equivalent examination in Political Science, International Relations or a related subject",
+          "unit": null,
+          "sourceQuote": "Admission to the Master's programme in Peace Research and International Relations is open to students with a higher education entrance qualification who have passed the BA examination or an equivalent examination in Political Science, International Relations or a related subject with a grade of at least \"good\" (2.5, upper second class or equivalent).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Admission to the Master's programme in Peace Research and International Relations is open to students with a higher education entrance qualification who have passed the BA examination or an equivalent examination in Political Science, International Relations or a related subject with a grade of at least \"good\" (2.5, upper second class or equivalent).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS",
+          "sourceQuote": "It is recommended that applicants have achieved at least 60 ECTS in Political Science during their Bachelor’s studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "C1",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 80",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

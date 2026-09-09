@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:09054efd3fe5807471a50ac61ae90db71cf8f34f60ca3bda8578e918375c5c29",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:19:54.165Z",
+  "universities": [
+    {
+      "name": "Rhine-Waal University of Applied Sciences",
+      "country": "DE",
+      "city": "Kamp-Lintfort",
+      "website": "https://www.hochschule-rhein-waal.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4490/",
+      "sourceQuote": "Rhine-Waal University of Applied Sciences • Kamp-Lintfort"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rhine-Waal University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-rhein-waal.de",
+      "name": "Information Engineering and Computer Science, MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Information Engineering and Computer Science, MSc",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4490/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4490/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of a completed undergraduate degree (BSc, BA, German \"Diplom\" or equivalent) that included subjects in the fields of practical computer science and computer engineering as well as fundamentals in mathematics, natural sciences and engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.3",
+          "unit": null,
+          "sourceQuote": "An overall mark of at least 2.3 in your undergraduate degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "TestAS",
+          "operator": "GTE",
+          "value": "100",
+          "unit": "points",
+          "sourceQuote": "Proof of a relevant TestAS certificate (minimum 100 points) or, alternatively, Graduate Aptitude Test (GATE) or Graduate Record Examination (GRE; Q = 160, V = 145, A = 4,5)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GATE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of a relevant TestAS certificate (minimum 100 points) or, alternatively, Graduate Aptitude Test (GATE) or Graduate Record Examination (GRE; Q = 160, V = 145, A = 4,5)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "160",
+          "unit": null,
+          "sourceQuote": "Proof of a relevant TestAS certificate (minimum 100 points) or, alternatively, Graduate Aptitude Test (GATE) or Graduate Record Examination (GRE; Q = 160, V = 145, A = 4,5)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "A sufficient level of English language proficiency (CEFR level B2 or better).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

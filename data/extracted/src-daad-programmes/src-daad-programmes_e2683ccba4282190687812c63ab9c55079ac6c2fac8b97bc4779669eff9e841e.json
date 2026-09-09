@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e2683ccba4282190687812c63ab9c55079ac6c2fac8b97bc4779669eff9e841e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:30:54.407Z",
+  "universities": [
+    {
+      "name": "Hamburg University of Applied Sciences",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.haw-hamburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4027/",
+      "sourceQuote": "Hamburg University of Applied Sciences • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hamburg University of Applied Sciences",
+      "universityWebsite": "https://www.haw-hamburg.de/",
+      "name": "MSc Pharmaceutical Biotechnology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Pharmaceutical Biotechnology",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4027/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4027/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "This engineering-intensive Master's degree is intended for biotechnology graduates with 210 Credit Points (ECTS)*.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "To successfully complete the programme, prior engineering knowledge, and practical experience are essential.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Please note: A degree in (Bio)chemistry, Biomedical/Chemical Engineering, Microbiology, Molecular Biology, or Pharmacy does not meet these demands.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "87",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 87",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

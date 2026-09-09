@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d3a1fef6430ce53ecccb9d043978f41bda03a42336c226eb105aa93dd6382685",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:47.544Z",
+  "universities": [
+    {
+      "name": "Dresden University of Technology",
+      "country": "DE",
+      "city": "Tharandt",
+      "website": "https://tu-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3721/",
+      "sourceQuote": "Dresden University of Technology • Tharandt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden University of Technology",
+      "universityWebsite": "https://tu-dresden.de/",
+      "name": "Tropical Forestry",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Tropical Forestry",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3721/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3721/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

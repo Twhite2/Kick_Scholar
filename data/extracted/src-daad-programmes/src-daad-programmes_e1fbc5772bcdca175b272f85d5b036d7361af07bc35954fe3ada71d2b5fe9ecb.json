@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e1fbc5772bcdca175b272f85d5b036d7361af07bc35954fe3ada71d2b5fe9ecb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:47.805Z",
+  "universities": [
+    {
+      "name": "Otto von Guericke University Magdeburg",
+      "country": "DE",
+      "city": "Magdeburg",
+      "website": "https://www.ovgu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3811/",
+      "sourceQuote": "Otto von Guericke University Magdeburg • Magdeburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Otto von Guericke University Magdeburg",
+      "universityWebsite": "https://www.ovgu.de/",
+      "name": "International Business and Economics (IBE)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business and Economics (IBE)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3811/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3811/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must provide a university entrance qualification that is recognised in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Additionally, **the programme requires fluent English skills,** either in written and oral format.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

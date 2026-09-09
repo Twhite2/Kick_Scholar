@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:539510c965a379e6d9b0ed6487fa2d81220c8070a1049032cc018dc2dc654c0b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:30.384Z",
+  "universities": [
+    {
+      "name": "HWR Berlin (Berlin School of Economics and Law)",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hwr-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5513/",
+      "sourceQuote": "HWR Berlin (Berlin School of Economics and Law) • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HWR Berlin (Berlin School of Economics and Law)",
+      "universityWebsite": "https://www.hwr-berlin.de",
+      "name": "International Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5513/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5513/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in Economics or in an equivalent course of study",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Evidence of having completed undergraduate courses in microeconomics, macroeconomics, and international economics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English skills equivalent to at least B2 of the CEFR (Common European Framework of Reference)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation and CV in English",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "If applicable: proof of professional experience in the field of study for at least one year",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "* UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "PTE Academic",
+          "operator": "EQ",
+          "value": "67",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 67",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "EQ",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "EQ",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 83",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application period for students with a **non-German Bachelor’s degree** is:",
+          "intake": null,
+          "sourceQuote": "The application period for students with a **non-German Bachelor’s degree** is:",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

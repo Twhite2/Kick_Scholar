@@ -1,0 +1,181 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:86fd40bf9e6f8b39423c626fa7852faf2dce15b4b9fa585055880bc02fcbde49",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:34.779Z",
+  "universities": [
+    {
+      "name": "Reutlingen University",
+      "country": "DE",
+      "city": "Reutlingen",
+      "website": "https://www.reutlingen-university.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4589/",
+      "sourceQuote": "Reutlingen University • Reutlingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Reutlingen University",
+      "universityWebsite": "https://www.reutlingen-university.de/",
+      "name": "ESB Business School: MBA International Management (Full-Time)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "ESB Business School: MBA International Management (Full-Time)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 3500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4589/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4589/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "One page motivation letter",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A copy of your undergraduate degree certificate",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "GT",
+          "value": "35",
+          "unit": "percentile",
+          "sourceQuote": "GMAT, GRE, [ESB BAT](https://btmethods.com/candidates-portal) test score above the 35th percentile or CAT score above the 80th percentile **unless** applicant has a business or finance-related Bachelor’s or Master’s degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GT",
+          "value": "35",
+          "unit": "percentile",
+          "sourceQuote": "GMAT, GRE, [ESB BAT](https://btmethods.com/candidates-portal) test score above the 35th percentile or CAT score above the 80th percentile **unless** applicant has a business or finance-related Bachelor’s or Master’s degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "ESB BAT",
+          "operator": "GT",
+          "value": "35",
+          "unit": "percentile",
+          "sourceQuote": "GMAT, GRE, [ESB BAT](https://btmethods.com/candidates-portal) test score above the 35th percentile or CAT score above the 80th percentile **unless** applicant has a business or finance-related Bachelor’s or Master’s degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "CAT",
+          "operator": "GT",
+          "value": "80",
+          "unit": "percentile",
+          "sourceQuote": "GMAT, GRE, [ESB BAT](https://btmethods.com/candidates-portal) test score above the 35th percentile or CAT score above the 80th percentile **unless** applicant has a business or finance-related Bachelor’s or Master’s degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "Verification of two years of professional experience post Bachelor’s/undergraduate degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Successful selection interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "IN_LIST",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "50",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 50",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "IN_LIST",
+          "value": "telc English B2",
+          "unit": null,
+          "sourceQuote": "telc English: telc English B2",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "15 June - for international applicants",
+          "intake": null,
+          "sourceQuote": "15 June - for international applicants",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

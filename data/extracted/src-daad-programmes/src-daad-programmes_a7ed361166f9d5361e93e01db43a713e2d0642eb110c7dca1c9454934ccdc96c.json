@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a7ed361166f9d5361e93e01db43a713e2d0642eb110c7dca1c9454934ccdc96c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:33.300Z",
+  "universities": [
+    {
+      "name": "Anhalt University of Applied Sciences",
+      "country": "DE",
+      "city": "Dessau-Roßlau",
+      "website": "https://www.hs-anhalt.de/startseite.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4049/",
+      "sourceQuote": "Anhalt University of Applied Sciences • Dessau-Roßlau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Anhalt University of Applied Sciences",
+      "universityWebsite": "https://www.hs-anhalt.de/startseite.html",
+      "name": "Dessau International Architecture Graduate School (DIA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Dessau International Architecture Graduate School (DIA)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 850,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4049/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4049/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (180 credits) or a Diploma in Architecture awarded after a regular study time of at least three years",
+          "unit": null,
+          "sourceQuote": "Candidates must be in possession of a Bachelor's degree (180 credits) or a Diploma in Architecture awarded after a regular study time of at least three years.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "months",
+          "sourceQuote": "Applicants must also have experience working in the field for at least 12 months after graduating from their Bachelor's or Diploma studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "An additional requirement is a portfolio of three personal works (academic and professional) of the applicant assessed as \"good\", at least, by a selection panel of the Department of Architecture, Facility Management and Geoinformation.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

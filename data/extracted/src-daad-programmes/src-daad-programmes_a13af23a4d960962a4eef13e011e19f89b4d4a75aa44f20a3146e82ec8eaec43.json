@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a13af23a4d960962a4eef13e011e19f89b4d4a75aa44f20a3146e82ec8eaec43",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:38.062Z",
+  "universities": [
+    {
+      "name": "University of Regensburg",
+      "country": "DE",
+      "city": "Regensburg",
+      "website": "https://www.uni-regensburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4264/",
+      "sourceQuote": "University of Regensburg • Regensburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Regensburg",
+      "universityWebsite": "https://www.uni-regensburg.de",
+      "name": "British Studies (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "British Studies (MA)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4264/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4264/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

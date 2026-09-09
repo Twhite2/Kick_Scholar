@@ -1,0 +1,137 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1d12b9d66ebd1a934e6216d2ca74574f654212b0424b5be79e7f45086136f85e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:34.350Z",
+  "universities": [
+    {
+      "name": "Ludwigshafen University of Business and Society",
+      "country": "DE",
+      "city": "Ludwigshafen am Rhein",
+      "website": "https://www.hwg-lu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5636/",
+      "sourceQuote": "Ludwigshafen University of Business and Society • Ludwigshafen am Rhein"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ludwigshafen University of Business and Society",
+      "universityWebsite": "https://www.hwg-lu.de/",
+      "name": "Master of Business Administration in International Business Management (Internationale Betriebswirtschaftslehre) International Business Management (MBA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Business Administration in International Business Management (Internationale Betriebswirtschaftslehre) International Business Management (MBA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2250,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5636/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5636/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Ideally, you should have a first university degree or an accredited Bachelor's degree of a university of cooperative education (\"Berufsakademie\") with a good average grade (at least 2.5 when translated to the German grading system) and additionally, you have at least one year of work experience in the commercial field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Ideally, you should have a first university degree or an accredited Bachelor's degree of a university of cooperative education (\"Berufsakademie\") with a good average grade (at least 2.5 when translated to the German grading system) and additionally, you have at least one year of work experience in the commercial field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "Ideally, you should have a first university degree or an accredited Bachelor's degree of a university of cooperative education (\"Berufsakademie\") with a good average grade (at least 2.5 when translated to the German grading system) and additionally, you have at least one year of work experience in the commercial field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If your average grade is lower than required, admission can be possible after a personal interview showing your motivation for the programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For applicants without a first university degree, there is – under certain conditions – the possibility to receive admission after passing a qualifying examination.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "years",
+          "sourceQuote": "These applicants must be in possession of a university entrance qualification according to the legal provisions in Rhineland Palatinate and prove relevant professional work experience of at least three years.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The qualifying examination is based on a motivational letter, an exam lasting approx. one hour and an interview of approx. 20 to 30 minutes.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

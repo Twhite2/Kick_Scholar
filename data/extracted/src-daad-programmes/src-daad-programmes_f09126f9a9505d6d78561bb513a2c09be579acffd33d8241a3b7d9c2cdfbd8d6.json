@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f09126f9a9505d6d78561bb513a2c09be579acffd33d8241a3b7d9c2cdfbd8d6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:09.323Z",
+  "universities": [
+    {
+      "name": "Justus Liebig University Giessen",
+      "country": "DE",
+      "city": "Gießen",
+      "website": "https://www.uni-giessen.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6109/",
+      "sourceQuote": "Justus Liebig University Giessen • Gießen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Justus Liebig University Giessen",
+      "universityWebsite": "https://www.uni-giessen.de/de",
+      "name": "Global Change: Ecosystem Science and Policy",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Change: Ecosystem Science and Policy",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 14750,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6109/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6109/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a **Bachelor's degree with at least 180 ECTS-points and an average grade of 2.48 (UCD grade points) or better** in one of the following scientific fields:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Following a case-by-case assessment, other study programmes may be accepted such as zoology, ecology, geology or biochemistry as equivalent and may also be subjected to specific requirements.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Rolling procedure, early application is recommended (by **15 July** for the following winter semester).",
+          "intake": null,
+          "sourceQuote": "Rolling procedure, early application is recommended (by **15 July** for the following winter semester).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

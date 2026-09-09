@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e4b693c79edb967cfec2c7347ae570c0bf85f361ec723cfc81500d93246fd2a3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:41.940Z",
+  "universities": [
+    {
+      "name": "Ulm University",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.uni-ulm.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6093/",
+      "sourceQuote": "Ulm University • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University",
+      "universityWebsite": "https://www.uni-ulm.de",
+      "name": "Master of Science in Molecular Medicine",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Molecular Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6093/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6093/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a Bachelor's degree in molecular medicine or at least an equivalent degree from a university, a university of applied sciences, a cooperative university or a recognised foreign higher education institution in the field of molecular medicine or in a related or subject-specific course of study (see below) at the level of at least three years of study, evidenced by an academic final examination with a Bachelor's degree with an overall grade of 2.5 or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a Bachelor's degree in molecular medicine or at least an equivalent degree from a university, a university of applied sciences, a cooperative university or a recognised foreign higher education institution in the field of molecular medicine or in a related or subject-specific course of study (see below) at the level of at least three years of study, evidenced by an academic final examination with a Bachelor's degree with an overall grade of 2.5 or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.7",
+          "unit": null,
+          "sourceQuote": "If the Bachelor's degree has not been granted yet, the average of examination results must be 2.7 or better (at the time of application).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 76",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please refer to our [Admissions Office Website](https://www.uni-ulm.de/en/study/application-and-enrolment/masters-programmes/molecular-medicine-master/).",
+          "intake": null,
+          "sourceQuote": "Please refer to our [Admissions Office Website](https://www.uni-ulm.de/en/study/application-and-enrolment/masters-programmes/molecular-medicine-master/).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

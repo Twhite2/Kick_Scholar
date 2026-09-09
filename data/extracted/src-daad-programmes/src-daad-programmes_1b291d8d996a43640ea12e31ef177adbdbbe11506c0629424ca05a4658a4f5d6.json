@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1b291d8d996a43640ea12e31ef177adbdbbe11506c0629424ca05a4658a4f5d6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:25:21.632Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3972/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Mathematics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mathematics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3972/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3972/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "hold a Bachelor's degree in mathematics or an equivalent degree with good grades (comparable to the German grade 2.5 or better)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "prove that you earned 120 ECTS credit points from mathematical modules",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "prove your knowledge of English (every certificate proving language level B2 or higher will be accepted)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "non-European applicants may be invited for a qualifying test",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

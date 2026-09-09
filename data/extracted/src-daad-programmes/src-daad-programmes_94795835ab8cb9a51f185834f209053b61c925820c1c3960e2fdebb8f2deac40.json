@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:94795835ab8cb9a51f185834f209053b61c925820c1c3960e2fdebb8f2deac40",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:21:39.035Z",
+  "universities": [
+    {
+      "name": "University of Kassel",
+      "country": "DE",
+      "city": "Witzenhausen",
+      "website": "https://www.uni-kassel.de/uni/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4308/",
+      "sourceQuote": "University of Kassel • Witzenhausen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Kassel",
+      "universityWebsite": "https://www.uni-kassel.de/uni/",
+      "name": "Sustainable International Agriculture (SIA), MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable International Agriculture (SIA), MSc",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4308/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4308/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6 semesters",
+          "unit": "semesters",
+          "sourceQuote": "Successful applicants must hold an undergraduate degree (BSc) of at least six semesters in agricultural sciences or a related field of study and must have achieved an above-average grade (at least equivalent to an upper second-class degree), with a good overall grade being preferred.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "above-average grade (at least equivalent to an upper second-class degree)",
+          "unit": null,
+          "sourceQuote": "Successful applicants must hold an undergraduate degree (BSc) of at least six semesters in agricultural sciences or a related field of study and must have achieved an above-average grade (at least equivalent to an upper second-class degree), with a good overall grade being preferred.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For applicants whose academic transcripts and degree certificates were issued in China, Mongolia, Vietnam, or India, only APS-certified documents will be accepted during the application process.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

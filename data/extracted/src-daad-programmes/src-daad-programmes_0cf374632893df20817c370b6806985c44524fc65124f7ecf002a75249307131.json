@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0cf374632893df20817c370b6806985c44524fc65124f7ecf002a75249307131",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:55.340Z",
+  "universities": [
+    {
+      "name": "Dresden University of Technology",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://tu-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4272/",
+      "sourceQuote": "Dresden University of Technology • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden University of Technology",
+      "universityWebsite": "https://tu-dresden.de/",
+      "name": "Regenerative Biology and Medicine",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Regenerative Biology and Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4272/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4272/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

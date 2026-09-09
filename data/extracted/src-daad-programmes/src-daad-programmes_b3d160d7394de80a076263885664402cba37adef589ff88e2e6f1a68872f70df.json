@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b3d160d7394de80a076263885664402cba37adef589ff88e2e6f1a68872f70df",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:39.571Z",
+  "universities": [
+    {
+      "name": "Chemnitz University of Technology",
+      "country": "DE",
+      "city": "Chemnitz",
+      "website": "https://www.tu-chemnitz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7612/",
+      "sourceQuote": "Chemnitz University of Technology • Chemnitz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Chemnitz University of Technology",
+      "universityWebsite": "https://www.tu-chemnitz.de/",
+      "name": "Advanced Manufacturing – Mechanical Engineering and Production Advanced Manufacturing",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Advanced Manufacturing – Mechanical Engineering and Production Advanced Manufacturing",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7612/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7612/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The admission is mainly based on skills, not on a specific previous degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

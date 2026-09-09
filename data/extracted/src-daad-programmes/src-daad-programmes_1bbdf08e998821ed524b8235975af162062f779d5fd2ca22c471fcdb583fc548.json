@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1bbdf08e998821ed524b8235975af162062f779d5fd2ca22c471fcdb583fc548",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:32.872Z",
+  "universities": [
+    {
+      "name": "Justus Liebig University Giessen",
+      "country": "DE",
+      "city": "Gießen",
+      "website": "https://www.uni-giessen.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3944/",
+      "sourceQuote": "Justus Liebig University Giessen • Gießen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Justus Liebig University Giessen",
+      "universityWebsite": "https://www.uni-giessen.de/de",
+      "name": "Master's Degree in German Law (LLM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's Degree in German Law (LLM)",
+      "fieldCategory": "LAW",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3944/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3944/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language certificate",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

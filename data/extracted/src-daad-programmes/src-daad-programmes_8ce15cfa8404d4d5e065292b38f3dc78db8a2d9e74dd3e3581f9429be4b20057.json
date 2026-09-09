@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8ce15cfa8404d4d5e065292b38f3dc78db8a2d9e74dd3e3581f9429be4b20057",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:18.030Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.uni-kiel.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4507/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.uni-kiel.de/de/",
+      "name": "Medical Life Sciences",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Medical Life Sciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4507/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4507/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in a life science such as biology, molecular biology, molecular medicine, biochemistry, molecular biotechnology or biological sciences",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "very good English skills, in particular in spoken communication (CEFR level at least C1)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application period starts in late May, nearly one year before the summer semester you are applying for. **Check<https://www.medlife.uni-kiel.de/en>. **Application dates are published in early May.",
+          "intake": null,
+          "sourceQuote": "The application period starts in late May, nearly one year before the summer semester you are applying for. **Check<https://www.medlife.uni-kiel.de/en>. **Application dates are published in early May.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,76 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:3c1b940ca8c75ec85305dd426a85580d030167d80dbe1c5ca7d4b33826ea225b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:01.045Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Country-related cooperation programme with Colombia (COLFUTURO - Fundación para el Futuro de Colombia) Promotion **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Graduates receive grants to complete a doctoral degree in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57814472",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57814472",
+      "sourceQuote": "Applicants for a scholarship to obtain a doctoral degree: very well qualified colombian graduates, who have accomplished a master (or equivalent) degree at the time of application.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Colombian"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "very well qualified colombian graduates, who have accomplished a master (or equivalent) degree at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "very well qualified colombian graduates, who have accomplished a master (or equivalent) degree at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "very well qualified colombian graduates, who have accomplished a master (or equivalent) degree at the time of application.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Graduates receive grants to complete a doctoral degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

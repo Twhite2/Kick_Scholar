@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6f61823e98c9e768db0e88b1b8e5adbb7fb7eb915ebe6da86dc6fcdd61757d4e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:25:55.606Z",
+  "universities": [
+    {
+      "name": "Rosenheim Technical University of Applied Sciences",
+      "country": "DE",
+      "city": "Rosenheim",
+      "website": "https://www.th-rosenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4636/",
+      "sourceQuote": "Rosenheim Technical University of Applied Sciences • Rosenheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rosenheim Technical University of Applied Sciences",
+      "universityWebsite": "https://www.th-rosenheim.de/",
+      "name": "Engineering Sciences (Mechanical & Plastics Engineering / Mechatronics / Electrical Engineering & Information Technology) Engineering Sciences",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Engineering Sciences (Mechanical & Plastics Engineering / Mechatronics / Electrical Engineering & Information Technology) Engineering Sciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4636/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4636/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in one of the following: Electrical Engineering and Information Technology, Mechatronics, Mechanical Engineering, Plastics Engineering, or a related field.",
+          "unit": null,
+          "sourceQuote": "Admission requirements for the Master's degree programme are a Bachelor's degree in one of the following: Electrical Engineering and Information Technology, Mechatronics, Mechanical Engineering, Plastics Engineering, or a related field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "An overall grade of \"good\" or better is required (GPA of 2.5 or better in the German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "intake": null,
+          "sourceQuote": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

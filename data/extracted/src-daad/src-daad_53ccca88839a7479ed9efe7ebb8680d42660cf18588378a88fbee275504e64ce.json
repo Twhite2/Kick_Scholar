@@ -1,0 +1,147 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:53ccca88839a7479ed9efe7ebb8680d42660cf18588378a88fbee275504e64ce",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:15.468Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Combined Study and Practice Stays for Engineers from Developing Countries (KOSPIE) with Indian IITs **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The scholarships offer students from Indian Institutes of Technology (IIT) the opportunity to complete a project work as part of their master’s thesis under the guidance of a German professor at one of the TU9 technical universities.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57504697",
+      "deadlineText": "Applications can be submitted via the DAAD portal from 20 February to **1 April 2026**. Please note that the DAAD Office in New Delhi will neither accept direct nor incomplete applications.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57504697",
+      "sourceQuote": "Students from Indian Institutes of Technology (IIT) in the fields of Engineering, Mathematics and Natural Sciences in the 2nd semester of their 2 year Master’s programme or 4th Semester of their 3 year MTech programme or in the 8th semester of an integrated / dual degree programme.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Indian Institutes of Technology (IIT)"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students from Indian Institutes of Technology (IIT) in the fields of Engineering, Mathematics and Natural Sciences in the 2nd semester of their 2 year Master’s programme or 4th Semester of their 3 year MTech programme or in the 8th semester of an integrated / dual degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Engineering",
+            "Mathematics",
+            "Natural Sciences"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students from Indian Institutes of Technology (IIT) in the fields of Engineering, Mathematics and Natural Sciences in the 2nd semester of their 2 year Master’s programme or 4th Semester of their 3 year MTech programme or in the 8th semester of an integrated / dual degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students from Indian Institutes of Technology (IIT) in the fields of Engineering, Mathematics and Natural Sciences in the 2nd semester of their 2 year Master’s programme or 4th Semester of their 3 year MTech programme or in the 8th semester of an integrated / dual degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MIN_GPA",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 8.5,
+          "textValue": null,
+          "sourceQuote": "Applicants must have obtained a minimum of 8,5 CGPA.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "A successful participation in a German language course at your host university is mandatory for further funding.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Very good proficiency of the English language is expected.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "GATE scores must be above average.",
+          "sourceQuote": "GATE scores must be above average.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Letter confirming supervision by a university teacher in Germany (academic adviser).",
+          "sourceQuote": "Letter confirming supervision by a university teacher in Germany (academic adviser).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "At the time of application, the applicant should already be in possession of a valid passport.",
+          "sourceQuote": "At the time of application, the applicant should already be in possession of a valid passport.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "It is not possible to draw funding from other German scholarship-awarding organisations or from other German public authorities simultaneously with a DAAD scholarship.",
+          "sourceQuote": "It is not possible to draw funding from other German scholarship-awarding organisations or from other German public authorities simultaneously with a DAAD scholarship.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The scholarships offer students from Indian Institutes of Technology (IIT) the opportunity to complete a project work as part of their master’s thesis under the guidance of a German professor at one of the TU9 technical universities.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

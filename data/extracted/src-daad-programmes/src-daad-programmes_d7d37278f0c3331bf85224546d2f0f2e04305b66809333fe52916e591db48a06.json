@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d7d37278f0c3331bf85224546d2f0f2e04305b66809333fe52916e591db48a06",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:38.281Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8334/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "Digital Media and Society",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Digital Media and Society",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8334/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8334/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree or a university degree in a subject belonging to the field of communication and media studies, digital media or cultural studies, or an equivalent course of studies carrying at least 180 credit points (CP based on the European Credit Transfer System)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.3",
+          "unit": null,
+          "sourceQuote": "A minimum grade of 2.3 (German university grading system) as the overall grade of the previous degree or the average grade achieved at the time of application (min. 150 CP)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Sound knowledge in the field of communication and media studies methods in the field of communications / journalism / content research, or research on media use / appropriation / reception",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills corresponding to at least level C1 of the European Framework of Reference for Languages (details below)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A letter of motivation (maximum of two pages) stating reasons why you wish to be admitted to the Master’s programme Digital Media and Society",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

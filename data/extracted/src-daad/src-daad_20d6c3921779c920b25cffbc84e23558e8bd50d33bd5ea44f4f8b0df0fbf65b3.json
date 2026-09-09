@@ -1,0 +1,30 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:20d6c3921779c920b25cffbc84e23558e8bd50d33bd5ea44f4f8b0df0fbf65b3",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-05T14:41:26.886Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "In-Country/In-Region Programme Sub-Saharan Africa **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme aims at fostering strong, internationally oriented higher education systems in Sub-Saharan Africa with the capacity to contribute to sustainable development. To this end, scholarships are granted for development-related Master studies for individuals who plan to pursue a career in teaching and / or research at a higher education institution in Sub-Saharan Africa. More general background information about the programme can be found [here](https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/in-countryin-region-scholarship-programme-background-and-objectives/)).",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000486",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000486",
+      "sourceQuote": "Graduates and postgraduates from Sub-Saharan Africa with a first academic degree if applying for a Master’s programme who want to pursue Master’s degrees in their home country or in the country for which they have a residence permit (so called In-Country scholarships) or in another Sub-Saharan African country, outside their home country/in the country for which they do not have a residence permit…",
+      "eligibility": [],
+      "deadlines": []
+    }
+  ]
+}

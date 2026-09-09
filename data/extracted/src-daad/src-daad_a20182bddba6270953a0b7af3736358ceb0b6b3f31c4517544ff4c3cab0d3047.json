@@ -1,0 +1,65 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:a20182bddba6270953a0b7af3736358ceb0b6b3f31c4517544ff4c3cab0d3047",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:31.452Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Canon Foundation Research Fellowship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Annually, the Canon Foundation in Europe grants up to 15 fellowships to European researchers to enable them to continue their studies in Japan. The same applies to PhD researchers based in Japan in relation to their studies in Europe. This offers the scholarship holders the unique opportunity to exchange skills and knowledge while at the same time promoting cultural and scientific understanding between the two regions. The research grants cover a wide range of topics - from molecular biology and garden architecture to automotive studies and genealogy.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000382",
+      "deadlineText": "Applicable deadlines will be published on the [website](https://www.canonfoundation.org/programmes/research-fellowships/).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000382",
+      "sourceQuote": "European and Japanese researchers",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants should have obtained at least a Master's or PhD degree within the last 10 years of applying to the Canon Foundation.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "JP"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "European researchers to enable them to continue their studies in Japan.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "EU"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The same applies to PhD researchers based in Japan in relation to their studies in Europe.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

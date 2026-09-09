@@ -1,0 +1,132 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:6e9a1266873155441ed880aa3d8463b2f12f832da9101a7c04e3d2ec34a30e6d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:59.571Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Bundestag: International Parliamentary Scholarships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Up to 120 sponsorships for young graduates from 50 nations are awarded every year by the German Federal Parliament (Deutsche Bundestag). The sponsored students are invited to Berlin for a period of 5 months. They take part in events and seminars during this time and complete a 3-month work placement with a member of the Bundestag. The aim of the programme is to promote relations between participating countries and Germany, to strengthen democratic will and tolerance, to deepen an understanding of cultural diversity and to safeguard a peaceful living together in the world. The scholarship is worth a monthly amount of 700 EUR and provides for free accommodation as well as health-, accident- and liability insurances. Moreover, costs for the journey to Berlin and back are reimbursed. The President of the Bundestag is the patron of the scholarship, which is awarded by the Bundestag together with three of Berlin's higher-education institutions: the Freie Universität, the Humboldt Universität and the Technische Universität.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000212",
+      "deadlineText": "Application deadlines vary depending on the country of origin. Please find a list of all participating countries [here](https://www.bundestag.de/europa_internationales/ips/bewerbung/bewerbung-244992) (only available in German).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000212",
+      "sourceQuote": "The programme is open to highly qualified, open-minded and committed young graduates with a strong interest in politics from the participating countries who are willing to play an active and responsible role in shaping the democratic futures of their countries. At the moment the following countries participate in the programme: Albania, Algeria, Argentina, Armenia, Azerbaijan, Bosnia and Herzegovi…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Albania",
+            "Algeria",
+            "Argentina",
+            "Armenia",
+            "Azerbaijan",
+            "Bosnia and Herzegovina",
+            "Bulgaria",
+            "Chile",
+            "Canada",
+            "Colombia",
+            "Croatia",
+            "Cyprus",
+            "the Czech Republic",
+            "Egypt",
+            "Estonia",
+            "France",
+            "Georgia",
+            "Greece",
+            "Hungary",
+            "Indonesia",
+            "Iraq",
+            "Israel",
+            "Jordan",
+            "Kazakhstan",
+            "Kosovo",
+            "Latvia",
+            "Lebanon",
+            "Libya",
+            "Lithuania",
+            "Malaysia",
+            "Moldova",
+            "Mongolia",
+            "Montenegro",
+            "Morocco",
+            "Namibia",
+            "New Zealand",
+            "North Macedonia",
+            "Palestinian Territories",
+            "Poland",
+            "Romania",
+            "Serbia",
+            "Slovakia",
+            "Slovenia",
+            "South Africa",
+            "Syria",
+            "Tunisia",
+            "Turkey",
+            "Ukraine",
+            "the United States",
+            "Uzbekistan"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "At the moment the following countries participate in the programme: Albania, Algeria, Argentina, Armenia, Azerbaijan, Bosnia and Herzegovina, Bulgaria, Chile, Canada, Colombia, Croatia, Cyprus, the Czech Republic, Egypt, Estonia, France, Georgia, Greece, Hungary, Indonesia, Iraq, Israel, Jordan, Kazakhstan, Kosovo, Latvia, Lebanon, Libya, Lithuania, Malaysia, Moldova, Mongolia, Montenegro, Morocco, Namibia, New Zealand, North Macedonia, Palestinian Territories, Poland, Romania, Serbia, Slovakia, Slovenia, South Africa, Syria, Tunisia, Turkey, Ukraine, the United States and Uzbekistan.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "higher-education degree",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is open to highly qualified, open-minded and committed young graduates with a strong interest in politics from the participating countries who are willing to play an active and responsible role in shaping the democratic futures of their countries.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The scholarship is worth a monthly amount of 700 EUR and provides for free accommodation as well as health-, accident- and liability insurances.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

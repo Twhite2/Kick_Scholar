@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c9e5a6d55911b84b3fe16b0c1d8a36be475bcaec6a01810d0143a2ec18a87f00",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:22:41.474Z",
+  "universities": [
+    {
+      "name": "Mittweida University of Applied Sciences",
+      "country": "DE",
+      "city": "Mittweida",
+      "website": "https://www.hs-mittweida.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4739/",
+      "sourceQuote": "Mittweida University of Applied Sciences • Mittweida"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Mittweida University of Applied Sciences",
+      "universityWebsite": "https://www.hs-mittweida.de",
+      "name": "Industrial Management – Innovation & Business Expansion",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Industrial Management – Innovation & Business Expansion",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4739/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4739/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students who hold at least a Bachelor's degree with 180 ECTS credits or a higher academic degree in a field of economics or engineering are eligible to study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 76",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please check the respective university's website for information on application periods.",
+          "intake": null,
+          "sourceQuote": "Please check the respective university's website for information on application periods.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

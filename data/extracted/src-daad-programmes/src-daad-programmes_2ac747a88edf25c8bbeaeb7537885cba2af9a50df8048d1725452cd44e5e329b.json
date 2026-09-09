@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2ac747a88edf25c8bbeaeb7537885cba2af9a50df8048d1725452cd44e5e329b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:58.719Z",
+  "universities": [
+    {
+      "name": "Otto von Guericke University Magdeburg",
+      "country": "DE",
+      "city": "Magdeburg",
+      "website": "https://www.ovgu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6905/",
+      "sourceQuote": "Otto von Guericke University Magdeburg • Magdeburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Otto von Guericke University Magdeburg",
+      "universityWebsite": "https://www.ovgu.de/",
+      "name": "Medical Systems Engineering (MSE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Medical Systems Engineering (MSE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6905/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6905/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "The applicants should have a Bachelor's degree or equivalent degree in Electrical Engineering, Information Technology, Computer Science, Medical Technology, or comparable technical courses with an average grade of at least \"good\" (up to 2.5 in the German academic grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application via uni-assist for the next possible summer semester each year: until 15 December",
+          "intake": null,
+          "sourceQuote": "Application via uni-assist for the next possible summer semester each year: until 15 December",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2be53e2d73dec7a009affd82d5bbfbc97172cacaf2f53f6d50cd70ad92413392",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:02.344Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "country": "DE",
+      "city": "Nürnberg",
+      "website": "https://www.th-nuernberg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3596/",
+      "sourceQuote": "Technische Hochschule Nürnberg Georg Simon Ohm • Nürnberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "universityWebsite": "https://www.th-nuernberg.de",
+      "name": "Master's in International Finance and Economics (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in International Finance and Economics (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3596/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3596/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "An above-average first Diploma/Bachelor's degree from a completed business or economics programme (focus on finance/economics)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "Proof of C1 proficiency in English",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German level A1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Relevant practical experience in finance/economics",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:80e17e849defc76e27cacab8574823bd8cec51dc6648d3f5d1add4153c3e7afd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:09:31.946Z",
+  "universities": [
+    {
+      "name": "European University Viadrina",
+      "country": "DE",
+      "city": "Frankfurt (Oder)",
+      "website": "https://www.europa-uni.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8319/",
+      "sourceQuote": "European University Viadrina • Frankfurt (Oder)"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "European University Viadrina",
+      "universityWebsite": "https://www.europa-uni.de/de/",
+      "name": "Cultural and Social Studies",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Cultural and Social Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8319/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8319/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "General qualification for university entrance from a German school or an accepted comparable qualification from a foreign school",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

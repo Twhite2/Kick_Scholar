@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:65e2081f5c0ac2c0a558200072e89e8713b281b76ddb835f2b9255b8306c3c19",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:23:27.986Z",
+  "universities": [
+    {
+      "name": "Eberswalde University for Sustainable Development",
+      "country": "DE",
+      "city": "Eberswalde",
+      "website": "https://www.hnee.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3820/",
+      "sourceQuote": "Eberswalde University for Sustainable Development • Eberswalde"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Eberswalde University for Sustainable Development",
+      "universityWebsite": "https://www.hnee.de/",
+      "name": "Global Change Management (GCM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Change Management (GCM)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3820/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3820/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of university degree, such as a Bachelor of Science / Bachelor of Arts, German diploma \"Diplom\", or a comparable degree, with a standard duration of at least six semesters or a minimum of 180 academic credits (ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

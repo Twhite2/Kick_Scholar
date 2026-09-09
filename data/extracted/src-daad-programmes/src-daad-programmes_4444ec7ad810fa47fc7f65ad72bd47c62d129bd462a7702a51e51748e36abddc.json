@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4444ec7ad810fa47fc7f65ad72bd47c62d129bd462a7702a51e51748e36abddc",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:40.882Z",
+  "universities": [
+    {
+      "name": "Witten/Herdecke University",
+      "country": "DE",
+      "city": "Witten",
+      "website": "https://www.uni-wh.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5383/",
+      "sourceQuote": "Witten/Herdecke University • Witten"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Witten/Herdecke University",
+      "universityWebsite": "https://www.uni-wh.de",
+      "name": "Management (Master of Science)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Management (Master of Science)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 8220,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5383/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5383/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "* Accredited or recognised Bachelor's degree (partly) in economics with at least 180 ECTS.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "80",
+          "unit": "ECTS credits",
+          "sourceQuote": "* Accredited or recognised Bachelor's degree (partly) in economics with at least 180 ECTS.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "* Or: Bachelor's degree in a different field with at least 180 ECTS + valid aptitude test for business degree programmes (GMAT, GRE, BAT, EBSgrad Test or CAT).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Or: Bachelor's degree in a different field with at least 180 ECTS + valid aptitude test for business degree programmes (GMAT, GRE, BAT, EBSgrad Test or CAT).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Or: Bachelor's degree in a different field with at least 180 ECTS + valid aptitude test for business degree programmes (GMAT, GRE, BAT, EBSgrad Test or CAT).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "BAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Or: Bachelor's degree in a different field with at least 180 ECTS + valid aptitude test for business degree programmes (GMAT, GRE, BAT, EBSgrad Test or CAT).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "EBSgrad Test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Or: Bachelor's degree in a different field with at least 180 ECTS + valid aptitude test for business degree programmes (GMAT, GRE, BAT, EBSgrad Test or CAT).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "CAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Or: Bachelor's degree in a different field with at least 180 ECTS + valid aptitude test for business degree programmes (GMAT, GRE, BAT, EBSgrad Test or CAT).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 83",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Rolling application procedure:** You can apply for a place all year round until all places have been allocated. The latest date to apply for the coming **winter semester** is 15 August of the same year. **Early Bird:** If you apply by 15 June for the winter semester, you do not pay an application fee (the one-off application fee is 50 EUR) and secure your place early.",
+          "intake": null,
+          "sourceQuote": "*Rolling application procedure:** You can apply for a place all year round until all places have been allocated. The latest date to apply for the coming **winter semester** is 15 August of the same year. **Early Bird:** If you apply by 15 June for the winter semester, you do not pay an application fee (the one-off application fee is 50 EUR) and secure your place early.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

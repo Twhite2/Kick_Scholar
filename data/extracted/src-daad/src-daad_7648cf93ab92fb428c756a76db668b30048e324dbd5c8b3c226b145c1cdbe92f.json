@@ -1,0 +1,200 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:7648cf93ab92fb428c756a76db668b30048e324dbd5c8b3c226b145c1cdbe92f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:04.873Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Catholic Academic Exchange Service (KAAD): Eastern Europe Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The KAAD is the scholarship institution of the catholic Church in Germany. Applicants for this programme are from [Central, Eastern and South-east Europe, the Caucasus and Central Asia](https://www.kaad.de/fileadmin/user_upload/referat-osteuropa/Laenderliste-OE.pdf), are proficient in German and are of catholic faith. In exceptional cases candidates may have differing denominations, if they are recommended by catholic partner organisations. Eligibility criteria include post-graduates with a Bachelor's degree who wish to study in a Master's programme at a German university (max. 24 months). Tuition fees for fee-based Master's programmes can be funded in exceptional cases. young scientists who want to complete a doctoral degree in Germany (max. 36 months) young scientists who are studying for a doctoral degree or a postdoctoral qualification (habilitation) and plan to come to Germany for a research stay (up to 12 months) post-graduates who, after completing their exams in their home country, wish to undertake a research stay or deepen their existing scientific knowledge in Germany, or who wish to pursue a non-consecutive graduate or additional course of study (this also applies to further training for licensed medical practitioners) university teachers planning research stays (up to 6 months) in Germany Master's students who plan a study stay (up to 6 months) to research material at a higher education institution in Germany Sponsorships are awarded to students from any subject…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000114",
+      "deadlineText": "The KAAD has a two-stage application procedure. The initial application can be submitted throughout the year. Those who are selected for the second stage will be sent the necessary application documents. The application deadlines for the second stage are 15 January (scholarships awarded in March) and 30 June (scholarships awarded in September) of each year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000114",
+      "sourceQuote": "graduates, doctoral candidates, PhDs or higher-education teaching staff demonstrating excellent academic performance and promise from [Central, Eastern and South-east Europe, the Caucasus and Central Asia](https://www.kaad.de/fileadmin/user_upload/referat-osteuropa/Laenderliste-OE.pdf) interested in spending a period of study or a research stay at a German higher education institution",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Central, Eastern and South-east Europe, the Caucasus and Central Asia"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants for this programme are from [Central, Eastern and South-east Europe, the Caucasus and Central Asia](https://www.kaad.de/fileadmin/user_upload/referat-osteuropa/Laenderliste-OE.pdf), are proficient in German and are of catholic faith.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants for this programme are from [Central, Eastern and South-east Europe, the Caucasus and Central Asia](https://www.kaad.de/fileadmin/user_upload/referat-osteuropa/Laenderliste-OE.pdf), are proficient in German and are of catholic faith.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "catholic faith",
+          "sourceQuote": "Applicants for this programme are from [Central, Eastern and South-east Europe, the Caucasus and Central Asia](https://www.kaad.de/fileadmin/user_upload/referat-osteuropa/Laenderliste-OE.pdf), are proficient in German and are of catholic faith.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "exceptional cases differing denominations if recommended by catholic partner organisations",
+          "sourceQuote": "In exceptional cases candidates may have differing denominations, if they are recommended by catholic partner organisations.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Eligibility criteria include",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "any subject area except theology",
+          "sourceQuote": "Sponsorships are awarded to students from any subject area (with the exception of courses of study in theology).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "preparatory German courses in home country and optional language course",
+          "sourceQuote": "The KAAD expects eligible candidates to complete preparatory German courses in their home country. In addition, candidates can apply for a language course (full-time or during studies).",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "post-graduates with a Bachelor's degree who wish to study in a Master's programme at a German university (max. 24 months).",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "young scientists who want to complete a doctoral degree in Germany (max. 36 months)",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "young scientists who are studying for a doctoral degree or a postdoctoral qualification (habilitation) and plan to come to Germany for a research stay (up to 12 months)",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "post-graduates who, after completing their exams in their home country, wish to undertake a research stay or deepen their existing scientific knowledge in Germany, or who wish to pursue a non-consecutive graduate or additional course of study (this also applies to further training for licensed medical practitioners)",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "university teachers planning research stays (up to 6 months) in Germany",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Master's students who plan a study stay (up to 6 months) to research material at a higher education institution in Germany",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

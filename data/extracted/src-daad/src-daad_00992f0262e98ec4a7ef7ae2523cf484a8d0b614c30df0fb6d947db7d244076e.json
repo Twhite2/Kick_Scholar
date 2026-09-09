@@ -1,0 +1,114 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:00992f0262e98ec4a7ef7ae2523cf484a8d0b614c30df0fb6d947db7d244076e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:05.729Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "RISE Germany - Research Internships in Science and Engineering **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This programme promotes the exchange of North American, British and Irish students in the fields of science and engineering and computer science. Students get first impressions of the research and landscape in Germany and will connect with doctoral students who serve as their mentors at universities and research institutions or with researchers from universities of applied sciences (UAS).",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50020910",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50020910",
+      "sourceQuote": "Undergraduate students majoring in the fields of science and engineering as well as in computer science. Applicants must have completed at least two years of undergraduate study. Seniors or forth year students must prove that they will still be fully enrolled upon their return to their home university in North America, the UK or Ireland. For most positions knowledge of German is not required. The…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "North American",
+            "British",
+            "Irish"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "This programme promotes the exchange of North American, British and Irish students in the fields of science and engineering and computer science.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "science",
+            "engineering",
+            "computer science"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "This programme promotes the exchange of North American, British and Irish students in the fields of science and engineering and computer science.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Undergraduate students majoring in the fields of science and engineering as well as in computer science.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "completed at least two years of undergraduate study",
+          "sourceQuote": "Applicants must have completed at least two years of undergraduate study.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "seniors or forth year students must prove that they will still be fully enrolled upon their return to their home university in North America, the UK or Ireland",
+          "sourceQuote": "Seniors or forth year students must prove that they will still be fully enrolled upon their return to their home university in North America, the UK or Ireland.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "knowledge of German is not required for most positions",
+          "sourceQuote": "For most positions knowledge of German is not required.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED",
+            "ANY"
+          ],
+          "sourceQuote": "Students get first impressions of the research and landscape in Germany and will connect with doctoral students who serve as their mentors at universities and research institutions or with researchers from universities of applied sciences (UAS).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

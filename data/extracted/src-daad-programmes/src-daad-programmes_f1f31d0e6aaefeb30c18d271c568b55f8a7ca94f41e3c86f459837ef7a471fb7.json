@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f1f31d0e6aaefeb30c18d271c568b55f8a7ca94f41e3c86f459837ef7a471fb7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:44:34.611Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Emden/Leer",
+      "country": "DE",
+      "city": "Emden",
+      "website": "https://www.hs-emden-leer.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4775/",
+      "sourceQuote": "University of Applied Sciences Emden/Leer • Emden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Emden/Leer",
+      "universityWebsite": "https://www.hs-emden-leer.de",
+      "name": "Master's in Industrial Informatics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Industrial Informatics",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4775/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4775/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA Electrical Engineering",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree (BA) of a university belonging to one of the Bologna Signatory States (210 ECTS):",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA Computer Science",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree (BA) of a university belonging to one of the Bologna Signatory States (210 ECTS):",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA Mechatronic Engineering",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree (BA) of a university belonging to one of the Bologna Signatory States (210 ECTS):",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Or an equivalent degree at a German or foreign university in a technically appropriate study programme (the equivalence is set according to the requirements of the assessment proposals of the Corporate Centre for Foreign Education at the permanent registry of the Conference of German Culture Ministers [<http://anabin.kmk.org/anabin.html>])",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Basic knowledge about real-time-critical systems and software engineering (including programming of industrial software systems) are essential requirements to successfully participate in this Master's programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Additionally, applicants originating from China, India or Vietnam have to hand in the original certificate of the academic assessment office issued by their German embassy (“Akademische Prüfstelle”).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

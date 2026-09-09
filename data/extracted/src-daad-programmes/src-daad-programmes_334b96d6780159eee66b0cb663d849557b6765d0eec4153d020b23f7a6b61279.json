@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:334b96d6780159eee66b0cb663d849557b6765d0eec4153d020b23f7a6b61279",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:57:35.315Z",
+  "universities": [
+    {
+      "name": "SRH University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.srh-university.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6362/",
+      "sourceQuote": "SRH University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "SRH University",
+      "universityWebsite": "https://www.srh-university.de/en/",
+      "name": "Engineering and Sustainable Technology Management – Industry 4.0: Automation, Robotics & 3D Manufacturing (MEng) Engineering & Technology Management: Automation & Robotics (MEng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Engineering and Sustainable Technology Management – Industry 4.0: Automation, Robotics & 3D Manufacturing (MEng) Engineering & Technology Management: Automation & Robotics (MEng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 6950,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6362/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6362/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Engineering (Environmental Engineering, Electrical Engineering, Computer Science, Mechatronic Engineering, Mechanical Engineering, Civil Engineering, etc.) or (Natural) Sciences",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in **Engineering (Environmental Engineering, Electrical Engineering, Computer Science, Mechatronic Engineering, Mechanical Engineering, Civil Engineering, etc.) or (Natural) Sciences**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,124 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:8f008dd6b996c8078cb7853e2d05e892e811b21e849cd0e856324286d5fea728",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:15.703Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Bayer Foundation: Kurt Hansen Fellowship for STEM Education",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Kurt Hansen Fellowship supports teachers, trainee teachers, and students of teaching subjects or pedagogy in the STEM area (mathematics, computer science, natural sciences and technology). The Kurt Hansen grant can be used for the following activities: internships, in Germany or abroad research projects in STEM education (in Germany or abroad) further education and training, summer schools, research classes, etc., related to STEM education (in Germany or abroad) courses on science communication, civic science or equivalent (in Germany or abroad Candidates show a strong sense of commitment and motivation and submit an innovative international research project, which will be funded individually.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000221",
+      "deadlineText": "Please find the updated deadlines for application [here](https://www.bayer-foundation.com/science/fellowships-stipends#ForStudentTeachers).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000221",
+      "sourceQuote": "Applicants must study or work in Germany. The following can apply for a grant: students of pedagogy, trainee teachers or student teachers (Bachelor, Master, PhD) in STEM subjects young teachers (less than 3 years of teaching experience) with a focus on STEM subjects teachers at elementary schools and special schools (independent of their professional experience) who want to improve their knowledge…",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "STEM"
+          ],
+          "numericValue": null,
+          "textValue": "teaching subjects or pedagogy in the STEM area (mathematics, computer science, natural sciences and technology)",
+          "sourceQuote": "The Kurt Hansen Fellowship supports teachers, trainee teachers, and students of teaching subjects or pedagogy in the STEM area (mathematics, computer science, natural sciences and technology).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "students of pedagogy, trainee teachers or student teachers",
+          "sourceQuote": "The following can apply for a grant:  \n\n  * students of pedagogy, trainee teachers or student teachers (Bachelor, Master, PhD) in STEM subjects",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": "young teachers (less than 3 years of teaching experience) with a focus on STEM subjects",
+          "sourceQuote": "* young teachers (less than 3 years of teaching experience) with a focus on STEM subjects",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Applicants must study or work in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The Kurt Hansen grant can be used for the following activities:  \n\n  * internships, in Germany or abroad",
+          "sourceUrl": null
+        },
+        {
+          "countries": [],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "* research projects in STEM education (in Germany or abroad)",
+          "sourceUrl": null
+        },
+        {
+          "countries": [],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "* further education and training, summer schools, research classes, etc., related to STEM education (in Germany or abroad)",
+          "sourceUrl": null
+        },
+        {
+          "countries": [],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "* courses on science communication, civic science or equivalent (in Germany or abroad",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

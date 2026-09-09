@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8ee4b84fa6c5900d4849052be65eb63ccd7f7abe4ecad39f311caaa3d8abe5ab",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:17:47.134Z",
+  "universities": [
+    {
+      "name": "Dresden University of Technology",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://tu-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5202/",
+      "sourceQuote": "Dresden University of Technology • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden University of Technology",
+      "universityWebsite": "https://tu-dresden.de/",
+      "name": "Computational Modelling and Simulation",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Modelling and Simulation",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5202/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5202/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "First university degree qualifying for professional activity in Computer Science, Mathematics, Natural Science, Economics/Finance, or Engineering (BSc or higher, including MSc, German \"Diplom\", BSc [Hons], etc.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Knowledge of English corresponding to at least **level B2** of the European Frame of Reference for Language",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proficiency in computer programming in (at least one) compiled programming language",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Calculus of functions in one and multiple variables (partial derivatives, integrals, etc.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Basics of linear algebra (matrix and vector operations, matrix inversion, decomposition)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Basics of probability (distributions, elementary probabilities, axioms)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Basics of algorithms and data structures (arrays, lists, search and sorting, complexity)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "BSc-level knowledge in the application domain of the elected track",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 6 \n  * TOEFL iBT Home Edition (since 2026): 4.5 \n  * Reading: 4.5 \n  * Listening: 4.5 \n  * Speaking: 4.5 \n  * Writing: 4.5 \n  * PTE Academic: 60 \n  * UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

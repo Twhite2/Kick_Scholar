@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f763cffebe4777752e6e8ff0cc2df8cfa4ec21b0aee6b9c66fde0a51ff27f6d3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:09:35.720Z",
+  "universities": [
+    {
+      "name": "University of Passau",
+      "country": "DE",
+      "city": "Passau",
+      "website": "https://www.uni-passau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7784/",
+      "sourceQuote": "University of Passau • Passau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Passau",
+      "universityWebsite": "https://www.uni-passau.de/",
+      "name": "Master of Science in Artificial Intelligence Engineering MSc AI Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Artificial Intelligence Engineering MSc AI Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7784/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7784/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "You have an undergraduate university degree in computer science or mathematics with a computer science/mathematics component of at least 120 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Out of these 120 ECTS credits: \n    * at least 35 ECTS credits must have been earned in mathematics modules/courses, including theoretical computer science;\n    * at least 40 ECTS credits must have been earned in computer science modules/courses.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If you completed a four-year, non-ECTS degree, the 120 [ECTS](https://www.uni-passau.de/en/msc-ai-eng/#ECTS) credit requirement is deemed to be met if two-thirds of your credit points were earned in computer science/mathematics-related modules/courses.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

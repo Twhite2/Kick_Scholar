@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:46e21a52e1a97d2b1c726a51cd28468d249568637cfeada235b08cd6066380f6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:33.273Z",
+  "universities": [
+    {
+      "name": "Friedrich Schiller University Jena",
+      "country": "DE",
+      "city": "Jena",
+      "website": "https://www.uni-jena.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5204/",
+      "sourceQuote": "Friedrich Schiller University Jena • Jena"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Friedrich Schiller University Jena",
+      "universityWebsite": "https://www.uni-jena.de/",
+      "name": "Master of Science in Mathematics MSc Mathematics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Mathematics MSc Mathematics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5204/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5204/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Mathematics or equivalent",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a Bachelor's degree in **Mathematics** or equivalent with results high above the international average.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proficiency in at least one advanced programming language is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,164 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fd6723cc53fce4969098964ab44749c57d4fdb2c254a6a62343bb2eef401990e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:10.242Z",
+  "universities": [
+    {
+      "name": "Pforzheim University",
+      "country": "DE",
+      "city": "Pforzheim",
+      "website": "https://www.hs-pforzheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3864/",
+      "sourceQuote": "Pforzheim University • Pforzheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Pforzheim University",
+      "universityWebsite": "https://www.hs-pforzheim.de/",
+      "name": "Master of Business Administration in International Management (MBA) MBA International Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Business Administration in International Management (MBA) MBA International Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4600,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3864/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3864/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "At least two years of full-time work experience after first academic degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "TOEFL or IELTS (or proof that the language of instruction for the previous programme of study was English)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "TOEFL or IELTS (or proof that the language of instruction for the previous programme of study was English)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "GTE",
+          "value": "550",
+          "unit": null,
+          "sourceQuote": "GMAT (Graduate Management Admission Test):",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT Focus Edition",
+          "operator": "GTE",
+          "value": "515",
+          "unit": null,
+          "sourceQuote": "GMAT Focus Edition: expected score 515+ or equivalent GRE",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A GMAT waiver is possible with a very good CGPA of first academic degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation plus essay on extracurricular activities",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "APS (for applicants from China, Vietnam and India) or verification of educational certificates from HEC (for applicants from Pakistan)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Successful interview (in person or via Microsoft Teams)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "100",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 100",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "15 June (if a visa is required) or 31 July (if no visa is required) for September entry 15 December (if a visa is required) or 31 January (if no visa is required) for March entry (Business graduates only)",
+          "intake": null,
+          "sourceQuote": "15 June (if a visa is required) or 31 July (if no visa is required) for September entry 15 December (if a visa is required) or 31 January (if no visa is required) for March entry (Business graduates only)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

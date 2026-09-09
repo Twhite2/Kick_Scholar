@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fdc798e092f9d4f6f6c002c6fe5d73eae0d9637e966ba5b4599c4f3326506f35",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:23.758Z",
+  "universities": [
+    {
+      "name": "Karlsruhe Institute of Technology",
+      "country": "DE",
+      "city": "Karlsruhe",
+      "website": "https://www.kit.edu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4555/",
+      "sourceQuote": "Karlsruhe Institute of Technology • Karlsruhe"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Karlsruhe Institute of Technology",
+      "universityWebsite": "https://www.kit.edu/",
+      "name": "Production & Operations Management (MSc, Executive) at HECTOR School Production & Operations Management (MSc, Executive) HECTOR School",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Production & Operations Management (MSc, Executive) at HECTOR School Production & Operations Management (MSc, Executive) HECTOR School",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 9000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4555/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4555/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "First academic degree: Bachelor's, Master's, German \"Diplom\", etc. (university, university of applied sciences, cooperative state university) in a relevant subject, such as engineering, natural sciences, information science or economics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1 or 2",
+          "unit": "years",
+          "sourceQuote": "A minimum of one or two years of practical experience in the specific field of the course is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "years",
+          "sourceQuote": "Three years of work experience are recommended.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

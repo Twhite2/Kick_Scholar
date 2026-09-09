@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3ba1c8279dc306fd72c90fc2319efb902606505af1f5f1e6fed46def6078207c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:22:37.450Z",
+  "universities": [
+    {
+      "name": "University of Konstanz",
+      "country": "DE",
+      "city": "Konstanz",
+      "website": "https://www.uni-konstanz.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4042/",
+      "sourceQuote": "University of Konstanz • Konstanz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Konstanz",
+      "universityWebsite": "https://www.uni-konstanz.de",
+      "name": "Economics (Master of Science) Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Economics (Master of Science) Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4042/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4042/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must have a Bachelor's degree from a recognised university with a standard minimum study period of three years.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The Bachelor's degree can be in any discipline that provides sufficient quantitative background (e.g. economics, business administration, mathematics, statistics, or natural sciences).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "92",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 92",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application deadline 15 April (if you need a visa)",
+          "intake": null,
+          "sourceQuote": "Application deadline 15 April (if you need a visa)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

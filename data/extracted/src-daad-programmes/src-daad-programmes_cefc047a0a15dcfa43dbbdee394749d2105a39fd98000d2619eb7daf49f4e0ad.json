@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cefc047a0a15dcfa43dbbdee394749d2105a39fd98000d2619eb7daf49f4e0ad",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:50.551Z",
+  "universities": [
+    {
+      "name": "Heidelberg University",
+      "country": "DE",
+      "city": "Heidelberg",
+      "website": "https://www.uni-heidelberg.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3878/",
+      "sourceQuote": "Heidelberg University • Heidelberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heidelberg University",
+      "universityWebsite": "https://www.uni-heidelberg.de/de",
+      "name": "Molecular Biosciences MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Molecular Biosciences MSc",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3878/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3878/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

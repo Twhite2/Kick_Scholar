@@ -1,0 +1,153 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:cc659be2891f6dcacf1e37019fe966c231fb3255b2273dc07cfcacb4986c43c4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:34.834Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Friedrich Ebert Foundation: Scholarship for International Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Applicants come from countries in the Global South (Asia, Africa, Latin America), post-Soviet states as well as eastern and south-eastern European (EU) countries. Students in any subject area are eligible to apply, if they demonstrate excellent academic merit, already study in Germany, are committed to the values of social democracy and live by them. Sponsored students receive material and non-material support so that they have no financial worries during their studies and have more time for their volunteering.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000153",
+      "deadlineText": "Applications may be submitted at any time; there are, however, specific timelines which are detailed [here](https://www.fes.de/studienfoerderung/bewerbung).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000153",
+      "sourceQuote": "particularly gifted students from countries in the Global South (Asia, Africa, Latin America), post-Soviet states as well as eastern and south-eastern European (EU) countries. The candidates' aptitudes and personalities show excellent promise for an academic or professional career. Students or doctoral candidates from OECD countries are not eligible for funding. Moreover, candidates are expected t…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "countries in the Global South (Asia, Africa, Latin America)",
+            "post-Soviet states",
+            "eastern and south-eastern European (EU) countries"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants come from countries in the Global South (Asia, Africa, Latin America), post-Soviet states as well as eastern and south-eastern European (EU) countries.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ANY"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students in any subject area are eligible to apply, if they demonstrate excellent academic merit, already study in Germany, are committed to the values of social democracy and live by them.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students in any subject area are eligible to apply, if they demonstrate excellent academic merit, already study in Germany, are committed to the values of social democracy and live by them.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "already study in Germany",
+          "sourceQuote": "Students in any subject area are eligible to apply, if they demonstrate excellent academic merit, already study in Germany, are committed to the values of social democracy and live by them.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "committed to the values of social democracy and live by them",
+          "sourceQuote": "Students in any subject area are eligible to apply, if they demonstrate excellent academic merit, already study in Germany, are committed to the values of social democracy and live by them.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The funding for international students includes Bachelor's, Master's and Diploma degree programmes, as well as degree programmes leading to the state examination.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised higher education institution in Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "enrolment at a state or state-recognised higher education institution in Germany",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Students or doctoral candidates from OECD countries are not eligible for funding.",
+          "sourceQuote": "Students or doctoral candidates from OECD countries are not eligible for funding.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "The candidates' aptitudes and personalities show excellent promise for an academic or professional career.",
+          "sourceQuote": "The candidates' aptitudes and personalities show excellent promise for an academic or professional career.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "above-average study-related performance and first graded certificates of academic achievement",
+          "sourceQuote": "above-average study-related performance and first graded certificates of academic achievement",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The funding for international students includes Bachelor's, Master's and Diploma degree programmes, as well as degree programmes leading to the state examination.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

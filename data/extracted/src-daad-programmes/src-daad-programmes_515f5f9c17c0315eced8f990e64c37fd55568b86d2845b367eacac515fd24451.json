@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:515f5f9c17c0315eced8f990e64c37fd55568b86d2845b367eacac515fd24451",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:19.208Z",
+  "universities": [
+    {
+      "name": "Goethe University Frankfurt",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.uni-frankfurt.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8544/",
+      "sourceQuote": "Goethe University Frankfurt • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Goethe University Frankfurt",
+      "universityWebsite": "https://www.uni-frankfurt.de/de",
+      "name": "PhD Programme with Tracks in Accounting, Economics, Finance, or Marketing PhD Programme in Accounting, Economics, Finance, or Marketing",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PhD Programme with Tracks in Accounting, Economics, Finance, or Marketing PhD Programme in Accounting, Economics, Finance, or Marketing",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8544/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8544/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's or Master's degree is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "C2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "<https://www.gsefm.eu/applicants/requirements-and-deadlines.html>",
+          "intake": null,
+          "sourceQuote": "<https://www.gsefm.eu/applicants/requirements-and-deadlines.html>",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

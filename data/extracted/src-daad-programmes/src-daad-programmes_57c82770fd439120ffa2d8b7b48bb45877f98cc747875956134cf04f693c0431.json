@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:57c82770fd439120ffa2d8b7b48bb45877f98cc747875956134cf04f693c0431",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:44.046Z",
+  "universities": [
+    {
+      "name": "HWR Berlin (Berlin School of Economics and Law)",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hwr-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4448/",
+      "sourceQuote": "HWR Berlin (Berlin School of Economics and Law) • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HWR Berlin (Berlin School of Economics and Law)",
+      "universityWebsite": "https://www.hwr-berlin.de",
+      "name": "International Business Management (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Business Management (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 8300,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4448/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4448/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications can be submitted from 1 December for the following academic year. They are reviewed on a rolling basis until the Admission Board has selected a cohort of 30 students. As places are limited, early application is strongly recommended. For non-European applicants, the recommended deadline is 30 May due to visa processing times, while the deadline for European applicants is 31 July.",
+          "intake": null,
+          "sourceQuote": "Applications can be submitted from 1 December for the following academic year. They are reviewed on a rolling basis until the Admission Board has selected a cohort of 30 students. As places are limited, early application is strongly recommended. For non-European applicants, the recommended deadline is 30 May due to visa processing times, while the deadline for European applicants is 31 July.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

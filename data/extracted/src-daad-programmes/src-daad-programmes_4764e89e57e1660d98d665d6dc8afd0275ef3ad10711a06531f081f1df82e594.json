@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4764e89e57e1660d98d665d6dc8afd0275ef3ad10711a06531f081f1df82e594",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:24:09.010Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Jena",
+      "country": "DE",
+      "city": "Jena",
+      "website": "https://www.eah-jena.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3796/",
+      "sourceQuote": "University of Applied Sciences Jena • Jena"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Jena",
+      "universityWebsite": "https://www.eah-jena.de/",
+      "name": "Scientific Instrumentation — AI-Driven Design, Sensors and Optics Scientific Instrumentation",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Scientific Instrumentation — AI-Driven Design, Sensors and Optics Scientific Instrumentation",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3796/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3796/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students must have completed an undergraduate university degree programme in a natural or engineering science (usually a Bachelor's degree).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

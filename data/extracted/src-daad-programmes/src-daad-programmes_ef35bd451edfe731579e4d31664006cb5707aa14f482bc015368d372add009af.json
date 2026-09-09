@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ef35bd451edfe731579e4d31664006cb5707aa14f482bc015368d372add009af",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:33.250Z",
+  "universities": [
+    {
+      "name": "University of Koblenz",
+      "country": "DE",
+      "city": "Koblenz",
+      "website": "https://www.uni-koblenz.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4579/",
+      "sourceQuote": "University of Koblenz • Koblenz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Koblenz",
+      "universityWebsite": "https://www.uni-koblenz.de/de",
+      "name": "Mathematical Modelling, Simulation and Optimisation (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mathematical Modelling, Simulation and Optimisation (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4579/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4579/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc degree or equivalent in Applied Mathematics, Applied Physics, Computer Science, or a related field",
+          "unit": null,
+          "sourceQuote": "BSc degree or equivalent in Applied Mathematics, Applied Physics, Computer Science, or a related field",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications Business (BEC)",
+          "operator": "EQ",
+          "value": "B2 Business Vantage",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications Business (BEC) : B2 Business Vantage",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

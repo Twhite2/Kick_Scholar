@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ee8d140ef4491583df84132a2729426e14517cbb78d57d772d60d3f8269a06c2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:56.752Z",
+  "universities": [
+    {
+      "name": "University of Cologne",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.uni-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4182/",
+      "sourceQuote": "University of Cologne • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Cologne",
+      "universityWebsite": "https://www.uni-koeln.de/",
+      "name": "International Management (CEMS MIM) – Master of Science International Management (CEMS MIM) – MSc",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Management (CEMS MIM) – Master of Science International Management (CEMS MIM) – MSc",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4182/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4182/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree with a grade of at least 2.5 (German grading system)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "48",
+          "unit": "ECTS",
+          "sourceQuote": "at least 48 ECTS in the field of Business Administration/ Management",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS",
+          "sourceQuote": "at least 10 ECTS in the field of Economics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS",
+          "sourceQuote": "at least 10 ECTS in the fields of Statistics and/or Mathematics (methodological expertise only, no user expertise)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications Business (BEC)",
+          "operator": "EQ",
+          "value": "C1 Business Higher",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications Business (BEC) : C1 Business Higher",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

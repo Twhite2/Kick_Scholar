@@ -1,0 +1,97 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:102c41eef29bcfe76273ec8008af4782e3d1b4755747bfe6294cac82811adc84",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:29.570Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "CAS-DAAD-Programme / Joint Fellowship Programme for Doctoral Students of CAS **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "A cooperation agreement on the joint training and education of PhD students has existed between the Chinese Academy of Sciences (CAS) and the German Academic Exchange Service (DAAD) since 2007. Under this CAS-DAAD joint programme up and coming young Chinese scientists from the University of Chinese Academy of Sciences (UCAS) and CAS research institutes are provided with the opportunity of a research stay of 12 to 22 months in Germany. The programme is only for candidates aiming to gain a doctorate in China. Research stays at Max-Planck or Fraunhofer institutes are not eligible for funding.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50094047",
+      "deadlineText": "The application occurs online through the DAAD Portal in the period between 4 November and **4 December.**",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50094047",
+      "sourceQuote": "Up and coming young Chinese scientists from a CAS institute or the UCAS who wish to carry out part of their doctoral research in Germany",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "China"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "up and coming young Chinese scientists from the University of Chinese Academy of Sciences (UCAS) and CAS research institutes are provided with the opportunity of a research stay of 12 to 22 months in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates or participants in a combined Master and PhD programme who commenced their studies at least one year before.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 1,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates or participants in a combined Master and PhD programme who commenced their studies at least one year before.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "English IELTS 5.5 / TOEFL iBT 80 or German DSH II / TestDaF4x4 or higher",
+          "sourceQuote": "Applicants must provide evidence that they hold one of the following language qualifications:  \n\n  1. Englisch: IELTS (5,5) / TOEFL iBT (80)\n  2. German: DSH II / TestDaF4x4 or higher",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Under this CAS-DAAD joint programme up and coming young Chinese scientists from the University of Chinese Academy of Sciences (UCAS) and CAS research institutes are provided with the opportunity of a research stay of 12 to 22 months in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The programme is only for candidates aiming to gain a doctorate in China.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

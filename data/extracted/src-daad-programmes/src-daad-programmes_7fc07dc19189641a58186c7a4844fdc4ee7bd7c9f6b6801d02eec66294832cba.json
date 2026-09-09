@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7fc07dc19189641a58186c7a4844fdc4ee7bd7c9f6b6801d02eec66294832cba",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:31:27.146Z",
+  "universities": [
+    {
+      "name": "Leibniz University Hannover",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.uni-hannover.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4576/",
+      "sourceQuote": "Leibniz University Hannover • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leibniz University Hannover",
+      "universityWebsite": "https://www.uni-hannover.de/de/",
+      "name": "Master of Physics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Physics",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4576/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4576/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,163 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ecff47d344a4fb7ae99201034586517f04cd31b70d275200f8786ba5e09e3e12",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:07:45.635Z",
+  "universities": [
+    {
+      "name": "HWR Berlin (Berlin School of Economics and Law)",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hwr-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5517/",
+      "sourceQuote": "HWR Berlin (Berlin School of Economics and Law) • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HWR Berlin (Berlin School of Economics and Law)",
+      "universityWebsite": "https://www.hwr-berlin.de",
+      "name": "FACT – Finance, Accounting, Controlling and Taxation",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "FACT – Finance, Accounting, Controlling and Taxation",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5517/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5517/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree or equivalent qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Evidence that at least two of the four relevant study subjects (accounting, controlling, corporate finance, and company taxation) were completed in the previous course of studies with at least 20 ECTS in total",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS credit points",
+          "sourceQuote": "At least 210 ECTS credit points (Applicants with 180 ECTS will be required to obtain additional 30 credits, for example, in an integrated internship in the third semester.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Curriculum vitae",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "If applicable: proof of professional experience in the field of study for at least one year",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "GTE",
+          "value": "600",
+          "unit": null,
+          "sourceQuote": "By providing a GMAT score of 600 points or above, you can significantly increase your chance of admission.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 83",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "67",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 67",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

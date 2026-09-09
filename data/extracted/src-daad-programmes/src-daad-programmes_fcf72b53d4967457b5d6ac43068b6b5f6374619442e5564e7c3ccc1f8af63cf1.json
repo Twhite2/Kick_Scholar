@@ -1,0 +1,98 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fcf72b53d4967457b5d6ac43068b6b5f6374619442e5564e7c3ccc1f8af63cf1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:46.550Z",
+  "universities": [
+    {
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "country": "DE",
+      "city": "Würzburg",
+      "website": "https://www.uni-wuerzburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6999/",
+      "sourceQuote": "Julius-Maximilians-Universität Würzburg • Würzburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Julius-Maximilians-Universität Würzburg",
+      "universityWebsite": "https://www.uni-wuerzburg.de",
+      "name": "Chinese Politics and Society",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Chinese Politics and Society",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6999/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6999/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA programme in a social science discipline",
+          "unit": null,
+          "sourceQuote": "Applicants must have graduated from a BA programme in a social science discipline, such as political science, international relations, sociology, anthropology or the equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.2",
+          "unit": null,
+          "sourceQuote": "Direct access is granted for graduates with a of 2.2 or better (corresponding to the German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants whose final mark from their BA programme is below 2.2 (German marking system) but above 3.2 may be invited for an assessment test, usually in March/April of the application year.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

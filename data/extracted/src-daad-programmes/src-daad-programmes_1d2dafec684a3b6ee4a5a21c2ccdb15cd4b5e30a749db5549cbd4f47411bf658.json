@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1d2dafec684a3b6ee4a5a21c2ccdb15cd4b5e30a749db5549cbd4f47411bf658",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:45:45.214Z",
+  "universities": [
+    {
+      "name": "Kaiserslautern University of Applied Sciences",
+      "country": "DE",
+      "city": "Pirmasens",
+      "website": "https://www.hs-kl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4398/",
+      "sourceQuote": "Kaiserslautern University of Applied Sciences • Pirmasens"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kaiserslautern University of Applied Sciences",
+      "universityWebsite": "https://www.hs-kl.de",
+      "name": "Refinement and Sustainability of Polymer and Composite Products",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Refinement and Sustainability of Polymer and Composite Products",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4398/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4398/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (210 ECTS)",
+          "unit": null,
+          "sourceQuote": "Applicants are advised to hold a Bachelor's degree (210 ECTS) with an overall grade/mark well above average (such as \"with distinction\", \"first class\", \"excellent\", \"very good\" or \"good\" depending on the grading scale) in",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "mechanical, polymer or textile engineering",
+          "unit": null,
+          "sourceQuote": "* mechanical, polymer or textile engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "chemistry or physics",
+          "unit": null,
+          "sourceQuote": "* chemistry or physics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

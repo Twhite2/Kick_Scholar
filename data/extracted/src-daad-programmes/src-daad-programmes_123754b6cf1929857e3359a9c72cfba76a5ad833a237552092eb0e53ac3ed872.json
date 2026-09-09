@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:123754b6cf1929857e3359a9c72cfba76a5ad833a237552092eb0e53ac3ed872",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:32.593Z",
+  "universities": [
+    {
+      "name": "University of Rostock",
+      "country": "DE",
+      "city": "Rostock",
+      "website": "https://www.uni-rostock.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4593/",
+      "sourceQuote": "University of Rostock • Rostock"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Rostock",
+      "universityWebsite": "https://www.uni-rostock.de",
+      "name": "Computational Science and Engineering (CSE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Science and Engineering (CSE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4593/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4593/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8dd0122f51bef4e4cba8571363c229a92b2d0264966873bea7d0a85e90949a90",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:47.872Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7606/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7606/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7606/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor of Science degree in computer science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Additional qualification requirements for the Bachelor's degree (credits in theoretical computer science, mathematics, programming, etc.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "C1",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "<https://www.informatik.uni-bonn.de/en/studies/examination-office/deadlines-at-a-glance#AdmissionMaster>",
+          "intake": null,
+          "sourceQuote": "<https://www.informatik.uni-bonn.de/en/studies/examination-office/deadlines-at-a-glance#AdmissionMaster>",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

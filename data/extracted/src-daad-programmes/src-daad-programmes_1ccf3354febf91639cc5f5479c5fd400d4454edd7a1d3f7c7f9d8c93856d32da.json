@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1ccf3354febf91639cc5f5479c5fd400d4454edd7a1d3f7c7f9d8c93856d32da",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:03.789Z",
+  "universities": [
+    {
+      "name": "Max Planck School of Cognition",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://cognition.maxplanckschools.org/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7152/",
+      "sourceQuote": "Max Planck School of Cognition • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck School of Cognition",
+      "universityWebsite": "https://cognition.maxplanckschools.org/de",
+      "name": "Doctoral Programme in the Field of Cognition",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Doctoral Programme in the Field of Cognition",
+      "fieldCategory": "OTHER",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7152/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7152/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "By the time of admission into the programme, applicants must have completed a Bachelor's and/or Master's degree in a field related to cognition, such as artificial intelligence, biology, cognitive neuroscience, neuroscience, genetics, linguistics, mathematics, neurobiology, neuroimaging, neurology, neurophysics, philosophy, physics, psychiatry, psychology, or a related subject.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A subject is related when it has at least 60 ECTS or 30 equivalent credits in the British/American/Australian credit system including assignments in the fields mentioned above.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "110",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 110",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

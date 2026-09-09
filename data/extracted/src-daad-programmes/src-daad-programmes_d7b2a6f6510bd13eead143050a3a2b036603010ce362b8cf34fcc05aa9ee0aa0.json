@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d7b2a6f6510bd13eead143050a3a2b036603010ce362b8cf34fcc05aa9ee0aa0",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:15:19.249Z",
+  "universities": [
+    {
+      "name": "Hannover Medical School",
+      "country": "DE",
+      "city": "Braunschweig",
+      "website": "https://www.mhh.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4786/",
+      "sourceQuote": "Hannover Medical School • Braunschweig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hannover Medical School",
+      "universityWebsite": "https://www.mhh.de/",
+      "name": "PhD Programme in Epidemiology",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PhD Programme in Epidemiology",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4786/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4786/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "University degree (Master's degree or equivalent) in the area of medicine, dentistry, veterinary medicine, pharmacy, natural science, or in another subject area with a biomedical or health-relevant focus",
+          "unit": null,
+          "sourceQuote": "University degree (Master's degree or equivalent) in the area of medicine, dentistry, veterinary medicine, pharmacy, natural science, or in another subject area with a biomedical or health-relevant focus",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The degree must entitle the applicant to pursue PhD studies in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants are required to have knowledge and prior experience in the area of epidemiological methods and statistics equivalent to that which may be gained in a degree programme like MSE, MSc Epidemiology, MPH, or MSAE.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In individual cases, when such a formal degree is lacking, successfully passed courses in the field of statistics and epidemiology with 120 contact hours and/or 10 ECTS can also be acknowledged.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

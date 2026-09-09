@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:79eb5b7a3ff4655ff7e7f3e88eee3bd10fe144ceb4a12440ed7543d01946b3bc",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:07:57.604Z",
+  "universities": [
+    {
+      "name": "University of Passau",
+      "country": "DE",
+      "city": "Passau",
+      "website": "https://www.uni-passau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7077/",
+      "sourceQuote": "University of Passau • Passau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Passau",
+      "universityWebsite": "https://www.uni-passau.de/",
+      "name": "Master of Science in Business Administration MSc Business Administration",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Business Administration MSc Business Administration",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7077/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7077/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.7",
+          "unit": null,
+          "sourceQuote": "Applicants should have good results from a first degree, with a final grade of 2.7 or better (according to the [German marking system](https://www.uni-passau.de/en/international/coming-to-passau/information-for-new-students/grading-scale/) or the relevant foreign equivalent grade).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The degree should be in business administration, economics or a related discipline, obtained from a programme of study with a minimum standard full-time study duration of three years.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS credits",
+          "sourceQuote": "A degree is considered \"related\" if the minimum business or economics content amounts to 60 ECTS credits, including least 10 ECTS credits in economic/business research **methods** (e.g. data collection, data processing, mathematics, software development or statistics).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "A degree is considered \"related\" if the minimum business or economics content amounts to 60 ECTS credits, including least 10 ECTS credits in economic/business research **methods** (e.g. data collection, data processing, mathematics, software development or statistics).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "GTE",
+          "value": "550",
+          "unit": null,
+          "sourceQuote": "Applicants who have **not** obtained their university degree in a [signatory state to the Lisbon Convention](https://www.coe.int/de/web/conventions/full-list?module=signatures-by-treaty&treatynum=165) must additionally prove their suitability for the MSc Business Administration degree programme by passing the [Graduate Management Admission Test (GMAT)](https://www.mba.com/exams/gmat-exam) with a score of at least 550 points.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d8e477513571a6156b659d9318be6c48a850120ee07eae7e2036ca4e0e466e64",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:18:17.004Z",
+  "universities": [
+    {
+      "name": "FAU Erlangen-Nürnberg",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://www.fau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4046/",
+      "sourceQuote": "FAU Erlangen-Nürnberg • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FAU Erlangen-Nürnberg",
+      "universityWebsite": "https://www.fau.de/",
+      "name": "MSc Advanced Optical Technologies (MAOT)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Advanced Optical Technologies (MAOT)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4046/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4046/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "physics",
+          "unit": null,
+          "sourceQuote": "Good Bachelor's degree (or equivalent) in physics or a relevant engineering subject (for example, electrical engineering, optical engineering, mechanical engineering)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "relevant engineering subject",
+          "unit": null,
+          "sourceQuote": "Good Bachelor's degree (or equivalent) in physics or a relevant engineering subject (for example, electrical engineering, optical engineering, mechanical engineering)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "MAOT can only be commenced in the winter semester. The application period lasts from 15 February to 15 July. Applicants from non-EU countries are recommended to apply by 15 April.",
+          "intake": null,
+          "sourceQuote": "MAOT can only be commenced in the winter semester. The application period lasts from 15 February to 15 July. Applicants from non-EU countries are recommended to apply by 15 April.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c87f173685cd2ecfb541453e0e8bb998d8e4b971ca0f421e069254f32aa7fba9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:54.007Z",
+  "universities": [
+    {
+      "name": "Karlsruhe Institute of Technology",
+      "country": "DE",
+      "city": "Karlsruhe",
+      "website": "https://www.kit.edu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3918/",
+      "sourceQuote": "Karlsruhe Institute of Technology • Karlsruhe"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Karlsruhe Institute of Technology",
+      "universityWebsite": "https://www.kit.edu/",
+      "name": "BSc in Mechanical Engineering (International) BSc Mechanical Engineering (International)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BSc in Mechanical Engineering (International) BSc Mechanical Engineering (International)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 9201,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3918/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3918/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GT",
+          "value": "80%",
+          "unit": null,
+          "sourceQuote": "The fundamental criteria for admission are excellent grades in mathematics and/or physics (top 80% of class).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, applicants need to have passed an English language test (if English is not their native language or language of education).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "II",
+          "unit": null,
+          "sourceQuote": "* UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

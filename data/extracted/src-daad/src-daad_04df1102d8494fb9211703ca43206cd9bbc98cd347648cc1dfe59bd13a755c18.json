@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:04df1102d8494fb9211703ca43206cd9bbc98cd347648cc1dfe59bd13a755c18",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:29.101Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "University Winter Courses in Germany for Foreign Students and Graduates **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The aim of this programme is to deepen the knowledge of the German language, both in general language, technical and language and to augment the knowledge of the regional studies.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50046485",
+      "deadlineText": "**31 July of each year, 23:59 (Central European Time). Applications are possible from 01 June each year**",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50046485",
+      "sourceQuote": "Applications are open to students and graduates as well as doctoral candidates in any subject area. Undergraduate students must have completed at least two academic years of university study by the time the funding **period begins.**",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "students and graduates as well as doctoral candidates",
+          "sourceQuote": "Applications are open to students and graduates as well as doctoral candidates in any subject area.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 18,
+          "textValue": "must be at least 18 years old when starting the language course",
+          "sourceQuote": "The grant holder must be at least 18 years old when starting the language course.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants must be enrolled at a university in one of the programme-related countries (except Germany) both at the time of application and throughout the entire scholarship period.",
+          "sourceQuote": "Applicants must be enrolled at a university in one of the programme-related countries (except Germany) both at the time of application and throughout the entire scholarship period.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "An application is not possible if you are simultaneously or at a different time enrolled at a German university, for example as part of a double or joint degree programme with German participation.",
+          "sourceQuote": "An application is not possible if you are simultaneously or at a different time enrolled at a German university, for example as part of a double or joint degree programme with German participation.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants must be able to follow lectures in German and participate in group work.",
+          "sourceQuote": "Applicants must be able to follow lectures in German and participate in group work.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "German language skills must be proven at the time of application.",
+          "sourceQuote": "German language skills must be proven at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants must provide proof of a minimum language level of B1.",
+          "sourceQuote": "Applicants must provide proof of a minimum language level of B1.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Applicants must be enrolled at a university in one of the programme-related countries (except Germany) both at the time of application and throughout the entire scholarship period.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

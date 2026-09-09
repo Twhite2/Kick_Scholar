@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f99a32fd9a9b747ba031bcaa3586dec530f303672b5dce8573494dce2c78a64a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:38.158Z",
+  "universities": [
+    {
+      "name": "University of Bayreuth",
+      "country": "DE",
+      "city": "Bayreuth",
+      "website": "https://www.uni-bayreuth.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3925/",
+      "sourceQuote": "University of Bayreuth • Bayreuth"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bayreuth",
+      "universityWebsite": "https://www.uni-bayreuth.de/",
+      "name": "Experimental Geosciences (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Experimental Geosciences (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3925/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3925/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor of Science (BSc) or equivalent in a natural science or a related engineering field is required, with at least a grade of good (2.5 in the German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German grading system",
+          "sourceQuote": "A Bachelor of Science (BSc) or equivalent in a natural science or a related engineering field is required, with at least a grade of good (2.5 in the German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Demonstration that during the applicant's study course work in physics/geophysics and in chemistry/geochemistry has been performed, each with a minimum of 8 credit points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "A1 required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

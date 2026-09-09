@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b9b9a3ee68cb5ea900891ce0be0d8663cd2014b3d00ecac551f9557cbe28f5d1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:18.315Z",
+  "universities": [
+    {
+      "name": "Fulda University of Applied Sciences",
+      "country": "DE",
+      "city": "Fulda",
+      "website": "https://www.hs-fulda.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3686/",
+      "sourceQuote": "Fulda University of Applied Sciences • Fulda"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Fulda University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fulda.de/",
+      "name": "Global Software Development (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Software Development (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3686/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3686/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "University degree equivalent to at least a Bachelor's degree (180 or 210 ECTS) in computer sciences or related disciplines and good grades (equivalent to German grade 2.5 or better)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "A1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

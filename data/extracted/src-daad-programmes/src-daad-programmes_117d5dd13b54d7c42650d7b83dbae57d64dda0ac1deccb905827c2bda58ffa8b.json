@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:117d5dd13b54d7c42650d7b83dbae57d64dda0ac1deccb905827c2bda58ffa8b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:45.025Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://uni-tuebingen.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7653/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://uni-tuebingen.de/en/",
+      "name": "International Max Planck Research School for the Mechanisms of Mental Function and Dysfunction IMPRS for the Mechanisms of Mental Function and Dysfunction",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School for the Mechanisms of Mental Function and Dysfunction IMPRS for the Mechanisms of Mental Function and Dysfunction",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Other"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7653/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7653/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Master of Science or equivalent degree with a strong background in neuroscience, biology, physics, biomedical sciences, computational science, applied mathematics, statistics, artificial intelligence, psychology, cognitive science, or engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "New calls always start in autumn. Deadlines will be announced on the website.",
+          "intake": null,
+          "sourceQuote": "New calls always start in autumn. Deadlines will be announced on the website.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

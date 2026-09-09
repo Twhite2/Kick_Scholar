@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8e6d8954ec0037247bc925bf08e391925b3cac3e4b9d7f8e1b8d30c98fc8904c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:32.656Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Marine Microbiology",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.mpi-bremen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3874/",
+      "sourceQuote": "Max Planck Institute for Marine Microbiology • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Marine Microbiology",
+      "universityWebsite": "https://www.mpi-bremen.de",
+      "name": "MSc in Marine Microbiology (MarMic)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc in Marine Microbiology (MarMic)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3874/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3874/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A BSc or equivalent is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\nC1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

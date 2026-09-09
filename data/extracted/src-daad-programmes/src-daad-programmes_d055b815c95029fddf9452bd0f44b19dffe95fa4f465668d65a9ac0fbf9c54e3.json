@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d055b815c95029fddf9452bd0f44b19dffe95fa4f465668d65a9ac0fbf9c54e3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:55.984Z",
+  "universities": [
+    {
+      "name": "University of Oldenburg",
+      "country": "DE",
+      "city": "Oldenburg",
+      "website": "https://www.uol.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7764/",
+      "sourceQuote": "University of Oldenburg • Oldenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Oldenburg",
+      "universityWebsite": "https://www.uol.de",
+      "name": "Molecular Biomedicine (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Molecular Biomedicine (MSc)",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7764/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7764/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Proof of English proficiency at level B2 or higher (no older than two years)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

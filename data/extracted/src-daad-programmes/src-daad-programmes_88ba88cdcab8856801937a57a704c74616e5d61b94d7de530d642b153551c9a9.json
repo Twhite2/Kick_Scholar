@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:88ba88cdcab8856801937a57a704c74616e5d61b94d7de530d642b153551c9a9",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:05.672Z",
+  "universities": [
+    {
+      "name": "University of Bamberg",
+      "country": "DE",
+      "city": "Bamberg",
+      "website": "https://www.uni-bamberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3635/",
+      "sourceQuote": "University of Bamberg • Bamberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bamberg",
+      "universityWebsite": "https://www.uni-bamberg.de/",
+      "name": "Bachelor's in European Economic Studies (BSc EES)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor's in European Economic Studies (BSc EES)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3635/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3635/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "15 January (summer semester), resp. 15 July (winter semester) Special case: For persons with EU/EEA citizenship, an application is possible until the end of the enrolment period.",
+          "intake": null,
+          "sourceQuote": "15 January (summer semester), resp. 15 July (winter semester) Special case: For persons with EU/EEA citizenship, an application is possible until the end of the enrolment period.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

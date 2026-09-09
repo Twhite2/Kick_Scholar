@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3ebb66a7c6d158e1dc4e3a7751e72032434a4a34c62a2bcf69f9e13007829cf5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:27.633Z",
+  "universities": [
+    {
+      "name": "Bauhaus-Universität Weimar",
+      "country": "DE",
+      "city": "Weimar",
+      "website": "https://www.uni-weimar.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8265/",
+      "sourceQuote": "Bauhaus-Universität Weimar • Weimar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bauhaus-Universität Weimar",
+      "universityWebsite": "https://www.uni-weimar.de",
+      "name": "Digital Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Digital Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8265/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8265/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor of Science degree in Civil Engineering, Mechanical Engineering, or Applied Computer Science (e.g. Computer Science and Media, Geoinformatics, Environmental Informatics) or a qualification recognised as academically relevant by the responsible examination committee",
+          "unit": null,
+          "sourceQuote": "The requirements for admission to the Digital Engineering programme are a Bachelor of Science degree in Civil Engineering, Mechanical Engineering, or Applied Computer Science (e.g. Computer Science and Media, Geoinformatics, Environmental Informatics) or a qualification recognised as academically relevant by the responsible examination committee.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must also submit a one-page letter of motivation in English and a self-written academic document.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "85",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 85",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

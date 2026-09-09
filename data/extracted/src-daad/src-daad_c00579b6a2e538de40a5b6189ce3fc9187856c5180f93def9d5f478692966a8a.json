@@ -1,0 +1,76 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c00579b6a2e538de40a5b6189ce3fc9187856c5180f93def9d5f478692966a8a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:50.240Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD-TEV-Master's degree scholarships **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Offered in cooperation with the Turkish education foundation Türk Egitim Vakfi, the scholarships give students the opportunity to improve their academic qualifications.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50016578",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50016578",
+      "sourceQuote": "Outstanding Turkish students from all disciplines with a Bachelor degree",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Turkey"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Outstanding Turkish students from all disciplines with a Bachelor degree",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Outstanding Turkish students from all disciplines with a Bachelor degree",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ALL_FIELDS"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Outstanding Turkish students from all disciplines with a Bachelor degree",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "To prepare for the stay in Germany, the DAAD pays for a language course before the start of the study visit (minimum duration 2 months); the DAAD decides whether and for how long it will fund a language course depending on German language skills and project.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

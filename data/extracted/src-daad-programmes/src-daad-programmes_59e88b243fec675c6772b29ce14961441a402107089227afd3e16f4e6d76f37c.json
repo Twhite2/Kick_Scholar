@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:59e88b243fec675c6772b29ce14961441a402107089227afd3e16f4e6d76f37c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:52.638Z",
+  "universities": [
+    {
+      "name": "Ansbach University of Applied Sciences",
+      "country": "DE",
+      "city": "Ansbach",
+      "website": "https://www.hs-ansbach.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7251/",
+      "sourceQuote": "Ansbach University of Applied Sciences • Ansbach"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ansbach University of Applied Sciences",
+      "universityWebsite": "https://www.hs-ansbach.de",
+      "name": "Applied Biotechnology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Applied Biotechnology",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7251/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7251/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A university degree or an equivalent degree with professional qualification is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The course has to be related in terms of subject-specific content to the Applied Biotechnology Master's programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "ÖSD Zertifikat",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "ÖSD Zertifikat: A2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "telc Deutsch: telc Deutsch A2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "Goethe-Zertifikat: Goethe-Zertifikat A2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

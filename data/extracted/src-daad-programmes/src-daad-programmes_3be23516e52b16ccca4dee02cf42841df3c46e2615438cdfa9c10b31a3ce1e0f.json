@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3be23516e52b16ccca4dee02cf42841df3c46e2615438cdfa9c10b31a3ce1e0f",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:54.769Z",
+  "universities": [
+    {
+      "name": "Reutlingen University",
+      "country": "DE",
+      "city": "Reutlingen",
+      "website": "https://www.reutlingen-university.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3775/",
+      "sourceQuote": "Reutlingen University • Reutlingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Reutlingen University",
+      "universityWebsite": "https://www.reutlingen-university.de/",
+      "name": "ESB Business School: Global Management and Digital Competencies (Master of Science) ESB: Global Management and Digital Competencies (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "ESB Business School: Global Management and Digital Competencies (Master of Science) ESB: Global Management and Digital Competencies (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3775/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3775/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For Brock University & UCSC: 15 June For DCU & NEOMA: 15 July (1 July for non-EU applicants)",
+          "intake": null,
+          "sourceQuote": "For Brock University & UCSC: 15 June For DCU & NEOMA: 15 July (1 July for non-EU applicants)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

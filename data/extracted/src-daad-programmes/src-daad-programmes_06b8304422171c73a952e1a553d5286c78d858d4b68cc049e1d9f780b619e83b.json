@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:06b8304422171c73a952e1a553d5286c78d858d4b68cc049e1d9f780b619e83b",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:38.498Z",
+  "universities": [
+    {
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "country": "DE",
+      "city": "Würzburg",
+      "website": "https://www.uni-wuerzburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4642/",
+      "sourceQuote": "Julius-Maximilians-Universität Würzburg • Würzburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Julius-Maximilians-Universität Würzburg",
+      "universityWebsite": "https://www.uni-wuerzburg.de",
+      "name": "Cell and Infection Biology, Master of Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Cell and Infection Biology, Master of Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4642/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4642/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

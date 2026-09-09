@@ -1,0 +1,53 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cbdbf04ae74f5009a44160b75a280c2539e94a54b0e8534ddd9cf7e228714569",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:43.699Z",
+  "universities": [
+    {
+      "name": "Leibniz University Hannover",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.uni-hannover.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3978/",
+      "sourceQuote": "Leibniz University Hannover • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leibniz University Hannover",
+      "universityWebsite": "https://www.uni-hannover.de/de/",
+      "name": "Master of Science Landscape Architecture",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science Landscape Architecture",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3978/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3978/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

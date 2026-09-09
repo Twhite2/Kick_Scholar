@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4d2f69c6dbe6d0ab0b116ccc5b96d6999efcbc0b1a5242bb4eab4dce0f470736",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:45.091Z",
+  "universities": [
+    {
+      "name": "Anhalt University of Applied Sciences",
+      "country": "DE",
+      "city": "Köthen / Anhalt",
+      "website": "https://www.hs-anhalt.de/startseite.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6900/",
+      "sourceQuote": "Anhalt University of Applied Sciences • Köthen / Anhalt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Anhalt University of Applied Sciences",
+      "universityWebsite": "https://www.hs-anhalt.de/startseite.html",
+      "name": "MSc Photovoltaics Engineering Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Photovoltaics Engineering Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6900/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6900/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "electrical engineering, electrical and information engineering, physics, engineering physics, materials science or similar subjects",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in **electrical engineering** , **electrical and information engineering, physics** , **engineering physics** , **materials science** or **similar subjects.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Other degrees can be accepted upon individual check.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "7 semesters",
+          "unit": "semesters",
+          "sourceQuote": "**A minimum of seven semesters or 210 ECTS credit points is required.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS credit points",
+          "sourceQuote": "**A minimum of seven semesters or 210 ECTS credit points is required.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": "German grading system",
+          "sourceQuote": "**The total grade of the Bachelor's degree must be at least 2.5 according to the German grading system**(conversion by the Bavarian formula — Bayerische Formel).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The university at which the Bachelor's degree was attained must be **rated H+ according to the anabin list** , and the programme should include a final thesis, in which the applicant shows that he/she is able to work according to scientific methodology and knows how to write a scientific paper.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

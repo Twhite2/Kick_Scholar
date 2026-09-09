@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:769a7216f91cb9b4506743a8fcb8adb8bdefe06ac046025ddb3a5c959175c006",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:32.004Z",
+  "universities": [
+    {
+      "name": "Kiel University of Applied Sciences",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.haw-kiel.de/startseite/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8285/",
+      "sourceQuote": "Kiel University of Applied Sciences • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University of Applied Sciences",
+      "universityWebsite": "https://www.haw-kiel.de/startseite/",
+      "name": "Data Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Data Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8285/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8285/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Access to the Data Science Master’s degree programme is granted to those who have completed a Bachelor’s degree programme with a grade of at least 2.5.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "ECTS",
+          "sourceQuote": "Applicants must also prove that they have earned 30 cumulative credit points (ECTS) in the subjects of Mathematics/Statistics and Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS",
+          "sourceQuote": "At least 10 credit points (according to ECTS) in the subject area of Mathematics/Statistics and at least 10 credit points (according to ECTS) in the subject area of Computer Science must be proven.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "LT",
+          "value": "210",
+          "unit": "credit points",
+          "sourceQuote": "If the previous course of study comprised less than 210 credit points but at least 180 credit points, the missing skills must be made up.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "65%",
+          "unit": null,
+          "sourceQuote": "a GRE with a minimum score of 65% in all parts of the test (Verbal Reasoning, Quantitative Reasoning and Analytical Writing)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:25363bfc5f9cb1aa50149d4db67b34a2769ff3fa16f32a3f485d1fc2920dce4e",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:19.505Z",
+  "universities": [
+    {
+      "name": "University of Oldenburg",
+      "country": "DE",
+      "city": "Oldenburg",
+      "website": "https://www.uol.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3773/",
+      "sourceQuote": "University of Oldenburg • Oldenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Oldenburg",
+      "universityWebsite": "https://www.uol.de",
+      "name": "Sustainable Renewable Energy Technologies (SuRE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Renewable Energy Technologies (SuRE)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3773/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3773/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

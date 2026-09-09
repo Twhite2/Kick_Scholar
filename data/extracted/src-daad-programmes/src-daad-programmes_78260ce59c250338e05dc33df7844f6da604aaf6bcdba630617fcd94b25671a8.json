@@ -1,0 +1,137 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:78260ce59c250338e05dc33df7844f6da604aaf6bcdba630617fcd94b25671a8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:27.821Z",
+  "universities": [
+    {
+      "name": "Bavarian University of Business and Technology (HDBW)",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.hdbw-hochschule.com/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8478/",
+      "sourceQuote": "Bavarian University of Business and Technology (HDBW) • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bavarian University of Business and Technology (HDBW)",
+      "universityWebsite": "https://www.hdbw-hochschule.com/",
+      "name": "Digital Factory and Operational Excellence — Master of Science in Industrial Engineering and Management Digital Factory & Operational Excellence",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Digital Factory and Operational Excellence — Master of Science in Industrial Engineering and Management Digital Factory & Operational Excellence",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4740,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8478/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8478/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Industrial Engineering",
+          "unit": null,
+          "sourceQuote": "* Industrial Engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Management / Business Studies with focus on Logistics or Supply Chain Management",
+          "unit": null,
+          "sourceQuote": "* Management / Business Studies with focus on Logistics or Supply Chain Management",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Production Management",
+          "unit": null,
+          "sourceQuote": "* Production Management",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Logistics Management",
+          "unit": null,
+          "sourceQuote": "* Logistics Management ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Business Informatics / Computer Science",
+          "unit": null,
+          "sourceQuote": "* Business Informatics / Computer Science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Mechanical Engineering or comparable subjects",
+          "unit": null,
+          "sourceQuote": "* Mechanical Engineering or comparable subjects",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* In case of a non-EU Bachelor's degree, a [Pre-Master](https://www.hdbw-hochschule.com/masters-degrees-munich/pre-master) is compulsory: one semester prep course for academic skills and German language and culture classes.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL Essentials",
+          "operator": "GTE",
+          "value": "8",
+          "unit": null,
+          "sourceQuote": "* TOEFL Essentials: 8",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fc03c2afb0e5bfc69d5d6d66e458c634d138e217464527097dc086f5680a5c77",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:09:50.002Z",
+  "universities": [
+    {
+      "name": "Catholic University of Eichstätt-Ingolstadt",
+      "country": "DE",
+      "city": "Ingolstadt",
+      "website": "https://www.ku.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7881/",
+      "sourceQuote": "Catholic University of Eichstätt-Ingolstadt • Ingolstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Catholic University of Eichstätt-Ingolstadt",
+      "universityWebsite": "https://www.ku.de/",
+      "name": "Hybrid, Part-Time MBA for Working Professionals",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Hybrid, Part-Time MBA for Working Professionals",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4400,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7881/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7881/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A level of competence of an internationally recognised **first academic degree (undergraduate degree) in any discipline** qualifying for admission to a profession or equivalent admission requirements (e.g. BSc | BA | BBA | BEd | BEng | LLB or equivalent)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "A **qualified professional experience of not less than two years** after completion of the first university course.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**3. Fluency in English (C1, for details, see below)**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**4. German language skills (A2, for details, see below)**",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications for the hybrid, part-time MBA are accepted on a rolling basis.",
+          "intake": null,
+          "sourceQuote": "Applications for the hybrid, part-time MBA are accepted on a rolling basis.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

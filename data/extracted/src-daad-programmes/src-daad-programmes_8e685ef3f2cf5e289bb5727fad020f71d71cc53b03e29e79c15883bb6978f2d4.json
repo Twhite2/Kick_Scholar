@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8e685ef3f2cf5e289bb5727fad020f71d71cc53b03e29e79c15883bb6978f2d4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:20.201Z",
+  "universities": [
+    {
+      "name": "TU Bergakademie Freiberg",
+      "country": "DE",
+      "city": "Freiberg",
+      "website": "https://tu-freiberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5349/",
+      "sourceQuote": "TU Bergakademie Freiberg • Freiberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "TU Bergakademie Freiberg",
+      "universityWebsite": "https://tu-freiberg.de/",
+      "name": "EMerald – Master’s Programme in Georesources Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "EMerald – Master’s Programme in Georesources Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5349/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5349/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "a Bachelor's degree in engineering with basic knowledge in geology (minimum three years of study or 180 ECTS credits), a Bachelor's degree in minerals engineering, mining engineering, chemical engineering, geological engineering, metallurgical engineering, or a Master's degree in geology",
+          "unit": null,
+          "sourceQuote": "Eligible candidates must have **a Bachelor's degree in engineering** with basic knowledge in geology (minimum three years of study or 180 ECTS credits), or a **Bachelor's degree in minerals engineering, mining engineering, chemical engineering, geological engineering, metallurgical engineering** or **a****Master's degree in geology.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "22.5",
+          "unit": "ECTS in mathematics at university level",
+          "sourceQuote": "At least **22.5 ECTS in mathematics** at university level are also required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "87",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 87",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

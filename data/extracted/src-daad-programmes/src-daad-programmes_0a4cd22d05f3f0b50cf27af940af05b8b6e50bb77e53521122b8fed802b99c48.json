@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0a4cd22d05f3f0b50cf27af940af05b8b6e50bb77e53521122b8fed802b99c48",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:06.614Z",
+  "universities": [
+    {
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "country": "DE",
+      "city": "Sankt Augustin",
+      "website": "https://www.h-brs.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4469/",
+      "sourceQuote": "Hochschule Bonn-Rhein-Sieg • Sankt Augustin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Bonn-Rhein-Sieg",
+      "universityWebsite": "https://www.h-brs.de",
+      "name": "Social Protection (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Social Protection (MSc)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4469/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4469/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree from a relevant academic field such as economics, political sciences, sociology, international relations, business administration, health sciences, public policy, law administration, health, education, social science, psychology and international relations/development as well as other subjects, insofar as the contents relating to the subject area of ​​social protection encompass a minimum of 15 credits in accordance with the European Credit Transfer System (ECTS).",
+          "unit": null,
+          "sourceQuote": "having acquired at least a **Bachelor's degree** from a relevant academic field such as economics, political sciences, sociology, international relations, business administration, health sciences, public policy, law administration, health, education, social science, psychology and international relations/development as well as other subjects, insofar as the contents relating to the subject area of ​​social protection encompass a minimum of 15 credits in accordance with the European Credit Transfer System (ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "five",
+          "unit": "months",
+          "sourceQuote": "at least **five months of practical experience** in a field related to social protection (unpaid internships and volunteer experience are accepted).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English proficiency",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**English proficiency at level C1**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants will also have to submit and successfully pass a **research proposal** on a social protection topic.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Interested applicants for the DAAD Helmut Schmidt Scholarship can apply via Apollo from 1 June to 31 July, the year before their studies begin.",
+          "intake": null,
+          "sourceQuote": "Interested applicants for the DAAD Helmut Schmidt Scholarship can apply via Apollo from 1 June to 31 July, the year before their studies begin.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

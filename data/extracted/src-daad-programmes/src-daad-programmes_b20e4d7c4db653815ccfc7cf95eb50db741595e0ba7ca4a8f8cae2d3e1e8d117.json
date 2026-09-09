@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b20e4d7c4db653815ccfc7cf95eb50db741595e0ba7ca4a8f8cae2d3e1e8d117",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:42.776Z",
+  "universities": [
+    {
+      "name": "Trier University of Applied Sciences",
+      "country": "DE",
+      "city": "Trier",
+      "website": "https://www.hochschule-trier.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8524/",
+      "sourceQuote": "Trier University of Applied Sciences • Trier"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Trier University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-trier.de",
+      "name": "Interdisciplinary Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Interdisciplinary Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8524/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8524/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "The Master's programme \"Interdisciplinary Engineering\" is open to applicants who prove a first professional university degree with an overall mark of usually at least 2.5.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The subject orientation of the first university degree must contain essential contents of a degree programme in electrical engineering, mechanical engineering, automotive engineering, technical building services, industrial engineering or medical engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "All relevant information regarding application details and deadlines can be found here: <https://www.hochschule-trier.de/hauptcampus/studium/bewerbung-zulassung/informationen>.",
+          "intake": null,
+          "sourceQuote": "All relevant information regarding application details and deadlines can be found here: <https://www.hochschule-trier.de/hauptcampus/studium/bewerbung-zulassung/informationen>.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5e93bcfc8a0b5d7506fc411f3d420cfd9152c6adb4b69859e8acf2c57f17d336",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:09:12.094Z",
+  "universities": [
+    {
+      "name": "University of Siegen",
+      "country": "DE",
+      "city": "Siegen",
+      "website": "https://www.uni-siegen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7927/",
+      "sourceQuote": "University of Siegen • Siegen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Siegen",
+      "universityWebsite": "https://www.uni-siegen.de",
+      "name": "Electrical Engineering (Electronics Design / Communication Engineering / Automation) Electrical Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Engineering (Electronics Design / Communication Engineering / Automation) Electrical Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7927/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7927/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "We expect our applicants to have a good Bachelor’s degree equivalent to University of Siegen's Bachelor's degree in Electrical Engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "This could be a degree in Electronics Engineering, Electrical Engineering, Communication/Telecommunication Engineering, Computer Science/Engineering, Instrumentation/Control Engineering, Engineering Physics or Mechatronics covering at least six semesters.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The equivalent Bachelor's degree must have taught skills in the following areas to the specified minimum credit points: mathematical foundations (20 CP), scientific basics (15 CP), basics of electrical engineering and measurement technology (20 CP), theoretical electrical engineering (field theory, signal and system theory – 10 CP) project work (including Bachelor's thesis – 10 CP).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For admission to “Communications Technology\", students should have studied a minimum of 20 CP in their Bachelor's covering theory and practice in the fields of \"Communications Engineering\", \"Optical Communications Engineering\", \"High Frequency Technology\", \"Electromagnetic Field Theory\" and \"Signal and Systems Theory\".",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Similarly, for \"Electronics Design and Technology\", they should have studied 20 CP worth of \"Semiconductor and Circuit Technology\", \"Semiconductor Physics\", \"Power Electronics\" and \"High Frequency Technology\" or equivalent courses.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Similarly, for \"Automation Technology\", they should have studied 20 CP worth of \"Control Technology\", \"Automation Technology\" and \"Power Electronics and Drive Technology\" or equivalent courses.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "87",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 87",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

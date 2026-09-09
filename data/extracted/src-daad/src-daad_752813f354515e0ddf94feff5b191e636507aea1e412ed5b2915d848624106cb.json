@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:752813f354515e0ddf94feff5b191e636507aea1e412ed5b2915d848624106cb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:04.306Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Herzog August Bibliothek: Doctoral Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The fellowships are aimed at particularly qualified junior academics and researchers from all areas of historical study, planning to focus their research on the Herzog August Library during the stay. Junior postgraduate students from Germany and abroad are eligible for application, if the library's holdings are essential for their research and they have demonstrated outstanding competence in the field of academic or scientific work. The collection of books and manuscripts of Duke Augustus the Younger, together with numerous other collections, form the nucleus of the Wolfenbüttel research library. In the context of ongoing international research into the medieval and early modern periods the holdings are continuously augmented. The foundation awards fellowships which are worth 1,300 EUR per month for a period of 2 to 10 months to visiting scholars. Rent is to be paid from the scholarship funds. Moreover, the grants include an allowance for material expenses of 100 EUR per month. PhD students who already receive a fellowship (e.g. as part of a graduate school) or who are employed can apply for a rent subsidy (550 EUR). Former holders of fellowships from the foundations can apply for further financial support. The Footnote Fund supports scholars who are either at the final stage of their doctorate or are working on the revision for the publication and wish to return to the library for a short stay – for example, should they need to review or add further source material. The fell…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000144",
+      "deadlineText": "1 April and 1 October of each year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000144",
+      "sourceQuote": "particularly qualified junior academics and researchers from all areas of historical study from Germany and abroad, whose research is centred on the Herzog August Library during the stay",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "historical study"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The fellowships are aimed at particularly qualified junior academics and researchers from all areas of historical study, planning to focus their research on the Herzog August Library during the stay.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "abroad"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Junior postgraduate students from Germany and abroad are eligible for application, if the library's holdings are essential for their research and they have demonstrated outstanding competence in the field of academic or scientific work.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "library holdings essential for research",
+          "sourceQuote": "Junior postgraduate students from Germany and abroad are eligible for application, if the library's holdings are essential for their research and they have demonstrated outstanding competence in the field of academic or scientific work.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Junior postgraduate students from Germany and abroad are eligible for application, if the library's holdings are essential for their research and they have demonstrated outstanding competence in the field of academic or scientific work.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "doctoral candidates from an area of historical study",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "doctoral candidates from an area of historical study",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:d2c5af189443b1bcc33ace658edf5afca7708b3fa63a8dabb5ff6cbfeee90288",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:59.070Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Important Information **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Applicants from a country of origin that is not politically independent should apply for the country to which their country of origin is politically affiliated. Please indicate this in one of the free text fields in the application form. ![](https://www2.daad.de/bundles/daadimperia/pics/question-big.svg) Do you have any questions about DAAD scholarships? You will find the answers [here](https://www.daad.de/en/study-and-research-in-germany/scholarships/important-information-for-scholarship-applicants/)! Please also take note of our [important scholarship information](https://www.daad.de/en/study-and-research-in-germany/scholarships/important-information-for-scholarship-applicants/).",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000381",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000381",
+      "sourceQuote": "Applicants from a country of origin that is not politically independent should apply for the country to which their country of origin is politically affiliated. Please indicate this in one of the free text fields in the application form. ![](https://www2.daad.de/bundles/daadimperia/pics/question-big.svg) Do you have any questions about DAAD scholarships? You will find the answers [here](https://ww…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Applicants from a country of origin that is not politically independent"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants from a country of origin that is not politically independent should apply for the country to which their country of origin is politically affiliated.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

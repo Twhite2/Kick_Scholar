@@ -1,0 +1,98 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:2e2a85a475da749b9104c0f366db63ec9768a05085551ec45d272a37b5a6c3bd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:55.692Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Federal Environmental Foundation (DBU): PhD Scholarship Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The DBU scholarship programme for PhD students aims to support young academics in the field of applied environmental sciences and build an interdisciplinary network of experts on the environment. To this end, the scholarships help finance doctoral theses which clearly address topical environmental protection and nature conservation issues and contribute to developing viable and sustainable solutions in this field.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000127",
+      "deadlineText": "Application deadlines are 15 January and 15 June of each year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000127",
+      "sourceQuote": "highly qualified junior researchers carrying out doctoral theses which clearly address relevant environmental protection or nature conservation issues and whose work contributes to developing solutions for these challenges. Topics with international relevance are welcome, but the work must be carried out predominantly in Germany and there must be a clear reference to the environmental situation in…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The DBU scholarship programme for PhD students aims to support young academics in the field of applied environmental sciences and build an interdisciplinary network of experts on the environment.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "applied environmental sciences",
+          "sourceQuote": "The DBU scholarship programme for PhD students aims to support young academics in the field of applied environmental sciences and build an interdisciplinary network of experts on the environment.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "doctoral theses which clearly address relevant environmental protection or nature conservation issues and whose work contributes to developing solutions for these challenges",
+          "sourceQuote": "highly qualified junior researchers carrying out doctoral theses which clearly address relevant environmental protection or nature conservation issues and whose work contributes to developing solutions for these challenges.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "The doctoral studies will take place at a German university and have not yet started.",
+          "sourceQuote": "The doctoral studies will take place at a German university and have not yet started.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "academics qualified for doctoral studies and with an above-average degree (overall grade at least good or very good; law: at least fully satisfactory)",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The doctoral studies will take place at a German university and have not yet started.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

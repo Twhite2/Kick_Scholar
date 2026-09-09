@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1886553bfb8c19819e30cdfd4e7f0e1c115e3009318bd79dba420fa7914b01f7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:25.113Z",
+  "universities": [
+    {
+      "name": "HHL Leipzig Graduate School of Management",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.hhl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4260/",
+      "sourceQuote": "HHL Leipzig Graduate School of Management • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HHL Leipzig Graduate School of Management",
+      "universityWebsite": "https://www.hhl.de",
+      "name": "Part-Time Master’s in Management (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Part-Time Master’s in Management (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 9500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4260/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4260/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's in business administration or an equivalent field of study",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree (Bachelor's) in business administration or an equivalent field of study and a minimum of three months of work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "months",
+          "sourceQuote": "Applicants must have a first academic degree (Bachelor's) in business administration or an equivalent field of study and a minimum of three months of work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A GMAT is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "HHL entry test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Alternatively, the GMAT can be substituted by taking the HHL entry test.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

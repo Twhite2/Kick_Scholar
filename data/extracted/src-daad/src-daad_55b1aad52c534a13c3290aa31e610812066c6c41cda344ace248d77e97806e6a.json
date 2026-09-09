@@ -1,0 +1,126 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:55b1aad52c534a13c3290aa31e610812066c6c41cda344ace248d77e97806e6a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:47.236Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD-Short-term scholarships for master's degree students **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The aim of the scholarship is to enable Chinese students to become acquainted with the German university and research landscape and help them establish contact to potential supervisors for subsequent doctoral degrees.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50017039",
+      "deadlineText": "**2 April 2026** You can apply from 3 February 2026 onwards.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50017039",
+      "sourceQuote": "Chinese graduates from all disciplines are eligible to apply.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "China"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Chinese graduates from all disciplines are eligible to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Enrolment in a full-time Master degree course.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Completed second semester of Master degree before scholarship starts",
+          "sourceQuote": "Before the scholarship starts, applicants must have completed the second semester of their Master degree course.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Bachelor degree from a Chinese university",
+          "sourceQuote": "Applicants must be able to prove they have completed a Bachelor degree at a Chinese university (xueshi).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 6,
+          "textValue": "Graduation should generally be no longer than six years before application",
+          "sourceQuote": "As a rule, applicants should not have graduated any longer than six years before the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Recommendation letter from Chinese professor and confirmation of academic supervision in Germany",
+          "sourceQuote": "Application documents must be accompanied by a recommendation letter from the Chinese professor and written confirmation that the applicant has academic supervision in Germany with explicit reference to the applicant's planned undertaking.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Convincing work and study plan coordinated with an academic advisor at the host institute in Germany",
+          "sourceQuote": "Apart from previous academic achievements, the most important selection criterion is a convincing work and study plan for the visit to Germany, which has been coordinated with an academic advisor at the chosen host institute in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants already in Germany are not eligible",
+          "sourceQuote": "Applicants who are already in Germany cannot be considered.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Mandatory period in Germany as part of Master degree or year-long exchange at German partner university are not eligible",
+          "sourceQuote": "Students who have spent a mandatory period in Germany as part of their Master degree programme (e.g. double degree programmes) or who take part in an exchange programme at a German partner university for a year are also not eligible for funding.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The applicant is required to be sufficiently proficient in German or English to be able carry out his/her project.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

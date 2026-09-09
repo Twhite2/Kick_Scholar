@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1609c08d68ff63ec660bdb6a40b3450ce198d731cb56107f27f4ce8b1c3c4d03",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:56:48.540Z",
+  "universities": [
+    {
+      "name": "University of Bayreuth",
+      "country": "DE",
+      "city": "Bayreuth",
+      "website": "https://www.uni-bayreuth.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5246/",
+      "sourceQuote": "University of Bayreuth • Bayreuth"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bayreuth",
+      "universityWebsite": "https://www.uni-bayreuth.de/",
+      "name": "Geography of Environmental Transformation",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Geography of Environmental Transformation",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5246/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5246/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "  * Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "  * UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "We welcome applications from graduates who are interested in exploring the patterns and processes of environmental change, who have a strong commitment to physical geography and who are motivated to undertake rigorous training.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

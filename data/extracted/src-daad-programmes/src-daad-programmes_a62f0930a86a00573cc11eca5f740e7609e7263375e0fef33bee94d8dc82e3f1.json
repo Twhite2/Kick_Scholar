@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a62f0930a86a00573cc11eca5f740e7609e7263375e0fef33bee94d8dc82e3f1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:36.583Z",
+  "universities": [
+    {
+      "name": "Offenburg University of Applied Sciences",
+      "country": "DE",
+      "city": "Offenburg",
+      "website": "https://www.hs-offenburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4030/",
+      "sourceQuote": "Offenburg University of Applied Sciences • Offenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Offenburg University of Applied Sciences",
+      "universityWebsite": "https://www.hs-offenburg.de/",
+      "name": "Master of Science in Process Engineering (MPE) MSc in Process Engineering (MPE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Process Engineering (MPE) MSc in Process Engineering (MPE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4030/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4030/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A first, job-qualifying degree of at least three and a half years of study, such as a Bachelor of Science or Bachelor of Engineering, is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic excellence: You should be among the top-third of graduates from your institution.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "APS (only for applicants from India, China and Vietnam)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Willingness to integrate into an international environment in which different cultures, ideas, perspectives, and approaches will be encountered",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "31 March for non-EU residents",
+          "intake": null,
+          "sourceQuote": "31 March for non-EU residents",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

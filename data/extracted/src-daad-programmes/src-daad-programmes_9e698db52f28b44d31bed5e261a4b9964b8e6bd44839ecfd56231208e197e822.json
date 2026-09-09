@@ -1,0 +1,98 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9e698db52f28b44d31bed5e261a4b9964b8e6bd44839ecfd56231208e197e822",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:08:12.588Z",
+  "universities": [
+    {
+      "name": "Marburg University",
+      "country": "DE",
+      "city": "Marburg",
+      "website": "https://www.uni-marburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5255/",
+      "sourceQuote": "Marburg University • Marburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Marburg University",
+      "universityWebsite": "https://www.uni-marburg.de",
+      "name": "International Business Management (Double Degree, MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Business Management (Double Degree, MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5255/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5255/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "subject-relevant Bachelor's programme in \"Economics\" or a comparable domestic or foreign qualifying university diploma",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include certification of a degree from a subject-relevant Bachelor's programme in \"Economics\" or a comparable domestic or foreign qualifying university diploma.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "CP",
+          "sourceQuote": "At least 60 credit points (CP) must have been earned in economics subjects in the completed degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "credits",
+          "sourceQuote": "Students must also be able to demonstrate methodological expertise in the form of at least 10 credits in mathematics, statistics, operations research, econometrics, or empirical research in economics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "<https://www.uni-marburg.de/en/studying/after-your-first-degree/masters-programs/application-for-a-masters-programme/master-application-deadlines>",
+          "intake": null,
+          "sourceQuote": "<https://www.uni-marburg.de/en/studying/after-your-first-degree/masters-programs/application-for-a-masters-programme/master-application-deadlines>",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

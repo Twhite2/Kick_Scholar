@@ -1,0 +1,129 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:a3dc7870fb3ea2621785f213707070a522d6bd5e610fbca052aa258601bb081c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:32.832Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Heinrich Böll Foundation: PhD scholarship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Heinrich Böll Foundation is the Green political foundation. Every year, under the heading \"promoting talent\", the foundation supports around 1,450 students and 200 doctoral students from all academic backgrounds and types of higher educational institutions in Germany and abroad. Each year, up to 250 new scholarship recipients join the programme. They are prepared to take responsibility and advocate the green foundation's ideals in an international context: the concepts of democracy, ecology, solidarity and nonviolence. Beyond the financial support, the programme offers non-material support such as yearly PhD scholar forum and workshops, which aim at fostering personal growth, promoting interdisciplinary qualification as well as key skills development.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000113",
+      "deadlineText": "1 March and 1 September of each year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000113",
+      "sourceQuote": "particularly gifted German and international doctoral candidates from any discipline completing promising doctoral dissertations at a German higher education institution showing excellent promise for future academic and professional careers. Moreover, applicants show civic engagement in line with the values of green policy.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "particularly gifted German and international doctoral candidates from any discipline completing promising doctoral dissertations at a German higher education institution showing excellent promise for future academic and professional careers.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "German",
+            "international"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "particularly gifted German and international doctoral candidates from any discipline completing promising doctoral dissertations at a German higher education institution showing excellent promise for future academic and professional careers.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "any discipline"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "particularly gifted German and international doctoral candidates from any discipline completing promising doctoral dissertations at a German higher education institution showing excellent promise for future academic and professional careers.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Moreover, applicants show civic engagement in line with the values of green policy.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised institution of higher education in Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "admission to post-graduate studies at a state or state-recognised institution of higher education in Germany; initial preparatory work for the doctoral project must be completed.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "another EU country"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German doctoral candidates and international students who qualify as a so-called \"Bildungsinländer\" can also do a doctorate in another EU country.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "admission to post-graduate studies at a state or state-recognised institution of higher education in Germany; initial preparatory work for the doctoral project must be completed.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "German doctoral candidates and international students who qualify as a so-called \"Bildungsinländer\" can also do a doctorate in another EU country.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

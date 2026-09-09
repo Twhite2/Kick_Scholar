@@ -1,0 +1,145 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9929959e64191ca68b11725bb3aa59b285c9e7707a503577d1144ab2d7373094",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:59.186Z",
+  "universities": [
+    {
+      "name": "HWR Berlin (Berlin School of Economics and Law)",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hwr-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5515/",
+      "sourceQuote": "HWR Berlin (Berlin School of Economics and Law) • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HWR Berlin (Berlin School of Economics and Law)",
+      "universityWebsite": "https://www.hwr-berlin.de",
+      "name": "Political Economy of European Integration",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Political Economy of European Integration",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5515/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5515/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's or equivalent degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Evidence of having completed undergraduate courses in Macroeconomics, Political or Social Science (or comparable courses), and/or European Studies",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "credit points",
+          "sourceQuote": "At least 210 credit points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation and CV in English",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "year",
+          "sourceQuote": "In addition, if applicable: proof of professional experience in the field of study for at least one year",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 83",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "IN_LIST",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "67",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 67",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application period for students with a **non-German Bachelor’s degree:**",
+          "intake": null,
+          "sourceQuote": "The application period for students with a **non-German Bachelor’s degree:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9921bc3d3ff3e11855f746cb1a093f3127d6fb30df7478109cc01a48d71935c9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:58.581Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8286/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Biblical Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Biblical Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8286/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8286/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Protestant Theology, Roman Catholic Theology, Old Catholic Theology, Religion Studies or a similar programme",
+          "unit": null,
+          "sourceQuote": "The Biblical Studies consecutive Master’s programme is aimed at applicants who have a first university degree in Protestant Theology, Roman Catholic Theology, Old Catholic Theology, Religion Studies or a similar programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "240",
+          "unit": "ECTS",
+          "sourceQuote": "Students need to have acquired **at least 240 ECTS** in their first academic degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of having already worked on biblical source texts in the original languages (to the extent of one course respectively) and sufficient knowledge of Hebrew and Greek is to be provided.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "International applicants who are not considered as equivalent to German citizens by or on the basis of international treaties and who do not have a German university entrance qualification must pass the examination to determine their ability to study (Appendix 3, Examination Regulations).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Early Bird Application Period: 1 October - 30 October and 1 December - 31 December Regular Application Period: 1 January - 1 July",
+          "intake": null,
+          "sourceQuote": "Early Bird Application Period: 1 October - 30 October and 1 December - 31 December Regular Application Period: 1 January - 1 July",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

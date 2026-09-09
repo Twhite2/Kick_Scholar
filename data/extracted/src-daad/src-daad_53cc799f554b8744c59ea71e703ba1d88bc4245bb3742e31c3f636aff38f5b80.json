@@ -1,0 +1,76 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:53cc799f554b8744c59ea71e703ba1d88bc4245bb3742e31c3f636aff38f5b80",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:12.755Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Alfried Krupp Wissenschaftskolleg Greifswald: Alfried Krupp Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Alfried Krupp Wissenschaftskolleg Greifswald is awarding up to 6 Alfried Krupp Senior Fellowships and up to 8 Alfried Krupp Junior Fellowships for the academic year 2026/27. The Alfried Krupp Wissenschaftskolleg Greifswald is an independent academic institution in the centre of the traditional university and Hanseatic city near the Baltic Sea. The Alfried Krupp von Bohlen und Halbach Foundation founded the Kolleg in 2002 together with the state of Mecklenburg-Vorpommern and the University of Greifswald in order to strengthen the excellence of the university. The Alfried Krupp Fellows Programme, which is at the heart of the Kolleg's work, was established in 2007 and has since been carried out with the generous support of the Alfried Krupp von Bohlen und Halbach Foundation. It enables the fellows to concentrate on a major scientific project independently of teaching commitments and administrative tasks. In the academic year 2026/27, the Alfried Krupp Wissenschaftskolleg Greifswald will focus on the following interdisciplinary topic: **Interdisciplinary research into the Baltic Sea region - from culture to ecology** Researchers from all disciplines working in these subject areas are particularly invited to apply. Applications from other research areas of all disciplines are also very welcome and will be assessed according to their quality and networking with the University of Greifswald.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000652",
+      "deadlineText": "Current deadline are published on the programme's website. If you do not want to miss the annual start of the application period, please register for the Fellowship News on the website.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000652",
+      "sourceQuote": "Outstanding academic personalities with a proven track record in research and teaching can apply for an Alfried Krupp Senior Fellowship. The Alfried Krupp Junior Fellowships are awarded to particularly qualified young researchers with a doctorate.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Alfried Krupp Junior Fellowships are awarded to particularly qualified young researchers with a doctorate.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Outstanding academic personalities with a proven track record in research and teaching",
+          "sourceQuote": "Outstanding academic personalities with a proven track record in research and teaching can apply for an Alfried Krupp Senior Fellowship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "Interdisciplinary research into the Baltic Sea region - from culture to ecology",
+          "sourceQuote": "In the academic year 2026/27, the Alfried Krupp Wissenschaftskolleg Greifswald will focus on the following interdisciplinary topic: **Interdisciplinary research into the Baltic Sea region - from culture to ecology**",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The Alfried Krupp Wissenschaftskolleg Greifswald is an independent academic institution in the centre of the traditional university and Hanseatic city near the Baltic Sea.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

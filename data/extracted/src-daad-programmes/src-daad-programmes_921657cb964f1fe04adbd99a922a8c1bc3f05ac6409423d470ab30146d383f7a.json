@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:921657cb964f1fe04adbd99a922a8c1bc3f05ac6409423d470ab30146d383f7a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:08:35.160Z",
+  "universities": [
+    {
+      "name": "Ansbach University of Applied Sciences",
+      "country": "DE",
+      "city": "Feuchtwangen",
+      "website": "https://www.hs-ansbach.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7252/",
+      "sourceQuote": "Ansbach University of Applied Sciences • Feuchtwangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ansbach University of Applied Sciences",
+      "universityWebsite": "https://www.hs-ansbach.de",
+      "name": "Smart Energy Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Smart Energy Systems",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7252/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7252/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A successfully completed university degree in a relevant course of study or an equivalent domestic or foreign degree with an overall examination grade of at least 2.3, the scope of which generally comprises 210 ECTS points, but at least 180 ECTS points, is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, a letter of motivation (200 to 500 words in English or German) is needed.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

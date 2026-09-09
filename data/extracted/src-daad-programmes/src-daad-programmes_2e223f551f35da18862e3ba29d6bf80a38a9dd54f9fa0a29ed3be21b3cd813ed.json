@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2e223f551f35da18862e3ba29d6bf80a38a9dd54f9fa0a29ed3be21b3cd813ed",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:58.799Z",
+  "universities": [
+    {
+      "name": "RPTU University Kaiserslautern-Landau",
+      "country": "DE",
+      "city": "Kaiserslautern",
+      "website": "https://rptu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4486/",
+      "sourceQuote": "RPTU University Kaiserslautern-Landau • Kaiserslautern"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RPTU University Kaiserslautern-Landau",
+      "universityWebsite": "https://rptu.de/",
+      "name": "Master of Science in Cognitive Science MSc Cognitive Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Cognitive Science MSc Cognitive Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4486/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4486/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:59b67db25397baf8f10c01dbbed09b15f7da718ab67051bcaeac081ddc8e3d09",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:23.497Z",
+  "universities": [
+    {
+      "name": "Trier University of Applied Sciences",
+      "country": "DE",
+      "city": "Hoppstädten-Weiersbach",
+      "website": "https://www.hochschule-trier.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4705/",
+      "sourceQuote": "Trier University of Applied Sciences • Hoppstädten-Weiersbach"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Trier University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-trier.de",
+      "name": "Sustainable Business and Technology",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Sustainable Business and Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4705/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4705/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* **Higher Education Entrance Qualification** for Germany or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English Language Proficiency",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "* **English Language Proficiency (B2 is required)**",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

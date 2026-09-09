@@ -1,0 +1,43 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:4113d9d3c076235063f815e73b97856801d3e290e3b8c1afd9094766a6e1580e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:26.558Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Programme d'Etudes en Allemagne (PEA) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Training the German and English language and area studies",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015217",
+      "deadlineText": "17th March The application procedure occurs online through the DAAD portal.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015217",
+      "sourceQuote": "French students after the first year of the Licence",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "France"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "French students after the first year of the Licence",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

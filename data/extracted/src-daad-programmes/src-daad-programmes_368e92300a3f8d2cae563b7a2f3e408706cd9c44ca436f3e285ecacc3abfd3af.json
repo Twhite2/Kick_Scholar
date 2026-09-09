@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:368e92300a3f8d2cae563b7a2f3e408706cd9c44ca436f3e285ecacc3abfd3af",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:15.487Z",
+  "universities": [
+    {
+      "name": "Bremen University of Applied Sciences",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.hs-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7700/",
+      "sourceQuote": "Bremen University of Applied Sciences • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bremen University of Applied Sciences",
+      "universityWebsite": "https://www.hs-bremen.de/",
+      "name": "Master of Engineering in Aeronautical Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Engineering in Aeronautical Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4900,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7700/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7700/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Aviation-related first engineering degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "One year of post-graduate work experience (as a pilot, in aircraft maintenance or in the aviation industry)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A high level of English proficiency",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For application deadline, please check the [website](https://www.graduatecenter.org/en/mba-master/master-aeronautical-management.html).",
+          "intake": null,
+          "sourceQuote": "For application deadline, please check the [website](https://www.graduatecenter.org/en/mba-master/master-aeronautical-management.html).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

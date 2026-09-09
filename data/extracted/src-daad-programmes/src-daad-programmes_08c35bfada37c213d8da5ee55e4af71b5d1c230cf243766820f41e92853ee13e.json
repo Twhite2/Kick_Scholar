@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:08c35bfada37c213d8da5ee55e4af71b5d1c230cf243766820f41e92853ee13e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:20:24.352Z",
+  "universities": [
+    {
+      "name": "University of Duisburg-Essen",
+      "country": "DE",
+      "city": "Duisburg",
+      "website": "https://www.uni-due.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6249/",
+      "sourceQuote": "University of Duisburg-Essen • Duisburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Duisburg-Essen",
+      "universityWebsite": "https://www.uni-due.de/",
+      "name": "Computational Mechanics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computational Mechanics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6249/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6249/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in an appropriate subject area, with adequate length of studies and with an average mark of at least 3.0 issued in Germany or a foreign equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "IN_LIST",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "IN_LIST",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,52 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fea20d7b90c20471f8752813b7913b1983fde635e1e7f1c6a8a1f60155f270d2",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:02.623Z",
+  "universities": [
+    {
+      "name": "FH Münster University of Applied Sciences",
+      "country": "DE",
+      "city": "Münster",
+      "website": "https://www.fh-muenster.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3911/",
+      "sourceQuote": "FH Münster University of Applied Sciences • Münster"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FH Münster University of Applied Sciences",
+      "universityWebsite": "https://www.fh-muenster.de",
+      "name": "International Business & Management – Track: German-Latin American Studies of Business Administration (CALA) German-Latin American Studies of Business Administration (CALA)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business & Management – Track: German-Latin American Studies of Business Administration (CALA) German-Latin American Studies of Business Administration (CALA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3911/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3911/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

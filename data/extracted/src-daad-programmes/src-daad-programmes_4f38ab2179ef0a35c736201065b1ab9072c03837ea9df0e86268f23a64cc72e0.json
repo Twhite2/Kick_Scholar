@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4f38ab2179ef0a35c736201065b1ab9072c03837ea9df0e86268f23a64cc72e0",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:36.622Z",
+  "universities": [
+    {
+      "name": "RPTU University Kaiserslautern-Landau",
+      "country": "DE",
+      "city": "Kaiserslautern",
+      "website": "https://rptu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4804/",
+      "sourceQuote": "RPTU University Kaiserslautern-Landau • Kaiserslautern"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RPTU University Kaiserslautern-Landau",
+      "universityWebsite": "https://rptu.de/",
+      "name": "Master's in Biology — Specialisation in Molecular and Medical Neuroscience (Neuro) Master's in Biology — Neuroscience (Neuro)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Biology — Specialisation in Molecular and Medical Neuroscience (Neuro) Master's in Biology — Neuroscience (Neuro)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4804/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4804/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application deadlines for foreign Master students holding no German visa: 31 October for the summer semester of the following year, 30 April for the winter semester of the same year",
+          "intake": null,
+          "sourceQuote": "Application deadlines for foreign Master students holding no German visa: 31 October for the summer semester of the following year, 30 April for the winter semester of the same year",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

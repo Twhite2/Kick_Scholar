@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:da36ccd9b2b61daa08086a3ba5f7ecc864c89d859baeb627aabd69c5ca374db7",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:31.921Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3713/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "Communication & Information Technology, MSc (CIT)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Communication & Information Technology, MSc (CIT)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3713/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3713/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

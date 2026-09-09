@@ -1,0 +1,89 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:22499bf73408d129d1c018af25b53d41792181cb315c27c3c702f4b02443c9d2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:20.484Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3890/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master of Arts (MA) in Interdisciplinary Latin American Studies Master of Arts in Interdisciplinary Latin American Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts (MA) in Interdisciplinary Latin American Studies Master of Arts in Interdisciplinary Latin American Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3890/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3890/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A **degree (Bachelor's)** in a relevant discipline from a German university or an overseas qualification of an equivalent standard, with at least **60 credit units (LP/ ECTS)** completed in **one** of the following subjects:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "credit units (LP/ ECTS)",
+          "sourceQuote": "A **degree (Bachelor's)** in a relevant discipline from a German university or an overseas qualification of an equivalent standard, with at least **60 credit units (LP/ ECTS)** completed in **one** of the following subjects:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "40",
+          "unit": "credit points (CP/ECTS)",
+          "sourceQuote": "If these credit points are distributed across several of the aforementioned subjects, there must be a study component of **at least 40 credit points (CP/ECTS) in one of the aforementioned subjects**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please find the deadlines for the **winter semester 2026/2027** here: <https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html>",
+          "intake": null,
+          "sourceQuote": "Please find the deadlines for the **winter semester 2026/2027** here: <https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html>",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

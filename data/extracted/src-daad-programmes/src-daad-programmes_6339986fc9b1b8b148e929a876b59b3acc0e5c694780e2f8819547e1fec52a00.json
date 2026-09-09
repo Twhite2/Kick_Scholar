@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6339986fc9b1b8b148e929a876b59b3acc0e5c694780e2f8819547e1fec52a00",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:03.067Z",
+  "universities": [
+    {
+      "name": "Anhalt University of Applied Sciences",
+      "country": "DE",
+      "city": "Bernburg / Saale",
+      "website": "https://www.hs-anhalt.de/startseite.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4199/",
+      "sourceQuote": "Anhalt University of Applied Sciences • Bernburg / Saale"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Anhalt University of Applied Sciences",
+      "universityWebsite": "https://www.hs-anhalt.de/startseite.html",
+      "name": "Master of Landscape Architecture (MLA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Landscape Architecture (MLA)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 850,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4199/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4199/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

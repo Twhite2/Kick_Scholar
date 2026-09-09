@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fc0f9008c78dfd0968384ec077b4d333641d7cb49b0178c65820afee8f67eeec",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:09.081Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Meteorology",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.mpimet.mpg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6241/",
+      "sourceQuote": "Max Planck Institute for Meteorology • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Meteorology",
+      "universityWebsite": "https://www.mpimet.mpg.de",
+      "name": "International Max Planck Research School on Earth System Modelling (IMPRS-ESM) Earth System Modelling (IMPRS-ESM)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School on Earth System Modelling (IMPRS-ESM) Earth System Modelling (IMPRS-ESM)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6241/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6241/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Master's degree (including a written thesis) or a comparable academic qualification in the broad field of Earth System Sciences: physics, geophysical sciences (including meteorology and oceanography), chemistry, ecology, mathematics, computer science, engineering, economics, or political science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Since the programme focuses strongly on numerical simulations, candidates with computer literacy (e.g. Unix environment, Python programming or other programming languages) will be given priority.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

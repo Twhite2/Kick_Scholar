@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5506ae1458727ef97283685ffa9442ead99e2d713c97af864341b534890a07be",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:23.728Z",
+  "universities": [
+    {
+      "name": "University of Hohenheim",
+      "country": "DE",
+      "city": "Stuttgart",
+      "website": "https://www.uni-hohenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4566/",
+      "sourceQuote": "University of Hohenheim • Stuttgart"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hohenheim",
+      "universityWebsite": "https://www.uni-hohenheim.de/",
+      "name": "Plant Nutrition and Protection",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Plant Nutrition and Protection",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4566/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4566/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "An above-average Bachelor’s degree in agricultural or natural sciences or related fields (including agricultural sciences, bio-based products and bioenergy, or biology)",
+          "unit": null,
+          "sourceQuote": "* An above-average Bachelor’s degree in agricultural or natural sciences or related fields (including agricultural sciences, bio-based products and bioenergy, or biology)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* If the final grade or grade point average of your degree is not above average, you must prove your special suitability for the degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "IN_LIST",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "Crop Sciences pre-test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Result of the Crop Sciences pre-test. It is compulsory to complete the test before the application deadline, but the test results will not influence the chances of admission.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

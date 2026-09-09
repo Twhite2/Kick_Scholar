@@ -1,0 +1,80 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:0cba5f130e19c291c6e57de1fe97b38d54ded004d9895d21851aa6530de26faa",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:06.821Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "RWTH International Academy: Women in Engineering Scholarship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "This scholarship was created to enable for more qualified female engineering students to pursue a Master’s degree programme and establish gender equality among students of English-language Master’s degree programmes at RWTH International Academy.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000422",
+      "deadlineText": "Please make sure to submit all required documents at the latest by 1 March (non-EU citizens) or 15 July (EU citizens).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000422",
+      "sourceQuote": "Highly qualified female engineering students who have an excellent performance in their Bachelor's studies. A cumulative grade point average of 2.0 or higher is required (converted to the German grading system).",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ENGINEERING"
+          ],
+          "numericValue": null,
+          "textValue": "female engineering students",
+          "sourceQuote": "Highly qualified female engineering students who have an excellent performance in their Bachelor's studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": "Master’s degree programme",
+          "sourceQuote": "This scholarship was created to enable for more qualified female engineering students to pursue a Master’s degree programme and establish gender equality among students of English-language Master’s degree programmes at RWTH International Academy.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MIN_GPA",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 2,
+          "textValue": null,
+          "sourceQuote": "A cumulative grade point average of 2.0 or higher is required (converted to the German grading system).",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [
+            "PRIVATE"
+          ],
+          "sourceQuote": "This scholarship was created to enable for more qualified female engineering students to pursue a Master’s degree programme and establish gender equality among students of English-language Master’s degree programmes at RWTH International Academy.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

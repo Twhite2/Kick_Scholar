@@ -1,0 +1,85 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:e680a072552f08b2b4e25a1526c10fb3c7247702446dd2b211b028d85755474c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:31.919Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Helmut-Schmidt-Programme (Master’s Scholarships for Public Policy and Good Governance - PPGG) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The DAAD Helmut-Schmidt-Programme (known as Public Policy and Good Governance) supports future leaders from developing and emerging countries (see list of countries), who want to promote democracy and social justice in their home regions. The programme, funded by the Federal Foreign Office, offers the opportunity to obtain a master’s degree in fields of study that are of particular importance for social, political and economic development in the countries of origin of these young professionals. In the light of the principles of Good Governance, highly qualified graduates with a first academic degree are being educated in political science, law, economics and administration and prepared for future leading positions in the Global South. [Current Announcement](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/daad_helmut_schmidt_programme_current_announcement.pdf) [Checklist](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/daad_helmut_schmidt_programme_checklist.pdf) [Application Form](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/daad_helmut_schmidt_programme_application_form.pdf) [List of Countries](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/daad_helmut_schmidt_programme_list_of_countries.pdf) [Frequently Asked Questions](https://static.daad.de/media/daad_de/p…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026397",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026397",
+      "sourceQuote": "The DAAD Helmut-Schmidt-Programme (known as Public Policy and Good Governance) supports future leaders from developing and emerging countries (see list of countries), who want to promote democracy and social justice in their home regions. The programme, funded by the Federal Foreign Office, offers the opportunity to obtain a master’s degree in fields of study that are of particular importance for…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "developing and emerging countries"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The DAAD Helmut-Schmidt-Programme (known as Public Policy and Good Governance) supports future leaders from developing and emerging countries (see list of countries), who want to promote democracy and social justice in their home regions.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme, funded by the Federal Foreign Office, offers the opportunity to obtain a master’s degree in fields of study that are of particular importance for social, political and economic development in the countries of origin of these young professionals.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "political science",
+            "law",
+            "economics",
+            "administration"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "In the light of the principles of Good Governance, highly qualified graduates with a first academic degree are being educated in political science, law, economics and administration and prepared for future leading positions in the Global South.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "SOCIAL_SCIENCES",
+            "LAW",
+            "BUSINESS"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The programme, funded by the Federal Foreign Office, offers the opportunity to obtain a master’s degree in fields of study that are of particular importance for social, political and economic development in the countries of origin of these young professionals.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

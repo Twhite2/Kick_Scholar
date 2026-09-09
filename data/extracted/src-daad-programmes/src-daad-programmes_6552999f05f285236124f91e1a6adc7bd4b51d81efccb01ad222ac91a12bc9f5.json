@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6552999f05f285236124f91e1a6adc7bd4b51d81efccb01ad222ac91a12bc9f5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:53.032Z",
+  "universities": [
+    {
+      "name": "Ludwig-Maximilians-Universität München",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.lmu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7873/",
+      "sourceQuote": "Ludwig-Maximilians-Universität München • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ludwig-Maximilians-Universität München",
+      "universityWebsite": "https://www.lmu.de",
+      "name": "Master of Science in Meteorology MSc Meteorology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Meteorology MSc Meteorology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7873/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7873/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The application for the MSc Meteorology requires a first professional university degree or an equivalent degree from Germany or abroad in one of the subject areas of physics, astrophysics, meteorology or in another mathematical-scientific subject area.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

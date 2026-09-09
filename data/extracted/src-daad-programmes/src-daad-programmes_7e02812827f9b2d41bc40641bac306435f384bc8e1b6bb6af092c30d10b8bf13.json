@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7e02812827f9b2d41bc40641bac306435f384bc8e1b6bb6af092c30d10b8bf13",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:21:08.670Z",
+  "universities": [
+    {
+      "name": "Ulm University of Applied Sciences",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.thu.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4728/",
+      "sourceQuote": "Ulm University of Applied Sciences • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University of Applied Sciences",
+      "universityWebsite": "https://www.thu.de/de/",
+      "name": "Intelligent Systems (ISY)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Intelligent Systems (ISY)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 650,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4728/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4728/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree in a computer science-related subject",
+          "unit": null,
+          "sourceQuote": "To apply for the Master’s degree programme in ISY, you need a Bachelor’s degree in a computer science-related subject.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS credits",
+          "sourceQuote": "You must have at least 60 ECTS credits acquired from the study of computer science-based subjects.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "GTE",
+          "value": "pass (4.0)",
+          "unit": null,
+          "sourceQuote": "Another prerequisite is successful participation in a selection interview, in which you must achieve a grade of at least \"pass\" (4.0).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

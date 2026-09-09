@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:50f18f2b64a630b555bc771de2c1030cc1c9effdf1e2858b4231aa238c5e4c4c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:10.280Z",
+  "universities": [
+    {
+      "name": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3915/",
+      "sourceQuote": "Humboldt-Universität zu Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Humboldt-Universität zu Berlin",
+      "universityWebsite": "https://www.hu-berlin.de/",
+      "name": "GET MA — Global and European Transformations Master's",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "GET MA — Global and European Transformations Master's",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3915/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3915/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA or equivalent in a relevant subject area (humanities, social sciences, etc.) from a recognised institution of higher education",
+          "unit": null,
+          "sourceQuote": "BA or equivalent in a relevant subject area (humanities, social sciences, etc.) from a recognised institution of higher education",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.50",
+          "unit": null,
+          "sourceQuote": "The minimum admission requirement is an above-average BA degree, e.g. a cumulative grade point average of between 2.50 and 4.00, equivalent to 70% to 100%.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students who graduate in the ongoing semester must include a confirmation by the registrar's office stating the exact date of graduation.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application deadlines may vary. Please consult the programme website for the exact dates.",
+          "intake": null,
+          "sourceQuote": "Application deadlines may vary. Please consult the programme website for the exact dates.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

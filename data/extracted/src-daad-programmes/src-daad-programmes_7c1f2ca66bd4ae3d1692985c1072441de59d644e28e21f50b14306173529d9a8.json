@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7c1f2ca66bd4ae3d1692985c1072441de59d644e28e21f50b14306173529d9a8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:59.898Z",
+  "universities": [
+    {
+      "name": "ESCP Berlin Campus",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://escp.eu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8535/",
+      "sourceQuote": "ESCP Berlin Campus • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "ESCP Berlin Campus",
+      "universityWebsite": "https://escp.eu/",
+      "name": "Master's in Strategy and Digital Business (MSc) MSc in Strategy and Digital Business",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Strategy and Digital Business (MSc) MSc in Strategy and Digital Business",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 8325,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8535/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8535/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "A Bachelor's degree with a minimum of 180 ECTS from a state-accredited institution of higher education",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A university background preferably in economics is required as well as interest in strategy and entrepreneurship.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students from a non-business/non-economics background are required to participate in a preparatory course prior to the start of the programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Fluency in English (details below)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "0",
+          "unit": "years",
+          "sourceQuote": "zero to two years of full-time, postgraduate work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

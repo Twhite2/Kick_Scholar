@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:912cf859b85a5ac3808202765703ca353840319ee8cbabd97fedc163441f062c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:26.915Z",
+  "universities": [
+    {
+      "name": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8602/",
+      "sourceQuote": "Humboldt-Universität zu Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Humboldt-Universität zu Berlin",
+      "universityWebsite": "https://www.hu-berlin.de/",
+      "name": "MA American Studies / Amerikanistik",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA American Studies / Amerikanistik",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8602/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8602/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree in (English or) American Studies (with a focus on literature and culture: their histories, theories, methodologies) and a minimum of 60 ECTS in these fields are required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS",
+          "sourceQuote": "A Bachelor's degree in (English or) American Studies (with a focus on literature and culture: their histories, theories, methodologies) and a minimum of 60 ECTS in these fields are required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "ECTS",
+          "sourceQuote": "Of the ECTS, 30 credits should explicitly deal with literary and cultural studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL Essentials",
+          "operator": "GTE",
+          "value": "10.5",
+          "unit": null,
+          "sourceQuote": "TOEFL Essentials: 10.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "100",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 100",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

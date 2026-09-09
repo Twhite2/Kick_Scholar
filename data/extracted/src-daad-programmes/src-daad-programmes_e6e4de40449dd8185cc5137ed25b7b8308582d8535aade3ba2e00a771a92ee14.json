@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e6e4de40449dd8185cc5137ed25b7b8308582d8535aade3ba2e00a771a92ee14",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:26.451Z",
+  "universities": [
+    {
+      "name": "Technische Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.tu.berlin/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4363/",
+      "sourceQuote": "Technische Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Berlin",
+      "universityWebsite": "https://www.tu.berlin/",
+      "name": "Master's in Stage Design – Scenography",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Stage Design – Scenography",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2900,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4363/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4363/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "architecture, interior design, product design, fine art, theatre, stage design, costume design, culture management, brand communication, stage direction, or similar",
+          "unit": null,
+          "sourceQuote": "Degree (e.g. Bachelor's) in architecture, interior design, product design, fine art, theatre, stage design, costume design, culture management, brand communication, stage direction, or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "A2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

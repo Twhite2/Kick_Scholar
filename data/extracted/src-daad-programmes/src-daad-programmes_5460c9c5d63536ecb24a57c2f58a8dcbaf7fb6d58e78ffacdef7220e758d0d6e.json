@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5460c9c5d63536ecb24a57c2f58a8dcbaf7fb6d58e78ffacdef7220e758d0d6e",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:04.723Z",
+  "universities": [
+    {
+      "name": "Marburg University",
+      "country": "DE",
+      "city": "Marburg",
+      "website": "https://www.uni-marburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4024/",
+      "sourceQuote": "Marburg University • Marburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Marburg University",
+      "universityWebsite": "https://www.uni-marburg.de",
+      "name": "Economics of the Middle East (EMEA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Economics of the Middle East (EMEA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4024/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4024/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "There are **different deadlines** depending on the application procedure.",
+          "intake": null,
+          "sourceQuote": "There are **different deadlines** depending on the application procedure.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

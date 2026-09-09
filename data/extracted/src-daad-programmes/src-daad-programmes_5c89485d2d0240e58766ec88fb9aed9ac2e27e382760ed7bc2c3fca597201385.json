@@ -1,0 +1,146 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5c89485d2d0240e58766ec88fb9aed9ac2e27e382760ed7bc2c3fca597201385",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:27.752Z",
+  "universities": [
+    {
+      "name": "Hof University of Applied Sciences",
+      "country": "DE",
+      "city": "Hof",
+      "website": "https://www.hof-university.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6237/",
+      "sourceQuote": "Hof University of Applied Sciences • Hof"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hof University of Applied Sciences",
+      "universityWebsite": "https://www.hof-university.de",
+      "name": "Sustainable Textiles (MEng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Textiles (MEng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6237/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6237/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in engineering or natural sciences",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in engineering or natural sciences providing sufficient knowledge in textile technology and textile chemistry from an accredited university, at least 210 ECTS or equivalent (depending on home country); minimum grade 2.5 according to the German grading system",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in engineering or natural sciences providing sufficient knowledge in textile technology and textile chemistry from an accredited university, at least 210 ECTS or equivalent (depending on home country); minimum grade 2.5 according to the German grading system",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS",
+          "sourceQuote": "Bachelor's degree in engineering or natural sciences providing sufficient knowledge in textile technology and textile chemistry from an accredited university, at least 210 ECTS or equivalent (depending on home country); minimum grade 2.5 according to the German grading system",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "credits",
+          "sourceQuote": "Sufficient knowledge means that you achieved at least 60 credits (or their equivalent) in textile technology and 20 credits in (textile) chemistry during your first degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "credits",
+          "sourceQuote": "Sufficient knowledge means that you achieved at least 60 credits (or their equivalent) in textile technology and 20 credits in (textile) chemistry during your first degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Goethe-Zertifikat: Goethe-Zertifikat A1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "ÖSD Zertifikat",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "ÖSD Zertifikat: A1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "telc Deutsch: telc Deutsch A1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

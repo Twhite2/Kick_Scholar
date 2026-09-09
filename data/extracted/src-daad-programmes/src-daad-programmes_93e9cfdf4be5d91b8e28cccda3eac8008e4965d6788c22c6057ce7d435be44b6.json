@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:93e9cfdf4be5d91b8e28cccda3eac8008e4965d6788c22c6057ce7d435be44b6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:45.698Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7705/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "Marine Geosciences",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Marine Geosciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7705/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7705/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "University entrance certificate",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "A1",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "B2",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application with study start in winter semester is possible between 1 May and 15 July each year.",
+          "intake": null,
+          "sourceQuote": "Application with study start in winter semester is possible between 1 May and 15 July each year.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8367f7075b0ff8e399e3a65b91871d8d193de8744dbb714b9da3e4cdcbddff65",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:17.371Z",
+  "universities": [
+    {
+      "name": "Technische Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.tu.berlin/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3885/",
+      "sourceQuote": "Technische Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Berlin",
+      "universityWebsite": "https://www.tu.berlin/",
+      "name": "International Master's Programme in Computational Neuroscience Master's Programme in Computational Neuroscience",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master's Programme in Computational Neuroscience Master's Programme in Computational Neuroscience",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3885/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3885/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in natural sciences, engineering or mathematics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "credit points",
+          "sourceQuote": "Sufficient mathematical knowledge (at least 24 credit points) particularly in linear algebra (at least six credit points), analysis/calculus – including dynamical systems (at least six credit points), probability theory and statistics (at least six credit points)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (before 2026)",
+          "operator": "GTE",
+          "value": "87",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 87",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

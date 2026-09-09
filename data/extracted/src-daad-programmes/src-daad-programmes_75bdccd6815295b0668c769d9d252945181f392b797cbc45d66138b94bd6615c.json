@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:75bdccd6815295b0668c769d9d252945181f392b797cbc45d66138b94bd6615c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:31.519Z",
+  "universities": [
+    {
+      "name": "Magdeburg-Stendal University of Applied Sciences",
+      "country": "DE",
+      "city": "Magdeburg",
+      "website": "https://www.h2.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7281/",
+      "sourceQuote": "Magdeburg-Stendal University of Applied Sciences • Magdeburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Magdeburg-Stendal University of Applied Sciences",
+      "universityWebsite": "https://www.h2.de",
+      "name": "Sustainable Resources, Engineering and Management (StREaM)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Sustainable Resources, Engineering and Management (StREaM)",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7281/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7281/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applicants with foreign certificates please apply till **30 November** for the summer semester via uni-assist e.V.",
+          "intake": null,
+          "sourceQuote": "Applicants with foreign certificates please apply till **30 November** for the summer semester via uni-assist e.V.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

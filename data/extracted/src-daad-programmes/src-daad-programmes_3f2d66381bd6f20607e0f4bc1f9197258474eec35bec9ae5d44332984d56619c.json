@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3f2d66381bd6f20607e0f4bc1f9197258474eec35bec9ae5d44332984d56619c",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:05.989Z",
+  "universities": [
+    {
+      "name": "Dresden University of Technology",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://tu-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4534/",
+      "sourceQuote": "Dresden University of Technology • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden University of Technology",
+      "universityWebsite": "https://tu-dresden.de/",
+      "name": "Joint Doctor of Philosophy Degree in a Nexus Approach to the Sustainable Management of Environmental Resources PhD: Sustainable Management of Environmental Resources",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Joint Doctor of Philosophy Degree in a Nexus Approach to the Sustainable Management of Environmental Resources PhD: Sustainable Management of Environmental Resources",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Other"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4534/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4534/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

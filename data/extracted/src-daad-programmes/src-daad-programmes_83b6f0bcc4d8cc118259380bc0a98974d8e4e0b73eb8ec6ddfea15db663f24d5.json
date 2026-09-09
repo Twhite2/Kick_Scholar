@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:83b6f0bcc4d8cc118259380bc0a98974d8e4e0b73eb8ec6ddfea15db663f24d5",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:59.200Z",
+  "universities": [
+    {
+      "name": "Heidelberg University",
+      "country": "DE",
+      "city": "Heidelberg",
+      "website": "https://www.uni-heidelberg.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4273/",
+      "sourceQuote": "Heidelberg University • Heidelberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heidelberg University",
+      "universityWebsite": "https://www.uni-heidelberg.de/de",
+      "name": "Master of Arts in Transcultural Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Transcultural Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4273/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4273/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "International Students apply for the MATS from April to mid-July.",
+          "intake": null,
+          "sourceQuote": "International Students apply for the MATS from April to mid-July.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

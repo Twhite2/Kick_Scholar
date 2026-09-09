@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7723e546ea38b0878d80a097c413f5a47f4f6c8aa45e4509eeba5c0783e1ceee",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:09.551Z",
+  "universities": [
+    {
+      "name": "Rosenheim Technical University of Applied Sciences",
+      "country": "DE",
+      "city": "Traunstein",
+      "website": "https://www.th-rosenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7974/",
+      "sourceQuote": "Rosenheim Technical University of Applied Sciences • Traunstein"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rosenheim Technical University of Applied Sciences",
+      "universityWebsite": "https://www.th-rosenheim.de/",
+      "name": "E-Commerce",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "E-Commerce",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7974/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7974/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A general or subject-specific **higher education entrance qualification** is sufficient to qualify for the study programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "intake": null,
+          "sourceQuote": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

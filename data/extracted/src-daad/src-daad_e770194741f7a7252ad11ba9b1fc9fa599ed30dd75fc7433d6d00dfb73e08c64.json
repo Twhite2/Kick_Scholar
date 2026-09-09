@@ -1,0 +1,76 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:e770194741f7a7252ad11ba9b1fc9fa599ed30dd75fc7433d6d00dfb73e08c64",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:23.363Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Göttingen Academy of Sciences and Humanities: Hannah Arendt Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Hannah Arendt Fellowships offer outstanding international scholars the opportunity to pursue independent research for up to 6 months in Lower Saxony (Germany). The programme is a funding initiative of zukunft.niedersachsen, a joint programme of the Lower Saxony Ministry of Science and Culture and the Volkswagen Foundation, and is coordinated by the Göttingen Academy of Sciences and Humanities. Up to 10 fellows each year participate in a decentralised residency model, hosted at universities and non-university research institutions throughout Lower Saxony. Fellows collaborate closely with a local academic partner (tandem partner) and are fully embedded in the host institution’s scholarly environment. The programme allows researchers to focus entirely on their projects, free from teaching obligations, while accessing a broad network of institutions and contributing to innovative, future-oriented research in the humanities, cultural studies, and social sciences. Each cohort is framed by an annual theme that encourages shared inquiry and cross-disciplinary perspectives. Selection is made by an independent international committee of experts.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000689",
+      "deadlineText": "1 June 2026 (for fellowships in 2027)",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000689",
+      "sourceQuote": "International researchers with at least a completed doctorate who work in the humanities, cultural studies, or social sciences",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "International researchers with at least a completed doctorate who work in the humanities, cultural studies, or social sciences",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "HUMANITIES",
+            "SOCIAL_SCIENCES"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "International researchers with at least a completed doctorate who work in the humanities, cultural studies, or social sciences",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES",
+            "SOCIAL_SCIENCES"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED",
+            "ANY"
+          ],
+          "sourceQuote": "Up to 10 fellows each year participate in a decentralised residency model, hosted at universities and non-university research institutions throughout Lower Saxony.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:bb4935570efcbb72ce5994a53f40ed7b9dbdcdc6d9be8df829cf7aa567ac1723",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:06:04.996Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6919/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "MSc Engineering Geohazards",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Engineering Geohazards",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6919/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6919/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor of Science in geosciences, geography, environmental sciences or environmental engineering",
+          "unit": null,
+          "sourceQuote": "Bachelor of Science in geosciences, geography, environmental sciences or environmental engineering with at least 180 ECTS, of which:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "Bachelor of Science in geosciences, geography, environmental sciences or environmental engineering with at least 180 ECTS, of which:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "35",
+          "unit": "ECTS",
+          "sourceQuote": "  * a minimum of 35 ECTS in geoscientific modules of the following fields: general geology, geophysics, organic and inorganic geochemistry, GIS, remote sensing, geological mapping and geoscientific fieldwork",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "ECTS",
+          "sourceQuote": "  * a minimum of 15 ECTS in either mathematics, chemistry, and/or physics modules",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "[Application and Enrolment Deadlines](https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaacjbkfq&download=1)",
+          "intake": null,
+          "sourceQuote": "[Application and Enrolment Deadlines](https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaacjbkfq&download=1)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

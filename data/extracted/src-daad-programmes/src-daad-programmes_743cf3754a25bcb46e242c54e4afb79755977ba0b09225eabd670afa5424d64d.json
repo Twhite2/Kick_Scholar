@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:743cf3754a25bcb46e242c54e4afb79755977ba0b09225eabd670afa5424d64d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:09.744Z",
+  "universities": [
+    {
+      "name": "Charité - Universitätsmedizin Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.charite.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4148/",
+      "sourceQuote": "Charité - Universitätsmedizin Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Charité - Universitätsmedizin Berlin",
+      "universityWebsite": "https://www.charite.de",
+      "name": "International Master's Programme Molecular Medicine",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master's Programme Molecular Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4148/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4148/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "a Bachelor of Science (BSc) in a related scientific discipline such as molecular medicine, biology, or biochemistry",
+          "unit": null,
+          "sourceQuote": "a Bachelor of Science (BSc) in a related scientific discipline such as molecular medicine, biology, or biochemistry",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "a German \"Diplom\" in a related scientific discipline",
+          "unit": null,
+          "sourceQuote": "a German \"Diplom\" in a related scientific discipline",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (since 2026)",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "onSET English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "onSET English: C1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "GTE",
+          "value": "telc English B2-C1 University",
+          "unit": null,
+          "sourceQuote": "telc English: telc English B2-C1 University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (before 2026)",
+          "operator": "GTE",
+          "value": "92",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 92",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

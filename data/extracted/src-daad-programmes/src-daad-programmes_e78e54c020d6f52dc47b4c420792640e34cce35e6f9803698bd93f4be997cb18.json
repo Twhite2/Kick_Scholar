@@ -1,0 +1,164 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e78e54c020d6f52dc47b4c420792640e34cce35e6f9803698bd93f4be997cb18",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:05:30.264Z",
+  "universities": [
+    {
+      "name": "Stralsund University of Applied Sciences",
+      "country": "DE",
+      "city": "Stralsund",
+      "website": "https://www.hochschule-stralsund.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6455/",
+      "sourceQuote": "Stralsund University of Applied Sciences • Stralsund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Stralsund University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-stralsund.de",
+      "name": "Renewable Energy and E-Mobility (REEM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Renewable Energy and E-Mobility (REEM)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6455/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6455/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "electrical engineering, energy technology, renewable energies, mechanical engineering, physics or related degrees",
+          "unit": null,
+          "sourceQuote": "Completed first degree in electrical engineering, energy technology, renewable energies, mechanical engineering, physics or related degrees",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of knowledge in the following fields (e.g. official course description as provided by the university):",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Measurement technology of at least four hours per week for one semester or 5 ECTS points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Control engineering amounting to at least four hours per week for one semester or 5 ECTS points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Fundamentals of electrical engineering amounting to at least four hours per week for one semester or 5 ECTS points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Electrical machines amounting to at least two hours per week for one semester or 3 ECTS points and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The usual mathematical foundations underlying these fields",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "At least three of the four modules demonstrating the respective subject knowledge must also be completed with a grade of at least 2.7 or, in the case of another grading system, with a comparable grade (70% of the applied grading scale).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Proof of English proficiency (level B2 according to the European Framework of Reference for Languages)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications Business (BEC)",
+          "operator": "IN_LIST",
+          "value": "B2 Business Vantage",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications Business (BEC) : B2 Business Vantage",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

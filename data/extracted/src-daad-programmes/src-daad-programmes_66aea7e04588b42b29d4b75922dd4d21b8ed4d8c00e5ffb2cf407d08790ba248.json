@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:66aea7e04588b42b29d4b75922dd4d21b8ed4d8c00e5ffb2cf407d08790ba248",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:03:54.968Z",
+  "universities": [
+    {
+      "name": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+      "country": "DE",
+      "city": "Würzburg",
+      "website": "https://www.thws.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7852/",
+      "sourceQuote": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) • Würzburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+      "universityWebsite": "https://www.thws.de",
+      "name": "MSc in Artificial Intelligence",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc in Artificial Intelligence",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7852/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7852/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210 ECTS",
+          "unit": "ECTS",
+          "sourceQuote": "A completed university degree with 210 ECTS and an overall grade of 2.5 or above in computer science from a German university or an equivalent degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "A completed university degree with 210 ECTS and an overall grade of 2.5 or above in computer science from a German university or an equivalent degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The less your Bachelor's degree is related to computer science, the more critical it is that you can credibly demonstrate how your studies have focussed on computer science / mathematics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "We expect good to very good grades in all subjects relevant to the Master's degree programme, i.e. especially in mathematics and computer science (see below).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20 ECTS",
+          "unit": "ECTS",
+          "sourceQuote": "1. At least 20 ECTS should have been earned in mathematics from the Bachelor's preliminary studies, which provide sufficient knowledge in statistics/probability theory, (linear) algebra, and calculus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15 ECTS",
+          "unit": "ECTS",
+          "sourceQuote": "2. At least 15 ECTS in computer science should have been earned from the Bachelor's preliminary studies, which provide sufficient knowledge both in practical computer science (e.g. demonstrated by courses in databases, operating systems, software engineering, or distributed systems) and in theoretical computer science (e.g. shown by courses in algorithms and data structures, automata theory, complexity theory or logic).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "3. We strongly recommend ready-to-use programming skills (e.g. in Python), typically demonstrated by work samples from programming projects, internships, or laboratories.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "4. We strongly recommend providing access to the applicants final thesis as proof of their scientific work (if possible, with the corresponding source code).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 83",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

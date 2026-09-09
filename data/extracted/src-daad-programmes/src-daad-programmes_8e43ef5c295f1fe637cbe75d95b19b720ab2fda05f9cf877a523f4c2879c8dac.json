@@ -1,0 +1,71 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8e43ef5c295f1fe637cbe75d95b19b720ab2fda05f9cf877a523f4c2879c8dac",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:11:01.387Z",
+  "universities": [
+    {
+      "name": "University of Potsdam",
+      "country": "DE",
+      "city": "Potsdam",
+      "website": "https://www.uni-potsdam.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7016/",
+      "sourceQuote": "University of Potsdam • Potsdam"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Potsdam",
+      "universityWebsite": "https://www.uni-potsdam.de",
+      "name": "Applied Cultural and Translation Studies (German-Polish) | Angewandte Kultur- und Translationsstudien (Deutsch-Polnisch) Applied Cultural and Translation Studies (German-Polish)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Applied Cultural and Translation Studies (German-Polish) | Angewandte Kultur- und Translationsstudien (Deutsch-Polnisch) Applied Cultural and Translation Studies (German-Polish)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7016/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7016/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

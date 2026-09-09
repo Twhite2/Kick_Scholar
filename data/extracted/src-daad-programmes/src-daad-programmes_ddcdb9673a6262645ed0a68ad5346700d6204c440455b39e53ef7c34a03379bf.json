@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ddcdb9673a6262645ed0a68ad5346700d6204c440455b39e53ef7c34a03379bf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:20:37.630Z",
+  "universities": [
+    {
+      "name": "Offenburg University of Applied Sciences",
+      "country": "DE",
+      "city": "Offenburg",
+      "website": "https://www.hs-offenburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3771/",
+      "sourceQuote": "Offenburg University of Applied Sciences • Offenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Offenburg University of Applied Sciences",
+      "universityWebsite": "https://www.hs-offenburg.de/",
+      "name": "Master of Science in Communication and Media Engineering (CME) MSc in Communication and Media Engineering (CME)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Communication and Media Engineering (CME) MSc in Communication and Media Engineering (CME)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3771/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3771/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree in Electrical Engineering, Information Technology, or a related field",
+          "unit": null,
+          "sourceQuote": "* Bachelor’s degree in Electrical Engineering, Information Technology, or a related field",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Strong knowledge in mathematics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Programming skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Knowledge in signal processing",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Proof of English language proficiency",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* APS (only for applicants from India, China and Vietnam)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Professional experience preferred",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (since 2026)",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition (before 2026)",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "55",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 55",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "31 March (non-EU residents) 15 July (EU residents)",
+          "intake": null,
+          "sourceQuote": "31 March (non-EU residents) 15 July (EU residents)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:186423b4c8cdd3adcaa281afe541c068f0742bff871d23390277a75fa1627248",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:30.896Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4771/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "Space Sciences and Technologies – Sensing, Processing, Communication (Space-ST) Space Sciences and Technologies (Space-ST)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Space Sciences and Technologies – Sensing, Processing, Communication (Space-ST) Space Sciences and Technologies (Space-ST)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4771/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4771/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a first academic degree (equivalent to a Bachelor's degree) in Electrical Engineering, Physics, Systems Engineering, Industrial Mathematics, Electrical Engineering with Management or a course of studies which does not reveal any significant differences in the content, scope and requirements of those mentioned above, with at least 180 credit points (CP) according to the European Credit Transfer and Accumulation System (ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The degree must include either 90 CP in physics or 65 CP in electrical engineering and 16 CP in mathematics courses.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "English language skills at a level of C1 (see language requirements)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation stating reasons why you have chosen to apply for the MSc Space Sciences and Technologies programme",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

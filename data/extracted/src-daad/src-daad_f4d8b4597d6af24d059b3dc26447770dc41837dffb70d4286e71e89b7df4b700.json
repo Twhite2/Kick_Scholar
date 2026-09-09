@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f4d8b4597d6af24d059b3dc26447770dc41837dffb70d4286e71e89b7df4b700",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:49.304Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Study Scholarships - Postgraduate Studies in the Field of Music **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This scholarship programme offers you the opportunity to continue your studies in the field of music in Germany with an advanced postgraduate course.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135743",
+      "deadlineText": "Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135743",
+      "sourceQuote": "The programme is aimed at **graduates from the field of Music.** You are eligible to apply if: you will have obtained a first degree in music by the time the scholarship begins or you have exhausted all training opportunities for your instrument or subject in your home country if no degree is offered in your country of origin.",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Music"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is aimed at **graduates from the field of Music.**",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The funding period is 2 to 4 semesters, depending on the standard period of study of the chosen program (10 months up to a maximum of 24 months).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Not resided in Germany for more than 15 months prior to the application deadline",
+          "sourceQuote": "You have not resided in Germany for more than 15 months prior to the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "By the start of the scholarship at the latest, you should have sufficient knowledge of the language of instruction to meet the requirements of the desired university.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "This scholarship programme offers you the opportunity to continue your studies in the field of music in Germany with an advanced postgraduate course.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

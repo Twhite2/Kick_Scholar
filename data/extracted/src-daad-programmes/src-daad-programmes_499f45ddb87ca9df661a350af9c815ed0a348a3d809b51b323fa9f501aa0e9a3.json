@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:499f45ddb87ca9df661a350af9c815ed0a348a3d809b51b323fa9f501aa0e9a3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:43.152Z",
+  "universities": [
+    {
+      "name": "Technical University of Applied Sciences Wildau",
+      "country": "DE",
+      "city": "Wildau",
+      "website": "https://www.th-wildau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7665/",
+      "sourceQuote": "Technical University of Applied Sciences Wildau • Wildau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Applied Sciences Wildau",
+      "universityWebsite": "https://www.th-wildau.de/",
+      "name": "European Business Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "European Business Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7665/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7665/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In order to apply to study at TH Wildau for a first degree, you must hold a university admission qualification (technical college entrance examination or subject-specific technical college entrance examination, general or subject-specific university admission qualification).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applicants with foreign education certificates must apply via [uni-assist e.V.](https://www.uni-assist.de/en/)",
+          "intake": null,
+          "sourceQuote": "Applicants with foreign education certificates must apply via [uni-assist e.V.](https://www.uni-assist.de/en/)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,90 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:099debfb8e7e263583d0a2e1dbe5890746adab600a87ce41ccd76d70d909d801",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:22:17.242Z",
+  "universities": [
+    {
+      "name": "Leibniz University Hannover",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.uni-hannover.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4780/",
+      "sourceQuote": "Leibniz University Hannover • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leibniz University Hannover",
+      "universityWebsite": "https://www.uni-hannover.de/de/",
+      "name": "Master's Atlantic Studies / History, Culture and Society",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's Atlantic Studies / History, Culture and Society",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4780/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4780/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (or equivalent) in History, Sociology, Cultural Anthropology, Religious Science, Romance Languages and Literatures, English/American Studies, Political Science, International Relations or similar academic fields",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in History, Sociology, Cultural Anthropology, Religious Science, Romance Languages and Literatures, English/American Studies, Political Science, International Relations or similar academic fields",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:bcd3f20838d15163a99846553e5d78ac1f308eeec4877d4757cfa59255d79fbd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:21.511Z",
+  "universities": [
+    {
+      "name": "Mainz University of Applied Sciences",
+      "country": "DE",
+      "city": "Mainz",
+      "website": "https://www.hs-mainz.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3826/",
+      "sourceQuote": "Mainz University of Applied Sciences • Mainz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Mainz University of Applied Sciences",
+      "universityWebsite": "https://www.hs-mainz.de",
+      "name": "Master of Arts in International Business (MA.IB) International Business MA (MA.IB)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in International Business (MA.IB) International Business MA (MA.IB)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3826/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3826/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "You hold a Bachelor's degree in Business Administration or Management from a recognised accredited university (three years full-time or 180 ECTS minimum).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "Above-average results (minimum requirement: ECTS grade C or 2.5 or better (calculated into the German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

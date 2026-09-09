@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a03dd81cbfada08a11652f6e60d6da62d0f31f34134d409f4d8e3545b73c2df7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:20:08.415Z",
+  "universities": [
+    {
+      "name": "University of Passau",
+      "country": "DE",
+      "city": "Passau",
+      "website": "https://www.uni-passau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3922/",
+      "sourceQuote": "University of Passau • Passau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Passau",
+      "universityWebsite": "https://www.uni-passau.de/",
+      "name": "Master of Arts in Development Studies MA Development Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Development Studies MA Development Studies",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3922/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3922/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "first (Bachelor’s or equivalent) university degree in a social science, i.e. economics, anthropology, demography, empirical social or human geography, sociology, political science, administrative science or any other equivalent degree with a minimum of 60 ECTS credits in one or several of these disciplines.",
+          "unit": null,
+          "sourceQuote": "Applicants are required to have a first (Bachelor’s or equivalent) university degree in a social science, i.e. economics, anthropology, demography, empirical social or human geography, sociology, political science, administrative science or any other equivalent degree with a minimum of 60 ECTS credits in one or several of these disciplines.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Any past achievements and qualifications gained in \"Wirtschaftswissenschaften\" (combined business and economics programmes) must be derived specifically from economics (\"Volkswirtschaftslehre\") modules.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "years",
+          "sourceQuote": "This first degree must have been obtained as part of a programme of study with a minimum standard duration of three years' full-time study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS credits",
+          "sourceQuote": "Out of the 60 ECTS credits referenced above, 10 ECTS credits (or a minimum of 300 hours of coursework) must come from empirical research methods, such as data collection, data analysis, mathematics and/or statistics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German marking scale",
+          "sourceQuote": "The final grade of for your undergraduate degree should be equivalent to 2.5 or better according to the [German marking scale](https://www.uni-passau.de/en/international/coming-to-passau/information-for-new-students/grading-scale/), or you must have ranked among the best 50% of your cohort.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f65b7ad3f9c8e08d0953da72bb3fa52fec1889c7c31cf231d1f6aa43a3909c28",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:29.057Z",
+  "universities": [
+    {
+      "name": "Technical University of Darmstadt",
+      "country": "DE",
+      "city": "Darmstadt",
+      "website": "https://www.tu-darmstadt.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7025/",
+      "sourceQuote": "Technical University of Darmstadt • Darmstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Darmstadt",
+      "universityWebsite": "https://www.tu-darmstadt.de/",
+      "name": "Cognitive Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Cognitive Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7025/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7025/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor of Science degree in cognitive science or an equivalent degree and the submission of an official certificate of academic achievement with at least 110 CP.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "80",
+          "unit": "CP",
+          "sourceQuote": "Admission requires competencies of at least 80 CP of the reference undergraduate programme (BSc Cognitive Science at Technical University of Darmstadt) in the areas of basic computer science (at least 30 CP), foundations of cognitive science (psychology, movement science, cognitive science, neuroscience, or related disciplines) (at least 30 CP), and advanced courses in cognitive science: linguistics, philosophy, sports science, psychology (at least 20 CP).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "CP",
+          "sourceQuote": "Admission requires competencies of at least 80 CP of the reference undergraduate programme (BSc Cognitive Science at Technical University of Darmstadt) in the areas of basic computer science (at least 30 CP), foundations of cognitive science (psychology, movement science, cognitive science, neuroscience, or related disciplines) (at least 30 CP), and advanced courses in cognitive science: linguistics, philosophy, sports science, psychology (at least 20 CP).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "CP",
+          "sourceQuote": "Admission requires competencies of at least 80 CP of the reference undergraduate programme (BSc Cognitive Science at Technical University of Darmstadt) in the areas of basic computer science (at least 30 CP), foundations of cognitive science (psychology, movement science, cognitive science, neuroscience, or related disciplines) (at least 30 CP), and advanced courses in cognitive science: linguistics, philosophy, sports science, psychology (at least 20 CP).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "CP",
+          "sourceQuote": "Admission requires competencies of at least 80 CP of the reference undergraduate programme (BSc Cognitive Science at Technical University of Darmstadt) in the areas of basic computer science (at least 30 CP), foundations of cognitive science (psychology, movement science, cognitive science, neuroscience, or related disciplines) (at least 30 CP), and advanced courses in cognitive science: linguistics, philosophy, sports science, psychology (at least 20 CP).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

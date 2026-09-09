@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:de1460a979aa42716d1ba8e057a86aa977339e30ecbc6ec27ae1ee116844940b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:26:24.430Z",
+  "universities": [
+    {
+      "name": "Trier University",
+      "country": "DE",
+      "city": "Trier",
+      "website": "https://www.uni-trier.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4679/",
+      "sourceQuote": "Trier University • Trier"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Trier University",
+      "universityWebsite": "https://www.uni-trier.de",
+      "name": "Master of Science in Applied Statistics MSc in Applied Statistics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Applied Statistics MSc in Applied Statistics",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4679/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4679/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of a Bachelor's degree (acquisition of at least 180 ECTS from a domestic or foreign university) fulfilling one of the following criteria:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.0",
+          "unit": "German grading system",
+          "sourceQuote": "Final grade of 2.0 or better (German grading system) in the field of mathematics (applied mathematics or business mathematics) or statistics;",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.0",
+          "unit": "German grading system",
+          "sourceQuote": "Final grade of 2.0 or better (German grading system) in the field of business administration, economics, or sociology and at least 24 ECTS in the subjects mathematics, statistics, or quantitative methods (out of which at least 5 ECTS have to be from mathematics and 10 ECTS from statistics);",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.0",
+          "unit": "German grading system",
+          "sourceQuote": "Final grade of 2.0 or better (German grading system) in a related field and at least 30 ECTS in the subjects mathematics, statistics, or quantitative methods.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.1",
+          "unit": "German grading system",
+          "sourceQuote": "The examination board makes case-by-case decisions on applications with a final grade between 2.1 and 2.5 (German grading system) and/or a Bachelor's degree in fields not explicitly mentioned above.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "All applicants must include a letter of motivation with regard to the study programme with their application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, applicants have to prove their English proficiency (details below).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "intake": null,
+          "sourceQuote": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

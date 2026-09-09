@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:123aecceb688d341f37ee77a72dd645b4c0f1fedc7dd61301e90463fce0a0add",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:21.762Z",
+  "universities": [
+    {
+      "name": "University of Münster",
+      "country": "DE",
+      "city": "Münster",
+      "website": "https://www.uni-muenster.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3637/",
+      "sourceQuote": "University of Münster • Münster"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Münster",
+      "universityWebsite": "https://www.uni-muenster.de",
+      "name": "Doctoral Programme in Law (Doctor Juris)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Doctoral Programme in Law (Doctor Juris)",
+      "fieldCategory": "LAW",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3637/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3637/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Magister Legum",
+          "unit": null,
+          "sourceQuote": "In order to be admitted to the Doctor Juris programme, the applicant is required to have completed a \"Magister Legum\" or a Master's programme in \"German Law\" at any law faculty in Germany (\"magna cum laude\").",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's programme in \"German Law\"",
+          "unit": null,
+          "sourceQuote": "In order to be admitted to the Doctor Juris programme, the applicant is required to have completed a \"Magister Legum\" or a Master's programme in \"German Law\" at any law faculty in Germany (\"magna cum laude\").",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

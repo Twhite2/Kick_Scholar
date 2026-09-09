@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c4f07beb0c7090d1f724b610c82667104f4cc8979dbf23acbf1a14d135cb0dd2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:20.113Z",
+  "universities": [
+    {
+      "name": "University of Hamburg",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.uni-hamburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6935/",
+      "sourceQuote": "University of Hamburg • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hamburg",
+      "universityWebsite": "https://www.uni-hamburg.de/",
+      "name": "Understanding Written Artefacts",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Understanding Written Artefacts",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6935/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6935/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must hold a degree (e.g. Master's degree, \"Magister\", \"Diplom\", state exam) from a university or equivalent higher education institution in one of the academic disciplines represented in the \"Understanding Written Artefacts\" Cluster.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The performance in the subject that is to become the discipline of doctoral study has to be above average (at least \"good\" in the German system or equivalent).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Exceptionally qualified applicants can enter the doctoral programme directly with only a Bachelor's degree (that is materially relevant to the dissertation project).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

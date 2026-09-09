@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:071bd203cc2f40f52d1e5a1ee35a5ee19bf875cbad3f86d766a2eb3f47e4cd11",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:41.315Z",
+  "universities": [
+    {
+      "name": "Furtwangen University",
+      "country": "DE",
+      "city": "Furtwangen im Schwarzwald",
+      "website": "https://www.hs-furtwangen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3737/",
+      "sourceQuote": "Furtwangen University • Furtwangen im Schwarzwald"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Furtwangen University",
+      "universityWebsite": "https://www.hs-furtwangen.de/",
+      "name": "Business Consulting Master (BCM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Business Consulting Master (BCM)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1560,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3737/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3737/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Undergraduate degree/BSc in Business Economics, Information Technology, Engineering, Social Sciences or similar",
+          "unit": null,
+          "sourceQuote": "Undergraduate degree/BSc in Business Economics, Information Technology, Engineering, Social Sciences or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "Minimum of one year of relevant professional experience AFTER graduation (full-time work experience)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Official language certificate from IELTS required that is valid when the BCM programme starts in March",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "We have a long application period starting mid of May and ending on 15 October each year.",
+          "intake": null,
+          "sourceQuote": "We have a long application period starting mid of May and ending on 15 October each year.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

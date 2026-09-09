@@ -1,0 +1,64 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:463ca6c002e09a0ad5161248c67d195f0497717d53b8566e521f38ae6e508f10",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:33.595Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "The American Friends of the Herzog August Bibliothek (HAB): Travel Grant",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The travel grants are intended to assist young US citizens or permanent US residents who write their doctoral theses and wish to access the Herzog August Library for research purposes. Young academics who finished their PhD no more than 3 years ago are also eligible. The funding is worth up to 2,000 USD and can be combined with a [doctoral fellowship](https://www.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?status=&origin=&subjectGrps=&daad=&q=herzog%20august%20bibliothek&page=1&back=1) from the Library. The research stay stretches over a minimum of 4 weeks and can be applied for at any time.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000185",
+      "deadlineText": "Applications are welcome at any time.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000185",
+      "sourceQuote": "young US citizens or permanent US residents writing their doctoral theses or scholars up to 3 years after completing their PhD who require access to the Herzog August Library for research purposes",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "US citizens",
+            "permanent US residents"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The travel grants are intended to assist young US citizens or permanent US residents who write their doctoral theses and wish to access the Herzog August Library for research purposes.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The travel grants are intended to assist young US citizens or permanent US residents who write their doctoral theses and wish to access the Herzog August Library for research purposes.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": "finished their PhD no more than 3 years ago",
+          "sourceQuote": "Young academics who finished their PhD no more than 3 years ago are also eligible.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

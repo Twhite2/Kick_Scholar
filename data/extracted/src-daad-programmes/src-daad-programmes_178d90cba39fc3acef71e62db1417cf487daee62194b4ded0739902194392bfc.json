@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:178d90cba39fc3acef71e62db1417cf487daee62194b4ded0739902194392bfc",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:29.720Z",
+  "universities": [
+    {
+      "name": "Friedrich Schiller University Jena",
+      "country": "DE",
+      "city": "Jena",
+      "website": "https://www.uni-jena.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4252/",
+      "sourceQuote": "Friedrich Schiller University Jena • Jena"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Friedrich Schiller University Jena",
+      "universityWebsite": "https://www.uni-jena.de/",
+      "name": "Master of Science in Molecular Life Sciences MSc in Molecular Life Sciences",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Molecular Life Sciences MSc in Molecular Life Sciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4252/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4252/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

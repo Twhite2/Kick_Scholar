@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:96a4436eb038fec10e187cba5c190e858490a815d6a15ec6e60ac79bd52a09db",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:20:00.365Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7602/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Agricultural and Food Economics (AFECO)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Agricultural and Food Economics (AFECO)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7602/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7602/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A BSc degree or equivalent in study programmes linked to agricultural sciences, agribusiness management, agricultural economics, food and household economics, economics, business management, or similar, with a minimum amount of 42 ECTS in economics-related courses",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "42",
+          "unit": "ECTS",
+          "sourceQuote": "A BSc degree or equivalent in study programmes linked to agricultural sciences, agribusiness management, agricultural economics, food and household economics, economics, business management, or similar, with a minimum amount of 42 ECTS in economics-related courses",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "ECTS",
+          "sourceQuote": "5 ECTS in microeconomics and 5 ECTS in statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "ECTS",
+          "sourceQuote": "5 ECTS in microeconomics and 5 ECTS in statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": "German system",
+          "sourceQuote": "A GPA of \"good\", second-class upper division, B+ or equivalent grade in other grading systems (2.5 in the German system)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Start in October (WiSe): The application period opens on 1 December (of the previous year) and closes on 15 July (of the same year). Early evaluations are carried out on 15 February (the recommended deadline for students requiring an entry visa for Germany). Applications submitted between 16 February and 15 July are evaluated on 15 July.",
+          "intake": null,
+          "sourceQuote": "Start in October (WiSe): The application period opens on 1 December (of the previous year) and closes on 15 July (of the same year). Early evaluations are carried out on 15 February (the recommended deadline for students requiring an entry visa for Germany). Applications submitted between 16 February and 15 July are evaluated on 15 July.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

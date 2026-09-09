@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c7745dae2c177a944b91388b3035da8a9497af398527c5a4a048429c648a8a1c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:46.661Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "European Union: Erasmus+ Mobility Project for Higher Education Teachers and Staff",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Erasmus+ individual mobility project is not only aimed at students but also at university teachers and members of staff at higher education institutions in Germany and other European states. The programme is intended to sponsor mobility of teaching, education and training within 33 European countries, or Erasmus+ programme countries, and in the specified [Erasmus+ partner countries](https://eu.daad.de/infos-fuer-hochschulen/programmlinien/infos-zu-programm-und-partnerlaendern/de/45673-erasmus-partnerlaender/) around the world. For further information applicants should contact the [International Office](https://eu.daad.de/service/ansprechpartner/erasmus-plus-hochschulkoordinatoren/de/46403-erasmus-hochschulkoordinatoren/) of their home institution.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000121",
+      "deadlineText": "The [International Office](https://eu.daad.de/service/ansprechpartner/erasmus-plus-hochschulkoordinatoren/de/46403-erasmus-hochschulkoordinatoren/) of your home institution of higher education will provide you with the relevant application deadlines.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000121",
+      "sourceQuote": "Erasmus+ mobility activities further individual training and education of all staff at higher education institutions. The project offers teaching assignments geared to: professors and other teaching staff who are under contract to the institution of higher education members of scientific staff doctoral candidates active in teaching staff from any international enterprise or organisation (may be in…",
+      "eligibility": [
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "students, university teachers, and members of staff at higher education institutions in Germany and other European states",
+          "sourceQuote": "The Erasmus+ individual mobility project is not only aimed at students but also at university teachers and members of staff at higher education institutions in Germany and other European states.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "professors and other teaching staff who are under contract to the institution of higher education",
+          "sourceQuote": "professors and other teaching staff who are under contract to the institution of higher education",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "members of scientific staff",
+          "sourceQuote": "members of scientific staff",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "doctoral candidates active in teaching",
+          "sourceQuote": "doctoral candidates active in teaching",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "staff from any international enterprise or organisation (may be invited to teach at a higher education institution in Germany)",
+          "sourceQuote": "staff from any international enterprise or organisation (may be invited to teach at a higher education institution in Germany)",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "AT",
+            "BE",
+            "BG",
+            "CY",
+            "CZ",
+            "DK",
+            "EE",
+            "EL",
+            "ES",
+            "FI",
+            "FR",
+            "HR",
+            "HU",
+            "IE",
+            "IS",
+            "IT",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK",
+            "TR",
+            "UK"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The programme is intended to sponsor mobility of teaching, education and training within 33 European countries, or Erasmus+ programme countries, and in the specified [Erasmus+ partner countries](https://eu.daad.de/infos-fuer-hochschulen/programmlinien/infos-zu-programm-und-partnerlaendern/de/45673-erasmus-partnerlaender/) around the world.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

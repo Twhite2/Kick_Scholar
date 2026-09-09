@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:906c99009add547fa6ca6efcf859f9cd9b4526ec2cf2acbcdf6d06aa8033a176",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:32.939Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Klassik Stiftung Weimar Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "With its fellowship programme, the Klassik Stiftung Weimar supports outstanding scientific, essayistic and art projects within 3 funding lines. As residency scholarships, they offer a sojourn of several months in Weimar, a city rich in cultural heritage.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000543",
+      "deadlineText": "Up-do-date information on deadlines can be found [here](https://www.klassik-stiftung.de/en/research/research-activities/fellowships/).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000543",
+      "sourceQuote": "Weimar Fellowships: Support for graduates, post-doctoral researchers and habilitated scientists who wish to use the Weimar collections for their research work. Fellows can work in all institutions maintained by the Klassik Stiftung Weimar, with preference given to the Goethe and Schiller Archive, the Duchess Anna Amalia Library and the museums in order to use the broad inventory of historic books,…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": "at minimum a Master of Arts degree or equivalent (e.g. a \"Magister\")",
+          "sourceQuote": "Weimar and Nietzsche Fellowships: at minimum a Master of Arts degree or equivalent (e.g. a \"Magister\")",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": "students, graduates in the fields of art, media, design, literature, curatorial practice and cultural mediation",
+          "sourceQuote": "Bauhaus Fellowships: artists and persons engaged in the cultural sector, students, graduates in the fields of art, media, design, literature, curatorial practice and cultural mediation",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

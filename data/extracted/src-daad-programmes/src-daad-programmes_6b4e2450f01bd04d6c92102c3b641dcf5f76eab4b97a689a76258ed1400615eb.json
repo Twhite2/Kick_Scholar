@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6b4e2450f01bd04d6c92102c3b641dcf5f76eab4b97a689a76258ed1400615eb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:08:25.920Z",
+  "universities": [
+    {
+      "name": "TU Dortmund University",
+      "country": "DE",
+      "city": "Dortmund",
+      "website": "https://www.tu-dortmund.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8559/",
+      "sourceQuote": "TU Dortmund University • Dortmund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "TU Dortmund University",
+      "universityWebsite": "https://www.tu-dortmund.de/",
+      "name": "Religion, Ethics, and Politics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Religion, Ethics, and Politics",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8559/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8559/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree (or equivalent) in humanities, cultural sciences, social sciences, economics, natural sciences, and/or engineering, which has provided significant knowledge in a philosophical, political science or a theological subject;",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "The overall grade achieved in the Bachelor’s degree should be at least \"good\" (grade: 2.5) or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries Iceland Norway Liechtenstein",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

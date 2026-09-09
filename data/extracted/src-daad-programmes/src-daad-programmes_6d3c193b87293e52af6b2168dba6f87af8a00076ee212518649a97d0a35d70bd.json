@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6d3c193b87293e52af6b2168dba6f87af8a00076ee212518649a97d0a35d70bd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:07:52.320Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6239/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Spanish Culture and European Identity / Spanische Kultur und Europäische Identität / Cultura y pensamiento europeo: tradición y pervivencia Spanish Culture and European Identity",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Spanish Culture and European Identity / Spanische Kultur und Europäische Identität / Cultura y pensamiento europeo: tradición y pervivencia Spanish Culture and European Identity",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German Spanish"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6239/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6239/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor of Arts in Romance Studies (with a focus on Spanish studies) or a similar subject",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor of Arts in Romance Studies (with a focus on Spanish studies) or a similar subject as well as very good knowledge of Spanish and German literature, linguistics and culture.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application deadlines are available on the following website:",
+          "intake": null,
+          "sourceQuote": "The application deadlines are available on the following website:",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

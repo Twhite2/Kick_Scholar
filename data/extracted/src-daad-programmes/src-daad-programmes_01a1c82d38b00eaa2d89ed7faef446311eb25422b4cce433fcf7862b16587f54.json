@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:01a1c82d38b00eaa2d89ed7faef446311eb25422b4cce433fcf7862b16587f54",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:23.412Z",
+  "universities": [
+    {
+      "name": "University of Hildesheim",
+      "country": "DE",
+      "city": "Hildesheim",
+      "website": "https://www.uni-hildesheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8417/",
+      "sourceQuote": "University of Hildesheim • Hildesheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hildesheim",
+      "universityWebsite": "https://www.uni-hildesheim.de/",
+      "name": "Master of Science in Software Engineering Software Engineering (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Software Engineering Software Engineering (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8417/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8417/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students with a Bachelor's degree in Computer Science, Information Technology, or a related field are eligible to apply.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Eligible admissions are prioritised according to the following criteria:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "61",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 61",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

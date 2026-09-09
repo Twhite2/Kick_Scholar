@@ -1,0 +1,95 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c970defd912aef859587899452c89ef40244225fd43ab07b5b0c29f0718c0667",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:44.297Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Bayer Foundation: Jeff Schell Fellowship in Agricultural Sciences",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Jeff Schell Fellowship can be granted to MSc and PhD students from all fields of natural science and data science with fundamental or applied studies with relevance to the crop science industry. Students from Germany who are going abroad for a study or research project or practical work experience or students from abroad who are studying, researching or doing an internship in Germany can apply. Applicants should have a high level of motivation, personal commitment and an innovative international project. The programme offers individual financial support for this.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000551",
+      "deadlineText": "Please check the [website](https://www.bayer-foundation.com/science/fellowships-stipends) for up-to-date information on application deadlines.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000551",
+      "sourceQuote": "students (MSc or PhD) of natural science and data science with fundamental or applied studies in agricultural science",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Jeff Schell Fellowship can be granted to MSc and PhD students from all fields of natural science and data science with fundamental or applied studies with relevance to the crop science industry.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "natural science and data science with fundamental or applied studies with relevance to the crop science industry",
+          "sourceQuote": "The Jeff Schell Fellowship can be granted to MSc and PhD students from all fields of natural science and data science with fundamental or applied studies with relevance to the crop science industry.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "high level of motivation, personal commitment and an innovative international project",
+          "sourceQuote": "Applicants should have a high level of motivation, personal commitment and an innovative international project.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Students from Germany who are going abroad for a study or research project or practical work experience or students from abroad who are studying, researching or doing an internship in Germany can apply.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Students from Germany who are going abroad for a study or research project or practical work experience or students from abroad who are studying, researching or doing an internship in Germany can apply.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

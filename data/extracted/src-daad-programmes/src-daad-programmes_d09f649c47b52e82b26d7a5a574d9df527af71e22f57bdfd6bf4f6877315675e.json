@@ -1,0 +1,146 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d09f649c47b52e82b26d7a5a574d9df527af71e22f57bdfd6bf4f6877315675e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:57.574Z",
+  "universities": [
+    {
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "country": "DE",
+      "city": "Sankt Augustin",
+      "website": "https://www.h-brs.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3799/",
+      "sourceQuote": "Hochschule Bonn-Rhein-Sieg • Sankt Augustin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Bonn-Rhein-Sieg",
+      "universityWebsite": "https://www.h-brs.de",
+      "name": "Autonomous Systems (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Autonomous Systems (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3799/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3799/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For admission to the programme, a professional academic degree (Bachelor's or equivalent) is required in the areas of computer science, mathematics, natural sciences or engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The application should demonstrate sufficient knowledge of concepts, methods and tools in the field of computer science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German grading scale",
+          "sourceQuote": "For your application to be reviewed by our admissions committee, a grade point average (GPA) of 2.5 or better on the German grading scale (1=excellent to 5=fail) is necessary.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "IN_LIST",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "IN_LIST",
+          "value": "telc English B2-C1 University",
+          "unit": null,
+          "sourceQuote": "* telc English: telc English B2-C1 University",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "71",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 71",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "IN_LIST",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For applicants with a visa requirement with a Bachelor's degree from abroad who do not yet have a visa for Germany:",
+          "intake": null,
+          "sourceQuote": "For applicants with a visa requirement with a Bachelor's degree from abroad who do not yet have a visa for Germany:",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

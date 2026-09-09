@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d19cef20018b2d31d58f14643450917834d5dbb299959aebc9182ed9a69526f8",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:00.053Z",
+  "universities": [
+    {
+      "name": "Pforzheim University",
+      "country": "DE",
+      "city": "Pforzheim",
+      "website": "https://www.hs-pforzheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4659/",
+      "sourceQuote": "Pforzheim University • Pforzheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Pforzheim University",
+      "universityWebsite": "https://www.hs-pforzheim.de/",
+      "name": "Business Administration / Digital Business Management (BSc) Business Administration / Digital Business Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Business Administration / Digital Business Management (BSc) Business Administration / Digital Business Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4659/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4659/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

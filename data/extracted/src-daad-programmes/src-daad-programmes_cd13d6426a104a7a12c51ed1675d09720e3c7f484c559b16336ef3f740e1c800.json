@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cd13d6426a104a7a12c51ed1675d09720e3c7f484c559b16336ef3f740e1c800",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:38.179Z",
+  "universities": [
+    {
+      "name": "Chemnitz University of Technology",
+      "country": "DE",
+      "city": "Chemnitz",
+      "website": "https://www.tu-chemnitz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4695/",
+      "sourceQuote": "Chemnitz University of Technology • Chemnitz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Chemnitz University of Technology",
+      "universityWebsite": "https://www.tu-chemnitz.de/",
+      "name": "Advanced Functional Materials",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Advanced Functional Materials",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4695/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4695/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

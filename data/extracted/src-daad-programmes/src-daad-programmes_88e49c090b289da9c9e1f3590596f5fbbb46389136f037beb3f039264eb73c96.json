@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:88e49c090b289da9c9e1f3590596f5fbbb46389136f037beb3f039264eb73c96",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:06.428Z",
+  "universities": [
+    {
+      "name": "Leibniz University Hannover",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.uni-hannover.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4869/",
+      "sourceQuote": "Leibniz University Hannover • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leibniz University Hannover",
+      "universityWebsite": "https://www.uni-hannover.de/de/",
+      "name": "North American Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "North American Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4869/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4869/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "It is a prerequisite for access to the Master's programme in North American Studies that the candidate has an academic degree in a relevant subject from a German university or a university adhering to the Bologna Process or an equivalent academic degree in a relevant subject from a foreign university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree, Master's degree, Diploma (\"Diplom\"), Magister, state-examination degree",
+          "unit": null,
+          "sourceQuote": "An academic degree from a German University or university adhering to the Bologna Process can be either a Bachelor's degree, Master's degree, Diploma (\"Diplom\"), Magister, or state-examination degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "English, Anglistics, American Studies, Cultural Studies or other Humanities subjects",
+          "unit": null,
+          "sourceQuote": "Subjects that qualify as relevant for the previous study programme are English, Anglistics, American Studies, Cultural Studies or other Humanities subjects.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "83.33%",
+          "unit": null,
+          "sourceQuote": "If the degree has not been completed at the time of application, notwithstanding paragraph one, proof needs to be given that 83.33% of the total necessary credit points have been earned (at least 150 credits).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "150",
+          "unit": "credits",
+          "sourceQuote": "If the degree has not been completed at the time of application, notwithstanding paragraph one, proof needs to be given that 83.33% of the total necessary credit points have been earned (at least 150 credits).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with a Bachelor’s degree in English and American Studies do not need to provide any further proof of their English language proficiency beyond their degree certificate.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,78 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:d8cdd0db97175e97b9dd431fd82ec2c6a54ef458201e9696560edc8e894a80d1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:35.376Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Government Scholarships Programme Tunesia **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme supports students from the Republic of Tunisia.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000344",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000344",
+      "sourceQuote": "The programme is aimed at applicants with a secondary education diploma wishing to take a Bachelor or Master’s degree in Germany.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Republic of Tunisia"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme supports students from the Republic of Tunisia.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is aimed at applicants with a secondary education diploma wishing to take a Bachelor or Master’s degree in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "secondary education diploma",
+          "sourceQuote": "The programme is aimed at applicants with a secondary education diploma wishing to take a Bachelor or Master’s degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The programme is aimed at applicants with a secondary education diploma wishing to take a Bachelor or Master’s degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

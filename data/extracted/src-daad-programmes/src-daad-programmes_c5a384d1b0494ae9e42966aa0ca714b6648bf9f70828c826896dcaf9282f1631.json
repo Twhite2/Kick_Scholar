@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c5a384d1b0494ae9e42966aa0ca714b6648bf9f70828c826896dcaf9282f1631",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:45.204Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6118/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "Cellular and Immunological Biosciences — From Single Cells to Plants, Animals, and Humans (MSc) Cellular and Immunological Biosciences (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Cellular and Immunological Biosciences — From Single Cells to Plants, Animals, and Humans (MSc) Cellular and Immunological Biosciences (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6118/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6118/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree with a grade of at least 2.5 (German grading system)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.0",
+          "unit": null,
+          "sourceQuote": "In previous years, the grade limit was around 2.0.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A2** required, please provide an official language certificate, e.g.: \n  * Goethe-Zertifikat: Goethe-Zertifikat A2 \n  * telc Deutsch: telc Deutsch A2 \n  * ÖSD Zertifikat: A2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 6.5 \n  * Cambridge English Qualifications: B2 First \n  * TOEFL iBT (since 2026): 4 \n  * Reading: 4 \n  * Listening: 4 \n  * Speaking: 4 \n  * Writing: 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

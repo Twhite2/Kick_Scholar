@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d48ccf65404c9bdf52585a9246bb5b4da7d95031d52602846b32e15a77793e14",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:18.819Z",
+  "universities": [
+    {
+      "name": "University of Konstanz",
+      "country": "DE",
+      "city": "Konstanz",
+      "website": "https://www.uni-konstanz.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4778/",
+      "sourceQuote": "University of Konstanz • Konstanz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Konstanz",
+      "universityWebsite": "https://www.uni-konstanz.de",
+      "name": "Anthropology and Sociology (Master of Arts)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Anthropology and Sociology (Master of Arts)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4778/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4778/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Above-average degree (minimum degree: Bachelor of Arts or equivalent) with the grade \"good\" (2.5) or better of a three-year (or more) study programme in a subject related to the two disciplines involved in the Master's programme at a state or state-accredited institution of higher education.",
+          "unit": null,
+          "sourceQuote": "Above-average degree (minimum degree: Bachelor of Arts or equivalent) with the grade \"good\" (2.5) or better of a three-year (or more) study programme in a subject related to the two disciplines involved in the Master's programme at a state or state-accredited institution of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A letter of motivation (two DIN A4 pages or more) stating why you are interested in the Master's programme Anthropology and Sociology as well as your expectations and professional ambitions in the future.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If you have not yet completed your BA degree by the end of the application deadline, please attach the official documentation of all your academic achievements so far as well as your current average grades.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "An application is possible during the following period(s): 07 May - 15 July | 25 November - 15 January",
+          "intake": null,
+          "sourceQuote": "An application is possible during the following period(s): 07 May - 15 July | 25 November - 15 January",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

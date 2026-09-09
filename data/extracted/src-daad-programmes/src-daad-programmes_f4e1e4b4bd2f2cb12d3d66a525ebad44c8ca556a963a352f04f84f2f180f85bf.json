@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f4e1e4b4bd2f2cb12d3d66a525ebad44c8ca556a963a352f04f84f2f180f85bf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:19.182Z",
+  "universities": [
+    {
+      "name": "Deggendorf Institute of Technology",
+      "country": "DE",
+      "city": "Deggendorf",
+      "website": "https://www.th-deg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7124/",
+      "sourceQuote": "Deggendorf Institute of Technology • Deggendorf"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Deggendorf Institute of Technology",
+      "universityWebsite": "https://www.th-deg.de",
+      "name": "MSc Artificial Intelligence and Data Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Artificial Intelligence and Data Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7124/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7124/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The eligibility requirements are a Bachelor's degree and at least 90 credit points from the field of computer science including 18 credits from the fields of artificial intelligence and/or data science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition, an admission test has to be completed successfully.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "IN_LIST",
+          "value": "telc English B2",
+          "unit": null,
+          "sourceQuote": "telc English: telc English B2",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "1 October to 1 November for March entries (summer semester at DIT )",
+          "intake": null,
+          "sourceQuote": "1 October to 1 November for March entries (summer semester at DIT )",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

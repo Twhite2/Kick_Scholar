@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:78b339109a45ea3c84f39068a90f2a7b1610437494fa3daacdd6dc3afb4825dd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:44.192Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6284/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "Space Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Space Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6284/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6284/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "Students are required to have English language skills (level C1) and to hold a Bachelor's degree with 180 credit points in mechanical/aerospace engineering or applied physics with a corresponding specialisation.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "EQ",
+          "value": "180 credit points",
+          "unit": null,
+          "sourceQuote": "Students are required to have English language skills (level C1) and to hold a Bachelor's degree with 180 credit points in mechanical/aerospace engineering or applied physics with a corresponding specialisation.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "mechanical/aerospace engineering or applied physics with a corresponding specialisation",
+          "unit": null,
+          "sourceQuote": "Students are required to have English language skills (level C1) and to hold a Bachelor's degree with 180 credit points in mechanical/aerospace engineering or applied physics with a corresponding specialisation.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24 CP",
+          "unit": null,
+          "sourceQuote": "In the previous degree programme, at least 24 CP must have been earned in study components related to aeronautical or astronautical engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A written entrance test on the fundamentals of aerospace technology will be conducted online after the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In the previous degree programme, at least 24 CP must have been earned in study components related to aeronautical or astronautical engineering.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:dfe8a6b1e9259d84eba473fb54ee679b5bf4f9573e03ad09b5ba7bf0e848052a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:14.335Z",
+  "universities": [
+    {
+      "name": "Technische Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.tu.berlin/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4121/",
+      "sourceQuote": "Technische Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Berlin",
+      "universityWebsite": "https://www.tu.berlin/",
+      "name": "International Doctoral Programme Computational Neuroscience Doctoral Programme Computational Neuroscience",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Doctoral Programme Computational Neuroscience Doctoral Programme Computational Neuroscience",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4121/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4121/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "MSc or equivalent degree",
+          "unit": null,
+          "sourceQuote": "Students with an interest in computational neuroscience and with a strong mathematical background are welcome to apply if they hold an MSc or equivalent degree at the start of the programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "87",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 87",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

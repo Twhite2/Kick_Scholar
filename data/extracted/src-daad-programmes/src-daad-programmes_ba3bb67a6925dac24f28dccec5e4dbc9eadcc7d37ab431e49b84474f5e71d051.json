@@ -1,0 +1,137 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ba3bb67a6925dac24f28dccec5e4dbc9eadcc7d37ab431e49b84474f5e71d051",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:34.712Z",
+  "universities": [
+    {
+      "name": "Stralsund University of Applied Sciences",
+      "country": "DE",
+      "city": "Stralsund",
+      "website": "https://www.hochschule-stralsund.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7977/",
+      "sourceQuote": "Stralsund University of Applied Sciences • Stralsund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Stralsund University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-stralsund.de",
+      "name": "International Innovation Management (INNO)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Innovation Management (INNO)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7977/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7977/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS points",
+          "sourceQuote": "Proof of an undergraduate degree (Bachelor's level; at least 210 ECTS points) in Management, Economics, Business Administration, Business Engineering, Business Informatics or a generally closely-related degree programme with an average grade of at least 2.7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.7",
+          "unit": null,
+          "sourceQuote": "Proof of an undergraduate degree (Bachelor's level; at least 210 ECTS points) in Management, Economics, Business Administration, Business Engineering, Business Informatics or a generally closely-related degree programme with an average grade of at least 2.7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English proficiency",
+          "operator": "GTE",
+          "value": "B2+",
+          "unit": null,
+          "sourceQuote": "Proof of **English proficiency**(at least B2+ according to the European Framework of Reference for Languages)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "21",
+          "unit": "weeks",
+          "sourceQuote": "The duration of the relevant practical work experience or an internship is at least 21 weeks or 30 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "ECTS credits",
+          "sourceQuote": "The duration of the relevant practical work experience or an internship is at least 21 weeks or 30 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "EQ",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications Business (BEC)",
+          "operator": "EQ",
+          "value": "B2 Business Vantage",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications Business (BEC) : B2 Business Vantage",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

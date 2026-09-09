@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c2390df05cf100a2a103d386dfcdf44cbb0596344a06dc21d528a6f48a14dac3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:17:23.954Z",
+  "universities": [
+    {
+      "name": "University of Potsdam",
+      "country": "DE",
+      "city": "Potsdam",
+      "website": "https://www.uni-potsdam.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6262/",
+      "sourceQuote": "University of Potsdam • Potsdam"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Potsdam",
+      "universityWebsite": "https://www.uni-potsdam.de",
+      "name": "Cognitive Systems: Language, Learning, and Reasoning",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Cognitive Systems: Language, Learning, and Reasoning",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6262/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6262/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants need to demonstrate that they already have programming skills as well as background knowledge in at least one of these areas: Foundations of Mathematics, Foundations of Computer Science, or Foundations of Linguistics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**Documentation of your background knowledge** in at least one of these areas: Foundations of Mathematics (calculus, linear algebra, statistics), Foundations of Computer Science (data structures and algorithms, formal languages and automata), or Foundations of Linguistics (syntax, semantics, phonology, pragmatics).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "9",
+          "unit": "ECTS",
+          "sourceQuote": "It is possible to document your background knowledge by having taken at least 9 ECTS worth of classes.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**Documentation of your programming skills**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "The preferred way is that your transcript of records clearly lists at least 6 ECTS worth of programming classes.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application deadline for the winter semester: 1 June (first semester) and 15 August (advanced semester)",
+          "intake": null,
+          "sourceQuote": "Application deadline for the winter semester: 1 June (first semester) and 15 August (advanced semester)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

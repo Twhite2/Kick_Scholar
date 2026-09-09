@@ -1,0 +1,81 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:ab8be8e27f3fc1b78f604817befcefe14749dfe998ce15362578562127da258b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:32.937Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German National Academic Foundation: Leo Baeck Fellowship Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The international Leo Baeck Fellowship Programme awards grants to doctoral students who carry out research into the German-Jewish Studies on history and culture. Projects on any period or field (including literature, philosophy, history, culture studies), and any region (such as Europe, Israel, the Americas) are welcome. In addition to financial support for 1 year, the programme offers an opportunity to exchange ideas and network. It is open to doctoral candidates of any nationality, studying at any university. All fellows remain at their home institutions, but get together for 2 workshops which are jointly organised by the Studienstiftung des deutschen Volkes, the Leo Baeck Institute London and the Leibniz-Institute for Jewish History and Culture. The fellows are granted a stipend of 1,650 EUR per month together with a research cost allowance of 100 EUR. If necessary, a health insurance allowance of up to 100 EUR will also be included. In addition, allowances for fellows with children or for a (part-time) stay abroad are paid. For research trips and conference participation monthly supplements and travel allowances are available on application. To support doctoral studies abroad fellows may apply for a monthly grant, and, where applicable, a grant to tuition fees of up to 10,000 EUR. The funding complies with the guidelines on the promotion of talented junior researchers by the German Federal Ministry of Education and Research.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000198",
+      "deadlineText": "You may find current application deadlines [here](https://www.studienstiftung.de/en/leo-baeck-fellowship).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000198",
+      "sourceQuote": "excellent early-career scientists working on theses dealing with German-Jewish history and culture",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "It is open to doctoral candidates of any nationality, studying at any university.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ANY"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "It is open to doctoral candidates of any nationality, studying at any university.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "German-Jewish Studies"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The international Leo Baeck Fellowship Programme awards grants to doctoral students who carry out research into the German-Jewish Studies on history and culture.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "It is open to doctoral candidates of any nationality, studying at any university.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

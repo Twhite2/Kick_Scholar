@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:78e3e7abd776b2ce1fdd11a20de9985d81495eca43e3a79d8d9e27f57af3e204",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:37.162Z",
+  "universities": [
+    {
+      "name": "Frankfurt University of Applied Sciences",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.frankfurt-university.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7065/",
+      "sourceQuote": "Frankfurt University of Applied Sciences • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Frankfurt University of Applied Sciences",
+      "universityWebsite": "https://www.frankfurt-university.de/",
+      "name": "Advanced Architecture — From Urban Design to Building Construction Advanced Architecture",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Advanced Architecture — From Urban Design to Building Construction Advanced Architecture",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7065/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7065/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "diploma or Bachelor's degree in architecture with 180 ECTS",
+          "unit": null,
+          "sourceQuote": "Admission to the English-language Master’s degree programme in “Advanced Architecture“ is granted to applicants with a diploma or Bachelor's degree in architecture with 180 ECTS, completed with a grade that corresponds at least to the grade of 2.3, as calculated according to the German grading system.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.3",
+          "unit": null,
+          "sourceQuote": "Admission to the English-language Master’s degree programme in “Advanced Architecture“ is granted to applicants with a diploma or Bachelor's degree in architecture with 180 ECTS, completed with a grade that corresponds at least to the grade of 2.3, as calculated according to the German grading system.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants will have to submit a CV, a portfolio describing their studies and their first work experiences, and a letter of motivation.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "4",
+          "unit": "months",
+          "sourceQuote": "They also have to provide proof of at least a four-month internship in an area relevant to architecture after their first degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For prospective students with foreign degrees: 15 October of the previous year",
+          "intake": null,
+          "sourceQuote": "For prospective students with foreign degrees: 15 October of the previous year",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:169a10f5d33f7391f9926e72ecf9d8ecf598186db8a8169c661071fe0ba2bcfb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:58:51.644Z",
+  "universities": [
+    {
+      "name": "Hof University of Applied Sciences",
+      "country": "DE",
+      "city": "Hof",
+      "website": "https://www.hof-university.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6236/",
+      "sourceQuote": "Hof University of Applied Sciences • Hof"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hof University of Applied Sciences",
+      "universityWebsite": "https://www.hof-university.de",
+      "name": "Applied Research in Computer Science (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Applied Research in Computer Science (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6236/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6236/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in computer science, media informatics, mobile computing or business information systems, or comparable study programmes",
+          "unit": null,
+          "sourceQuote": "* **Bachelor's degree in computer science** , media informatics, mobile computing or business information systems, or comparable study programmes (Please note: electrical engineering is NOT in compliance with the requirements.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* **Above average grades** in object-oriented programming, software engineering, computer networks and databases",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* **Written application** that includes your Bachelor's thesis, a certification about an internship or practical work of at least 18 weeks, and a two-page literature review about a scientific topic of one of the iisys research groups",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* **Oral exam** with questions and discussion of a case study presented by you (can be done via video chat)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

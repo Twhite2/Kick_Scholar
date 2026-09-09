@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:aa66f24f6f60f97f98e13e724c6e767ca57b41efea609b22e5a5eb6e36989391",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:47.661Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Erfurt",
+      "country": "DE",
+      "city": "Erfurt",
+      "website": "https://www.fh-erfurt.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7729/",
+      "sourceQuote": "University of Applied Sciences Erfurt • Erfurt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Erfurt",
+      "universityWebsite": "https://www.fh-erfurt.de/",
+      "name": "Sustainable Engineering of Infrastructure (SEI)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Engineering of Infrastructure (SEI)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7729/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7729/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor’s degree in Civil Engineering with above-average exam results (equivalent to German grade 2 or better) and a workload of at least 210 credits (ECTS) or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor’s degree in Civil Engineering with above-average exam results (equivalent to German grade 2 or better) and a workload of at least 180 credits (ECTS) or equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In this case, the remaining 30 credits can be earned by completing a 16-week engineering placement with an accompanying written report and colloquium prior to writing the Master’s thesis.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "The engineering placement can be substituted in whole by a minimum of one year of professional experience as a civil engineer.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Grade average of Bachelor’s degree and submission of an exposé on the Bachelor’s thesis comprising a maximum of 7,500 characters (including spaces) for the selection procedure",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4efa095e925aacc1894a9b55c66dfa77430666ce4b92a69a6a7f545669426f60",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:46.013Z",
+  "universities": [
+    {
+      "name": "Hof University of Applied Sciences",
+      "country": "DE",
+      "city": "Hof",
+      "website": "https://www.hof-university.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4664/",
+      "sourceQuote": "Hof University of Applied Sciences • Hof"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hof University of Applied Sciences",
+      "universityWebsite": "https://www.hof-university.de",
+      "name": "Operational Excellence (MBA and Eng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Operational Excellence (MBA and Eng)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 3300,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4664/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4664/",
+      "sourceQuote": "Degree Master of Engineering Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A **Bachelor's degree** or similar from an accredited university**in engineering sciences** , at least 180 ECTS or equivalent (depending on the home country)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "**One year of relevant work experience**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

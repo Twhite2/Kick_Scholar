@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7dea449bfd05e5ddedf41845989e82273cfaa69585f6d3d14db3fb0d592425d0",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:39.507Z",
+  "universities": [
+    {
+      "name": "Dortmund University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Dortmund",
+      "website": "https://www.fh-dortmund.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3996/",
+      "sourceQuote": "Dortmund University of Applied Sciences and Arts • Dortmund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dortmund University of Applied Sciences and Arts",
+      "universityWebsite": "https://www.fh-dortmund.de/",
+      "name": "European Master's in Project Management (EuroMPM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "European Master's in Project Management (EuroMPM)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3996/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3996/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Diploma or Bachelor's degree in Business Science and/or Project Management and/or Computer Science, or a closely related field to the European Master's in Project Management, obtained from a university, polytechnic, university of applied sciences, or an accredited professional academy",
+          "unit": null,
+          "sourceQuote": "A Diploma or Bachelor's degree in Business Science and/or Project Management and/or Computer Science, or a closely related field to the European Master's in Project Management, obtained from a university, polytechnic, university of applied sciences, or an accredited professional academy",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A degree in a related field must include a curriculum that covers relevant competencies in business administration and/or project management, and/or computer science, at an appropriate scale and level.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.3",
+          "unit": null,
+          "sourceQuote": "The final grade must be at least \"good\" (2.3).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7c43d3f677e260ee2d27beaa15bc48664086ada9404ca3d683e54b34c19817cd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:37.021Z",
+  "universities": [
+    {
+      "name": "HWR Berlin (Berlin School of Economics and Law)",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hwr-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7722/",
+      "sourceQuote": "HWR Berlin (Berlin School of Economics and Law) • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HWR Berlin (Berlin School of Economics and Law)",
+      "universityWebsite": "https://www.hwr-berlin.de",
+      "name": "Master's in Business Management – Green Energy and Climate Finance Master's in Business Management – Green Energy & Climate Finance",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Business Management – Green Energy and Climate Finance Master's in Business Management – Green Energy & Climate Finance",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 3400,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7722/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7722/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "CP",
+          "sourceQuote": "University degree (210 CP) and at least one year of postgraduate work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "University degree (210 CP) and at least one year of postgraduate work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "years",
+          "sourceQuote": "For applicants without a first university degree: five years of relevant work experience plus a qualification test",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For applicants without a first university degree: five years of relevant work experience plus a qualification test",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Each year, applications are accepted starting on 1 December. We recommend applying early, as admissions are made on a rolling basis depending on suitability. For the programme start in October, 25 places are available annually.",
+          "intake": null,
+          "sourceQuote": "Each year, applications are accepted starting on 1 December. We recommend applying early, as admissions are made on a rolling basis depending on suitability. For the programme start in October, 25 places are available annually.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

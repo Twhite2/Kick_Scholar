@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8e231aa0b7fa1556eaddb9ec0a003852e3d115f32abd1c96d7bd928282d19402",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:11:04.269Z",
+  "universities": [
+    {
+      "name": "Frankfurt University of Applied Sciences",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.frankfurt-university.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6281/",
+      "sourceQuote": "Frankfurt University of Applied Sciences • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Frankfurt University of Applied Sciences",
+      "universityWebsite": "https://www.frankfurt-university.de/",
+      "name": "Global Logistics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Logistics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6281/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6281/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "Bachelor's with a focus on logistics, foreign trade, production or supply chain management with at least 180 ECTS (credit points) or equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Your study programme must include modules in at least one of the following areas:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "ECTS",
+          "sourceQuote": "Prove this knowledge by certifying these modules with at least 20 ECTS (or equivalent workload).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills (C1 level, with various ways to prove it; see website)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

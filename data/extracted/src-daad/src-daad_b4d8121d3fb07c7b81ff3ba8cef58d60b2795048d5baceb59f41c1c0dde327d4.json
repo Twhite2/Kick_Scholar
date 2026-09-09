@@ -1,0 +1,95 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:b4d8121d3fb07c7b81ff3ba8cef58d60b2795048d5baceb59f41c1c0dde327d4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:09.991Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Boehringer Ingelheim Fonds: PhD Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Boehringer Ingelheim Fonds offers doctoral fellowships to outstanding junior scientists who want to conduct an ambitious doctoral project in the field of basic biomedical research at an internationally leading laboratory. The financing includes a monthly stipend plus a country-dependent premium, and a fixed monthly amount for minor project-related costs. The fellowships are initially awarded for 2 years with the option to extend for up to 18 months. Moreover, participation in international scientific conferences and practice-oriented training courses is supported. Beside the financial support, fellows receive personal support, participate in seminars where they discuss their research projects with other fellows, and attend communication trainings designed especially for the needs of scientists.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000164",
+      "deadlineText": "1 February, 1 June and 1 October of each year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000164",
+      "sourceQuote": "Outstanding European junior scientists who want to do research worldwide, and non-European scientists wishing to do research in Europe. Applicants must have obtained their first university entrance qualification (secondary school leaving certificate, A-levels, or entrance test for first university studies after finishing school) within 8 years (96 months) before the application deadline.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Natural scientists should have obtained their last university degree (BSc, diploma, MSc or equivalent) before starting their doctorate.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 96,
+          "textValue": "first university entrance qualification within 8 years before the application deadline",
+          "sourceQuote": "Applicants must have obtained their first university entrance qualification (secondary school leaving certificate, A-levels, or entrance test for first university studies after finishing school) within 8 years (96 months) before the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Eligible applicants meet the following criteria: (1) outstanding academic record, (2) research proposal of extraordinary scientific quality and (3) excellent scientific standard of the laboratory, in which the project is to be realised.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HEALTH"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The Boehringer Ingelheim Fonds offers doctoral fellowships to outstanding junior scientists who want to conduct an ambitious doctoral project in the field of basic biomedical research at an internationally leading laboratory.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "US"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HEALTH"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The Boehringer Ingelheim Fonds offers doctoral fellowships to outstanding junior scientists who want to conduct an ambitious doctoral project in the field of basic biomedical research at an internationally leading laboratory.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

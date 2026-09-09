@@ -1,0 +1,148 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:09e5ac17932538ce9f0b0ea89c3921d054b3449a8d264605ffc2fb0d555de865",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:16.985Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Ministry for Science, Culture, Federal and European Affairs of Mecklenburg-West Pomerania: PhD Scholarships and Caspar-David-Friedrich Scholarships (CDF)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Higher education graduates of outstanding academic merit who plan to complete a doctoral programme or carry out an artistic development project at a higher education institution in Mecklenburg-West Pomerania are welcome to apply. The PhD scholarships are awarded to graduates with excellent academic achievements who have been admitted to a doctoral programme and are mentored by a PhD advisor at a higher-education institution of the federal state. The Caspar-David-Friedrich scholarships aim at sponsoring artists who wish to carry out an artistic development project. Applications are called for and awarded by the specific higher education institutions. Candidates should therefore directly contact the institution of their choice. The sponsorship amount is 1,500 EUR; if necessary, grant recipients will receive a child allowance.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000107",
+      "deadlineText": "Deadlines are announced on the specific higher education institutions' website.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000107",
+      "sourceQuote": "graduates of outstanding academic merit who have been admitted to a doctoral programme and are mentored by a PhD advisor (professor or similar) at a higher education institution in Mecklenburg-West Pomerania artists with a higher education degree who wish to carry out an artistic development project at a higher education institution in Mecklenburg-West Pomerania",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Higher education graduates of outstanding academic merit who plan to complete a doctoral programme or carry out an artistic development project at a higher education institution in Mecklenburg-West Pomerania are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Higher education graduates of outstanding academic merit who plan to complete a doctoral programme or carry out an artistic development project at a higher education institution in Mecklenburg-West Pomerania are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The PhD scholarships are awarded to graduates with excellent academic achievements who have been admitted to a doctoral programme and are mentored by a PhD advisor at a higher-education institution of the federal state.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The PhD scholarships are awarded to graduates with excellent academic achievements who have been admitted to a doctoral programme and are mentored by a PhD advisor at a higher-education institution of the federal state.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ARTS"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Caspar-David-Friedrich scholarships aim at sponsoring artists who wish to carry out an artistic development project.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "higher education degree for the CDF scholarships and admission to a doctoral programme for the PhD scholarships",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "admission to a doctoral programme; mentored by a PhD advisor; artists with a higher education degree",
+          "sourceQuote": "higher education degree for the CDF scholarships and admission to a doctoral programme for the PhD scholarships",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Higher education graduates of outstanding academic merit who plan to complete a doctoral programme or carry out an artistic development project at a higher education institution in Mecklenburg-West Pomerania are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The PhD scholarships are awarded to graduates with excellent academic achievements who have been admitted to a doctoral programme and are mentored by a PhD advisor at a higher-education institution of the federal state.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The Caspar-David-Friedrich scholarships aim at sponsoring artists who wish to carry out an artistic development project.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

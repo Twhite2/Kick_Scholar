@@ -1,0 +1,103 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:2d2dfa352c393436e9f5635bd1cf56d66fbf0da22d3c3c0fe7c69d5372b3d3bc",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:37.604Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Rosa Luxemburg Foundation: Scholarship Programme for International Doctoral Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The RLF is a political educational organisation closely affiliated with DIE LINKE (The Left Party) which awards scholarships to foreigners who come to Germany for their dissertation or in order to conduct research as part of their dissertation. The sponsorship is based upon the Foundation's political values: social justice and solidarity in particular.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000220",
+      "deadlineText": "1 October of each year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000220",
+      "sourceQuote": "particularly gifted international doctoral candidates from any discipline (except for medical disciplines) and type of higher education institution with a promising topic for a doctoral thesis who can identify with and are committed to the democratic socialism and its values",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "any discipline except medical disciplines",
+          "sourceQuote": "particularly gifted international doctoral candidates from any discipline (except for medical disciplines) and type of higher education institution with a promising topic for a doctoral thesis who can identify with and are committed to the democratic socialism and its values",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "doctoral candidates",
+          "sourceQuote": "particularly gifted international doctoral candidates from any discipline (except for medical disciplines) and type of higher education institution with a promising topic for a doctoral thesis who can identify with and are committed to the democratic socialism and its values",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "foreigners"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The RLF is a political educational organisation closely affiliated with DIE LINKE (The Left Party) which awards scholarships to foreigners who come to Germany for their dissertation or in order to conduct research as part of their dissertation.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "public or publicly accredited institution of higher education in Germany or abroad"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "acceptance at a public or publicly accredited institution of higher education in Germany or abroad",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "supervision by a university lecturer in Germany",
+          "sourceQuote": "supervision by a university lecturer in Germany",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The RLF is a political educational organisation closely affiliated with DIE LINKE (The Left Party) which awards scholarships to foreigners who come to Germany for their dissertation or in order to conduct research as part of their dissertation.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

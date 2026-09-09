@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:06ae79e4c5b77d9f17665e3510a4a345097e3df33fafb551d070ce377f73da29",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:56.179Z",
+  "universities": [
+    {
+      "name": "University of Hamburg",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.uni-hamburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3646/",
+      "sourceQuote": "University of Hamburg • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hamburg",
+      "universityWebsite": "https://www.uni-hamburg.de/",
+      "name": "Master's Programme in European and International Law (MEIL)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's Programme in European and International Law (MEIL)",
+      "fieldCategory": "LAW",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 3500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3646/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3646/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,124 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:7fdcfd4101aabf7dcced8c182347372311a4c17e2fdc40256e695c761db9473e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:53.888Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Boehringer Ingelheim Fonds: Travel Grants",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Boehringer Ingelheim Fonds travel grants are aimed at doctoral, MD and post-doctoral students who pursue experimental projects in basic biomedical research and who wish to learn methods relevant to their current research. To this end, the grant finances the participation in practical training courses or short-term research stays in other laboratories. The travel grant programme is open to all Europeans and to non-Europeans working in Europe to go to institutes or courses worldwide. Non-Europeans working outside Europe can apply for stays in Europe. Travel grants are awarded for up to 3 months and encompass a contribution which may cover the expenses for travel, lodging, and course fees.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000148",
+      "deadlineText": "Applications are welcome at any time, but must be submitted at the latest 6 weeks before, but not earlier than 6 months prior to the planned date of departure.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000148",
+      "sourceQuote": "PhD students or medical students pursuing an experimental doctoral thesis in basic research in biomedicine Postdocs who are pursuing an experimental project in basic research in biomedicine Graduates who have applied for an experimental PhD project in basic research in biomedicine, but who have not yet worked with their potential PhD supervisors The recipients of the funding are Europeans who work…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": "doctoral, MD and post-doctoral students",
+          "sourceQuote": "The Boehringer Ingelheim Fonds travel grants are aimed at doctoral, MD and post-doctoral students who pursue experimental projects in basic biomedical research and who wish to learn methods relevant to their current research.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "experimental projects in basic biomedical research",
+          "sourceQuote": "The Boehringer Ingelheim Fonds travel grants are aimed at doctoral, MD and post-doctoral students who pursue experimental projects in basic biomedical research and who wish to learn methods relevant to their current research.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Europeans"
+          ],
+          "numericValue": null,
+          "textValue": "open to all Europeans and to non-Europeans working in Europe",
+          "sourceQuote": "The travel grant programme is open to all Europeans and to non-Europeans working in Europe to go to institutes or courses worldwide.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "non-Europeans"
+          ],
+          "numericValue": null,
+          "textValue": "open to all Europeans and to non-Europeans working in Europe",
+          "sourceQuote": "The travel grant programme is open to all Europeans and to non-Europeans working in Europe to go to institutes or courses worldwide.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "non-European citizens"
+          ],
+          "numericValue": null,
+          "textValue": "Non-Europeans working outside Europe can apply for stays in Europe.",
+          "sourceQuote": "Non-Europeans working outside Europe can apply for stays in Europe.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "good academic standing",
+          "sourceQuote": "good academic standing and at least a BSc",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HEALTH"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The Boehringer Ingelheim Fonds travel grants are aimed at doctoral, MD and post-doctoral students who pursue experimental projects in basic biomedical research and who wish to learn methods relevant to their current research.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "EU"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HEALTH"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Non-Europeans working outside Europe can apply for stays in Europe.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

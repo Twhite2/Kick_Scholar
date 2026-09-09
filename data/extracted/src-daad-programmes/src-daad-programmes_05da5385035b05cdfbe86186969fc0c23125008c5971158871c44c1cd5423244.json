@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:05da5385035b05cdfbe86186969fc0c23125008c5971158871c44c1cd5423244",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:26:04.828Z",
+  "universities": [
+    {
+      "name": "Kaiserslautern University of Applied Sciences",
+      "country": "DE",
+      "city": "Zweibrücken",
+      "website": "https://www.hs-kl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4583/",
+      "sourceQuote": "Kaiserslautern University of Applied Sciences • Zweibrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kaiserslautern University of Applied Sciences",
+      "universityWebsite": "https://www.hs-kl.de",
+      "name": "Financial Services Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Financial Services Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4583/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4583/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "economics, business, management or finance course of study",
+          "unit": null,
+          "sourceQuote": "A prerequisite for admission to the Master's course of study is proof of a degree in an economics, business, management or finance course of study (210 ECTS) at a university of applied sciences, a university or a similar institution of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS",
+          "sourceQuote": "A prerequisite for admission to the Master's course of study is proof of a degree in an economics, business, management or finance course of study (210 ECTS) at a university of applied sciences, a university or a similar institution of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "semesters of theory",
+          "sourceQuote": "The course of study must include at least six semesters of theory.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Professional competence must be verified by relevant professional knowledge and competences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The admission commission can base its decision on a selective conversation and may integrate the professional suitability when making its decision.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

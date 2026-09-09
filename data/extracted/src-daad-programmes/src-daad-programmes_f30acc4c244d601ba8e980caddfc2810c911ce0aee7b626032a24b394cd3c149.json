@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f30acc4c244d601ba8e980caddfc2810c911ce0aee7b626032a24b394cd3c149",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:11.652Z",
+  "universities": [
+    {
+      "name": "Bremen University of Applied Sciences",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.hs-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5416/",
+      "sourceQuote": "Bremen University of Applied Sciences • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bremen University of Applied Sciences",
+      "universityWebsite": "https://www.hs-bremen.de/",
+      "name": "International MBA (Dual Degree): Focus Sustainable Risk Management International MBA: Focus Sustainable Risk Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International MBA (Dual Degree): Focus Sustainable Risk Management International MBA: Focus Sustainable Risk Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 6168,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5416/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5416/",
+      "sourceQuote": "Degree Master of Science Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Previous undergraduate degree in business management or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "At least two years of practical professional experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/sustainable-risk-management-focus.html).",
+          "intake": null,
+          "sourceQuote": "For application deadline please check the [website](https://www.graduatecenter.org/en/mba-master/sustainable-risk-management-focus.html).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

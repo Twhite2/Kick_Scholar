@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c51fbdeb43b3a6e8df70941603d61fb9c00263fbe4b56b55ec8eda015e0760ca",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:08:20.530Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute of Biochemistry",
+      "country": "DE",
+      "city": "Planegg",
+      "website": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/609956c50a8a7991497383.jpeg",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5336/",
+      "sourceQuote": "Max Planck Institute of Biochemistry • Planegg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute of Biochemistry",
+      "universityWebsite": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/609956c50a8a7991497383.jpeg",
+      "name": "International Max Planck Research School for Molecules of Life (IMPRS-ML) IMPRS for Molecules of Life (IMPRS-ML)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School for Molecules of Life (IMPRS-ML) IMPRS for Molecules of Life (IMPRS-ML)",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5336/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5336/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Entry level for doctoral studies at IMPRS-ML usually is a Master of Science(or equivalent).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Four-year first class BSc hons degree awarded by a university inside the European Bologna System(equivalent to 240 ECTS) are eligible.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Four-year first class BSc hons or MSci degree(equivalent to 240 ECTS) from the UK, Australia or Canada are eligible.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Four-year BSc degree awarded by universities outside the European Bologna System are not eligible.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with MBBS, MD, or veterinary medicine degrees are not eligible for this PhD programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

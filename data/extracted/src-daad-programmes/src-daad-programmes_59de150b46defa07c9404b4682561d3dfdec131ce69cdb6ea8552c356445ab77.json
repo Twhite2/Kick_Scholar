@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:59de150b46defa07c9404b4682561d3dfdec131ce69cdb6ea8552c356445ab77",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:29.557Z",
+  "universities": [
+    {
+      "name": "Trier University",
+      "country": "DE",
+      "city": "Trier",
+      "website": "https://www.uni-trier.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6967/",
+      "sourceQuote": "Trier University • Trier"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Trier University",
+      "universityWebsite": "https://www.uni-trier.de",
+      "name": "MA German as a Second and Foreign Language / Deutsch als Zweit- und Fremdsprache MA German as a Second and Foreign Language",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA German as a Second and Foreign Language / Deutsch als Zweit- und Fremdsprache MA German as a Second and Foreign Language",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6967/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6967/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "IN_LIST",
+          "value": "DSD II",
+          "unit": null,
+          "sourceQuote": "  * Deutsches Sprachdiplom der Kultusministerkonferenz (DSD): DSD II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "IN_LIST",
+          "value": "telc Deutsch C1",
+          "unit": null,
+          "sourceQuote": "  * telc Deutsch: telc Deutsch C1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "IN_LIST",
+          "value": "Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom",
+          "unit": null,
+          "sourceQuote": "  * Goethe-Zertifikat: Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "IN_LIST",
+          "value": "DSH-2",
+          "unit": null,
+          "sourceQuote": "  * Deutsche Sprachprüfung für den Hochschulzugang (DSH): DSH-2",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "intake": null,
+          "sourceQuote": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

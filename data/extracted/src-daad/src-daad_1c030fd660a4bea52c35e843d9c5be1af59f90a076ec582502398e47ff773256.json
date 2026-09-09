@@ -1,0 +1,67 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:1c030fd660a4bea52c35e843d9c5be1af59f90a076ec582502398e47ff773256",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:12.112Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Research Foundation (DFG): Research Grant",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The grants enable scientists and academics to conduct research projects with clearly defined topics and a limited duration. Researchers from any subject working in Germany or at a German research institution abroad who have completed their academic training (usually a doctorate) are welcome to apply for the DFG Research Grants. Only internationally competitive research projects of high scientific quality and originality are eligible for submission. The funding generally covers a maximum period of 3 years. After this, however, candidates can apply for the funding to be renewed.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000161",
+      "deadlineText": "Applications may be submitted at any time.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000161",
+      "sourceQuote": "researchers from all disciplines working at a German research institution who have completed their academic training (usually a doctorate)",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "all disciplines",
+          "sourceQuote": "researchers from all disciplines working at a German research institution who have completed their academic training (usually a doctorate)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "researchers from all disciplines working at a German research institution who have completed their academic training (usually a doctorate)",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "researchers from any subject working in Germany or at a German research institution abroad who have completed their academic training (usually a doctorate) are welcome to apply for the DFG Research Grants.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

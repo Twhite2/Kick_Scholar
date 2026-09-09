@@ -1,0 +1,190 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4fd7d35eb1edc0938c379df38a31d1792ccf0962ce7be6c51bedbe6104f9db3e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:47.763Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4075/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "PEI — PhD Programme for Environmental Informatics",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PEI — PhD Programme for Environmental Informatics",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4075/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4075/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "computer science",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "mathematics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "some natural sciences",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "environmental informatics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "bioinformatics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "geoinformatics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "medical informatics",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "informatics in economy",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "forest science",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "agriculture",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "geography",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful graduation (MSc level) in one or several of the following disciplines: computer science, mathematics, some natural sciences, environmental informatics, bioinformatics, geoinformatics, medical informatics, informatics in economy, forest science, agriculture, geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "ECTS credits",
+          "sourceQuote": "At least 30 ECTS credits (or an equivalent workload) in mathematics and computer science have to be documented from the BSc- and MSc-level studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A PhD topic should be chosen and a consent of supervision must be given by a member of the PEI board of supervisors.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A thesis committee should be specified.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

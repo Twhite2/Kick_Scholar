@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:62e374a5e89c3831860617e56dd27e7d988e1be30bb6e506bb9ea04a1f532f6e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:25.279Z",
+  "universities": [
+    {
+      "name": "Leuphana University Lüneburg",
+      "country": "DE",
+      "city": "Lüneburg",
+      "website": "https://www.leuphana.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7683/",
+      "sourceQuote": "Leuphana University Lüneburg • Lüneburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leuphana University Lüneburg",
+      "universityWebsite": "https://www.leuphana.de/",
+      "name": "Inter­national Law of Security, Peace and Sustain­able Develop­ment (LLM) Intl. Law of Security, Peace & Sustain­able Development (LLM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Inter­national Law of Security, Peace and Sustain­able Develop­ment (LLM) Intl. Law of Security, Peace & Sustain­able Development (LLM)",
+      "fieldCategory": "LAW",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7683/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7683/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

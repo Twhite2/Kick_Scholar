@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:47ec48fae7cc256a11482989390ccaad2af48c8b22dce0f3bdb7727e01d9ce14",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:11:39.030Z",
+  "universities": [
+    {
+      "name": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "country": "DE",
+      "city": "Cottbus",
+      "website": "https://www.b-tu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4026/",
+      "sourceQuote": "Brandenburg University of Technology Cottbus-Senftenberg • Cottbus"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "universityWebsite": "https://www.b-tu.de",
+      "name": "Environmental and Resource Management (BSc)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Environmental and Resource Management (BSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4026/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4026/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For the Bachelor's programme: Higher education entrance qualification (e.g. secondary school leaving certificate, high school diploma, A-levels, Abitur, etc.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

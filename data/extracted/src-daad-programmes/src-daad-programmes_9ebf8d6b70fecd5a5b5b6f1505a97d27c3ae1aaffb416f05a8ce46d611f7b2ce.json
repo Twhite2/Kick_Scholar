@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9ebf8d6b70fecd5a5b5b6f1505a97d27c3ae1aaffb416f05a8ce46d611f7b2ce",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:20:33.292Z",
+  "universities": [
+    {
+      "name": "Fachhochschule Wedel University of Applied Sciences",
+      "country": "DE",
+      "city": "Wedel (Holstein)",
+      "website": "https://www.fh-wedel.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4632/",
+      "sourceQuote": "Fachhochschule Wedel University of Applied Sciences • Wedel (Holstein)"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Fachhochschule Wedel University of Applied Sciences",
+      "universityWebsite": "https://www.fh-wedel.de/",
+      "name": "IT Engineering (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "IT Engineering (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2730,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4632/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4632/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The immediate admission criterion for the Master's programme IT Engineering is a qualified Bachelor's degree from a programme in a related field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS credits",
+          "sourceQuote": "Applicants should have obtained 210 ECTS credits, which is an equivalent of seven semesters of full studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "80",
+          "unit": "credits",
+          "sourceQuote": "In order to prove that your Bachelor's programme was related to IT Engineering, you must provide at least 80 credits in mathematics, information technology, science, or engineering, of which at least 20 credits must be obtained in software development and at least 20 credits in pure mathematics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "credits",
+          "sourceQuote": "In order to prove that your Bachelor's programme was related to IT Engineering, you must provide at least 80 credits in mathematics, information technology, science, or engineering, of which at least 20 credits must be obtained in software development and at least 20 credits in pure mathematics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "credits",
+          "sourceQuote": "In order to prove that your Bachelor's programme was related to IT Engineering, you must provide at least 80 credits in mathematics, information technology, science, or engineering, of which at least 20 credits must be obtained in software development and at least 20 credits in pure mathematics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

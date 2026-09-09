@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d1567c78c048df23b1e5d84bc9cd5f4d13b6ccfd23ce420bbd2a596224373d74",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:43.682Z",
+  "universities": [
+    {
+      "name": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://www.htw-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4762/",
+      "sourceQuote": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+      "universityWebsite": "https://www.htw-dresden.de/",
+      "name": "Bachelor Electrical Engineering/Elektrotechnik (BEng)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor Electrical Engineering/Elektrotechnik (BEng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4762/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4762/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "International applicants: 15 June German applicants: 15 July",
+          "intake": null,
+          "sourceQuote": "International applicants: 15 June German applicants: 15 July",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

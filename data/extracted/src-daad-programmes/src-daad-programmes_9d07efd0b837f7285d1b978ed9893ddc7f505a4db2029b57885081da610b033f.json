@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9d07efd0b837f7285d1b978ed9893ddc7f505a4db2029b57885081da610b033f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:06.919Z",
+  "universities": [
+    {
+      "name": "FH Aachen University of Applied Sciences",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.fh-aachen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4849/",
+      "sourceQuote": "FH Aachen University of Applied Sciences • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FH Aachen University of Applied Sciences",
+      "universityWebsite": "https://www.fh-aachen.de/",
+      "name": "Global Business and Economics (Bachelor of Science) Global Business and Economics (BSc)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Global Business and Economics (Bachelor of Science) Global Business and Economics (BSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4849/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4849/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a German entrance qualification for universities of applied sciences or equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Foreign applicants need a \"Statement of Comparability\" for foreign higher education qualifications.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of English language skills (B2) must be uploaded to uni-assist as part of our admission requirements.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

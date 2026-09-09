@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5345327b75ec29383c9ea14b4fa9d32418a82a17440edd257b0519e28309929f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:01.178Z",
+  "universities": [
+    {
+      "name": "Heidelberg University",
+      "country": "DE",
+      "city": "Mannheim",
+      "website": "https://www.uni-heidelberg.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4136/",
+      "sourceQuote": "Heidelberg University • Mannheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heidelberg University",
+      "universityWebsite": "https://www.uni-heidelberg.de/de",
+      "name": "Master of Science in Translational Medical Research",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Translational Medical Research",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4136/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4136/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The course is open to medical doctors, biologists, pharmacists, and other professionals in health-related sciences or life sciences who hold a first academic degree equivalent to 240 ECTS (usually a Bachelor's degree after at least four years of full-time study).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "92",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 92",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

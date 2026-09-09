@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8573b6079a154af32c1c75cc0adbf9e6eb24d22a534819e34298b49f3e66cb45",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:08:08.567Z",
+  "universities": [
+    {
+      "name": "ESCP Berlin Campus",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://escp.eu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8534/",
+      "sourceQuote": "ESCP Berlin Campus • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "ESCP Berlin Campus",
+      "universityWebsite": "https://escp.eu/",
+      "name": "SALES 4.0 | Master's in International Sales Management (MSc) Master's in International Sales Management (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "SALES 4.0 | Master's in International Sales Management (MSc) Master's in International Sales Management (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 7750,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8534/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8534/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "A Bachelor's degree with a minimum of 180 ECTS from a state accredited institution of higher education",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "0",
+          "unit": "years",
+          "sourceQuote": "zero to two years of full-time work experience",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

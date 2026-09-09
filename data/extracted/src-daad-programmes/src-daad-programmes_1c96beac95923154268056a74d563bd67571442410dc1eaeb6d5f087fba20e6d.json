@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1c96beac95923154268056a74d563bd67571442410dc1eaeb6d5f087fba20e6d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:37.626Z",
+  "universities": [
+    {
+      "name": "Europa-Universität Flensburg",
+      "country": "DE",
+      "city": "Flensburg",
+      "website": "https://www.uni-flensburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6085/",
+      "sourceQuote": "Europa-Universität Flensburg • Flensburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Europa-Universität Flensburg",
+      "universityWebsite": "https://www.uni-flensburg.de/",
+      "name": "Sustainable Energy and Development (SEDev)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Energy and Development (SEDev)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6085/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6085/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include an above-average Bachelor's or equivalent university degree in engineering after a minimum of seven semesters of studies and proof of successful completion of the preparatory semester.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "Professional experience of at least two years in a field related to the course focus is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Shortlisted applicants must successfully complete an online admission interview.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please see <https://www.uni-flensburg.de/sedev/admission/deadlines>.",
+          "intake": null,
+          "sourceQuote": "Please see <https://www.uni-flensburg.de/sedev/admission/deadlines>.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

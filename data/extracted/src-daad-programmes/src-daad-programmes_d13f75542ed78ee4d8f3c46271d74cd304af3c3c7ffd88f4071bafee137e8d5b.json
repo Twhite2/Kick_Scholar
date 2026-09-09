@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d13f75542ed78ee4d8f3c46271d74cd304af3c3c7ffd88f4071bafee137e8d5b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:51.139Z",
+  "universities": [
+    {
+      "name": "University of Siegen",
+      "country": "DE",
+      "city": "Siegen",
+      "website": "https://www.uni-siegen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8336/",
+      "sourceQuote": "University of Siegen • Siegen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Siegen",
+      "universityWebsite": "https://www.uni-siegen.de",
+      "name": "Quantum Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Quantum Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8336/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8336/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc in Physics",
+          "unit": null,
+          "sourceQuote": "This programme is open for students with a BSc in Physics, Mathematics, Computer Science, and Electrical Engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc in Mathematics",
+          "unit": null,
+          "sourceQuote": "This programme is open for students with a BSc in Physics, Mathematics, Computer Science, and Electrical Engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc in Computer Science",
+          "unit": null,
+          "sourceQuote": "This programme is open for students with a BSc in Physics, Mathematics, Computer Science, and Electrical Engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc in Electrical Engineering",
+          "unit": null,
+          "sourceQuote": "This programme is open for students with a BSc in Physics, Mathematics, Computer Science, and Electrical Engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "88",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 88",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Current dates are below, please check the website of the MSc programme for updates.",
+          "intake": null,
+          "sourceQuote": "Current dates are below, please check the website of the MSc programme for updates.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

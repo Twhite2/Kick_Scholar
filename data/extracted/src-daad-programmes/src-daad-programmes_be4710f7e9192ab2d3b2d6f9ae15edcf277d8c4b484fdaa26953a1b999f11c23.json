@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:be4710f7e9192ab2d3b2d6f9ae15edcf277d8c4b484fdaa26953a1b999f11c23",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:23:48.800Z",
+  "universities": [
+    {
+      "name": "Technical University of Darmstadt",
+      "country": "DE",
+      "city": "Darmstadt",
+      "website": "https://www.tu-darmstadt.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4173/",
+      "sourceQuote": "Technical University of Darmstadt • Darmstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Darmstadt",
+      "universityWebsite": "https://www.tu-darmstadt.de/",
+      "name": "Master of Science Tropical Hydrogeology and Environmental Engineering (TropHEE) MSc Tropical Hydrogeology and Environmental Engineering (TropHEE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science Tropical Hydrogeology and Environmental Engineering (TropHEE) MSc Tropical Hydrogeology and Environmental Engineering (TropHEE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4173/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4173/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree in Geosciences; or a Bachelor’s degree in Civil or Environmental Engineering",
+          "unit": null,
+          "sourceQuote": "Applicants should hold a Bachelor’s degree in Geosciences; or a Bachelor’s degree in Civil or Environmental Engineering with sound knowledge in natural sciences (mathematics, chemistry, physics) and basic knowledge in geosciences, water science/engineering, and environmental science/engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants should hold a Bachelor’s degree in Geosciences; or a Bachelor’s degree in Civil or Environmental Engineering with sound knowledge in natural sciences (mathematics, chemistry, physics) and basic knowledge in geosciences, water science/engineering, and environmental science/engineering.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Moreover, the topic of the Bachelor's thesis must be from the geoscience field or from the field of water and/or environmental research.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "Applicants for a DAAD scholarship must have at least two years of professional experience in the field of water and geology at the time of the application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT Home Edition (before 2026): 95",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

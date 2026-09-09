@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4b81a2f0a4967a87a247204074ba8f1e45af3cb35be23c16bc6d8ceeadbb567e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:24.459Z",
+  "universities": [
+    {
+      "name": "Bard College Berlin, a Liberal Arts University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://berlin.bard.edu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4535/",
+      "sourceQuote": "Bard College Berlin, a Liberal Arts University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bard College Berlin, a Liberal Arts University",
+      "universityWebsite": "https://berlin.bard.edu/",
+      "name": "BA in Humanities, the Arts, and Social Thought",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BA in Humanities, the Arts, and Social Thought",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 19125,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4535/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4535/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students must have a high school diploma (or equivalent) by the time they enrol.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Required application materials include a completed online application form, a motivation statement, a writing sample, two academic letters of recommendation from teachers, official transcripts, and proof of advanced English proficiency for non-native English speakers (see below).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students who wish to share their creative work are encouraged to upload a creative portfolio with digital samples of individual art as supplementary material (e.g. drawing, painting, photography) in a PDF format or as an external link (e.g. video samples).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

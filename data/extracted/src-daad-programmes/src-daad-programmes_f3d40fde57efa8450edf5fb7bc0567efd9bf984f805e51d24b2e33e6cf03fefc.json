@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f3d40fde57efa8450edf5fb7bc0567efd9bf984f805e51d24b2e33e6cf03fefc",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:13.801Z",
+  "universities": [
+    {
+      "name": "Frankfurt School of Finance & Management",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.frankfurt-school.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3628/",
+      "sourceQuote": "Frankfurt School of Finance & Management • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Frankfurt School of Finance & Management",
+      "universityWebsite": "https://www.frankfurt-school.de/de",
+      "name": "MBA International Healthcare Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MBA International Healthcare Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3628/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3628/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

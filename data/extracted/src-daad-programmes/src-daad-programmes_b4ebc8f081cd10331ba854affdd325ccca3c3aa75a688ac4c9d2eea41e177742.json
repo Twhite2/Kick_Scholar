@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b4ebc8f081cd10331ba854affdd325ccca3c3aa75a688ac4c9d2eea41e177742",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:58.821Z",
+  "universities": [
+    {
+      "name": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+      "country": "DE",
+      "city": "Schweinfurt",
+      "website": "https://www.thws.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6155/",
+      "sourceQuote": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) • Schweinfurt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+      "universityWebsite": "https://www.thws.de",
+      "name": "BEng in Robotics",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BEng in Robotics",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6155/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6155/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "TestAS",
+          "operator": "GTE",
+          "value": "100",
+          "unit": "points in each module (Core Test and Subject-Specific Test: Engineering)",
+          "sourceQuote": "Compulsory scholastic aptitude test: TestAS with a minimum of 100 points in each module (Core Test and Subject-Specific Test: Engineering) or SAT (test requires a minimum composite score of 1,050) is required for all non-EU applicants in order to enrol.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "SAT",
+          "operator": "GTE",
+          "value": "1050",
+          "unit": "composite score",
+          "sourceQuote": "Compulsory scholastic aptitude test: TestAS with a minimum of 100 points in each module (Core Test and Subject-Specific Test: Engineering) or SAT (test requires a minimum composite score of 1,050) is required for all non-EU applicants in order to enrol.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Secondary education diploma (A level or equivalent)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT Home Edition",
+          "operator": "GTE",
+          "value": "83",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT Home Edition (before 2026): 83",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "IN_LIST",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

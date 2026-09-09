@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:21e957a1141fa12b4e914b4236a531808ad9584a4639326320415005bed39b58",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:07.218Z",
+  "universities": [
+    {
+      "name": "University of Hohenheim",
+      "country": "DE",
+      "city": "Stuttgart",
+      "website": "https://www.uni-hohenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4564/",
+      "sourceQuote": "University of Hohenheim • Stuttgart"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hohenheim",
+      "universityWebsite": "https://www.uni-hohenheim.de/",
+      "name": "Environmental Science – Soil, Water and Biodiversity (EnvEuro) Environmental Science – Soil, Water and Biodiversity",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Environmental Science – Soil, Water and Biodiversity (EnvEuro) Environmental Science – Soil, Water and Biodiversity",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4564/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4564/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

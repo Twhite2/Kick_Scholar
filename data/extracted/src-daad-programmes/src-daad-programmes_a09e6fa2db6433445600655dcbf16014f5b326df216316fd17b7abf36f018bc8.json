@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a09e6fa2db6433445600655dcbf16014f5b326df216316fd17b7abf36f018bc8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:00.538Z",
+  "universities": [
+    {
+      "name": "University of Regensburg",
+      "country": "DE",
+      "city": "Regensburg",
+      "website": "https://www.uni-regensburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5294/",
+      "sourceQuote": "University of Regensburg • Regensburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Regensburg",
+      "universityWebsite": "https://www.uni-regensburg.de",
+      "name": "Biology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Biology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5294/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5294/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "a university degree or comparable degree achieved in a three-year degree programme in biology or a related subject with a minimum overall grade of 2.5 (German grading system. For degrees obtained outside of Germany, the grade is converted by the modified Bavarian formula.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "**A1** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "a university degree or comparable degree achieved in a three-year degree programme in biology or a related subject with a minimum overall grade of 2.5 (German grading system. For degrees obtained outside of Germany, the grade is converted by the modified Bavarian formula.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If a minimum overall grade of 2.5 is not achieved, an additional aptitude test has to be passed.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The student must have earned a minimum of 150 credit points in the Bachelor's programme.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

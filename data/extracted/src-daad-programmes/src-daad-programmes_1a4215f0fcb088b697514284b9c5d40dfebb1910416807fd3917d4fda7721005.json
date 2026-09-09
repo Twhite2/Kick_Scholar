@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1a4215f0fcb088b697514284b9c5d40dfebb1910416807fd3917d4fda7721005",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:17.297Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute of Immunobiology and Epigenetics",
+      "country": "DE",
+      "city": "Freiburg im Breisgau",
+      "website": "https://www.ie-freiburg.mpg.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5604/",
+      "sourceQuote": "Max Planck Institute of Immunobiology and Epigenetics • Freiburg im Breisgau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute of Immunobiology and Epigenetics",
+      "universityWebsite": "https://www.ie-freiburg.mpg.de/de",
+      "name": "International Max Planck Research School for Epigenetics, Biophysics and Metabolism IMPRS for Epigenetics, Biophysics and Metabolism",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School for Epigenetics, Biophysics and Metabolism IMPRS for Epigenetics, Biophysics and Metabolism",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5604/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5604/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's degree (MSc) or \"Diplom\" (or equivalent) in biology, biophysics, biochemistry, biomedicine, chemistry, physics or a related field",
+          "unit": null,
+          "sourceQuote": "A Master's degree (MSc) or \"Diplom\" (or equivalent) in biology, biophysics, biochemistry, biomedicine, chemistry, physics or a related field will be required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The programme has one recruitment round per year, with a new call opening at the end of the year.",
+          "intake": null,
+          "sourceQuote": "The programme has one recruitment round per year, with a new call opening at the end of the year.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

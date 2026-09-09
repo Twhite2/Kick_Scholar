@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b86cda8880140838230aa4fe830ae9285c52a8accae3c35b2e24fd5fe49f7834",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:01.632Z",
+  "universities": [
+    {
+      "name": "EBS Universität für Wirtschaft und Recht",
+      "country": "DE",
+      "city": "Oestrich-Winkel",
+      "website": "https://www.ebs.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3954/",
+      "sourceQuote": "EBS Universität für Wirtschaft und Recht • Oestrich-Winkel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "EBS Universität für Wirtschaft und Recht",
+      "universityWebsite": "https://www.ebs.edu",
+      "name": "MBA (full-time or part-time)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MBA (full-time or part-time)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3954/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3954/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before 30 June (for a start in the winter semester) and before 30 November (for a start in the summer semester). For international applicants who require a visa, we recommend that you submit your application before 30 May (for a start in the winter semester) or 15 October (for a start in the summer semester).",
+          "intake": null,
+          "sourceQuote": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before 30 June (for a start in the winter semester) and before 30 November (for a start in the summer semester). For international applicants who require a visa, we recommend that you submit your application before 30 May (for a start in the winter semester) or 15 October (for a start in the summer semester).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

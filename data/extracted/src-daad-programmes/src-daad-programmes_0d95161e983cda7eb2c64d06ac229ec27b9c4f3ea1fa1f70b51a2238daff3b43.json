@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0d95161e983cda7eb2c64d06ac229ec27b9c4f3ea1fa1f70b51a2238daff3b43",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:45:58.643Z",
+  "universities": [
+    {
+      "name": "Ulm University",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.uni-ulm.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4580/",
+      "sourceQuote": "Ulm University • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University",
+      "universityWebsite": "https://www.uni-ulm.de",
+      "name": "Master of Science in Molecular and Translational Neuroscience",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Molecular and Translational Neuroscience",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4580/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4580/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include proof of a Bachelor's degree with good examination results in biology, biochemistry, molecular medicine, physiological chemistry, neurobiology, biopsychology, human biology, molecular life science, or any other study programmes that essentially contain a similar content.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "This proof can be a Bachelor's degree awarded by any higher education institution in Germany or abroad or any qualification that is recognised as equivalent and consists of at least three years of study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.7",
+          "unit": null,
+          "sourceQuote": "Good examination results are shown by submitting a Bachelor’s degree with an overall grade of 2.7 or better or, if no degree has yet been awarded, all examination results achieved by the date of application showing an average grade of 2.7 or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please refer to the [Admissions Office website](https://www.uni-ulm.de/en/study/application-and-enrolment/masters-programmes/molecular-and-translational-neuroscience-master/).",
+          "intake": null,
+          "sourceQuote": "Please refer to the [Admissions Office website](https://www.uni-ulm.de/en/study/application-and-enrolment/masters-programmes/molecular-and-translational-neuroscience-master/).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

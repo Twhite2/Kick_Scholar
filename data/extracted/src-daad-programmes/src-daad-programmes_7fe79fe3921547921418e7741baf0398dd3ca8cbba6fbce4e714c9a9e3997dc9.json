@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7fe79fe3921547921418e7741baf0398dd3ca8cbba6fbce4e714c9a9e3997dc9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:14.959Z",
+  "universities": [
+    {
+      "name": "Nürtingen-Geislingen University",
+      "country": "DE",
+      "city": "Nürtingen",
+      "website": "https://www.hfwu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3865/",
+      "sourceQuote": "Nürtingen-Geislingen University • Nürtingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Nürtingen-Geislingen University",
+      "universityWebsite": "https://www.hfwu.de",
+      "name": "International Master of Landscape Architecture (IMLA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master of Landscape Architecture (IMLA)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 750,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3865/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3865/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Successful completion of a degree course in landscape architecture, landscape planning, landscape construction, landscape management, architecture, town planning or physical planning at a German higher education institution or a comparable Bachelor's degree course in any of the above subjects at a foreign university",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

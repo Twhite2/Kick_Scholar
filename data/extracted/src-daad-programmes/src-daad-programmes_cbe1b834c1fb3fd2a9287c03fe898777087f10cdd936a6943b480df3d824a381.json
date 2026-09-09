@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cbe1b834c1fb3fd2a9287c03fe898777087f10cdd936a6943b480df3d824a381",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:44.964Z",
+  "universities": [
+    {
+      "name": "Goethe University Frankfurt",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.uni-frankfurt.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4241/",
+      "sourceQuote": "Goethe University Frankfurt • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Goethe University Frankfurt",
+      "universityWebsite": "https://www.uni-frankfurt.de/de",
+      "name": "Master of Science in International Economics and Economic Policy International Economics and Economic Policy (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in International Economics and Economic Policy International Economics and Economic Policy (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4241/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4241/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The minimum prerequisite for admission is a Bachelor's degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "An undergraduate specialisation in economics or business is preferred, but candidates with strong analytical skills from related fields will also be considered.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications Business (BEC)",
+          "operator": "GTE",
+          "value": "C1 Business Higher",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications Business (BEC) : C1 Business Higher",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

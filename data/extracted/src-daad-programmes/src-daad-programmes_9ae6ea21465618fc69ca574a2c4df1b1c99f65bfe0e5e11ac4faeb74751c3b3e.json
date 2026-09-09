@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9ae6ea21465618fc69ca574a2c4df1b1c99f65bfe0e5e11ac4faeb74751c3b3e",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:25.875Z",
+  "universities": [
+    {
+      "name": "University of Siegen",
+      "country": "DE",
+      "city": "Siegen",
+      "website": "https://www.uni-siegen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4686/",
+      "sourceQuote": "University of Siegen • Siegen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Siegen",
+      "universityWebsite": "https://www.uni-siegen.de",
+      "name": "Human Computer Interaction (HCI)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Human Computer Interaction (HCI)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4686/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4686/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

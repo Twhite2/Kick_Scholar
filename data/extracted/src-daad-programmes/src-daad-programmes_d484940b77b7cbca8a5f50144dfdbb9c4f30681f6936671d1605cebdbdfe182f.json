@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d484940b77b7cbca8a5f50144dfdbb9c4f30681f6936671d1605cebdbdfe182f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:57:47.466Z",
+  "universities": [
+    {
+      "name": "International School of Management (ISM)",
+      "country": "DE",
+      "city": "Dortmund",
+      "website": "https://www.ism.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5259/",
+      "sourceQuote": "International School of Management (ISM) • Dortmund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "International School of Management (ISM)",
+      "universityWebsite": "https://www.ism.de",
+      "name": "Bachelor's in International Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor's in International Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5970,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5259/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5259/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Allgemeine Hochschulreife",
+          "unit": null,
+          "sourceQuote": "The ISM Bachelor's programmes are designed for applicants who have achieved a general qualification for university admission (\"Allgemeine Hochschulreife\") or a qualification for admission to universities of applied sciences (\"Fachhochschulreife\").",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Fachhochschulreife",
+          "unit": null,
+          "sourceQuote": "The ISM Bachelor's programmes are designed for applicants who have achieved a general qualification for university admission (\"Allgemeine Hochschulreife\") or a qualification for admission to universities of applied sciences (\"Fachhochschulreife\").",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "All applicants applying for a Bachelor's programme at the ISM are required to pass an **online entrance examination.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

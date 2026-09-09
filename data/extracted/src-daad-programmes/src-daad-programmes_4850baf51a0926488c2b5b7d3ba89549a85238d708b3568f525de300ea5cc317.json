@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4850baf51a0926488c2b5b7d3ba89549a85238d708b3568f525de300ea5cc317",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:08:29.668Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8310/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Agricultural, Food and Environmental Policy Analysis (AFEPA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Agricultural, Food and Environmental Policy Analysis (AFEPA)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8310/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8310/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3 years",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree or an equivalent academic degree of minimum three years of undergraduate study corresponding to 180 ECTS credits with a grade of at least an overall average “B” or equivalent grade",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree or an equivalent academic degree of minimum three years of undergraduate study corresponding to 180 ECTS credits with a grade of at least an overall average “B” or equivalent grade",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "ECTS credits in economics",
+          "sourceQuote": "A minimum of 24 ECTS credits in economics gained in the Bachelor’s degree is also required–including one course each in microeconomics and statistics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The period for the submission of applications for the AFEPA programme for the 2027 cohort is from mid-October 2026 to mid-February 2027. For exact dates, consult our website in due time ([Application & Admission — AFEPA](https://www.ilr1.uni-bonn.de/afepa/en/application-admission)). Applicants from European countries can apply until 30 June 2027.",
+          "intake": null,
+          "sourceQuote": "The period for the submission of applications for the AFEPA programme for the 2027 cohort is from mid-October 2026 to mid-February 2027. For exact dates, consult our website in due time ([Application & Admission — AFEPA](https://www.ilr1.uni-bonn.de/afepa/en/application-admission)). Applicants from European countries can apply until 30 June 2027.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

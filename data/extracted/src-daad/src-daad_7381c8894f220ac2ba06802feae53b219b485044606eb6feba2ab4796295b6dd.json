@@ -1,0 +1,114 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:7381c8894f220ac2ba06802feae53b219b485044606eb6feba2ab4796295b6dd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:15:59.221Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "KOSPIE Combined study and practice stays for engineers from developing countries Tunisia **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The German Academic Exchange Service (DAAD) supports the scholarship programme \"Combined study and practical stays for engineers from developing countries (KOSPIE)\" with funds from the Federal Ministry for Economic Cooperation and Development (BMZ). As part of this programme, young students from Tunisia from engineering subjects (including a focus on green engineering) and informatics complete a 6-month study and practical stay at selected German universities to carry out their final thesis project. The selected German universities for the cohort 2027 are Technische Universität Chemnitz, Technische Universität Dresden, Hochschule Offenburg and Hochschule Schmalkalden. The focus is on the practice-oriented training of specialists and managers from Tunisia. The long-term goal of the scholarship programme is to contribute to the sustainable development of Tunisia. The beneficiaries of the pro-gramme should ideally later work in development-related areas and thus make a contribution to strengthening the private and/or public sector in their home country. Alumni of the programme are prepared for the technical/professional requirements of their future work and the practice-oriented and international profile of the alumni increases their employability. They plan to apply their skills in a field of activity relevant to their home country or home region. The following programme objectives are derived from the long-term developmental impacts sought: Scholarship holders enhance (a) thei…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57593632",
+      "deadlineText": "April 30, 2026 Selection date in July 2026 The application deadline is updated once a year. In most cases, the deadline is similar to the previous one.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57593632",
+      "sourceQuote": "Master’s students resp. diploma students enrolled in the engineering sciences (including a focus on green engineering) and informatics at a state or state-recognised university in Tunisia.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Tunisia"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "young students from Tunisia from engineering subjects (including a focus on green engineering) and informatics complete a 6-month study and practical stay at selected German universities to carry out their final thesis project.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "DIPLOMA"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Master’s students resp. diploma students enrolled in the engineering sciences (including a focus on green engineering) and informatics at a state or state-recognised university in Tunisia.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ENGINEERING",
+            "INFORMATICS"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Master’s students resp. diploma students enrolled in the engineering sciences (including a focus on green engineering) and informatics at a state or state-recognised university in Tunisia.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised university in Tunisia"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Master’s students resp. diploma students enrolled in the engineering sciences (including a focus on green engineering) and informatics at a state or state-recognised university in Tunisia.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "completion of the preparatory course for engineers (cycle préparatoire) or admission to the engineering course (cycle d’ingénieur) with the aim of obtaining the engineering diploma (diplôme d’ingénieur) at a Tunisian university",
+          "sourceQuote": "Proof of completion of the preparatory course for engineers (cycle préparatoire) or proof of admission to the engineering course (cycle d’ingénieur) with the aim of obtaining the engineering diploma (diplôme d’ingénieur) at a Tunisian university.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Very good knowledge of English; proof of language abilities not older than 2 years; minimum scores: TOEFL iBT 78, IELTS 6.0, TOEIC Listening & Reading 750, onSET B2",
+          "sourceQuote": "Very good knowledge of English (proof of language abilities; not older than 2 years on the day of the application deadline; TOEFL iBT with at least 78; IELTS with at least 6.0; TOEIC Listening & Reading with at least 750; onSET with at least B2).",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "DIPLOMA"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "As part of this programme, young students from Tunisia from engineering subjects (including a focus on green engineering) and informatics complete a 6-month study and practical stay at selected German universities to carry out their final thesis project.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

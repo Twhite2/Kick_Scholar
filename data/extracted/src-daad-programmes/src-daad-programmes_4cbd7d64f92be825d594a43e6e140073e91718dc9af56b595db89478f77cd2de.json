@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4cbd7d64f92be825d594a43e6e140073e91718dc9af56b595db89478f77cd2de",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:52.560Z",
+  "universities": [
+    {
+      "name": "University of Kassel",
+      "country": "DE",
+      "city": "Kassel",
+      "website": "https://www.uni-kassel.de/uni/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6081/",
+      "sourceQuote": "University of Kassel • Kassel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Kassel",
+      "universityWebsite": "https://www.uni-kassel.de/uni/",
+      "name": "Master of Arts in German as a Foreign and Second Language (Master DaFZ) MA German as a Foreign and Second Language (DaFZ)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in German as a Foreign and Second Language (Master DaFZ) MA German as a Foreign and Second Language (DaFZ)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6081/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6081/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Undergraduate degree such as BA degree or equivalent in German, German Studies, German as a Foreign or Second Language, or other subject related fields with a grade \"B\" (2.5) or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* VERY IMPORTANT: An excellent letter of motivation (3,000 characters without spaces) is required. It's highly recommended to consult the following criteria: [https://www.uni-kassel.de/fb02/index.php?eID=dumpFile&t=f&f=397&token=380b2ad9afa05610f8cccf8574a66b82950a3511](https://www.uni-kassel.de/fb02/index.php?eID=dumpFile&t=f&f=397&token=380b2ad9afa05610f8cccf8574a66b82950a3511).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* telc Deutsch: telc Deutsch C1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Goethe-Zertifikat: Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications for the winter semester with German certificates are accepted annually from 1 June to 1 September and with foreign certificates from 1 December to 15 July.",
+          "intake": null,
+          "sourceQuote": "Applications for the winter semester with German certificates are accepted annually from 1 June to 1 September and with foreign certificates from 1 December to 15 July.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

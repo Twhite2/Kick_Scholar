@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:bda64165091b73a3b987d695f4ba2cd248980a97a1e6661712de932e2f6f3b3a",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:18.868Z",
+  "universities": [
+    {
+      "name": "University of Cologne",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.uni-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4100/",
+      "sourceQuote": "University of Cologne • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Cologne",
+      "universityWebsite": "https://www.uni-koeln.de/",
+      "name": "a.r.t.e.s. Graduate School for the Humanities Cologne",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "a.r.t.e.s. Graduate School for the Humanities Cologne",
+      "fieldCategory": "OTHER",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4100/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4100/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications for the regular doctoral programme are accepted at any time. The structured doctoral programme “Integrated Track” offers a scholarship opportunity, which is announced annually in late summer (the application deadline is around the end of October). If granted, funding begins in April.",
+          "intake": null,
+          "sourceQuote": "Applications for the regular doctoral programme are accepted at any time. The structured doctoral programme “Integrated Track” offers a scholarship opportunity, which is announced annually in late summer (the application deadline is around the end of October). If granted, funding begins in April.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

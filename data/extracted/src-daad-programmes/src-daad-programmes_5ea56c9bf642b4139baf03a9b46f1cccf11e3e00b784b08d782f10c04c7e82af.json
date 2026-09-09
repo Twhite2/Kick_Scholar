@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5ea56c9bf642b4139baf03a9b46f1cccf11e3e00b784b08d782f10c04c7e82af",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:11.633Z",
+  "universities": [
+    {
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "country": "DE",
+      "city": "Sankt Augustin",
+      "website": "https://www.h-brs.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4470/",
+      "sourceQuote": "Hochschule Bonn-Rhein-Sieg • Sankt Augustin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Bonn-Rhein-Sieg",
+      "universityWebsite": "https://www.h-brs.de",
+      "name": "Electrical Engineering / Maestría en Diseño de Sistemas Electrónicos Aplicados a la Agronomía Electrical Engineering (MEng)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Engineering / Maestría en Diseño de Sistemas Electrónicos Aplicados a la Agronomía Electrical Engineering (MEng)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German Spanish"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4470/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4470/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

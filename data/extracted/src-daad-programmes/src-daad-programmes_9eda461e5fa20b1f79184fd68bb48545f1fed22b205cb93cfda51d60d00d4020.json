@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9eda461e5fa20b1f79184fd68bb48545f1fed22b205cb93cfda51d60d00d4020",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:30:46.690Z",
+  "universities": [
+    {
+      "name": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/5eb2600f25b53549947401.jpeg",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3943/",
+      "sourceQuote": "Humboldt-Universität zu Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Humboldt-Universität zu Berlin",
+      "universityWebsite": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/5eb2600f25b53549947401.jpeg",
+      "name": "Euromasters – MA Contemporary European Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Euromasters – MA Contemporary European Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3943/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3943/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "BA or equivalent in a relevant subject area (humanities, social sciences, etc.) from a recognised institution of higher education",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "B2 required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

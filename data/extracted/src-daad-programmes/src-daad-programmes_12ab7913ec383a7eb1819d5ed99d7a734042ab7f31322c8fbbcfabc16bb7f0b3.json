@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:12ab7913ec383a7eb1819d5ed99d7a734042ab7f31322c8fbbcfabc16bb7f0b3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:23:06.484Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3710/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "International Studies in Aquatic Tropical Ecology (ISATEC, Study Profile in the Marine Biology MSc Programme) International Studies in Aquatic Tropical Ecology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Studies in Aquatic Tropical Ecology (ISATEC, Study Profile in the Marine Biology MSc Programme) International Studies in Aquatic Tropical Ecology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3710/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3710/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor of Science (BSc) degree in biological or environmental sciences",
+          "unit": null,
+          "sourceQuote": "Applicants wishing to participate in the ISATEC programme must have completed their undergraduate studies and hold a **Bachelor of Science (BSc) degree in biological or environmental sciences** or a closely related discipline **with an overall grade of at least 2.5, according to the German grading scheme**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": "German grading scheme",
+          "sourceQuote": "Applicants wishing to participate in the ISATEC programme must have completed their undergraduate studies and hold a **Bachelor of Science (BSc) degree in biological or environmental sciences** or a closely related discipline **with an overall grade of at least 2.5, according to the German grading scheme**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "135",
+          "unit": "ECTS",
+          "sourceQuote": "Applications may already be submitted before the previous study degree (i.e. usually BSc) has been finished, when at least 135 ECTS have been fulfilled.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, applicants are expected to state their motives for participation in a **letter of motivation** written in English.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "They must also submit a **curriculum vitae** and a**transcript of study records** indicating the curriculum, study efforts (ECTS or hours of study) and grades with the application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

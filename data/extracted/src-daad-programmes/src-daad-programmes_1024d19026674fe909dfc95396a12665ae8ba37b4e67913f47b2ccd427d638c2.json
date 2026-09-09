@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1024d19026674fe909dfc95396a12665ae8ba37b4e67913f47b2ccd427d638c2",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:33.165Z",
+  "universities": [
+    {
+      "name": "International Psychoanalytic University Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.ipu-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4681/",
+      "sourceQuote": "International Psychoanalytic University Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "International Psychoanalytic University Berlin",
+      "universityWebsite": "https://www.ipu-berlin.de",
+      "name": "Master of Arts in Psychology with a Clinical Focus",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in Psychology with a Clinical Focus",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 6500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4681/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4681/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:02c7f93c1e7e57485480d02be9cd640c07c84dd336b9e93c1f50400a58f608bf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:11:49.995Z",
+  "universities": [
+    {
+      "name": "Heinrich Heine University Düsseldorf",
+      "country": "DE",
+      "city": "Düsseldorf",
+      "website": "https://www.hhu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6937/",
+      "sourceQuote": "Heinrich Heine University Düsseldorf • Düsseldorf"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heinrich Heine University Düsseldorf",
+      "universityWebsite": "https://www.hhu.de/",
+      "name": "Artificial Intelligence and Data Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Artificial Intelligence and Data Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6937/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6937/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A prerequisite for starting studies is a first university degree, with the required necessary background education as determined in the exam regulations.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In brief, you need a Bachelor's degree in Mathematics, Computer Science, Physics, Electrical Engineering or a related area, whose curricula include the modules Analysis I + II, Linear Algebra I, and either Stochastics I or Numerics I, that together comprise 30 ECTS and were taught at a level that corresponds to the level for computer scientists at HHU.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "The final grade of your Bachelor's degree must not be below 2.5 with respect to the German grading system.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please see our website for information about the application period",
+          "intake": null,
+          "sourceQuote": "Please see our website for information about the application period",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

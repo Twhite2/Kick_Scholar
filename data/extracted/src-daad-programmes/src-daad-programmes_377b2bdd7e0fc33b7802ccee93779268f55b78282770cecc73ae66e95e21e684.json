@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:377b2bdd7e0fc33b7802ccee93779268f55b78282770cecc73ae66e95e21e684",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:16.260Z",
+  "universities": [
+    {
+      "name": "University of Hohenheim",
+      "country": "DE",
+      "city": "Stuttgart",
+      "website": "https://www.uni-hohenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3787/",
+      "sourceQuote": "University of Hohenheim • Stuttgart"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hohenheim",
+      "universityWebsite": "https://www.uni-hohenheim.de/",
+      "name": "Transformation Management for Sustainable Agri-Food Systems (Transformation) Transformation Management for Sustainable Agri-Food Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Transformation Management for Sustainable Agri-Food Systems (Transformation) Transformation Management for Sustainable Agri-Food Systems",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3787/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3787/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

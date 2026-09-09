@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0c5a66ff3cbcf05be36494f58a0c2d2fc241ab89bd061acd8800178363dedfca",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:16.476Z",
+  "universities": [
+    {
+      "name": "Friedrich Schiller University Jena",
+      "country": "DE",
+      "city": "Jena",
+      "website": "https://www.uni-jena.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5303/",
+      "sourceQuote": "Friedrich Schiller University Jena • Jena"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Friedrich Schiller University Jena",
+      "universityWebsite": "https://www.uni-jena.de/",
+      "name": "Master of Science in Chemistry of Materials MSc Chemistry of Materials",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Chemistry of Materials MSc Chemistry of Materials",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5303/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5303/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "chemistry",
+          "unit": null,
+          "sourceQuote": "Minimum prerequisite for admission to the Master of Science Chemistry of Materials programme is a first university degree (Bachelor's, \"Diplom\") in chemistry, chemical engineering or physics with an overall final grade \"good\" (\"gut\") or better (equal to at least 1.9 in the German grading system), ideally better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "chemical engineering",
+          "unit": null,
+          "sourceQuote": "Minimum prerequisite for admission to the Master of Science Chemistry of Materials programme is a first university degree (Bachelor's, \"Diplom\") in chemistry, chemical engineering or physics with an overall final grade \"good\" (\"gut\") or better (equal to at least 1.9 in the German grading system), ideally better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "physics",
+          "unit": null,
+          "sourceQuote": "Minimum prerequisite for admission to the Master of Science Chemistry of Materials programme is a first university degree (Bachelor's, \"Diplom\") in chemistry, chemical engineering or physics with an overall final grade \"good\" (\"gut\") or better (equal to at least 1.9 in the German grading system), ideally better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1.9",
+          "unit": "German grading system",
+          "sourceQuote": "Minimum prerequisite for admission to the Master of Science Chemistry of Materials programme is a first university degree (Bachelor's, \"Diplom\") in chemistry, chemical engineering or physics with an overall final grade \"good\" (\"gut\") or better (equal to at least 1.9 in the German grading system), ideally better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "materials science",
+          "unit": null,
+          "sourceQuote": "Principally, graduates of related study programmes, in particular in materials science, are granted admission if their degree is equivalent to the above.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS",
+          "sourceQuote": "Generally, a degree is equivalent if the applicant acquired at least 60 ECTS (European Credit Transfer System) in physics and chemistry within the previous study programme, excluding a final thesis, and the overall final grade was \"good\" (\"gut\") or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1.9",
+          "unit": "German grading system",
+          "sourceQuote": "Generally, a degree is equivalent if the applicant acquired at least 60 ECTS (European Credit Transfer System) in physics and chemistry within the previous study programme, excluding a final thesis, and the overall final grade was \"good\" (\"gut\") or better.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The Master of Science programme \"Chemistry of Materials\" starts only in the winter semester. Online applications are possible from 1 April until 15 July for international applicants and until 15 September for national applicants.",
+          "intake": null,
+          "sourceQuote": "The Master of Science programme \"Chemistry of Materials\" starts only in the winter semester. Online applications are possible from 1 April until 15 July for international applicants and until 15 September for national applicants.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

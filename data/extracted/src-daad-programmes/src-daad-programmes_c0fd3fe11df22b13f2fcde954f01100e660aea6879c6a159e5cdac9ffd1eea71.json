@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c0fd3fe11df22b13f2fcde954f01100e660aea6879c6a159e5cdac9ffd1eea71",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:18:52.213Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Ravensburg-Weingarten",
+      "country": "DE",
+      "city": "Weingarten",
+      "website": "https://www.rwu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4201/",
+      "sourceQuote": "University of Applied Sciences Ravensburg-Weingarten • Weingarten"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Ravensburg-Weingarten",
+      "universityWebsite": "https://www.rwu.de/",
+      "name": "Electrical Engineering and Embedded Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Engineering and Embedded Systems",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4201/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4201/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a completed Bachelor’s degree in the field of electrical engineering, electronics, computer science or any other related field of study with a final grade of at least 2.5 (German grading system) and 210 ECTS (corresponding to a four-year full time study programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German grading system",
+          "sourceQuote": "Academic admission requirements include a completed Bachelor’s degree in the field of electrical engineering, electronics, computer science or any other related field of study with a final grade of at least 2.5 (German grading system) and 210 ECTS (corresponding to a four-year full time study programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a completed Bachelor’s degree in the field of electrical engineering, electronics, computer science or any other related field of study with a final grade of at least 2.5 (German grading system) and 210 ECTS (corresponding to a four-year full time study programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS",
+          "sourceQuote": "Academic admission requirements include a completed Bachelor’s degree in the field of electrical engineering, electronics, computer science or any other related field of study with a final grade of at least 2.5 (German grading system) and 210 ECTS (corresponding to a four-year full time study programme).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Graduates with only 180 ECTS will have to make up the missing 30 ECTS during their Master’s studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proven knowledge of VHDL / Verilog and a programming language, e.g. C, C++, Rust, MATLAB or Julia, for example by providing a course or work experience certificate.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

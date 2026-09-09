@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:81a0826390dcc28f799a57e01c0bc53a3c35d9f0c25fe506f11f0c7c946c3802",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:12.803Z",
+  "universities": [
+    {
+      "name": "TU Dortmund University",
+      "country": "DE",
+      "city": "Dortmund",
+      "website": "https://www.tu-dortmund.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8299/",
+      "sourceQuote": "TU Dortmund University • Dortmund"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "TU Dortmund University",
+      "universityWebsite": "https://www.tu-dortmund.de/",
+      "name": "Erasmus Mundus Joint Master's — Advanced Methods in Particle Physics Advanced Methods in Particle Physics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Erasmus Mundus Joint Master's — Advanced Methods in Particle Physics Advanced Methods in Particle Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 970,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8299/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8299/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* A first cycle degree qualification according to the European Qualifications Framework or an equivalent degree qualification in the field of Physics. This requires an examination of equivalence by the Admissions Board.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B",
+          "unit": null,
+          "sourceQuote": "* The qualifying degree has to have been passed with an average grade higher or equal to B (or a final grade higher or equal to B) according to the ECTS grading system.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language certificate",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "* Valid English language certificate (at least level B2) or an equivalent proof (e.g. native speaker).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In case of a missing certificate, an interview will be arranged to assess the English level.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (before 2026)",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

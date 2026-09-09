@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:18273edae23cb99d0dbe58a7390db466fae81cc8261d3e68781ab8c4b79e7096",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:03.002Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.uni-kiel.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6159/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.uni-kiel.de/de/",
+      "name": "Master of Science in Electrical and Information Engineering MSc in Electrical and Information Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Electrical and Information Engineering MSc in Electrical and Information Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6159/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6159/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Depending on the Bachelor's degree held, the procedure for verifying admission requirements as well as the relevant deadlines vary. Information on the different procedures and the applicable deadlines can be found on the [programme’s website](https://www.uni-kiel.de/en/tf/study/msc-eie#c206385), in the section \"How do I apply for admission to the Master's degree programme in E&IE and how do I enrol?\"",
+          "intake": null,
+          "sourceQuote": "Depending on the Bachelor's degree held, the procedure for verifying admission requirements as well as the relevant deadlines vary. Information on the different procedures and the applicable deadlines can be found on the [programme’s website](https://www.uni-kiel.de/en/tf/study/msc-eie#c206385), in the section \"How do I apply for admission to the Master's degree programme in E&IE and how do I enrol?\"",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

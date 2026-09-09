@@ -1,0 +1,106 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:51567d9ceec0ec2d997f0ba0e06c0aa7b8d3b5100124dd73dd4802ca2d0a29bc",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:20.363Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Ministry of Science, Research and the Arts Baden-Württemberg: Mathilde Planck Contract Lectureships (MPL)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The programme offers women the opportunity to qualify for professorship by teaching at a public Baden Württemberg university of applied sciences, college of art or music or at the Baden-Württemberg Cooperative State University (DHBW). With the programme the state of Baden-Württemberg strives to increase the percentage of female professors. The contract lectureships are worth the monthly sum according to university-internal tariffs and include a maximum teaching load of 4 hours per week and 4 semesters. The state funds the lectureships, while the specific higher education institution may bear the travel costs.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000172",
+      "deadlineText": "The deadline for application is 1 March for the summer semester and 15 September for the winter semester.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000172",
+      "sourceQuote": "women with particular competence in scientific or artistic work and a higher education degree wishing to qualify for professorship by teaching at a Baden-Württemberg university of applied sciences, college of art or music or at the Baden-Württemberg Cooperative State University (DHBW). To be eligible, the candidate must not have held a teaching assignment at the respective higher education institu…",
+      "eligibility": [
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "women with particular competence in scientific or artistic work and a higher education degree wishing to qualify for professorship by teaching at a Baden-Württemberg university of applied sciences, college of art or music or at the Baden-Württemberg Cooperative State University (DHBW).",
+          "sourceQuote": "women with particular competence in scientific or artistic work and a higher education degree wishing to qualify for professorship by teaching at a Baden-Württemberg university of applied sciences, college of art or music or at the Baden-Württemberg Cooperative State University (DHBW).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "the candidate must not have held a teaching assignment at the respective higher education institution in the last 2 semesters.",
+          "sourceQuote": "the candidate must not have held a teaching assignment at the respective higher education institution in the last 2 semesters.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "state-recognised higher education degree",
+          "sourceQuote": "* state-recognised higher education degree",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "particular competence in academic or artistic work, generally established by completion of a doctorate or evidenced by artistic recognition or",
+          "sourceQuote": "  * particular competence in academic or artistic work, generally established by completion of a doctorate or evidenced by artistic recognition or",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "at least 2 years of professional experience outside the higher education sector and a specific doctoral research project",
+          "sourceQuote": "  * at least 2 years of professional experience outside the higher education sector and a specific doctoral research project",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC"
+          ],
+          "sourceQuote": "The programme offers women the opportunity to qualify for professorship by teaching at a public Baden Württemberg university of applied sciences, college of art or music or at the Baden-Württemberg Cooperative State University (DHBW).",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC"
+          ],
+          "sourceQuote": "women with particular competence in scientific or artistic work and a higher education degree wishing to qualify for professorship by teaching at a Baden-Württemberg university of applied sciences, college of art or music or at the Baden-Württemberg Cooperative State University (DHBW).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

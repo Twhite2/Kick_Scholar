@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c45f5df2e430474815d9be0540ffb9f78c1c13385b687048dbd02c30218576cd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:11.520Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Biogeochemistry",
+      "country": "DE",
+      "city": "Jena",
+      "website": "https://www.bgc-jena.mpg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6506/",
+      "sourceQuote": "Max Planck Institute for Biogeochemistry • Jena"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Biogeochemistry",
+      "universityWebsite": "https://www.bgc-jena.mpg.de",
+      "name": "International Max Planck Research School for Global Biogeochemical Cycles (IMPRS-gBGC) IMPRS for Global Biogeochemical Cycles",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School for Global Biogeochemical Cycles (IMPRS-gBGC) IMPRS for Global Biogeochemical Cycles",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6506/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6506/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Diplom or Master of Science degree in environmental sciences, geosciences, geography, biological sciences, physics, chemistry, computer sciences or related fields",
+          "unit": null,
+          "sourceQuote": "A prerequisite is a \"Diplom\" or Master of Science degree in environmental sciences, geosciences, geography, biological sciences, physics, chemistry, computer sciences or related fields, including a corresponding thesis.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Twice a year, the IMPRS-gBGC accepts applications for PhD positions. The deadlines are announced on [our website](https://www.bgc-jena.mpg.de/en/imprs/career-application).",
+          "intake": null,
+          "sourceQuote": "Twice a year, the IMPRS-gBGC accepts applications for PhD positions. The deadlines are announced on [our website](https://www.bgc-jena.mpg.de/en/imprs/career-application).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

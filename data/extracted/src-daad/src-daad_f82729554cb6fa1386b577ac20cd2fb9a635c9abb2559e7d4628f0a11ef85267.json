@@ -1,0 +1,153 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f82729554cb6fa1386b577ac20cd2fb9a635c9abb2559e7d4628f0a11ef85267",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:41.918Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Heinrich Böll Foundation: Student Scholarship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "German and international students from any discipline and higher education institution are invited to apply for the scholarship. The Heinrich Böll Foundation is the Green political foundation. Every year, under the heading \"promoting talent\", the foundation supports around 1,450 students and 200 doctoral students from all academic backgrounds and types of higher educational institutions in Germany and abroad. Each year, up to 250 new scholarship recipients join the programme. They are tomorrow's experts and leaders, prepared to take responsibility and advocate the foundation's green ideals in an international context: ecology and sustainability, democracy and human rights, self determination and justice.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000124",
+      "deadlineText": "1 March and 1 September of each year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000124",
+      "sourceQuote": "The scholarship is geared to particularly gifted students from Germany and abroad. Applicants from any discipline and higher education institution are eligible for funding: talented students showing excellent promise for future academic and professional careers. Moreover, applicants show involvement in line with the values of green policy.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "abroad"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German and international students from any discipline and higher education institution are invited to apply for the scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ANY"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German and international students from any discipline and higher education institution are invited to apply for the scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ANY"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "German and international students from any discipline and higher education institution are invited to apply for the scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarship is geared to particularly gifted students from Germany and abroad.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "involvement in line with the values of green policy",
+          "sourceQuote": "Moreover, applicants show involvement in line with the values of green policy.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "admission to a full-time Master's degree course at a state or state-recognised institution of higher education in Germany",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Only German students or international students who have completed their secondary education in Germany (so-called Bildungsinländer) can apply for funding for a Bachelor's degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Only German students or international students who have completed their secondary education in Germany (so-called Bildungsinländer) can apply for funding for a Bachelor's degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "international students who have completed their secondary education in Germany (Bildungsinländer)",
+          "sourceQuote": "Only German students or international students who have completed their secondary education in Germany (so-called Bildungsinländer) can apply for funding for a Bachelor's degree programme.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "admission to a full-time Master's degree course at a state or state-recognised institution of higher education in Germany",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Only German students or international students who have completed their secondary education in Germany (so-called Bildungsinländer) can apply for funding for a Bachelor's degree programme.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

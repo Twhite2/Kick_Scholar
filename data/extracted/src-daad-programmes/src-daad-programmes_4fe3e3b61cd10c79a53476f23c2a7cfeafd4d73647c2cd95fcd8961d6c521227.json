@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4fe3e3b61cd10c79a53476f23c2a7cfeafd4d73647c2cd95fcd8961d6c521227",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:07.391Z",
+  "universities": [
+    {
+      "name": "Hochschule Hannover - University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.hs-hannover.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8576/",
+      "sourceQuote": "Hochschule Hannover - University of Applied Sciences and Arts • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Hannover - University of Applied Sciences and Arts",
+      "universityWebsite": "https://www.hs-hannover.de/",
+      "name": "Visual Journalism and Documentary Photography",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Visual Journalism and Documentary Photography",
+      "fieldCategory": "ARTS",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8576/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8576/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "high school diploma (\"Abitur\", \"Fachabitur\") or an equivalent recognised degree",
+          "unit": null,
+          "sourceQuote": "To study with us, you will need a high school diploma (\"Abitur\", \"Fachabitur\") or an equivalent recognised degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "You will also need to show proof of artistic aptitude, which will be provided through an artistic aptitude test.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

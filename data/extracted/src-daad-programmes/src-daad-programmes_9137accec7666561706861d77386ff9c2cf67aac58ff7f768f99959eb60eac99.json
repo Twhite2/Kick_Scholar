@@ -1,0 +1,145 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9137accec7666561706861d77386ff9c2cf67aac58ff7f768f99959eb60eac99",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:48.868Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Köln - University of Applied Sciences",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.th-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3990/",
+      "sourceQuote": "Technische Hochschule Köln - University of Applied Sciences • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Köln - University of Applied Sciences",
+      "universityWebsite": "https://www.th-koeln.de/",
+      "name": "Integrated Design Research (Master of Arts)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Integrated Design Research (Master of Arts)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3990/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3990/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic degree (BA or higher) with a study duration of three years (180 ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Portfolio: if possible, update and adapt your existing portfolio for this programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter(s) of recommendation: please send us at least one letter of recommendation from either an academic or a professional institution/organisation.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Letter of motivation: state clearly why you want to study the graduate programme in Integrated Design Research.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Curriculum Vitae: concisely list your educational and professional background.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Proof of English Language Proficiency: we recognise all B2 level of the Common European Framework of Reference for Languages and do not have a specific deadline for the amount of time that they need to be valid.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The CaMS application portal of TH Köln is open for one week at the end of April. Please check our website for each year's exact application period. Applicants who do not have German citizenship and/or do not hold a German undergraduate degree that is related to the Master's degree in Integrated Design Research must additionally apply to uni-assist between mid-February and March 31.",
+          "intake": null,
+          "sourceQuote": "The CaMS application portal of TH Köln is open for one week at the end of April. Please check our website for each year's exact application period. Applicants who do not have German citizenship and/or do not hold a German undergraduate degree that is related to the Master's degree in Integrated Design Research must additionally apply to uni-assist between mid-February and March 31.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

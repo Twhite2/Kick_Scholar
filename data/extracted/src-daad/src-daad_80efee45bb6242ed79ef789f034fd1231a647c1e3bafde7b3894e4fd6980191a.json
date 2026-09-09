@@ -1,0 +1,67 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:80efee45bb6242ed79ef789f034fd1231a647c1e3bafde7b3894e4fd6980191a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:58.756Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Indo-German Science and Technology Centre (IGSTC): Paired Early Career Fellowship in Applied Research (PECFAR)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Indo-German Science & Technology Centre (IGSTC), established as a joint initiative of the Department of Science and Technology (DST), Government of India and the Federal Ministry of Research, Technology and Space (BMFTR), Government of Germany, invites applications for Paired Early Career Fellowship in Applied Research (PECFAR) from early-career Indian and German researchers to explore, connect and network for research collaboration. **Overview of the Fellowship:** This fellowship intends to facilitate early career researchers to have a short visit to India/Germany for networking and exploring avenues for collaboration and innovation in Science, Technology, Engineering & Mathematics (STEM). The pair* will be formed by an early career researcher from India and Germany who shall submit a joint proposal. The duration of the fellowship will be 1-2 months (minimum 1 month). A one-time grant will be provided to cover travel, accommodation and daily expenses. The paired fellows can jointly plan the fellowship visits to the partner country (India/Germany) accordingly. _*Applicants are solely responsible for identifying & forming their respective pair and acquiring an acceptance letter from the institute/organisation of the paired fellow. The IGSTC provides a link to a matchmaking platform in the call text._",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000562",
+      "deadlineText": "Application deadlines are published on the [website](https://www.igstc.org/home/pecfar_current_call).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000562",
+      "sourceQuote": "early career researchers holding a regular position in academia/a research institution/industry or holding a long-term nationally recognised fellowship In the following, the term \"Indian or German applicant\" does not refer to the nationality but to the location of the company or organisation the applicant/awardee is working at.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Master’s degree in Science/Bachelor’s degree in Engineering (4 years).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 4,
+          "textValue": null,
+          "sourceQuote": "On the German side, preference is given to researchers who have at least 4 years of experience at a German educational or research institution.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "IN",
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "This fellowship intends to facilitate early career researchers to have a short visit to India/Germany for networking and exploring avenues for collaboration and innovation in Science, Technology, Engineering & Mathematics (STEM).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ac2a2800cdea6688685e8ad21f0026b8f3416dc6bc150c390645f35c6f473521",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:15.868Z",
+  "universities": [
+    {
+      "name": "Chemnitz University of Technology",
+      "country": "DE",
+      "city": "Chemnitz",
+      "website": "https://www.tu-chemnitz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4770/",
+      "sourceQuote": "Chemnitz University of Technology • Chemnitz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Chemnitz University of Technology",
+      "universityWebsite": "https://www.tu-chemnitz.de/",
+      "name": "Advanced and Computational Mathematics – International Master's Programme Advanced and Computational Mathematics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Advanced and Computational Mathematics – International Master's Programme Advanced and Computational Mathematics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4770/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4770/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

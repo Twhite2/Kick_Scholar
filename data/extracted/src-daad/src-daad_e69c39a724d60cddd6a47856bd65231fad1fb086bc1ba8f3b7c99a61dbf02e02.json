@@ -1,0 +1,98 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:e69c39a724d60cddd6a47856bd65231fad1fb086bc1ba8f3b7c99a61dbf02e02",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:19.757Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Cancer Research Center (DKFZ): International PhD Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "International students holding a Master’s degree in (molecular) biology, (bio-)chemistry, physics, mathematics, computational biology, computer science, epidemiology/public health studies and related subjects are invited to apply for the international PhD programme. PhD students are supported by a Thesis Advisory Committee, participate in scientific and professional skills courses, attend international conferences and receive career development support. The PhD programme’s teaching language is English. Full funding is provided for the duration of the PhD, either by the DKFZ or by third-party sources. Research at the DKFZ is organised into the following programmes: [Cell and Tumor Biology](http://www.dkfz.de/en/research/research-topics/cell-and-tumor-biology?mtm_campaign=phd&mtm_kwd=stipend) [Functional and Structural Genomics](http://www.dkfz.de/en/research/research-topics/functional-and-structural-genomics?mtm_campaign=phd&mtm_kwd=stipend) [Epidemiology, Public Health, Prevention and Survivorship](https://www.dkfz.de/en/research/research-topics/epidemiology-public-health-prevention-and-survivorship?mtm_campaign=phd&mtm_kwd=stipend) [Immunology, Infection and Cancer](https://www.dkfz.de/en/research/research-topics/immunology-infection-and-cancer?mtm_campaign=phd&mtm_kwd=stipend) [Imaging and Radiooncology](https://www.dkfz.de/en/research/research-topics/imaging-and-radiooncology?mtm_campaign=phd&mtm_kwd=stipend) In addition, the programmes offer many possibilities for interac…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000141",
+      "deadlineText": "The application deadline is 21 April 2026. Application periods are published on the [website](https://www.dkfz.de/en/career/international-phd-program/program-overview).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000141",
+      "sourceQuote": "Internationals holding a Master’s degree in the natural sciences who wish to obtain a doctorate in the field of cancer research",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Internationals"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Internationals holding a Master’s degree in the natural sciences who wish to obtain a doctorate in the field of cancer research",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "International students holding a Master’s degree in (molecular) biology, (bio-)chemistry, physics, mathematics, computational biology, computer science, epidemiology/public health studies and related subjects are invited to apply for the international PhD programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "(molecular) biology",
+            "(bio-)chemistry",
+            "physics",
+            "mathematics",
+            "computational biology",
+            "computer science",
+            "epidemiology/public health studies and related subjects"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "International students holding a Master’s degree in (molecular) biology, (bio-)chemistry, physics, mathematics, computational biology, computer science, epidemiology/public health studies and related subjects are invited to apply for the international PhD programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The PhD programme’s teaching language is English.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "HEALTH"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Full funding is provided for the duration of the PhD, either by the DKFZ or by third-party sources.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

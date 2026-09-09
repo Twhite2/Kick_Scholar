@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:66fb499e3f54c61fdb1272b7685b94724ffbcb3b93815e0f6f3334eb78f97f2d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:43.197Z",
+  "universities": [
+    {
+      "name": "Jade University of Applied Sciences Wilhelmshaven/Oldenburg/Elsfleth",
+      "country": "DE",
+      "city": "Wilhelmshaven",
+      "website": "https://www.jade-hs.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7743/",
+      "sourceQuote": "Jade University of Applied Sciences Wilhelmshaven/Oldenburg/Elsfleth • Wilhelmshaven"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Jade University of Applied Sciences Wilhelmshaven/Oldenburg/Elsfleth",
+      "universityWebsite": "https://www.jade-hs.de/",
+      "name": "International Business Studies",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business Studies",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7743/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7743/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

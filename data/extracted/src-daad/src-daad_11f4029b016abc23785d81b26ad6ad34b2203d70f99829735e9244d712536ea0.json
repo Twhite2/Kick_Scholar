@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:11f4029b016abc23785d81b26ad6ad34b2203d70f99829735e9244d712536ea0",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:19.429Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Cusanuswerk: Undergraduate and Postgraduate Fellowships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Cusanuswerk offers fellowships to particularly gifted students and doctoral candidates of catholic faith from all disciplines. Besides the funding the support entails an interdisciplinary training programme, which aims at encouraging debates on the roles of science and belief or society and the Church. Financial support for students consists of a monthly, non-repayable grant based on the BAföG and a standard study cost allowance; doctoral candidates receive an income-independent grant and a research cost allowance. If necessary, family allowances and contributions to child care are granted. A large number of cross-disciplinary educational events and discussion groups provide non-material support.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000159",
+      "deadlineText": "The updated application deadlines may be found [here](https://www.cusanuswerk.de/foerderung/finanzielle-foerderung).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000159",
+      "sourceQuote": "students and doctoral candidates of catholic faith with an excellent academic record, strong reflection skills and a commitment to standing up for the catholic faith and the Church",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students and doctoral candidates of catholic faith with an excellent academic record, strong reflection skills and a commitment to standing up for the catholic faith and the Church",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "all disciplines",
+          "sourceQuote": "The Cusanuswerk offers fellowships to particularly gifted students and doctoral candidates of catholic faith from all disciplines.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students and doctoral candidates of catholic faith with an excellent academic record, strong reflection skills and a commitment to standing up for the catholic faith and the Church",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students and doctoral candidates of catholic faith with an excellent academic record, strong reflection skills and a commitment to standing up for the catholic faith and the Church",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The Cusanuswerk offers fellowships to particularly gifted students and doctoral candidates of catholic faith from all disciplines.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

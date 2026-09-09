@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4dee1c9e0c18268f35b722545c14663c1137c2d79d7ee03966e8b780ad2a8394",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:09.530Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for the Science of Light",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://mpl.mpg.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4751/",
+      "sourceQuote": "Max Planck Institute for the Science of Light • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for the Science of Light",
+      "universityWebsite": "https://mpl.mpg.de/de/",
+      "name": "International Max Planck Research School – Physics of Light (IMPRS-PL) IMPRS Physics of Light",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Max Planck Research School – Physics of Light (IMPRS-PL) IMPRS Physics of Light",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4751/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4751/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*15 January** and **31 May** for the academic year starting in the following October",
+          "intake": null,
+          "sourceQuote": "*15 January** and **31 May** for the academic year starting in the following October",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

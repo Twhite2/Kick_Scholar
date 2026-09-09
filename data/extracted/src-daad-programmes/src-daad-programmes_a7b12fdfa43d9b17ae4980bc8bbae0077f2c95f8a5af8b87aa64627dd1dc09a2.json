@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a7b12fdfa43d9b17ae4980bc8bbae0077f2c95f8a5af8b87aa64627dd1dc09a2",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:18.489Z",
+  "universities": [
+    {
+      "name": "Paderborn University",
+      "country": "DE",
+      "city": "Paderborn",
+      "website": "https://www.uni-paderborn.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4779/",
+      "sourceQuote": "Paderborn University • Paderborn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Paderborn University",
+      "universityWebsite": "https://www.uni-paderborn.de/",
+      "name": "Master of Science in Applied Neurosciences in Sports & Exercise (ANSE) Applied Neurosciences in Sports & Exercise (ANSE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Applied Neurosciences in Sports & Exercise (ANSE) Applied Neurosciences in Sports & Exercise (ANSE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4779/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4779/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

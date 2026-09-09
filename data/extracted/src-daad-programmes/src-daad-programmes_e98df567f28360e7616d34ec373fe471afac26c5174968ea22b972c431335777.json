@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e98df567f28360e7616d34ec373fe471afac26c5174968ea22b972c431335777",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:14:18.578Z",
+  "universities": [
+    {
+      "name": "Helmholtz Centre for Environmental Research - UFZ",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.ufz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4020/",
+      "sourceQuote": "Helmholtz Centre for Environmental Research - UFZ • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Helmholtz Centre for Environmental Research - UFZ",
+      "universityWebsite": "https://www.ufz.de/",
+      "name": "Helmholtz Interdisciplinary Graduate Programme for Environmental Research Helmholtz Graduate Programme for Environmental Research",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Helmholtz Interdisciplinary Graduate Programme for Environmental Research Helmholtz Graduate Programme for Environmental Research",
+      "fieldCategory": "OTHER",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4020/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4020/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**Exceptional Master's degree** in a discipline relevant to environmental research (natural, social, or engineering sciences).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**Please note that in addition to participating in HIGRADE, doctoral researchers must be enrolled in the university/faculty that will confer the doctoral degree, and please consider the current doctoral regulations of this faculty.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "**B1** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7713f134530ccccc1641b1fa4de22677b838209c584da9e7fe4b996333bcbc85",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:07:19.742Z",
+  "universities": [
+    {
+      "name": "accadis Hochschule Bad Homburg | University of Applied Sciences",
+      "country": "DE",
+      "city": "Bad Homburg vor der Höhe",
+      "website": "https://www.accadis.com/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7210/",
+      "sourceQuote": "accadis Hochschule Bad Homburg | University of Applied Sciences • Bad Homburg vor der Höhe"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "accadis Hochschule Bad Homburg | University of Applied Sciences",
+      "universityWebsite": "https://www.accadis.com/",
+      "name": "International Management MA",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Management MA",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5880,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Trimester",
+        "quarter"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7210/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7210/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "A Bachelor's degree in a business or management-related subject with min. 180 credit points (ECTS)",
+          "unit": null,
+          "sourceQuote": "* A Bachelor's degree in a business or management-related subject with min. 180 credit points (ECTS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Duolingo English Test",
+          "operator": "GTE",
+          "value": "120",
+          "unit": null,
+          "sourceQuote": "* Duolingo English Test: 120",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "56",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 56",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,115 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:948ca0ca1581e7ad3f537b46c61db6b4c01940d0fad3c231426bc3bd54238625",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:41.868Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Copernicus Hamburg: Copernicus Fellowship Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Copernicus Hamburg awards fellowships to Eastern and Central European, North African and Central Asian students every semester. The fellowships last about 6 months. In general, the fellowships for the winter semester run from October to the end of March. For the summer semester, they start at the beginning of April and last until the end of September. In the first 3 months of their stay in Germany, the fellows visit the university, in the last 2 to 3 months they complete an internship in a company, a public authority or an organisation. Copernicus expects the fellows to provide evidence of achievements (through homework, oral or written exams) during the semester. At least 3 proofs of achievement must be provided. The internship, which the fellows complete during their stay in Germany, is organised by Copernicus together with the fellow. For this purpose, the fellows apply to the respective companies at the beginning of their study visit with the support of Copernicus members. The internship providers are mostly international companies, law firms, authorities or organisations.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000136",
+      "deadlineText": "Application deadlines are: 1 September for the following summer semester (programme start 1 April) 1 March for the following winter semester (programme start 1 October)",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000136",
+      "sourceQuote": "Candidates from the following disciplines are eligible: legal sciences political science/international relations business/economics humanities and social sciences natural sciences computer science medicine architecture, only in connection with the Hamburg special programme \"Architecture for students from Cluj University in Romania\"",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Eastern and Central European",
+            "North African",
+            "Central Asian"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Copernicus Hamburg awards fellowships to Eastern and Central European, North African and Central Asian students every semester.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Bachelor's or Master's students who have completed at least 1 semester at the beginning of the programme are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "legal sciences",
+            "political science/international relations",
+            "business/economics",
+            "humanities and social sciences",
+            "natural sciences",
+            "computer science",
+            "medicine",
+            "architecture"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Candidates from the following disciplines are eligible:  \n\n  * legal sciences\n  * political science/international relations\n  * business/economics\n  * humanities and social sciences\n  * natural sciences\n  * computer science\n  * medicine\n  * architecture, only in connection with the Hamburg special programme \"Architecture for students from Cluj University in Romania\"",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "At least 1 semester completed at the beginning of the programme.",
+          "sourceQuote": "Bachelor's or Master's students who have completed at least 1 semester at the beginning of the programme are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Medical students must be enrolled in the 4th or 5th year at their home university during their semester in Hamburg.",
+          "sourceQuote": "Medical students must be enrolled in the 4th or 5th year at their home university during their semester in Hamburg.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "LAW",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "STEM",
+            "HEALTH",
+            "ARTS"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Bachelor's or Master's students who have completed at least 1 semester at the beginning of the programme are welcome to apply.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

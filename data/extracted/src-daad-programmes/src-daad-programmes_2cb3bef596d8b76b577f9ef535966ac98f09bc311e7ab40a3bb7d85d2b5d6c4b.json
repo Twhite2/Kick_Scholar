@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2cb3bef596d8b76b577f9ef535966ac98f09bc311e7ab40a3bb7d85d2b5d6c4b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:21:31.572Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4013/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master of Science Biodiversity, Evolution, Ecology MSc Biodiversity, Evolution, Ecology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science Biodiversity, Evolution, Ecology MSc Biodiversity, Evolution, Ecology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4013/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4013/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "professionally qualifying German or equivalent foreign degree in biology, geosciences, horticulture, forestry, agricultural sciences, bioinformatics, veterinary medicine or another natural science degree with proof of modules amounting to a total of at least 30 credit points from the field of biodiversity, ecology and evolution",
+          "unit": null,
+          "sourceQuote": "Admission requirements for the Master's degree course are a professionally qualifying German or equivalent foreign degree in biology, geosciences, horticulture, forestry, agricultural sciences, bioinformatics, veterinary medicine or another natural science degree with proof of modules amounting to a total of at least 30 credit points from the field of biodiversity, ecology and evolution.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "credit points",
+          "sourceQuote": "Of these, at least 10 credit points should have imparted practical knowledge in laboratory and/or field work.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "**A1** required, please provide an official language certificate, e.g.:   * telc Deutsch: telc Deutsch A1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:   * PTE Academic: 59",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

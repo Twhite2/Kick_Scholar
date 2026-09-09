@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0bd18def52b3047d91f936028873ad955c7e85f09f17bbd531eb08a35b14276e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:15.791Z",
+  "universities": [
+    {
+      "name": "University of Konstanz",
+      "country": "DE",
+      "city": "Konstanz",
+      "website": "https://www.uni-konstanz.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6350/",
+      "sourceQuote": "University of Konstanz • Konstanz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Konstanz",
+      "universityWebsite": "https://www.uni-konstanz.de",
+      "name": "Chemistry (Master of Science) Chemistry (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Chemistry (Master of Science) Chemistry (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6350/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6350/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Documentation of a three-year (or longer) study programme at a state or officially recognised institution of higher education or \"Berufsakademie\" (vocational academy) in the subject of chemistry (minimum degree: Bachelor of Sciences or equivalent), including a detailed transcript of records.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "150",
+          "unit": "points",
+          "sourceQuote": "Applicants with a higher education degree obtained in a country that is not a member of the Bologna Process have to take the GRE test (official score sheet; at least 150 points in Verbal Reasoning and Quantitative Reasoning Score).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": "points",
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

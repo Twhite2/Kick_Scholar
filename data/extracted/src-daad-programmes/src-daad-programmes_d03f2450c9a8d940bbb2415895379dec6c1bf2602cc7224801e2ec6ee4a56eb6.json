@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d03f2450c9a8d940bbb2415895379dec6c1bf2602cc7224801e2ec6ee4a56eb6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:51.302Z",
+  "universities": [
+    {
+      "name": "Osnabrück University",
+      "country": "DE",
+      "city": "Osnabrück",
+      "website": "https://www.uni-osnabrueck.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4263/",
+      "sourceQuote": "Osnabrück University • Osnabrück"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Osnabrück University",
+      "universityWebsite": "https://www.uni-osnabrueck.de",
+      "name": "English and American Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "English and American Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4263/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4263/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in English or American studies or a comparable degree in adjacent fields (e.g. comparative literature, media studies, cultural studies, etc.) that include a substantial portion of courses in English or American studies",
+          "unit": null,
+          "sourceQuote": "Applicants must have a Bachelor's degree in English or American studies or a comparable degree in adjacent fields (e.g. comparative literature, media studies, cultural studies, etc.) that include a substantial portion of courses in English or American studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language proficiency",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "Documentation of English language proficiency equivalent to C1 level is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "95",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 95",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Deadline for applications for the summer semester: 15 January",
+          "intake": null,
+          "sourceQuote": "Deadline for applications for the summer semester: 15 January",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}
