@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:23ca6c92b4bfa7ebffd88583716787e030fc4cb15ee51a3027c79bb4f54ce988",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:04.323Z",
+  "universities": [
+    {
+      "name": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+      "country": "DE",
+      "city": "Würzburg",
+      "website": "https://www.thws.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4546/",
+      "sourceQuote": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS) • Würzburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+      "universityWebsite": "https://www.thws.de",
+      "name": "BA in International Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BA in International Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4546/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4546/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

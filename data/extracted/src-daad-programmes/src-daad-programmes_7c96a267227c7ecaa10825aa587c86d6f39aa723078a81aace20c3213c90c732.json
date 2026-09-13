@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7c96a267227c7ecaa10825aa587c86d6f39aa723078a81aace20c3213c90c732",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:09.085Z",
+  "universities": [
+    {
+      "name": "Technische Universität Braunschweig",
+      "country": "DE",
+      "city": "Braunschweig",
+      "website": "https://www.tu-braunschweig.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7212/",
+      "sourceQuote": "Technische Universität Braunschweig • Braunschweig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Braunschweig",
+      "universityWebsite": "https://www.tu-braunschweig.de/",
+      "name": "Sustainable Engineering of Products and Processes Sustainable Engineering",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Sustainable Engineering of Products and Processes Sustainable Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7212/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7212/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "1. University entrance qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "Students can be admitted if they prove at least a basic level of German A2 at the time of their enrolment.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

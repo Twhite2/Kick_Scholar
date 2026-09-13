@@ -1,0 +1,26 @@
+{
+  "id": "src-iammagnus",
+  "name": "iammagnus Jobs — Scholarship category",
+  "type": "SCHOLARSHIP_AGGREGATOR",
+  "country": null,
+  "baseUrl": "https://jobs.iammagnus.com",
+  "authorityLevel": "DISCOVERY",
+  "crawlFrequency": "WEEKLY",
+  "status": "ACTIVE",
+  "seedUrls": ["https://jobs.iammagnus.com/category/scholarship/"],
+  "sitemapUrls": [],
+  "sitemapUrlPattern": null,
+  "urlPatternMode": "regex",
+  "urlPatterns": {
+    "include": ["^https://jobs\\.iammagnus\\.com/(category/scholarship/|[^/]+/$)"],
+    "exclude": ["/wp-admin", "/tag/", "/author/", "\\?"]
+  },
+  "maxDepth": 2,
+  "maxPages": 60,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "detail": "WordPress + WP Job Manager. Listings are job_listing posts, so scholarship entries share a template with ordinary job adverts — confirm a post is actually a scholarship before extracting, rather than assuming the category is clean."
+  },
+  "notes": "DISCOVERY authority, deliberately the narrowest config of the four. The site's wp-sitemap-posts-job_listing-1.xml enumerates 580 listings, but sampling showed they are overwhelmingly ordinary job adverts ('cabin-crew-member-at-green-africa-lagos'), so the sitemap is NOT used — crawling all 580 and sending them to an extractor would be the worst cost/value in the pipeline. Instead this BFSes the /category/scholarship/ taxonomy, whose pagination is plain hrefs. Cloudflare shows an intermittent bot-verification interstitial: curl with a declared UA got 200 on 2026-09-05, but headless Chromium is more likely to trip it than curl, so treat a failed run as expected rather than surprising. Review yield after the first run — if it produces fewer than ~20 genuine scholarships, mark this source DEPRECATED rather than maintaining it."
+}

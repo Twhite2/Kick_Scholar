@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:bc8b575165e062b353a21698bae3a6dba02491ab27fd349a63d93e6ac19cac7b",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:37.098Z",
+  "universities": [
+    {
+      "name": "Deggendorf Institute of Technology",
+      "country": "DE",
+      "city": "Pfarrkirchen",
+      "website": "https://www.th-deg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4595/",
+      "sourceQuote": "Deggendorf Institute of Technology • Pfarrkirchen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Deggendorf Institute of Technology",
+      "universityWebsite": "https://www.th-deg.de",
+      "name": "BA International Tourism Management / Health & Medical Tourism BA Intl. Tourism Management / Health & Medical Tourism",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BA International Tourism Management / Health & Medical Tourism BA Intl. Tourism Management / Health & Medical Tourism",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4595/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4595/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

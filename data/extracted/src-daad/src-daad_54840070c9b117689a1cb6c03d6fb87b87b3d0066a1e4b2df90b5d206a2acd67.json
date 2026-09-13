@@ -1,0 +1,140 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:54840070c9b117689a1cb6c03d6fb87b87b3d0066a1e4b2df90b5d206a2acd67",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:15:25.299Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Leibniz Institute of European History Mainz: Fellowships for Doctoral Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Leibniz Institute of European History (IEG) in Mainz awards fellowships for doctoral students in European history, the history of religion and other historical disciplines. The IEG funds PhD projects in European history from early modern to contemporary history. The Institute is particularly interested in projects with a comparative or cross-border approach, on European history in its relation to the wider world, on topics of intellectual and religious history, that use digital tools and methods. The IEG Fellowships provide a unique opportunity to pursue your individual PhD project while living and working for 6–12 months at the Institute in Mainz. During the fellowship you are required to reside at the Institute in Mainz. You actively participate in the IEG's research community, the weekly colloquia and scholarly activities. It is expected that you present your work at least once during your fellowship. The IEG preferably supports the writing up of dissertations; it will not provide funding for preliminary research, language courses or the revision of book manuscripts. The IEG encourages applications from women.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000556",
+      "deadlineText": "The IEG has two deadlines each year for IEG Fellowships: 15 February and 15 August.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000556",
+      "sourceQuote": "The fellowship is open to PhD students from Germany and abroad (m/f/d) working in European history, the history of religion, historical theology, or other historical disciplines.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The fellowship is open to PhD students from Germany and abroad (m/f/d) working in European history, the history of religion, historical theology, or other historical disciplines.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The fellowship is open to PhD students from Germany and abroad (m/f/d) working in European history, the history of religion, historical theology, or other historical disciplines.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "abroad"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The fellowship is open to PhD students from Germany and abroad (m/f/d) working in European history, the history of religion, historical theology, or other historical disciplines.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "European history",
+            "the history of religion",
+            "historical theology",
+            "other historical disciplines"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The fellowship is open to PhD students from Germany and abroad (m/f/d) working in European history, the history of religion, historical theology, or other historical disciplines.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Master's level degree in history, theology or another discipline which works historically",
+          "sourceQuote": "PhD students should have at least a Master's level degree in history, theology or another discipline which works historically.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 3,
+          "textValue": null,
+          "sourceQuote": "They must have been pursuing their doctorate for no more than 3 years at the time of taking up the fellowship, though exceptions may be made in exceptional circumstances.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Good proficiency in English is expected.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES",
+            "SOCIAL_SCIENCES"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The IEG funds PhD projects in European history from early modern to contemporary history.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The IEG Fellowships provide a unique opportunity to pursue your individual PhD project while living and working for 6–12 months at the Institute in Mainz.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

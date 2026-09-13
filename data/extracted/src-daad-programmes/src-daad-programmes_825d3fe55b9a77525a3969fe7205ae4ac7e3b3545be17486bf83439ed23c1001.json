@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:825d3fe55b9a77525a3969fe7205ae4ac7e3b3545be17486bf83439ed23c1001",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:17.293Z",
+  "universities": [
+    {
+      "name": "Darmstadt University of Applied Sciences",
+      "country": "DE",
+      "city": "Dieburg",
+      "website": "https://h-da.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6120/",
+      "sourceQuote": "Darmstadt University of Applied Sciences • Dieburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Darmstadt University of Applied Sciences",
+      "universityWebsite": "https://h-da.de/",
+      "name": "Bachelor of Arts Animation and Game",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor of Arts Animation and Game",
+      "fieldCategory": "ARTS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6120/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6120/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants need a university entrance certificate, which qualifies to study in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "All applicants must provide a B2 English certificate according to CEFR.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The first stage is a portfolio exam, which requires submission of a digital portfolio with work samples related to the field of study and chosen specialisation.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The second stage is an in-person examination on campus.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

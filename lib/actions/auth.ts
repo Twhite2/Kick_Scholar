@@ -33,13 +33,21 @@ export async function signup(
   }
   const { name, email, password } = parsed.data;
 
-  const existing = await prisma.user.findUnique({ where: { email } });
-  if (existing) {
-    return { error: "An account with this email already exists" };
-  }
+  try {
+    const existing = await prisma.user.findUnique({ where: { email } });
+    if (existing) {
+      return { error: "An account with this email already exists" };
+    }
 
-  const passwordHash = await bcrypt.hash(password, 10);
-  await prisma.user.create({ data: { name, email, passwordHash } });
+    const passwordHash = await bcrypt.hash(password, 10);
+    await prisma.user.create({ data: { name, email, passwordHash } });
+  } catch (error) {
+    // Previously this threw straight through and rendered a 500 error page.
+    console.error("[auth] signup failed:", error);
+    return {
+      error: "We couldn't create your account right now — please try again in a moment.",
+    };
+  }
 
   return login(_prevState, formData);
 }
@@ -64,7 +72,17 @@ export async function login(
     });
   } catch (error) {
     if (error instanceof AuthError) {
-      return { error: "Invalid email or password" };
+      // CredentialsSignin is the only AuthError that actually means the email
+      // or password was wrong. Everything else — most often the database being
+      // unreachable — is a fault on our side, and saying "invalid password"
+      // for it is both untrue and actively misleading.
+      if (error.type === "CredentialsSignin") {
+        return { error: "Invalid email or password" };
+      }
+      console.error("[auth] sign-in failed for a non-credential reason:", error);
+      return {
+        error: "We couldn't sign you in right now — please try again in a moment.",
+      };
     }
     throw error;
   }

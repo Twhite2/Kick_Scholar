@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c184642dc0f4b05165976183ced34bfd4eca46a320ab2345e6ef6bc7e928e029",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:31.122Z",
+  "universities": [
+    {
+      "name": "Westsächsische Hochschule Zwickau - University of Applied Sciences Zwickau",
+      "country": "DE",
+      "city": "Zwickau",
+      "website": "https://www.whz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4083/",
+      "sourceQuote": "Westsächsische Hochschule Zwickau - University of Applied Sciences Zwickau • Zwickau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Westsächsische Hochschule Zwickau - University of Applied Sciences Zwickau",
+      "universityWebsite": "https://www.whz.de/",
+      "name": "MBA International Business",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MBA International Business",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1950,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4083/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4083/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

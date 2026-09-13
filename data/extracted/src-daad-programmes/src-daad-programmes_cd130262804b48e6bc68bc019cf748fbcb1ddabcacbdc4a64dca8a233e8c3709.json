@@ -1,0 +1,137 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:cd130262804b48e6bc68bc019cf748fbcb1ddabcacbdc4a64dca8a233e8c3709",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:45:05.004Z",
+  "universities": [
+    {
+      "name": "Bauhaus-Universität Weimar",
+      "country": "DE",
+      "city": "Weimar",
+      "website": "https://www.uni-weimar.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4238/",
+      "sourceQuote": "Bauhaus-Universität Weimar • Weimar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bauhaus-Universität Weimar",
+      "universityWebsite": "https://www.uni-weimar.de",
+      "name": "Computer Science for Digital Media",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computer Science for Digital Media",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4238/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4238/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The prerequisite for admission to the Computer Science for Digital Media degree programme is a relevant Bachelor of Science degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "computer science",
+          "unit": null,
+          "sourceQuote": "Relevant courses of study include computer science, computer engineering, media informatics, information technology, software engineering, or mathematics as well as other technical and scientific courses of study with a computer science focus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "computer engineering",
+          "unit": null,
+          "sourceQuote": "Relevant courses of study include computer science, computer engineering, media informatics, information technology, software engineering, or mathematics as well as other technical and scientific courses of study with a computer science focus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "media informatics",
+          "unit": null,
+          "sourceQuote": "Relevant courses of study include computer science, computer engineering, media informatics, information technology, software engineering, or mathematics as well as other technical and scientific courses of study with a computer science focus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "information technology",
+          "unit": null,
+          "sourceQuote": "Relevant courses of study include computer science, computer engineering, media informatics, information technology, software engineering, or mathematics as well as other technical and scientific courses of study with a computer science focus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "software engineering",
+          "unit": null,
+          "sourceQuote": "Relevant courses of study include computer science, computer engineering, media informatics, information technology, software engineering, or mathematics as well as other technical and scientific courses of study with a computer science focus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "mathematics",
+          "unit": null,
+          "sourceQuote": "Relevant courses of study include computer science, computer engineering, media informatics, information technology, software engineering, or mathematics as well as other technical and scientific courses of study with a computer science focus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

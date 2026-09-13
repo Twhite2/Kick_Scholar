@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a53c327fba76a363a9bb777199cb6bdc1bb3d724bfaddc165542fad7d776b362",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:07:57.244Z",
+  "universities": [
+    {
+      "name": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "country": "DE",
+      "city": "Cottbus",
+      "website": "https://www.b-tu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8350/",
+      "sourceQuote": "Brandenburg University of Technology Cottbus-Senftenberg • Cottbus"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "universityWebsite": "https://www.b-tu.de",
+      "name": "Heritage Studies",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Heritage Studies",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8350/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8350/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "MSc (or equivalent) in Heritage Studies, Architecture, Building and Conservation, Urban/Regional Planning, or a related field in Social Sciences, Law, and Political Science",
+          "unit": null,
+          "sourceQuote": "Applicants must possess a MSc (or equivalent) in Heritage Studies, Architecture, Building and Conservation, Urban/Regional Planning, or a related field in Social Sciences, Law, and Political Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.3",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "Eligible candidates should have achieved a final grade of at least 2.3 (according to the German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The application includes a comprehensive [research proposal](https://www.b-tu.de/en/heritagestudies-phd/application/step-by-step/research-proposal).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

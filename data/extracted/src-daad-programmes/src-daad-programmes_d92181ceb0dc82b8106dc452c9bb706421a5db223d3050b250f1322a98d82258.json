@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d92181ceb0dc82b8106dc452c9bb706421a5db223d3050b250f1322a98d82258",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:31.031Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4275/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "name": "Master of Science in Economics MSc in Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Economics MSc in Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4275/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4275/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "intake": null,
+          "sourceQuote": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

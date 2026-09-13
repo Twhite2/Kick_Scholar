@@ -1,0 +1,69 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:dd2117202bfce462671516e60f5972b6b0cb95322858dce0b8bb07da49ab6b4d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:41.122Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "ALECOSTA: Alemania-Costa Rica **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Based on an agreement between CONARE and the DAAD, university lecturers from the four universities Universidad de Costa Rica, Instituto Tecnológico de Costa Rica, Universidad Nacional, Universidad Estatal a Distancia and Universidad Técnica Nacional receive funding to obtain further qualifications in Germany with scholarships for Master's and doctoral degrees.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015276",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015276",
+      "sourceQuote": "University lecturers from the Costa Rican universities Universidad de Costa Rica, Instituto Tecnológico de Costa Rica, Universidad Nacional, Universidad Estatal a Distancia and Universidad Técnica Nacional",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Costa Rica"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "University lecturers from the Costa Rican universities Universidad de Costa Rica, Instituto Tecnológico de Costa Rica, Universidad Nacional, Universidad Estatal a Distancia and Universidad Técnica Nacional",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "university lecturers from the four universities Universidad de Costa Rica, Instituto Tecnológico de Costa Rica, Universidad Nacional, Universidad Estatal a Distancia and Universidad Técnica Nacional receive funding to obtain further qualifications in Germany with scholarships for Master's and doctoral degrees.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "university lecturers from the four universities Universidad de Costa Rica, Instituto Tecnológico de Costa Rica, Universidad Nacional, Universidad Estatal a Distancia and Universidad Técnica Nacional receive funding to obtain further qualifications in Germany with scholarships for Master's and doctoral degrees.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

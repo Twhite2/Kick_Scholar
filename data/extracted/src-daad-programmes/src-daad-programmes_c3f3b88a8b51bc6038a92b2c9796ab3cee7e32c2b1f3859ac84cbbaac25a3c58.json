@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c3f3b88a8b51bc6038a92b2c9796ab3cee7e32c2b1f3859ac84cbbaac25a3c58",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:56.386Z",
+  "universities": [
+    {
+      "name": "Karlsruhe Institute of Technology",
+      "country": "DE",
+      "city": "Karlsruhe",
+      "website": "https://www.kit.edu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4327/",
+      "sourceQuote": "Karlsruhe Institute of Technology • Karlsruhe"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Karlsruhe Institute of Technology",
+      "universityWebsite": "https://www.kit.edu/",
+      "name": "ERASMUS Mundus Master's Programme EUROPHOTONICS",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "ERASMUS Mundus Master's Programme EUROPHOTONICS",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4327/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4327/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Officially certified copies and translations of your diplomas into English (first university degree and others – do not send secondary school diploma).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In case your current degree has not yet been achieved, please upload a letter from your university declaring the expected completion date, as well as available transcripts.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

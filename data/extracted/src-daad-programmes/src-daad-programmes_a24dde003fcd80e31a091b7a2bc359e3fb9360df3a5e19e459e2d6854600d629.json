@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a24dde003fcd80e31a091b7a2bc359e3fb9360df3a5e19e459e2d6854600d629",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:25:40.199Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "country": "DE",
+      "city": "Nürnberg",
+      "website": "https://www.th-nuernberg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4248/",
+      "sourceQuote": "Technische Hochschule Nürnberg Georg Simon Ohm • Nürnberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "universityWebsite": "https://www.th-nuernberg.de",
+      "name": "International Business and Technology",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business and Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4248/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4248/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to the Bachelor's programme in International Business and Technology is subject to Numerus Clausus.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A secondary school certificate that qualifies **(international) students** for entry to higher education is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applications must be accompanied by a CV, a German language certificate of at least level A2, and other documents, if applicable.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "A2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "Goethe-Zertifikat: Goethe-Zertifikat A2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "telc Deutsch: telc Deutsch A2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Deutsches Sprachdiplom der Kultusministerkonferenz (DSD)",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "Deutsches Sprachdiplom der Kultusministerkonferenz (DSD): Deutsches Sprachdiplom A2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "ÖSD Zertifikat",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "ÖSD Zertifikat: A2",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

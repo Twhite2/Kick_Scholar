@@ -1,0 +1,90 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:ba8a009dd1a7704d3965ce3d0b7154d75acab3bbba1f525d2e8970e8db3b5b72",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:25:00.106Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Bundestag: International Parliamentary Scholarships: Programme Arab Countries",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The German Bundestag invites politically engaged graduates from the Arab region to take part in a scholarship programme in Berlin from 1 to 30 September each year. The International Parliamentary Scholarship (IPS) programme for Arab countries is aimed at politically engaged young people who are interested in the German parliamentary system and play an active role in promoting core democratic values in their home countries. Participants are under 35 years of age at the programme start. During an intensive four-week programme, participants have the opportunity to gain first-hand experience of the German parliamentary system and political decision-making processes. The core element is a one-week work placement with a Member of the German Bundestag.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000398",
+      "deadlineText": "Current deadlines can be found on the [programme website](https://www.bundestag.de/en/europe/international/exchange/ips/arabian-250618).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000398",
+      "sourceQuote": "graduates from the Arab states who are fluent in German, interested in politics and who are keen to play an active role in promoting core democratic values in their home countries",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Arab states"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "graduates from the Arab states who are fluent in German, interested in politics and who are keen to play an active role in promoting core democratic values in their home countries",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "university degree",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 35,
+          "textValue": null,
+          "sourceQuote": "Participants are under 35 years of age at the programme start.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "graduates from the Arab states who are fluent in German, interested in politics and who are keen to play an active role in promoting core democratic values in their home countries",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The International Parliamentary Scholarship (IPS) programme for Arab countries is aimed at politically engaged young people who are interested in the German parliamentary system and play an active role in promoting core democratic values in their home countries.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

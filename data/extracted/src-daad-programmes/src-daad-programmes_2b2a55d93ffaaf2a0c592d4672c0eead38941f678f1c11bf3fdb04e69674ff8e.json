@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2b2a55d93ffaaf2a0c592d4672c0eead38941f678f1c11bf3fdb04e69674ff8e",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:32.421Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4533/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "French-German Master's Double Degree Programme in Physics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "French-German Master's Double Degree Programme in Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4533/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4533/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The **regular application** deadline is **28 May** during the first year of the Master's programme. If you plan to apply for [Erasmus](https://www.physik.fu-berlin.de/en/studium/erasmus/outgoing.html) funding in parallel, please submit your application by **10 March**.",
+          "intake": null,
+          "sourceQuote": "The **regular application** deadline is **28 May** during the first year of the Master's programme. If you plan to apply for [Erasmus](https://www.physik.fu-berlin.de/en/studium/erasmus/outgoing.html) funding in parallel, please submit your application by **10 March**.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

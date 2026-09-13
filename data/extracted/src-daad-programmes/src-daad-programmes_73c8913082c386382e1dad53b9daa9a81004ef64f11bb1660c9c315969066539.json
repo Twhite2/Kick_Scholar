@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:73c8913082c386382e1dad53b9daa9a81004ef64f11bb1660c9c315969066539",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:49:01.091Z",
+  "universities": [
+    {
+      "name": "Dresden University of Technology",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://tu-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3683/",
+      "sourceQuote": "Dresden University of Technology • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden University of Technology",
+      "universityWebsite": "https://tu-dresden.de/",
+      "name": "Textile Machinery and High Performance Material Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Textile Machinery and High Performance Material Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3683/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3683/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Mechanical Engineering",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Textile Engineering",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Textile Technology",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Ready-made Clothing Engineering",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Ready-made Clothing Technology",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Textile Chemistry",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Textile Finishing",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Industrial Engineering",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Electrical Engineering",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Computer Science",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first vocationally qualifying international university degree (BSc) in one of the following fields: Mechanical Engineering, Textile Engineering, Textile Technology, Ready-made Clothing Engineering, Ready-made Clothing Technology, Textile Chemistry, Textile Finishing or Industrial Engineering, Electrical Engineering or Computer Science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "They must have also acquired related industrial experience in the field of the intended Master's degree in the last two years before applying and also during the application period/process for the DAAD scholarship.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

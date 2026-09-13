@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:14f42b4a9e3752b2bbe7f4ca9cb0f8ffd121c252714098afe08da17db2d24a51",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:27.113Z",
+  "universities": [
+    {
+      "name": "HTW Berlin University of Applied Sciences",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.htw-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3705/",
+      "sourceQuote": "HTW Berlin University of Applied Sciences • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HTW Berlin University of Applied Sciences",
+      "universityWebsite": "https://www.htw-berlin.de",
+      "name": "Master in International Business (MIB)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master in International Business (MIB)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3705/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3705/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The International Business Master's programme follows consecutively from the International Business Bachelor's programme of the HTW Berlin.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.: \n  * PTE Academic: 76 \n  * IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For all applicants who obtained their first academic degree in Germany and/or are nationals of an EU or EEA country: 15 May – 15 June",
+          "intake": null,
+          "sourceQuote": "For all applicants who obtained their first academic degree in Germany and/or are nationals of an EU or EEA country: 15 May – 15 June",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

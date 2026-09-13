@@ -1,0 +1,64 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f5f0f594726aaa58b0b8d4084559f654c65ff3d108e7cc743917d033497be48a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:34.189Z",
+  "universities": [
+    {
+      "name": "The Max Planck Institute for Neurobiology of Behavior – caesar",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://mpinb.mpg.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5335/",
+      "sourceQuote": "The Max Planck Institute for Neurobiology of Behavior – caesar • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "The Max Planck Institute for Neurobiology of Behavior – caesar",
+      "universityWebsite": "https://mpinb.mpg.de/de/",
+      "name": "PhD in Neuroscience – International Max Planck Research School (IMPRS) for Brain and Behaviour PhD in Neuroscience – IMPRS for Brain and Behaviour",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "PhD in Neuroscience – International Max Planck Research School (IMPRS) for Brain and Behaviour PhD in Neuroscience – IMPRS for Brain and Behaviour",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5335/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5335/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

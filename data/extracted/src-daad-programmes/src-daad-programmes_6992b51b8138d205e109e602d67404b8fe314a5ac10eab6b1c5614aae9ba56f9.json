@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6992b51b8138d205e109e602d67404b8fe314a5ac10eab6b1c5614aae9ba56f9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:33.512Z",
+  "universities": [
+    {
+      "name": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "country": "DE",
+      "city": "Cottbus",
+      "website": "https://www.b-tu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3883/",
+      "sourceQuote": "Brandenburg University of Technology Cottbus-Senftenberg • Cottbus"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "universityWebsite": "https://www.b-tu.de",
+      "name": "Power Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Power Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3883/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3883/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree in a power engineering-related field which includes:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Basic areas of Mathematics, Physics, Computer Science, Basics in Electrical or Mechanical Engineering **and**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Electric Power Systems, Electrical Machines, Drive Systems, Power Electronics, High Voltage Engineering, Grid Calculation – in case a student wants to apply for the Electrical Power Engineering (EPE) specialisation **or**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Thermodynamics, Thermal Power Engineering, Power Plant Technology, Heat Transfer, Renewable Energies – in case a student wants to apply for the Power Generation from Fossil and Renewable Fuels (PGF) specialisation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

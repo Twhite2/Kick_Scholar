@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:db84007fded2b5aabb83d5288813749024290bf5eadef2525cce5d72b24eba12",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:18.215Z",
+  "universities": [
+    {
+      "name": "Fulda University of Applied Sciences",
+      "country": "DE",
+      "city": "Fulda",
+      "website": "https://www.hs-fulda.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4885/",
+      "sourceQuote": "Fulda University of Applied Sciences • Fulda"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Fulda University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fulda.de/",
+      "name": "Human Rights Studies in Politics, Law and Society",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Human Rights Studies in Politics, Law and Society",
+      "fieldCategory": "LAW",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4885/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4885/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

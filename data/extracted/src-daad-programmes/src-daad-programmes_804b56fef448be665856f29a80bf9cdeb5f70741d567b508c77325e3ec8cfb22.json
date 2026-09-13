@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:804b56fef448be665856f29a80bf9cdeb5f70741d567b508c77325e3ec8cfb22",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:30.082Z",
+  "universities": [
+    {
+      "name": "Hochschule Hannover - University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.hs-hannover.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6564/",
+      "sourceQuote": "Hochschule Hannover - University of Applied Sciences and Arts • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Hannover - University of Applied Sciences and Arts",
+      "universityWebsite": "https://www.hs-hannover.de/",
+      "name": "Bachelor of Science in Health Information Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor of Science in Health Information Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6564/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6564/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A valid university entrance qualification must be provided with the application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "In case you need a visa for Germany, immediate application is strongly recommended. Admission letters will be provided throughout the year, so that you have more time to deal with the necessary arrangements.",
+          "intake": null,
+          "sourceQuote": "In case you need a visa for Germany, immediate application is strongly recommended. Admission letters will be provided throughout the year, so that you have more time to deal with the necessary arrangements.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

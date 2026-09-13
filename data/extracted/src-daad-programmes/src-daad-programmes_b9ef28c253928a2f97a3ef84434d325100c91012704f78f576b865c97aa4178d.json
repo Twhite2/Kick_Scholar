@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b9ef28c253928a2f97a3ef84434d325100c91012704f78f576b865c97aa4178d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:58.938Z",
+  "universities": [
+    {
+      "name": "South Westphalia University of Applied Sciences",
+      "country": "DE",
+      "city": "Soest",
+      "website": "https://www.fh-swf.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5664/",
+      "sourceQuote": "South Westphalia University of Applied Sciences • Soest"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "South Westphalia University of Applied Sciences",
+      "universityWebsite": "https://www.fh-swf.de/de/",
+      "name": "MA International Management & Information Systems — Online (IMIS Online) MA International Management & Information Systems — Online",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA International Management & Information Systems — Online (IMIS Online) MA International Management & Information Systems — Online",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2200,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5664/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5664/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For admission to the Master’s programme IMIS Online, the applicant is required to prove the successful completion of a Bachelor’s programme, their professional expertise and their language skills.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* of at least seven semesters with a volume of 210 credits or a diploma degree course in Economics (Business) or Business Informatics or a comparable degree course with an overall grade at least equal to the German grade \"good\" (2.5) or the relative ECTS grade A or B, OR",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* of six semesters with a volume of 180 credits in Economics (Business) or Business Informatics or a comparable degree course with an overall grade at least equal to the German grade \"good\" (2.5) or the relative ECTS grade A or B, and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "months",
+          "sourceQuote": "Proof of relevant, qualified practical experience of at least 12 months after completing a course of study qualifying for a profession",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "91",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 91",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

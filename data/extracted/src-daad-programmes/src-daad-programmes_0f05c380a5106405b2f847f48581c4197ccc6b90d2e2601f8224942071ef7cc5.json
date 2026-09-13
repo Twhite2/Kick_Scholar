@@ -1,0 +1,64 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0f05c380a5106405b2f847f48581c4197ccc6b90d2e2601f8224942071ef7cc5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:12.731Z",
+  "universities": [
+    {
+      "name": "Bauhaus-Universität Weimar",
+      "country": "DE",
+      "city": "Weimar",
+      "website": "https://www.uni-weimar.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3654/",
+      "sourceQuote": "Bauhaus-Universität Weimar • Weimar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bauhaus-Universität Weimar",
+      "universityWebsite": "https://www.uni-weimar.de",
+      "name": "Integrated Urban Development and Design (IUDD)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Integrated Urban Development and Design (IUDD)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3654/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3654/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 6 \n  * Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Non-EU applicants**",
+          "intake": null,
+          "sourceQuote": "*Non-EU applicants**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

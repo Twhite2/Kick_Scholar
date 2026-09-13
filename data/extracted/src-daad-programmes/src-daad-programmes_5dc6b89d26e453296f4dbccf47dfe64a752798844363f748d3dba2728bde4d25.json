@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5dc6b89d26e453296f4dbccf47dfe64a752798844363f748d3dba2728bde4d25",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:08.442Z",
+  "universities": [
+    {
+      "name": "htw saar - University of Applied Sciences",
+      "country": "DE",
+      "city": "Saarbrücken",
+      "website": "https://www.htwsaar.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3852/",
+      "sourceQuote": "htw saar - University of Applied Sciences • Saarbrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "htw saar - University of Applied Sciences",
+      "universityWebsite": "https://www.htwsaar.de/en/",
+      "name": "International Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3852/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3852/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d323f703cdddd08b725fb60f0d2266019d86dfab5428e2d01d9aa1a299a4c04f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:56.291Z",
+  "universities": [
+    {
+      "name": "Goethe University Frankfurt",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.uni-frankfurt.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6384/",
+      "sourceQuote": "Goethe University Frankfurt • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Goethe University Frankfurt",
+      "universityWebsite": "https://www.uni-frankfurt.de/de",
+      "name": "International Master's Programme – LLM in Legal Theory LLM in Legal Theory",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master's Programme – LLM in Legal Theory LLM in Legal Theory",
+      "fieldCategory": "LAW",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 3600,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6384/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6384/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "basic degree in law; basic degree in another field of study relevant to legal theory",
+          "unit": null,
+          "sourceQuote": "Graduates must hold a basic degree in law or a basic degree in another field of study relevant to legal theory (e.g. arts, humanities or cultural, social, political, or economic studies) with a minimum duration of six semesters (180 ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "Graduates must hold a basic degree in law or a basic degree in another field of study relevant to legal theory (e.g. arts, humanities or cultural, social, political, or economic studies) with a minimum duration of six semesters (180 ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "In general, they should also prove a minimum of one year of professional and/or research experience outside the basic degree programme prior to the start of the Master's programme in Legal Theory.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must include evidence of English language proficiency (details below).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

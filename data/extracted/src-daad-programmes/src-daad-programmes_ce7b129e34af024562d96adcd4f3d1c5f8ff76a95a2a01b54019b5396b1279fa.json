@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ce7b129e34af024562d96adcd4f3d1c5f8ff76a95a2a01b54019b5396b1279fa",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:11:09.212Z",
+  "universities": [
+    {
+      "name": "OWL University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Höxter",
+      "website": "https://www.th-owl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7766/",
+      "sourceQuote": "OWL University of Applied Sciences and Arts • Höxter"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "OWL University of Applied Sciences and Arts",
+      "universityWebsite": "https://www.th-owl.de",
+      "name": "Sustainable Landscape Design and Development",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Landscape Design and Development",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7766/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7766/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A three-year Bachelor’s degree (or higher) in landscape architecture or in any related field, such as architecture, urban design and planning, environmental planning, etc.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.3",
+          "unit": null,
+          "sourceQuote": "The grade point average (GPA) of the prior academic degree needs to correspond to a German GPA of at least 2.3.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:bb8ab126818cee5fd11d590f4a7d800748b28cf2b1f5cdbbab8b2112b30fd7f7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:18:49.069Z",
+  "universities": [
+    {
+      "name": "University of Bremen",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.uni-bremen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4706/",
+      "sourceQuote": "University of Bremen • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bremen",
+      "universityWebsite": "https://www.uni-bremen.de/",
+      "name": "MSc Physical Geography: Environmental History",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Physical Geography: Environmental History",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4706/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4706/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc degree in Geography with a focus on Physical Geography, in Geosciences or Earth Sciences with a focus on Sedimentology or Quaternary Geology, or in Archaeology with a focus on Geoarchaeology",
+          "unit": null,
+          "sourceQuote": "Students holding a BSc degree in Geography with a focus on Physical Geography, in Geosciences or Earth Sciences with a focus on Sedimentology or Quaternary Geology, or in Archaeology with a focus on Geoarchaeology are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "27",
+          "unit": "CP",
+          "sourceQuote": "Subject-specific competencies through evidence of at least 27 CP in physical geography, quaternary geology and/or geoarchaeology courses are required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "EQ",
+          "value": "1000",
+          "unit": "words",
+          "sourceQuote": "Admission requires a letter of motivation with a total length of 1,000 words, explaining your interests as well as your academic or professional background.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition, a CV in tabular form and either a Bachelor's certificate and report or a preliminary transcript of records attesting at least 135 ECTS credits are mandatory.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "135",
+          "unit": "ECTS credits",
+          "sourceQuote": "In addition, a CV in tabular form and either a Bachelor's certificate and report or a preliminary transcript of records attesting at least 135 ECTS credits are mandatory.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

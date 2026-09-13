@@ -1,0 +1,146 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d50fc9123362d2ce42a3c6d06747905535af5eb23d6f51012090f067fe60b227",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:13.841Z",
+  "universities": [
+    {
+      "name": "Bavarian University of Business and Technology (HDBW)",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.hdbw-hochschule.com/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7945/",
+      "sourceQuote": "Bavarian University of Business and Technology (HDBW) • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bavarian University of Business and Technology (HDBW)",
+      "universityWebsite": "https://www.hdbw-hochschule.com/",
+      "name": "Cyber Security",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Cyber Security",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4740,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7945/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7945/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Business Informatics / Information Systems / Computer Science",
+          "unit": null,
+          "sourceQuote": "* Business Informatics / Information Systems / Computer Science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Information Management",
+          "unit": null,
+          "sourceQuote": "* Information Management",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Industrial Engineering",
+          "unit": null,
+          "sourceQuote": "* Industrial Engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Electrical Engineering / Information Technology or comparable subjects",
+          "unit": null,
+          "sourceQuote": "* Electrical Engineering / Information Technology or comparable subjects",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Other courses of study on request",
+          "unit": null,
+          "sourceQuote": "* Other courses of study on request",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In case of a non-EU Bachelor's degree, a [Pre-Master](https://www.hdbw-hochschule.com/masters-degrees-munich/pre-master) is compulsory: one semester prep course for academic skills and German language and culture classes.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GT",
+          "value": "3",
+          "unit": "years",
+          "sourceQuote": "However, full recognition is possible with a matching Bachelor's degree and more than three years of work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL Essentials",
+          "operator": "EQ",
+          "value": "8",
+          "unit": null,
+          "sourceQuote": "  * TOEFL Essentials: 8",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

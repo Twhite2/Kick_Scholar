@@ -1,0 +1,93 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:de0fa6dac928360e8ac461d5ffd05304b8073e0ea7526430199e9dc1716ed45e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:38.869Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "International Scholarship Programme of the Avicenna Studienwerk",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The International Scholarship Programme (ISP) of the Avicenna Studienwerk, in cooperation with the Islamkolleg Deutschland, supports international Muslim students and doctoral candidates with funds from the Federal Foreign Office (Auswärtiges Amt, AA). The aim of the programme is to create optimal conditions for academic qualification, social commitment and personal development through financial and non-material support.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000633",
+      "deadlineText": "The scholarships are awarded annually. Current deadlines can be found on the [programme website](https://www.avicenna-studienwerk.de/scholarship/#ISP-en).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000633",
+      "sourceQuote": "enrolment for a Master's degree or doctorate at a German higher education institutions all fields of study and subjects",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "enrolment for a Master's degree or doctorate at a German higher education institutions",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "all fields of study and subjects"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "all fields of study and subjects",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "enrolment (or at least acceptance) for a Master's degree or doctorate at a German higher education institution",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "ARTS",
+            "HEALTH",
+            "LAW",
+            "EDUCATION",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "enrolment (or at least acceptance) for a Master's degree or doctorate at a German higher education institution",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

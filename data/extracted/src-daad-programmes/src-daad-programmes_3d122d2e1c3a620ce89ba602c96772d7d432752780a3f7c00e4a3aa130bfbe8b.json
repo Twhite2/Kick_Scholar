@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3d122d2e1c3a620ce89ba602c96772d7d432752780a3f7c00e4a3aa130bfbe8b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:30.483Z",
+  "universities": [
+    {
+      "name": "Charité - Universitätsmedizin Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.charite.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8406/",
+      "sourceQuote": "Charité - Universitätsmedizin Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Charité - Universitätsmedizin Berlin",
+      "universityWebsite": "https://www.charite.de",
+      "name": "Postgraduate Master of Science in Epidemiology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Postgraduate Master of Science in Epidemiology",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5100,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8406/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8406/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "we require the completion of a university degree and at least one year of qualified, professional work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "we require the completion of a university degree and at least one year of qualified, professional work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "240",
+          "unit": "ECTS",
+          "sourceQuote": "The university degree must encompass a minimum of 240 ECTS or equivalent (four years of regular course work).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "At least one year of qualified work experience is required for admission.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "(1)**Early admissions deadline: Mid-November to 31 January**",
+          "intake": null,
+          "sourceQuote": "(1)**Early admissions deadline: Mid-November to 31 January**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

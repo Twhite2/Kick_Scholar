@@ -1,0 +1,84 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:b4c62ecdde6340dc9536bb5a35737d7a44ed59fbc1d55177d0cc0a87c825fe4e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:03.070Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Prussian Cultural Heritage Foundation: Grant Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme enables academics from all over the world to undertake research residencies of 1-3 months at the Berlin institutions of the Prussian Cultural Heritage Foundation (SPK). Funding is available for research projects, if they are related to the multi-faceted institutions of the foundation. The programme primarily addresses foreign researchers, giving them the opportunity to work in the foundation's museums, libraries and archives, make professional contacts and participate in the academic and cultural life of the SPK. The scholarship amounts vary depending on the candidates' qualifications. Academics with a first higher-education degree receive 1,300 EUR per month, whereas post-doctoral researchers or applicants with equivalent qualifications are granted 1,600 EUR each month. In addition, the sponsorship includes a one-off travel allowance of 500 EUR.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000092",
+      "deadlineText": "Application deadlines differ and may be requested at the individual institutions.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000092",
+      "sourceQuote": "graduates, doctoral candidates and post-doctoral researchers whose research projects are related to the institutions of the Prussian Cultural Heritage Foundation",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "graduates, doctoral candidates and post-doctoral researchers whose research projects are related to the institutions of the Prussian Cultural Heritage Foundation",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "research projects related to the institutions of the Prussian Cultural Heritage Foundation",
+          "sourceQuote": "graduates, doctoral candidates and post-doctoral researchers whose research projects are related to the institutions of the Prussian Cultural Heritage Foundation",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MIN_GPA",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": null,
+          "sourceQuote": "a first higher-education degree at least",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The programme enables academics from all over the world to undertake research residencies of 1-3 months at the Berlin institutions of the Prussian Cultural Heritage Foundation (SPK).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

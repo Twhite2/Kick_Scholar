@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5abc1df081371445c6bc5c81d5aca8b8d310982b79a1190f01512f30290cac46",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:39.151Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7734/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Global Health",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Global Health",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4850,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7734/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7734/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "health",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "human medicine",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "veterinary medicine",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "dentistry",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "pharmacy",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "other academic health professions",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "international relations",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "other relevant social sciences",
+          "unit": null,
+          "sourceQuote": "Applicants must have a first academic degree of 240 ECTS in the areas of health, human medicine, veterinary medicine, dentistry, pharmacy, other academic health professions (public health/health sciences, psychology/psychotherapy, nursing/sciences, midwifery, medical laboratory sciences), international relations or other relevant social sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "year",
+          "sourceQuote": "Additionally, applicants must have at least one year working experience in relevant areas, for instance, the regulation of health protection, health management and planning of health care, infrastructure, etc.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

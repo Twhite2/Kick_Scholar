@@ -1,0 +1,137 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:bfae30a5f9e6df057cdb7bba9805422923eea21d968809d511038c2c123eb5d7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:59.739Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4287/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "name": "Master of Science in Quantitative Finance MSc in Quantitative Finance",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Quantitative Finance MSc in Quantitative Finance",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4287/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4287/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants are expected to hold a **Bachelor's degree** or a comparable university degree (**minimum grade 2.5**) with a regular period of university education of **three years or more** and 180 ECTS credit points or more.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Applicants are expected to hold a **Bachelor's degree** or a comparable university degree (**minimum grade 2.5**) with a regular period of university education of **three years or more** and 180 ECTS credit points or more.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "years",
+          "sourceQuote": "Applicants are expected to hold a **Bachelor's degree** or a comparable university degree (**minimum grade 2.5**) with a regular period of university education of **three years or more** and 180 ECTS credit points or more.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS credit points",
+          "sourceQuote": "Applicants are expected to hold a **Bachelor's degree** or a comparable university degree (**minimum grade 2.5**) with a regular period of university education of **three years or more** and 180 ECTS credit points or more.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "35",
+          "unit": "credit points",
+          "sourceQuote": "In the **180 credit points** , the following needs to be included:\n  * **35 credit points** from courses on **principles of economics** (i.e. courses on microeconomic theory and courses on macroeconomic theory) with no overlapping in substance, and in courses on **quantitative methods** with no overlapping in substance",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "credit points",
+          "sourceQuote": "**of which:**\n    * **20 credit points** from courses on **quantitative methods** , i.e. courses on analysis, algebra, statistics and econometrics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "EQ",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "* UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "intake": null,
+          "sourceQuote": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

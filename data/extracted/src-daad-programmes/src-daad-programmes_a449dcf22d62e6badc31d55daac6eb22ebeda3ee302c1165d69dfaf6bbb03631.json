@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a449dcf22d62e6badc31d55daac6eb22ebeda3ee302c1165d69dfaf6bbb03631",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:46.678Z",
+  "universities": [
+    {
+      "name": "Berliner Hochschule für Technik",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.bht-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4296/",
+      "sourceQuote": "Berliner Hochschule für Technik • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Berliner Hochschule für Technik",
+      "universityWebsite": "https://www.bht-berlin.de/",
+      "name": "Master of Business Administration (MBA) Renewables MBA Renewables",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Business Administration (MBA) Renewables MBA Renewables",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 30,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 3330,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4296/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4296/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "One of the admission requirements is a first university degree that is equivalent to 210 credits according to the [European Credit Transfer and Accumulation System (ECTS)](https://ec.europa.eu/education/resources-and-tools/european-credit-transfer-and-accumulation-system-ects_en) – 210 credits equate to a workload of 6,300 study hours.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "Applicants need at least one to two years of professional experience in any field, after completing their first academic degree and before starting the MBA programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

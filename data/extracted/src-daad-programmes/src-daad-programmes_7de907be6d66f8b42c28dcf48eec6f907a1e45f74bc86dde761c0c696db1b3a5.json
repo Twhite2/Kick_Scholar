@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7de907be6d66f8b42c28dcf48eec6f907a1e45f74bc86dde761c0c696db1b3a5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:11:11.945Z",
+  "universities": [
+    {
+      "name": "Marburg University",
+      "country": "DE",
+      "city": "Marburg",
+      "website": "https://www.uni-marburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7768/",
+      "sourceQuote": "Marburg University • Marburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Marburg University",
+      "universityWebsite": "https://www.uni-marburg.de",
+      "name": "North American Studies (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "North American Studies (MA)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7768/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7768/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A university degree in a literary and culturally oriented study programme, acquired at a German university, or an equivalent university degree acquired abroad with at least 30 credit points (credit point equals a workload of 30 hours) or equivalent achievements in the field of Anglophone Studies, with a focus on North American issues of 15 credit points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\nC1 required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "English language skills\nC1 required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

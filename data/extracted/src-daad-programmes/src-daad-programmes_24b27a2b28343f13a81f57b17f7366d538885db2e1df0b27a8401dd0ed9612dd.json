@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:24b27a2b28343f13a81f57b17f7366d538885db2e1df0b27a8401dd0ed9612dd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:15:29.258Z",
+  "universities": [
+    {
+      "name": "Marburg University",
+      "country": "DE",
+      "city": "Marburg",
+      "website": "https://www.uni-marburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4002/",
+      "sourceQuote": "Marburg University • Marburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Marburg University",
+      "universityWebsite": "https://www.uni-marburg.de",
+      "name": "German as a Foreign and Second Language (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "German as a Foreign and Second Language (MA)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4002/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4002/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in German, German as a Foreign and Second Language or another Foreign Language with 12 ECTS in Linguistics or Translation Science and 12 ECTS in Literature or Cultural Studies",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "DSH",
+          "operator": "EQ",
+          "value": "DSH-3",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, please provide an official language certificate, e.g.: \n  * Deutsche Sprachprüfung für den Hochschulzugang (DSH): DSH-3",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e632215a864a92af09c0c69e1842ff3f0171bf3b472f0e3c3fea62dc12e2a21d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:23:14.846Z",
+  "universities": [
+    {
+      "name": "Bauhaus-Universität Weimar",
+      "country": "DE",
+      "city": "Weimar",
+      "website": "https://www.uni-weimar.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4660/",
+      "sourceQuote": "Bauhaus-Universität Weimar • Weimar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bauhaus-Universität Weimar",
+      "universityWebsite": "https://www.uni-weimar.de",
+      "name": "Human-Computer Interaction (HCI)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Human-Computer Interaction (HCI)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4660/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4660/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor of Science degree in computer science, media informatics, media technology, or related fields with a strong component of computer science",
+          "unit": null,
+          "sourceQuote": "The prerequisite for admission to the Master's degree programme is a Bachelor of Science degree in computer science, media informatics, media technology, or related fields with a strong component of computer science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English skills at level B2 (CEFR)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

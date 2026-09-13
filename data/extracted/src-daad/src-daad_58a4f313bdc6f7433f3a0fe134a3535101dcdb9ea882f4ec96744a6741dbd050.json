@@ -1,0 +1,123 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:58a4f313bdc6f7433f3a0fe134a3535101dcdb9ea882f4ec96744a6741dbd050",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:58.807Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Catholic Academic Exchange Service (KAAD): Scholarship Programme 1",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The KAAD is the scholarship institution of the Catholic Church in Germany. Applicants are therefore of catholic denomination: post-graduates or academics who already have work experience and plan to do post-graduate studies or spend a period of research at a higher-education institution in Germany (2 to 6 months for researchers). If recommended by the local churches, also non-Christian candidates are eligible for funding. In general, applications are submitted to the partner committees in the candidates' home countries. The programme is open to applicants from developing or transition countries in Africa, Asia, the Middle East or Latin America.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000168",
+      "deadlineText": "The individual partner committees set their own deadlines.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000168",
+      "sourceQuote": "post-graduates with excellent academic merit and potential who already have work experience from developing or transition countries in Africa, Asia, the Middle East or Latin America. Candidates are of catholic denomination and plan to do post-graduate studies or carry out a research project in Germany. If recommended by the local churches, also non-Christian candidates are eligible for funding.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Africa",
+            "Asia",
+            "the Middle East",
+            "Latin America"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is open to applicants from developing or transition countries in Africa, Asia, the Middle East or Latin America.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants are therefore of catholic denomination: post-graduates or academics who already have work experience and plan to do post-graduate studies or spend a period of research at a higher-education institution in Germany (2 to 6 months for researchers).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": null,
+          "sourceQuote": "Applicants are therefore of catholic denomination: post-graduates or academics who already have work experience and plan to do post-graduate studies or spend a period of research at a higher-education institution in Germany (2 to 6 months for researchers).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "post-graduate studies",
+            "research"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants are therefore of catholic denomination: post-graduates or academics who already have work experience and plan to do post-graduate studies or spend a period of research at a higher-education institution in Germany (2 to 6 months for researchers).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "catholic denomination; non-Christian candidates eligible if recommended by local churches",
+          "sourceQuote": "Applicants are therefore of catholic denomination: post-graduates or academics who already have work experience and plan to do post-graduate studies or spend a period of research at a higher-education institution in Germany (2 to 6 months for researchers).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "post-graduates with excellent academic merit and potential who already have work experience from developing or transition countries in Africa, Asia, the Middle East or Latin America.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "completed university education",
+          "sourceQuote": "completed university education and work experience",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Applicants are therefore of catholic denomination: post-graduates or academics who already have work experience and plan to do post-graduate studies or spend a period of research at a higher-education institution in Germany (2 to 6 months for researchers).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

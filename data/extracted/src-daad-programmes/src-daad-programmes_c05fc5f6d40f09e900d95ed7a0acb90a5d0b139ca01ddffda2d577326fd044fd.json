@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c05fc5f6d40f09e900d95ed7a0acb90a5d0b139ca01ddffda2d577326fd044fd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:17:36.438Z",
+  "universities": [
+    {
+      "name": "Hochschule München University of Applied Sciences",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.hm.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6972/",
+      "sourceQuote": "Hochschule München University of Applied Sciences • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule München University of Applied Sciences",
+      "universityWebsite": "https://www.hm.edu",
+      "name": "Entrepreneurship and Digital Transformation",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Entrepreneurship and Digital Transformation",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6972/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6972/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "180-210 ECTS",
+          "unit": null,
+          "sourceQuote": "Proof of a first university degree worth 180-210 ECTS.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30 ECTS-equivalent",
+          "unit": null,
+          "sourceQuote": "If your degree comprises 180 ECTS, you must provide evidence of an additional 30 ECTS-equivalent (e.g. via relevant courses, work experience, or an internship) gained over one year, in accordance with our Study Regulations (Studien- und Prüfungsordnung).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "Proof of English proficiency at B2 level (via recognised tests/certificates)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Demonstrated experience or knowledge in entrepreneurship/intrapreneurship, digital transformation, and project implementation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A convincing project description (one page) and pitch reel (two minutes)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A successful application interview (usually by mid-July)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

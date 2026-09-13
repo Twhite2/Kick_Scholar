@@ -1,0 +1,80 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f033fe31b2b3af3c1b248fd3834333df69659488039fdf86e433f75280782fd1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:12.014Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Bayer Foundation: Carl Duisberg Fellowships for Medical Sciences",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Carl Duisberg fellowship offers individual support to students in the disciplines of human or veterinary medicine or for an MSc or PhD (or equivalent) in medical engineering, applied medical sciences, public health, or data science in medicine. It funds students from Germany who wish to carry out research stays, internships or part of a degree course abroad as well as international students who plan to study, research or do an internship in Germany. Candidates show a strong sense of commitment and motivation and submit an innovative international research proposal, which will be funded individually. The funding cannot be used to undertake internships in commercial organisations/industry.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000206",
+      "deadlineText": "Application deadlines can be found [here](https://www.bayer-foundation.com/science/fellowships-stipends).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000206",
+      "sourceQuote": "Students from the following fields are invited to apply: human or veterinary medicine, medical engineering, applied medical sciences, public health, or data science in medicine.",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "human medicine",
+            "veterinary medicine",
+            "medical engineering",
+            "applied medical sciences",
+            "public health",
+            "data science in medicine"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Carl Duisberg fellowship offers individual support to students in the disciplines of human or veterinary medicine or for an MSc or PhD (or equivalent) in medical engineering, applied medical sciences, public health, or data science in medicine.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Master's or PhD students; Bachelor's students and postdocs cannot receive funding.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "strong commitment and motivation; innovative international research proposal",
+          "sourceQuote": "Candidates show a strong sense of commitment and motivation and submit an innovative international research proposal, which will be funded individually.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "It funds students from Germany who wish to carry out research stays, internships or part of a degree course abroad as well as international students who plan to study, research or do an internship in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

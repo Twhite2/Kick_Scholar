@@ -1,0 +1,111 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:7b4ef03ae1335b845f2c9c3009ad07350a3b96c363b119829cdf795401bf16a9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:55.871Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Foundation of German Business (sdw): Support for doctoral candidates",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Foundation of German Business (sdw) offers doctoral candidates a vast number of opportunities ranging from various seminars and training programmes to financial support. Courses are held in German, so that candidates should have German language skills of at least intermediate level (C1 or DSH 2). The Klaus Murmann Fellowship Programme is centred on a variety of political, economic and social issues with corporate responsibility being an underlying theme throughout the entire course. The foundation strongly encourages communication between the students and representatives from the fields of business, science, politics, culture and public administration.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000150",
+      "deadlineText": "The application deadlines can be found [here](https://www.sdw.org/studierende-und-promovierende/stipendien-promovierende/bewerbung).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000150",
+      "sourceQuote": "junior researchers from Germany and abroad with a higher education degree who have been admitted to a doctoral programme at a state or state-recognised higher education institution in Germany, Switzerland, the UK, France or Austria (exceptions can be made for regions close to the border)",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Foundation of German Business (sdw) offers doctoral candidates a vast number of opportunities ranging from various seminars and training programmes to financial support.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "German language skills of at least intermediate level (C1 or DSH 2)",
+          "sourceQuote": "Courses are held in German, so that candidates should have German language skills of at least intermediate level (C1 or DSH 2).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "A prerequisite for an application is a higher education degree and admission to a doctoral programme at a state or state-recognised university in Germany, Switzerland, the UK, France or Austria.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised higher education institution in Germany, Switzerland, the UK, France or Austria"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Foundation of German Business (sdw) offers doctoral candidates a vast number of opportunities ranging from various seminars and training programmes to financial support.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "CH",
+            "GB",
+            "FR",
+            "AT"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "have been admitted to a doctoral programme at a state or state-recognised higher education institution in Germany, Switzerland, the UK, France or Austria (exceptions can be made for regions close to the border)",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE",
+            "CH",
+            "GB",
+            "FR",
+            "AT"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "A prerequisite for an application is a higher education degree and admission to a doctoral programme at a state or state-recognised university in Germany, Switzerland, the UK, France or Austria.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

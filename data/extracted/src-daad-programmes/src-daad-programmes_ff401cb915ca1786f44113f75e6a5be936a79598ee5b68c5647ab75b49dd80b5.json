@@ -1,0 +1,65 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ff401cb915ca1786f44113f75e6a5be936a79598ee5b68c5647ab75b49dd80b5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:31.304Z",
+  "universities": [
+    {
+      "name": "Technical University of Darmstadt",
+      "country": "DE",
+      "city": "Darmstadt",
+      "website": "https://www.tu-darmstadt.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7775/",
+      "sourceQuote": "Technical University of Darmstadt • Darmstadt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technical University of Darmstadt",
+      "universityWebsite": "https://www.tu-darmstadt.de/",
+      "name": "Master of Science in Aerospace Engineering MSc Aerospace Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Aerospace Engineering MSc Aerospace Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7775/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7775/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Mechanical Engineering, Aerospace Engineering or an equivalent",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in Mechanical Engineering, Aerospace Engineering or an equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,63 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:325737182ba44eba7de20e61f7a40670c9c111b74a14a30688aef7fdc60568f2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:29.244Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Gerda Henkel Foundation: PhD Scholarships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The PhD scholarships support highly qualified junior academics from the historical sciences with excellent academic standing and brilliant examination results who show unusual promise for their doctoral theses. Applications can be submitted at any time, independent of the candidate's nationality or place of work. Scholarship holders receive a monthly base amount of 1,920 EUR. There are additional benefits, such as allowances for accompanying children or travel stipends, if necessary. Please note that income from employment and scholarship income are mutually exclusive. The funding will be awarded over a period of up to 2 years.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000165",
+      "deadlineText": "Applications may be submitted at any time.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000165",
+      "sourceQuote": "highly-qualified, particularly gifted junior academics from the historical sciences with excellent academic standing and brilliant examination results who show unusual promise for their doctoral theses Research projects in the following subject areas are given funding priority: archaeology historical sciences historical Islamic studies history of art history of law prehistory and early history his…",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "historical sciences"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The PhD scholarships support highly qualified junior academics from the historical sciences with excellent academic standing and brilliant examination results who show unusual promise for their doctoral theses.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The PhD scholarships support highly qualified junior academics from the historical sciences with excellent academic standing and brilliant examination results who show unusual promise for their doctoral theses.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "admission to doctoral studies",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

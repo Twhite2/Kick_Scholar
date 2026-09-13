@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b3c48dfcb1b9c55b97540dec21626879f50d89854111893a52a93407dc7c6fb8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:43.447Z",
+  "universities": [
+    {
+      "name": "Johannes Gutenberg University Mainz",
+      "country": "DE",
+      "city": "Mainz",
+      "website": "https://www.uni-mainz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6931/",
+      "sourceQuote": "Johannes Gutenberg University Mainz • Mainz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Johannes Gutenberg University Mainz",
+      "universityWebsite": "https://www.uni-mainz.de/",
+      "name": "Master of Science in International Economics and Public Policy",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in International Economics and Public Policy",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6931/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6931/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (or comparable) in economics, business, or a related discipline",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor's degree (or comparable) in economics, business, or a related discipline.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "110",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 110",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

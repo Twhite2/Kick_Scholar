@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a70177141864c154a6c372a730776f828d1e0bf3e64095dddf73e84cf1e77f7a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:18.419Z",
+  "universities": [
+    {
+      "name": "Leuphana University Lüneburg",
+      "country": "DE",
+      "city": "Lüneburg",
+      "website": "https://www.leuphana.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6962/",
+      "sourceQuote": "Leuphana University Lüneburg • Lüneburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leuphana University Lüneburg",
+      "universityWebsite": "https://www.leuphana.de/",
+      "name": "Political Science (BA)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Political Science (BA)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6962/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6962/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "C2",
+          "unit": null,
+          "sourceQuote": "Goethe-Zertifikat: Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "4.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 4.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

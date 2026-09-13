@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c57fe29da44a11e30835099faee94b89a8860636069a873099d37b0e1317135c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:20:38.414Z",
+  "universities": [
+    {
+      "name": "Leipzig University",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.uni-leipzig.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4066/",
+      "sourceQuote": "Leipzig University • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Leipzig University",
+      "universityWebsite": "https://www.uni-leipzig.de",
+      "name": "Joint International Master's Programme in Sustainable Development",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Joint International Master's Programme in Sustainable Development",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 840,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4066/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4066/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in natural or social sciences, engineering or equivalent",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in natural or social sciences, engineering or equivalent (i.e. economics and business administration, political science, development studies, urban/regional planning, earth science, environmental sciences, environmental engineering, etc.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English proficiency",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "Proof of English proficiency (C1)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "months",
+          "sourceQuote": "For Leipzig University only: At least 12 months of qualified and relevant professional experience after a Bachelor's degree",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

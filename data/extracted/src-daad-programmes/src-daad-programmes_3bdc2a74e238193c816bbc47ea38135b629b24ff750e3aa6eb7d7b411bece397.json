@@ -1,0 +1,134 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3bdc2a74e238193c816bbc47ea38135b629b24ff750e3aa6eb7d7b411bece397",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:05:50.219Z",
+  "universities": [
+    {
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "country": "DE",
+      "city": "Würzburg",
+      "website": "https://www.uni-wuerzburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6107/",
+      "sourceQuote": "Julius-Maximilians-Universität Würzburg • Würzburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Julius-Maximilians-Universität Würzburg",
+      "universityWebsite": "https://www.uni-wuerzburg.de",
+      "name": "China Language and Economy, Master of Arts (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "China Language and Economy, Master of Arts (MA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6107/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6107/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must have a Bachelor's degree in economics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "25",
+          "unit": "ECTS",
+          "sourceQuote": "Required are a minimum of:  \n25 ECTS in mathematics, statistics, and business informatics; 15 ECTS of these in mathematics and statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "ECTS",
+          "sourceQuote": "Required are a minimum of:  \n25 ECTS in mathematics, statistics, and business informatics; 15 ECTS of these in mathematics and statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "50",
+          "unit": "ECTS",
+          "sourceQuote": "50 ECTS in business and in economics; of these, 15 ECTS each in principles of business administration and principles of economics; up to 10 ECTS of the 15 ECTS required for principles of economics may be substituted with additional credits in mathematics or statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "ECTS",
+          "sourceQuote": "50 ECTS in business and in economics; of these, 15 ECTS each in principles of business administration and principles of economics; up to 10 ECTS of the 15 ECTS required for principles of economics may be substituted with additional credits in mathematics or statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "ECTS",
+          "sourceQuote": "50 ECTS in business and in economics; of these, 15 ECTS each in principles of business administration and principles of economics; up to 10 ECTS of the 15 ECTS required for principles of economics may be substituted with additional credits in mathematics or statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "ECTS",
+          "sourceQuote": "5 ECTS in Chinese business and economics or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "IN_LIST",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

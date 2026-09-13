@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:50d690883d59ccf610b795d7ccccc9fe0122f56bfd4be847f0a271a5ddeae17e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:59.847Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6318/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "Advanced Computational Methods in Civil Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Advanced Computational Methods in Civil Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6318/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6318/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "One of the prerequisites for studying this Master's degree programme is a first university degree, which proves the necessary background education.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "mathematics: 16 CP; statistics: 3 CP; mechanics: 16 CP; hydromechanics: 3 CP",
+          "unit": null,
+          "sourceQuote": "Mathematical-physical basics (38 CP):",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "constructive engineering; water management; construction operations and geotechnics; transportation",
+          "unit": null,
+          "sourceQuote": "Civil engineering basics (80 CP), whereof at least 20 CP each must be demonstrated from two of the areas listed below:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "9",
+          "unit": "CP",
+          "sourceQuote": "Admission to the Master's programme civil engineering is not possible if your additional requirements exceed the CP listed below:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "26",
+          "unit": "CP",
+          "sourceQuote": "Admission to the Master's programme civil engineering is not possible if your additional requirements exceed the CP listed below:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "CP",
+          "sourceQuote": "Admission to the Master's programme civil engineering is not possible if your additional requirements exceed the CP listed below:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE General Test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition, proof of the Graduate Record Examination (GRE) General Test is required.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

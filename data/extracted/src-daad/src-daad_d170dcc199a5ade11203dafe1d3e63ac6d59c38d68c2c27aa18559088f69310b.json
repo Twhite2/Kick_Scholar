@@ -1,0 +1,149 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:d170dcc199a5ade11203dafe1d3e63ac6d59c38d68c2c27aa18559088f69310b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:13.882Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Alfred Toepfer Stiftung & Studienstiftung des deutschen Volkes: You and Europe Scholarship Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The European Scholarship Programme You and Europe is aimed at European students wishing to complete a Master’s degree in Germany. “Europe” in this case is to be understood in its geographical entirety and thus independent of membership in the European Union. The objective of the programme is to promote European understanding while preserving cultural diversity. Specifically, the programme seeks to promote international dialogue on European issues and create a network of outstanding, socially engaged students who are committed to European cohesion. Through dialogue, exchanges and lasting connections between scholarship holders, the programme also endeavours to strengthen tolerance, respect and understanding as well as acceptance of opposing beliefs and cultural diversity. The programme was developed by the German Academic Scholarship Foundation (Studienstiftung des deutschen Volkes) and the Alfred Toepfer Stiftung F.V.S. and will be financed cooperatively by both partners.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000639",
+      "deadlineText": "The nomination deadline is annually on 4 February. The application deadline is annually on 23 February.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000639",
+      "sourceQuote": "The You and Europe Scholarship Programme is open to European students wishing to attend a 3- or 4-semester Master's programme in Germany (including bi-national programmes), starting their studies in autumn 2026. Here, \"Europe\" is defined as the geographical area in its entirety, not the European Union alone: this therefore includes 46 European countries and the State of Israel. Each round is open…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "European"
+          ],
+          "numericValue": null,
+          "textValue": "European students; each round is open to students from different countries",
+          "sourceQuote": "The You and Europe Scholarship Programme is open to European students wishing to attend a 3- or 4-semester Master's programme in Germany (including bi-national programmes), starting their studies in autumn 2026.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The You and Europe Scholarship Programme is open to European students wishing to attend a 3- or 4-semester Master's programme in Germany (including bi-national programmes), starting their studies in autumn 2026.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The You and Europe Scholarship Programme is open to European students wishing to attend a 3- or 4-semester Master's programme in Germany (including bi-national programmes), starting their studies in autumn 2026.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "ALL"
+          ],
+          "numericValue": null,
+          "textValue": "Open to students of all disciplines at universities and universities of applied sciences (except students at colleges of art and music and those at universities of applied sciences studying in the visual and performing arts, design, film and music)",
+          "sourceQuote": "Open to students of all disciplines at universities and universities of applied sciences (except students at colleges of art and music and those at universities of applied sciences studying in the visual and performing arts, design, film and music)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Open to students who have achieved above-average results in their previous studies and who have shown outstanding commitment to their studies (10-15% top performers of the year).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "fluent in English; fluency in German is not a prerequisite",
+          "sourceQuote": "Open to students who are fluent in English (fluency in German is not a prerequisite for admission)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "must start the Master's programme in Germany in autumn 2026; admission to a German university must be submitted no later than by the start of the funding period; students who have already completed their higher education entrance qualification or a Bachelor's degree in Germany are not eligible",
+          "sourceQuote": "* Start of the Master's programme in Germany in autumn 2026",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "must be a 3- or 4-semester Master's programme including bi-national programmes",
+          "sourceQuote": "The You and Europe Scholarship Programme is open to European students wishing to attend a 3- or 4-semester Master's programme in Germany (including bi-national programmes), starting their studies in autumn 2026.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The You and Europe Scholarship Programme is open to European students wishing to attend a 3- or 4-semester Master's programme in Germany (including bi-national programmes), starting their studies in autumn 2026.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Open to students of all disciplines at universities and universities of applied sciences (except students at colleges of art and music and those at universities of applied sciences studying in the visual and performing arts, design, film and music)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

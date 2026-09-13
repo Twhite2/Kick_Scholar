@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ec33224130303c898db9d0f5c47659f158ae0c2c3d5f0bdca02e0ba212614aae",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:00.483Z",
+  "universities": [
+    {
+      "name": "Rhine-Waal University of Applied Sciences",
+      "country": "DE",
+      "city": "Kleve",
+      "website": "https://www.hochschule-rhein-waal.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4687/",
+      "sourceQuote": "Rhine-Waal University of Applied Sciences • Kleve"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rhine-Waal University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-rhein-waal.de",
+      "name": "Sustainable Development Management, MA",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Sustainable Development Management, MA",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4687/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4687/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

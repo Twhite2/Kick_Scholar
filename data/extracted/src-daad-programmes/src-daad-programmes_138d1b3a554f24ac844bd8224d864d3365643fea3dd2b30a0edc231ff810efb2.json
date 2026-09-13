@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:138d1b3a554f24ac844bd8224d864d3365643fea3dd2b30a0edc231ff810efb2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:23.295Z",
+  "universities": [
+    {
+      "name": "Furtwangen University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hs-furtwangen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5447/",
+      "sourceQuote": "Furtwangen University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Furtwangen University",
+      "universityWebsite": "https://www.hs-furtwangen.de/",
+      "name": "International Relations and Cultural Diplomacy",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Relations and Cultural Diplomacy",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 3000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5447/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5447/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications for the MA programmes are accepted throughout the year. However, it is strongly recommended to apply as early as possible as class sizes are limited. We recommend applying by 15 July at latest for a start in the winter semester and by 15 January for a start in the summer semester.",
+          "intake": null,
+          "sourceQuote": "Applications for the MA programmes are accepted throughout the year. However, it is strongly recommended to apply as early as possible as class sizes are limited. We recommend applying by 15 July at latest for a start in the winter semester and by 15 January for a start in the summer semester.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

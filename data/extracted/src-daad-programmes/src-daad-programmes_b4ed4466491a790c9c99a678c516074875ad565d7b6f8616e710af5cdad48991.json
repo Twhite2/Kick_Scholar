@@ -1,0 +1,90 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b4ed4466491a790c9c99a678c516074875ad565d7b6f8616e710af5cdad48991",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:23:23.783Z",
+  "universities": [
+    {
+      "name": "University of Bamberg",
+      "country": "DE",
+      "city": "Bamberg",
+      "website": "https://www.uni-bamberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4862/",
+      "sourceQuote": "University of Bamberg • Bamberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bamberg",
+      "universityWebsite": "https://www.uni-bamberg.de/",
+      "name": "MA Double Degree Philosophy",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA Double Degree Philosophy",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4862/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4862/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in philosophy",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Sufficient language skills (English and either German or Italian)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "**B1** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "When already registered, students must apply by 5 February 2027 at their home university (first semester of the MA).",
+          "intake": null,
+          "sourceQuote": "When already registered, students must apply by 5 February 2027 at their home university (first semester of the MA).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

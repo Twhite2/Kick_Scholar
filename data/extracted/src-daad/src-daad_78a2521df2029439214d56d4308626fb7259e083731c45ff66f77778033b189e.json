@@ -1,0 +1,111 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:78a2521df2029439214d56d4308626fb7259e083731c45ff66f77778033b189e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:05.967Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Development-Related Postgraduate Courses (EPOS) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "With its development-oriented postgraduate study programmes, the DAAD promotes the training of specialists from development and newly industrialised countries. Well-trained local experts, who are networked with international partners, play an important part in the sustainable development of their countries. They are the best guarantee for a better future with less poverty, more education and health for all. The scholarships offer foreign graduates from development and newly industrialised countries from all disciplines and with at least two years' professional experience the chance to take a postgraduate or Master's degree at a state or state-recognised German university, and in exceptional cases to take a doctoral degree, and to obtain a university qualification (Master's/PhD) in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777",
+      "deadlineText": "Depending on chosen study programme; please check scholarship brochure or the website of your chosen study programme.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777",
+      "sourceQuote": "Graduates with at least two years' professional experience from the following countries: [list of eligible countries](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/dac_laenderliste_epos.pdf)",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "development and newly industrialised countries"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarships offer foreign graduates from development and newly industrialised countries from all disciplines and with at least two years' professional experience the chance to take a postgraduate or Master's degree at a state or state-recognised German university, and in exceptional cases to take a doctoral degree, and to obtain a university qualification (Master's/PhD) in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarships offer foreign graduates from development and newly industrialised countries from all disciplines and with at least two years' professional experience the chance to take a postgraduate or Master's degree at a state or state-recognised German university, and in exceptional cases to take a doctoral degree, and to obtain a university qualification (Master's/PhD) in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 2,
+          "textValue": null,
+          "sourceQuote": "The scholarships offer foreign graduates from development and newly industrialised countries from all disciplines and with at least two years' professional experience the chance to take a postgraduate or Master's degree at a state or state-recognised German university, and in exceptional cases to take a doctoral degree, and to obtain a university qualification (Master's/PhD) in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "has completed an academic degree with far above average results (upper third) and at least two years of related professional experience after the first degree (bachelor) at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "German or English language proficiency as required by the chosen course",
+          "sourceQuote": "For study courses in German (scholarship includes a preparatory 6-month German language course in Germany): Successful passing of the language examination DSH 2 or TestDaF 4 before the start of the study course. Therefore, a minimum German language level of B1 at the time of application is a requirement, that needs to be proofed by providing a current certificate.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "ARTS",
+            "HEALTH",
+            "LAW",
+            "EDUCATION",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The scholarships offer foreign graduates from development and newly industrialised countries from all disciplines and with at least two years' professional experience the chance to take a postgraduate or Master's degree at a state or state-recognised German university, and in exceptional cases to take a doctoral degree, and to obtain a university qualification (Master's/PhD) in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:4c7eb211dc01f377dd8d98ae202a25b401f4d6c89376dbb5531acad85043c207",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:15:00.866Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Study Scholarships - Postgraduate Studies in the Fields of Fine Art, Design, Visual Communication and Film **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This scholarship programme offers you the opportunity to continue your education in Germany with a postgraduate or complementary course of study in the fields of Fine Art, Design, Visual Communication and Film. The scholarships also promote the exchange of experience and networking amongst colleagues.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135742",
+      "deadlineText": "Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135742",
+      "sourceQuote": "You can apply if you have gained a first university degree in the field of arts.",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Fine Art",
+            "Design",
+            "Visual Communication",
+            "Film"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "This scholarship programme offers you the opportunity to continue your education in Germany with a postgraduate or complementary course of study in the fields of Fine Art, Design, Visual Communication and Film.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "first university degree",
+          "sourceQuote": "You can apply if you have gained a first university degree in the field of arts.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 6,
+          "textValue": "years since university degree at application deadline",
+          "sourceQuote": "As a rule, your university degree should not date back more than 6 years at the time of the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "full-time and attendance study required; part-time/e-learning not eligible",
+          "sourceQuote": "Prerequisite for the funding is a full-time and attendance study.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 15,
+          "textValue": "months resident in Germany at application deadline must not exceed",
+          "sourceQuote": "Your application cannot be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "language of instruction requirements must be met by start of scholarship",
+          "sourceQuote": "You should have the knowledge of the language of instruction which corresponds to the requirements of the chosen university at the latest by the time you start the scholarship.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "This scholarship programme offers you the opportunity to continue your education in Germany with a postgraduate or complementary course of study in the fields of Fine Art, Design, Visual Communication and Film.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Master's degree/Postgraduate degree course:",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "One academic year (usually 12 months).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

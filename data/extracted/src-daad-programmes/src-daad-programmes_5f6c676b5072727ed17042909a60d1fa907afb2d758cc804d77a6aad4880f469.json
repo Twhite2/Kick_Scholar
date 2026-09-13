@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:5f6c676b5072727ed17042909a60d1fa907afb2d758cc804d77a6aad4880f469",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:27.171Z",
+  "universities": [
+    {
+      "name": "HHL Leipzig Graduate School of Management",
+      "country": "DE",
+      "city": "Leipzig",
+      "website": "https://www.hhl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3653/",
+      "sourceQuote": "HHL Leipzig Graduate School of Management • Leipzig"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HHL Leipzig Graduate School of Management",
+      "universityWebsite": "https://www.hhl.de",
+      "name": "Full-Time MBA",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Full-Time MBA",
+      "fieldCategory": "OTHER",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 14167,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3653/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3653/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "November | early bird deadline 1 (6,000 EUR discount)",
+          "intake": null,
+          "sourceQuote": "November | early bird deadline 1 (6,000 EUR discount)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

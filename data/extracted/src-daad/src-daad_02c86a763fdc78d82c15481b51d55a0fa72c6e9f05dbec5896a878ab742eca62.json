@@ -1,0 +1,78 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:02c86a763fdc78d82c15481b51d55a0fa72c6e9f05dbec5896a878ab742eca62",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:49.889Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Studies Research Grant **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The aim of the research grant is to fund and encourage young academics to study subjects relating to German affairs on a long-term basis.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000321",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000321",
+      "sourceQuote": "The programme is aimed at qualified students, graduates and doctoral candidates from North America who are carrying out research projects on German cultural studies.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "North America"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is aimed at qualified students, graduates and doctoral candidates from North America who are carrying out research projects on German cultural studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The programme is aimed at qualified students, graduates and doctoral candidates from North America who are carrying out research projects on German cultural studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "German cultural studies",
+          "sourceQuote": "The programme is aimed at qualified students, graduates and doctoral candidates from North America who are carrying out research projects on German cultural studies.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "HUMANITIES"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The programme is aimed at qualified students, graduates and doctoral candidates from North America who are carrying out research projects on German cultural studies.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

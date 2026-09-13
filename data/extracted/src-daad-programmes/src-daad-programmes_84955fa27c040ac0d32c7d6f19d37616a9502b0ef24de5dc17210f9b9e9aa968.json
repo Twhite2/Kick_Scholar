@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:84955fa27c040ac0d32c7d6f19d37616a9502b0ef24de5dc17210f9b9e9aa968",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:45:20.530Z",
+  "universities": [
+    {
+      "name": "Kempten University of Applied Sciences",
+      "country": "DE",
+      "city": "Kempten (Allgäu)",
+      "website": "https://www.hs-kempten.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4140/",
+      "sourceQuote": "Kempten University of Applied Sciences • Kempten (Allgäu)"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kempten University of Applied Sciences",
+      "universityWebsite": "https://www.hs-kempten.de/",
+      "name": "Electrical Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4140/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4140/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (or equivalent) in electrical, telecommunication, or electronics engineering",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in electrical, telecommunication, or electronics engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "75",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 75",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

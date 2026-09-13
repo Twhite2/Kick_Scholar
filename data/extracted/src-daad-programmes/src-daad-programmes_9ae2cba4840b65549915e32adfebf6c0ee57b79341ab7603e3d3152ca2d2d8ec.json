@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9ae2cba4840b65549915e32adfebf6c0ee57b79341ab7603e3d3152ca2d2d8ec",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:24.748Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Köln - University of Applied Sciences",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.th-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3985/",
+      "sourceQuote": "Technische Hochschule Köln - University of Applied Sciences • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Köln - University of Applied Sciences",
+      "universityWebsite": "https://www.th-koeln.de/",
+      "name": "Environment and Resources Management with Focus on Latin America and the Caribbean (ENREM Double Degree Master's Programme) Environment and Resources Management (Double Master’s Degree)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Environment and Resources Management with Focus on Latin America and the Caribbean (ENREM Double Degree Master's Programme) Environment and Resources Management (Double Master’s Degree)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English Spanish"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3985/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3985/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The Master's programme starts in the winter semester (August) of each academic year.",
+          "intake": null,
+          "sourceQuote": "The Master's programme starts in the winter semester (August) of each academic year.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

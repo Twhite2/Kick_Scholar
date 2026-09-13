@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a6ccae03fb889eda6ca1e9cc2dd34c707280bfcf252371ff3d82b355f03cb65f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:50.254Z",
+  "universities": [
+    {
+      "name": "Weihenstephan-Triesdorf University of Applied Sciences",
+      "country": "DE",
+      "city": "Weidenbach",
+      "website": "https://www.hswt.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3899/",
+      "sourceQuote": "Weihenstephan-Triesdorf University of Applied Sciences • Weidenbach"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Weihenstephan-Triesdorf University of Applied Sciences",
+      "universityWebsite": "https://www.hswt.de",
+      "name": "International MSc in Agricultural Management (MAM) International MSc in Agricultural Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International MSc in Agricultural Management (MAM) International MSc in Agricultural Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3899/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3899/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Successful completion with above-average marks of an undergraduate course in agriculture or related fields at a university",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "B1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications for admission to the winter semester (1 October) can be submitted each year from late April/early May onward.",
+          "intake": null,
+          "sourceQuote": "Applications for admission to the winter semester (1 October) can be submitted each year from late April/early May onward.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

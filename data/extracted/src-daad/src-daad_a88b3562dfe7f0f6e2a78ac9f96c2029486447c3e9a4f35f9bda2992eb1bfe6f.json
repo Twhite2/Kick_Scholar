@@ -1,0 +1,87 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:a88b3562dfe7f0f6e2a78ac9f96c2029486447c3e9a4f35f9bda2992eb1bfe6f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:45.468Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Residential Fellowships at the Center for Advanced Internet Studies (CAIS)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Are you researching the social effects of digitalisation? Do you want more freedom for your project and are interested in interdisciplinary exchange? A fellowship at CAIS releases you from your regular work obligations and offers many opportunities for stimulating discussions. Fellows spend either 6 or 3 months in Bochum. During this period, CAIS finances their leave from work through compensation or grants. Individual offices and meeting rooms with modern facilities provide optimal working conditions. Fellows live rent-free in comfortable apartments located a short tram ride from CAIS. Fellows are members of the vibrant interdisciplinary research community at CAIS and of an international network of alumni, working groups, and affiliates. Regular joint activities foster academic and social exchange at the Center. Fellowships of 6 months usually start in October or April. Fellowships of 3 months can start in October, January, April, or July. Exceptions are possible after consultation.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000622",
+      "deadlineText": "The application period will be published on the [website](https://www.cais-research.de/en/cais-college/fellowships/).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000622",
+      "sourceQuote": "CAIS College funds innovative projects that deal with the social opportunities and challenges of digital transformation, and develop perspectives for practice. The funding programme is open to excellent scholars and practitioners, to all disciplines and areas of investigation, as well as to pure research and to projects that are more applied in orientation.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "All applicants must hold at least a Master’s degree or equivalent qualification and have a very good command of English.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "All applicants must hold at least a Master’s degree or equivalent qualification and have a very good command of English.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "CAIS College funds innovative projects that deal with the social opportunities and challenges of digital transformation, and develop perspectives for practice.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The funding programme is open to excellent scholars and practitioners, to all disciplines and areas of investigation, as well as to pure research and to projects that are more applied in orientation.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Fellows spend either 6 or 3 months in Bochum.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

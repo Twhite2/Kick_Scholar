@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2f4508b69b4a545dc996aa5df3213777c316ad87b9b40ec4977b67d29d57d1db",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:02:31.564Z",
+  "universities": [
+    {
+      "name": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH)",
+      "country": "DE",
+      "city": "Weiden in der Oberpfalz",
+      "website": "https://www.oth-aw.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6358/",
+      "sourceQuote": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH) • Weiden in der Oberpfalz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH)",
+      "universityWebsite": "https://www.oth-aw.de",
+      "name": "International Business (BA) International Business",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business (BA) International Business",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6358/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6358/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants from outside the European Union need to have their school leaving certificate, diploma or degree verified by an independent organisation (e.g. [uni-assist](https://www.uni-assist.de/)) before applying to the university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Only for Indian students: The APS certificate is mandatory before uni-assist will provide you with your Vorprüfungsdokumentation/VPD.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must complete a free online test assessing their suitability for the programme and providing individualised course recommendations for the first semester.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "A2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Winter semester application period:**",
+          "intake": null,
+          "sourceQuote": "*Winter semester application period:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

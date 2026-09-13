@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4cb3d4cae2b65b1c04c279e822760d8e9d02442d93e4006d0ed55254e93ef189",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:44:48.841Z",
+  "universities": [
+    {
+      "name": "Ludwig-Maximilians-Universität München",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.lmu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4441/",
+      "sourceQuote": "Ludwig-Maximilians-Universität München • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ludwig-Maximilians-Universität München",
+      "universityWebsite": "https://www.lmu.de",
+      "name": "Graduate School of Quantitative and Molecular Biosciences Munich (QMB) Graduate School of Quantitative and Molecular Biosciences Munich",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Graduate School of Quantitative and Molecular Biosciences Munich (QMB) Graduate School of Quantitative and Molecular Biosciences Munich",
+      "fieldCategory": "STEM",
+      "durationMonths": 54,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4441/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4441/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's degree in any relevant discipline: biochemistry, biophysics, biomedical sciences, bioinformatics, experimental and theoretical biophysics, (physical) chemistry, and applied mathematics",
+          "unit": null,
+          "sourceQuote": "Master's degree in any relevant discipline: biochemistry, biophysics, biomedical sciences, bioinformatics, experimental and theoretical biophysics, (physical) chemistry, and applied mathematics; two letters of recommendation and a proof of English proficiency.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "EQ",
+          "value": "2",
+          "unit": "letters of recommendation",
+          "sourceQuote": "Master's degree in any relevant discipline: biochemistry, biophysics, biomedical sciences, bioinformatics, experimental and theoretical biophysics, (physical) chemistry, and applied mathematics; two letters of recommendation and a proof of English proficiency.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English proficiency",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Master's degree in any relevant discipline: biochemistry, biophysics, biomedical sciences, bioinformatics, experimental and theoretical biophysics, (physical) chemistry, and applied mathematics; two letters of recommendation and a proof of English proficiency.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

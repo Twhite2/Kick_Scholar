@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d0245741a076e39294fee7ba67b1d0ca66c228b12b57154ec0597b7de698e687",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:36.717Z",
+  "universities": [
+    {
+      "name": "Esslingen University of Applied Sciences",
+      "country": "DE",
+      "city": "Esslingen am Neckar",
+      "website": "https://www.hs-esslingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5440/",
+      "sourceQuote": "Esslingen University of Applied Sciences • Esslingen am Neckar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Esslingen University of Applied Sciences",
+      "universityWebsite": "https://www.hs-esslingen.de/",
+      "name": "Design and Development in Automotive and Mechanical Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Design and Development in Automotive and Mechanical Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5440/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5440/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree in Mechanical Engineering, Automotive Engineering, or an equivalent area of engineering with a focus on design and development",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "A or B (top 35%)",
+          "unit": null,
+          "sourceQuote": "Overall grade of A or B (top 35%)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A letter of motivation, one page",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Two letters of recommendation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The APS certificate is required for applicants whose first degree is from PR China, Vietnam or India.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A2** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:\n  * Cambridge English Qualifications: B2 First \n  * TOEFL iBT (before 2026): 71 \n  * Reading: 18 \n  * Listening: 17 \n  * Speaking: 20 \n  * Writing: 17 \n  * TOEFL iBT Home Edition (since 2026): 4 \n  * Reading: 4 \n  * Listening: 4 \n  * Speaking: 4 \n  * Writing: 4 \n  * IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

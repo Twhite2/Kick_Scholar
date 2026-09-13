@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c69f82b1c15796e20720f04cdb582d1050a21fcea629e9556af09e5aa0d6d875",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:38.245Z",
+  "universities": [
+    {
+      "name": "Zeppelin University",
+      "country": "DE",
+      "city": "Friedrichshafen",
+      "website": "https://www.zu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7890/",
+      "sourceQuote": "Zeppelin University • Friedrichshafen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Zeppelin University",
+      "universityWebsite": "https://www.zu.de/",
+      "name": "Master of Arts in International Relations & Global Politics | IRGP MA in International Relations & Global Politics | IRGP",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Arts in International Relations & Global Politics | IRGP MA in International Relations & Global Politics | IRGP",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 6150,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7890/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7890/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.: \n  * Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

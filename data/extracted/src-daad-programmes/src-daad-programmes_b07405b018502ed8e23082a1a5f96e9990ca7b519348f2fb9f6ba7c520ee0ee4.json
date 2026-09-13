@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b07405b018502ed8e23082a1a5f96e9990ca7b519348f2fb9f6ba7c520ee0ee4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:57.557Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4757/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "MSc Management and Engineering in Technology, Innovation, Marketing and Entrepreneurship (MME TIME) MSc Management and Engineering (MME TIME)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Management and Engineering in Technology, Innovation, Marketing and Entrepreneurship (MME TIME) MSc Management and Engineering (MME TIME)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 10000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4757/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4757/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "At least one year of professional work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "A Bachelor of Engineering or Bachelor of Science degree in STEM fields (science, technology, engineering, and mathematics)",
+          "unit": null,
+          "sourceQuote": "A completed first degree: A Bachelor of Engineering or Bachelor of Science degree in STEM fields (science, technology, engineering, and mathematics)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "16",
+          "unit": "CP",
+          "sourceQuote": "16 CP in the fields of higher mathematics and statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "125",
+          "unit": "CP",
+          "sourceQuote": "125 CP in the fields of mathematics and natural science (e.g. in chemistry and/or physics), and/or computer science and/or engineering, which are defined in the examination regulations",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "CP",
+          "sourceQuote": "Basic knowledge in the fields of business administration (minimum 10 CP)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Non-EU:** The official application deadline for Master's programmes for non-EU applicants is 1 March. Additional applications via the subsequent allocation process are welcome and will be reviewed, subject to remaining capacity, until 1 June.",
+          "intake": null,
+          "sourceQuote": "*Non-EU:** The official application deadline for Master's programmes for non-EU applicants is 1 March. Additional applications via the subsequent allocation process are welcome and will be reviewed, subject to remaining capacity, until 1 June.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

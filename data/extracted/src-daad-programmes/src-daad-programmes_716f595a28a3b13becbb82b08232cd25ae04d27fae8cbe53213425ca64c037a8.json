@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:716f595a28a3b13becbb82b08232cd25ae04d27fae8cbe53213425ca64c037a8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:28.015Z",
+  "universities": [
+    {
+      "name": "EBS Universität für Wirtschaft und Recht",
+      "country": "DE",
+      "city": "Oestrich-Winkel",
+      "website": "https://www.ebs.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4080/",
+      "sourceQuote": "EBS Universität für Wirtschaft und Recht • Oestrich-Winkel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "EBS Universität für Wirtschaft und Recht",
+      "universityWebsite": "https://www.ebs.edu",
+      "name": "Bachelor's in Business Studies (BSc) Bachelor's in Business Studies",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor's in Business Studies (BSc) Bachelor's in Business Studies",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 9080,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4080/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4080/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of a general higher education entrance qualification or a foreign school-leaving certificate recognised as equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In order to get to know you personally and to be able to assess you even better, we conduct a 30-minute individual interview.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "We use the knowledge test to assess your mathematical and logical-analytical abilities as well as your problem-solving skills, which are necessary for successfully completing your studies.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before **30 June** (for a start in the winter semester) and before **30 November** (for a start in the summer semester). For international applicants who require a visa, we recommend that you submit your application before **30 May** (for a start in the winter semester) or **15 October** (for a start in the summer semester).",
+          "intake": null,
+          "sourceQuote": "*There are no application deadlines at EBS.** However, to ensure a smooth start to your studies, we recommend that you submit your application before **30 June** (for a start in the winter semester) and before **30 November** (for a start in the summer semester). For international applicants who require a visa, we recommend that you submit your application before **30 May** (for a start in the winter semester) or **15 October** (for a start in the summer semester).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

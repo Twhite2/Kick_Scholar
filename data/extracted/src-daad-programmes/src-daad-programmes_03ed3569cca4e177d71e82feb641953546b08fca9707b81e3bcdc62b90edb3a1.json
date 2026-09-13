@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:03ed3569cca4e177d71e82feb641953546b08fca9707b81e3bcdc62b90edb3a1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:28:15.017Z",
+  "universities": [
+    {
+      "name": "Furtwangen University",
+      "country": "DE",
+      "city": "Villingen-Schwenningen",
+      "website": "https://www.hs-furtwangen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4617/",
+      "sourceQuote": "Furtwangen University • Villingen-Schwenningen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Furtwangen University",
+      "universityWebsite": "https://www.hs-furtwangen.de/",
+      "name": "Master of Science in Precision Medicine Diagnostics (PMD) MSc Precision Medicine Diagnostics (PMD)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Precision Medicine Diagnostics (PMD) MSc Precision Medicine Diagnostics (PMD)",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4617/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4617/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A particularly qualifying professional Bachelor's degree in the field of natural sciences or engineering is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission is possible with a degree in another field, provided the degree closely relates to the content of the Master's programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants are considered to have direct suitability in terms of initial subject knowledge if they can demonstrate sufficient understanding in at least three of the following subject areas:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Practical laboratory experience in biochemistry, microbiology, molecular biology, or related fields is a requirement (evidenced by registration lists, grade lists, or employment references).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:28ed48001f69a72955338ac8e1ff5a17baa14a0f619d15a491b23367853260aa",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:22.722Z",
+  "universities": [
+    {
+      "name": "Paderborn University",
+      "country": "DE",
+      "city": "Paderborn",
+      "website": "https://www.uni-paderborn.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4526/",
+      "sourceQuote": "Paderborn University • Paderborn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Paderborn University",
+      "universityWebsite": "https://www.uni-paderborn.de/",
+      "name": "Master of Science in Materials Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Materials Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4526/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4526/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:28268a18dc1a86be3b3dfc71a3b01ac505a7f26b2ecdeb2bdc7159892f905b52",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:17:21.208Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Lübeck",
+      "country": "DE",
+      "city": "Lübeck",
+      "website": "https://www.th-luebeck.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7173/",
+      "sourceQuote": "Technische Hochschule Lübeck • Lübeck"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Lübeck",
+      "universityWebsite": "https://www.th-luebeck.de/",
+      "name": "Medical Microtechnology (Master of Science) Medical Microtechnology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Medical Microtechnology (Master of Science) Medical Microtechnology",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7173/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7173/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Electrical Engineering, Mechanical Engineering, Mechatronics Engineering, Physics, Physical Technology, Material Sciences, Computer Sciences",
+          "unit": null,
+          "sourceQuote": "Applicants must have a university or university of applied sciences degree (e.g. Bachelor’s degree) in one of the following areas: Electrical Engineering, Mechanical Engineering, Mechatronics Engineering, Physics, Physical Technology, Material Sciences, Computer Sciences, or the equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": "German grading system",
+          "sourceQuote": "Students must hold a Bachelor’s degree or a German diploma (\"Diplom\") with a grade of 2.5 or better (German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,85 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:6289da88e01b6edf08d9fd16fc10dc21877d77cab6883e714b224883a0594f00",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:39.999Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Sino-German (CSC-DAAD) Postdoc Scholarship Program **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "To intensify German-Chinese research cooperation and improve funding opportunities for young Chinese scientists and academics, the China Scholarship Council (CSC) and the DAAD have offered a joint programme to support Chinese postdocs since 2013.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015315",
+      "deadlineText": "The DAAD application must be made online via the DAAD Portal between 7th November to 9th December.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015315",
+      "sourceQuote": "Outstanding graduates from Chinese Universities and institutes.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The doctoral degree should have been completed no longer than two years before the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral students finishing their PhD studies by the beginning of the scholarship are also eligible to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "English: TOEFLiBT 80 or IELTS 6.0 or German: DSH2 or TestDaF 14 or onDAF",
+          "sourceQuote": "English: TOEFLiBT 80 or IELTS 6.0  \nor  \nGerman: DSH2 or TestDaF 14 or onDAF",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Outstanding graduates from Chinese Universities and institutes.",
+          "sourceQuote": "Outstanding graduates from Chinese Universities and institutes.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Candidates who have none of the listed certificates can submit a language certificate issued by a professor from the host university.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

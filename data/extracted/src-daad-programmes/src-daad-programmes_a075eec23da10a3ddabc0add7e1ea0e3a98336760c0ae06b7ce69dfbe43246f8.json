@@ -1,0 +1,89 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a075eec23da10a3ddabc0add7e1ea0e3a98336760c0ae06b7ce69dfbe43246f8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:17.936Z",
+  "universities": [
+    {
+      "name": "Saarland University",
+      "country": "DE",
+      "city": "Saarbrücken",
+      "website": "https://www.uni-saarland.de/start.html",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5267/",
+      "sourceQuote": "Saarland University • Saarbrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Saarland University",
+      "universityWebsite": "https://www.uni-saarland.de/start.html",
+      "name": "Master Border Studies MA Border Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master Border Studies MA Border Studies",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5267/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5267/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree or equivalent in anthropology, cultural studies, geography, history, intercultural communication, law, linguistics, political science, sociology or spatial planning",
+          "unit": null,
+          "sourceQuote": "Applicants must have a **Bachelor’s degree or equivalent** in the field of anthropology, cultural studies, geography, history, intercultural communication, law, linguistics, political science, sociology or spatial planning.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.: ",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications can be submitted until the end of June/15 July. Due to different national regulations, the deadlines differ at the partner universities. Please find the exact dates on our [website](http://www.uni-gr.eu/en/Master_Border_Studies).",
+          "intake": null,
+          "sourceQuote": "Applications can be submitted until the end of June/15 July. Due to different national regulations, the deadlines differ at the partner universities. Please find the exact dates on our [website](http://www.uni-gr.eu/en/Master_Border_Studies).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,67 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:dd261a850a02dfdc3ddc985a27edf6fd5eb6a49bd74f10583e4272240aa671eb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:38.481Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Government Scholarships Programme Paraguay BECAL-DAAD Master **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Graduates receive a scholarship to complete a master’s degree in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57593463",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57593463",
+      "sourceQuote": "Paraguayan graduates.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Paraguayan"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Paraguayan graduates.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Graduates receive a scholarship to complete a master’s degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Graduates receive a scholarship to complete a master’s degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

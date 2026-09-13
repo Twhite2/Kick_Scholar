@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:153d71341aafebd32a600ccd4f7de3256313800ea14999fd00d95c0f2274ac4e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:48.951Z",
+  "universities": [
+    {
+      "name": "WHU - Otto Beisheim School of Management",
+      "country": "DE",
+      "city": "Vallendar",
+      "website": "https://www.whu.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5516/",
+      "sourceQuote": "WHU - Otto Beisheim School of Management • Vallendar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "WHU - Otto Beisheim School of Management",
+      "universityWebsite": "https://www.whu.edu",
+      "name": "Master in International Business (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master in International Business (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 10100,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5516/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5516/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "For the Master in International Business, applicants should have a Bachelor's degree from an accredited institution and no more than two years of postgraduate work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "For the Master in International Business, applicants should have a Bachelor's degree from an accredited institution and no more than two years of postgraduate work experience.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "100",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 100",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "**30 April 2027** — for applicants requiring a student visa **31 May 2027** — for EU/EEA citizens and applicants who do not require a student visa to study in Germany (e.g. nationals of Australia, Brazil, Canada, Israel, Japan, New Zealand, South Korea, the UK, or the USA)",
+          "intake": null,
+          "sourceQuote": "**30 April 2027** — for applicants requiring a student visa **31 May 2027** — for EU/EEA citizens and applicants who do not require a student visa to study in Germany (e.g. nationals of Australia, Brazil, Canada, Israel, Japan, New Zealand, South Korea, the UK, or the USA)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

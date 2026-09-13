@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:259778efb7a5b450ba37b7effc8a4dd1a01b18102cd2d54842db573a818e706a",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:00.164Z",
+  "universities": [
+    {
+      "name": "Goethe University Frankfurt",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.uni-frankfurt.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4394/",
+      "sourceQuote": "Goethe University Frankfurt • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Goethe University Frankfurt",
+      "universityWebsite": "https://www.uni-frankfurt.de/de",
+      "name": "Master of Laws in International Banking, Securities & Finance (for Graduates from Asia) LLM in International Banking, Securities & Finance",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Laws in International Banking, Securities & Finance (for Graduates from Asia) LLM in International Banking, Securities & Finance",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 10000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4394/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4394/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Deadline for Applications:** **15 May:** Countries where APS certificates are required (i.e. China, India, Mongolia and Vietnam) **1 July:** All other Countries",
+          "intake": null,
+          "sourceQuote": "*Deadline for Applications:** **15 May:** Countries where APS certificates are required (i.e. China, India, Mongolia and Vietnam) **1 July:** All other Countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

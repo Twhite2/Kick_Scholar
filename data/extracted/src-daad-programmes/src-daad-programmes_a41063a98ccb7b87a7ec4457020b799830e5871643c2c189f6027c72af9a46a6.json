@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a41063a98ccb7b87a7ec4457020b799830e5871643c2c189f6027c72af9a46a6",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:39.792Z",
+  "universities": [
+    {
+      "name": "Goethe University Frankfurt",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.uni-frankfurt.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3845/",
+      "sourceQuote": "Goethe University Frankfurt • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Goethe University Frankfurt",
+      "universityWebsite": "https://www.uni-frankfurt.de/de",
+      "name": "Master of Laws in Finance (LLM Finance)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Laws in Finance (LLM Finance)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 11500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3845/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3845/",
+      "sourceQuote": "Degree Master of Laws",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Candidates should submit their applications as soon as possible after 15 October of every year. Evaluation of **completed** applications will begin on 1 November and candidates will generally be informed of the results of their applications within six weeks of receipt.",
+          "intake": null,
+          "sourceQuote": "Candidates should submit their applications as soon as possible after 15 October of every year. Evaluation of **completed** applications will begin on 1 November and candidates will generally be informed of the results of their applications within six weeks of receipt.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

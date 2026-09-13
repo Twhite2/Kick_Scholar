@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2740ee9987ac1311f848f720cdd7d64ed5db3fd713cbb2fe23fe0cd2fa517d16",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:08:31.756Z",
+  "universities": [
+    {
+      "name": "Osnabrück University",
+      "country": "DE",
+      "city": "Osnabrück",
+      "website": "https://www.uni-osnabrueck.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7960/",
+      "sourceQuote": "Osnabrück University • Osnabrück"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Osnabrück University",
+      "universityWebsite": "https://www.uni-osnabrueck.de",
+      "name": "Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7960/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7960/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must have completed a Bachelor’s degree in a relevant subject.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS credit points",
+          "sourceQuote": "For a subject to count as relevant, it must have covered a minimum of 60 ECTS credit points in economics, mathematics, statistics or econometrics, of which",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "25",
+          "unit": "ECTS credit points",
+          "sourceQuote": "  * at least 25 ECTS credit points must be in economics and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "15",
+          "unit": "ECTS credit points",
+          "sourceQuote": "  * at least 15 ECTS credit points must be in mathematics, statistics or econometrics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "150",
+          "unit": "ECTS credit points",
+          "sourceQuote": "Applicants may apply to the programme before completing their Bachelor’s degree if they provide proof that they have completed at least 150 ECTS credit points.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

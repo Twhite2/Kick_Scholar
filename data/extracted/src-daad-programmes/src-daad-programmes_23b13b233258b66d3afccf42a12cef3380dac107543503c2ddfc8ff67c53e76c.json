@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:23b13b233258b66d3afccf42a12cef3380dac107543503c2ddfc8ff67c53e76c",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:27.134Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3669/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "Mathematics (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mathematics (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3669/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3669/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applicants who are neither EU/EFTA nationals nor hold an EU/EFTA university degree Applications open in February for entry the following October resp. August for entry the following April. Deadline: 15 April for entry the following October resp. 15 October for entry the following April EU/EFTA applicants and applicants holding an EU/EFTA university degree Applications open in May for entry the following October resp. November for entry the following April. Deadline: 1 July for entry the following October resp. 1 January for entry the following April.",
+          "intake": null,
+          "sourceQuote": "Applicants who are neither EU/EFTA nationals nor hold an EU/EFTA university degree Applications open in February for entry the following October resp. August for entry the following April. Deadline: 15 April for entry the following October resp. 15 October for entry the following April EU/EFTA applicants and applicants holding an EU/EFTA university degree Applications open in May for entry the following October resp. November for entry the following April. Deadline: 1 July for entry the following October resp. 1 January for entry the following April.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

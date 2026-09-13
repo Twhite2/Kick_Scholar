@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1f1f4c7376fafde53f4db59319ae9d929f715c8e6fb8272f3e1c668b2d558e6d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:14.579Z",
+  "universities": [
+    {
+      "name": "Neu-Ulm University of Applied Sciences",
+      "country": "DE",
+      "city": "Neu-Ulm",
+      "website": "https://www.hnu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8538/",
+      "sourceQuote": "Neu-Ulm University of Applied Sciences • Neu-Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Neu-Ulm University of Applied Sciences",
+      "universityWebsite": "https://www.hnu.de",
+      "name": "Social Entrepreneurship for Sustainable Develop­ment (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Social Entrepreneurship for Sustainable Develop­ment (MA)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8538/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8538/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Completed university studies with at least 210 ECTS (those with fewer ECTS, please see [University degree does not reach 210 ECTS](https://www.hnu.de/en/studies/degree-programmes/masters-programmes/social-entrepreneurship-for-sustainable-development-ma#c1151040))",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "grade 2.5 or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills: min. B2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "for international applicants: German A1 (The language certificate must be submitted by the end of the first semester.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must have 5 ECTS in basic knowledge in economics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GTEBS",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "optional: voluntary admission test to improve the degree grade (GTEBS)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "TM-WISO",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "optional: voluntary admission test to improve the degree grade (TM-WISO)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

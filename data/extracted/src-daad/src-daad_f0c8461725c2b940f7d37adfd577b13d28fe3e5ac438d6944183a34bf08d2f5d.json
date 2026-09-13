@@ -1,0 +1,59 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f0c8461725c2b940f7d37adfd577b13d28fe3e5ac438d6944183a34bf08d2f5d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:55.839Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Jean Monnet Scholarship Programme (JMSP)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Within the framework of Turkey’s negotiation process for full membership to the EU, the Jean Monnet Scholarship Programme (JMSP) aims at contributing to Turkey’s administrative capacity building efforts through increasing the number of experts on fields related to the EU acquis.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000509",
+      "deadlineText": "The application deadline can be found on the [programme website](http://jeanmonnet.org.tr/en/about-scholarship-programme/).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000509",
+      "sourceQuote": "People who are currently working in Turkey in public sector (including professional organisations having legal public personality, chambers, local administrations, development agencies, etc.) working in Turkey in private sector (including NGOs, resident diplomatic missions, etc.) working in Turkey in universities as academic or administrative staff senior undergraduate students or postgraduate (Ma…",
+      "eligibility": [
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Currently working in Turkey in public sector, private sector, universities, or senior undergraduate/postgraduate students in Turkey; and interested in specialising in the EU Acquis.",
+          "sourceQuote": "People who are currently  \r\n\r\n  * working in Turkey in public sector (including professional organisations having legal public personality, chambers, local administrations, development agencies, etc.)\r\n  * working in Turkey in private sector (including NGOs, resident diplomatic missions, etc.)\r\n  * working in Turkey in universities as academic or administrative staff\r\n  * senior undergraduate students or postgraduate (Master's or PhD) students in Turkey\r\n\r\nand who would like to specialise in the EU Acquis may apply for a scholarship.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "TR"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Scholars shall conduct academic studies at **graduate** or **research** level for periods of **minimum 3, maximum 12 months**.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

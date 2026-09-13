@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f5dd727ffc5176fabe10eca8bd91c40e57863dd92cea385c29415b5757cf648c",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:16.469Z",
+  "universities": [
+    {
+      "name": "Hamburg University of Technology",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.tuhh.de/tuhh/startseite",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3749/",
+      "sourceQuote": "Hamburg University of Technology • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hamburg University of Technology",
+      "universityWebsite": "https://www.tuhh.de/tuhh/startseite",
+      "name": "Mechanical Engineering and Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mechanical Engineering and Management",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3749/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3749/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

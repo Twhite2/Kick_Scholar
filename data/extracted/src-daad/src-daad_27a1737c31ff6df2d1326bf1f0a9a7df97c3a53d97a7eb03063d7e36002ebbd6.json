@@ -1,0 +1,94 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:27a1737c31ff6df2d1326bf1f0a9a7df97c3a53d97a7eb03063d7e36002ebbd6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:22.898Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Gerda Henkel Foundation: Research Scholarships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Applicants holding a PhD or who are eligible to be a junior professor in the historical humanities are invited to apply for the research scholarships by the GHS, independent of nationality or place of work. The funding is granted to candidates wishing to carry out an independent research project alone. Post-doctoral scientists receive a scholarship base amount of 2,760 EUR each month, the grant for scientists with a post-doctoral lecturer qualification is worth 3,720 EUR. There are additional benefits, such as allowances for accompanying children or to cover printing costs, if necessary. The funding period ranges from 1 to 24 months.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000130",
+      "deadlineText": "Applications are accepted all year round. The foundation committees decide on the allocation of funding twice a year. Application deadlines are published on the programme website. Applications for smaller grants (up to a max. of 30,000 EUR) can be made at any time.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000130",
+      "sourceQuote": "Scientists holding a PhD or who are eligible to be a junior professor from the historical humanities wishing to carry out an independent research project alone. Research projects from the following subjects are given funding priority: archaeology history of art historical Islamic studies history history of science prehistory and early history history of law",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "Applicants holding a PhD or who are eligible to be a junior professor in the historical humanities are invited to apply for the research scholarships by the GHS, independent of nationality or place of work.",
+          "sourceQuote": "Applicants holding a PhD or who are eligible to be a junior professor in the historical humanities are invited to apply for the research scholarships by the GHS, independent of nationality or place of work.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "historical humanities",
+          "sourceQuote": "doctorate or post-doctoral lecturer qualification in the field of the historical humanities",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "eligible to be a junior professor in the historical humanities",
+          "sourceQuote": "Applicants holding a PhD or who are eligible to be a junior professor in the historical humanities are invited to apply for the research scholarships by the GHS, independent of nationality or place of work.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "independent research project alone",
+          "sourceQuote": "The funding is granted to candidates wishing to carry out an independent research project alone.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "PhD within the last 10 years",
+          "sourceQuote": "Applications for a research scholarship for post-doctoral researchers may only be made if applicants received their PhD within the last 10 years.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Applicants holding a PhD or who are eligible to be a junior professor in the historical humanities are invited to apply for the research scholarships by the GHS, independent of nationality or place of work.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

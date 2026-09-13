@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4fe2b5acd2592fc7dfb402ab7dc8ed0652674b120e3a2565a287664ace04ceca",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:56.295Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Köln - University of Applied Sciences",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.th-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3976/",
+      "sourceQuote": "Technische Hochschule Köln - University of Applied Sciences • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Köln - University of Applied Sciences",
+      "universityWebsite": "https://www.th-koeln.de/",
+      "name": "International Business and Global Transformation (Master of Arts)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Business and Global Transformation (Master of Arts)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3976/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3976/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Information on the application process can be obtained here: <https://www.th-koeln.de/en/academics/international-business-master--how-to-apply_5815.php>",
+          "intake": null,
+          "sourceQuote": "Information on the application process can be obtained here: <https://www.th-koeln.de/en/academics/international-business-master--how-to-apply_5815.php>",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

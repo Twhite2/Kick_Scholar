@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a69975b08fc45461b7cb13c4947e11bcf5bec4eb5b2a1a1a3dfa49b781e4e222",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:11:07.439Z",
+  "universities": [
+    {
+      "name": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH)",
+      "country": "DE",
+      "city": "Amberg",
+      "website": "https://www.oth-aw.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7704/",
+      "sourceQuote": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH) • Amberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ostbayerische Technische Hochschule Amberg-Weiden (OTH)",
+      "universityWebsite": "https://www.oth-aw.de",
+      "name": "International Energy Engineering (MEng) International Energy Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Energy Engineering (MEng) International Energy Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7704/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7704/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A2** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Winter semester application period:**",
+          "intake": null,
+          "sourceQuote": "*Winter semester application period:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,58 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f7e3228515172b4295b1d2a001e74629a108430b626484a558402099a4dbac43",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:01.533Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Institutions of Higher Education in Hesse: Doctoral Scholarships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Specific higher education institutions of the state of Hesse award doctoral scholarships to particularly qualified junior scholars and researchers who wish to conduct doctoral research at a Hessian higher education institution. Applications must be submitted directly to the selected higher education institutions, which will also provide detailed information on the application procedure.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000103",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000103",
+      "sourceQuote": "particularly qualified young academics with a doctoral project at a higher education institution in Hesse",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "admission to a doctoral programme at a higher education institution in Hesse",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Specific higher education institutions of the state of Hesse award doctoral scholarships to particularly qualified junior scholars and researchers who wish to conduct doctoral research at a Hessian higher education institution.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

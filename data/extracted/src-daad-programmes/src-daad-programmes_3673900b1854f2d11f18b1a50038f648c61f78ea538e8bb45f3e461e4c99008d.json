@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3673900b1854f2d11f18b1a50038f648c61f78ea538e8bb45f3e461e4c99008d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:15:01.757Z",
+  "universities": [
+    {
+      "name": "Hannover Medical School",
+      "country": "DE",
+      "city": "Hannover",
+      "website": "https://www.mhh.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3966/",
+      "sourceQuote": "Hannover Medical School • Hannover"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hannover Medical School",
+      "universityWebsite": "https://www.mhh.de/",
+      "name": "MD/PhD Programme: Molecular Medicine",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "MD/PhD Programme: Molecular Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3966/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3966/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's degree",
+          "unit": null,
+          "sourceQuote": "Master's degree, German Diploma (\"Diplom\"), or Dr med",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "German Diploma",
+          "unit": null,
+          "sourceQuote": "Master's degree, German Diploma (\"Diplom\"), or Dr med",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Dr med",
+          "unit": null,
+          "sourceQuote": "Master's degree, German Diploma (\"Diplom\"), or Dr med",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

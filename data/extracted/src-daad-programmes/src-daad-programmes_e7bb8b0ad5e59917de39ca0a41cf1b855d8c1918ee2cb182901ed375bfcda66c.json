@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e7bb8b0ad5e59917de39ca0a41cf1b855d8c1918ee2cb182901ed375bfcda66c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:07.370Z",
+  "universities": [
+    {
+      "name": "Osnabrück University",
+      "country": "DE",
+      "city": "Osnabrück",
+      "website": "https://www.uni-osnabrueck.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3611/",
+      "sourceQuote": "Osnabrück University • Osnabrück"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Osnabrück University",
+      "universityWebsite": "https://www.uni-osnabrueck.de",
+      "name": "Cognitive Science (BSc)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Cognitive Science (BSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3611/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3611/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants must have a German \"Abitur\" or an equivalent foreign certificate providing the right of entry to higher education.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application deadline for international students is typically 15 August (for the next winter semester).",
+          "intake": null,
+          "sourceQuote": "The application deadline for international students is typically 15 August (for the next winter semester).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

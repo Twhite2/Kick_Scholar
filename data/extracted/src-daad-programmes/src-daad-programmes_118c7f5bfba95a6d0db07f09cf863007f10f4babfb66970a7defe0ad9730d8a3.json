@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:118c7f5bfba95a6d0db07f09cf863007f10f4babfb66970a7defe0ad9730d8a3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:57.510Z",
+  "universities": [
+    {
+      "name": "University of Bayreuth",
+      "country": "DE",
+      "city": "Bayreuth",
+      "website": "https://www.uni-bayreuth.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5562/",
+      "sourceQuote": "University of Bayreuth • Bayreuth"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bayreuth",
+      "universityWebsite": "https://www.uni-bayreuth.de/",
+      "name": "Bachelor of Intercultural German Studies (Bachelor Interkulturelle Germanistik) Intercultural German Studies (Interkulturelle Germanistik)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor of Intercultural German Studies (Bachelor Interkulturelle Germanistik) Intercultural German Studies (Interkulturelle Germanistik)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5562/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5562/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "You are required to have an eligible higher education entrance qualification, and you must fulfil the language requirements.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "If you did not earn your school-leaving certificate in the German language, you will have to demonstrate a command of the language at the B2 level according to the Common European Framework of Reference for Languages or by demonstrating that you wrote a final thesis in German in a German-taught degree programme at a higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "If you are from China, Mongolia, or Vietnam, your application must also include an “APS” Certificate.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*For EU applicants:**",
+          "intake": null,
+          "sourceQuote": "*For EU applicants:**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

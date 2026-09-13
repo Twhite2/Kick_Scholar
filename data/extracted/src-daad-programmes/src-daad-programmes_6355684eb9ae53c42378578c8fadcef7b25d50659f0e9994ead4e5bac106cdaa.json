@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6355684eb9ae53c42378578c8fadcef7b25d50659f0e9994ead4e5bac106cdaa",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:04:53.727Z",
+  "universities": [
+    {
+      "name": "Rosenheim Technical University of Applied Sciences",
+      "country": "DE",
+      "city": "Burghausen",
+      "website": "https://www.th-rosenheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8282/",
+      "sourceQuote": "Rosenheim Technical University of Applied Sciences • Burghausen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rosenheim Technical University of Applied Sciences",
+      "universityWebsite": "https://www.th-rosenheim.de/",
+      "name": "Hydrogen Technology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Hydrogen Technology",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8282/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8282/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to the Master’s degree programme requires a Bachelor’s degree in the natural sciences or engineering field, such as Chemical Engineering, Chemistry, Process Automation Systems, Environmental Technology, Process Engineering, Energy Technology, Physics, Materials Science, Materials Engineering or an equivalent qualification obtained in Germany or abroad.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "59",
+          "unit": null,
+          "sourceQuote": "PTE Academic: 59",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "intake": null,
+          "sourceQuote": "With a university entrance qualification from abroad via [uni-assist](https://www.uni-assist.de/en/):",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

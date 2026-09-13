@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0fa79ad053a6d07e6a96f5cfa798ac47514278168deec465f7e2428ac167f139",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:49.305Z",
+  "universities": [
+    {
+      "name": "Marburg University",
+      "country": "DE",
+      "city": "Marburg",
+      "website": "https://www.uni-marburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3884/",
+      "sourceQuote": "Marburg University • Marburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Marburg University",
+      "universityWebsite": "https://www.uni-marburg.de",
+      "name": "Master of Peace and Conflict Studies (MA) (International Joint Degree) Master of Peace and Conflict Studies (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Peace and Conflict Studies (MA) (International Joint Degree) Master of Peace and Conflict Studies (MA)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3884/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3884/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

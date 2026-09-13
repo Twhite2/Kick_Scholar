@@ -1,0 +1,145 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:81ebae7d6bc215a481cf59189a484e13bdc2e88866a7aa678cf4ec51fa59dab9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:22:09.856Z",
+  "universities": [
+    {
+      "name": "WHU - Otto Beisheim School of Management",
+      "country": "DE",
+      "city": "Düsseldorf",
+      "website": "https://www.whu.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3665/",
+      "sourceQuote": "WHU - Otto Beisheim School of Management • Düsseldorf"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "WHU - Otto Beisheim School of Management",
+      "universityWebsite": "https://www.whu.edu",
+      "name": "Full-Time Master of Business Administration (MBA) Full-Time MBA",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Full-Time Master of Business Administration (MBA) Full-Time MBA",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 24750,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3665/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3665/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A general or subject-specific German \"Hochschulreife\" or an equivalent international university entrance qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Undergraduate degree (Bachelor's or equivalent)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "Minimum of two years postgraduate work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "100",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 100",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "GMAT or alternative in our Excellent Fit Assessment:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* External certifications (GMAT / GRE / WHU Admissions Test (BAT) or CFA Level II) **or**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "WHU Admissions Test (BAT)",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* External certifications (GMAT / GRE / WHU Admissions Test (BAT) or CFA Level II) **or**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "CFA Level II",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* External certifications (GMAT / GRE / WHU Admissions Test (BAT) or CFA Level II) **or**",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Application deadlines:** **30 April:** applicants requiring APS***** **31 May:** applicants requiring a visa **15 July:** applicants not requiring a visa",
+          "intake": null,
+          "sourceQuote": "*Application deadlines:** **30 April:** applicants requiring APS***** **31 May:** applicants requiring a visa **15 July:** applicants not requiring a visa",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

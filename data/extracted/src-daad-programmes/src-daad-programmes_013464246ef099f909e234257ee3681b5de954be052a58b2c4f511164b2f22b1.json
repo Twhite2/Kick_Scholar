@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:013464246ef099f909e234257ee3681b5de954be052a58b2c4f511164b2f22b1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:20:47.373Z",
+  "universities": [
+    {
+      "name": "Coburg University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Coburg",
+      "website": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/69c68de1b79eb.jpeg",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3949/",
+      "sourceQuote": "Coburg University of Applied Sciences and Arts • Coburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Coburg University of Applied Sciences and Arts",
+      "universityWebsite": "https://www2.daad.de/app/ip/media/cache/gallery_item/uploads/images/gallery-picture/online/69c68de1b79eb.jpeg",
+      "name": "Analytical Instruments, Measurement and Sensor Technology (AIMS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Analytical Instruments, Measurement and Sensor Technology (AIMS)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 4055,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3949/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3949/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "you will need to possess an undergraduate degree in engineering or the natural sciences with above-average results.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "You will also need to have some intercultural skills, knowledge in electronics and postgraduate professional experience of generally no less than one year.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "You will also need to have some intercultural skills, knowledge in electronics and postgraduate professional experience of generally no less than one year.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

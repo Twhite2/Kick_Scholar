@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1aa8b7dd2a4b91d0e1fa50f398061111acc62d5648b24603a914ff9901804990",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:51.568Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4109/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Berlin Graduate School for Global and Transregional Studies (BGTS) Berlin Graduate School for Global and Transregional Studies",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Berlin Graduate School for Global and Transregional Studies (BGTS) Berlin Graduate School for Global and Transregional Studies",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4109/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4109/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master’s degree in social sciences, area studies and history as well as economics and law",
+          "unit": null,
+          "sourceQuote": "Anyone who has completed a Master’s degree in social sciences, area studies and history as well as economics and law (usually comprising a total of 300 European Credit Transfer System [ECTS] credits including the Bachelor’s degree) is eligible to apply.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.4",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "Your final grade point average should be at least 2.4 (according to the German grade system), in other words, “good”.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "110",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 110",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "8",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 8",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application period begins in December of each year. Specific dates will be posted on the programme's website.",
+          "intake": null,
+          "sourceQuote": "The application period begins in December of each year. Specific dates will be posted on the programme's website.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

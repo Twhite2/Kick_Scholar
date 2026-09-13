@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ffa010c99a9bda4e734e9d9097a0ab468cdb57f663ca2619affb8e80bd6d22b5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:20:45.423Z",
+  "universities": [
+    {
+      "name": "University of Kassel",
+      "country": "DE",
+      "city": "Kassel",
+      "website": "https://www.uni-kassel.de/uni/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4654/",
+      "sourceQuote": "University of Kassel • Kassel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Kassel",
+      "universityWebsite": "https://www.uni-kassel.de/uni/",
+      "name": "Online MSc Wind Energy Systems",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Online MSc Wind Energy Systems",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2000,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4654/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4654/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree, \"Diplom\", or equivalent degree with at least 180 credits in Civil and Environmental Engineering, Mechanical Engineering, Electrical Engineering, Physics, or equivalent in a course with basic subjects in mathematics, natural sciences, and engineering of at least 60 credits, of which at least 18 are in the field of mathematics (analysis, algebra)",
+          "unit": null,
+          "sourceQuote": "Applicants are required to have a **Bachelor's degree, \"Diplom\", or equivalent degree** with at least 180 credits in a technical or scientific course in one of the following subject areas:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**(2) Letter of motivation** (max. two pages) convincingly explaining personal motivation and suitability for the Master's programme, along with a record of previous academic achievements, field training, and scientific work",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "**(3)** **Proof of at least one year of any kind of work experience** after finishing your first degree of higher education is necessary.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "**(5)** **School-leaving certificate** with which you fulfil the entrance requirements for higher education",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application period for international students: 1 December – 1 September",
+          "intake": null,
+          "sourceQuote": "Application period for international students: 1 December – 1 September",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

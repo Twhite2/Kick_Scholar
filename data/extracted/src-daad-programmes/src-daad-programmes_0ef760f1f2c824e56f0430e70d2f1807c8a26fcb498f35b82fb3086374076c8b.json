@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0ef760f1f2c824e56f0430e70d2f1807c8a26fcb498f35b82fb3086374076c8b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:36.811Z",
+  "universities": [
+    {
+      "name": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "country": "DE",
+      "city": "Senftenberg",
+      "website": "https://www.b-tu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3888/",
+      "sourceQuote": "Brandenburg University of Technology Cottbus-Senftenberg • Senftenberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "universityWebsite": "https://www.b-tu.de",
+      "name": "Biotechnology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Biotechnology",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3888/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3888/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "At least a Bachelor's degree in the subject area or an equivalent degree with",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "210 ECTS credits, equivalent to European seven semester study (for the programme with a regular duration of three semesters) or 180 ECTS credits, equivalent to European six semester study (for the programme with a regular duration of four semesters).",
+          "unit": null,
+          "sourceQuote": "At least a Bachelor's degree in the subject area or an equivalent degree with",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Degrees without a thesis or an equivalent publication are not accepted.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "70",
+          "unit": "ECTS credits",
+          "sourceQuote": "At least 70 ECTS credits or 60 semester hours of biological, biomedical, biochemical or biophysical subjects in the Bachelor's programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "18",
+          "unit": "weeks",
+          "sourceQuote": "A proof of practical laboratory work of at least 18 weeks (e.g. during the preparation of the thesis, practical semester, for details please check this [form](https://www-docs.b-tu.de/biotechnology-ms/public/Admission/Lab_Work_BT.pdf)).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please check [https://www.b-tu.de/en/biotechnology-ms.](https://www.b-tu.de/en/biotechnology-ms)",
+          "intake": null,
+          "sourceQuote": "Please check [https://www.b-tu.de/en/biotechnology-ms.](https://www.b-tu.de/en/biotechnology-ms)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

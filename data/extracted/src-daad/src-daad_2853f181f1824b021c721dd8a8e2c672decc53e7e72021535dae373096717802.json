@@ -1,0 +1,76 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:2853f181f1824b021c721dd8a8e2c672decc53e7e72021535dae373096717802",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:40.492Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Research Grants in Germany **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The research grant offers the opportunity to realise a research project in Germany. The programme sup-ports research stays during a doctorate or in the early postdoc phase.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57742121",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57742121",
+      "sourceQuote": "You can apply if you: are doing your doctorate at a university or research institution outside Germany or have already completed your doctorate (post-doc, up to 4 years after completing your doctorate) You cannot apply if you are doing your entire doctorate at a German university.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You can apply if you:  \r\n\r\n  * are doing your doctorate at a university or research institution outside Germany or\r\n  * have already completed your doctorate (post-doc, up to 4 years after completing your doctorate)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You cannot apply if you are doing your entire doctorate at a German university.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Resident in Germany longer than 15 months at the application deadline is not allowed.",
+          "sourceQuote": "* Your application **cannot** be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The research grant offers the opportunity to realise a research project in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

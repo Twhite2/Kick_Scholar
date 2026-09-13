@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c5494ba8be8afc3fe5dcb42118bc62129bcafa25591c6113587e63c58327985a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:22:51.876Z",
+  "universities": [
+    {
+      "name": "University of Cologne",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.uni-koeln.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4165/",
+      "sourceQuote": "University of Cologne • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Cologne",
+      "universityWebsite": "https://www.uni-koeln.de/",
+      "name": "Cologne Graduate School of Ageing Research",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Cologne Graduate School of Ageing Research",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4165/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4165/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "MSc or equivalent",
+          "unit": null,
+          "sourceQuote": "Applicants for the [PhD programme](https://www.ageing-grad-school.de/phd/applications) must have an advanced academic degree (MSc or equivalent) in fields such as biology, biochemistry, biophysics, bioinformatics, bioengineering, pharmacology, neuroscience, translational medicine, or a related area.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, they must have gained sufficient research experience during their studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Our annual call for [**PhD positions**](https://www.ageing-grad-school.de/phd/applications) usually opens in mid-August and closes in November.",
+          "intake": null,
+          "sourceQuote": "Our annual call for [**PhD positions**](https://www.ageing-grad-school.de/phd/applications) usually opens in mid-August and closes in November.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

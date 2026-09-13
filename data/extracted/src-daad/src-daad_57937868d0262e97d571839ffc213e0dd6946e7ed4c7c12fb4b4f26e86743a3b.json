@@ -1,0 +1,80 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:57937868d0262e97d571839ffc213e0dd6946e7ed4c7c12fb4b4f26e86743a3b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:53.157Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "State of Bavaria: Max Weber Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Max Weber Programme is open to particularly gifted students who are enrolled at a Bavarian higher education institution. The Free State of Bavaria has entrusted the German Academic Scholarship Foundation, the Studienstiftung des deutschen Volkes, with the programme's implementation. The scholarship holders receive individual support during their studies and benefit from the broad funding approach of the programme. This includes a semester allowance of 1,290 EUR and financial support for stays abroad as well as professional and personal support. The scholarship holders are supported in their personal development with a large number of offers. This includes soft skill seminars and language courses as well as summer academies. The scholarship holders are part of a network in which interdisciplinary, cross-university and international exchange plays an important role. There are regular events which bring them together with exciting personalities from science, business and politics to benefit from their experience and knowledge.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000101",
+      "deadlineText": "Up-do-date information about the nomination deadline and the application phase can be found [here](https://www.elitenetzwerk.bayern.de/en/home/funding-programs/max-weber-program/scholarship-overview).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000101",
+      "sourceQuote": "particularly gifted high-school graduates and students who wish to study or are already enrolled at a Bavarian higher education institution",
+      "eligibility": [
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Max Weber Programme is open to particularly gifted students who are enrolled at a Bavarian higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Max Weber Programme is open to particularly gifted students who are enrolled at a Bavarian higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "A first degree course as well as consecutive Master's degree courses are eligible for sponsorship.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The Max Weber Programme is open to particularly gifted students who are enrolled at a Bavarian higher education institution.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:55ed7d91a65afe4be74b76539953df43569651706d6856b3bf29790512c7df3b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:51.140Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Federal Ministry of Education and Research: Digital GreenTalents Award",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Artificial intelligence precisely sorts valuable raw materials, collection robots remove waste from the environment, or digital twins enable sustainable urban planning: The digital age offers powerful tools like robotics to find solutions to the pressing issues of our time. Annually, a jury picks 20 highly motivated and talented young scientists from around the world who are excited about doing research on topics where digital technology and sustainable development meet. The Digital GreenTalents Award supports the international exchange of innovative digital ideas and offers a great opportunity for long-term cooperation with the German Digital GreenTech community. Aspiring young scientists are invited to conduct research in Germany. The competition is not only about what you do now, but also about what your aspirations are for the future. The award does not fund research projects, but aims to foster individual development.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000437",
+      "deadlineText": "Application periods will be published on the [website](https://digitalgreentalents.de/).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000437",
+      "sourceQuote": "PhD students and students in the final year of a Master's degree with a strong focus on research topics combining digital technology and sustainability",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "PhD students and students in the final year of a Master's degree with a strong focus on research topics combining digital technology and sustainability",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "strong focus on research topics combining digital technology and sustainability",
+          "sourceQuote": "PhD students and students in the final year of a Master's degree with a strong focus on research topics combining digital technology and sustainability",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "current enrolment in a PhD programme or the final year of a Master's programme",
+          "sourceQuote": "current enrolment in a PhD programme or the final year of a Master's programme",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The core of the award is the 1- to 3-month fully-funded research stay at a research institution or company in Germany in the year following the call, as well as the accompanying mentoring programme.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

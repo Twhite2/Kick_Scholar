@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:84ba7c6dbc8b06cae4c39143c79c5abaafcf2c60eefa251405f36991390babfe",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:00.535Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "In-Country Scholarships for Postgraduate Studies for Palestinians in the Palestinian Territories (West Bank) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme aims at fostering strong, internationally oriented higher education systems in the Palestinian Territories (West Bank) with the capacity to contribute to sustainable development. To this end, scholarships are granted for development-related Master studies for individuals who plan to pursue a career in teaching and/or research at a higher education institution in the Palestinian Territories. By training future academic and professional leaders, the programme contributes to the following long-term impacts: Qualified professionals’ involvement in the solution of development-related problems in the Palestinian Territories Graduates strengthening education and research in the Palestinian Territories Structural strengthening and regional networking of partner institutions and partner universities To achieve these long-term impacts, the following outcomes have been formulated as programme objectives: Programme objective 1: Graduates have qualified to take over responsible positions in their (or for their) region of origin. Programme objective 2: The participation of women and underprivileged groups is reinforced. Programme objective 3: Organizational, financial and personal capacities of partner institutions are strengthened. As part of the 'In-Country/In-Region Scholarship Programme', DAAD offers scholarships for Master studies. The programme is funded by the German Federal Ministry of Economic Cooperation and Development (BMZ) and aims at university staff in the firs…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57652675",
+      "deadlineText": "31 August 2026 Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year. You can find the current dates here.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57652675",
+      "sourceQuote": "The target group are graduates from the Palestinian Territories residing in the **West Bank** or **blue ID holders** with a first academic degree who want to pursue a master’s programme (thesis track) in their home country. (In-Country scholarships are aimed at students who study in their home country or in the country for which they have a residence permit.)",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "have successfully completed generally a three-year university degree (i.e. Bachelor degree or equivalent) with a minimum average of “good”",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MIN_GPA",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "minimum average of “good”",
+          "sourceQuote": "have successfully completed generally a three-year university degree (i.e. Bachelor degree or equivalent) with a minimum average of “good”",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "English and/or Arabic",
+          "sourceQuote": "have thorough knowledge of the language of instruction (English and/or Arabic)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 6,
+          "textValue": "last university degree not more than six years ago",
+          "sourceQuote": "have generally completed their last university degree not more than six years ago at the time of application",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Palestinian Territories (West Bank and blue ID holders)"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "must be nationals or permanent residents of the Palestinian Territories (West Bank and blue ID holders)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "first academic degree; pursuing a master’s programme (thesis track) in home country",
+          "sourceQuote": "The target group are graduates from the Palestinian Territories residing in the **West Bank** or **blue ID holders** with a first academic degree who want to pursue a master’s programme (thesis track) in their home country.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "PS"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "scholarships are granted for development-related Master studies for individuals who plan to pursue a career in teaching and/or research at a higher education institution in the Palestinian Territories.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "PS"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "graduates from the Palestinian Territories residing in the **West Bank** or **blue ID holders** with a first academic degree who want to pursue a master’s programme (thesis track) in their home country.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

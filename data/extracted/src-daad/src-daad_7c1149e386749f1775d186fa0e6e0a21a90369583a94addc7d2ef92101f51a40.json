@@ -1,0 +1,121 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:7c1149e386749f1775d186fa0e6e0a21a90369583a94addc7d2ef92101f51a40",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:26.303Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Hans Böckler Foundation: PhD Fellowship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Hans Böckler Foundation is the institute of the German Federation of Trade Unions (DGB) to promote research and studies. The HSB awards fellowships to doctoral students with outstanding academic gifts who show commitment to labour unions or socio-political issues. Doctoral candidates in any discipline who are enrolled at German institutions of higher education, also in programmes such as graduate schools or junior researcher groups, are encouraged to apply. Every year the HSB assigns about 100 grants. The fellows receive 1,750 EUR per month plus a health-care subsidy as well as family allowances, if necessary. Comprehensive non-material support is also part of the fellowship.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000134",
+      "deadlineText": "Please find the updated deadlines [here](https://www.boeckler.de/de/bewerbungsfristen-2669.htm).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000134",
+      "sourceQuote": "particularly gifted doctoral candidates in any discipline who propose a promising doctoral project and show commitment to labour unions or socio-political issues Candidates need to be admitted for doctoral studies a a state or state-recognised higher education institution. If possible, the doctoral project should have sociopolitical relevance and a meaningful contribution to research can be expect…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates in any discipline who are enrolled at German institutions of higher education, also in programmes such as graduate schools or junior researcher groups, are encouraged to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Candidates need to be admitted for doctoral studies a a state or state-recognised higher education institution.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Any discipline"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates in any discipline who are enrolled at German institutions of higher education, also in programmes such as graduate schools or junior researcher groups, are encouraged to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The HSB awards fellowships to doctoral students with outstanding academic gifts who show commitment to labour unions or socio-political issues.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "commitment to labour unions or socio-political issues",
+          "sourceQuote": "The HSB awards fellowships to doctoral students with outstanding academic gifts who show commitment to labour unions or socio-political issues.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "permanent resident of Germany",
+          "sourceQuote": "At the time of application, applicants must be a permanent resident of Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Doctoral candidates in any discipline who are enrolled at German institutions of higher education, also in programmes such as graduate schools or junior researcher groups, are encouraged to apply.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Candidates need to be admitted for doctoral studies a a state or state-recognised higher education institution.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:62da34c46f5ffb62dd68c41a9462314181248fd6563a4c0864ab73d7440fa964",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:32.862Z",
+  "universities": [
+    {
+      "name": "Bingen University of Applied Sciences",
+      "country": "DE",
+      "city": "Bingen am Rhein",
+      "website": "https://www.th-bingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8324/",
+      "sourceQuote": "Bingen University of Applied Sciences • Bingen am Rhein"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bingen University of Applied Sciences",
+      "universityWebsite": "https://www.th-bingen.de",
+      "name": "Master of Science in Computer Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Computer Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8324/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8324/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree or Diplom in the field of computer science or a field closely related to computer science",
+          "unit": null,
+          "sourceQuote": "Under these regulations, you are required to have completed a Bachelor’s degree or Diplom in the field of computer science or a field closely related to computer science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "gut (good) or the recognised foreign equivalent thereof",
+          "unit": null,
+          "sourceQuote": "Your final grade should be at least the German grade of \"gut\" (good) or the recognised foreign equivalent thereof.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "To be eligible for our programme, you typically need to have completed a minimum of 210 ECTS credit points in your Bachelor's degree.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

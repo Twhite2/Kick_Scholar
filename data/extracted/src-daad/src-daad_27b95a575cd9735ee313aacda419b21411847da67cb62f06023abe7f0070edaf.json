@@ -1,0 +1,81 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:27b95a575cd9735ee313aacda419b21411847da67cb62f06023abe7f0070edaf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:52.271Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Bilateral Exchange of Academics (to Germany) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "To improve international relations and bilateral research cooperations between German universities and universities abroad, the DAAD supports the **mutual exchange** of academics. The basis for the exchange are cultural agreements between the Federal Republic of Germany and partner countries as well as bilateral agreements with partner institutions abroad.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015508",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015508",
+      "sourceQuote": "The programme is aimed at university teachers and experienced academics and scientists. As a rule, you should have a doctorate and you should be working at a university or research institute in your home country. You should also, if possible, already be in contact with your chosen host institution in Germany. Ideally, you will have an exchange partner who is simultaneously applying for funding to…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "doctorate",
+          "sourceQuote": "As a rule, you should have a doctorate and you should be working at a university or research institute in your home country.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "university teachers and experienced academics and scientists",
+          "sourceQuote": "The programme is aimed at university teachers and experienced academics and scientists.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "must work at a university or research institution in home country",
+          "sourceQuote": "You must work at a university or research institution in your home country.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "must coordinate date and purpose of stay in advance with host institution in Germany",
+          "sourceQuote": "You must coordinate the date and purpose of your stay in advance with your host institution in Germany see (‘Application documents’) which will provide you with a workplace.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "You must coordinate the date and purpose of your stay in advance with your host institution in Germany see (‘Application documents’) which will provide you with a workplace.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

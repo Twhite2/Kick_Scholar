@@ -1,0 +1,80 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:0ee3dac7e66f1c4f22cfc0a87030a9fafe2ac96b3c3c00c7eec43a236aa69fe5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:52.343Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD/NSTC- Sandwich- Scholarship Programme **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The aim of the programme is to offer doctoral candidates from Taiwan the opportunity to become acquainted with the German research landscape. The doctoral degree is completed at the home university.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000312",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000312",
+      "sourceQuote": "Doctoral candidates from all disciplines who are already taking a doctoral degree in Taiwan.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Taiwan"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates from all disciplines who are already taking a doctoral degree in Taiwan.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates from all disciplines who are already taking a doctoral degree in Taiwan.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "all disciplines"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates from all disciplines who are already taking a doctoral degree in Taiwan.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The aim of the programme is to offer doctoral candidates from Taiwan the opportunity to become acquainted with the German research landscape.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

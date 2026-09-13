@@ -1,0 +1,81 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:149763090460fcb338cbdea14b5e974c3dfb613f1a53fff625cce87aa4039f47",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:33.565Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Evonik Foundation: Evonik Foundation Scholarship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Research work (Master's theses, doctoral theses, Postdocs) in the field of natural sciences is eligible for funding. The programme's focus is on the active support of particularly gifted and skilled young scientists and includes mentoring of the scientist's academic and personal skills. As the Evonik Foundation redefines its key funding areas each year, the proposed research must match the content criteria to be eligible for support.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000139",
+      "deadlineText": "The key funding areas are published annually in January. Submission ends at the end of February of the same year. Funding will not be available until June of each year at the earliest.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000139",
+      "sourceQuote": "students, doctoral students and postdocs with excellent academic records and extraordinary research projects matching the content criteria of the key funding area of the particular year",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "natural sciences"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Research work (Master's theses, doctoral theses, Postdocs) in the field of natural sciences is eligible for funding.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Academic Requirements",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students, doctoral students and postdocs with excellent academic records and extraordinary research projects matching the content criteria of the key funding area of the particular year",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "Research work (Master's theses, doctoral theses, Postdocs) in the field of natural sciences is eligible for funding.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

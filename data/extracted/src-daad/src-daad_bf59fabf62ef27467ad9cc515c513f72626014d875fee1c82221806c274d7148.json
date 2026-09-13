@@ -1,0 +1,120 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:bf59fabf62ef27467ad9cc515c513f72626014d875fee1c82221806c274d7148",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:43.350Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Evangelisches Studienwerk: Scholarship for Students With Refugee Status",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The scholarship is aimed at refugees who are studying at German institutions of higher education. Candidates from all disciplines and subjects are welcome to apply. The grant amount is of up to 855 EUR each month plus 300 EUR flat rate for study costs and covers the entire course of studies. Further support includes individual mentoring as well as additional seminars, activities and services.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000384",
+      "deadlineText": "Application periods: 1 October to 15 January (midnight) for funding beginning in the following winter semester 1 April to 15 July (midnight) for funding beginning in the following summer semester The earlier the application is submitted in full, the more likely it is that applicants will be offered a place in the selection process.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000384",
+      "sourceQuote": "Refugees of any religious denomination studying at German institutions of higher education. Applicants show respect toward other religious beliefs and openness to interact with others.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "refugees",
+          "sourceQuote": "The scholarship is aimed at refugees who are studying at German institutions of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "STEM",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "ARTS",
+            "HEALTH",
+            "LAW",
+            "EDUCATION",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "All disciplines and subjects",
+          "sourceQuote": "Candidates from all disciplines and subjects are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "German institutions of higher education"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Refugees of any religious denomination studying at German institutions of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants show respect toward other religious beliefs and openness to interact with others.",
+          "sourceQuote": "Applicants show respect toward other religious beliefs and openness to interact with others.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised"
+          ],
+          "numericValue": null,
+          "textValue": "Admission to a German higher education institution. The university must be state or state-recognised.",
+          "sourceQuote": "  * Admission to a German higher education institution. The university must be state or state-recognised.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "Course of study is full-time; not yet completed a degree recognised in Germany; not possible for postgraduate Master's programme only.",
+          "sourceQuote": "  * The course of study is full-time.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "  * Admission to a German higher education institution. The university must be state or state-recognised.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9f0afd5ccb2e87957f033622a392777a678f1574e3226e3161a3907e2a9c44ec",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:32.013Z",
+  "universities": [
+    {
+      "name": "University of Bonn",
+      "country": "DE",
+      "city": "Bonn",
+      "website": "https://www.uni-bonn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3843/",
+      "sourceQuote": "University of Bonn • Bonn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bonn",
+      "universityWebsite": "https://www.uni-bonn.de/de",
+      "name": "Bonn-Cologne Graduate School of Physics and Astronomy: MSc in Astrophysics Astrophysics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Bonn-Cologne Graduate School of Physics and Astronomy: MSc in Astrophysics Astrophysics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3843/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3843/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "**All applicants for the scholarship programme (EU and non-EU applicants):** 1 December (for the winter semester in the following year) **Non-EU applicants:** 1 May (for the upcoming winter semester) **EU applicants (EU natives and students with an EU degree):** 1 July (for the upcoming winter semester)",
+          "intake": null,
+          "sourceQuote": "**All applicants for the scholarship programme (EU and non-EU applicants):** 1 December (for the winter semester in the following year) **Non-EU applicants:** 1 May (for the upcoming winter semester) **EU applicants (EU natives and students with an EU degree):** 1 July (for the upcoming winter semester)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

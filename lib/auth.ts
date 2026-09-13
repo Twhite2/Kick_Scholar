@@ -19,7 +19,17 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const password = credentials?.password as string | undefined;
         if (!email || !password) return null;
 
-        const user = await prisma.user.findUnique({ where: { email } });
+        // Returning null here means "these credentials are wrong". A database
+        // outage is not that, so it must not be allowed to fall into the same
+        // path — otherwise an unreachable database tells every user their
+        // password is invalid and sends them to reset one that was fine.
+        let user;
+        try {
+          user = await prisma.user.findUnique({ where: { email } });
+        } catch (err) {
+          console.error("[auth] credential lookup failed:", err);
+          throw new Error("AUTH_BACKEND_UNAVAILABLE", { cause: err });
+        }
         if (!user?.passwordHash) return null;
 
         const valid = await bcrypt.compare(password, user.passwordHash);

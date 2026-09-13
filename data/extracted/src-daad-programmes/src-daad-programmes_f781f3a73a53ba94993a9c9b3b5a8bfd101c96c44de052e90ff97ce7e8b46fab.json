@@ -1,0 +1,155 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f781f3a73a53ba94993a9c9b3b5a8bfd101c96c44de052e90ff97ce7e8b46fab",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:33.411Z",
+  "universities": [
+    {
+      "name": "Johannes Gutenberg University Mainz",
+      "country": "DE",
+      "city": "Mainz",
+      "website": "https://www.uni-mainz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7089/",
+      "sourceQuote": "Johannes Gutenberg University Mainz • Mainz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Johannes Gutenberg University Mainz",
+      "universityWebsite": "https://www.uni-mainz.de/",
+      "name": "Master of Science in Physics (Research-Oriented)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Physics (Research-Oriented)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7089/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7089/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants are required to provide proof of a Bachelor's degree in physics with a minimum grade of 3.0 or an equivalent final degree from a university in Germany or abroad.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "CP",
+          "sourceQuote": "30 CP in experimental physics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "19",
+          "unit": "CP",
+          "sourceQuote": "19 CP in laboratory work",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "25",
+          "unit": "CP",
+          "sourceQuote": "25 CP in theoretical physics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "23",
+          "unit": "CP",
+          "sourceQuote": "23 CP in advanced mathematics and calculational methods as well as",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "9",
+          "unit": "CP",
+          "sourceQuote": "9 CP for a written Bachelor's thesis",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with a grade of less than 3.0 may apply for a selection interview.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Additionally, applicants may apply for a selection interview if at least 80% of the credit points listed above have been achieved or the applicant has not written a Bachelor's thesis.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application deadline for the summer semester (lectures beginning in April of a given calendar year) is 1 March.",
+          "intake": null,
+          "sourceQuote": "The application deadline for the summer semester (lectures beginning in April of a given calendar year) is 1 March.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

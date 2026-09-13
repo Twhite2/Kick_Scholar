@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3dafcbe8621799c64170c849aeea37674dc74dc5c7f5ed656381421a9556d2ca",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:01:02.107Z",
+  "universities": [
+    {
+      "name": "Hamburg University of Technology",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.tuhh.de/tuhh/startseite",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5317/",
+      "sourceQuote": "Hamburg University of Technology • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hamburg University of Technology",
+      "universityWebsite": "https://www.tuhh.de/tuhh/startseite",
+      "name": "Joint Master's in Global Technology and Innovation Management & Entrepreneurship (G-TIME) Joint Master's in Global Technology and Innovation Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Joint Master's in Global Technology and Innovation Management & Entrepreneurship (G-TIME) Joint Master's in Global Technology and Innovation Management",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5317/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5317/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "engineering, science and technology, business engineering, business administration (including business informatics, business mathematics, and business geography), or economics",
+          "unit": null,
+          "sourceQuote": "A Bachelor's or equivalent degree from a recognised university in engineering, science and technology, business engineering, business administration (including business informatics, business mathematics, and business geography), or economics (click [here](https://www.g-time.org/) for more information)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Very good previous academic performance",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

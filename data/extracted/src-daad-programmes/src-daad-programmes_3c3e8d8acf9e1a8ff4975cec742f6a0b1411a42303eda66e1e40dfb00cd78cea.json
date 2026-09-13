@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3c3e8d8acf9e1a8ff4975cec742f6a0b1411a42303eda66e1e40dfb00cd78cea",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:18:21.717Z",
+  "universities": [
+    {
+      "name": "OWL University of Applied Sciences and Arts",
+      "country": "DE",
+      "city": "Detmold",
+      "website": "https://www.th-owl.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5347/",
+      "sourceQuote": "OWL University of Applied Sciences and Arts • Detmold"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "OWL University of Applied Sciences and Arts",
+      "universityWebsite": "https://www.th-owl.de",
+      "name": "Master of Integrated Design (MID)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Integrated Design (MID)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5347/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5347/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "1. University entrance qualification or an equivalent standard (e.g. secondary school graduation certificate)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "2. Bachelor's or diploma degree in a course of study with substantial scientific or engineering content (for example, Architecture, Mechanical Engineering, Architectural Engineering, Interior Design, Product Design, Civil Engineering, Industrial Engineering, Informatics); a focus on building, interior, structural or façade planning and/or design; and a minimum study duration of six semesters (180 credits)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "It is recommended that applicants complete a three-month practical training or internship in the professional field of architecture, building, interior, structural and/or façade design or planning.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "3. Evidence of the specific, that is, professional and methodological suitability for the Master in Integrated Design (MID) – see points 5 and 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "5. Portfolio: Applicants must submit a portfolio that includes some of their most important and relevant work related to urban, architectural, building, or façade design and/or construction.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "6. Motivation letter and resume: Applicants must submit a motivation letter that should address their background as it relates to the requested specialisation (Façade Design or Computational Design).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

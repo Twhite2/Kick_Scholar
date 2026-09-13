@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:452c5d630c85baffc635d24ce247d73ca9bd0c2801512fa0b8d2a67528b64852",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:06:02.628Z",
+  "universities": [
+    {
+      "name": "Hochschule Wismar - University of Applied Sciences, Technology, Business and Design",
+      "country": "DE",
+      "city": "Rostock",
+      "website": "https://www.hs-wismar.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6336/",
+      "sourceQuote": "Hochschule Wismar - University of Applied Sciences, Technology, Business and Design • Rostock"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Wismar - University of Applied Sciences, Technology, Business and Design",
+      "universityWebsite": "https://www.hs-wismar.de",
+      "name": "Master Marine Engineering (Double Degree)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master Marine Engineering (Double Degree)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1200,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6336/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6336/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "First academic degree in marine engineering or a comparable study course at a national or international university",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "The overall grade of the certificate confirming this degree must be at least 2.5 for comparable grade systems or a GPA of 3.75/5.0 for non‐comparable grade systems.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3.75",
+          "unit": "5.0",
+          "sourceQuote": "The overall grade of the certificate confirming this degree must be at least 2.5 for comparable grade systems or a GPA of 3.75/5.0 for non‐comparable grade systems.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "A relevant professional practice can improve the overall grade in such a way that an improvement by 0.1 is possible for each completed professional year, but not more than four years.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

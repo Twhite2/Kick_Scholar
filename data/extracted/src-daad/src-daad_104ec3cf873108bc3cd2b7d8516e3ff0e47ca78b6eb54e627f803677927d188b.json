@@ -1,0 +1,79 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:104ec3cf873108bc3cd2b7d8516e3ff0e47ca78b6eb54e627f803677927d188b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:02.913Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Country-related cooperation programme with Argentina (ALEARG) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Graduates, doctoral candidates and postdocs receive a scholarship to complete a study or research stay or a Master's, postgraduate or doctoral degree in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000300",
+      "deadlineText": "**Applications can only be submitted via the online portal of the Argentinian Ministry of Education. Please follow this link: <https://www.argentina.gob.ar/educacion/campusargentinaglobal>**",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000300",
+      "sourceQuote": "Graduates, doctoral candidates, postdocs or teachers at universities in Argentina or researchers at publicly funded institutions of Argentine nationality usually up to the age of 36.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Graduates, doctoral candidates and postdocs receive a scholarship to complete a study or research stay or a Master's, postgraduate or doctoral degree in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Argentina"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Graduates, doctoral candidates, postdocs or teachers at universities in Argentina or researchers at publicly funded institutions of Argentine nationality usually up to the age of 36.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 36,
+          "textValue": null,
+          "sourceQuote": "Graduates, doctoral candidates, postdocs or teachers at universities in Argentina or researchers at publicly funded institutions of Argentine nationality usually up to the age of 36.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Graduates, doctoral candidates and postdocs receive a scholarship to complete a study or research stay or a Master's, postgraduate or doctoral degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:040b2cfcfae11e4182093087799f6fa81f0d3269afa227ca6d88c39b01ebc7b1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:20.287Z",
+  "universities": [
+    {
+      "name": "Trier University",
+      "country": "DE",
+      "city": "Trier",
+      "website": "https://www.uni-trier.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5351/",
+      "sourceQuote": "Trier University • Trier"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Trier University",
+      "universityWebsite": "https://www.uni-trier.de",
+      "name": "Master of Science in Data Science MSc in Data Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Data Science MSc in Data Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5351/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5351/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS",
+          "sourceQuote": "Proof of a Bachelor's degree (acquisition of at least 180 ECTS from a domestic or foreign university) fulfilling one of the following criteria:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "1.7",
+          "unit": "German grading system",
+          "sourceQuote": "* Final grade of 1.7 or better (German grading system) in the field of computer sciences (computer sciences or business informatics), economics, mathematics (applied mathematics or business mathematics), or statistics",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "1.4",
+          "unit": "German grading system",
+          "sourceQuote": "* Final grade of 1.4 or better in a related subject (the examination board will decide on a case-by-case basis whether a subject is deemed to be related to data science or not. Please see the programme website for details.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "All applicants must include a letter of motivation with regard to the study programme with their application.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language proficiency",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Furthermore, applicants have to prove their English language proficiency according to the current regulations of Trier University (information can be found on the university's website).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "C1",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "intake": null,
+          "sourceQuote": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

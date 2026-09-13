@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e745f840c84ee955917ed7fc9fdf33c5d91e926af6e5e4d595bd94e3f3ef8860",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:31.369Z",
+  "universities": [
+    {
+      "name": "Trier University",
+      "country": "DE",
+      "city": "Trier",
+      "website": "https://www.uni-trier.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4236/",
+      "sourceQuote": "Trier University • Trier"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Trier University",
+      "universityWebsite": "https://www.uni-trier.de",
+      "name": "Master of Science in Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4236/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4236/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "intake": null,
+          "sourceQuote": "*Non-EU citizens:** 15 January 2027 for the summer semester 2027 (admission also valid for the winter semester 2027/28) 31 May 2027 for the winter semester 2027/28 (admission also valid for the summer semester 2028)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

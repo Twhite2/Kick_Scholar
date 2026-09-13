@@ -1,0 +1,145 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e76e2b0750be8b096ca9964319761a83eef9c8997596c2ed74534c89ea76633b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:47.168Z",
+  "universities": [
+    {
+      "name": "University of Education Schwäbisch Gmünd",
+      "country": "DE",
+      "city": "Schwäbisch Gmünd",
+      "website": "https://www.ph-gmuend.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5574/",
+      "sourceQuote": "University of Education Schwäbisch Gmünd • Schwäbisch Gmünd"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Education Schwäbisch Gmünd",
+      "universityWebsite": "https://www.ph-gmuend.de/",
+      "name": "Intercultural German Studies and Multilingualism",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Intercultural German Studies and Multilingualism",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5574/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5574/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA in German Studies",
+          "unit": null,
+          "sourceQuote": "BA in German Studies, German as a Foreign Language/Second Language, Linguistics, Literary Studies, Cultural Studies, or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "German as a Foreign Language/Second Language",
+          "unit": null,
+          "sourceQuote": "BA in German Studies, German as a Foreign Language/Second Language, Linguistics, Literary Studies, Cultural Studies, or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Linguistics",
+          "unit": null,
+          "sourceQuote": "BA in German Studies, German as a Foreign Language/Second Language, Linguistics, Literary Studies, Cultural Studies, or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Literary Studies",
+          "unit": null,
+          "sourceQuote": "BA in German Studies, German as a Foreign Language/Second Language, Linguistics, Literary Studies, Cultural Studies, or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Cultural Studies",
+          "unit": null,
+          "sourceQuote": "BA in German Studies, German as a Foreign Language/Second Language, Linguistics, Literary Studies, Cultural Studies, or similar",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "Goethe-Zertifikat: Goethe-Zertifikat C1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TestDaF",
+          "operator": "EQ",
+          "value": "TDN 4",
+          "unit": "Listening",
+          "sourceQuote": "Listening: TDN 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TestDaF",
+          "operator": "EQ",
+          "value": "TDN 4",
+          "unit": "Speaking",
+          "sourceQuote": "Speaking: TDN 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "DSH",
+          "operator": "EQ",
+          "value": "DSH-2",
+          "unit": null,
+          "sourceQuote": "Deutsche Sprachprüfung für den Hochschulzugang (DSH): DSH-2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc Deutsch C1 Hochschule",
+          "operator": "EQ",
+          "value": "Passed",
+          "unit": null,
+          "sourceQuote": "telc Deutsch C1 Hochschule: Passed",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

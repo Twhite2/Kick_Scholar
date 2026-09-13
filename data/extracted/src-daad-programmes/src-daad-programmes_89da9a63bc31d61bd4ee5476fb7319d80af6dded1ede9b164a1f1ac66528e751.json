@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:89da9a63bc31d61bd4ee5476fb7319d80af6dded1ede9b164a1f1ac66528e751",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:50.121Z",
+  "universities": [
+    {
+      "name": "Stuttgart Technical University of Applied Sciences",
+      "country": "DE",
+      "city": "Stuttgart",
+      "website": "https://www.hft-stuttgart.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6963/",
+      "sourceQuote": "Stuttgart Technical University of Applied Sciences • Stuttgart"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Stuttgart Technical University of Applied Sciences",
+      "universityWebsite": "https://www.hft-stuttgart.de/",
+      "name": "Photogrammetry and Geoinformatics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Photogrammetry and Geoinformatics",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6963/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6963/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Degree (equivalent to a BSc) in Civil Engineering, Geodesy, Geography, Agriculture, Forestry, or a corresponding degree of another profession related to photogrammetry, remote sensing, geoinformatics or GIS.",
+          "unit": null,
+          "sourceQuote": "* Degree (equivalent to a BSc) in Civil Engineering, Geodesy, Geography, Agriculture, Forestry, or a corresponding degree of another profession related to photogrammetry, remote sensing, geoinformatics or GIS.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "  * A good mathematical background and good computer skills are required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2",
+          "unit": "years",
+          "sourceQuote": "  * Two years of competent professional experience are recommended.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Start of application: 15 July (for admission in the following academic year)",
+          "intake": null,
+          "sourceQuote": "Start of application: 15 July (for admission in the following academic year)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,123 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:888875c202d82695225628abcaa3be95feba9e5d7b869dcb15d3cadb80d0d330",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:42.106Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Research Foundation (DFG): Heisenberg Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Heisenberg Programme sponsors outstanding researchers who are qualified for tenured professorship: they have the opportunity to prepare for a scientific leadership position and simultaneously continue performing top-class research. The Heisenberg Programme is directed primarily at those researchers who have qualified for professorship via the Emmy Noether Programme (respectively leadership of a research group), DFG project staff positions, private-sector research or mid-level faculty positions. The target group also includes junior professors who have received positive evaluations, those who have achieved their habilitation, and German researchers returning from abroad, as well as appropriately qualified foreign researchers looking to pursue careers in Germany. The Heisenberg Programme offers candidates four different types of funding the Heisenberg position the Heisenberg temporary substitute position for clinicians the Heisenberg professorship the Heisenberg fellowship After being accepted into the Heisenberg Programme, awardees may either choose one of the above or combine one or more of the modules during the funding period. The funding extends over a period of 5 years at most.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000137",
+      "deadlineText": "Applications can be submitted at any time.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000137",
+      "sourceQuote": "researchers in all disciplines who have qualified for a professorship by completing the habilitation or an equivalent qualification and who have a track record of outstanding research work",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "habilitated researchers / equivalent qualification",
+          "sourceQuote": "researchers in all disciplines who have qualified for a professorship by completing the habilitation or an equivalent qualification and who have a track record of outstanding research work",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "researchers in all disciplines who have qualified for a professorship by completing the habilitation or an equivalent qualification and who have a track record of outstanding research work",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Heisenberg position: This module provides funding for a position and flexible research funds. Integrated into the host institution, successful applicants can work as a researcher at an academic institution in Germany or at a German academic institution abroad.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Heisenberg professorship: With the Heisenberg professorship, funding is provided for a temporary professorship at a German university as well as flexible research funds.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Heisenberg temporary substitute position for clinicians: This option provides funding for replacement staff for the position and flexible research funds. Clinical scientists are given the opportunity to take full or partial leave for research within the framework of the Heisenberg Programme while retaining their clinical employment and clinical expertise.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The Heisenberg Programme is directed primarily at those researchers who have qualified for professorship via the Emmy Noether Programme (respectively leadership of a research group), DFG project staff positions, private-sector research or mid-level faculty positions.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The target group also includes junior professors who have received positive evaluations, those who have achieved their habilitation, and German researchers returning from abroad, as well as appropriately qualified foreign researchers looking to pursue careers in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

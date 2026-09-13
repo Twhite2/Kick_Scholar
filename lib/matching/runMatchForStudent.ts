@@ -4,6 +4,7 @@ import { PrismaPg } from "@prisma/adapter-pg";
 import { scoreTarget } from "./scoreTarget";
 import { programToMatchTarget, scholarshipToMatchTarget, studentProfileToMatchInput } from "./toMatchTarget";
 import { ENGINE_VERSION } from "./weights";
+import { isCliEntrypoint } from "../cliEntrypoint";
 
 const MIN_SCORE_TO_STORE = 20;
 
@@ -112,7 +113,7 @@ async function runAsCli() {
   }
 }
 
-if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
+if (isCliEntrypoint(import.meta.url)) {
   runAsCli().catch((err) => {
     console.error(err);
     process.exit(1);

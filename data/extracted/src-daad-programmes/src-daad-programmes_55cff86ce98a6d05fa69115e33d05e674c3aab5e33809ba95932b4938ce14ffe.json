@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:55cff86ce98a6d05fa69115e33d05e674c3aab5e33809ba95932b4938ce14ffe",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:09.743Z",
+  "universities": [
+    {
+      "name": "Technische Universität Ilmenau",
+      "country": "DE",
+      "city": "Ilmenau",
+      "website": "https://www.tu-ilmenau.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3876/",
+      "sourceQuote": "Technische Universität Ilmenau • Ilmenau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Universität Ilmenau",
+      "universityWebsite": "https://www.tu-ilmenau.de/",
+      "name": "Master's in Media and Communication Science Media and Communication Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in Media and Communication Science Media and Communication Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3876/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3876/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

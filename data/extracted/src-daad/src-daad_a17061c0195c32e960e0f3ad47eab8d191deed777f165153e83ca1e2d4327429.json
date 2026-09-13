@@ -1,0 +1,81 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:a17061c0195c32e960e0f3ad47eab8d191deed777f165153e83ca1e2d4327429",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:04.318Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Baden-Württemberg Stiftung: The Baden-Württemberg-STIPENDIUM for Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Baden-Württemberg-STIPENDIUM for Students is a programme established by the [Baden-Württemberg Stiftung](https://www.bwstiftung.de/startseite/). You can apply if you are a highly qualified undergraduate, graduate or doctoral student you study at institutions of higher education either in the federal state of [Baden-Württemberg (Germany)](https://career-start-bw.com/) or at their international partner institutions you want to spend 1 or 2 exchange semesters at one of the partner institutions either in Baden-Württemberg (Germany) or abroad The applications are exclusively handled by the International Offices; not by the Baden-Württemberg Stiftung. For specific information on the application process, the deadline and application forms, please contact the International Office at your higher education institution. Every year about 1,500 young people from all over the world are given the opportunity to study abroad with the Baden-Württemberg-STIPENDIUM. Scholarships are equally distributed between applicants from the federal state of Baden-Württemberg going abroad and candidates from abroad coming to the German federal state Baden-Württemberg.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000178",
+      "deadlineText": "The application deadline is usually 31 March for scholarships starting in autumn. The exact date of the application deadline may vary - please contact the International Office at your higher education institution.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000178",
+      "sourceQuote": "The programme is intended for highly qualified undergraduates, graduates and doctoral candidates from all disciplines at institutions of higher education in Baden-Württemberg and their partner institutions abroad.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "you are a highly qualified undergraduate, graduate or doctoral student",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "highly qualified",
+          "sourceQuote": "you are a highly qualified undergraduate, graduate or doctoral student",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "ARTS",
+            "HEALTH",
+            "LAW",
+            "EDUCATION",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "you want to spend 1 or 2 exchange semesters at one of the partner institutions either in Baden-Württemberg (Germany) or abroad",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

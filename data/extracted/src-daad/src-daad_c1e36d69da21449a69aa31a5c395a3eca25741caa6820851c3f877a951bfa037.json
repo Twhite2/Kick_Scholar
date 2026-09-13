@@ -1,0 +1,95 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c1e36d69da21449a69aa31a5c395a3eca25741caa6820851c3f877a951bfa037",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:21.765Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Konrad-Adenauer-Stiftung (KAS): Scholarship Programme for International Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Every year the foundation awards scholarships to international students in degree courses or PhD programmes at higher education institutions in Germany. The scholarship programme is primarily aimed at international students and doctoral candidates from non-EU countries. Successful candidates are given the opportunity to complete a German higher education qualification, earn a doctorate or acquire additional knowledge in their academic fields. The foundation's goal is to help further the education and training of young academics, expecting them to shoulder responsibility for the state and society in their home countries after their return. The sponsorship amount and duration depend on the academic goals of the applicant. In addition, a number of allowances and contributions may be applied for.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000108",
+      "deadlineText": "Closing date for applications is 15 July (12 o'clock noon) of each year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000108",
+      "sourceQuote": "committed and gifted international students and doctoral candidates from any subject who can relate to and stand up for the goals of the Konrad Adenauer Foundation",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "non-EU countries"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarship programme is primarily aimed at international students and doctoral candidates from non-EU countries.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants for MA or doctoral programmes who have already completed a first course of study will be accepted.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants for BA programmes must have completed at least the second semester at the time of application.",
+          "sourceQuote": "Applicants for BA programmes must have completed at least the second semester at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Human medicine",
+            "dental medicine",
+            "specialist medical training"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Exception: Human or dental medicine courses (leading to a state examination) and specialist medical training are not eligible for funding.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Every year the foundation awards scholarships to international students in degree courses or PhD programmes at higher education institutions in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

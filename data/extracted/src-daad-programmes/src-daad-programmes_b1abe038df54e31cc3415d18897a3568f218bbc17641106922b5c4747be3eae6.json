@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b1abe038df54e31cc3415d18897a3568f218bbc17641106922b5c4747be3eae6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:03.055Z",
+  "universities": [
+    {
+      "name": "Hochschule München University of Applied Sciences",
+      "country": "DE",
+      "city": "München",
+      "website": "https://www.hm.edu",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4814/",
+      "sourceQuote": "Hochschule München University of Applied Sciences • München"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule München University of Applied Sciences",
+      "universityWebsite": "https://www.hm.edu",
+      "name": "MSc in Micro- and Nanotechnology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc in Micro- and Nanotechnology",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 700,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4814/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4814/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "You have received a Bachelor's degree or similar diploma in one of the fields of the natural or engineering sciences, respectively a similar field with a final grade better than the equivalent German grade of \"good\".",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Your degree work was attained either at a German university or at a foreign school that is properly accredited.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "ECTS credit points",
+          "sourceQuote": "The Bachelor's degree must cover at least 180 ECTS credit points and at least six theoretical semesters.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "theoretical semesters",
+          "sourceQuote": "The Bachelor's degree must cover at least 180 ECTS credit points and at least six theoretical semesters.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "18",
+          "unit": "weeks",
+          "sourceQuote": "The completion of a practical semester or an industrial internship of at least 18 weeks during the Bachelor's studies is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "10",
+          "unit": "ECTS",
+          "sourceQuote": "An equivalent to 10 ECTS in physics must have been covered during the Bachelor's degree programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "English language skills level B1 and German language skills level A2.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "English language skills level B1 and German language skills level A2.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

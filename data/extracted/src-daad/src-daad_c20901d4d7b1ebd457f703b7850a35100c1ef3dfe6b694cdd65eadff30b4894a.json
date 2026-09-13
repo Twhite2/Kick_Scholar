@@ -1,0 +1,98 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c20901d4d7b1ebd457f703b7850a35100c1ef3dfe6b694cdd65eadff30b4894a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:56.185Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD-K.C.Wong Postdoc Fellowships **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This scholarship programme allows scientists to carry out research with German colleagues at universities, universities of applied sciences and non-university research institutes in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015446",
+      "deadlineText": "**9th October** for visits beginning between April and September of the following year **8th April** for visits beginning between October and March of the following year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015446",
+      "sourceQuote": "Highly qualified Chinese scientists and researchers in the fields of natural sciences, mathematics, engineering, agriculture and medicine.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "People's Republic of China"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants must be citizens of the People's Republic of China based in Mainland China and hold a teaching or research position at the time of their application; they are required to have obtained a PhD or an appropriate academic qualification.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "based in Mainland China",
+          "sourceQuote": "Applicants must be citizens of the People's Republic of China based in Mainland China and hold a teaching or research position at the time of their application; they are required to have obtained a PhD or an appropriate academic qualification.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": "teach or research position at the time of application",
+          "sourceQuote": "Applicants must be citizens of the People's Republic of China based in Mainland China and hold a teaching or research position at the time of their application; they are required to have obtained a PhD or an appropriate academic qualification.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "PhD or an appropriate academic qualification",
+          "sourceQuote": "Applicants must be citizens of the People's Republic of China based in Mainland China and hold a teaching or research position at the time of their application; they are required to have obtained a PhD or an appropriate academic qualification.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "usually a good knowledge of either German or English both written and spoken is required, and a basic knowledge of the other language",
+          "sourceQuote": "Language requirements depend on the conditions of the individual project; usually a good knowledge of either German or English both written and spoken is required, and a basic knowledge of the other language.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "This scholarship programme allows scientists to carry out research with German colleagues at universities, universities of applied sciences and non-university research institutes in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

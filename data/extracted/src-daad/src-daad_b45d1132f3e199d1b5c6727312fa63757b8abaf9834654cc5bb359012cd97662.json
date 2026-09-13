@@ -1,0 +1,103 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:b45d1132f3e199d1b5c6727312fa63757b8abaf9834654cc5bb359012cd97662",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:10.477Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "In-Region Scholarships for Postgraduate Studies for Yemenis in Jordan **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme aims at fostering strong, internationally oriented higher education systems in Jordan with the capacity to contribute to sustainable development. To this end, scholarships are granted for development-related Master studies for individuals who plan to pursue a career in teaching and/or research at a higher education institution in the Middle East. By training future academic and professional leaders, the programme contributes to the following long-term impacts: Qualified professionals’ involvement in the solution of development-related problems in the Middle East Graduates strengthening education and research in the Middle East Structural strengthening and regional networking of partner institutions and partner universities To achieve these long-term impacts, the following outcomes have been formulated as programme objectives: Programme objective 1: Graduates have qualified to take over responsible positions in their (or for their) region of origin. Programme objective 2: The participation of women and underprivileged groups is reinforced. Programme objective 3: Organizational, financial and personal capacities of partner institutions are strengthened. As part of the \"In-Country/In-Region Scholarship Programme“, DAAD offers scholarships for Master studies. The programme is funded by the German Federal Ministry of Economic Cooperation and Development (BMZ) and aims at university staff in the first line, without neglecting the public sector demand of academically t…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015282",
+      "deadlineText": "31 August 2026 Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year. You can find the current dates here.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015282",
+      "sourceQuote": "The target group are graduates from Yemen with a first academic degree who want to pursue a Master’s programme (thesis track) in Jordan.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "have successfully completed generally a three-year university degree (i.e. Bachelor degree or equivalent) with a minimum average of \"good\",",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MIN_GPA",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "minimum average of \"good\"",
+          "sourceQuote": "have successfully completed generally a three-year university degree (i.e. Bachelor degree or equivalent) with a minimum average of \"good\",",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "clearly show motivation and strong commitment have thorough knowledge of the language of instruction (English and/or Arabic),",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "last university degree not more than six years ago",
+          "sourceQuote": "have generally completed their last university degree not more than six years ago at the time of application,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Yemen"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "must be nationals or permanent residents of Yemen,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "permanent residents of Yemen",
+          "sourceQuote": "must be nationals or permanent residents of Yemen,",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "JO"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "scholarships are granted for development-related Master studies for individuals who plan to pursue a career in teaching and/or research at a higher education institution in the Middle East.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3739881c70e25cf8c93d57aab700fbd88cc317af71d14f989d923baad8366e14",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:11:24.899Z",
+  "universities": [
+    {
+      "name": "Furtwangen University",
+      "country": "DE",
+      "city": "Villingen-Schwenningen",
+      "website": "https://www.hs-furtwangen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4203/",
+      "sourceQuote": "Furtwangen University • Villingen-Schwenningen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Furtwangen University",
+      "universityWebsite": "https://www.hs-furtwangen.de/",
+      "name": "International Engineering (IEB)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Engineering (IEB)",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4203/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4203/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

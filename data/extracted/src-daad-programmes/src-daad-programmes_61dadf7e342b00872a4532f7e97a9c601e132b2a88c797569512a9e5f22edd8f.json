@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:61dadf7e342b00872a4532f7e97a9c601e132b2a88c797569512a9e5f22edd8f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:19:13.930Z",
+  "universities": [
+    {
+      "name": "Eberswalde University for Sustainable Development",
+      "country": "DE",
+      "city": "Eberswalde",
+      "website": "https://www.hnee.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5427/",
+      "sourceQuote": "Eberswalde University for Sustainable Development • Eberswalde"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Eberswalde University for Sustainable Development",
+      "universityWebsite": "https://www.hnee.de/",
+      "name": "Forestry System Transformation (FST)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Forestry System Transformation (FST)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5427/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5427/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

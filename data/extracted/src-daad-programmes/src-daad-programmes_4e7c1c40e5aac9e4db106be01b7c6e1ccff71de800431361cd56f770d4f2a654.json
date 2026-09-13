@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4e7c1c40e5aac9e4db106be01b7c6e1ccff71de800431361cd56f770d4f2a654",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:38.216Z",
+  "universities": [
+    {
+      "name": "University of Duisburg-Essen",
+      "country": "DE",
+      "city": "Duisburg",
+      "website": "https://www.uni-due.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6150/",
+      "sourceQuote": "University of Duisburg-Essen • Duisburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Duisburg-Essen",
+      "universityWebsite": "https://www.uni-due.de/",
+      "name": "Electrical, Electronic and Communications Engineering",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Electrical, Electronic and Communications Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6150/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6150/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "University entrance qualification (\"Abitur\") or a high school diploma equivalent to the German Abitur, or special university entrance qualification (restricted to certain fields of study, \"Fachhochschulreife\"), or equivalent",
+          "unit": null,
+          "sourceQuote": "University entrance qualification (\"Abitur\") or a high school diploma equivalent to the German Abitur, or special university entrance qualification (restricted to certain fields of study, \"Fachhochschulreife\"), or equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "B1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Proof of course grades in Mathematics of 2.5 or better (or equivalent grades) during the last three years prior to the application for this study programme",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

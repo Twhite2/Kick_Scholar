@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c194dbc7a2b5ae10c56f6fc4f4874d941420d7ddf793c0bbbbb1c7d6c252cd0f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:33.235Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Combined study and practical stays for engineers from developing countries (KOSPIE) with Colombian universities **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Advanced students of engineering from one of ten Colombian universities that are parties to the agreement initially spend one semester at a German university and then complete a 4 to 6-month industrial internship.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57471580",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57471580",
+      "sourceQuote": "Advanced students of engineering from the following participating universities: Escuela Colombiana de Ingenieria Julio Garavito, Bogotá Universidad del Valle, Cali Universidad Santo Tomás, Bogotá Universidad del Norte, Barranquilla Pontificia Universidad Javeriana, Cali Universidad Nacional de Colombia, Bogotá",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "engineering"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Advanced students of engineering from one of ten Colombian universities that are parties to the agreement initially spend one semester at a German university and then complete a 4 to 6-month industrial internship.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Escuela Colombiana de Ingenieria Julio Garavito",
+            "Universidad del Valle",
+            "Universidad Santo Tomás",
+            "Universidad del Norte",
+            "Pontificia Universidad Javeriana",
+            "Universidad Nacional de Colombia"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Advanced students of engineering from the following participating universities:   \r\nEscuela Colombiana de Ingenieria Julio Garavito, Bogotá  \r\nUniversidad del Valle, Cali  \r\nUniversidad Santo Tomás, Bogotá  \r\nUniversidad del Norte, Barranquilla  \r\nPontificia Universidad Javeriana, Cali  \r\nUniversidad Nacional de Colombia, Bogotá",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "Advanced students of engineering from one of ten Colombian universities that are parties to the agreement initially spend one semester at a German university and then complete a 4 to 6-month industrial internship.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

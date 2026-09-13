@@ -1,0 +1,64 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:e818bcd48db3a86420ab6d200f6847fe82308b104387b3a4fc39d1e265bf8694",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:26.948Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Combined study and practical stays for engineers from developing countries (KOSPIE) with Mexican universities **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "As part of the programme with Mexican partners, students studying the natural sciences and engineering spend one year in Germany (one semester at a German university followed by an industrial internship of 4 to 6 months). The aim of this cooperation is to offer Mexican engineering students the opportunity to broaden both their academic and personal horizons with a one-year study and work visit to Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57471581",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57471581",
+      "sourceQuote": "Advanced students of the natural sciences and engineering and economics and administrative sciences",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "natural sciences",
+            "engineering",
+            "economics",
+            "administrative sciences"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Advanced students of the natural sciences and engineering and economics and administrative sciences",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "BUSINESS"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "students studying the natural sciences and engineering spend one year in Germany (one semester at a German university followed by an industrial internship of 4 to 6 months).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

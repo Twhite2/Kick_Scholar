@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c354cbd3f93c7551b9756b67137e3f2accee409254682b4bfe1c048589f9cd6f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:02:38.389Z",
+  "universities": [
+    {
+      "name": "Frankfurt School of Finance & Management",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.frankfurt-school.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7613/",
+      "sourceQuote": "Frankfurt School of Finance & Management • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Frankfurt School of Finance & Management",
+      "universityWebsite": "https://www.frankfurt-school.de/de",
+      "name": "Master of Leadership in Sustainable Finance",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Leadership in Sustainable Finance",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5375,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7613/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7613/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Undergraduate academic degree (Bachelor’s or equivalent) from a university, including diploma and transcript of records",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "* At least one year (preferably two or more years) of work experience in a role related to leadership, sustainability, or finance (confirmed by an employer’s recommendation letter)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Proficiency in English (evaluated during the admissions interview)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "* Passing the admission interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a5d46331bb6210ad2dbfece88f739c3f3a99fdfebf6f7497d9ead0629b714aba",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:49:12.016Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Marine Microbiology",
+      "country": "DE",
+      "city": "Bremen",
+      "website": "https://www.mpi-bremen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4468/",
+      "sourceQuote": "Max Planck Institute for Marine Microbiology • Bremen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Marine Microbiology",
+      "universityWebsite": "https://www.mpi-bremen.de",
+      "name": "International Max Planck Research School of Marine Microbiology (IMPRS MarMic) - MSc/PhD Programme IMPRS of Marine Microbiology (MarMic)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School of Marine Microbiology (IMPRS MarMic) - MSc/PhD Programme IMPRS of Marine Microbiology (MarMic)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4468/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4468/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "MSc or equivalent",
+          "unit": null,
+          "sourceQuote": "The programme is intended for students who hold a degree (MSc or equivalent) in biology, biochemistry, marine biology, oceanography, microbiology, chemistry, molecular biology, geology, biogeochemistry, bioinformatics, or in related fields.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f4d44f0bb08a7afd4ed169176373669e670b177cdeffebf21f07278f2450e156",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:57:58.707Z",
+  "universities": [
+    {
+      "name": "Freie Universität Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.fu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7055/",
+      "sourceQuote": "Freie Universität Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Freie Universität Berlin",
+      "universityWebsite": "https://www.fu-berlin.de/",
+      "name": "Master of Science in Computational Sciences MSc Computational Sciences",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Computational Sciences MSc Computational Sciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7055/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7055/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme chemistry including at least 10 credit points (CP) in mathematics and at least 8 CP in physics",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme **chemistry** including at least **10 credit points (CP) in mathematics** and at least **8 CP in physics**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme in physics",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme in **physics**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme in geological sciences",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme in **geological sciences**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme in meteorology including at least 10 CP in mathematics",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme in **meteorology** including at least **10 CP in mathematics**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme in geographical sciences including at least 10 CP in mathematics",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme in **geographical sciences** including at least **10 CP in mathematics**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme in mathematics including at least 20 CP in computer science, chemistry, and/or physics",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme in **mathematics** including at least **20 CP in computer science, chemistry, and/or physics**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme in computer science including at least 20 CP in mathematics, chemistry, and/or physics",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme in **computer science** including at least **20 CP in mathematics, chemistry, and/or physics**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's programme in engineering sciences including at least 20 CP in mathematics, chemistry, and/or physics",
+          "unit": null,
+          "sourceQuote": "* Bachelor's programme in **engineering sciences** including at least **20 CP in mathematics, chemistry, and/or physics.**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "**B1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

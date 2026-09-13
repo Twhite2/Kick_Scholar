@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c660492cb62d2b00047fa424b4847f106d803e6165cdee0c37b5c98737c1ffed",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:15:56.785Z",
+  "universities": [
+    {
+      "name": "ifs Internationale Filmschule Köln",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.filmschule.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5308/",
+      "sourceQuote": "ifs Internationale Filmschule Köln • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "ifs Internationale Filmschule Köln",
+      "universityWebsite": "https://www.filmschule.de",
+      "name": "MA 3D Animation for Film & Games",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA 3D Animation for Film & Games",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5308/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5308/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "First higher education degree (e.g. Bachelor's, Diploma) in Film, Games, Design, Architecture or the equivalent",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "months",
+          "sourceQuote": "12 months of relevant working experience in the media and creative industries",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

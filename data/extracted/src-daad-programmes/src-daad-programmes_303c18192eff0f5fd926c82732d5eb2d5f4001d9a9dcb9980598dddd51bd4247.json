@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:303c18192eff0f5fd926c82732d5eb2d5f4001d9a9dcb9980598dddd51bd4247",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:49.332Z",
+  "universities": [
+    {
+      "name": "Hochschule Fresenius - University of Applied Sciences",
+      "country": "DE",
+      "city": "Wiesbaden",
+      "website": "https://www.hs-fresenius.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5690/",
+      "sourceQuote": "Hochschule Fresenius - University of Applied Sciences • Wiesbaden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Fresenius - University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fresenius.de",
+      "name": "International Health Economics & Pharmacoeconomics (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Health Economics & Pharmacoeconomics (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5280,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5690/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5690/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include the successful completion of an undergraduate degree (Bachelor's/honours degree or equivalent) of at least 180 ECTS credits in one of the following fields: health & life sciences, economics, or natural sciences, e.g. pharmacy, chemistry, biology, medical technology, medical engineering, or nutrition.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "months",
+          "sourceQuote": "Graduates from other fields must have at least six months of professional experience in the pharmaceutical industry or in the healthcare sector.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "70",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 70",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

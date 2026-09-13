@@ -1,9 +1,7 @@
 import { readFile } from "node:fs/promises";
-import path from "node:path";
 import { ExtractionFileSchema, type ExtractionFile } from "./schemas";
+import { extractionFilePath } from "./paths";
 import type { DataExtractor, SourceDocumentInput } from "./types";
-
-const EXTRACTED_DIR = path.join(process.cwd(), "data", "extracted");
 
 /**
  * The concrete operationalization of the manual extraction workflow:
@@ -21,7 +19,7 @@ const EXTRACTED_DIR = path.join(process.cwd(), "data", "extracted");
  */
 export class ManualExtractor implements DataExtractor {
   async extract(doc: SourceDocumentInput): Promise<ExtractionFile | null> {
-    const filePath = path.join(EXTRACTED_DIR, doc.sourceId, `${doc.sourceDocumentId}.json`);
+    const filePath = extractionFilePath(doc.sourceId, doc.sourceDocumentId);
     let raw: string;
     try {
       raw = await readFile(filePath, "utf-8");

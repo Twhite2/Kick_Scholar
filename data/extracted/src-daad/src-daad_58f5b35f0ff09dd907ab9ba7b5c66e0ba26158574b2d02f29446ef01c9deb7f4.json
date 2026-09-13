@@ -1,0 +1,123 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:58f5b35f0ff09dd907ab9ba7b5c66e0ba26158574b2d02f29446ef01c9deb7f4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:35.934Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Federal Ministry of Education and Research: Deutschlandstipendium",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Deutschlandstipendium supports new or advanced students of excellent academic and professional promise. A wide net is cast to include all talents and potential: good grades and an excellent academic record, the willingness to take responsibility or the successful overcoming of obstacles on the candidate's personal or educational path. The funding of 300 EUR is granted irrespective of the student's income (in addition to BAföG funding) for a period of at least 2 semesters and at most until the end of the standard study period, thus giving the students the opportunity to focus on their studies. One half of the scholarship is financed by the Federal government, the other by private donors. The selection committees of the specific higher education institutions decide upon the allocation of the scholarships.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000207",
+      "deadlineText": "The institutions of higher education supporting the programme set the admission criteria, i.e. application deadlines, and will provide all relevant information. A list of the participating institutions is available [here](https://www.deutschlandstipendium.de/SiteGlobals/Forms/deutschlandstipendium/de/hochschullandkarte/hochschullandkarte_formular.html?nn=326970).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000207",
+      "sourceQuote": "new or advanced students of excellent academic and professional promise",
+      "eligibility": [
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Deutschlandstipendium supports new or advanced students of excellent academic and professional promise.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "professional promise",
+          "sourceQuote": "The Deutschlandstipendium supports new or advanced students of excellent academic and professional promise.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "good grades and an excellent academic record",
+          "sourceQuote": "A wide net is cast to include all talents and potential: good grades and an excellent academic record, the willingness to take responsibility or the successful overcoming of obstacles on the candidate's personal or educational path.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "willingness to take responsibility",
+          "sourceQuote": "A wide net is cast to include all talents and potential: good grades and an excellent academic record, the willingness to take responsibility or the successful overcoming of obstacles on the candidate's personal or educational path.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "successful overcoming of obstacles on the candidate's personal or educational path",
+          "sourceQuote": "A wide net is cast to include all talents and potential: good grades and an excellent academic record, the willingness to take responsibility or the successful overcoming of obstacles on the candidate's personal or educational path.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants need to meet the admission requirements of a state or state-approved higher education institution in Germany and need to be either already matriculated or about to start their studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-approved higher education institution"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants need to meet the admission requirements of a state or state-approved higher education institution in Germany and need to be either already matriculated or about to start their studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates and students at federal universities (Hochschulen des Bundes) cannot apply for a Deutschlandstipendium.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Applicants need to meet the admission requirements of a state or state-approved higher education institution in Germany and need to be either already matriculated or about to start their studies.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

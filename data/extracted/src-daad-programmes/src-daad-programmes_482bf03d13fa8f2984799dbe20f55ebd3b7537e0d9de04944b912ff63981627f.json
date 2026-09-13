@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:482bf03d13fa8f2984799dbe20f55ebd3b7537e0d9de04944b912ff63981627f",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:39:35.495Z",
+  "universities": [
+    {
+      "name": "University of Mannheim",
+      "country": "DE",
+      "city": "Mannheim",
+      "website": "https://www.uni-mannheim.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4425/",
+      "sourceQuote": "University of Mannheim • Mannheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Mannheim",
+      "universityWebsite": "https://www.uni-mannheim.de",
+      "name": "Mannheim Master in Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mannheim Master in Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4425/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4425/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

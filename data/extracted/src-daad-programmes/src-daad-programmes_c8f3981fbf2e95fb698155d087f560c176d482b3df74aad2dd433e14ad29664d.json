@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c8f3981fbf2e95fb698155d087f560c176d482b3df74aad2dd433e14ad29664d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:19:59.036Z",
+  "universities": [
+    {
+      "name": "Neu-Ulm University of Applied Sciences",
+      "country": "DE",
+      "city": "Neu-Ulm",
+      "website": "https://www.hnu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4734/",
+      "sourceQuote": "Neu-Ulm University of Applied Sciences • Neu-Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Neu-Ulm University of Applied Sciences",
+      "universityWebsite": "https://www.hnu.de",
+      "name": "Artificial Intelligence and Data Analytics (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Artificial Intelligence and Data Analytics (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4734/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4734/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS",
+          "sourceQuote": "Completed university studies with at least 210 ECTS (more info [here](https://www.hnu.de/en/studies/degree-programmes/masters-programmes/artificial-intelligence-and-data-analytics-msc))",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "grade 2.5 or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "25",
+          "unit": "ECTS",
+          "sourceQuote": "A total of 25 ECTS from the areas of object-oriented programming, database systems, IT management, business administration, mathematics and statistics, with at least 5 ECTS credits in each area from a previous higher education programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with a Bachelor's degree from an institution outside the Lisbon Convention must provide a Graduate Record Examination (GRE) General Test.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Winter semester (210 ECTS Bachelor’s degree) or summer semester (international students with 180 ECTS Bachelor’s degree)",
+          "intake": null,
+          "sourceQuote": "Winter semester (210 ECTS Bachelor’s degree) or summer semester (international students with 180 ECTS Bachelor’s degree)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

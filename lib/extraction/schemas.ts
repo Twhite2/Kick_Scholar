@@ -159,6 +159,30 @@ export const ExtractedProgramSchema = z.object({
   deadlines: z.array(ExtractedDeadlineSchema).default([]),
 });
 
+/**
+ * Where a scholarship's funding may be USED, as a RULE rather than a list of
+ * named institutions.
+ *
+ * This exists because most scholarships name no university at all. A DAAD
+ * page says "state or state-recognised universities in Germany"; nothing on
+ * it can be resolved to a University row directly. Capturing the rule is what
+ * lets the linking stage expand it across the catalogue later, so this is the
+ * input the scholarship->institution algorithm actually consumes.
+ *
+ * Every list is empty when the page does not state that dimension — empty
+ * means "not stated", never "applies to everything".
+ */
+export const ExtractedApplicabilityRuleSchema = z.object({
+  countries: z.array(z.string().length(2)).default([]),
+  degreeLevels: z.array(DegreeLevelSchema).default([]),
+  fieldCategories: z.array(FieldCategorySchema).default([]),
+  institutionTypes: z
+    .array(z.enum(["PUBLIC", "PRIVATE", "STATE_RECOGNISED", "ANY"]))
+    .default([]),
+  sourceQuote: z.string().min(1, "An applicability rule needs the verbatim sentence stating it"),
+  sourceUrl: z.url().nullable().default(null),
+});
+
 export const ExtractedScholarshipSchema = z.object({
   name: z.string().min(1),
   providerName: z.string().min(1),
@@ -186,6 +210,9 @@ export const ExtractedScholarshipSchema = z.object({
   sourceUrl: z.url(),
   sourceQuote: z.string().min(1),
   eligibility: z.array(ExtractedEligibilitySchema).default([]),
+  // Rules describing where the money can be used. Defaulted so every existing
+  // extraction file keeps validating unchanged.
+  applicability: z.array(ExtractedApplicabilityRuleSchema).default([]),
   deadlines: z.array(ExtractedDeadlineSchema).default([]),
 });
 

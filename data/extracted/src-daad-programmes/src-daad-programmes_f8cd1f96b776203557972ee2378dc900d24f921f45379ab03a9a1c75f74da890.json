@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f8cd1f96b776203557972ee2378dc900d24f921f45379ab03a9a1c75f74da890",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:14:42.786Z",
+  "universities": [
+    {
+      "name": "University of Hildesheim",
+      "country": "DE",
+      "city": "Hildesheim",
+      "website": "https://www.uni-hildesheim.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5561/",
+      "sourceQuote": "University of Hildesheim • Hildesheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Hildesheim",
+      "universityWebsite": "https://www.uni-hildesheim.de/",
+      "name": "Data Analytics (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Data Analytics (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5561/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5561/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Computer Science, Information Technology, Mathematics, or related fields",
+          "unit": null,
+          "sourceQuote": "Students with a Bachelor's degree in Computer Science, Information Technology, Mathematics, or related fields are eligible to apply.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "61",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 61",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

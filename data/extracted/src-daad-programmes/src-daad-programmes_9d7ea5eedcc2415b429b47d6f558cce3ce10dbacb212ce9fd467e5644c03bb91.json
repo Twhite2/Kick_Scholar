@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9d7ea5eedcc2415b429b47d6f558cce3ce10dbacb212ce9fd467e5644c03bb91",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:06:53.056Z",
+  "universities": [
+    {
+      "name": "TU Bergakademie Freiberg",
+      "country": "DE",
+      "city": "Freiberg",
+      "website": "https://tu-freiberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7655/",
+      "sourceQuote": "TU Bergakademie Freiberg • Freiberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "TU Bergakademie Freiberg",
+      "universityWebsite": "https://tu-freiberg.de/",
+      "name": "International Business and Resources in Emerging Markets (MBA) International Business and Resources in Emerging Markets",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Business and Resources in Emerging Markets (MBA) International Business and Resources in Emerging Markets",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7655/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7655/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree or a similar three-year or four-year degree in the fields of business studies, economics, or comparable studies, with a good grade",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "GTE",
+          "value": "570",
+          "unit": "points",
+          "sourceQuote": "Analytical test: Graduate Management Admission Test (GMAT) with a minimum of 570 points OR Graduate Record Examination (the new GRE) with a minimum of 305 points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "305",
+          "unit": "points",
+          "sourceQuote": "Analytical test: Graduate Management Admission Test (GMAT) with a minimum of 570 points OR Graduate Record Examination (the new GRE) with a minimum of 305 points",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "years",
+          "sourceQuote": "As a general rule, one year of experience is required.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "1 January 2027 until 15 April 2027",
+          "intake": null,
+          "sourceQuote": "1 January 2027 until 15 April 2027",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

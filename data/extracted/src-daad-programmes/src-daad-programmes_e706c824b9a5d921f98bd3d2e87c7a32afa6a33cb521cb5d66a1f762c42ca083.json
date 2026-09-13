@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e706c824b9a5d921f98bd3d2e87c7a32afa6a33cb521cb5d66a1f762c42ca083",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:23.410Z",
+  "universities": [
+    {
+      "name": "Heinrich Heine University Düsseldorf",
+      "country": "DE",
+      "city": "Düsseldorf",
+      "website": "https://www.hhu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7716/",
+      "sourceQuote": "Heinrich Heine University Düsseldorf • Düsseldorf"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heinrich Heine University Düsseldorf",
+      "universityWebsite": "https://www.hhu.de/",
+      "name": "Biochemistry International",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Biochemistry International",
+      "fieldCategory": "STEM",
+      "durationMonths": 12,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7716/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7716/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree (or equivalent) from a four-year programme in biochemistry is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "EQ",
+          "value": "C2",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

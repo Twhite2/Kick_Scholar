@@ -1,0 +1,85 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:501c1543da1794071517622111d29c026f9903a693fb94e544c0ff3c4db4a849",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:13.971Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD/BECAS Chile **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "Graduates from Chile receive grants to carry out research for a doctoral degree in Germany.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50078419",
+      "deadlineText": "**01.10.2026** You can apply from 3rd September 2026. Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50078419",
+      "sourceQuote": "Chilean graduates, academics and professionals",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Chile"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Chilean citizenship",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Graduates from Chile receive grants to carry out research for a doctoral degree in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Academic excellence, you are among the 30 per cent of the best academic year",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Licenciatura-degree in study programmes with a minimum of eigth semesters or evidence of professional qualification within a study programme with a minimum of ten semesters.",
+          "sourceQuote": "Licenciatura-degree in study programmes with a minimum of eigth semesters or evidence of professional qualification within a study programme with a minimum of ten semesters.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Graduates from Chile receive grants to carry out research for a doctoral degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

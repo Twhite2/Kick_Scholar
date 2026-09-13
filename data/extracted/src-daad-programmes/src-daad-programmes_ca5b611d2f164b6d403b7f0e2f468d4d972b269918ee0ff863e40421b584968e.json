@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:ca5b611d2f164b6d403b7f0e2f468d4d972b269918ee0ff863e40421b584968e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:56:40.567Z",
+  "universities": [
+    {
+      "name": "Johannes Gutenberg University Mainz",
+      "country": "DE",
+      "city": "Mainz",
+      "website": "https://www.uni-mainz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6178/",
+      "sourceQuote": "Johannes Gutenberg University Mainz • Mainz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Johannes Gutenberg University Mainz",
+      "universityWebsite": "https://www.uni-mainz.de/",
+      "name": "Human Geography: Globalisation, Media, and Culture",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Human Geography: Globalisation, Media, and Culture",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6178/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6178/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor’s degree in geography or a related discipline within the social sciences and humanities (e.g. Anthropology, Media Studies, Sociology, Political Sciences, or Cultural Studies, preferably including empirical research training) combined with a strong motivation to explore the world through the lenses of human, cultural, and media geography.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7949320d216f09c46c6cd37ebeaf38f69b0b064e34dc533c514c8aaf090857fd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:39.818Z",
+  "universities": [
+    {
+      "name": "Mainz University of Applied Sciences",
+      "country": "DE",
+      "city": "Mainz",
+      "website": "https://www.hs-mainz.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7151/",
+      "sourceQuote": "Mainz University of Applied Sciences • Mainz"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Mainz University of Applied Sciences",
+      "universityWebsite": "https://www.hs-mainz.de",
+      "name": "International Civil Engineering (ICE)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Civil Engineering (ICE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7151/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7151/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**B1** required, please provide an official language certificate, e.g.: \n  * telc Deutsch: telc Deutsch B1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

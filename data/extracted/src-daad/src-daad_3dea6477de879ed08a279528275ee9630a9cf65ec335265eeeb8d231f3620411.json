@@ -1,0 +1,76 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:3dea6477de879ed08a279528275ee9630a9cf65ec335265eeeb8d231f3620411",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:37.875Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Hertie School: Human Rights Scholarship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The **Human Rights Scholarship** from the Hertie School is a full tuition scholarship, available for applicants of all nationalities who wish to pursue a 2-year, full-time, Master of International Affairs programme taught in English in Berlin, Germany. The Human Rights Scholarship is aimed at students interested in protecting human rights in the context of global governance and politics. Mass migration due to political instability and climate crises, the growing wave of right-wing populism and authoritarianism affecting political systems and international cooperation worldwide, and the disruptive effects of digitalisation and new technologies on all aspects of life are central challenges facing international public policy today. In today’s rapidly changing global environment, safeguarding fundamental human rights faces many challenges.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000429",
+      "deadlineText": "Up-to-date information on deadlines can be found on the [website](https://www.hertie-school.org/en/study/funding/full-scholarships/human-rights-scholarship).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000429",
+      "sourceQuote": "The scholarships are available to applicants of any discipline or nationality who are interested in topics related to human rights in the context of global governance and politics.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "all nationalities"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Human Rights Scholarship from the Hertie School is a full tuition scholarship, available for applicants of all nationalities who wish to pursue a 2-year, full-time, Master of International Affairs programme taught in English in Berlin, Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Undergraduate degree: to be eligible for a graduate degree at the Hertie School, you are required to have completed at least an undergraduate degree (Bachelor's or equivalent) of at least 6 semesters at an institution of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Human Rights Scholarship from the Hertie School is a full tuition scholarship, available for applicants of all nationalities who wish to pursue a 2-year, full-time, Master of International Affairs programme taught in English in Berlin, Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The Human Rights Scholarship from the Hertie School is a full tuition scholarship, available for applicants of all nationalities who wish to pursue a 2-year, full-time, Master of International Affairs programme taught in English in Berlin, Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

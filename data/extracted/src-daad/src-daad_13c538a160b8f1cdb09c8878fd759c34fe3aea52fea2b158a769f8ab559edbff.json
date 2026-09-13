@@ -1,0 +1,121 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:13c538a160b8f1cdb09c8878fd759c34fe3aea52fea2b158a769f8ab559edbff",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:24.305Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Co-funded Research Grants – Short-Term Grants - DAAD **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The primary aim of this programme is to promote research projects within the context of doctoral programmes.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57378178",
+      "deadlineText": "Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year. You can find the current dates here: **September 3rd, 2026** for a research stay between May 2027 and January 2028 Selection date in March 2027.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57378178",
+      "sourceQuote": "Doctoral candidates at universities in Brazil, who have been awarded a domestic scholarship from CAPES or one of the following foundations: FAPEAL - Alagoas FAPEAM - Amazonas FAPEAP - Amapá FAPEG - Goiás FAPEMA - Maranhão FAPEMIG - Minas Gerais FAPERGS - Rio Grande do Sul FAPERN - Rio Grande do Norte FAPES - Espírito Santo FAPESB - Bahia FAPESC - Santa Catarina FUNDECT - Mato Grosso do Sul FAPERO…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates at universities in Brazil, who have been awarded a domestic scholarship from CAPES or one of the following foundations:",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Brazil"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates at universities in Brazil, who have been awarded a domestic scholarship from CAPES or one of the following foundations:",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "last university degree no longer than six years before application deadline",
+          "sourceQuote": "As a rule, applicants should not have achieved the last university degree any longer than six years before the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "official status as a doctoral candidate at a university in Brazil",
+          "sourceQuote": "Applicants must hold the official status as a doctoral candidate at a university in Brazil and have been awarded a domestic scholarship from CAPES or one of the participating FAPs (see Overview).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "awarded a domestic scholarship from CAPES or one of the participating FAPs",
+          "sourceQuote": "Applicants must hold the official status as a doctoral candidate at a university in Brazil and have been awarded a domestic scholarship from CAPES or one of the participating FAPs (see Overview).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "doctorate start not more than 3 years prior to the date of application",
+          "sourceQuote": "If you have already started your doctorate, it also applies that the start of the doctorate should not be more than 3 years prior to the date of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "cannot have been resident in Germany for longer than 15 months at the application deadline",
+          "sourceQuote": "Your application cannot be considered, if you have been resident in Germany for longer than 15 months at the application deadline",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "good knowledge of German usually expected in arts, social sciences and law; good English language skills may be accepted for natural sciences and engineering if English is spoken at the host institute",
+          "sourceQuote": "In the arts, social sciences and in law, at least a good knowledge of German is usually expected. For the natural sciences and engineering, proof of good English language skills may also be accepted if English is spoken at the host institute.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The primary aim of this programme is to promote research projects within the context of doctoral programmes.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

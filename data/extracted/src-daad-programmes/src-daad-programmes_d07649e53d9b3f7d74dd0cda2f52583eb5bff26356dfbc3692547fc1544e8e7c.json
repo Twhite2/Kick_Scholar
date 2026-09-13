@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:d07649e53d9b3f7d74dd0cda2f52583eb5bff26356dfbc3692547fc1544e8e7c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:08.283Z",
+  "universities": [
+    {
+      "name": "Frankfurt School of Finance & Management",
+      "country": "DE",
+      "city": "Frankfurt am Main",
+      "website": "https://www.frankfurt-school.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4542/",
+      "sourceQuote": "Frankfurt School of Finance & Management • Frankfurt am Main"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Frankfurt School of Finance & Management",
+      "universityWebsite": "https://www.frankfurt-school.de/de",
+      "name": "Executive MBA (part-time)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Executive MBA (part-time)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4542/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4542/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission requirements include the following: qualification for university entrance, initial academic degree or equivalent, and at least five years of work experience with appropriate managerial responsibility.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "years",
+          "sourceQuote": "Admission requirements include the following: qualification for university entrance, initial academic degree or equivalent, and at least five years of work experience with appropriate managerial responsibility.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

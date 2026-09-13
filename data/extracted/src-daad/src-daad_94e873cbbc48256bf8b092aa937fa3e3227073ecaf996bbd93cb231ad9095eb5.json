@@ -1,0 +1,75 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:94e873cbbc48256bf8b092aa937fa3e3227073ecaf996bbd93cb231ad9095eb5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:26.408Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Alexander von Humboldt Foundation: Humboldt Research Fellowships for Postdoctoral Researchers",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Applicants are highly qualified scientists and scholars from abroad just embarking on their academic careers who completed their doctorates less than 4 years ago. The fellowship gives international candidates from all disciplines the opportunity to realise a long-term research project (6 to 24 months) of their own design in cooperation with an academic host of their choice at a research institution in Germany. Scientists and scholars from all disciplines and countries may apply (with the exception of Brazil). The research is carried out in cooperation with academic hosts at research institutions in Germany. Applicants choose their own topic of research and their host in Germany. The fellows receive the amount of 2,700 EUR per month in addition to a number of further benefits.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000110",
+      "deadlineText": "Applications are possible at any time. The Selection Committee responsible for reviewing applications to this programme meets every March, July and November.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000110",
+      "sourceQuote": "academics from abroad with above average qualifications, at the beginning of their academic career, with a doctorate awarded no more than 4 years earlier",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants are highly qualified scientists and scholars from abroad just embarking on their academic careers who completed their doctorates less than 4 years ago.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "all countries except Brazil"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Scientists and scholars from all disciplines and countries may apply (with the exception of Brazil).",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM",
+            "BUSINESS",
+            "HUMANITIES",
+            "SOCIAL_SCIENCES",
+            "ARTS",
+            "HEALTH",
+            "LAW",
+            "EDUCATION",
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The research is carried out in cooperation with academic hosts at research institutions in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

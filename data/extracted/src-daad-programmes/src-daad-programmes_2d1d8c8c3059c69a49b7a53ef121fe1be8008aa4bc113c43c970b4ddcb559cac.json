@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2d1d8c8c3059c69a49b7a53ef121fe1be8008aa4bc113c43c970b4ddcb559cac",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:16:36.352Z",
+  "universities": [
+    {
+      "name": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hu-berlin.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6310/",
+      "sourceQuote": "Humboldt-Universität zu Berlin • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Humboldt-Universität zu Berlin",
+      "universityWebsite": "https://www.hu-berlin.de/",
+      "name": "MA English Literatures",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA English Literatures",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6310/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6310/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA in English Studies / Englisch / Anglistik or in Comparative Literature",
+          "unit": null,
+          "sourceQuote": "Accordingly, a **BA in English Studies / Englisch / Anglistik or in Comparative Literature** (literary and cultural studies, literary history, literary theory, methodologies) is required, or an equivalent degree with a minimum of 30 credit points in English Studies and 30 credit points in literary studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "credit points in English Studies",
+          "sourceQuote": "Accordingly, a **BA in English Studies / Englisch / Anglistik or in Comparative Literature** (literary and cultural studies, literary history, literary theory, methodologies) is required, or an equivalent degree with a minimum of 30 credit points in English Studies and 30 credit points in literary studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "credit points in literary studies",
+          "sourceQuote": "Accordingly, a **BA in English Studies / Englisch / Anglistik or in Comparative Literature** (literary and cultural studies, literary history, literary theory, methodologies) is required, or an equivalent degree with a minimum of 30 credit points in English Studies and 30 credit points in literary studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application period for international students runs from early/mid-May until mid/late June each year for the start in the winter semester (in October).",
+          "intake": null,
+          "sourceQuote": "The application period for international students runs from early/mid-May until mid/late June each year for the start in the winter semester (in October).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

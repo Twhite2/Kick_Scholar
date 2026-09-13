@@ -1,0 +1,176 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f54dbb72b25814d0287d2f2d766ea6416efe74128f44499195eb002968a2454f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:47.415Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Third Country Programme Central America **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme aims at fostering strong, internationally oriented higher education systems in Latin America with the capacity to contribute to sustainable development. To this end, scholarships are granted for development-related Master or doctoral studies for individuals who plan to pursue a career in teaching and / or research at a higher education institution in Latin America. By training future academic and professional leaders, the programme contributes to the following long-term impacts: Qualified professionals’ involvement in the solution of development related problems in Latin America Graduates strengthening education and research in Latin America Structural strengthening and regional networking of partner institutions and partner universities To achieve these long-term impacts, the following outcomes have been formulated as programme objectives: **Programme objective 1:** Graduates have qualified to take over responsible positions in their or for their region of origin **Programme objective 2:** The participation of women and underprivileged groups is reinforced **Programme objective 3:** Organizational, financial and personal capacities of partner institutions are strengthened",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57176484",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57176484",
+      "sourceQuote": "As part of the “In-Region Scholarship Programme”, the DAAD offers scholarships for PhD and Master studies. The programme is supported by the German Federal Ministry for Economic Cooperation and Development (BMZ) and designed primarily for university staff in the first line, whilst also catering to the public sector demand of academically trained personnel. The target group for scholarships is grad…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "As part of the “In-Region Scholarship Programme”, the DAAD offers scholarships for PhD and Master studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "development-related studies",
+          "sourceQuote": "the programme aims at fostering strong, internationally oriented higher education systems in Latin America with the capacity to contribute to sustainable development. To this end, scholarships are granted for development-related Master or doctoral studies for individuals who plan to pursue a career in teaching and / or research at a higher education institution in Latin America.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "thorough knowledge of the language of instruction",
+          "sourceQuote": "have thorough knowledge of the language of instruction;",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Central American country (except Costa Rica)",
+            "the Dominican Republic"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "must be nationals or permanent residents of a Central American country (except Costa Rica) and the Dominican Republic;",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Central American country (except Costa Rica)",
+            "the Dominican Republic"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "must be nationals or permanent residents of a Central American country (except Costa Rica) or the Dominican Republic;",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": "staff member of a public university; candidate considered for teaching or research staff recruitment; from the public sector; Alumni of the DAFI-programme; fresh graduates, professionals and other candidates also invited",
+          "sourceQuote": "should be a) staff member of a public university, b) or a candidate considered for teaching or research staff recruitment, c) or from the public sector and/or d) Alumni of the DAFI-programme. Fresh graduates, professionals and other candidates who do not fit in the above- mentioned areas are also invited to apply for the programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "who have successfully completed a two-year university Master’s degree (or equivalent) with above average results (at least: Second Class/Upper Division or equivalent, if applicable);",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "graduates with a first academic degree, who have successfully completed a Bachelor/ Licenciatura with above average results",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "GT",
+            "BZ",
+            "SV",
+            "HN",
+            "NI",
+            "PA",
+            "DO"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The target group for scholarships is graduates from Central America and the Dominican Republic with a Master’s degree if applying for a doctoral Programme , who want to pursue PhD courses or with a first academic degree if applying for a Master’s programme, who want to pursue Master’s courses,",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "GT",
+            "BZ",
+            "SV",
+            "HN",
+            "NI",
+            "PA",
+            "DO"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "in another Central American country",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "DAAD In-Region scholarship holders in the framework of research-based Master programmes are also   \na) encouraged to apply for a short-term research stay in Germany for 2 up to 6 months.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

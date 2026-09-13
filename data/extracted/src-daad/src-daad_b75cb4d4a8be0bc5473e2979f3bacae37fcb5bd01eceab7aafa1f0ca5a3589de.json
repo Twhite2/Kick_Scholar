@@ -1,0 +1,156 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:b75cb4d4a8be0bc5473e2979f3bacae37fcb5bd01eceab7aafa1f0ca5a3589de",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:53.545Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Hanns Seidel Foundation: PhD scholarships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Hanns Seidel Foundation, which is affiliated with the political party \"Christian Social Union\" (CSU), sponsors highly-qualified doctoral candidates either from EU member states or with the legal status of German educational nationals (as per BAföG § 8). Applicants from all disciplines completing promising doctoral theses at a higher education institution in Germany are welcome to apply. The support aims at helping the academics become competent and responsible citizens who uphold Christian social values and co-operate actively in forming and strengthening Germany's liberal and democratic constitutional order. Independent of income, scholarship holders are granted a monthly sum of 1,450 EUR plus a research cost allowance of 100 EUR as well as child- and family allowances, if necessary. The scholarship also entails comprehensive non-material support.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000132",
+      "deadlineText": "15 January and 15 July of each year",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000132",
+      "sourceQuote": "highly-qualified doctoral candidates with the legal status of German educational nationals (as per BAföG § 8) of any subject area who are regularly enrolled at a state or state-recognised higher education institution. Applicants propose a thesis that shows promise for excellence in their field of research. They furthermore demonstrate unusual potential for contributing to research as well as perso…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "EU member states"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Hanns Seidel Foundation, which is affiliated with the political party \"Christian Social Union\" (CSU), sponsors highly-qualified doctoral candidates either from EU member states or with the legal status of German educational nationals (as per BAföG § 8).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "legal status of German educational nationals (as per BAföG § 8)",
+          "sourceQuote": "The Hanns Seidel Foundation, which is affiliated with the political party \"Christian Social Union\" (CSU), sponsors highly-qualified doctoral candidates either from EU member states or with the legal status of German educational nationals (as per BAföG § 8).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Hanns Seidel Foundation, which is affiliated with the political party \"Christian Social Union\" (CSU), sponsors highly-qualified doctoral candidates either from EU member states or with the legal status of German educational nationals (as per BAföG § 8).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "all disciplines",
+          "sourceQuote": "Applicants from all disciplines completing promising doctoral theses at a higher education institution in Germany are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised higher education institution in Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants from all disciplines completing promising doctoral theses at a higher education institution in Germany are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised higher education institution in Germany or in EU countries plus Switzerland"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "at a state or state-recognised higher education institution in Germany or in EU countries plus Switzerland, if the applicants are German nationals or so-called educational nationals",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "UNIVERSITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "state or state-recognised higher education institution or research institute in Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "at a state or state-recognised higher education institution or research institute in Germany, if the applicants are international doctoral students.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Applicants from all disciplines completing promising doctoral theses at a higher education institution in Germany are welcome to apply.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "at a state or state-recognised higher education institution or research institute in Germany, if the applicants are international doctoral students.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "at a state or state-recognised higher education institution in Germany or in EU countries plus Switzerland, if the applicants are German nationals or so-called educational nationals",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8a2f4121c8876076f4d5df5cc126f17067d5141ed84e4800f0dc173cb16e0fc2",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:20.618Z",
+  "universities": [
+    {
+      "name": "Fulda University of Applied Sciences",
+      "country": "DE",
+      "city": "Fulda",
+      "website": "https://www.hs-fulda.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3689/",
+      "sourceQuote": "Fulda University of Applied Sciences • Fulda"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Fulda University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fulda.de/",
+      "name": "Intercultural Communication and European Studies (ICEUS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Intercultural Communication and European Studies (ICEUS)",
+      "fieldCategory": "HUMANITIES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3689/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3689/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications are possible until 30 September. However, international candidates who need a student visa for Germany must apply much earlier in order to be able to receive the admission notification and visa in time.",
+          "intake": null,
+          "sourceQuote": "Applications are possible until 30 September. However, international candidates who need a student visa for Germany must apply much earlier in order to be able to receive the admission notification and visa in time.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

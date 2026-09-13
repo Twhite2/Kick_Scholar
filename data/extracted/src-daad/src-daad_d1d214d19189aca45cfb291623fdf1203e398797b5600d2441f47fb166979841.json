@@ -1,0 +1,117 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:d1d214d19189aca45cfb291623fdf1203e398797b5600d2441f47fb166979841",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:19:41.673Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "University Summer Courses offered in Germany for Foreign Students and Graduates **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The aim of this programme is to deepen the knowledge of the German language, both in general language and technical language and to augment the knowledge of the regional studies.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50035295",
+      "deadlineText": "**30 October of each year, 23:59 (Central European Time). Applications are possible from 01 September each year**",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50035295",
+      "sourceQuote": "Applications are open to students and graduates in any subject area. Undergraduate students (e.g. Bachelor’s) must have completed at least two academic years of university study **by the time the funding period begins**. Students who are in their final year of higher education at the time of application are only eligible to apply if they intend to undertake postgraduate studies immediately after g…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "students and graduates in any subject area",
+          "sourceQuote": "Applications are open to students and graduates in any subject area.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Undergraduate students must have completed at least two academic years of university study by the time the funding period begins.",
+          "sourceQuote": "Undergraduate students (e.g. Bachelor’s) must have completed at least two academic years of university study **by the time the funding period begins**.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Students who are in their final year of higher education at the time of application are only eligible to apply if they intend to undertake postgraduate studies immediately after graduating.",
+          "sourceQuote": "Students who are in their final year of higher education at the time of application are only eligible to apply if they intend to undertake postgraduate studies immediately after graduating.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 18,
+          "textValue": "The grant holder must be at least 18 years old when starting the language course.",
+          "sourceQuote": "The grant holder must be at least 18 years old when starting the language course.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants must be enrolled at a university in one of the programme-related countries (except Germany) both at the time of application and throughout the entire scholarship period.",
+          "sourceQuote": "Applicants must be enrolled at a university in one of the programme-related countries (except Germany) both at the time of application and throughout the entire scholarship period.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Applicants must be able to follow lectures in German and participate in group work.",
+          "sourceQuote": "Applicants must be able to follow lectures in German and participate in group work.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "German language skills must be proven at the time of application.",
+          "sourceQuote": "German language skills must be proven at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "The language certificate cannot be older than one year at the time of application (this also applies to DSH).",
+          "sourceQuote": "The language certificate cannot be older than one year at the time of application (this also applies to DSH).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Language certificates from B2 or TDN3 in all examination parts of the exam may be up to two years old.",
+          "sourceQuote": "Language certificates from B2 or TDN3 in all examination parts of the exam may be up to two years old.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

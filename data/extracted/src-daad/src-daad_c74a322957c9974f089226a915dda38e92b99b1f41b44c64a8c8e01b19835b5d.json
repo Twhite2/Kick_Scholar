@@ -1,0 +1,63 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:c74a322957c9974f089226a915dda38e92b99b1f41b44c64a8c8e01b19835b5d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:26.360Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "SBW Berlin Scholarship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The SBW Berlin scholarship programme supports social commitment through the development of social projects during the scholarship recipients’ studies and includes various types of scholarships. The scholarships are only granted for a limited period, usually for the upcoming semester.* **Social Project** Scholarship recipients get involved socially with the start of their studies. For the SBW Berlin scholarship for foreign students: Ideally, these projects are part of the non-profit work of organisations located in the home countries of the foreign scholarship recipients and/or contribute to improving living conditions there. For the SBW Berlin scholarship for refugees: Ideally, these projects are part of the non-profit work of organisations that help other refugees from their home countries. The social project can also be part of SBW Berlin’s work. For the SBW Berlin scholarship for courses in the social field: The projects can either be part of the non-profit work of other organisations or are located at SBW Berlin as their own project. In general, however, they are intended to contribute to improving living conditions around the world. _* Further information can be found in the relevant guidelines of the scholarships and on the SBW Berlin website._",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000494",
+      "deadlineText": "All year round",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000494",
+      "sourceQuote": "Depending on the type of scholarship* _* Further information can be found in the relevant guidelines of the scholarships and on the SBW Berlin website._",
+      "eligibility": [
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "The scholarship type determines the target group and requirements.",
+          "sourceQuote": "Depending on the type of scholarship*",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "A higher education entrance qualification is required if the recipient plans to study in Germany.",
+          "sourceQuote": "if the recipient plans to study in Germany, a higher education entrance qualification is required.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "SOCIAL_SCIENCES"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "For the SBW Berlin scholarship for courses in the social field: The projects can either be part of the non-profit work of other organisations or are located at SBW Berlin as their own project.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

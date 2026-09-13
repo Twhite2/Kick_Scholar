@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e681f9fdc694f1ac564985492eda84e67dce308dcaba470d5094e10e834d80bd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:04:36.086Z",
+  "universities": [
+    {
+      "name": "HWR Berlin (Berlin School of Economics and Law)",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hwr-berlin.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6995/",
+      "sourceQuote": "HWR Berlin (Berlin School of Economics and Law) • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HWR Berlin (Berlin School of Economics and Law)",
+      "universityWebsite": "https://www.hwr-berlin.de",
+      "name": "Berlin MBA (part-time)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Berlin MBA (part-time)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5600,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6995/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6995/",
+      "sourceQuote": "Degree Master of Business Administration",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A completed university degree (Bachelor's, Master's, \"Diplom\")",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": "years",
+          "sourceQuote": "A minimum of three years of postgraduate professional work experience",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language skills",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German language skills",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Due to our rolling admission process, you may apply for the next programme start at any time. Applications for the following year can be submitted after 1 December. Applications are reviewed on an ongoing basis until we have selected the optimum cohort of 25 students. Since there are only limited places available, we strongly encourage you to apply as early as possible. Applicants from non-European countries should bear in mind that the visa application might take several months. Furthermore, it is necessary to check that student visas for part-time studies are granted only in very exceptional cases.",
+          "intake": null,
+          "sourceQuote": "Due to our rolling admission process, you may apply for the next programme start at any time. Applications for the following year can be submitted after 1 December. Applications are reviewed on an ongoing basis until we have selected the optimum cohort of 25 students. Since there are only limited places available, we strongly encourage you to apply as early as possible. Applicants from non-European countries should bear in mind that the visa application might take several months. Furthermore, it is necessary to check that student visas for part-time studies are granted only in very exceptional cases.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

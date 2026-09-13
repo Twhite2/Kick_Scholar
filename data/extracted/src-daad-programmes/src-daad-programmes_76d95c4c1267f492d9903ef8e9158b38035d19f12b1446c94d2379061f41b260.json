@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:76d95c4c1267f492d9903ef8e9158b38035d19f12b1446c94d2379061f41b260",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:15:31.075Z",
+  "universities": [
+    {
+      "name": "University of Augsburg",
+      "country": "DE",
+      "city": "Augsburg",
+      "website": "https://www.uni-augsburg.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3802/",
+      "sourceQuote": "University of Augsburg • Augsburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Augsburg",
+      "universityWebsite": "https://www.uni-augsburg.de/de/",
+      "name": "International Master's in Materials Science & Engineering Master Materials Science & Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master's in Materials Science & Engineering Master Materials Science & Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3802/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3802/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (or equivalent) in the fields of materials science & engineering, physics or chemistry",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor's degree (or equivalent) in the fields of materials science & engineering, physics or chemistry.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A degree in a related discipline might be deemed equivalent by the examination board.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "All applicants must submit proof of having obtained at least 12 ECTS credits in materials science, 12 ECTS credits in physics and 18 ECTS credits from engineering, chemistry or mathematics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL Essentials",
+          "operator": "GTE",
+          "value": "8",
+          "unit": null,
+          "sourceQuote": "* TOEFL Essentials: 8",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

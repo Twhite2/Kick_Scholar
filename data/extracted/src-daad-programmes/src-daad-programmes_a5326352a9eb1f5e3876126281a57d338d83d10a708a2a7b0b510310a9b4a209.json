@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a5326352a9eb1f5e3876126281a57d338d83d10a708a2a7b0b510310a9b4a209",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:11:34.665Z",
+  "universities": [
+    {
+      "name": "Westsächsische Hochschule Zwickau - University of Applied Sciences Zwickau",
+      "country": "DE",
+      "city": "Zwickau",
+      "website": "https://www.whz.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4753/",
+      "sourceQuote": "Westsächsische Hochschule Zwickau - University of Applied Sciences Zwickau • Zwickau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Westsächsische Hochschule Zwickau - University of Applied Sciences Zwickau",
+      "universityWebsite": "https://www.whz.de/",
+      "name": "Trinational Master's: Regional and European Project Management Regional and European Project Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Trinational Master's: Regional and European Project Management Regional and European Project Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English French"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4753/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4753/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Germany: 30 June, [www.whz.de](http://www.whz.de)",
+          "intake": null,
+          "sourceQuote": "Germany: 30 June, [www.whz.de](http://www.whz.de)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

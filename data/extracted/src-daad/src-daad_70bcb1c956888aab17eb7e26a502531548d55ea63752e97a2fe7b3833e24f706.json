@@ -1,0 +1,83 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:70bcb1c956888aab17eb7e26a502531548d55ea63752e97a2fe7b3833e24f706",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:32.491Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Study Scholarships - Postgraduate Studies in the Field of Architecture **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This scholarship programme offers you the opportunity to continue your education in Germany with a postgraduate or continuing course of study in the field of architecture. The scholarships also promote the exchange of experience and networking amongst colleagues.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135744",
+      "deadlineText": "Application deadlines are updated at least once a year. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135744",
+      "sourceQuote": "You can apply if you have gained a first university degree in the areas of Architecture, Interior Design, Monument Conservation and Building in Existing Contexts/Reconditioning of Old Buildings, Urban Design/Urban Development, Landscape Architecture, Landscape Planning at the latest by the time they commence their scholarship-supported study programme.",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Architecture",
+            "Interior Design",
+            "Monument Conservation",
+            "Building in Existing Contexts/Reconditioning of Old Buildings",
+            "Urban Design/Urban Development",
+            "Landscape Architecture",
+            "Landscape Planning"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You can apply if you have gained a first university degree in the areas of Architecture, Interior Design, Monument Conservation and Building in Existing Contexts/Reconditioning of Old Buildings, Urban Design/Urban Development, Landscape Architecture, Landscape Planning at the latest by the time they commence their scholarship-supported study programme.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 6,
+          "textValue": "last relevant university degree should not date back more than 6 years at the time of the application deadline",
+          "sourceQuote": "As a rule, your last relevant university degree should not date back more than 6 years at the time of the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 15,
+          "textValue": "resident in Germany for longer than 15 months at the application deadline",
+          "sourceQuote": "Your application **cannot** be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "This scholarship programme offers you the opportunity to continue your education in Germany with a postgraduate or continuing course of study in the field of architecture.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

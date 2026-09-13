@@ -1,22 +1,30 @@
 {
   "id": "src-daad",
-  "name": "DAAD (German Academic Exchange Service)",
+  "name": "DAAD Scholarship Database",
   "type": "NATIONAL_EDUCATION_PORTAL",
   "country": "DE",
-  "baseUrl": "https://www.daad.de",
+  "baseUrl": "https://www2.daad.de",
   "authorityLevel": "PRIMARY",
-  "crawlFrequency": "MANUAL",
-  "status": "PAUSED",
+  "crawlFrequency": "MONTHLY",
+  "status": "ACTIVE",
   "seedUrls": [
-    "https://www.daad.de/en/studying-in-germany/universities/international-programmes/"
+    "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/"
   ],
+  "sitemapUrls": ["https://www2.daad.de/sitemap.xml"],
+  "sitemapUrlPattern": "/en/21148-scholarship-database/\\?detail=\\d+",
+  "sitemapMaxUrls": 500,
+  "urlPatternMode": "regex",
   "urlPatterns": {
-    "include": ["daad.de/en/"],
-    "exclude": ["/login"]
+    "include": ["^https://www2\\.daad\\.de/deutschland/stipendium/"],
+    "exclude": ["/login", "\\.pdf$"]
   },
-  "maxDepth": 2,
-  "maxPages": 20,
-  "rateLimitMs": 3000,
+  "maxDepth": 0,
+  "maxPages": 200,
+  "rateLimitMs": 2000,
   "respectRobotsTxt": true,
-  "notes": "GO/NO-GO RESULT (2026-08-10): FAILED. Plain curl timed out during planning; a real headless-browser Crawl4AI attempt against both the listing page and the bare domain root (daad.de/) also timed out completely (45s, no response at all — Page.goto never reaches domcontentloaded). This is consistent with a network-level block from this environment rather than a JS bot-challenge (a challenge page would still return HTML quickly). Paused per the plan's documented fallback: Germany coverage continues via TU Berlin (src-tu-berlin). Retry later from a different network/IP before re-activating."
+  "extractionHints": {
+    "detail": "Detail pages are strongly fielded with '### ' headings — Target Group, Academic Requirements, Number of Scholarships, Duration, Scholarship Value, Application Requirements, Application Deadline. A deterministic parser should handle most fields; the LLM is only needed for prose eligibility. Every page is prefixed by a cookie-consent block that must be stripped before extraction.",
+    "applicability": "DAAD scholarships name no specific university — they state rules like 'state or state-recognised universities in Germany'. Capture these as applicability rules, not as host institutions."
+  },
+  "notes": "GO/NO-GO HISTORY. 2026-08-10: FAILED — plain curl timed out and a Crawl4AI attempt against both the listing page and the bare domain root timed out completely (45s, Page.goto never reached domcontentloaded), diagnosed as a network-level block from that environment. Source was PAUSED and Germany coverage fell back to TU Berlin. 2026-09-05: RE-VERIFIED AND REACTIVATED — curl returns 200 for both www.daad.de and www2.daad.de, and crucially the real Playwright path was re-tested end-to-end (success=True, HTTP 200, 16,373 chars of markdown with full Target Group / Duration / Scholarship Value content). The earlier block is gone. Discovery switched from link-following to sitemap: the scholarship database is a faceted search app with no crawlable listing, but www2.daad.de/sitemap.xml enumerates every detail page. IMPORTANT: <loc> carries the GERMAN page (/de/21148-stipendiendatenbank/) and the English page is only reachable via <xhtml:link hreflang=\"en\"> — hence the /en/ sitemapUrlPattern, which resolves exactly 149 English scholarships (259 German detail pages exist; 110 have no English version). robots.txt declares Crawl-delay: 2 (honoured via rateLimitMs) and disallows /pdf/, so linked PDF announcements are excluded."
 }

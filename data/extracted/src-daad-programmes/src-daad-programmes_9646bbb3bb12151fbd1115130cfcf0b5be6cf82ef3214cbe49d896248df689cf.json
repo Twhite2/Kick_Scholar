@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9646bbb3bb12151fbd1115130cfcf0b5be6cf82ef3214cbe49d896248df689cf",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:55.388Z",
+  "universities": [
+    {
+      "name": "Max-Planck-Zentrum für Physik und Medizin",
+      "country": "DE",
+      "city": "Erlangen",
+      "website": "https://mpzpm.mpg.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8537/",
+      "sourceQuote": "Max-Planck-Zentrum für Physik und Medizin • Erlangen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max-Planck-Zentrum für Physik und Medizin",
+      "universityWebsite": "https://mpzpm.mpg.de/de/",
+      "name": "International Max Planck Research School – Physics and Medicine (IMPRS-PM) IMPRS Physics and Medicine",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School – Physics and Medicine (IMPRS-PM) IMPRS Physics and Medicine",
+      "fieldCategory": "HEALTH",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8537/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8537/",
+      "sourceQuote": "Degree Dr MD, Medical Doctor",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's degree in physics, biology, integrated life sciences, molecular medicine or medical engineering or MD",
+          "unit": null,
+          "sourceQuote": "Master's degree in physics, biology, integrated life sciences, molecular medicine or medical engineering or MD",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

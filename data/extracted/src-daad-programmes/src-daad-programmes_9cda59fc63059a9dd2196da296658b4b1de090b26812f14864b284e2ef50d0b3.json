@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9cda59fc63059a9dd2196da296658b4b1de090b26812f14864b284e2ef50d0b3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:55.623Z",
+  "universities": [
+    {
+      "name": "Osnabrück University of Applied Sciences",
+      "country": "DE",
+      "city": "Osnabrück",
+      "website": "https://www.hs-osnabrueck.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3631/",
+      "sourceQuote": "Osnabrück University of Applied Sciences • Osnabrück"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Osnabrück University of Applied Sciences",
+      "universityWebsite": "https://www.hs-osnabrueck.de",
+      "name": "International Business and Management (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Business and Management (MA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3631/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3631/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor's degree (or equivalent) in business management, economics, or related programmes (at least 80% of the subjects of your Bachelor's programme need to be related to business and/or economics)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "CEFR",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "English language proficiency at level C1 of the Common European Framework of Reference for Languages (CEFR)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "CEFR",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language proficiency at level A1 of the Common European Framework of Reference for Languages (CEFR)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "**Non-EU applicants with a foreign degree** apply via [uni-assist](https://www.uni-assist.de/en/how-to-apply/) from 1 February to 1 April. **EU applicants with a foreign degree** apply via [uni-assist](https://www.uni-assist.de/en/how-to-apply/) from 1 May to 15 July. **All applicants with a German degree** apply via the [Osnabrück University of Applied Sciences application portal](https://osca-bew.hs-osnabrueck.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=EXTERNALPAGES&ARGUMENTS=-N000000000000002,-N000344,-Ahsoswelcomeen) from 1 May to 15 July.",
+          "intake": null,
+          "sourceQuote": "**Non-EU applicants with a foreign degree** apply via [uni-assist](https://www.uni-assist.de/en/how-to-apply/) from 1 February to 1 April. **EU applicants with a foreign degree** apply via [uni-assist](https://www.uni-assist.de/en/how-to-apply/) from 1 May to 15 July. **All applicants with a German degree** apply via the [Osnabrück University of Applied Sciences application portal](https://osca-bew.hs-osnabrueck.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=EXTERNALPAGES&ARGUMENTS=-N000000000000002,-N000344,-Ahsoswelcomeen) from 1 May to 15 July.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

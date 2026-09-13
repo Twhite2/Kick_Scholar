@@ -1,0 +1,67 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:4802e87116207bb513981defc615e3f8235286910a0bb5e54ba2d236fa6b9572",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:55.897Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Study Visits for Academics - Artists and Architects **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The aim of this programme is to promote artistic cooperations with German host institutions. The scholarships are funded by the German Federal Foreign Office.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50110016",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50110016",
+      "sourceQuote": "University teachers from the following disciplines are eligible to apply: Architecture (Interior Design, Monument Conservation, Urban Planning/Urban Development, Regional Planning, Landscape Architecture, Landscape Planning) Fine Art, Film, Design, Visual Communication Performing Arts (Drama, Direction, Musicals, Dance, Performance Studies, Choreography, etc.) Music",
+      "eligibility": [
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Architecture",
+            "Fine Art",
+            "Film",
+            "Design",
+            "Visual Communication",
+            "Performing Arts",
+            "Music"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "University teachers from the following disciplines are eligible to apply:",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "teach at an institute of higher education in your home country",
+          "sourceQuote": "You must teach at an institute of higher education in your home country.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "research project coordinated with the cooperation partner in Germany",
+          "sourceQuote": "The research project must be coordinated with the cooperation partner in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

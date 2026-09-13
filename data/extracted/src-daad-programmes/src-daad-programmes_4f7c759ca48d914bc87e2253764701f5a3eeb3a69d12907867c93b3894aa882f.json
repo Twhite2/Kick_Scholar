@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4f7c759ca48d914bc87e2253764701f5a3eeb3a69d12907867c93b3894aa882f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:57:56.144Z",
+  "universities": [
+    {
+      "name": "Detmold University of Music",
+      "country": "DE",
+      "city": "Detmold",
+      "website": "https://www.hfm-detmold.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6213/",
+      "sourceQuote": "Detmold University of Music • Detmold"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Detmold University of Music",
+      "universityWebsite": "https://www.hfm-detmold.de/",
+      "name": "Music Acoustics (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Music Acoustics (MSc)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6213/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6213/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Prerequisites include proof of a successfully completed study programme with a Bachelor's degree or diploma in a degree programme specialising in Sound Transmission or Sound Engineering / \"Tonmeister\" or in a comparable relevant subject (Acoustics, Physics, Communication Engineering) as well as a special scientific qualification for the Master's in Music Acoustics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In addition, musical-artistic skills have to be proven, e.g. by a passed aptitude test for a musical/artistic degree programme, a passed church music C exam or similar evidence.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Winter semester**",
+          "intake": null,
+          "sourceQuote": "*Winter semester**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

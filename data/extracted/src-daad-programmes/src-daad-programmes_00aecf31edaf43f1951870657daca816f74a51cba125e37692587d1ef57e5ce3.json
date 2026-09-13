@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:00aecf31edaf43f1951870657daca816f74a51cba125e37692587d1ef57e5ce3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:03:54.642Z",
+  "universities": [
+    {
+      "name": "Neu-Ulm University of Applied Sciences",
+      "country": "DE",
+      "city": "Neu-Ulm",
+      "website": "https://www.hnu.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5205/",
+      "sourceQuote": "Neu-Ulm University of Applied Sciences • Neu-Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Neu-Ulm University of Applied Sciences",
+      "universityWebsite": "https://www.hnu.de",
+      "name": "International Corporate Communication and Media Management (ICCMM) International Corporate Communication and Media Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Corporate Communication and Media Management (ICCMM) International Corporate Communication and Media Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5205/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5205/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS",
+          "sourceQuote": "Completed university studies with at least 210 ECTS (those with fewer ECTS, please see [University degree does not reach 210 ECTS](https://www.hnu.de/en/studies/degree-programmes/masters-programmes/international-corporate-communication-and-media-management-ma))",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "grade 2.5 or better",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "60",
+          "unit": "ECTS",
+          "sourceQuote": "60 ECTS in corporate communications or media management, e.g. marketing, media design, journalism",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Graduate Record Examination (GRE) General Test",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

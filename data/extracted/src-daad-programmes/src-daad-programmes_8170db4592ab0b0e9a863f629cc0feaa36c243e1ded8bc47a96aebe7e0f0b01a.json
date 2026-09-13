@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8170db4592ab0b0e9a863f629cc0feaa36c243e1ded8bc47a96aebe7e0f0b01a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:48.791Z",
+  "universities": [
+    {
+      "name": "University of Tübingen",
+      "country": "DE",
+      "city": "Tübingen",
+      "website": "https://www.uni-tuebingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5634/",
+      "sourceQuote": "University of Tübingen • Tübingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Tübingen",
+      "universityWebsite": "https://www.uni-tuebingen.de",
+      "name": "Machine Learning (MSc) Machine Learning",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Machine Learning (MSc) Machine Learning",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5634/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5634/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree (or equivalent) in either computer science, mathematics, physics, or related natural sciences",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor's degree (or equivalent) in either computer science, mathematics, physics, or related natural sciences with a grade of at least 2.0 (according to the German grading system in which a 1.0 is the best grade).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.0",
+          "unit": "German grading system",
+          "sourceQuote": "Academic admission requirements include a Bachelor's degree (or equivalent) in either computer science, mathematics, physics, or related natural sciences with a grade of at least 2.0 (according to the German grading system in which a 1.0 is the best grade).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "27",
+          "unit": "ECTS credits",
+          "sourceQuote": "The scope of lectures in the field of mathematics should correspond to at least 27 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "18",
+          "unit": "ECTS",
+          "sourceQuote": "The scope of lectures in computer science should correspond to at least 18 ECTS, of which at least 6 ECTS must be in the field of algorithms and data structures.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "ECTS",
+          "sourceQuote": "The scope of lectures in computer science should correspond to at least 18 ECTS, of which at least 6 ECTS must be in the field of algorithms and data structures.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "we require a letter of motivation and a CV.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

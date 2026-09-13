@@ -1,0 +1,93 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:420a4a4bb4cb609796e92a9a2f1ee5302014e421787588aa248c31fa3fc1fcd5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:15:13.554Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "TheMuseumsLab **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "TheMuseumsLab is a programme for joint learning, perspective exchange, networking and career building among African and European museum professionals. Bringing them together to build bridges between individuals, institutions, nations and two continents for an engaged discussion on how museums can confront their past, meet the present needs of society and work towards an equitable future. Please see the document [“Call for Applications”](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/themuseumslab_call-for-applications.pdf) (also attached under \"Contact and Consulting\") for further information and the overarching theme for next year’s programme.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57655437",
+      "deadlineText": "Applications can be submitted between **21 October and 3 December 2025** (23:59 CET).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57655437",
+      "sourceQuote": "African and European Museum professionals who have at least two years' experience of working in the museum, heritage, or art sector and a relation to the overarching theme of the programme next year.",
+      "eligibility": [
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 2,
+          "textValue": null,
+          "sourceQuote": "African and European Museum professionals who have at least two years' experience of working in the museum, heritage, or art sector and a relation to the overarching theme of the programme next year.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Sufficient English skills",
+          "sourceQuote": "* Sufficient English skills",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Currently working in the museum, culture and art sector",
+          "sourceQuote": "* Currently working in the museum, culture and art sector",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Place of residence at time of applying must be in Africa or Europe",
+          "sourceQuote": "* Place of residence at time of applying must be in Africa or Europe",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Your application cannot be considered if you are an alumna/alumnus of TheMuseumsLab programme.",
+          "sourceQuote": "Your application cannot be considered if you are an alumna/alumnus of TheMuseumsLab programme.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "KE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "ARTS",
+            "HUMANITIES",
+            "STEM",
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "TheMuseumsLab is a programme for joint learning, perspective exchange, networking and career building among African and European museum professionals.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

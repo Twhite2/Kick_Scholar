@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:be8885fc4a2b47401985f403cc3d61eab68e2252b1b756fad515d62f60dc5b48",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:43.137Z",
+  "universities": [
+    {
+      "name": "University of Bamberg",
+      "country": "DE",
+      "city": "Bamberg",
+      "website": "https://www.uni-bamberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4820/",
+      "sourceQuote": "University of Bamberg • Bamberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bamberg",
+      "universityWebsite": "https://www.uni-bamberg.de/",
+      "name": "Double MA Degree in Sociology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Double MA Degree in Sociology",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4820/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4820/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Deadlines for students who want to start in the following winter semester are as follows:",
+          "intake": null,
+          "sourceQuote": "Deadlines for students who want to start in the following winter semester are as follows:",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

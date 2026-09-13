@@ -1,0 +1,191 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3f260a78411e5926254ed44507df2ef07f9a849b52b0f9bf03ed86e7e52a56db",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:20:27.083Z",
+  "universities": [
+    {
+      "name": "University of Bamberg",
+      "country": "DE",
+      "city": "Bamberg",
+      "website": "https://www.uni-bamberg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4521/",
+      "sourceQuote": "University of Bamberg • Bamberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bamberg",
+      "universityWebsite": "https://www.uni-bamberg.de/",
+      "name": "Master of Science in International Software Systems Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in International Software Systems Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4521/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4521/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to the Master's Programme in International Software Systems Science is granted to applicants who have completed at least the equivalent of a three-year (180 ECTS) Bachelor's degree in Software Systems Science or a closely related field at a university or equivalent academic institution of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.0",
+          "unit": "German grading scale",
+          "sourceQuote": "The qualifying Bachelor's degree must have been passed with a grade of 2.0 or better on the German grading scale (or equivalent).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A closely related Bachelor's degree, as a rule, must cover at least 115 ECTS credit points worth of modules in computer science and software engineering, including a Bachelor's thesis in one of these fields or in applied computer sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "115",
+          "unit": "ECTS",
+          "sourceQuote": "A closely related Bachelor's degree, as a rule, must cover at least 115 ECTS credit points worth of modules in computer science and software engineering, including a Bachelor's thesis in one of these fields or in applied computer sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "34",
+          "unit": "ECTS",
+          "sourceQuote": "  * 34 ECTS in mathematical foundations and theoretical computer science (such as propositional and predicate logic, linear algebra, calculus, probability theory, automata theory and formal languages, formal software verification, cryptography)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "33",
+          "unit": "ECTS",
+          "sourceQuote": "  * 33 ECTS in programming languages, algorithms and data structures, object-oriented modelling and software engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "36",
+          "unit": "ECTS",
+          "sourceQuote": "  * 36 ECTS in the fields of database systems, computers and operating systems, information security, distributed systems, data communication, interactive systems or mobile systems",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "ECTS",
+          "sourceQuote": "  * 12 ECTS in the field of mathematics or computer science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants for the International Software Systems Science Master's programme with a qualifying degree from outside the [Lisbon Convention](https://www.coe.int/en/web/conventions/full-list?module=signatures-by-treaty&treatynum=165) and whose final mark of the qualifying degree is less than 1.5 (German grade), require a Graduate Record of Examination (GRE) General Test (institution code 1563) or a Graduate Aptitude Test (GATE).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "153",
+          "unit": "Verbal Reasoning",
+          "sourceQuote": "The grades in the GRE must be at least 153 in Verbal Reasoning, 164 in Quantitative Reasoning and 4.0 in Analytical Writing.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "164",
+          "unit": "Quantitative Reasoning",
+          "sourceQuote": "The grades in the GRE must be at least 153 in Verbal Reasoning, 164 in Quantitative Reasoning and 4.0 in Analytical Writing.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "4.0",
+          "unit": "Analytical Writing",
+          "sourceQuote": "The grades in the GRE must be at least 153 in Verbal Reasoning, 164 in Quantitative Reasoning and 4.0 in Analytical Writing.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GATE",
+          "operator": "GTE",
+          "value": "500",
+          "unit": "points",
+          "sourceQuote": "The GATE Test Score must be at least 500 points.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 6.5 ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "90",
+          "unit": null,
+          "sourceQuote": "  * TOEFL iBT (before 2026): 90",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

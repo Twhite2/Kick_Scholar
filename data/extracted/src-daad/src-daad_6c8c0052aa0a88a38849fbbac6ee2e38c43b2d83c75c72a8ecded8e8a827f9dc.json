@@ -1,0 +1,103 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:6c8c0052aa0a88a38849fbbac6ee2e38c43b2d83c75c72a8ecded8e8a827f9dc",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:46.050Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "European Union: Erasmus+ Mobility Programme for Higher Education Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Erasmus+ mobility of individuals sponsors study periods and traineeships (work placements) in 33 specified [Erasmus+ programme countries](https://eu.daad.de/infos-fuer-hochschulen/programmlinien/infos-zu-programm-und-partnerlaendern/de/45672-erasmus-programmlaender/) and in [Erasmus+ partner countries](https://eu.daad.de/infos-fuer-hochschulen/programmlinien/infos-zu-programm-und-partnerlaendern/de/45673-erasmus-partnerlaender/) around the world.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000102",
+      "deadlineText": "Please contact the [International Office](https://eu.daad.de/service/ansprechpartner/erasmus-plus-hochschulkoordinatoren/de/46403-erasmus-hochschulkoordinatoren/) of your home institution for further information on the application deadlines.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000102",
+      "sourceQuote": "The programme is intended for students who are regularly enrolled at a German higher education institution, have completed their first year of study (only applicable to Bachelor's students), are enrolled at a higher education institution participating in the Erasmus+ project AND whose home institution has signed an Erasmus cooperation agreement with the receiving institution.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "For Bachelor's, Master's or doctoral students of up to 12 months",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "DIPLOMA",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "For students in comprehensive degree courses, such as medicine, programmes ending with a state examination or traditional diploma courses the grant will be awarded for a period of up to 24 months and an additional 12 months for students pursuing a doctoral degree.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "AT",
+            "BE",
+            "BG",
+            "HR",
+            "CY",
+            "CZ",
+            "DK",
+            "EE",
+            "FI",
+            "FR",
+            "DE",
+            "GR",
+            "HU",
+            "IS",
+            "IE",
+            "IT",
+            "LV",
+            "LI",
+            "LT",
+            "LU",
+            "MT",
+            "NL",
+            "NO",
+            "PL",
+            "PT",
+            "RO",
+            "RS",
+            "SK",
+            "SI",
+            "ES",
+            "SE",
+            "TR",
+            "MK"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "Erasmus+ mobility of individuals sponsors study periods and traineeships (work placements) in 33 specified [Erasmus+ programme countries](https://eu.daad.de/infos-fuer-hochschulen/programmlinien/infos-zu-programm-und-partnerlaendern/de/45672-erasmus-programmlaender/) and in [Erasmus+ partner countries](https://eu.daad.de/infos-fuer-hochschulen/programmlinien/infos-zu-programm-und-partnerlaendern/de/45673-erasmus-partnerlaender/) around the world.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

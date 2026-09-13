@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c973a775614967bf56620a664e521b7e2988080178cb7921dbb417a52b4bbe33",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:49:09.259Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4506/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "name": "Master of Science in Environmental and Resource Economics MSc in Environmental and Resource Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Environmental and Resource Economics MSc in Environmental and Resource Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4506/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4506/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants are expected to hold a **Bachelor's degree** or a comparable university degree (**minimum grade 2.5**) with a regular period of university education of **three years or more** and 180 ECTS credit points or more.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "Applicants are expected to hold a **Bachelor's degree** or a comparable university degree (**minimum grade 2.5**) with a regular period of university education of **three years or more** and 180 ECTS credit points or more.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants are expected to hold a **Bachelor's degree** or a comparable university degree (**minimum grade 2.5**) with a regular period of university education of **three years or more** and 180 ECTS credit points or more.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "IN_LIST",
+          "value": "UNIcert® III",
+          "unit": null,
+          "sourceQuote": "* UNIcert® English: UNIcert® III",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "intake": null,
+          "sourceQuote": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

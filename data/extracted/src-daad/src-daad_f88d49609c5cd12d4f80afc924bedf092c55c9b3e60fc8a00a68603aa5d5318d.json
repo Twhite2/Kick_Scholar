@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f88d49609c5cd12d4f80afc924bedf092c55c9b3e60fc8a00a68603aa5d5318d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:14.581Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Heilbronn AI Fellowships **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "_Research Fellowships for International Postdoctoral Researchers in Artificial Intelligence._ The **Heilbronn AI Fellowship** attracts outstanding international postdoctoral researchers to Heilbronn's rapidly growing AI ecosystem. The programme supports cutting-edge AI research at institutions on the [Bildungscampus Heilbronn](https://bildungscampus.hn/en/) and across the broader innovation network. Fellows benefit from a unique environment that combines academic excellence, industry collaboration, advanced digital infrastructure, and entrepreneurial opportunities. Beyond research, the programme encourages technology transfer, real-world applications, and engagement with innovation and startup ecosystems. By connecting global talent with leading research, industry, and innovation partners, the fellowship strengthens Heilbronn's position as a leading European hub for AI research, innovation, and entrepreneurship.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57883183",
+      "deadlineText": "Applications are accepted on a rolling basis and may be submitted at any time. To allow sufficient time for the review and selection process, applications should generally be submitted **at least four months before the intended start of the fellowship.**",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57883183",
+      "sourceQuote": "International PhD candidates or postdoctoral researchers who obtained a PhD/doctorate no more than five years ago. PhD candidates should be in the final year before their dissertation defense. Applicants should have a strong academic background in Artificial Intelligence or a related field, be affiliated with a university or non-university research institution, and plan to undertake a research pro…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "International PhD candidates or postdoctoral researchers who obtained a PhD/doctorate no more than five years ago.",
+          "sourceQuote": "International PhD candidates or postdoctoral researchers who obtained a PhD/doctorate no more than five years ago.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "PhD candidates must be in the final year before their dissertation defense at the time of application.",
+          "sourceQuote": "PhD candidates must be in the final year before their dissertation defense at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "International"
+          ],
+          "numericValue": null,
+          "textValue": "International PhD candidates or postdoctoral researchers.",
+          "sourceQuote": "International PhD candidates or postdoctoral researchers who obtained a PhD/doctorate no more than five years ago.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Artificial Intelligence",
+            "related field"
+          ],
+          "numericValue": null,
+          "textValue": "strong academic background in Artificial Intelligence or a related field",
+          "sourceQuote": "Applicants should have a strong academic background in Artificial Intelligence or a related field, be affiliated with a university or non-university research institution, and plan to undertake a research project at an eligible host institution in [Bildungscampus Heilbronn](https://bildungscampus.hn/en/).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "be affiliated with a university or non-university research institution",
+          "sourceQuote": "Applicants should have a strong academic background in Artificial Intelligence or a related field, be affiliated with a university or non-university research institution, and plan to undertake a research project at an eligible host institution in [Bildungscampus Heilbronn](https://bildungscampus.hn/en/).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "plan to undertake a research project at an eligible host institution in Bildungscampus Heilbronn",
+          "sourceQuote": "Applicants should have a strong academic background in Artificial Intelligence or a related field, be affiliated with a university or non-university research institution, and plan to undertake a research project at an eligible host institution in [Bildungscampus Heilbronn](https://bildungscampus.hn/en/).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": "residing outside Germany throughout the 15 months prior to submitting the application",
+          "sourceQuote": "Applicants must have been residing outside Germany throughout the 15 months prior to submitting their application.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The programme supports cutting-edge AI research at institutions on the [Bildungscampus Heilbronn](https://bildungscampus.hn/en/) and across the broader innovation network.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

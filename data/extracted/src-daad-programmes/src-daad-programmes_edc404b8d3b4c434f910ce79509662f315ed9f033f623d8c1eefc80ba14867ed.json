@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:edc404b8d3b4c434f910ce79509662f315ed9f033f623d8c1eefc80ba14867ed",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:27:34.808Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Lübeck",
+      "country": "DE",
+      "city": "Lübeck",
+      "website": "https://www.th-luebeck.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4393/",
+      "sourceQuote": "Technische Hochschule Lübeck • Lübeck"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Lübeck",
+      "universityWebsite": "https://www.th-luebeck.de/",
+      "name": "Water Engineering (WEM, MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Water Engineering (WEM, MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4393/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4393/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "EQ",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "International students holding a non-European Bachelor’s degree can apply via [uni-assist.de](http://www.uni-assist.de) until 1 March for the winter semester of that year.",
+          "intake": null,
+          "sourceQuote": "International students holding a non-European Bachelor’s degree can apply via [uni-assist.de](http://www.uni-assist.de) until 1 March for the winter semester of that year.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

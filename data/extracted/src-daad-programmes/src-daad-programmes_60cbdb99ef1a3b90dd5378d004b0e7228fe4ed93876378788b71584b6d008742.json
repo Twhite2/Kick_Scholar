@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:60cbdb99ef1a3b90dd5378d004b0e7228fe4ed93876378788b71584b6d008742",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:20.214Z",
+  "universities": [
+    {
+      "name": "HafenCity University Hamburg",
+      "country": "DE",
+      "city": "Hamburg",
+      "website": "https://www.hcu-hamburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4254/",
+      "sourceQuote": "HafenCity University Hamburg • Hamburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "HafenCity University Hamburg",
+      "universityWebsite": "https://www.hcu-hamburg.de",
+      "name": "Master of Science in Geodesy and Geoinformatics, Specialisation Hydrography MSc Hydrography",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Geodesy and Geoinformatics, Specialisation Hydrography MSc Hydrography",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4254/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4254/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

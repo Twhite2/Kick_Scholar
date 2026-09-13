@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:042f70501de54fb9bfaf412d6129404b7d609e7df3573bdd5e4e152fc9351ae2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:20:55.125Z",
+  "universities": [
+    {
+      "name": "Bard College Berlin, a Liberal Arts University",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://berlin.bard.edu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4537/",
+      "sourceQuote": "Bard College Berlin, a Liberal Arts University • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bard College Berlin, a Liberal Arts University",
+      "universityWebsite": "https://berlin.bard.edu/",
+      "name": "BA in Economics, Politics, and Social Thought",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "BA in Economics, Politics, and Social Thought",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 19125,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4537/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4537/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Students must have a high school diploma (or equivalent) by the time they enrol.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Required application materials include: a completed online application form, a motivation statement, a writing sample, two academic letters of recommendation from teachers, official transcripts, and proof of advanced English proficiency for non-native English speakers.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 7",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

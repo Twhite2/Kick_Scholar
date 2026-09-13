@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:047f93bf6d9c01adc199f35e20fbd14e39633bfe89e84c6268f70b4394e26b30",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:20.465Z",
+  "universities": [
+    {
+      "name": "Offenburg University of Applied Sciences",
+      "country": "DE",
+      "city": "Offenburg",
+      "website": "https://www.hs-offenburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5576/",
+      "sourceQuote": "Offenburg University of Applied Sciences • Offenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Offenburg University of Applied Sciences",
+      "universityWebsite": "https://www.hs-offenburg.de/",
+      "name": "Master of Science in Enterprise and IT Security (ENITS) MSc in Enterprise and IT Security (ENITS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Enterprise and IT Security (ENITS) MSc in Enterprise and IT Security (ENITS)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5576/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5576/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor of Science or Bachelor of Engineering degree in computer science, business informatics, enterprise and IT security, or equivalent",
+          "unit": null,
+          "sourceQuote": "Admission requires a completed Bachelor of Science or Bachelor of Engineering degree in computer science, business informatics, enterprise and IT security, or equivalent, amounting to 210 ECTS credits (European credit system) or equivalent (for degrees from non-European institutions).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "EQ",
+          "value": "210",
+          "unit": "ECTS credits",
+          "sourceQuote": "Admission requires a completed Bachelor of Science or Bachelor of Engineering degree in computer science, business informatics, enterprise and IT security, or equivalent, amounting to 210 ECTS credits (European credit system) or equivalent (for degrees from non-European institutions).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (since 2026)",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (before 2026)",
+          "operator": "GTE",
+          "value": "80",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 80",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "PTE Academic",
+          "operator": "GTE",
+          "value": "55",
+          "unit": null,
+          "sourceQuote": "* PTE Academic: 55",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "31 March (non-EU residents)",
+          "intake": null,
+          "sourceQuote": "31 March (non-EU residents)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:72dacf5258f8c819f80f9e40ea6de2fcd63f73ef30e2d640311d0e84cb52353e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:07.845Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Future Network Weimar Triangle: Science for Europe - Doctoral candidates (to Germany) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme “Future Network Weimar Triangle: Science for Europe” aims to expand the political initiative “Weimar Triangle”, launched in 1991 by the foreign ministers of Germany, France, and Poland, to include a sustainable science platform (to promote trilateral cooperation between Germany, France, and Poland). The programme aims to develop innovative solutions to European and global challenges through joint research projects and to strengthen European integration and the European Research Area through networking and exchange.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57871506",
+      "deadlineText": "Application deadline: November 2, 2026 Selection period: January 2027 Funding begins: April – September 2027",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57871506",
+      "sourceQuote": "PhD students from all disciplines who wish to apply for a research stay up to 12 months in Germany and would like to get involved in the Weimar Triangle network and who are working on the following **future-oriented topics:** **Technologies for climate-neutral energy production and mobility, as well as climate protection)** (e.g., fusion technologies, decarbonization of the economy and expansion o…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "PhD students from all disciplines who wish to apply for a research stay up to 12 months in Germany and would like to get involved in the Weimar Triangle network and who are working on the following **future-oriented topics:**",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "All disciplines; future-oriented topics listed in the page",
+          "sourceQuote": "PhD students from all disciplines who wish to apply for a research stay up to 12 months in Germany and would like to get involved in the Weimar Triangle network and who are working on the following **future-oriented topics:**",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "If doctorate already started, the start of the doctorate should not be longer than 3 years ago",
+          "sourceQuote": "If you have already started your doctorate, it also applies that the start of the doctorate should not be longer than 3 years ago.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Very good English language skills are essential; no official English test required",
+          "sourceQuote": "Very good English language skills are essential.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Application cannot be considered if resident in Germany for longer than 15 months at the application deadline",
+          "sourceQuote": "Your application cannot be considered, if you have been resident in Germany for longer than 15 months at the application deadline",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Active participation in one of the working groups throughout the scholarship period is a condition",
+          "sourceQuote": "The scholarship is awarded on the condition of active participation in one of the working groups throughout the scholarship period.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "SOCIAL_SCIENCES",
+            "HUMANITIES",
+            "HEALTH",
+            "OTHER"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The programme aims to develop innovative solutions to European and global challenges through joint research projects and to strengthen European integration and the European Research Area through networking and exchange.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

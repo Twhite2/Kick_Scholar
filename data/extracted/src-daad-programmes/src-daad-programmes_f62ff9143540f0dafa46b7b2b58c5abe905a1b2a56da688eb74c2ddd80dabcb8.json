@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f62ff9143540f0dafa46b7b2b58c5abe905a1b2a56da688eb74c2ddd80dabcb8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:24:50.038Z",
+  "universities": [
+    {
+      "name": "ifs Internationale Filmschule Köln",
+      "country": "DE",
+      "city": "Köln",
+      "website": "https://www.filmschule.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4462/",
+      "sourceQuote": "ifs Internationale Filmschule Köln • Köln"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "ifs Internationale Filmschule Köln",
+      "universityWebsite": "https://www.filmschule.de",
+      "name": "MA Serial Storytelling",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA Serial Storytelling",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 2750,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4462/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4462/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180 ECTS credits",
+          "unit": "ECTS credits",
+          "sourceQuote": "To obtain a Master’s degree, applicants must have an undergraduate degree (Bachelor’s degree or an equivalent degree) with a minimum of 180 ECTS credits or a higher degree (e.g. a German \"Magister\" or \"Diplom\") from an accredited university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "1",
+          "unit": "year",
+          "sourceQuote": "Applicants must have worked in the field of media production for at least one year.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "The MA Serial Storytelling requires very good English language skills of at least B2 level of the Common European Framework of Reference for Languages.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

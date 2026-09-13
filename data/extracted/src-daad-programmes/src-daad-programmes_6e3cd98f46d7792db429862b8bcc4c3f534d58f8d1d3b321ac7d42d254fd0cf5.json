@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6e3cd98f46d7792db429862b8bcc4c3f534d58f8d1d3b321ac7d42d254fd0cf5",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:05:23.444Z",
+  "universities": [
+    {
+      "name": "Bremerhaven University of Applied Sciences",
+      "country": "DE",
+      "city": "Bremerhaven",
+      "website": "https://www.hs-bremerhaven.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7839/",
+      "sourceQuote": "Bremerhaven University of Applied Sciences • Bremerhaven"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bremerhaven University of Applied Sciences",
+      "universityWebsite": "https://www.hs-bremerhaven.de/de",
+      "name": "International Tourism Management (Cruise Business / Innovation) International Tourism Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Tourism Management (Cruise Business / Innovation) International Tourism Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7839/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7839/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The essential requirement for admission into the ITM programme is the successful acquirement of a higher education entrance qualification (Fachhochschulreife, high school diploma, A-Levels, Baccalaureat, Gao Kao, etc.).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**A1** required, please provide an official language certificate, e.g.: \n  * Goethe-Zertifikat: Goethe-Zertifikat A1",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "EQ",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

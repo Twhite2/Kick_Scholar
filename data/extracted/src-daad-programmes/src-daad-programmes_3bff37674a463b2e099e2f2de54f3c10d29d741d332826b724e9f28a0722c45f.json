@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3bff37674a463b2e099e2f2de54f3c10d29d741d332826b724e9f28a0722c45f",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:53.446Z",
+  "universities": [
+    {
+      "name": "Worms University of Applied Sciences",
+      "country": "DE",
+      "city": "Worms",
+      "website": "https://www.hs-worms.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4335/",
+      "sourceQuote": "Worms University of Applied Sciences • Worms"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Worms University of Applied Sciences",
+      "universityWebsite": "https://www.hs-worms.de",
+      "name": "Aviation Management",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Aviation Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4335/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4335/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

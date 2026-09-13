@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:f4e2b211ca483be1be5cab97e85c5bf7e6be2edc03129457571eecd3a7667d2f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:32.152Z",
+  "universities": [
+    {
+      "name": "University of Göttingen",
+      "country": "DE",
+      "city": "Göttingen",
+      "website": "https://www.uni-goettingen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4675/",
+      "sourceQuote": "University of Göttingen • Göttingen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Göttingen",
+      "universityWebsite": "https://www.uni-goettingen.de/",
+      "name": "Modern Sinology",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Modern Sinology",
+      "fieldCategory": "OTHER",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English Chinese"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4675/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4675/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a good Bachelor's degree that is related to Chinese Studies/Modern Sinology.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "HSK",
+          "operator": "GTE",
+          "value": "5",
+          "unit": null,
+          "sourceQuote": "To apply for the MA programme in Modern Sinology, you will need level 5 from HSK or TOCFL Band B Level 3 and at least 120 CP in Sinology, including credits totalling at least 24 CP from subjects on Modern China in at least two of the following areas: history, religion, politics, law, society or economy.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOCFL",
+          "operator": "GTE",
+          "value": "Band B Level 3",
+          "unit": null,
+          "sourceQuote": "To apply for the MA programme in Modern Sinology, you will need level 5 from HSK or TOCFL Band B Level 3 and at least 120 CP in Sinology, including credits totalling at least 24 CP from subjects on Modern China in at least two of the following areas: history, religion, politics, law, society or economy.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "120",
+          "unit": "CP",
+          "sourceQuote": "To apply for the MA programme in Modern Sinology, you will need level 5 from HSK or TOCFL Band B Level 3 and at least 120 CP in Sinology, including credits totalling at least 24 CP from subjects on Modern China in at least two of the following areas: history, religion, politics, law, society or economy.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "CP",
+          "sourceQuote": "To apply for the MA programme in Modern Sinology, you will need level 5 from HSK or TOCFL Band B Level 3 and at least 120 CP in Sinology, including credits totalling at least 24 CP from subjects on Modern China in at least two of the following areas: history, religion, politics, law, society or economy.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "C1 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "93",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 93",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For the Master's programme \"Modern Sinology\" it is possible to apply at any time until **30 September** for the winter semester. International applicants who require a visa should apply well in advance to ensure that the visa is issued in time for the start of the teaching period in October.",
+          "intake": null,
+          "sourceQuote": "For the Master's programme \"Modern Sinology\" it is possible to apply at any time until **30 September** for the winter semester. International applicants who require a visa should apply well in advance to ensure that the visa is issued in time for the start of the teaching period in October.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

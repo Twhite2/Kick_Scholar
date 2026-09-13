@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:30dcb6169a3749310f89743d158968839fc96f028e86070ed6ba9fe28ca35a00",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:49.486Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8549/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "Biomedical Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Biomedical Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8549/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8549/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Entrance requirement for this study programme is an undergraduate degree from a national or international university – in Medicine, a Bachelor of Science, a Bachelor of Engineering or similar.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Undergraduate degrees are only acceptable from universities that are accredited by the state in which the university is located or through officially recognised procedures.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "90",
+          "unit": "CP",
+          "sourceQuote": "The educational requirements of the undergraduate degrees should include knowledge (90 credit points (CP) of the European Credit Transfer System) in the fields of Engineering, Mathematics / Natural Sciences with at least the following CP in these four fields:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "CP",
+          "sourceQuote": "Mathematics (20 CP): advanced mathematics; linear algebra (vector analysis and tensor analysis), analysis (differential calculus and integral calculus), numeric methods",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "CP",
+          "sourceQuote": "Chemistry (20 CP): advanced chemistry; anorganic chemistry, organic chemistry, biochemistry, physical chemistry",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "CP",
+          "sourceQuote": "Biology (20 CP): advanced biology; human cell biology, genetics, microbiology, molecular biology, human physiology, human anatomy",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "CP",
+          "sourceQuote": "Physics and Engineering Technology (30 CP): advanced physics; mechanics, electrotechnics, thermodynamics, nuclear physics, solid state physics, static and dynamic",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "In each field, students need at least 50% of the mentioned credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "LTE",
+          "value": "20",
+          "unit": "credits",
+          "sourceQuote": "A student can have up to a maximum of 20 missing credits in total and still will be accepted.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "GTE",
+          "value": "160",
+          "unit": "points",
+          "sourceQuote": "As a non-EU applicant, you have to successfully pass the Graduate Record Examination Test (GRE). In the quantitative part you need at least 160 points.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C2",
+          "unit": null,
+          "sourceQuote": "C2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

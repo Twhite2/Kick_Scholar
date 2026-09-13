@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:66dfca9569d7908f00781520c87410b2f233fbd02b92b60d2a8651b5b7122744",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:25:06.754Z",
+  "universities": [
+    {
+      "name": "South Westphalia University of Applied Sciences",
+      "country": "DE",
+      "city": "Soest",
+      "website": "https://www.fh-swf.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4411/",
+      "sourceQuote": "South Westphalia University of Applied Sciences • Soest"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "South Westphalia University of Applied Sciences",
+      "universityWebsite": "https://www.fh-swf.de/de/",
+      "name": "MA International Management & Information Systems (IMIS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA International Management & Information Systems (IMIS)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4411/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4411/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in Business, Business Informatics, or a related field of study",
+          "unit": null,
+          "sourceQuote": "Applicants must have completed a Bachelor's degree in Business, Business Informatics, or a related field of study, earning a minimum of 210 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS credits",
+          "sourceQuote": "Applicants must have completed a Bachelor's degree in Business, Business Informatics, or a related field of study, earning a minimum of 210 ECTS credits.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German grade",
+          "sourceQuote": "The final grade should be better than or equivalent to the German grade 2.5 or the ECTS grade \"B\".",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "ECTS grade \"B\"",
+          "unit": null,
+          "sourceQuote": "The final grade should be better than or equivalent to the German grade 2.5 or the ECTS grade \"B\".",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English language proficiency",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Additionally, applicants must provide proof of English language proficiency as specified in the \"language requirements\" section.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "91",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 91",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

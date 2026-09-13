@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:8116e768e1acb2276b39cbd37387d06e65d148ce7aa66cca8d00cdf1995e7018",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:29:25.509Z",
+  "universities": [
+    {
+      "name": "Weihenstephan-Triesdorf University of Applied Sciences",
+      "country": "DE",
+      "city": "Freising",
+      "website": "https://www.hswt.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3896/",
+      "sourceQuote": "Weihenstephan-Triesdorf University of Applied Sciences • Freising"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Weihenstephan-Triesdorf University of Applied Sciences",
+      "universityWebsite": "https://www.hswt.de",
+      "name": "International Master’s in Landscape Architecture (IMLA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Master’s in Landscape Architecture (IMLA)",
+      "fieldCategory": "ARTS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3896/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3896/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Landscape Architecture, Landscape Planning, Landscape Construction, Landscape Management, Architecture or Urban/Regional Planning",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include successful completion of a degree course in Landscape Architecture, Landscape Planning, Landscape Construction, Landscape Management, Architecture or Urban/Regional Planning at a German university or \"Berufsakademie\" (University of Cooperative Education) or a comparable Bachelor's degree course in any of the above subjects at a foreign university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The degree must show evidence of above-average examination results.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (since 2026)",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (before 2026)",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

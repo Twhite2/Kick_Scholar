@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6f52a5371c322ff98fefe237d48764dff92e3749e4568d660117f7a159670fbb",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:13.058Z",
+  "universities": [
+    {
+      "name": "RWTH Aachen University",
+      "country": "DE",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de/go/id/a/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4874/",
+      "sourceQuote": "RWTH Aachen University • Aachen"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "RWTH Aachen University",
+      "universityWebsite": "https://www.rwth-aachen.de/go/id/a/",
+      "name": "MSc Data Analytics and Decision Science (DDS)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MSc Data Analytics and Decision Science (DDS)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 7500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4874/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4874/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*Non-EU:** The official application deadline for Master's programmes for non-EU applicants is 1 March. Additional applications via the subsequent allocation process are welcome and will be reviewed, subject to remaining capacity, until 1 June.",
+          "intake": null,
+          "sourceQuote": "*Non-EU:** The official application deadline for Master's programmes for non-EU applicants is 1 March. Additional applications via the subsequent allocation process are welcome and will be reviewed, subject to remaining capacity, until 1 June.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

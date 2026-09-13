@@ -1,0 +1,89 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:33c426c47aa28bda0854e0fda41b16f6ba97fc9411f0b16a602a67888b3bdd2d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:05.736Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "GROW – Global Research Opportunities for the South **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The programme is aimed at early career researchers as well as established academics and scientists from [countries on the OECD DAC list in Sub Saharan Africa](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/grow_dac-liste.pdf):Latin America and Asia are additionally envisaged as target regions. It funds short research stays in Germany as well as preparatory and cooperation visits to support the implementation of development related research projects and the establishment of international scientific collaborations. Scholarship holders will deepen their subject specific, methodological and analytical skills, expand their scientific networks and increase their visibility in the international research context. After completion of the funding period, they will apply the knowledge and contacts gained at their home institutions and contribute there to research, teaching, knowledge transfer and institutional development. The programme is financed by funds from the German Federal Ministry for Economic Cooperation and Development (BMZ). **Funding Contingency** The implementation of the scholarship programme and the awarding of scholarships are subject to the approval of the requested funding by the Federal Ministry for Economic Cooperation and Development (BMZ). Until a legally binding grant notification has been issued by the BMZ, there is no entitlement to funding. No legal claims can be derived from the application or any selecti…",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57862427",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57862427",
+      "sourceQuote": "Applications are open to doctoral candidates, postdoctoral researchers, university teachers and established academics and scientists from [countries on the OECD DAC list—primarily in Sub-Saharan Africa, but also in Latin America and Asia](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/grow_dac-liste.pdf), who are employed at a university or a…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "countries on the OECD DAC list in Sub Saharan Africa",
+            "Latin America",
+            "Asia"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applications are open to doctoral candidates, postdoctoral researchers, university teachers and established academics and scientists from [countries on the OECD DAC list—primarily in Sub-Saharan Africa, but also in Latin America and Asia](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/grow_dac-liste.pdf), who are employed at a university or a research institute.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "doctoral candidates; postdoctoral researchers; university teachers; established academics and scientists",
+          "sourceQuote": "Applications are open to doctoral candidates, postdoctoral researchers, university teachers and established academics and scientists from [countries on the OECD DAC list—primarily in Sub-Saharan Africa, but also in Latin America and Asia](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/grow_dac-liste.pdf), who are employed at a university or a research institute.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 0,
+          "textValue": "employed at a university or a research institute",
+          "sourceQuote": "Applications are open to doctoral candidates, postdoctoral researchers, university teachers and established academics and scientists from [countries on the OECD DAC list—primarily in Sub-Saharan Africa, but also in Latin America and Asia](https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/grow_dac-liste.pdf), who are employed at a university or a research institute.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 15,
+          "textValue": "resident in Germany for longer than 15 months at the application deadline",
+          "sourceQuote": "Your application **cannot** be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "It funds short research stays in Germany as well as preparatory and cooperation visits to support the implementation of development related research projects and the establishment of international scientific collaborations.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c0fcaf88666a4965ad3618b2da36c29aa989a1a0372934a91c5ded7dd084a9e5",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:11.050Z",
+  "universities": [
+    {
+      "name": "Hochschule Bonn-Rhein-Sieg",
+      "country": "DE",
+      "city": "Sankt Augustin",
+      "website": "https://www.h-brs.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4732/",
+      "sourceQuote": "Hochschule Bonn-Rhein-Sieg • Sankt Augustin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Bonn-Rhein-Sieg",
+      "universityWebsite": "https://www.h-brs.de",
+      "name": "Marketing (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Marketing (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4732/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4732/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*For non-EU/non-EEA nationals with a non-EU/non-EEA Bachelor's degree** : 1 February to **31 March** via **uni-assist**.",
+          "intake": null,
+          "sourceQuote": "*For non-EU/non-EEA nationals with a non-EU/non-EEA Bachelor's degree** : 1 February to **31 March** via **uni-assist**.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

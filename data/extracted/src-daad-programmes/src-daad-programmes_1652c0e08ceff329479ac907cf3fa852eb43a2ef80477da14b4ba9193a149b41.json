@@ -1,0 +1,109 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1652c0e08ceff329479ac907cf3fa852eb43a2ef80477da14b4ba9193a149b41",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:06:54.612Z",
+  "universities": [
+    {
+      "name": "Catholic University of Eichstätt-Ingolstadt",
+      "country": "DE",
+      "city": "Eichstätt",
+      "website": "https://www.ku.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8323/",
+      "sourceQuote": "Catholic University of Eichstätt-Ingolstadt • Eichstätt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Catholic University of Eichstätt-Ingolstadt",
+      "universityWebsite": "https://www.ku.de/",
+      "name": "International Relations (MIB)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Relations (MIB)",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8323/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8323/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "professional university degree of at least six semesters in a study programme in the fields of politics, society, history, economics or languages",
+          "unit": null,
+          "sourceQuote": "A professional university degree of at least six semesters in a study programme in the fields of politics, society, history, economics or languages with a minimum overall grade of 2.5 (“good”) or law with a minimum overall grade of “satisfactory”",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "A professional university degree of at least six semesters in a study programme in the fields of politics, society, history, economics or languages with a minimum overall grade of 2.5 (“good”) or law with a minimum overall grade of “satisfactory”",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "law",
+          "unit": null,
+          "sourceQuote": "A professional university degree of at least six semesters in a study programme in the fields of politics, society, history, economics or languages with a minimum overall grade of 2.5 (“good”) or law with a minimum overall grade of “satisfactory”",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "EQ",
+          "value": "satisfactory",
+          "unit": null,
+          "sourceQuote": "A professional university degree of at least six semesters in a study programme in the fields of politics, society, history, economics or languages with a minimum overall grade of 2.5 (“good”) or law with a minimum overall grade of “satisfactory”",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Goethe-Zertifikat",
+          "operator": "EQ",
+          "value": "A2",
+          "unit": null,
+          "sourceQuote": "**A2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "78",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 78",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,89 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:ccf3ebb7cf9e9c1ba5b9e6851fe8285b13ae6a6061162856f2428da2b9ac2d96",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:19.979Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Hermann Niermann Foundation/Julius Maximilian University of Würzburg: Study Exchange German Language and Literature Studies",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The scholarships enable particularly gifted Master's students, doctoral candidates and (junior) researchers of German language and literature studies to come to the Institute of German Philology at Würzburg University for the purpose of education and (further) training. Candidates from specific countries in Central and Eastern Europe are eligible to apply. The funding covers short stays (1-2 months), study periods of 1 semester, post-graduate programmes (1 year, can be extended by 1 year), research projects as part of doctoral studies (1-6 months), and research projects of applicants with doctorates (1-12 months). The monthly grant amounts vary depending on the sponsorship purpose. The non-material support entails close mentoring during the courses and/or research projects as well as social events as part of the Institute of German Philology's programme for guest students.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000171",
+      "deadlineText": "Applications must be received by the examination and coordination office at the latest by 1 December of the year preceding the stay.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000171",
+      "sourceQuote": "highly qualified students of the German language and literature from Bosnia and Herzegovina, Bulgaria, Croatia, the Czech Republic, Estonia, Hungary, Kosovo, Latvia, Lithuania, North Macedonia, Montenegro, Poland, Romania, Serbia, Slovakia, Slovenia and Ukraine",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarships enable particularly gifted Master's students, doctoral candidates and (junior) researchers of German language and literature studies to come to the Institute of German Philology at Würzburg University for the purpose of education and (further) training.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Bosnia and Herzegovina",
+            "Bulgaria",
+            "Croatia",
+            "the Czech Republic",
+            "Estonia",
+            "Hungary",
+            "Kosovo",
+            "Latvia",
+            "Lithuania",
+            "North Macedonia",
+            "Montenegro",
+            "Poland",
+            "Romania",
+            "Serbia",
+            "Slovakia",
+            "Slovenia",
+            "Ukraine"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Candidates from specific countries in Central and Eastern Europe are eligible to apply.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [
+            "HUMANITIES"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The scholarships enable particularly gifted Master's students, doctoral candidates and (junior) researchers of German language and literature studies to come to the Institute of German Philology at Würzburg University for the purpose of education and (further) training.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:37492dcc21c412ae54daf355cd2c9e4fd5e2dc6c376a85f0b9c6d4723fd464e1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:51.694Z",
+  "universities": [
+    {
+      "name": "Magdeburg-Stendal University of Applied Sciences",
+      "country": "DE",
+      "city": "Magdeburg",
+      "website": "https://www.h2.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6349/",
+      "sourceQuote": "Magdeburg-Stendal University of Applied Sciences • Magdeburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Magdeburg-Stendal University of Applied Sciences",
+      "universityWebsite": "https://www.h2.de",
+      "name": "Water Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Water Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6349/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6349/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210 credits",
+          "unit": null,
+          "sourceQuote": "* Completed over a standard course duration of at least **seven semesters** or at least **210 credits**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "7 semesters",
+          "unit": null,
+          "sourceQuote": "* Completed over a standard course duration of at least **seven semesters** or at least **210 credits**",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Water Management, Civil Engineering or a strongly related field",
+          "unit": null,
+          "sourceQuote": "* In the subjects of Water Management, Civil Engineering or a strongly related field",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries non-EU countries Iceland Norway Liechtenstein Switzerland United Kingdom",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries non-EU countries Iceland Norway Liechtenstein Switzerland United Kingdom",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

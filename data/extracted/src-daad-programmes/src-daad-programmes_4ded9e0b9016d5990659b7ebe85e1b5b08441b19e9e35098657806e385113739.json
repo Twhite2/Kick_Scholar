@@ -1,0 +1,118 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4ded9e0b9016d5990659b7ebe85e1b5b08441b19e9e35098657806e385113739",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:13.675Z",
+  "universities": [
+    {
+      "name": "Mittweida University of Applied Sciences",
+      "country": "DE",
+      "city": "Mittweida",
+      "website": "https://www.hs-mittweida.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4417/",
+      "sourceQuote": "Mittweida University of Applied Sciences • Mittweida"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Mittweida University of Applied Sciences",
+      "universityWebsite": "https://www.hs-mittweida.de",
+      "name": "Applied Mathematics for Network and Data Sciences",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Applied Mathematics for Network and Data Sciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4417/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4417/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "with a first professional university degree in mathematics with a standard period of study of at least six semesters (usually a Bachelor's degree or diploma) or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "with a degree recognised as equivalent.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Upon arrival in Mittweida, all students must pass a test in their first semester to demonstrate the mathematical knowledge they confirmed in their application by submitting a self-disclosure form.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "76",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 76",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "For studies beginning **in the winter semester, the application deadline for applicants with German university entrance qualifications (e.g. Abitur) is 15 July** for all degree programmes. International applicants for a degree programme without admission restrictions must apply by 15 May.",
+          "intake": null,
+          "sourceQuote": "For studies beginning **in the winter semester, the application deadline for applicants with German university entrance qualifications (e.g. Abitur) is 15 July** for all degree programmes. International applicants for a degree programme without admission restrictions must apply by 15 May.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

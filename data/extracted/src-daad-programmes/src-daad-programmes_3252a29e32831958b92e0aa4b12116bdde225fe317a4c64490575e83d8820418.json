@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3252a29e32831958b92e0aa4b12116bdde225fe317a4c64490575e83d8820418",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:47:46.595Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Informatics",
+      "country": "DE",
+      "city": "Saarbrücken",
+      "website": "http://www.mpi-inf.mpg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3889/",
+      "sourceQuote": "Max Planck Institute for Informatics • Saarbrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Informatics",
+      "universityWebsite": "http://www.mpi-inf.mpg.de",
+      "name": "International Max Planck Research School on Trustworthy Computing",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School on Trustworthy Computing",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3889/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3889/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\nNo minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application deadline is flexible. Please check [https://www.imprs-trust.mpg.de](https://www.mpi-inf.mpg.de/).",
+          "intake": null,
+          "sourceQuote": "The application deadline is flexible. Please check [https://www.imprs-trust.mpg.de](https://www.mpi-inf.mpg.de/).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

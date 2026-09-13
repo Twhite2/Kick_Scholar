@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b6686144b72651858f5b225cbbe564fa99ee344389269e3669aa946d15dac40f",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:13:00.102Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Mittelhessen University of Applied Sciences",
+      "country": "DE",
+      "city": "Friedberg (Hessen)",
+      "website": "https://www.thm.de/site/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3815/",
+      "sourceQuote": "Technische Hochschule Mittelhessen University of Applied Sciences • Friedberg (Hessen)"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Mittelhessen University of Applied Sciences",
+      "universityWebsite": "https://www.thm.de/site/",
+      "name": "Control, Computer and Communications Engineering (CCCE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Control, Computer and Communications Engineering (CCCE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3815/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3815/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "General electrical engineering",
+          "unit": null,
+          "sourceQuote": "* General electrical engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Communications and computer networks engineering",
+          "unit": null,
+          "sourceQuote": "* Communications and computer networks engineering",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Electrical engineering and information technology",
+          "unit": null,
+          "sourceQuote": "* Electrical engineering and information technology",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Technical computer science",
+          "unit": null,
+          "sourceQuote": "* Technical computer science",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Other suitable study programmes in the areas of electrical engineering and information & communication technology",
+          "unit": null,
+          "sourceQuote": "* Other suitable study programmes in the areas of electrical engineering and information & communication technology",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German grading system",
+          "sourceQuote": "**Average final grade of the Bachelor's degree:** (equivalent to) at least 2.5 according to the German grading system (Grade \"good\" or better according to the THM grading scale) with achievements of at least 210 credit points according to the European Credit Transfer System (ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "**A1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "International applicants who obtained their Bachelor's degree abroad, apply via the [uni-assist online portal](https://www.thm.de/site/en/international/incoming-routes-to-the-thm/master-s-degree-application/uni-assist-application-process-master-s.html).",
+          "intake": null,
+          "sourceQuote": "International applicants who obtained their Bachelor's degree abroad, apply via the [uni-assist online portal](https://www.thm.de/site/en/international/incoming-routes-to-the-thm/master-s-degree-application/uni-assist-application-process-master-s.html).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

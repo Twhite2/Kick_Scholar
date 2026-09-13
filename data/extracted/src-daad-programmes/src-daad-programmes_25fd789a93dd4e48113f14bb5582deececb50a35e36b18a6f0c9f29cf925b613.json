@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:25fd789a93dd4e48113f14bb5582deececb50a35e36b18a6f0c9f29cf925b613",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:29:17.166Z",
+  "universities": [
+    {
+      "name": "Heilbronn University of Applied Sciences",
+      "country": "DE",
+      "city": "Heilbronn",
+      "website": "https://www.hs-heilbronn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3960/",
+      "sourceQuote": "Heilbronn University of Applied Sciences • Heilbronn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heilbronn University of Applied Sciences",
+      "universityWebsite": "https://www.hs-heilbronn.de/de",
+      "name": "Software Engineering (SEM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Software Engineering (SEM)",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3960/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3960/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "An excellent or good German (average grade of 2.5 or less) or European Bachelor's degree (210 or 240 ECTS credits) or an equivalent international qualification (attested by [Studienkolleg Konstanz](https://www.htwg-konstanz.de/en/academics/center-for-international-students-konstanz/recognition-of-certificates/procedure) (\"SK\", former: \"ASK\") certificate) in Computer Science or a closely-related field.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Candidates who have obtained 180 ECTS credits for their first degree can acquire an extra 30 ECTS credits in appropriate Bachelor's programmes at Heilbronn University.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "An excellent or good German, European or International Bachelor's degree in any other field (210 ECTS credits) if applicants can provide proof of vocational experience in the field of Computer Science acquired in the previous three years.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*For summer intake:** Online portal will be open by mid-December. Application deadline: 15 January",
+          "intake": null,
+          "sourceQuote": "*For summer intake:** Online portal will be open by mid-December. Application deadline: 15 January",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

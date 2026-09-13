@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a9d70fb72a74ac0476f04c1e16c2a44c34449f6bcdcd7b1e790074d70ef85d2b",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:34.423Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "country": "DE",
+      "city": "Nürnberg",
+      "website": "https://www.th-nuernberg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4266/",
+      "sourceQuote": "Technische Hochschule Nürnberg Georg Simon Ohm • Nürnberg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "universityWebsite": "https://www.th-nuernberg.de",
+      "name": "Master's in International Marketing (MA)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's in International Marketing (MA)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4266/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4266/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7bfdec6f0387283b9602e6cee0c907d1361da43e14065215f06f0528783cebf7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:47.994Z",
+  "universities": [
+    {
+      "name": "Heinrich Heine University Düsseldorf",
+      "country": "DE",
+      "city": "Düsseldorf",
+      "website": "https://www.hhu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4796/",
+      "sourceQuote": "Heinrich Heine University Düsseldorf • Düsseldorf"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heinrich Heine University Düsseldorf",
+      "universityWebsite": "https://www.hhu.de/",
+      "name": "Master's Programme Translational Neuroscience",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master's Programme Translational Neuroscience",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4796/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4796/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The entry and admission is contingent upon completion of a university study programme in a relevant subject with a regular study duration of at least six semesters (equivalent to 180 ECTS credit points) with a final grade of 2.0 or better (German grading system).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Regarded as relevant to admissions is a university study programme in a neuroscience or natural science subject (e.g. BSc Neuroscience, Biology, etc.) or a similar qualification or a study programme of human medicine at a German or foreign higher education institution with the following credit points acquired in lectures and practicals:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "  * 4 CP in cell and molecular biology, or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "  * 4 CP in biochemistry, or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "  * 4 CP in biopsychology, or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "  * 4 CP in physiology and/or anatomy/neuroanatomy.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "  * At least 2 CP from practical experience should be available.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "  * IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

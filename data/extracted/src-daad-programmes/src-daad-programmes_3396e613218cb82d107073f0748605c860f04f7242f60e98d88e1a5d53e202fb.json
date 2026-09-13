@@ -1,0 +1,80 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3396e613218cb82d107073f0748605c860f04f7242f60e98d88e1a5d53e202fb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:10:53.138Z",
+  "universities": [
+    {
+      "name": "Catholic University of Eichstätt-Ingolstadt",
+      "country": "DE",
+      "city": "Eichstätt",
+      "website": "https://www.ku.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7964/",
+      "sourceQuote": "Catholic University of Eichstätt-Ingolstadt • Eichstätt"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Catholic University of Eichstätt-Ingolstadt",
+      "universityWebsite": "https://www.ku.de/",
+      "name": "MA Conflict, Memory and Peace",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA Conflict, Memory and Peace",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7964/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7964/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BA degree in humanities, social sciences, law, or social work",
+          "unit": null,
+          "sourceQuote": "* BA degree in humanities, social sciences, law, or social work",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "  * Letter of motivation",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

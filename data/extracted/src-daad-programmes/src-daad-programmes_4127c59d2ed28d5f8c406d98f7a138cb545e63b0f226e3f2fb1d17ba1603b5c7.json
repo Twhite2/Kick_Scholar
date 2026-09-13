@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:4127c59d2ed28d5f8c406d98f7a138cb545e63b0f226e3f2fb1d17ba1603b5c7",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:00:54.932Z",
+  "universities": [
+    {
+      "name": "Ulm University",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.uni-ulm.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6114/",
+      "sourceQuote": "Ulm University • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University",
+      "universityWebsite": "https://www.uni-ulm.de",
+      "name": "Master of Science in Biophysics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Biophysics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6114/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6114/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in biophysics, physics, physics and management, chemistry, molecular medicine, biology or biotechnology or at least an equivalent degree",
+          "unit": null,
+          "sourceQuote": "1. A Bachelor's degree in biophysics, physics, physics and management, chemistry, molecular medicine, biology or biotechnology or at least an equivalent degree",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3.0",
+          "unit": null,
+          "sourceQuote": "a) an academic final examination with a Bachelor's degree with an overall grade of 3.0 or better, or if no degree has yet been awarded,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3.0",
+          "unit": null,
+          "sourceQuote": "b) previous study and examination achievements up to the time of submission of the application with an average grade of 3.0 or better, as well as",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "ECTS credits",
+          "sourceQuote": "2. knowledge and skills in the fields of mathematics and physics amounting to a total of at least 12 ECTS credits, of which at least 5 ECTS credits must be from physics,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "5",
+          "unit": "ECTS credits",
+          "sourceQuote": "2. knowledge and skills in the fields of mathematics and physics amounting to a total of at least 12 ECTS credits, of which at least 5 ECTS credits must be from physics,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "3. if the overall or average grade according to no. 1 is lower than 2.5, a written report in English of no more than one page, in which the personal and subject-specific reasons for applying for the degree programme are listed and in which the choice of the desired degree programme is explained (letter of motivation) and which is assessed “suitable” according to paragraph 2 and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries EU countries non-EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries EU countries non-EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

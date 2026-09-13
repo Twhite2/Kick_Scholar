@@ -1,0 +1,93 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:8e7d256242c6e39e5d9b3ef049d67d8037a7cba14b56f207f276c91be7a4fe0c",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:40.311Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Joint Rustaveli-DAAD-fellowship programme **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The primary aim of this programme is to promote the research projects within the context of the doctoral degrees and scientific programmes of young researchers.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57379863",
+      "deadlineText": "15.04.2026 The selection is expected to take place in May 2026.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57379863",
+      "sourceQuote": "Very well-qualified doctoral candidates and postdocs who completed their doctoral degree no longer than 12 years before this call for applications.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD",
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Very well-qualified doctoral candidates and postdocs who completed their doctoral degree no longer than 12 years before this call for applications.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "WORK_EXPERIENCE",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 12,
+          "textValue": null,
+          "sourceQuote": "Very well-qualified doctoral candidates and postdocs who completed their doctoral degree no longer than 12 years before this call for applications.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Work at a university or institute of higher education (Post-Docs) or be affiliated to a university or institute of higher education (doctoral candidates) in the home country.",
+          "sourceQuote": "Applicants must work at a university or institute of higher education (Post-Docs) or be affiliated to a university or institute of higher education (doctoral candidates) in their home country.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Research project coordinated with an academic host institute in Germany; workplace provided.",
+          "sourceQuote": "The research project must be coordinated with an academic host institute in Germany. A workplace must be provided.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Good German and/or English skills.",
+          "sourceQuote": "The applicants are expected to have good German and/or English skills to be able to communicate at their host university.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The research project must be coordinated with an academic host institute in Germany. A workplace must be provided.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

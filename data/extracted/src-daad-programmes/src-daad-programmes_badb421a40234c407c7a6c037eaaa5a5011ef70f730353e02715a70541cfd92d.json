@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:badb421a40234c407c7a6c037eaaa5a5011ef70f730353e02715a70541cfd92d",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:15.037Z",
+  "universities": [
+    {
+      "name": "University of Rostock",
+      "country": "DE",
+      "city": "Rostock",
+      "website": "https://www.uni-rostock.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4594/",
+      "sourceQuote": "University of Rostock • Rostock"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Rostock",
+      "universityWebsite": "https://www.uni-rostock.de",
+      "name": "Electrical Engineering (EE)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical Engineering (EE)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4594/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4594/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

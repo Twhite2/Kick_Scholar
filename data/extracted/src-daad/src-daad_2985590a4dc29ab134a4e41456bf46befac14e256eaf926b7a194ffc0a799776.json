@@ -1,0 +1,78 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:2985590a4dc29ab134a4e41456bf46befac14e256eaf926b7a194ffc0a799776",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:28.669Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Indo-German Science and Technology Centre (IGSTC): Women Involvement in Science and Engineering Research (WISER)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Women Involvement in Science and Engineering Research (WISER), a programme by the Indo-German Science and Technology Centre (IGSTC), aims to build scientific capacity, encourage, and promote women researchers. Applications for the WISER programme are accepted in a so-called paired mode. This means that 2 researchers join together to form a team that each submits its own application. IGSTC is a joint initiative by the German Federal Ministry of Research, Technology and Space (BMFTR) and the Department of Science and Technology (DST), Government of India (GoI). The WISER programme intends to: Enhance the representation and progression of women researchers in Science, Technology, Engineering and Mathematics (STEM). Create avenues for networking, interaction and long-term research collaboration. Promote women to lead consortium based bilateral projects for IGSTC programmes and other funding schemes.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000560",
+      "deadlineText": "Current application deadlines are published on the IGSTC website. As a rule, the submission deadlines are in February or March of each year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000560",
+      "sourceQuote": "This scheme is designed for woman researchers holding a regular/long-term research position in academia/in a research institute/in industry in India or Germany. In the following, the terms \"Indian or German awardee or applicant\" do not refer to the nationality but to the location of the company or organisation the applicant/awardee is working at. The WISER programme has no age-limit (preference fo…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "regular/long-term research position in academia/in a research institute/in industry",
+          "sourceQuote": "This scheme is designed for woman researchers holding a regular/long-term research position in academia/in a research institute/in industry in India or Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "India",
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": "location of the company or organisation the applicant/awardee is working at",
+          "sourceQuote": "In the following, the terms \"Indian or German awardee or applicant\" do not refer to the nationality but to the location of the company or organisation the applicant/awardee is working at.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "The WISER programme has no age-limit (preference for early/mid-career researchers).",
+          "sourceQuote": "The WISER programme has no age-limit (preference for early/mid-career researchers).",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "IN"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [],
+          "sourceQuote": "The WISER programme intends to:    \n\n  * Enhance the representation and progression of women researchers in Science, Technology, Engineering and Mathematics (STEM).",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

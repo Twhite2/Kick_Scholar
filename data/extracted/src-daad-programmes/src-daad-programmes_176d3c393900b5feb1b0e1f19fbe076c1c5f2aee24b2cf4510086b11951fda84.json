@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:176d3c393900b5feb1b0e1f19fbe076c1c5f2aee24b2cf4510086b11951fda84",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:33.925Z",
+  "universities": [
+    {
+      "name": "Heilbronn University of Applied Sciences",
+      "country": "DE",
+      "city": "Heilbronn",
+      "website": "https://www.hs-heilbronn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3763/",
+      "sourceQuote": "Heilbronn University of Applied Sciences • Heilbronn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heilbronn University of Applied Sciences",
+      "universityWebsite": "https://www.hs-heilbronn.de/de",
+      "name": "International Business and Intercultural Management (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Business and Intercultural Management (MSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3763/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3763/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

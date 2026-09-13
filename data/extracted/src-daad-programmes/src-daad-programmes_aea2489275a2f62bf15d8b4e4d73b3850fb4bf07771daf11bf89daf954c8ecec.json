@@ -1,0 +1,45 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:aea2489275a2f62bf15d8b4e4d73b3850fb4bf07771daf11bf89daf954c8ecec",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:46.446Z",
+  "universities": [
+    {
+      "name": "FH Aachen University of Applied Sciences",
+      "country": "DE",
+      "city": "Jülich",
+      "website": "https://www.fh-aachen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3998/",
+      "sourceQuote": "FH Aachen University of Applied Sciences • Jülich"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FH Aachen University of Applied Sciences",
+      "universityWebsite": "https://www.fh-aachen.de/",
+      "name": "Bachelor of Engineering in Electrical Engineering – Energy Technology Bachelor of Engineering in Electrical Engineering",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor of Engineering in Electrical Engineering – Energy Technology Bachelor of Engineering in Electrical Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3998/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3998/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

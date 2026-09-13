@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:1633f7e32273e0f25c8a1c285894cc795c92c07916c92327c20fa4b92568f93c",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:42.124Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Emden/Leer",
+      "country": "DE",
+      "city": "Emden",
+      "website": "https://www.hs-emden-leer.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3725/",
+      "sourceQuote": "University of Applied Sciences Emden/Leer • Emden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Emden/Leer",
+      "universityWebsite": "https://www.hs-emden-leer.de",
+      "name": "Technical Management",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Technical Management",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5980,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3725/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3725/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

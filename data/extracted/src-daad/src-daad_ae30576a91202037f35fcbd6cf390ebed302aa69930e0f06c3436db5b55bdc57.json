@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:ae30576a91202037f35fcbd6cf390ebed302aa69930e0f06c3436db5b55bdc57",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:10.530Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Universität Hamburg: Merit Scholarships for International Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The merit-based programme gives outstanding international students the opportunity to study at Universität Hamburg. There are no restrictions on the subject area or type of degree. The award of merit scholarships should enable the students to concentrate fully on their studies and give them the opportunity to develop their skills.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000187",
+      "deadlineText": "15 April and 15 October of each year From 2026, the call for applications will only take place once a year on the application deadline of 15 April.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000187",
+      "sourceQuote": "international students who have been enrolled in their course of study for a minimum of 2 semesters at Universität Hamburg and who do not qualify for assistance under the German Federal Training Assistance Act (BAföG) Students enrolled in 2-year Master's programmes can apply after completing just 1 semester.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "international students"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "international students who have been enrolled in their course of study for a minimum of 2 semesters at Universität Hamburg and who do not qualify for assistance under the German Federal Training Assistance Act (BAföG)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Enrolled at Universität Hamburg for a minimum of 2 semesters; 1 semester for 2-year Master's programmes; not eligible for BAföG assistance; good to very good academic performance",
+          "sourceQuote": "international students who have been enrolled in their course of study for a minimum of 2 semesters at Universität Hamburg and who do not qualify for assistance under the German Federal Training Assistance Act (BAföG)",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "international students who are enrolled at Universität Hamburg and show good to very good academic performance",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC"
+          ],
+          "sourceQuote": "The merit-based programme gives outstanding international students the opportunity to study at Universität Hamburg.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

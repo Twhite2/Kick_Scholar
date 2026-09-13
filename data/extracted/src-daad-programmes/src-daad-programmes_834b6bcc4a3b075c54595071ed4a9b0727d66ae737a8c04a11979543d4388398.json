@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:834b6bcc4a3b075c54595071ed4a9b0727d66ae737a8c04a11979543d4388398",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:41:19.311Z",
+  "universities": [
+    {
+      "name": "Technische Hochschule Lübeck",
+      "country": "DE",
+      "city": "Lübeck",
+      "website": "https://www.th-luebeck.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4162/",
+      "sourceQuote": "Technische Hochschule Lübeck • Lübeck"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Technische Hochschule Lübeck",
+      "universityWebsite": "https://www.th-luebeck.de/",
+      "name": "Biomedical Engineering, Master of Science",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Biomedical Engineering, Master of Science",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4162/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4162/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: EU countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: EU countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

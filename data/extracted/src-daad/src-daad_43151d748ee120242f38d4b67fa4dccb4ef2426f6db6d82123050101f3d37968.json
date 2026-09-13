@@ -1,0 +1,130 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:43151d748ee120242f38d4b67fa4dccb4ef2426f6db6d82123050101f3d37968",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:14.637Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "EU-Projekt Scholarships for Technical and post-Secondary Education Pathways (STEP) **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The STEP Scholarship Programme, funded by the European Union, aims to facilitate access to and successful completion of post-secondary technical education for vulnerable Jordanian youth while enhancing their skills through additional development opportunities. Ultimately, the programme seeks to enhance beneficiaries’ employability through the acquisition of relevant labour market knowledge, education, and skills. DAAD will facilitate access for up to 130 vulnerable youth in Jordan through an inclusive scholarship scheme. This initiative aims to address financial barriers and promote gender equality and inclusion of people with disabilities, with a focus on students from the northeast and southern regions, which are among the most vulnerable areas in Jordan, starting from the academic year 2026/2027, across three different partner universities and community colleges **Balqa Applied university, Al al-Bayt University and Tafila Technical University** in the following **fields: Renewable Energy, IT, Smart Agriculture, Hospitality, and Nursing.** The scholarship program is aimed at vulnerable Jordanian students who would like to complete a technical intermediate diploma degree at one of the partner universities in Jordan.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57874180",
+      "deadlineText": "Beginning of Application: 1st August 2026 Deadline: 30th August 2026 Selection: September 2026 Beginning of Funding: 1st October 2026",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57874180",
+      "sourceQuote": "You can apply if you are between 18–21 years old and have completed your Tawjihi certificate in Jordan with a minimum GPA of 65% in one of the following BTEC fields: Renewable Energy, IT, Smart Agriculture, Hospitality, and Nursing. Applicants must also be beneficiaries of one of the following aid funds: Tkiyet Um Ali, National Aid Fund, or Zakat Fund.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Jordanian"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants must be Jordanian citizens.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LTE",
+          "valueList": [],
+          "numericValue": 21,
+          "textValue": null,
+          "sourceQuote": "Applicants must be between (18 -21) years at the time of the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MIN_GPA",
+          "operator": "GTE",
+          "valueList": [],
+          "numericValue": 65,
+          "textValue": null,
+          "sourceQuote": "Applicants must have completed the General Secondary Education Certificate (Tawjihi) in Jordan with a minimum average of 65%.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Renewable Energy",
+            "IT",
+            "Smart Agriculture",
+            "Hospitality",
+            "Nursing"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "From one of the following BTEC fields: IT, Engineering, Agriculture, or Hospitality or academic field: Nursing.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Applicants must submit their application through the Unified Admission Portal and subsequently complete the STEP Scholarship Application Form.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Please ensure that at least two of the study programmes and partner universities selected in your Unified Admission Portal application correspond to the programmes offered under the STEP Scholarship Programme.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "JO"
+          ],
+          "degreeLevels": [
+            "DIPLOMA"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "PRIVATE",
+            "PUBLIC",
+            "ANY"
+          ],
+          "sourceQuote": "The scholarship program is aimed at vulnerable Jordanian students who would like to complete a technical intermediate diploma degree at one of the partner universities in Jordan.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "JO"
+          ],
+          "degreeLevels": [
+            "DIPLOMA"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "ANY"
+          ],
+          "sourceQuote": "This initiative aims to address financial barriers and promote gender equality and inclusion of people with disabilities, with a focus on students from the northeast and southern regions, which are among the most vulnerable areas in Jordan, starting from the academic year 2026/2027, across three different partner universities and community colleges Balqa Applied university, Al al-Bayt University and Tafila Technical University in the following fields: Renewable Energy, IT, Smart Agriculture, Hospitality, and Nursing.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:b78633042b69121e3d58d68775e02e7757d170883637a9e3e417ce64e57b5fd2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:18:29.132Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "BAYHOST: Scholarships for students and young academics from Central, Eastern and Southeastern Europe for summer language courses",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "Students and young academics from Albania, Bosnia and Herzegovina, Croatia, Kosovo, Montenegro, North Macedonia, Serbia, Slovenia and Ukraine with intermediate German knowledge (at least B1-level) are eligible to apply for the summer school grants for German language courses at a Bavarian institution of higher education. The scholarships for courses on-site in Bavaria include the course fee, accommodation and a food allowance at a Bavarian institution of higher education.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000366",
+      "deadlineText": "Please find the updated application deadlines [here](https://www.uni-regensburg.de/en/bayhost/funding-and-scholarships/coming-to-bavaria/german-courses-in-bavaria).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000366",
+      "sourceQuote": "undergraduates, graduates and young scientists with at least B1-level command of German from Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro, Serbia, Slovenia and Ukraine. Applicants must be a national of one of the eligible countries.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Albania",
+            "Bosnia and Herzegovina",
+            "Croatia",
+            "Kosovo",
+            "Montenegro",
+            "North Macedonia",
+            "Serbia",
+            "Slovenia",
+            "Ukraine"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students and young academics from Albania, Bosnia and Herzegovina, Croatia, Kosovo, Montenegro, North Macedonia, Serbia, Slovenia and Ukraine with intermediate German knowledge (at least B1-level) are eligible to apply for the summer school grants for German language courses at a Bavarian institution of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "undergraduates, graduates and young scientists with at least B1-level command of German from Albania, Bosnia and Herzegovina, Croatia, Kosovo, North Macedonia, Montenegro, Serbia, Slovenia and Ukraine.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Students and young academics from Albania, Bosnia and Herzegovina, Croatia, Kosovo, Montenegro, North Macedonia, Serbia, Slovenia and Ukraine with intermediate German knowledge (at least B1-level) are eligible to apply for the summer school grants for German language courses at a Bavarian institution of higher education.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Must be enrolled in one of the eligible countries for their studies or employed in the academic field there; and have finished at least 2 complete semesters at a higher education institution and be able to prove this with grades.",
+          "sourceQuote": "At the time of application, applicants must be enrolled in one of the eligible countries for their studies or be employed in the academic field there and have already finished at least 2 complete semesters at a higher education institution and be able to prove this with grades.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The scholarships for courses on-site in Bavaria include the course fee, accommodation and a food allowance at a Bavarian institution of higher education.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

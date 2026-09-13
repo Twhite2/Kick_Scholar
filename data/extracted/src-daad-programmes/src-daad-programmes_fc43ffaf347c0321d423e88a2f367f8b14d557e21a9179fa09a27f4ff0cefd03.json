@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:fc43ffaf347c0321d423e88a2f367f8b14d557e21a9179fa09a27f4ff0cefd03",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:12:26.172Z",
+  "universities": [
+    {
+      "name": "Friedrich Schiller University Jena",
+      "country": "DE",
+      "city": "Jena",
+      "website": "https://www.uni-jena.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3880/",
+      "sourceQuote": "Friedrich Schiller University Jena • Jena"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Friedrich Schiller University Jena",
+      "universityWebsite": "https://www.uni-jena.de/",
+      "name": "Master of Science in Photonics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Photonics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3880/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3880/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "BSc, BEng or BTech degree comprising significant exposure to physics fundamentals, or an equivalent or higher degree in the same areas",
+          "unit": null,
+          "sourceQuote": "Applicants should have a Bachelor of Science (**BSc**), Bachelor of Engineering (**BEng**) or Bachelor of Technology (**BTech**) **degree** comprising significant exposure to physics fundamentals, or an equivalent or higher degree in the same areas.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Other criteria that are taken into account including awards, external references, details of earlier projects, and proof of English proficiency.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "15 January (first priority deadline for all applicants) 1 March (second priority deadline for all applicants) 15 April (third priority deadline for all applicants) 15 June (rolling admission deadline for EU applicants) 31 August (rolling admission deadline for German applicants and applicants with a valid German residence permit)",
+          "intake": null,
+          "sourceQuote": "15 January (first priority deadline for all applicants) 1 March (second priority deadline for all applicants) 15 April (third priority deadline for all applicants) 15 June (rolling admission deadline for EU applicants) 31 August (rolling admission deadline for German applicants and applicants with a valid German residence permit)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

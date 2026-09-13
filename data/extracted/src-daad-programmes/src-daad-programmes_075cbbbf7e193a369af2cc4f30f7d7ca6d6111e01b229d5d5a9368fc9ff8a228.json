@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:075cbbbf7e193a369af2cc4f30f7d7ca6d6111e01b229d5d5a9368fc9ff8a228",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:27.635Z",
+  "universities": [
+    {
+      "name": "Osnabrück University",
+      "country": "DE",
+      "city": "Osnabrück",
+      "website": "https://www.uni-osnabrueck.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7689/",
+      "sourceQuote": "Osnabrück University • Osnabrück"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Osnabrück University",
+      "universityWebsite": "https://www.uni-osnabrueck.de",
+      "name": "MA Conflict Studies and Peacebuilding MA Conflict Studies & Peacebuilding",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "MA Conflict Studies and Peacebuilding MA Conflict Studies & Peacebuilding",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7689/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7689/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree in social sciences or political science or a comparable degree with a specialisation in social sciences or political science is required.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor’s graduates in other related subjects (history, social geography, ethnology, social psychology, international law, and economics) can also be admitted **if** they can prove that they have a basic knowledge of social sciences or political science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "credit points",
+          "sourceQuote": "This requirement is met if at least 30 credit points in political science or social science subjects, including methodology, are successfully documented.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "B2 English",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

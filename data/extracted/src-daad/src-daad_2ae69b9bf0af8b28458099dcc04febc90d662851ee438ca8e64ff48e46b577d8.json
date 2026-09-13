@@ -1,0 +1,111 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:2ae69b9bf0af8b28458099dcc04febc90d662851ee438ca8e64ff48e46b577d8",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:22.325Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Cooperation programme with Mexico (SECIHTI – Secretaría de Ciencia, Humanidades, Tecnología e Innovación) Master **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This call refers to a joint scholarship programme of DAAD and Secihti. Interested applicants must apply to both the DAAD call and the Secihti call and go through a parallel application process. Please see the respective Secihti call [here](https://secihti.mx/convocatoria/becas-al-extranjero/convocatoria-2026-becas-de-posgrado-en-ciencia-y-humanidades-en-el-extranjero) for further information on their selection process. The aim of the scholarship programme is to support the qualification and employability of young academics and future professionals from Mexico. It offers the opportunity to continue their academic and professional career in innovation-driving fields in Germany with a Master’s degree.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57862424",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here: **April 22nd, 2026**",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57862424",
+      "sourceQuote": "The scholarship programme aims to support the professional development and employability of young academics and future professionals who are Mexican citizens who would like to complete a Master’s degree at a German university. You can apply if you have completed all necessary courses for your studies with a first degree recognised in Germany (e.g. Bachelor's degree) by the application deadline at…",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Mexico"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarship programme aims to support the professional development and employability of young academics and future professionals who are Mexican citizens who would like to complete a Master’s degree at a German university.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarship programme aims to support the professional development and employability of young academics and future professionals who are Mexican citizens who would like to complete a Master’s degree at a German university.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BUSINESS",
+            "ARTS",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "Applicants from business administration, financial sciences, artistic disciplines and architecture cannot apply.",
+          "sourceQuote": "Please note that the scholarship programme is open to almost all disciplines. However, applicants from the area of business administration, financial sciences, artistic disciplines and architecture cannot apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "At least level B2 in the language of instruction.",
+          "sourceQuote": "For your application you must already provide proof of language skills that meet the requirements of your chosen universities with the scholarship application at least level B2 in the language of instruction (should be no older than 2 years).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Above-average academic performance required.",
+          "sourceQuote": "You must demonstrate above-average academic performance.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Must not have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceQuote": "Your application cannot be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The scholarship programme aims to support the professional development and employability of young academics and future professionals who are Mexican citizens who would like to complete a Master’s degree at a German university.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:051ec5c5404a8d7d762af7d57cf15158e62623aeab9a371a073231a78a16e1a9",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:05:12.957Z",
+  "universities": [
+    {
+      "name": "Hochschule Fresenius - University of Applied Sciences",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.hs-fresenius.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7127/",
+      "sourceQuote": "Hochschule Fresenius - University of Applied Sciences • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Fresenius - University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fresenius.de",
+      "name": "Industrial Engineering and International Management (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Industrial Engineering and International Management (MSc)",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 5280,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7127/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7127/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "70",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 70",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "This programme has no deadline listed.",
+          "intake": null,
+          "sourceQuote": "This programme has no deadline listed.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

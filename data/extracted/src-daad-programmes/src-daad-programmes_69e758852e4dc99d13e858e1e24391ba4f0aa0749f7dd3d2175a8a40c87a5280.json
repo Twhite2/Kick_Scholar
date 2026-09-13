@@ -1,0 +1,100 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:69e758852e4dc99d13e858e1e24391ba4f0aa0749f7dd3d2175a8a40c87a5280",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:21:43.492Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute of Molecular Plant Physiology",
+      "country": "DE",
+      "city": "Potsdam",
+      "website": "https://www.mpimp-golm.mpg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4117/",
+      "sourceQuote": "Max Planck Institute of Molecular Plant Physiology • Potsdam"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute of Molecular Plant Physiology",
+      "universityWebsite": "https://www.mpimp-golm.mpg.de",
+      "name": "International Max Planck Research School for Molecular Plant Science (IMPRS MolPlant) IMPRS for Molecular Plant Science (IMPRS MolPlant)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School for Molecular Plant Science (IMPRS MolPlant) IMPRS for Molecular Plant Science (IMPRS MolPlant)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4117/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4117/",
+      "sourceQuote": "Degree Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants for the programme should hold or be about to obtain a **Master's or equivalent** degree in a subject relevant to our programme (biology, biochemistry, chemistry, physics, bioinformatics, mathematics, or related fields).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The academic performance should be excellent (rank at or near top of class).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A **university degree with at least four years of study, very good results, and a research thesis** are required to be accepted as doctoral candidate at the university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required (proficiency assessment via test or interview)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "*How to join** the IMPRS MolPlant",
+          "intake": null,
+          "sourceQuote": "*How to join** the IMPRS MolPlant",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:634dd04935f0a9d02cf0611ab5312f7ea1eabde9b0d62b328dd879941d21d1e6",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:32:42.952Z",
+  "universities": [
+    {
+      "name": "Kiel University",
+      "country": "DE",
+      "city": "Kiel",
+      "website": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4274/",
+      "sourceQuote": "Kiel University • Kiel"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Kiel University",
+      "universityWebsite": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/einschreibung/master",
+      "name": "Master of Science in Quantitative Economics MSc in Quantitative Economics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Quantitative Economics MSc in Quantitative Economics",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4274/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4274/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "intake": null,
+          "sourceQuote": "Application period with a **Bachelor's degree obtained in other countries** via **[uni-assist](http://www.uni-assist.de/en/)** :",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

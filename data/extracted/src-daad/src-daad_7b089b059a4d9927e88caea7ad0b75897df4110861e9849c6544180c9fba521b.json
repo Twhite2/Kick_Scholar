@@ -1,0 +1,105 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:7b089b059a4d9927e88caea7ad0b75897df4110861e9849c6544180c9fba521b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:23:55.782Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Alexander von Humboldt Foundation: Hezekiah Wardwell Fellowship",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Alexander von Humboldt Foundation awards each year up to 10 fellowships to highly gifted young musicians and musicologists from Spain to help finance their further training or advanced academic studies at an academy of music or a conservatory in Germany. This includes academic supervision by recognised music teachers at colleges of music or conservatories or by specialist scholars from higher education institutions. The supervision must, however, be bindingly agreed prior to the application. Initially, candidates can apply for a fellowship of 1 or 2 academic semesters.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000133",
+      "deadlineText": "Application deadline is 10 January of each year.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000133",
+      "sourceQuote": "students of music and musicology from Spain with a first academic degree just embarking on their professional lives. Preference will be given to candidates who have not yet had the opportunity to study in Germany.",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Spain"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students of music and musicology from Spain with a first academic degree just embarking on their professional lives.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students of music and musicology from Spain with a first academic degree just embarking on their professional lives.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "music",
+            "musicology"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students of music and musicology from Spain with a first academic degree just embarking on their professional lives.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Bachelor's or comparable academic degree completed no longer than 3 years prior to the start of the fellowship",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "LTE",
+          "valueList": [],
+          "numericValue": 3,
+          "textValue": "years since completion of bachelor's or comparable academic degree",
+          "sourceQuote": "Bachelor's or comparable academic degree completed no longer than 3 years prior to the start of the fellowship",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "fieldCategories": [
+            "ARTS"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The Alexander von Humboldt Foundation awards each year up to 10 fellowships to highly gifted young musicians and musicologists from Spain to help finance their further training or advanced academic studies at an academy of music or a conservatory in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

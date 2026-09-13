@@ -1,0 +1,70 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:547c805bad41b0e03139527c774c8a4c0deb835d78a2aca3f984e88dac8d7c58",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:21:50.201Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Re-invitation Programme for Former Scholarship Holders **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This programme offers former scholarship holders the opportunity to carry out research and working projects in Germany and to maintain contacts as part of DAAD's global alumni network. The scholarships are funded by the German Federal Foreign Office.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015492",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015492",
+      "sourceQuote": "You can apply if you are former holder of DAAD research grants or study scholarships and have been funded **for more than six months** by the Federal Foreign Office or in a programme co-financed with Federal Foreign Office funds. East German scholarship holder who studied for **at least one year** in Germany.",
+      "eligibility": [
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Former holder of DAAD research grants or study scholarships; or East German scholarship holder who studied for at least one year in Germany",
+          "sourceQuote": "You can apply if you are former  \r\n\r\n  * holder of DAAD research grants or study scholarships and have been funded **for more than six months** by the Federal Foreign Office or in a programme co-financed with Federal Foreign Office funds.\r\n  * East German scholarship holder who studied for **at least one year** in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Not lived in Germany for at least three years",
+          "sourceQuote": "You have not lived in Germany for at least three years.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Research or working project must be coordinated with a cooperation partner in Germany",
+          "sourceQuote": "The research or working project must be coordinated with a cooperation partner in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "This programme offers former scholarship holders the opportunity to carry out research and working projects in Germany and to maintain contacts as part of DAAD's global alumni network.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

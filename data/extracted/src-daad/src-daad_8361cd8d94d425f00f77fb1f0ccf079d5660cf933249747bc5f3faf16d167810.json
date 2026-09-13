@@ -1,0 +1,129 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:8361cd8d94d425f00f77fb1f0ccf079d5660cf933249747bc5f3faf16d167810",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:23.261Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Federal Ministry of Education and Research: Federal Training Assistance Act (Bundesausbildungsförderungsgesetz, or BAföG)",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "BAföG, the Federal Training Assistance Act, provides funding to support studying in Germany. It can also be used to finance school-leaving qualifications and vocational training at a school or academy. Half of the funds are provided as a grant, the other half is an interest-free loan that must be repaid at a later time. Students from abroad can also receive BAföG - for example, EU nationals and people who have a settlement permit or are recognised as refugees, as well as their family members.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000162",
+      "deadlineText": "Applications should be submitted in due time before the beginning of the studies.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000162",
+      "sourceQuote": "You can receive BAföG if you are studying at a public or private higher education institution or academy whose degrees are equivalent to higher education degrees under state law. You should also be under 45 years of age at the start of your studies. Eligible for funding are Germans and citizens of the European Union, migrants and refugees who live in Germany (see [here](https://www.baf%C3%B6g.de/b…",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You can receive BAföG if you are studying at a public or private higher education institution or academy whose degrees are equivalent to higher education degrees under state law.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": 45,
+          "textValue": null,
+          "sourceQuote": "You should also be under 45 years of age at the start of your studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany",
+            "European Union"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Eligible for funding are Germans and citizens of the European Union, migrants and refugees who live in Germany (see [here](https://www.baf%C3%B6g.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/_documents/bafoeg-auch-ohne-deutschen-pass.html?nn=383852) for more details) and are aiming for a secondary school-leaving qualification, are studying or are completing vocational training at a school or academy.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "migrants and refugees who live in Germany",
+          "sourceQuote": "Eligible for funding are Germans and citizens of the European Union, migrants and refugees who live in Germany (see [here](https://www.baf%C3%B6g.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/_documents/bafoeg-auch-ohne-deutschen-pass.html?nn=383852) for more details) and are aiming for a secondary school-leaving qualification, are studying or are completing vocational training at a school or academy.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "secondary school-leaving qualification, studying, or vocational training at a school or academy",
+          "sourceQuote": "Eligible for funding are Germans and citizens of the European Union, migrants and refugees who live in Germany (see [here](https://www.baf%C3%B6g.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/_documents/bafoeg-auch-ohne-deutschen-pass.html?nn=383852) for more details) and are aiming for a secondary school-leaving qualification, are studying or are completing vocational training at a school or academy.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "HIGH_SCHOOL",
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "ANY"
+          ],
+          "sourceQuote": "You can receive BAföG if you are studying at a public or private higher education institution or academy whose degrees are equivalent to higher education degrees under state law.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "HIGH_SCHOOL",
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "ANY"
+          ],
+          "sourceQuote": "Students from abroad can also receive BAföG - for example, EU nationals and people who have a settlement permit or are recognised as refugees, as well as their family members.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

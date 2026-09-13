@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:215d02fd50d34b5279ccd7202e3bb8835bc24102d6e6613c9d5cae563d8e2638",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:42:30.574Z",
+  "universities": [
+    {
+      "name": "Fulda University of Applied Sciences",
+      "country": "DE",
+      "city": "Fulda",
+      "website": "https://www.hs-fulda.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3687/",
+      "sourceQuote": "Fulda University of Applied Sciences • Fulda"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Fulda University of Applied Sciences",
+      "universityWebsite": "https://www.hs-fulda.de/",
+      "name": "International Food Business and Consumer Studies (IFBC) International Food Business and Consumer Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "International Food Business and Consumer Studies (IFBC) International Food Business and Consumer Studies",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3687/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3687/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applicants with a first academic degree acquired outside of Germany: **from 1 December to 1 March** Applicants with degrees earned in Germany: **from 1 June to 1 September**",
+          "intake": null,
+          "sourceQuote": "Applicants with a first academic degree acquired outside of Germany: **from 1 December to 1 March** Applicants with degrees earned in Germany: **from 1 June to 1 September**",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

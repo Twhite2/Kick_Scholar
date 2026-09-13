@@ -1,0 +1,85 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:bb156d02f66b2f9165b194736f08c7351142814c534840233b2af186f20d5b24",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:42.703Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Gilman-DAAD Germany Scholarships **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "As part of a cooperation with the U.S. Department of State and the Insitute of International Education (IIE) within the „Benjamin A Gilman International Scholarship Program“ DAAD provides up to 40 additional „Gilman-DAAD Scholarships“ per year for U.S. undergraduate students to study and/or intern in Germany. Only US Pell Grant recipients are eligible to participate (Pell Grants are federal scholarships for low-income students). The program supports a wider effort to increase and diversify international student mobility among German and U.S. higher education institutions. The \"Gilman-DAAD Germany Scholarships\" are funded by the Federal Foreign Office.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57649740",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57649740",
+      "sourceQuote": "To be eligible for the Gilman-DAAD Germany Scholarship, applicants must meet all of the eligibility requirements for a regular Gilman Scholarship as stated under <https://www.gilmanscholarship.org/applicants/eligibility/>. In addition, applicants must be matriculated full-time in a degree program in a U.S. accredited college or university and still be matriculated upon completion of their educatio…",
+      "eligibility": [
+        {
+          "criterionType": "FINANCIAL_NEED",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Only US Pell Grant recipients are eligible to participate (Pell Grants are federal scholarships for low-income students).",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "must be matriculated full-time in a degree program in a U.S. accredited college or university and still be matriculated upon completion of their education abroad program,",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "Completed second year of study at departure; community college students must plan to transfer into a four-year bachelor's degree program; must fit program eligibility; prior/current Gilman funding excluded.",
+          "sourceQuote": "must have completed their second year of study at the time of departure. If students are matriculated at a community college, they must demonstrate that they will be transferring into a four-year (Bachelor’s) degree program after completing their education abroad program, and",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "COUNTRY_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Germany"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The \"Gilman-DAAD Germany Scholarships\" are funded by the Federal Foreign Office.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "BACHELOR"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The program supports a wider effort to increase and diversify international student mobility among German and U.S. higher education institutions.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

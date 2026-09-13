@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:57c8f7bb48da35284189e2a25fda7ece0da8097c4d924347c1f8b1e197f0dd60",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:43:44.865Z",
+  "universities": [
+    {
+      "name": "European University Viadrina",
+      "country": "DE",
+      "city": "Frankfurt (Oder)",
+      "website": "https://www.europa-uni.de/de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3730/",
+      "sourceQuote": "European University Viadrina • Frankfurt (Oder)"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "European University Viadrina",
+      "universityWebsite": "https://www.europa-uni.de/de/",
+      "name": "International Business Administration",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Business Administration",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3730/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3730/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

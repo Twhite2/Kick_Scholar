@@ -1,0 +1,105 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:9ab872932d7c5b802e0a0de90f4ded5372cc5bd6e812ae5b4c9122c5c064bbb0",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:15:55.758Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "German Academic Scholarship Foundation: Scholarships for Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The Studienstiftung sponsors students whose talent and personality shows exceptional promise for contributing to the community. Eligible candidates for a scholarship are: students at a state or state-recognised higher education institution (university, university of applied sciences, college of art and music) in Germany or students who complete part or all of their studies at a higher education institution in a member state of the European Union (EU) or in Switzerland. In addition, those receiving financial assistance must meet the requirements of §§ 8 Para. 1 to 3 or 61 BAföG. Citizens of a member state of the EU or of an EU candidate country who do not meet the requirements of §§ 8, paras. 1 to 3 or 61 BAföG may nevertheless apply for a scholarship or be nominated for one if they are studying permanently in Germany and are seeking a degree here. Only full-time studies can be funded by the Studienstiftung, not part-time studies. There are no age restrictions for applications. Students can apply for sponsorships themselves or they can be nominated by their school administration, their higher education institution's examination office or by their lecturers.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000412",
+      "deadlineText": "Deadlines vary depending on the selection procedure and can be found on the homepage.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000412",
+      "sourceQuote": "Sponsorship is open to all degree programmes and all types of higher education institutions. The Studienstiftung works with the following 5 selection criteria. intellectual ability dedication and motivation communication and articulation skills social competence social commitment and a broad range of interests",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA",
+            "CERTIFICATE",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "all degree programmes",
+          "sourceQuote": "Sponsorship is open to all degree programmes and all types of higher education institutions.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "full-time studies only",
+          "sourceQuote": "Only full-time studies can be funded by the Studienstiftung, not part-time studies.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "MAX_AGE",
+          "operator": "LT",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "There are no age restrictions for applications.",
+          "sourceQuote": "There are no age restrictions for applications.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "outstanding academic records",
+          "sourceQuote": "Students and high-school graduates with outstanding academic records may be nominated for funding or they can apply themselves.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE",
+            "EU",
+            "CH"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Eligible candidates for a scholarship are:  \n\n  * students at a state or state-recognised higher education institution (university, university of applied sciences, college of art and music) in Germany or\n  * students who complete part or all of their studies at a higher education institution in a member state of the European Union (EU) or in Switzerland.",
+          "sourceUrl": null
+        },
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "PUBLIC",
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "Only full-time studies can be funded by the Studienstiftung, not part-time studies.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

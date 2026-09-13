@@ -1,0 +1,79 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:1da133630f88c176d6fac42f957815abef62648f207809c323485cdd599da406",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:43.669Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Fulbright Commission: Fulbright Programme",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Fulbright programme is aimed at financing academic stays by US citizens in Germany. It offers a range of different funding opportunities for students and graduates from universities and other higher education institutions, for teaching assistants, post-doctoral students, lecturers and researchers from US higher education institutions. Funding modalities and grant amount depend on the individual sponsorship programme.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000158",
+      "deadlineText": "Application deadlines differ depending on the selected grant programme (see formal requirements).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000158",
+      "sourceQuote": "Fulbright grants are generally open to students, graduates, lecturers, researchers and teaching assistants or teacher-training students of almost any academic discipline. An overview detailing the single programmes can be found [here](https://fulbright.de/en/grants/grants-for-us-americans).",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "US citizens"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The Fulbright programme is aimed at financing academic stays by US citizens in Germany.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "PHD",
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "It offers a range of different funding opportunities for students and graduates from universities and other higher education institutions, for teaching assistants, post-doctoral students, lecturers and researchers from US higher education institutions.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "almost any academic discipline",
+          "sourceQuote": "Fulbright grants are generally open to students, graduates, lecturers, researchers and teaching assistants or teacher-training students of almost any academic discipline.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The Fulbright programme is aimed at financing academic stays by US citizens in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

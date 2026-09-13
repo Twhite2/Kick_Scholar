@@ -1,0 +1,92 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:afdda96d652a173f7095a6e94220d6438bbbf9802bc487a3b9f17ab4961b812b",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:10:15.315Z",
+  "universities": [
+    {
+      "name": "htw saar - University of Applied Sciences",
+      "country": "DE",
+      "city": "Saarbrücken",
+      "website": "https://www.htwsaar.de/en/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6567/",
+      "sourceQuote": "htw saar - University of Applied Sciences • Saarbrücken"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "htw saar - University of Applied Sciences",
+      "universityWebsite": "https://www.htwsaar.de/en/",
+      "name": "Neural Engineering (MSc) Neural Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Neural Engineering (MSc) Neural Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6567/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6567/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor’s degree or Diploma (UAS or University) in Biomedical Engineering, Electrical Engineering, Mechanical Engineering, Computer Science and related fields (210 ECTS)",
+          "unit": null,
+          "sourceQuote": "Academic admission requirements include a Bachelor’s degree or Diploma (UAS or University) in Biomedical Engineering, Electrical Engineering, Mechanical Engineering, Computer Science and related fields (210 ECTS).",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "If you have completed a six semester Bachelor’s programme (180 ECTS), you are required to pass selected modules from the htw saar Biomedical Engineering Bachelor's programme with a total of 30 ECTS points.",
+          "unit": null,
+          "sourceQuote": "If you have completed a six semester Bachelor’s programme (180 ECTS), you are required to pass selected modules from the htw saar Biomedical Engineering Bachelor's programme with a total of 30 ECTS points.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "No minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

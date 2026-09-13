@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:a4f96f3883edc1c9d87d19ca4af7c3c0737ea23c84fbd69de3e8e0359dc8db9e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:09:41.093Z",
+  "universities": [
+    {
+      "name": "Hochschule Geisenheim University",
+      "country": "DE",
+      "city": "Geisenheim",
+      "website": "https://www.hs-geisenheim.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8448/",
+      "sourceQuote": "Hochschule Geisenheim University • Geisenheim"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Geisenheim University",
+      "universityWebsite": "https://www.hs-geisenheim.de",
+      "name": "International Wine Business (Bachelor of Science) International Wine Business (BSc)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "International Wine Business (Bachelor of Science) International Wine Business (BSc)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8448/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8448/",
+      "sourceQuote": "Degree Bachelor of Science",
+      "requirements": [
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "1. have a university entrance qualification comparable to the German university entrance qualification (HZB), **and**",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

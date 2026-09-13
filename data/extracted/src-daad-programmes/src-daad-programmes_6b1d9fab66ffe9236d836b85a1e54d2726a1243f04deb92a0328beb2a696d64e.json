@@ -1,0 +1,154 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:6b1d9fab66ffe9236d836b85a1e54d2726a1243f04deb92a0328beb2a696d64e",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:05:42.671Z",
+  "universities": [
+    {
+      "name": "Weihenstephan-Triesdorf University of Applied Sciences",
+      "country": "DE",
+      "city": "Freising",
+      "website": "https://www.hswt.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7623/",
+      "sourceQuote": "Weihenstephan-Triesdorf University of Applied Sciences • Freising"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Weihenstephan-Triesdorf University of Applied Sciences",
+      "universityWebsite": "https://www.hswt.de",
+      "name": "Climate Change Management (MCC)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Climate Change Management (MCC)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7623/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7623/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Evidence of a completed undergraduate degree in the field of land use, environmental sciences, or geosciences, e.g. landscape architecture, forest engineering, ecological planning, agriculture, or environmental protection",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "ECTS credit points",
+          "sourceQuote": "At least 30 ECTS credit points in at least six separate modules in the core areas",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "8",
+          "unit": "weeks",
+          "sourceQuote": "A relevant work placement of at least eight weeks’ duration or relevant professional experience may be credited once with up to 10 ECTS credit points.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English-language certificate",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": "CEFR",
+          "sourceQuote": "English-language certificate at a level B2 (CEFR)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants who completed their undergraduate degree outside of Germany must submit a preliminary review documentation (\"Vorprüfungsdokumentation – VPD\") from uni-assist.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "An additional certificate from an Academic Verification Office (APS) in their home country is necessary for applicants with a degree from India, the People's Republic of China, or Vietnam.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "72",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (before 2026): 72",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "UNIcert® English",
+          "operator": "GTE",
+          "value": "UNIcert® II",
+          "unit": null,
+          "sourceQuote": "UNIcert® English: UNIcert® II",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "telc English",
+          "operator": "GTE",
+          "value": "telc English B2",
+          "unit": null,
+          "sourceQuote": "telc English: telc English B2",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "B2 First",
+          "unit": null,
+          "sourceQuote": "Cambridge English Qualifications: B2 First",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Applications for admission to the winter semester (1 October) can be submitted each year from late April/early May onward.",
+          "intake": null,
+          "sourceQuote": "Applications for admission to the winter semester (1 October) can be submitted each year from late April/early May onward.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

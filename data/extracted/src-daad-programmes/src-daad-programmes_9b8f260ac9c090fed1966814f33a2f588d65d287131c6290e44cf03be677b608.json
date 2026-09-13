@@ -1,0 +1,101 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9b8f260ac9c090fed1966814f33a2f588d65d287131c6290e44cf03be677b608",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:12:52.137Z",
+  "universities": [
+    {
+      "name": "Bingen University of Applied Sciences",
+      "country": "DE",
+      "city": "Bingen am Rhein",
+      "website": "https://www.th-bingen.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7721/",
+      "sourceQuote": "Bingen University of Applied Sciences • Bingen am Rhein"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Bingen University of Applied Sciences",
+      "universityWebsite": "https://www.th-bingen.de",
+      "name": "Master of Science in Environmental Sustainability",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Environmental Sustainability",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7721/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7721/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "a BSc degree with 180 ECTS (equivalent to a German three-year BSc according to the anabin database (<https://anabin.kmk.org/>) and sufficient relevant practical experience or 210 ECTS points (equivalent to a German three-and-a-half-year BSc according to the anabin database)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "3",
+          "unit": null,
+          "sourceQuote": "knowledge in three of the following (8 ECTS at least): ",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GT",
+          "value": "2.5",
+          "unit": null,
+          "sourceQuote": "an overall grade (Bachelor's) better than 2.5 (German grading system)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English B2 or higher",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

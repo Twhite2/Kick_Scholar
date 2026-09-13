@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:e41707d5c40824fe8380078751cfbf9a718f265f52982d8b4de0f94b224f90ae",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:14.547Z",
+  "universities": [
+    {
+      "name": "University of Applied Sciences Ravensburg-Weingarten",
+      "country": "DE",
+      "city": "Weingarten",
+      "website": "https://www.rwu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3633/",
+      "sourceQuote": "University of Applied Sciences Ravensburg-Weingarten • Weingarten"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Applied Sciences Ravensburg-Weingarten",
+      "universityWebsite": "https://www.rwu.de/",
+      "name": "Mechatronics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Mechatronics",
+      "fieldCategory": "OTHER",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3633/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3633/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

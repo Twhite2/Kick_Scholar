@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:095019ff0ffbe288cc15df7bcbf25f6844a2427c9dac2d62de38b4b17dd004eb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:28.415Z",
+  "universities": [
+    {
+      "name": "Otto von Guericke University Magdeburg",
+      "country": "DE",
+      "city": "Magdeburg",
+      "website": "https://www.ovgu.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3594/",
+      "sourceQuote": "Otto von Guericke University Magdeburg • Magdeburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Otto von Guericke University Magdeburg",
+      "universityWebsite": "https://www.ovgu.de/",
+      "name": "Financial Economics (FINEC)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Financial Economics (FINEC)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3594/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3594/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree, diploma, or another equivalent degree",
+          "unit": null,
+          "sourceQuote": "Applicants must provide a Bachelor's degree, diploma, or another equivalent degree in a relevant subject from a university recognised in Germany with a **GPA from 1.0 up to 2.9** **according to the German grading system**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "1.0",
+          "unit": "German scale (1.0 best – 4.0 pass)",
+          "sourceQuote": "Applicants must provide a Bachelor's degree, diploma, or another equivalent degree in a relevant subject from a university recognised in Germany with a **GPA from 1.0 up to 2.9** **according to the German grading system**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.9",
+          "unit": null,
+          "sourceQuote": "Applicants must provide a Bachelor's degree, diploma, or another equivalent degree in a relevant subject from a university recognised in Germany with a **GPA from 1.0 up to 2.9** **according to the German grading system**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A degree is considered relevant with a minimum amount of credits, and applicants should have strong knowledge from **courses in economics, business administration** , and **quantitative methods** – for example, econometrics, advanced (business) mathematics, and statistics for economics.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Additionally, applicants need to submit a letter of motivation stating skills, abilities, and interest in the study programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "Please note: **Advanced knowledge in quantitative methods modules,** including econometrics, statistics, etc. as well as **proficient English skills at a minimum level of C1** and **knowledge of academic writing** are important preconditions for successful participation in this programme.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "English language skills\n\nC1 required, please provide an official language certificate, e.g.: \n  * IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "GTE",
+          "value": "B1",
+          "unit": null,
+          "sourceQuote": "German language skills\n\n**B1** required/recommended, no proof required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

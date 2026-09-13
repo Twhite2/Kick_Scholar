@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:3aae85d574c140395dca652bf976ff4c020b80463c7d8eb06b6f06f2dfefcb7f",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:07.436Z",
+  "universities": [
+    {
+      "name": "Dresden University of Technology",
+      "country": "DE",
+      "city": "Dresden",
+      "website": "https://tu-dresden.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3834/",
+      "sourceQuote": "Dresden University of Technology • Dresden"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Dresden University of Technology",
+      "universityWebsite": "https://tu-dresden.de/",
+      "name": "Dresden International Graduate School for Interdisciplinary Life Sciences (DIGS-ILS) Dresden Intl. Graduate School for Interdisciplinary Life Sciences",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "Dresden International Graduate School for Interdisciplinary Life Sciences (DIGS-ILS) Dresden Intl. Graduate School for Interdisciplinary Life Sciences",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3834/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3834/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "[Application rounds and deadlines will be published on our website](https://www.digs-ils.phd/phd#pk_campaign=daad-ip&pk_kwd=application-periods).",
+          "intake": null,
+          "sourceQuote": "[Application rounds and deadlines will be published on our website](https://www.digs-ils.phd/phd#pk_campaign=daad-ip&pk_kwd=application-periods).",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

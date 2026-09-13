@@ -1,0 +1,125 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:36b1fe256543e5496d1c5b57859f8d99d71aa8018645af42ee5fc4808dc8c895",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:09:04.600Z",
+  "universities": [
+    {
+      "name": "ESCP Berlin Campus",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://escp.eu/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8531/",
+      "sourceQuote": "ESCP Berlin Campus • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "ESCP Berlin Campus",
+      "universityWebsite": "https://escp.eu/",
+      "name": "Master in Management (MiM)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master in Management (MiM)",
+      "fieldCategory": "BUSINESS",
+      "durationMonths": 24,
+      "instructionLanguages": [],
+      "tuitionType": "PAID",
+      "tuitionAmount": 12600,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8531/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8531/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Bachelor’s or Master’s degree in any discipline",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English fluency (level B2, advanced)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "International mindset and proven academic excellence",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GMAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "GMAT, GRE, Tage Mage, CAT (Students who have completed previous studies outside of France may request to take the **SHL test** offered by the ESCP Berlin Campus instead.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GRE",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "GMAT, GRE, Tage Mage, CAT (Students who have completed previous studies outside of France may request to take the **SHL test** offered by the ESCP Berlin Campus instead.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "Tage Mage",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "GMAT, GRE, Tage Mage, CAT (Students who have completed previous studies outside of France may request to take the **SHL test** offered by the ESCP Berlin Campus instead.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "CAT",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "GMAT, GRE, Tage Mage, CAT (Students who have completed previous studies outside of France may request to take the **SHL test** offered by the ESCP Berlin Campus instead.)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "SHL test",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "GMAT, GRE, Tage Mage, CAT (Students who have completed previous studies outside of France may request to take the **SHL test** offered by the ESCP Berlin Campus instead.)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The application deadline is usually at the beginning of May. Please check [our website](https://escp.eu/programmes/master-in-management#Admissions) for exact dates.",
+          "intake": null,
+          "sourceQuote": "The application deadline is usually at the beginning of May. Please check [our website](https://escp.eu/programmes/master-in-management#Admissions) for exact dates.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,73 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0dff251c12e948158c607b1ba09e03e903c417d6630247c974478fa6435fd2db",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:11:55.294Z",
+  "universities": [
+    {
+      "name": "University of Education Freiburg",
+      "country": "DE",
+      "city": "Freiburg im Breisgau",
+      "website": "https://www.ph-freiburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4830/",
+      "sourceQuote": "University of Education Freiburg • Freiburg im Breisgau"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Education Freiburg",
+      "universityWebsite": "https://www.ph-freiburg.de/",
+      "name": "Binational Bachelor's in Teacher Education (German-French) / Integrierter Studiengang Lehramt Primarstufe / Cursus Intégré Formation Transfrontalière d'Enseignants Binational Bachelor's in Teacher Education (German-French)",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Binational Bachelor's in Teacher Education (German-French) / Integrierter Studiengang Lehramt Primarstufe / Cursus Intégré Formation Transfrontalière d'Enseignants Binational Bachelor's in Teacher Education (German-French)",
+      "fieldCategory": "EDUCATION",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "German French"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4830/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4830/",
+      "sourceQuote": "Degree Bachelor of Arts",
+      "requirements": [
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The selection of applicants is based on grades and interviews.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "German language skills\n**C1** required, proof via placement test/interview",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

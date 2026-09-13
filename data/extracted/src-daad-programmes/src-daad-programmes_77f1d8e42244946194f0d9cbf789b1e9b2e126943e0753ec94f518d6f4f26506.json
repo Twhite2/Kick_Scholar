@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:77f1d8e42244946194f0d9cbf789b1e9b2e126943e0753ec94f518d6f4f26506",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:03:11.975Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Biological Intelligence",
+      "country": "DE",
+      "city": "Planegg",
+      "website": "https://anzeigenvorschau.net/bestmedia/img/685565/1398851/Cl/4442b3c76fa2bf4cf421477b91aaf2ccbdf69ea5/L2307409/JeyJvbGRsaW5rIjoiaHR0cHM6Ly93d3cuYmkubXBnLmRlL2VuIiwiemwiOiJuYXR1cmVjYXJlZXJzLmNvbSJ9",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8563/",
+      "sourceQuote": "Max Planck Institute for Biological Intelligence • Planegg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Biological Intelligence",
+      "universityWebsite": "https://anzeigenvorschau.net/bestmedia/img/685565/1398851/Cl/4442b3c76fa2bf4cf421477b91aaf2ccbdf69ea5/L2307409/JeyJvbGRsaW5rIjoiaHR0cHM6Ly93d3cuYmkubXBnLmRlL2VuIiwiemwiOiJuYXR1cmVjYXJlZXJzLmNvbSJ9",
+      "name": "International Max Planck Research School – Biological Intelligence IMPRS – Biological Intelligence",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School – Biological Intelligence IMPRS – Biological Intelligence",
+      "fieldCategory": "STEM",
+      "durationMonths": 48,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8563/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/8563/",
+      "sourceQuote": "Degree PhD",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "MSc (or an equivalent degree) in biology, biochemistry, neuroscience, physics, computer science, chemistry, mathematics or related disciplines in the field of natural sciences",
+          "unit": null,
+          "sourceQuote": "Applicants should hold an **MSc (or an equivalent degree)** in biology, biochemistry, neuroscience, physics, computer science, chemistry, mathematics or related disciplines in the field of natural sciences.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "European four-year BSc Hons degree (or equivalent degree with 240 ECTS credits)",
+          "unit": null,
+          "sourceQuote": "Applicants with a European **four-year BSc H****ons****degree** (or equivalent degree with 240 ECTS credits) are also eligible to apply.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\nB2 required, proof via placement test/interview",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German language skills\nNo minimum language level required",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "A call for new applications is announced in autumn every year. Please visit the [IMPRS-BI website](https://imprs-bi.mpg.de/) to learn more about recruiting faculty members, eligibility and requirements as well as the deadline for applications.",
+          "intake": null,
+          "sourceQuote": "A call for new applications is announced in autumn every year. Please visit the [IMPRS-BI website](https://imprs-bi.mpg.de/) to learn more about recruiting faculty members, eligibility and requirements as well as the deadline for applications.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,63 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:b5da5e9e71bc881fc9869ab74606fa4eb90e5b90d4ef2be8d210c963579272eb",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:16:46.277Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD Konrad Zuse School of Excellence in Reliable Artificial Intelligence (relAI): Scholarship for Master's Students",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The research and training programme focusses on the mathematical and algorithmic foundations of reliable AI along with domain knowledge in 3 core application domains, for which reliable AI methods are most urgently needed: medicine and healthcare, robotics & interacting systems, and algorithmic decision-making. relAI scholarships are intended to support outstanding students who are studying AI related subjects so they are able to focus on their studies. relAI offers a cross-sectional training for successful education in AI including scientific knowledge, professional development courses and industrial exposure, providing a coherent, yet flexible and personalised training. The scholarship is mainly awarded based on academic excellence, but also aims to improve internationalisation and diversity in AI related teaching programmes.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000612",
+      "deadlineText": "Open calls are published on the [website](https://zuseschoolrelai.de/application/).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000612",
+      "sourceQuote": "highly qualified (current or prospective) Master's students who have achieved excellent results in their Bachelor's studies, and who pursue Master's level studies in Artificial Intelligence, broadly conceived",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "highly qualified (current or prospective) Master's students who have achieved excellent results in their Bachelor's studies, and who pursue Master's level studies in Artificial Intelligence, broadly conceived",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "Artificial Intelligence and related subjects",
+          "sourceQuote": "Master's students pursuing studies in Artificial Intelligence and related subjects",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarship is mainly awarded based on academic excellence, but also aims to improve internationalisation and diversity in AI related teaching programmes.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [],
+      "deadlines": []
+    }
+  ]
+}

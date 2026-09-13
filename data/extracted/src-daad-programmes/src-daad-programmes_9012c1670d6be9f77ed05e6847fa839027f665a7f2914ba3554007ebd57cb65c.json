@@ -1,0 +1,54 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9012c1670d6be9f77ed05e6847fa839027f665a7f2914ba3554007ebd57cb65c",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:44:28.190Z",
+  "universities": [
+    {
+      "name": "Offenburg University of Applied Sciences",
+      "country": "DE",
+      "city": "Offenburg",
+      "website": "https://www.hs-offenburg.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4774/",
+      "sourceQuote": "Offenburg University of Applied Sciences • Offenburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Offenburg University of Applied Sciences",
+      "universityWebsite": "https://www.hs-offenburg.de/",
+      "name": "Master of Science in Renewable Energy and Data Engineering MSc in Renewable Energy and Data Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Renewable Energy and Data Engineering MSc in Renewable Energy and Data Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "German English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4774/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4774/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "31 March (non-EU residents)",
+          "intake": null,
+          "sourceQuote": "31 March (non-EU residents)",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

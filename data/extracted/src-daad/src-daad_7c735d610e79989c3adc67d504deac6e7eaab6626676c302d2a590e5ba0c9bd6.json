@@ -1,0 +1,94 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:7c735d610e79989c3adc67d504deac6e7eaab6626676c302d2a590e5ba0c9bd6",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:20:08.674Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Doctoral Programmes in Germany **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "This scholarship programme offers you the opportunity to complete your doctoral degree in Germany. The scholarships are funded by the German Federal Foreign Office.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135739",
+      "deadlineText": "Application deadlines are updated annually in the second quarter. In most cases, they are in the same period as the previous year. You can find the current dates here:",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135739",
+      "sourceQuote": "You can apply if you have above-average qualifications and you completed your Master's degree or Diplom, or in exceptional cases a Bachelor's degree, at the latest by the time the funding period begins.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "BACHELOR",
+            "MASTER",
+            "DIPLOMA"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You can apply if you have above-average qualifications and you completed your Master's degree or Diplom, or in exceptional cases a Bachelor's degree, at the latest by the time the funding period begins.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "You can apply if you have above-average qualifications and you completed your Master's degree or Diplom, or in exceptional cases a Bachelor's degree, at the latest by the time the funding period begins.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "most recent university degree obtained no more than six years ago before the application deadline",
+          "sourceQuote": "As a rule, your most recent university degree should have been obtained no more than six years ago before the application deadline.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "if you have already started your doctorate, the start of the doctorate should not be longer than 3 years ago at the time of application",
+          "sourceQuote": "If you have already started your doctorate, it also applies that the start of the doctorate should not be longer than 3 years ago at the time of application.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "resident in Germany for longer than 15 months at the application deadline is not eligible",
+          "sourceQuote": "Your application **cannot** be considered, if you have been resident in Germany for longer than 15 months at the application deadline.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "This scholarship programme offers you the opportunity to complete your doctoral degree in Germany.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

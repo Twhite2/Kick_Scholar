@@ -1,0 +1,164 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:b86a074b04bc4b8fdae77dafb2c029bff78696524ef50118cde0de32dfdeead2",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:13:55.252Z",
+  "universities": [
+    {
+      "name": "Ulm University",
+      "country": "DE",
+      "city": "Ulm",
+      "website": "https://www.uni-ulm.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6111/",
+      "sourceQuote": "Ulm University • Ulm"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Ulm University",
+      "universityWebsite": "https://www.uni-ulm.de",
+      "name": "Master of Science in Physics",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Master of Science in Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6111/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/6111/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "A Bachelor's degree in physics or at least an equivalent degree from a university, a university of applied sciences, a cooperative university or a recognised foreign higher education institution in the field of physics or in a related or subject-specific course of study at the level of at least three years of study, evidenced either by:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.4",
+          "unit": null,
+          "sourceQuote": "an academic final examination with a Bachelor's degree with an overall grade of 2.4 or better, or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.0",
+          "unit": null,
+          "sourceQuote": "a Bachelor's thesis graded 2.0 or better, or",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "top 20%",
+          "unit": null,
+          "sourceQuote": "being in the top 20% of the applicant's year group, or, if no degree has yet been awarded,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.7",
+          "unit": null,
+          "sourceQuote": "previous study and examination achievements in the amount of at least 140 ECTS credits up to the time of submission of the application with an average grade of 2.7 or better, as well as",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "20",
+          "unit": "ECTS credits in mathematics (analysis, linear algebra, differential equations)",
+          "sourceQuote": "2. basic knowledge and competences, proven by at least 20 ECTS credits in mathematics (analysis, linear algebra, differential equations), at least 30 ECTS credits in experimental physics, at least 24 ECTS credits in theoretical physics and 17 ECTS credits in physical practical courses,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "30",
+          "unit": "ECTS credits in experimental physics",
+          "sourceQuote": "2. basic knowledge and competences, proven by at least 20 ECTS credits in mathematics (analysis, linear algebra, differential equations), at least 30 ECTS credits in experimental physics, at least 24 ECTS credits in theoretical physics and 17 ECTS credits in physical practical courses,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "24",
+          "unit": "ECTS credits in theoretical physics",
+          "sourceQuote": "2. basic knowledge and competences, proven by at least 20 ECTS credits in mathematics (analysis, linear algebra, differential equations), at least 30 ECTS credits in experimental physics, at least 24 ECTS credits in theoretical physics and 17 ECTS credits in physical practical courses,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "17",
+          "unit": "ECTS credits in physical practical courses",
+          "sourceQuote": "2. basic knowledge and competences, proven by at least 20 ECTS credits in mathematics (analysis, linear algebra, differential equations), at least 30 ECTS credits in experimental physics, at least 24 ECTS credits in theoretical physics and 17 ECTS credits in physical practical courses,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "3. the ability to conduct independent scientific work, demonstrated in particular by a thesis or comparable achievement corresponding to 10 ECTS credits,",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "INTERVIEW",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "4. in the case of applicants who have a higher education degree from a country that is not a member of the European Higher Education Area (EHEA), a selection interview with the assessment \"suitable\", and",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

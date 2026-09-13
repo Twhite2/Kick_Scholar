@@ -1,0 +1,127 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:c9363bfa76f7a03decdd30f96321f8306524a2fb069b1b784a7b7d43dcb88e16",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:17:05.726Z",
+  "universities": [
+    {
+      "name": "Heilbronn University of Applied Sciences",
+      "country": "DE",
+      "city": "Heilbronn",
+      "website": "https://www.hs-heilbronn.de/de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3928/",
+      "sourceQuote": "Heilbronn University of Applied Sciences • Heilbronn"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Heilbronn University of Applied Sciences",
+      "universityWebsite": "https://www.hs-heilbronn.de/de",
+      "name": "Tourism Futures Studies (MSc)",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Tourism Futures Studies (MSc)",
+      "fieldCategory": "OTHER",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "PAID",
+      "tuitionAmount": 1500,
+      "tuitionCurrency": "EUR",
+      "tuitionPeriod": "PER_SEMESTER",
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3928/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3928/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "business studies or in a business-related discipline",
+          "unit": null,
+          "sourceQuote": "An excellent or good first degree (from a European institution) in business studies or in a business-related discipline (210 ECTS* credits and a grade point average of 2.5 or better on German grading scale) or an equivalent international qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.5",
+          "unit": "German grading scale",
+          "sourceQuote": "An excellent or good first degree (from a European institution) in business studies or in a business-related discipline (210 ECTS* credits and a grade point average of 2.5 or better on German grading scale) or an equivalent international qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "EQ",
+          "value": "210",
+          "unit": "ECTS credits",
+          "sourceQuote": "An excellent or good first degree (from a European institution) in business studies or in a business-related discipline (210 ECTS* credits and a grade point average of 2.5 or better on German grading scale) or an equivalent international qualification",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Applicants with a first degree awarded by a non-German institution must prove that their Bachelor's degree is equivalent to a German first degree before applying to Heilbronn University.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "B2 required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "6",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 6",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT (before 2026)",
+          "operator": "GTE",
+          "value": "79",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 79",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "Cambridge English Qualifications",
+          "operator": "GTE",
+          "value": "C1 Advanced",
+          "unit": null,
+          "sourceQuote": "* Cambridge English Qualifications: C1 Advanced",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

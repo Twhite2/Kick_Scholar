@@ -1,0 +1,55 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:773a642361b50ff412a7f02a2efd424ef86017c73caf278e426a8fb75aec5ca6",
+  "extractedBy": "manual",
+  "extractedAt": "2026-09-07T17:40:31.403Z",
+  "universities": [
+    {
+      "name": "OTH Regensburg",
+      "country": "DE",
+      "city": "Regensburg",
+      "website": "https://www.oth-regensburg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4587/",
+      "sourceQuote": "OTH Regensburg • Regensburg"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "OTH Regensburg",
+      "universityWebsite": "https://www.oth-regensburg.de",
+      "name": "Electrical and Microsystems Engineering",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Electrical and Microsystems Engineering",
+      "fieldCategory": "STEM",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "UNKNOWN",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4587/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4587/",
+      "sourceQuote": "Degree Master of Engineering",
+      "requirements": [],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

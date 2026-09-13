@@ -1,0 +1,119 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:81302684964d924a693eb3bb0c2a76fa7c72f8edd5664f4d3804663c0c0a4d23",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:09:16.566Z",
+  "universities": [
+    {
+      "name": "University of Rostock",
+      "country": "DE",
+      "city": "Rostock",
+      "website": "https://www.uni-rostock.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7618/",
+      "sourceQuote": "University of Rostock • Rostock"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Rostock",
+      "universityWebsite": "https://www.uni-rostock.de",
+      "name": "Computer Science International (CSI) Computer Science International",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Computer Science International (CSI) Computer Science International",
+      "fieldCategory": "STEM",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7618/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/7618/",
+      "sourceQuote": "Degree Master of Science",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "credit points",
+          "sourceQuote": "First academic degree (at least 180 credit points) in computer science or a related scientific study field, good knowledge of English (see below)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "18",
+          "unit": "credit points",
+          "sourceQuote": "Applicants need to show extended knowledge worth at least 18 credit points in mathematics and 12 credit points in theoretical computer science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "GTE",
+          "value": "12",
+          "unit": "credit points",
+          "sourceQuote": "Applicants need to show extended knowledge worth at least 18 credit points in mathematics and 12 credit points in theoretical computer science.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "GTE",
+          "value": "85% of the CGPA",
+          "unit": null,
+          "sourceQuote": "Therefore, we only accept candidates who have completed their first university degree with at least **85% of the CGPA** (cumulative grade point average [e.g. your final Bachelor's grade should be better than 3.5 out of 4 or 8.5 out of 10 ...]) or with a comparable grade in a different grading system.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": "GATE",
+          "operator": "GTE",
+          "value": "500",
+          "unit": null,
+          "sourceQuote": "Additionally, you can enhance your performance with a GATE (Graduate Aptitude Test in Engineering) with a minimum score of 500.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS Academic",
+          "operator": "GTE",
+          "value": "7",
+          "unit": null,
+          "sourceQuote": "* IELTS Academic: 7",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL iBT",
+          "operator": "GTE",
+          "value": "94",
+          "unit": null,
+          "sourceQuote": "* TOEFL iBT (before 2026): 94",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

@@ -1,0 +1,82 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0dd7490614a4d28162fac33972c5e6656552b82277517903d50979b393253f36",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:16:58.910Z",
+  "universities": [
+    {
+      "name": "University of Bayreuth",
+      "country": "DE",
+      "city": "Bayreuth",
+      "website": "https://www.uni-bayreuth.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4694/",
+      "sourceQuote": "University of Bayreuth • Bayreuth"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "University of Bayreuth",
+      "universityWebsite": "https://www.uni-bayreuth.de/",
+      "name": "Development Studies",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Development Studies",
+      "fieldCategory": "SOCIAL_SCIENCES",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4694/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4694/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "A Bachelor's degree from the University of Bayreuth in Applied African Studies, African Culture & Society, International Economics & Development, African Development Studies in Geography, Philosophy & Economics, or Geography (final grade \"2.5\" or better), or an equivalent degree awarded by another university",
+          "unit": null,
+          "sourceQuote": "* A Bachelor's degree from the University of Bayreuth in Applied African Studies, African Culture & Society, International Economics & Development, African Development Studies in Geography, Philosophy & Economics, or Geography (final grade \"2.5\" or better), or an equivalent degree awarded by another university",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "WORK_EXPERIENCE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "4",
+          "unit": "weeks",
+          "sourceQuote": "* At least four weeks of practical experience abroad dealing with development",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "* English C1 certificate",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "EQ",
+          "value": "A1",
+          "unit": null,
+          "sourceQuote": "* German A1 certificate (can be submitted up to one year into the study programme; courses for international students are available at the University of Bayreuth Language Center)",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

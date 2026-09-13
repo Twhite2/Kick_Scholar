@@ -1,0 +1,110 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:7440fd3a87bb09c55c742329a7e1da7ba5bbab82d5482d0e83a9298c3e6995d4",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:46:06.982Z",
+  "universities": [
+    {
+      "name": "Hochschule Wismar - University of Applied Sciences, Technology, Business and Design",
+      "country": "DE",
+      "city": "Wismar",
+      "website": "https://www.hs-wismar.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4281/",
+      "sourceQuote": "Hochschule Wismar - University of Applied Sciences, Technology, Business and Design • Wismar"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Hochschule Wismar - University of Applied Sciences, Technology, Business and Design",
+      "universityWebsite": "https://www.hs-wismar.de",
+      "name": "Architecture – Master's Degree Course",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Architecture – Master's Degree Course",
+      "fieldCategory": "ARTS",
+      "durationMonths": 24,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4281/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4281/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in the field of architecture",
+          "unit": null,
+          "sourceQuote": "The prerequisite for admission to the selection procedure is a Bachelor's degree in the field of architecture with an overall grade equivalent to the German \"2.3\" or better from a national or international university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "MIN_GPA",
+          "testName": null,
+          "operator": "LTE",
+          "value": "2.3",
+          "unit": null,
+          "sourceQuote": "The prerequisite for admission to the selection procedure is a Bachelor's degree in the field of architecture with an overall grade equivalent to the German \"2.3\" or better from a national or international university.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Admission to the Master's degree course of study in Architecture is based on a selection procedure.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "OTHER",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The selection procedure consists of a written application, in which students should explain their motivation for study and their study goals.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "PORTFOLIO",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "The complete application via [My university portal](https://hio.hs-wismar.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=1) has to include the following documents:",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "GTE",
+          "value": "B2",
+          "unit": null,
+          "sourceQuote": "English language skills\n**B2** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

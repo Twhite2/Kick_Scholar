@@ -1,0 +1,128 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:0664253da5a9feb54aad76fc3df2b40a411d09ff51fb4ea8d8028f453b9e77fd",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T16:21:39.055Z",
+  "universities": [
+    {
+      "name": "Rhine-Waal University of Applied Sciences",
+      "country": "DE",
+      "city": "Kamp-Lintfort",
+      "website": "https://www.hochschule-rhein-waal.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4489/",
+      "sourceQuote": "Rhine-Waal University of Applied Sciences • Kamp-Lintfort"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Rhine-Waal University of Applied Sciences",
+      "universityWebsite": "https://www.hochschule-rhein-waal.de",
+      "name": "Design and Interaction, MA",
+      "degreeLevel": "MASTER",
+      "fieldOfStudy": "Design and Interaction, MA",
+      "fieldCategory": "ARTS",
+      "durationMonths": 18,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter",
+        "summer semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4489/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4489/",
+      "sourceQuote": "Degree Master of Arts",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Proof of a completed, relevant undergraduate degree (BSc, BA or equivalent) consisting of at least 210 points according to the European Credit Transfer System (ECTS), or at least seven semesters of full-time study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "210",
+          "unit": "ECTS points",
+          "sourceQuote": "Proof of a completed, relevant undergraduate degree (BSc, BA or equivalent) consisting of at least 210 points according to the European Credit Transfer System (ECTS), or at least seven semesters of full-time study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "7",
+          "unit": "semesters of full-time study",
+          "sourceQuote": "Proof of a completed, relevant undergraduate degree (BSc, BA or equivalent) consisting of at least 210 points according to the European Credit Transfer System (ECTS), or at least seven semesters of full-time study.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "180",
+          "unit": "points",
+          "sourceQuote": "Applicants with less than 210 ECTS points or seven semesters of full-time study, but at least 180 points and six semesters of full-time study from an undergraduate programme must provide proof of additional academic training or may – on agreement – make up the missing credit points by passing suitable examinations in modules of other degree programmes during their Master's studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "GTE",
+          "value": "6",
+          "unit": "semesters of full-time study",
+          "sourceQuote": "Applicants with less than 210 ECTS points or seven semesters of full-time study, but at least 180 points and six semesters of full-time study from an undergraduate programme must provide proof of additional academic training or may – on agreement – make up the missing credit points by passing suitable examinations in modules of other degree programmes during their Master's studies.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "IELTS",
+          "operator": "GTE",
+          "value": "5.5",
+          "unit": null,
+          "sourceQuote": "IELTS Academic: 5.5",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "TOEFL",
+          "operator": "GTE",
+          "value": "4",
+          "unit": null,
+          "sourceQuote": "TOEFL iBT (since 2026): 4",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "STANDARDIZED_TEST",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Passing an [aptitude test](https://www.hochschule-rhein-waal.de/en/faculty-of-communication-and-environment/aptitude-test) regarding artistic/creative capability",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "The following is valid for applicants from: all countries",
+          "intake": null,
+          "sourceQuote": "The following is valid for applicants from: all countries",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}

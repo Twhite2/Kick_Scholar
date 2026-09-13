@@ -1,0 +1,81 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:b9d3c803ccc787718a9b4d64f626e67e3f4420be1c964641580547a9195fe2f3",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:25.935Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Munich Aerospace: PhD Scholarships",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The Munich Aerospace e.V. Bavarian Research Network was initiated in 2010 to combine key expertise in the field of aerospace and to act as a centre of research, development and training. The Munich Aerospace unites 4 entities under one institutional roof: the TUM (Technical University Munich), the UniBwM (University of the German Armed Forces Munich), the DLR (German Aerospace Center) with its Oberpfaffenhofen institutes, and the BHL, the Bauhaus Luftfahrt. This pooling of research, graduate programmes and teaching merges regional excellence with the aim to trigger synergies. The PhD scholarships by Munich Aerospace are designed to allow junior scientists to fully focus on their research work and obtain their degrees in a timely manner. Research topics are proposed and publicly advertised by the Munich Aerospace Research Groups. Being integral part of a recognised Research Group and at the same time attending in the in-house graduate school gives scholars the opportunity for networking in their own subjects as well as across disciplines.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000231",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000231",
+      "sourceQuote": "The scholarships are intended for university graduates who wish to obtain a doctoral degree in aeronautics at the Technical University of Munich or the University of the German Armed Forces Munich.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": "university graduates wishing to obtain a doctoral degree",
+          "sourceQuote": "The scholarships are intended for university graduates who wish to obtain a doctoral degree in aeronautics at the Technical University of Munich or the University of the German Armed Forces Munich.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "OTHER"
+          ],
+          "numericValue": null,
+          "textValue": "a subject related to aerospace technology",
+          "sourceQuote": "* degree in a subject related to aerospace technology with a final grade of \"good\" or better",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "* degree in a subject related to aerospace technology with a final grade of \"good\" or better",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "PHD"
+          ],
+          "fieldCategories": [
+            "STEM"
+          ],
+          "institutionTypes": [
+            "ANY"
+          ],
+          "sourceQuote": "The scholarships are intended for university graduates who wish to obtain a doctoral degree in aeronautics at the Technical University of Munich or the University of the German Armed Forces Munich.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

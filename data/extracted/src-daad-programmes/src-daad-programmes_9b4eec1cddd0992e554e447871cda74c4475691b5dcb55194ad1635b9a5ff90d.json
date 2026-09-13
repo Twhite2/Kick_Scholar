@@ -1,0 +1,64 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:9b4eec1cddd0992e554e447871cda74c4475691b5dcb55194ad1635b9a5ff90d",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:45:08.643Z",
+  "universities": [
+    {
+      "name": "FH Aachen University of Applied Sciences",
+      "country": "DE",
+      "city": "Jülich",
+      "website": "https://www.fh-aachen.de/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4011/",
+      "sourceQuote": "FH Aachen University of Applied Sciences • Jülich"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "FH Aachen University of Applied Sciences",
+      "universityWebsite": "https://www.fh-aachen.de/",
+      "name": "Bachelor of Engineering in Applied Physics",
+      "degreeLevel": "BACHELOR",
+      "fieldOfStudy": "Bachelor of Engineering in Applied Physics",
+      "fieldCategory": "STEM",
+      "durationMonths": 42,
+      "instructionLanguages": [
+        "German"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4011/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4011/",
+      "sourceQuote": "Degree Bachelor of Engineering",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "German entrance qualification for universities of applied sciences or equivalent (<http://anabin.kmk.org>)",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": null,
+          "operator": "GTE",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required, please provide an official language certificate, e.g.:",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ],
+  "scholarships": []
+}

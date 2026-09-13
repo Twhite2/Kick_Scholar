@@ -1,0 +1,106 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:77c476425fd76be58067d5d3718ddcf540c364477debf1b46f2c4952115f583a",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:22:20.346Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "DAAD Zuse School of Embedded Composite Artificial Intelligence (SECAI): Scholarships for Master's students in AI",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "SECAI scholarships were created to support outstanding students who intend to study AI or a related field at TU Dresden or Leipzig University. AI is viewed as an interdisciplinary undertaking that requires talents in computer science, engineering, mathematics, social science, law, the natural sciences, and application areas such as medicine. The scholarships cover living expenses in Germany to allow students to focus on their studies, kick-start their research career, and build their professional network. The scholarship is mainly awarded based on academic excellence, but also aims to improve internationalisation and diversity in AI-related teaching programmes. Women in STEM subjects are particularly encouraged to apply. Special personal circumstances are taken into account, for example if students are systematically disadvantaged or prosecuted in their home countries, or are refugees of war.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000611",
+      "deadlineText": "Applications for scholarships starting in the winter semester of each year must be received by 19 May (first round) and 30 June (second round) of each year. First-round applications are decided earlier to help with planning.",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000611",
+      "sourceQuote": "highly qualified (current or prospective) Master's students who have achieved excellent results in their Bachelor's studies, and who pursue Master's level studies in Artificial Intelligence, broadly conceived.",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "highly qualified (current or prospective) Master's students who have achieved excellent results in their Bachelor's studies, and who pursue Master's level studies in Artificial Intelligence, broadly conceived.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "FIELD_OF_STUDY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Artificial Intelligence",
+            "related subjects"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Master's students pursuing studies in Artificial Intelligence and related subjects",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "ACADEMIC_EXCELLENCE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "The scholarship is mainly awarded based on academic excellence, but also aims to improve internationalisation and diversity in AI-related teaching programmes.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Women in STEM subjects are particularly encouraged to apply.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "OTHER",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Special personal circumstances are taken into account, for example if students are systematically disadvantaged or prosecuted in their home countries, or are refugees of war.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER"
+          ],
+          "fieldCategories": [
+            "STEM",
+            "SOCIAL_SCIENCES",
+            "LAW",
+            "HEALTH",
+            "OTHER"
+          ],
+          "institutionTypes": [
+            "PUBLIC",
+            "PRIVATE",
+            "STATE_RECOGNISED",
+            "ANY"
+          ],
+          "sourceQuote": "SECAI scholarships were created to support outstanding students who intend to study AI or a related field at TU Dresden or Leipzig University.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

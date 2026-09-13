@@ -1,0 +1,58 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:f4e30ef47c21eefce6a2ba976c06cf7cde523e22e0873cc89d069a7eb9a6ea39",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:24:31.677Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Taiwan Summer Institute Programme **• DAAD**",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "STIPEND",
+      "description": "The aim of the programme is to interest graduates of the Taiwan Summer Institute Programme in Germany as a centre of research and to encourage them to spend a longer period in the country.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015361",
+      "deadlineText": null,
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015361",
+      "sourceQuote": "Doctoral candidates and students of Master's degree courses from Taiwan",
+      "eligibility": [
+        {
+          "criterionType": "DEGREE_LEVEL",
+          "operator": "IN_LIST",
+          "valueList": [
+            "MASTER",
+            "PHD"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "Doctoral candidates and students of Master's degree courses from Taiwan",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [
+            "MASTER",
+            "PHD"
+          ],
+          "fieldCategories": [],
+          "institutionTypes": [],
+          "sourceQuote": "The aim of the programme is to interest graduates of the Taiwan Summer Institute Programme in Germany as a centre of research and to encourage them to spend a longer period in the country.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

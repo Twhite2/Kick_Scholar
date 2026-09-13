@@ -1,0 +1,65 @@
+{
+  "sourceId": "src-daad",
+  "sourceDocumentId": "src-daad:d82b76c20538c53ef5df7db72f21c88e658b2fd29ff9504fb1ecc6ac1768d1f1",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T15:17:52.495Z",
+  "universities": [],
+  "programs": [],
+  "scholarships": [
+    {
+      "name": "Scholarships for Language and Short Courses (Summer or Winter Schools) for Students and Researchers from the Czech Republic",
+      "providerName": "DAAD (German Academic Exchange Service)",
+      "providerType": "NATIONAL_EDUCATION_PORTAL",
+      "country": "DE",
+      "amount": null,
+      "amountCurrency": null,
+      "coverageType": "UNKNOWN",
+      "description": "The scholarship is intended to meet the costs students and researchers from higher education institutions in the Czech Republic incur when attending language and short [courses](https://www.btha.cz/de/stipendien/sprachkurse-und-sommerschulen-in-bayern) at a state or state-funded higher education institution in the state of Bavaria. The funding includes the course fee and, if applicable, an allowance of up to 400 EUR to cover accommodation expenses, unless they are included in the course fee. Students, teaching staff and researchers at institutions of higher education in the Czech Republic are eligible for application; at the same time, they must be Czech nationals. Candidates for language courses are expected to have at least B1-level command of the German language. The scholarship can also be put towards the cost of German language courses for exam preparations (DSH) at higher education institutions in Bavaria.",
+      "applicationUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000403",
+      "deadlineText": "You can find more information on deadlines on the [website](https://www.btha.cz/de/stipendien/sprachkurse-und-sommerschulen-in-bayern).",
+      "isRenewable": null,
+      "discoveredFrom": null,
+      "discoveryUrl": null,
+      "officialSourceUrl": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000403",
+      "sourceQuote": "students, teaching staff and researchers at institutions of higher education in the Czech Republic",
+      "eligibility": [
+        {
+          "criterionType": "NATIONALITY",
+          "operator": "IN_LIST",
+          "valueList": [
+            "Czech Republic"
+          ],
+          "numericValue": null,
+          "textValue": null,
+          "sourceQuote": "students, teaching staff and researchers at institutions of higher education in the Czech Republic are eligible for application; at the same time, they must be Czech nationals.",
+          "sourceUrl": null
+        },
+        {
+          "criterionType": "LANGUAGE",
+          "operator": "BOOLEAN_TRUE",
+          "valueList": [],
+          "numericValue": null,
+          "textValue": "German at least B1 for language courses",
+          "sourceQuote": "Candidates for language courses are expected to have at least B1-level command of the German language.",
+          "sourceUrl": null
+        }
+      ],
+      "applicability": [
+        {
+          "countries": [
+            "DE"
+          ],
+          "degreeLevels": [],
+          "fieldCategories": [],
+          "institutionTypes": [
+            "STATE_RECOGNISED"
+          ],
+          "sourceQuote": "The scholarship can also be put towards the cost of German language courses for exam preparations (DSH) at higher education institutions in Bavaria.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": []
+    }
+  ]
+}

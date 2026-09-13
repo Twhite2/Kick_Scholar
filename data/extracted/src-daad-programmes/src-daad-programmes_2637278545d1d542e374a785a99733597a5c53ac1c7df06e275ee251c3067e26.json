@@ -1,0 +1,91 @@
+{
+  "sourceId": "src-daad-programmes",
+  "sourceDocumentId": "src-daad-programmes:2637278545d1d542e374a785a99733597a5c53ac1c7df06e275ee251c3067e26",
+  "extractedBy": "claude-api",
+  "extractedAt": "2026-09-07T17:48:22.041Z",
+  "universities": [
+    {
+      "name": "Max Planck Institute for Molecular Genetics",
+      "country": "DE",
+      "city": "Berlin",
+      "website": "https://www.molgen.mpg.de",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4232/",
+      "sourceQuote": "Max Planck Institute for Molecular Genetics • Berlin"
+    }
+  ],
+  "programs": [
+    {
+      "universityName": "Max Planck Institute for Molecular Genetics",
+      "universityWebsite": "https://www.molgen.mpg.de",
+      "name": "International Max Planck Research School for Biology and Computation (IMPRS-BAC) IMPRS for Biology and Computation (IMPRS-BAC)",
+      "degreeLevel": "PHD",
+      "fieldOfStudy": "International Max Planck Research School for Biology and Computation (IMPRS-BAC) IMPRS for Biology and Computation (IMPRS-BAC)",
+      "fieldCategory": "STEM",
+      "durationMonths": 36,
+      "instructionLanguages": [
+        "English"
+      ],
+      "tuitionType": "FREE",
+      "tuitionAmount": null,
+      "tuitionCurrency": null,
+      "tuitionPeriod": null,
+      "intakes": [
+        "Only for doctoral programmes: any time"
+      ],
+      "programUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4232/",
+      "description": null,
+      "sourceUrl": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4232/",
+      "sourceQuote": "Degree PhD Dr",
+      "requirements": [
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Master's or comparable degree in bioinformatics, mathematics, physics, computer science, biochemistry, biotechnology, or biology",
+          "unit": null,
+          "sourceQuote": "We accept applications from students holding a Master's or comparable degree in bioinformatics, mathematics, physics, computer science, biochemistry, biotechnology, or biology.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "DEGREE_PREREQUISITE",
+          "testName": null,
+          "operator": "IN_LIST",
+          "value": "Bachelor's degree in the computational / mathematical sciences",
+          "unit": null,
+          "sourceQuote": "We do offer a preparatory programme for exceptional students with a **Bachelor's degree in the computational / mathematical sciences only, who want to pursue a PhD in bioinformatics, mathematics or computer science**.",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "English",
+          "operator": "EQ",
+          "value": "C1",
+          "unit": null,
+          "sourceQuote": "**C1** required/recommended, no proof required",
+          "sourceUrl": null
+        },
+        {
+          "requirementType": "LANGUAGE_TEST",
+          "testName": "German",
+          "operator": "BOOLEAN_TRUE",
+          "value": "true",
+          "unit": null,
+          "sourceQuote": "Some knowledge of German may be required for the preparatory programme.",
+          "sourceUrl": null
+        }
+      ],
+      "deadlines": [
+        {
+          "deadlineType": "APPLICATION",
+          "date": null,
+          "dateText": "Please check [our website](https://www.molgen.mpg.de/IMPRS/application) for more details.",
+          "intake": null,
+          "sourceQuote": "Please check [our website](https://www.molgen.mpg.de/IMPRS/application) for more details.",
+          "sourceUrl": null
+        }
+      ]
+    }
+  ],
+  "scholarships": []
+}
