@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { ProgramFilterPanel } from "@/components/programs/program-filter-panel";
 import { ProgramCard, type ProgramCardData } from "@/components/programs/program-card";
+import { Pager } from "@/components/ui/pager";
+import { PAGE_SIZE, pageByMatch, parsePage } from "@/lib/pagination";
 import type { DegreeLevel, FieldCategory, TuitionType, Prisma } from "@/lib/generated/prisma/client";
 
 export default async function ProgramsPage({ searchParams }: PageProps<"/programs">) {
@@ -16,6 +18,7 @@ export default async function ProgramsPage({ searchParams }: PageProps<"/program
   const field = typeof params.field === "string" ? params.field : undefined;
   const tuition = typeof params.tuition === "string" ? params.tuition : undefined;
   const sort = typeof params.sort === "string" ? params.sort : "match";
+  const page = parsePage(params.page);
 
   const where: Prisma.ProgramWhereInput = {
     ...(q
@@ -32,15 +35,45 @@ export default async function ProgramsPage({ searchParams }: PageProps<"/program
     ...(tuition ? { tuitionType: tuition as TuitionType } : {}),
   };
 
-  const [programs, matches, saved] = await Promise.all([
-    prisma.program.findMany({
-      where,
-      include: { university: true },
-      orderBy: sort === "name" ? { name: "asc" } : sort === "tuition" ? { tuitionAmount: "asc" } : undefined,
+  const userId = session.user.id;
+  const [total, matches, saved] = await Promise.all([
+    prisma.program.count({ where }),
+    // Only matches inside the current filter, best first — this is the
+    // ordering "Best match" pages through.
+    prisma.match.findMany({
+      where: { userId, matchType: "PROGRAM", program: where },
+      orderBy: { score: "desc" },
+      select: { programId: true, score: true, matchStrength: true },
     }),
-    prisma.match.findMany({ where: { userId: session.user.id, matchType: "PROGRAM" } }),
-    prisma.savedOpportunity.findMany({ where: { userId: session.user.id, opportunityType: "PROGRAM" } }),
+    prisma.savedOpportunity.findMany({
+      where: { userId, opportunityType: "PROGRAM" },
+      select: { programId: true },
+    }),
   ]);
+
+  const include = { university: true } as const;
+  const programs =
+    sort === "match"
+      ? await pageByMatch({
+          matchedIds: matches.flatMap((m) => (m.programId ? [m.programId] : [])),
+          page,
+          fetchByIds: (ids) => prisma.program.findMany({ where: { id: { in: ids } }, include }),
+          fetchUnmatched: (excludeIds, skip, take) =>
+            prisma.program.findMany({
+              where: { AND: [where, { id: { notIn: excludeIds } }] },
+              include,
+              orderBy: { name: "asc" },
+              skip,
+              take,
+            }),
+        })
+      : await prisma.program.findMany({
+          where,
+          include,
+          orderBy: sort === "tuition" ? { tuitionAmount: "asc" } : { name: "asc" },
+          skip: (page - 1) * PAGE_SIZE,
+          take: PAGE_SIZE,
+        });
 
   const matchByProgram = new Map(matches.map((m) => [m.programId, m]));
   const savedProgramIds = new Set(saved.map((s) => s.programId));
@@ -61,15 +94,11 @@ export default async function ProgramsPage({ searchParams }: PageProps<"/program
     saved: savedProgramIds.has(p.id),
   }));
 
-  if (sort === "match") {
-    cards.sort((a, b) => (b.match?.score ?? -1) - (a.match?.score ?? -1));
-  }
-
   return (
     <div className="mx-auto max-w-6xl space-y-6 px-4 py-8 md:px-8 md:py-12">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">Programs</h1>
-        <p className="mt-1 text-muted-foreground">{cards.length} programs found</p>
+        <p className="mt-1 text-muted-foreground">{total} programs found</p>
       </div>
 
       <ProgramFilterPanel />
@@ -85,6 +114,8 @@ export default async function ProgramsPage({ searchParams }: PageProps<"/program
           ))}
         </div>
       )}
+
+      <Pager pathname="/programs" params={params} page={page} totalPages={Math.ceil(total / PAGE_SIZE)} />
     </div>
   );
 }

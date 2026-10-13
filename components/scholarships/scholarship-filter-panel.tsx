@@ -28,6 +28,8 @@ export function ScholarshipFilterPanel() {
   const setParam = useCallback(
     (key: string, value: string | null) => {
       const params = new URLSearchParams(searchParams.toString());
+      // New filters mean a new result set; stay on page 2 and it may be empty.
+      params.delete("page");
       if (value && value !== "all") params.set(key, value);
       else params.delete(key);
       startTransition(() => {
