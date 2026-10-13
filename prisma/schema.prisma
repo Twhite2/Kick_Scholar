@@ -1,5 +1,4 @@
 // KickScholar data model.
-// See /home/frank/.claude/plans/kickscholar-full-delightful-spring.md (section 3) for the design rationale.
 
 generator client {
   provider        = "prisma-client"

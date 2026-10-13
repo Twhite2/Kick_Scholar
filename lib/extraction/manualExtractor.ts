@@ -14,8 +14,9 @@ import type { DataExtractor, SourceDocumentInput } from "./types";
  *      loudly here, before anything reaches normalization/dedup/the DB.
  *
  * `extract()` ignores the passed-in markdown (the person already read it
- * when authoring the file); it's part of the interface only so a future
- * ClaudeExtractor can use it instead.
+ * when authoring the file); it's part of the DataExtractor interface. The
+ * automated path is lib/extraction/runExtraction.ts (parsers, then the
+ * optional --llm enrichment in lib/extraction/llm/).
  */
 export class ManualExtractor implements DataExtractor {
   async extract(doc: SourceDocumentInput): Promise<ExtractionFile | null> {
