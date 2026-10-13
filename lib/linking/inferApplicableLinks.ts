@@ -253,9 +253,23 @@ export async function inferApplicableLinks(
       linksDeleted: 0,
     };
 
+    // A skipped scholarship implies no links this run, so any it inferred on
+    // an earlier run — under rules that have since changed — must go too.
+    // Without this the "converge" guarantee below only held for scholarships
+    // that still produced at least one link.
+    const dropStaleInferred = async () => {
+      if (opts.dryRun) return;
+      const deleted = await prisma.fundingOpportunity.deleteMany({
+        where: { scholarshipId: scholarship.id, linkMethod: "RULE_INFERENCE" },
+      });
+      outcome.linksDeleted = deleted.count;
+      result.linksDeleted += deleted.count;
+    };
+
     if (!isLinkable(rules)) {
       outcome.skipped = "no-usable-rules";
       result.skippedNoRules += 1;
+      await dropStaleInferred();
       result.outcomes.push(outcome);
       continue;
     }
@@ -266,6 +280,7 @@ export async function inferApplicableLinks(
       outcome.skipped = count > 0 ? "too-broad" : "no-matches";
       if (count > 0) result.skippedTooBroad += 1;
       else result.skippedNoMatches += 1;
+      await dropStaleInferred();
       result.outcomes.push(outcome);
       continue;
     }

@@ -4,6 +4,7 @@ import { PrismaPg } from "@prisma/adapter-pg";
 import { scoreTarget } from "./scoreTarget";
 import { programToMatchTarget, scholarshipToMatchTarget, studentProfileToMatchInput } from "./toMatchTarget";
 import { ENGINE_VERSION } from "./weights";
+import type { MatchResult } from "./types";
 import { isCliEntrypoint } from "../cliEntrypoint";
 
 const MIN_SCORE_TO_STORE = 20;
@@ -15,6 +16,11 @@ const MIN_SCORE_TO_STORE = 20;
  * factor scoring only runs on the pre-filtered set. Only stores matches
  * scoring at or above MIN_SCORE_TO_STORE, to avoid the table filling with
  * near-zero noise.
+ *
+ * The student's match set is replaced wholesale in one transaction. Updating
+ * row by row left behind matches this run no longer produces — a student who
+ * switched from Master to PhD kept every Master match, with stale scores —
+ * and cost two queries per programme on every profile save.
  */
 export async function runMatchForStudent(prisma: PrismaClient, userId: string): Promise<{ programMatches: number; scholarshipMatches: number }> {
   const profileRow = await prisma.studentProfile.findUnique({
@@ -26,76 +32,52 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
   }
   const profile = studentProfileToMatchInput(profileRow);
 
-  const programs = await prisma.program.findMany({
-    where: profile.desiredDegreeLevel ? { degreeLevel: profile.desiredDegreeLevel } : undefined,
-    include: { requirements: true, university: true },
+  const [programs, scholarships] = await Promise.all([
+    prisma.program.findMany({
+      where: profile.desiredDegreeLevel ? { degreeLevel: profile.desiredDegreeLevel } : undefined,
+      include: { requirements: true, university: true },
+    }),
+    prisma.scholarship.findMany({ include: { eligibility: true } }),
+  ]);
+
+  const computedAt = new Date();
+  const toRow = (result: MatchResult) => ({
+    userId,
+    score: result.score,
+    matchStrength: result.matchStrength,
+    factorScores: result.factorScores as unknown as object,
+    strengths: result.strengths,
+    missingRequirements: result.missingRequirements,
+    warnings: result.warnings,
+    recommendedActions: result.recommendedActions,
+    computedAt,
+    engineVersion: ENGINE_VERSION,
   });
 
-  let programMatches = 0;
-  for (const program of programs) {
-    const target = programToMatchTarget(program);
-    const result = scoreTarget(profile, target, program.verificationStatus === "VERIFIED");
-    if (result.score < MIN_SCORE_TO_STORE) continue;
+  const programRows = programs.flatMap((program) => {
+    const result = scoreTarget(profile, programToMatchTarget(program), program.verificationStatus === "VERIFIED");
+    return result.score < MIN_SCORE_TO_STORE
+      ? []
+      : [{ ...toRow(result), matchType: "PROGRAM" as const, programId: program.id }];
+  });
 
-    // Match's (userId, programId) / (userId, scholarshipId) uniqueness is
-    // enforced by hand-authored partial unique indexes (see the
-    // add_check_constraints_and_partial_indexes migration) rather than a
-    // native Prisma @@unique, since Postgres partial indexes aren't
-    // expressible in the schema DSL — so this is findFirst+create/update
-    // rather than a single upsert() with a named compound-unique selector.
-    const existing = await prisma.match.findFirst({ where: { userId, programId: program.id } });
-    const data = {
-      score: result.score,
-      matchStrength: result.matchStrength,
-      factorScores: result.factorScores as unknown as object,
-      strengths: result.strengths,
-      missingRequirements: result.missingRequirements,
-      warnings: result.warnings,
-      recommendedActions: result.recommendedActions,
-      computedAt: new Date(),
-      engineVersion: ENGINE_VERSION,
-    };
-    if (existing) {
-      await prisma.match.update({ where: { id: existing.id }, data });
-    } else {
-      await prisma.match.create({
-        data: { userId, matchType: "PROGRAM", programId: program.id, ...data },
-      });
-    }
-    programMatches += 1;
-  }
+  const scholarshipRows = scholarships.flatMap((scholarship) => {
+    const result = scoreTarget(
+      profile,
+      scholarshipToMatchTarget(scholarship),
+      scholarship.verificationStatus === "VERIFIED",
+    );
+    return result.score < MIN_SCORE_TO_STORE
+      ? []
+      : [{ ...toRow(result), matchType: "SCHOLARSHIP" as const, scholarshipId: scholarship.id }];
+  });
 
-  const scholarships = await prisma.scholarship.findMany({ include: { eligibility: true } });
+  await prisma.$transaction([
+    prisma.match.deleteMany({ where: { userId } }),
+    prisma.match.createMany({ data: [...programRows, ...scholarshipRows] }),
+  ]);
 
-  let scholarshipMatches = 0;
-  for (const scholarship of scholarships) {
-    const target = scholarshipToMatchTarget(scholarship);
-    const result = scoreTarget(profile, target, scholarship.verificationStatus === "VERIFIED");
-    if (result.score < MIN_SCORE_TO_STORE) continue;
-
-    const existing = await prisma.match.findFirst({ where: { userId, scholarshipId: scholarship.id } });
-    const data = {
-      score: result.score,
-      matchStrength: result.matchStrength,
-      factorScores: result.factorScores as unknown as object,
-      strengths: result.strengths,
-      missingRequirements: result.missingRequirements,
-      warnings: result.warnings,
-      recommendedActions: result.recommendedActions,
-      computedAt: new Date(),
-      engineVersion: ENGINE_VERSION,
-    };
-    if (existing) {
-      await prisma.match.update({ where: { id: existing.id }, data });
-    } else {
-      await prisma.match.create({
-        data: { userId, matchType: "SCHOLARSHIP", scholarshipId: scholarship.id, ...data },
-      });
-    }
-    scholarshipMatches += 1;
-  }
-
-  return { programMatches, scholarshipMatches };
+  return { programMatches: programRows.length, scholarshipMatches: scholarshipRows.length };
 }
 
 async function runAsCli() {
