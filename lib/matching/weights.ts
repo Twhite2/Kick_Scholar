@@ -16,4 +16,4 @@ export const DEFAULT_WEIGHTS: Record<FactorKey, number> = {
   WORK_EXPERIENCE: 0.05,
 };
 
-export const ENGINE_VERSION = "2026.08.1";
+export const ENGINE_VERSION = "2026.10.1";
