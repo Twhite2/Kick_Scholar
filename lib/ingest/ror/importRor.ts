@@ -209,13 +209,20 @@ export async function importRor(
             : {}),
         },
       });
-      await prisma.sourceCitation.create({
-        data: {
-          sourceableType: "UNIVERSITY",
-          sourceableId: existing.id,
-          sourceId: ROR_SOURCE_ID,
-          role: "CORROBORATING",
+      // Upsert: one citation per (university, source), so re-running the
+      // import refreshes it rather than stacking duplicates.
+      const citationKey = {
+        sourceableType: "UNIVERSITY" as const,
+        sourceableId: existing.id,
+        sourceId: ROR_SOURCE_ID,
+      };
+      await prisma.sourceCitation.upsert({
+        where: { sourceableType_sourceableId_sourceId: citationKey },
+        create: {
+          ...citationKey,
+          role: existing.primarySourceId === ROR_SOURCE_ID ? "PRIMARY_MATCH" : "CORROBORATING",
         },
+        update: { capturedAt: new Date() },
       });
       result.mergedOntoExisting += 1;
       continue;
