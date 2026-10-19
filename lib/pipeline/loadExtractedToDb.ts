@@ -152,6 +152,12 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
         },
       });
       universityIdByDedupeKey.set(normalized.dedupeKey, created.id);
+      await upsertCitation(prisma, {
+        sourceableType: "UNIVERSITY",
+        sourceableId: created.id,
+        sourceId: extraction.sourceId,
+        role: "PRIMARY_MATCH",
+      });
       result.universitiesCreated += 1;
     }
   }
@@ -239,6 +245,12 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
         },
       });
       programId = created.id;
+      await upsertCitation(prisma, {
+        sourceableType: "PROGRAM",
+        sourceableId: programId,
+        sourceId: extraction.sourceId,
+        role: "PRIMARY_MATCH",
+      });
       result.programsCreated += 1;
     }
 
