@@ -104,6 +104,13 @@ describe("language alternatives", () => {
     expect(languageScore([lang("English", "C1")], [{ testName: "IELTS", score: 6, cefrLevel: "B2" }]).score).toBe(20);
   });
 
+  it("answers a CEFR-only requirement from a test score", () => {
+    expect(languageScore([lang("English", "B2")], [{ testName: "IELTS", score: 7, cefrLevel: null }]).score).toBe(100);
+    expect(languageScore([lang("English", "C1")], [{ testName: "IELTS", score: 6.5, cefrLevel: null }]).score).toBe(20);
+    expect(languageScore([lang("English", "C1")], [{ testName: "TOEFL iBT", score: 100, cefrLevel: null }]).score).toBe(100);
+    expect(languageScore([lang("English", "C1")], [{ testName: "TOEFL iBT", score: 4.5, cefrLevel: null }]).score).toBe(20);
+  });
+
   it("requires every language when a programme asks for English and German", () => {
     const f = languageScore(
       [lang("IELTS Academic", "6.5"), lang("German", "B1")],

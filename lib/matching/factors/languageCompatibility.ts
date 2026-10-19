@@ -52,6 +52,32 @@ function cefrRank(text: string | null): number | null {
 }
 
 /**
+ * A student usually enters a test score, not a CEFR level, while many
+ * programmes state only "English B2". Published test→CEFR equivalences let
+ * the score answer that requirement. Each entry is [minimum score, CEFR rank].
+ */
+const SCORE_TO_CEFR: Record<string, Array<[number, number]>> = {
+  // IELTS (British Council / IDP): 4.0 B1, 5.5 B2, 7.0 C1, 8.5 C2.
+  IELTS: [[8.5, 5], [7, 4], [5.5, 3], [4, 2]],
+  // TOEFL iBT 0–120 (ETS): 42 B1, 72 B2, 95 C1, 114 C2.
+  TOEFL_LEGACY: [[114, 5], [95, 4], [72, 3], [42, 2]],
+  // TOEFL iBT 1–6 bands (2026) are aligned to CEFR: band 1 = A1 … 6 = C2.
+  TOEFL_BAND: [[6, 5], [5, 4], [4, 3], [3, 2], [2, 1], [1, 0]],
+};
+
+function studentCefrRank(p: StudentLanguageProficiencyLike): number | null {
+  const stated = cefrRank(p.cefrLevel);
+  if (stated !== null) return stated;
+  const family = testFamily(p.testName);
+  if (p.score === null || family === null) return null;
+  const table =
+    family === "IELTS" ? SCORE_TO_CEFR.IELTS
+    : family === "TOEFL" ? (p.score <= 6 ? SCORE_TO_CEFR.TOEFL_BAND : SCORE_TO_CEFR.TOEFL_LEGACY)
+    : null;
+  return table?.find(([min]) => p.score! >= min)?.[1] ?? null;
+}
+
+/**
  * TOEFL iBT moved to a 1–6 band scale in 2026; older scores run 0–120. A
  * band and a legacy score are not comparable, so the pair is skipped rather
  * than letting 100 trivially "meet" a band of 4.5.
@@ -119,7 +145,7 @@ function evaluate(alt: Alternative, proficiencies: StudentLanguageProficiencyLik
       }
     }
     if (alt.cefr !== null) {
-      const studentRank = cefrRank(p.cefrLevel);
+      const studentRank = studentCefrRank(p);
       const studentLanguage = languageOf(p.testName);
       const languageFits = !alt.language || !studentLanguage || alt.language === studentLanguage;
       if (studentRank !== null && languageFits) {
