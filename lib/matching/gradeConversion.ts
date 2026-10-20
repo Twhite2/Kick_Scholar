@@ -16,14 +16,28 @@ export type GradeScale = { kind: "german" } | { kind: "ascending"; max: number }
 
 const GERMAN_UNIT = /german/i;
 
+/** Credit counts filed as grades by the extractor (see isCreditRequirement). */
+const NOT_A_GRADE_UNIT = /credit|\bects\b(?!\s*grade)|\bcp\b/i;
+
+/** "%", "out of 5.0", "CGPA out of 4.0" or a bare "5.0" state the maximum outright. */
+function scaleMaxFromUnit(unit: string): number | null {
+  if (unit.trim() === "%") return 100;
+  const n = unit.match(/^\s*(\d+(?:[.,]\d+)?)\s*$/)?.[1] ?? unit.match(/out of\s*(\d+(?:[.,]\d+)?)/i)?.[1];
+  return n ? Number(n.replace(",", ".")) : null;
+}
+
 /**
- * Infers the scale a requirement is written on. The loader flips German-scale
+ * Infers the scale a requirement is written on, or null when the unit shows
+ * it isn't a grade at all. The loader flips German-scale
  * MIN_GPA rows to LTE/LT and labels their unit, so either signal identifies
  * one. Ascending scales are inferred from the threshold itself: a minimum of
  * 3.0 is on a 4-point scale, 7.5 on a 10-point one, 75 on a percentage.
  */
-export function requirementScale(operator: string, value: number, unit: string | null): GradeScale {
+export function requirementScale(operator: string, value: number, unit: string | null): GradeScale | null {
+  if (unit && NOT_A_GRADE_UNIT.test(unit)) return null;
   if (unit && GERMAN_UNIT.test(unit)) return { kind: "german" };
+  const statedMax = unit ? scaleMaxFromUnit(unit) : null;
+  if (statedMax !== null && value <= statedMax) return { kind: "ascending", max: statedMax };
   if ((operator === "LTE" || operator === "LT") && value >= 1 && value <= 4) return { kind: "german" };
   if (value <= 4) return { kind: "ascending", max: 4 };
   if (value <= 10) return { kind: "ascending", max: 10 };

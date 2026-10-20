@@ -25,6 +25,13 @@ describe("grade scale conversion", () => {
     expect(requirementScale("GTE", 75, null)).toEqual({ kind: "ascending", max: 100 });
   });
 
+  it("uses a scale stated in the unit and ignores credit counts", () => {
+    expect(requirementScale("GTE", 3.75, "5.0")).toEqual({ kind: "ascending", max: 5 });
+    expect(requirementScale("EQ", 2.7, "CGPA out of 4.0")).toEqual({ kind: "ascending", max: 4 });
+    expect(requirementScale("EQ", 210, "ECTS credits")).toBeNull();
+    expect(requirementScale("GTE", 80, "credit points")).toBeNull();
+  });
+
   it("converts with the modified Bavarian formula", () => {
     expect(toGermanScale(4.0, 4)).toBe(1);
     expect(toGermanScale(3.8, 4)).toBe(1.3);

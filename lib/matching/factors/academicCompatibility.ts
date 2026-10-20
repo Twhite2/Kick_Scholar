@@ -57,6 +57,14 @@ export function academicCompatibility(
     requiredValue,
     "unit" in gpaRequirement ? gpaRequirement.unit : null,
   );
+  if (scale === null) {
+    return {
+      factor: "ACADEMIC_COMPATIBILITY",
+      score: null,
+      weight: 0,
+      explanation: "No minimum GPA is published for this opportunity — cannot assess.",
+    };
+  }
   const studentGrade = convertStudentGrade(profile.currentGpa, profile.gpaScale, scale);
 
   if (studentGrade === null) {
