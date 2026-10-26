@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KickScholar
 
-## Getting Started
+Matches students to study programmes and scholarships using data crawled from
+official sources. Every fact in the product carries its source, authority
+level and verification status, so a scholarship found on an aggregator is never
+presented as if it came from the official page.
 
-First, run the development server:
+**Stack:** Next.js 16 (App Router) · Prisma 7 on PostgreSQL (`pg_trgm`) ·
+Auth.js v5 (credentials) · Python Crawl4AI crawler · OpenAI for optional
+extraction enrichment · Vitest.
+
+## Setup
+
+Requirements: Node 20+, PostgreSQL 15+, Python 3.11+ (only for crawling).
 
 ```bash
+npm install
+# create .env first (see table below)
+npx prisma migrate deploy   # apply migrations
+npx prisma generate         # client goes to lib/generated/prisma (gitignored)
+npx prisma db seed          # optional sample data
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`.env`:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Variable | Required | Purpose |
+| --- | --- | --- |
+| `DATABASE_URL` | yes | Postgres connection string |
+| `AUTH_SECRET` | yes | Auth.js session signing (`npx auth secret` generates one) |
+| `OPENAI_API_KEY` | only for `--llm` | Extraction enrichment |
+| `EXTRACTION_MODEL` | no | Defaults to `gpt-4o-mini` |
+| `KICKSCHOLAR_PYTHON` | no | Python interpreter for the crawler; defaults to `crawler/.venv` |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Crawler (only needed to fetch new pages):
 
-## Learn More
+```bash
+python -m venv crawler/.venv
+crawler/.venv/bin/pip install -r crawler/requirements.txt
+crawler/.venv/bin/playwright install chromium
+```
 
-To learn more about Next.js, take a look at the following resources:
+To make yourself an admin, set `role = 'ADMIN'` on your `User` row.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Data pipeline
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run in this order. Each step is a CLI script; most accept `--dry-run`.
 
-## Deploy on Vercel
+| Step | Command | What it does |
+| --- | --- | --- |
+| 1 | `npm run sources:sync` | Loads `data/sources/configs/*.json` into `Source` rows |
+| 2 | `npm run crawl -- <source-id> [maxPages] [--resume]` | Crawls a source into `data/raw/` (gitignored) |
+| 3 | `npm run extract -- --source-id <id> [--from-disk] [--llm] [--max-usd N]` | Parses pages into `data/extracted/<source>/*.json` (committed) |
+| 4 | `npm run ingest:ror -- [--countries DE,FI]` | Imports universities from the ROR registry |
+| 5 | `npm run pipeline:load -- data/extracted/<source>` | Loads extraction files into the database |
+| 6 | `npm run link:build` | Links scholarships to institutions (`EXPLICIT_SOURCE` vs `RULE_INFERENCE`) |
+| 7 | `npm run match:run -- <userId>` | Recomputes one student's matches (also runs on profile save) |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Re-running any step is safe: records are dedupe-matched, citations are unique
+per (record, source), and inferred links and matches are replaced, not
+appended.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Verification rules
+
+- A record from a **PRIMARY** source (the official page) is verified on insert.
+- A **SECONDARY** or **DISCOVERY** record becomes verified only when a
+  *different* PRIMARY/SECONDARY source publishes the same record
+  (`lib/verification/crossReferenceCheck.ts`), or an admin confirms it.
+- A discovery post merely linking to an official page does not count.
+- Admin decisions are never overwritten by the pipeline.
+
+## Layout
+
+```
+app/(app)        signed-in product: dashboard, programs, scholarships, applications, admin
+app/(auth)       login / signup
+lib/crawler      Node side of the crawl (spawns crawler/run_crawl.py)
+lib/extraction   parsers + LLM enrichment → ExtractionFile JSON
+lib/pipeline     loads extraction files into the database
+lib/linking      scholarship → institution links
+lib/matching     scoring engine (pure; see scoreTarget.ts)
+lib/verification cross-source verification
+prisma/          schema and migrations (some constraints are raw SQL)
+```
+
+## Checks
+
+```bash
+npm test
+npx next typegen && npx tsc --noEmit   # typegen creates the PageProps route types
+npm run lint
+```

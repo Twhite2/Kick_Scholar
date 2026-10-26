@@ -6,9 +6,20 @@ import { Antigravity } from "./antigravity";
 
 /**
  * Mouse-reactive particle background for the hero. Skipped entirely under
- * prefers-reduced-motion and on small viewports (WebGL isn't worth the
- * battery/perf cost on a phone for a decorative background).
+ * prefers-reduced-motion, on small viewports (WebGL isn't worth the
+ * battery/perf cost on a phone for a decorative background), and where the
+ * browser can't create a WebGL context (hardware acceleration off), which
+ * would otherwise throw an unhandled error from the renderer.
  */
+function supportsWebGL(): boolean {
+  try {
+    const canvas = document.createElement("canvas");
+    return Boolean(canvas.getContext("webgl2") ?? canvas.getContext("webgl"));
+  } catch {
+    return false;
+  }
+}
+
 export function HeroAntigravityBackground({
   eventSource,
 }: {
@@ -18,6 +29,7 @@ export function HeroAntigravityBackground({
   // Lazy initializer instead of reading matchMedia + setState in an effect —
   // this component only ever mounts client-side (dynamic ssr:false), so
   // `window` is always available here.
+  const [webgl] = useState(supportsWebGL);
   const [wide, setWide] = useState(() => window.matchMedia("(min-width: 640px)").matches);
 
   useEffect(() => {
@@ -27,7 +39,7 @@ export function HeroAntigravityBackground({
     return () => mql.removeEventListener("change", onChange);
   }, []);
 
-  if (reduceMotion || !wide || !eventSource) return null;
+  if (reduceMotion || !webgl || !wide || !eventSource) return null;
 
   return (
     <div className="absolute inset-0" aria-hidden>

@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { PrismaClient } from "../generated/prisma/client";
+import { PrismaClient, type Prisma } from "../generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { ExtractionFileSchema, type ExtractionFile } from "../extraction/schemas";
 import { validateProgram } from "../extraction/validate";
@@ -31,6 +31,36 @@ export interface LoadResult {
   warnings: string[];
 }
 
+type CitationInput = Omit<Prisma.SourceCitationUncheckedCreateInput, "id" | "capturedAt">;
+
+/**
+ * Records that `sourceId` states this record, once. A reload of the same
+ * source refreshes the existing citation's capture time instead of adding a
+ * second row, so citation counts mean "how many sources", not "how many runs".
+ */
+async function upsertCitation(prisma: PrismaClient, data: CitationInput) {
+  const { sourceableType, sourceableId, sourceId } = data;
+  await prisma.sourceCitation.upsert({
+    where: { sourceableType_sourceableId_sourceId: { sourceableType, sourceableId, sourceId } },
+    create: { ...data, capturedAt: new Date() },
+    update: { capturedAt: new Date() },
+  });
+}
+
+/**
+ * Citation role for a source that matched an existing record. The record's
+ * own primary source re-stating it is the same evidence again, not
+ * corroboration — only a different source can corroborate.
+ */
+function mergeRole(
+  existingPrimarySourceId: string,
+  sourceId: string,
+  matchedOn: "dedupeKey" | "name-similarity" | "canonical-url",
+) {
+  if (existingPrimarySourceId === sourceId) return "PRIMARY_MATCH" as const;
+  return matchedOn === "dedupeKey" ? ("CORROBORATING" as const) : ("PRIMARY_MATCH" as const);
+}
+
 function emptyResult(): LoadResult {
   return {
     universitiesCreated: 0,
@@ -55,8 +85,8 @@ function emptyResult(): LoadResult {
  * Given that tradeoff, this runs as a sequence of awaited, individually-
  * committed operations instead — a known simplification, not a hidden one.
  * A partial failure can leave a document partially loaded; re-running the
- * same file is safe regardless, since every insert here is dedupe-matched
- * or upserted, never blindly appended.
+ * same file is safe regardless: records are dedupe-matched, citations are
+ * upserted per (record, source), and sub-facts are replaced per source.
  */
 export async function loadExtractedFile(prisma: PrismaClient, filePath: string): Promise<LoadResult> {
   const raw = JSON.parse(await readFile(filePath, "utf-8"));
@@ -99,14 +129,11 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
         where: { id: existing.id },
         data: overwrite && normalized.description ? { description: normalized.description } : {},
       });
-      await prisma.sourceCitation.create({
-        data: {
-          sourceableType: "UNIVERSITY",
-          sourceableId: existing.id,
-          sourceId: extraction.sourceId,
-          role: candidates[0].matchedOn === "dedupeKey" ? "CORROBORATING" : "PRIMARY_MATCH",
-          capturedAt: new Date(),
-        },
+      await upsertCitation(prisma, {
+        sourceableType: "UNIVERSITY",
+        sourceableId: existing.id,
+        sourceId: extraction.sourceId,
+        role: mergeRole(existing.primarySourceId, extraction.sourceId, candidates[0].matchedOn),
       });
       result.universitiesMerged += 1;
     } else {
@@ -125,6 +152,12 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
         },
       });
       universityIdByDedupeKey.set(normalized.dedupeKey, created.id);
+      await upsertCitation(prisma, {
+        sourceableType: "UNIVERSITY",
+        sourceableId: created.id,
+        sourceId: extraction.sourceId,
+        role: "PRIMARY_MATCH",
+      });
       result.universitiesCreated += 1;
     }
   }
@@ -176,14 +209,15 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
     let programId: string;
     if (candidates.length > 0) {
       programId = candidates[0].id;
-      await prisma.sourceCitation.create({
-        data: {
-          sourceableType: "PROGRAM",
-          sourceableId: programId,
-          sourceId: extraction.sourceId,
-          role: candidates[0].matchedOn === "dedupeKey" ? "CORROBORATING" : "PRIMARY_MATCH",
-          capturedAt: new Date(),
-        },
+      const existing = await prisma.program.findUniqueOrThrow({
+        where: { id: programId },
+        select: { primarySourceId: true },
+      });
+      await upsertCitation(prisma, {
+        sourceableType: "PROGRAM",
+        sourceableId: programId,
+        sourceId: extraction.sourceId,
+        role: mergeRole(existing.primarySourceId, extraction.sourceId, candidates[0].matchedOn),
       });
       result.programsMerged += 1;
     } else {
@@ -211,6 +245,12 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
         },
       });
       programId = created.id;
+      await upsertCitation(prisma, {
+        sourceableType: "PROGRAM",
+        sourceableId: programId,
+        sourceId: extraction.sourceId,
+        role: "PRIMARY_MATCH",
+      });
       result.programsCreated += 1;
     }
 
@@ -298,23 +338,25 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
 
     // A DISCOVERY-authority scholarship is structurally prevented from also
     // being verified=true at insert time — only crossReferenceCheck (below)
-    // or an admin can flip that, once a PRIMARY/SECONDARY citation exists.
+    // or an admin can flip that, once an independent PRIMARY/SECONDARY
+    // source has published the same scholarship.
     const insertVerified = authorityLevel === "PRIMARY";
 
     let scholarshipId: string;
     if (candidates.length > 0) {
       scholarshipId = candidates[0].id;
-      await prisma.sourceCitation.create({
-        data: {
-          sourceableType: "SCHOLARSHIP",
-          sourceableId: scholarshipId,
-          sourceId: extraction.sourceId,
-          discoveredFrom: normalized.discoveredFrom,
-          discoveryUrl: normalized.discoveryUrl,
-          officialSourceUrl: normalized.officialSourceUrl,
-          role: candidates[0].matchedOn === "dedupeKey" ? "CORROBORATING" : "PRIMARY_MATCH",
-          capturedAt: new Date(),
-        },
+      const existing = await prisma.scholarship.findUniqueOrThrow({
+        where: { id: scholarshipId },
+        select: { primarySourceId: true },
+      });
+      await upsertCitation(prisma, {
+        sourceableType: "SCHOLARSHIP",
+        sourceableId: scholarshipId,
+        sourceId: extraction.sourceId,
+        discoveredFrom: normalized.discoveredFrom,
+        discoveryUrl: normalized.discoveryUrl,
+        officialSourceUrl: normalized.officialSourceUrl,
+        role: mergeRole(existing.primarySourceId, extraction.sourceId, candidates[0].matchedOn),
       });
       result.scholarshipsMerged += 1;
     } else {
@@ -344,46 +386,21 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
       scholarshipId = created.id;
       result.scholarshipsCreated += 1;
 
-      await prisma.sourceCitation.create({
-        data: {
-          sourceableType: "SCHOLARSHIP",
-          sourceableId: scholarshipId,
-          sourceId: extraction.sourceId,
-          discoveredFrom: normalized.discoveredFrom,
-          discoveryUrl: normalized.discoveryUrl,
-          officialSourceUrl: normalized.officialSourceUrl,
-          role: "PRIMARY_MATCH",
-          capturedAt: new Date(),
-        },
+      await upsertCitation(prisma, {
+        sourceableType: "SCHOLARSHIP",
+        sourceableId: scholarshipId,
+        sourceId: extraction.sourceId,
+        discoveredFrom: normalized.discoveredFrom,
+        discoveryUrl: normalized.discoveryUrl,
+        officialSourceUrl: normalized.officialSourceUrl,
+        role: "PRIMARY_MATCH",
       });
 
-      // If the discovery post cites an official page whose domain matches a
-      // PRIMARY source we already recognize in the registry, record that as
-      // a corroborating citation from that source — the real signal
-      // crossReferenceCheck looks for below. This does not trust the
-      // discovery post's own restatement of facts; it only recognizes that
-      // an independently-registered PRIMARY source was cited.
-      if (normalized.officialSourceUrl) {
-        const officialHost = new URL(normalized.officialSourceUrl).hostname.replace(/^www\./, "");
-        const corroboratingSource = configs.find(
-          (c) =>
-            c.id !== extraction.sourceId &&
-            (c.authorityLevel === "PRIMARY" || c.authorityLevel === "SECONDARY") &&
-            new URL(c.baseUrl).hostname.replace(/^www\./, "") === officialHost,
-        );
-        if (corroboratingSource) {
-          await prisma.sourceCitation.create({
-            data: {
-              sourceableType: "SCHOLARSHIP",
-              sourceableId: scholarshipId,
-              sourceId: corroboratingSource.id,
-              officialSourceUrl: normalized.officialSourceUrl,
-              role: "CORROBORATING",
-              capturedAt: new Date(),
-            },
-          });
-        }
-      }
+      // A discovery post linking to an official page is NOT corroboration:
+      // nothing from that page has been read. officialSourceUrl is kept above
+      // as a lead for the admin queue; the record only becomes verified when
+      // the official source's own extraction merges onto it, or an admin
+      // confirms it by hand.
     }
 
     // Same idempotency rule as programme sub-facts above: this source's own

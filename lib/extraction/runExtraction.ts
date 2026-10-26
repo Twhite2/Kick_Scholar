@@ -38,10 +38,10 @@ export interface ExtractionRunResult {
  * Applies deterministic parsers to crawled SourceDocuments and writes
  * data/extracted/<sourceId>/<id>.json files.
  *
- * Parser-only by design right now: this runs at zero API cost and proves the
- * crawl → extract → load path end to end. An LLM fallback slots in later for
- * the fields reported in `unfilledCounts` without changing anything
- * downstream, because every extractor emits the same ExtractionFile shape.
+ * Parsers run first at zero API cost. With --llm, the prose fields they
+ * report in `unfilledCounts` are sent to the model (llm/openaiExtractor.ts),
+ * and every returned fact must carry a verbatim quote from the page. Both
+ * paths emit the same ExtractionFile shape, so nothing downstream changes.
  */
 interface DiskDocument {
   id: string;
