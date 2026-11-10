@@ -57,3 +57,7 @@ __pycache__/
 
 # DiscoverUni/KIS dataset download - 426 MB, fetched from HESA, not committed.
 /on_*/
+
+# Locally stored institution media (logos, covers) and media script reports.
+/public/media/
+/tmp/

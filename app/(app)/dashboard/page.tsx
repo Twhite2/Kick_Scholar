@@ -144,7 +144,18 @@ export default async function HomePage() {
             )}
 
             {feed.closingSoon.length > 0 && (
-              <Rail id="closing" title="Closing soon" prevLabel="Earlier deadlines" nextLabel="Later deadlines" gap={18}>
+              <Rail
+                id="closing"
+                title="Closing soon"
+                description={
+                  <a href="/api/calendar/deadlines.ics" className="font-bold text-kick-blue underline-offset-2 hover:underline">
+                    Add deadlines to calendar
+                  </a>
+                }
+                prevLabel="Earlier deadlines"
+                nextLabel="Later deadlines"
+                gap={18}
+              >
                 {feed.closingSoon.map((item) => (
                   <DeadlineTicket key={item.id} item={item} now={now} />
                 ))}
