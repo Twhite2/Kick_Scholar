@@ -26,8 +26,7 @@ export function EligibilitySection() {
       <div className="grid gap-12 md:grid-cols-2 md:items-center">
         <Reveal>
           <h2 className="text-3xl font-semibold tracking-tight text-balance md:text-4xl">
-            Don&apos;t just find opportunities.{" "}
-            <span className="text-kick-blue">Understand why you qualify.</span>
+            Don&apos;t just find opportunities. Understand why you qualify.
           </h2>
           <p className="mt-4 max-w-md text-muted-foreground">
             Every match is broken down requirement by requirement, so you

@@ -71,6 +71,8 @@ const getProgramme = cache(async (id: string) =>
 );
 
 export async function generateMetadata({ params }: PageProps<"/programs/[id]">): Promise<Metadata> {
+  // Metadata renders alongside the page, so it checks the session itself.
+  if (!(await auth())?.user) return { title: "Programme" };
   const { id } = await params;
   const p = await getProgramme(id);
   return { title: p ? `${p.name} at ${p.university.name}` : "Programme not found" };

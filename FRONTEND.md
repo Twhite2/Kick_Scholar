@@ -76,25 +76,33 @@ KickScholar should have its own visual identity.
 COLOR SYSTEM
 ==================================================
 
-Preserve the existing KickScholar color direction.
+Preserve the existing KickScholar color direction. The shipped palette is the
+source of truth (updated for the UI remodel; full token list in
+docs/ui-remodel.md §5.1):
 
-Primary:
-#211D71
+Kick Blue (primary, discovery, actions):
+#0B4F8C
 
-Success:
-#00A54F
+Kick Green (money, qualification):
+#2E8B57  (icons, bars and text of 24px or more; use #1F7A4D for smaller text)
 
-Destructive/accent:
-#ED1D25
+Kick Red (deadlines, missing requirements):
+#C62828
 
-Background:
+Night (immersive surfaces: Home billboard, detail banners):
+#071D33
+
+Paper (page background):
+#F3F5F8
+
+Card:
 #FFFFFF
 
-Muted background:
-#F4F4F8
+Line (hairlines, borders):
+#E4E9EF
 
-Border:
-#E6E5F0
+The earlier spec values (#211D71, #00A54F, #ED1D25) were never shipped and are
+retired.
 
 The screenshot currently uses a blue/green visual identity.
 

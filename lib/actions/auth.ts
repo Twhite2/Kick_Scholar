@@ -19,6 +19,16 @@ const loginSchema = z.object({
 
 export type AuthActionState = { error?: string } | undefined;
 
+/**
+ * Where to go after signing in. Only same-site paths are honoured, so a
+ * crafted ?next=https://evil.example can't turn sign-in into an open redirect.
+ */
+function safeNext(value: FormDataEntryValue | null): string {
+  const next = typeof value === "string" ? value : "";
+  if (!next.startsWith("/") || next.startsWith("//") || next.startsWith("/\\")) return "/dashboard";
+  return next;
+}
+
 export async function signup(
   _prevState: AuthActionState,
   formData: FormData,
@@ -68,7 +78,7 @@ export async function login(
     await signIn("credentials", {
       email: parsed.data.email,
       password: parsed.data.password,
-      redirectTo: "/dashboard",
+      redirectTo: safeNext(formData.get("next")),
     });
   } catch (error) {
     if (error instanceof AuthError) {

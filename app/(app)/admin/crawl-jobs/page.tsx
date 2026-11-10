@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
+import { requireAdmin } from "@/lib/auth-guards";
 import { prisma } from "@/lib/db";
-import { Badge } from "@/components/ui/badge";
-import { Mono } from "@/components/ui/mono";
+import { humanise } from "@/lib/ui/text";
+import { formatCount } from "@/lib/ui/format";
+import { cn } from "@/lib/utils";
+
+export const metadata: Metadata = { title: "Crawl jobs" };
+
+const th = "px-4 py-3 text-left text-[13px] font-bold text-ink-3";
 
 export default async function AdminCrawlJobsPage() {
+  await requireAdmin();
   const jobs = await prisma.crawlJob.findMany({
     include: { source: true },
     orderBy: { startedAt: "desc" },
@@ -10,50 +18,49 @@ export default async function AdminCrawlJobsPage() {
   });
 
   return (
-    <div className="overflow-x-auto rounded-2xl border border-border">
-      <table className="w-full text-sm">
-        <thead className="border-b border-border bg-surface text-left text-xs text-muted-foreground uppercase">
+    <div className="overflow-x-auto rounded-panel bg-white shadow-hairline">
+      <table className="w-full min-w-[720px] text-[15px]">
+        <thead className="border-b border-line">
           <tr>
-            <th className="px-4 py-3 font-medium">Source</th>
-            <th className="px-4 py-3 font-medium">Status</th>
-            <th className="px-4 py-3 font-medium">Started</th>
-            <th className="px-4 py-3 font-medium">Pages Crawled</th>
-            <th className="px-4 py-3 font-medium">Failed</th>
-            <th className="px-4 py-3 font-medium">New Docs</th>
+            <th scope="col" className={th}>Source</th>
+            <th scope="col" className={th}>Status</th>
+            <th scope="col" className={th}>Started</th>
+            <th scope="col" className={th}>Pages crawled</th>
+            <th scope="col" className={th}>Failed</th>
+            <th scope="col" className={th}>New documents</th>
           </tr>
         </thead>
-        <tbody className="divide-y divide-border">
+        <tbody className="divide-y divide-line">
           {jobs.length === 0 && (
             <tr>
-              <td colSpan={6} className="px-4 py-8 text-center text-muted-foreground">
+              <td colSpan={6} className="px-4 py-10 text-center text-ink-3">
                 No crawl jobs yet.
               </td>
             </tr>
           )}
           {jobs.map((j) => (
             <tr key={j.id}>
-              <td className="px-4 py-3 font-medium">{j.source.name}</td>
+              <td className="px-4 py-3 font-bold text-ink">{j.source.name}</td>
               <td className="px-4 py-3">
-                <Badge
-                  className={
+                <span
+                  className={cn(
+                    "inline-flex h-7 items-center rounded-full px-2.5 type-caption",
                     j.status === "SUCCESS"
-                      ? "bg-success/10 text-success"
+                      ? "bg-green-tint text-green-text"
                       : j.status === "FAILED"
-                        ? "bg-destructive/10 text-destructive"
+                        ? "bg-red-tint text-red-text"
                         : j.status === "PARTIAL"
-                          ? "bg-primary/10 text-primary"
-                          : "bg-muted text-muted-foreground"
-                  }
+                          ? "bg-blue-tint text-kick-blue"
+                          : "bg-grey-tint text-slate",
+                  )}
                 >
-                  {j.status}
-                </Badge>
+                  {humanise(j.status)}
+                </span>
               </td>
-              <td className="px-4 py-3">
-                <Mono className="text-xs text-muted-foreground">{j.startedAt.toLocaleString()}</Mono>
-              </td>
-              <td className="px-4 py-3"><Mono className="text-xs">{j.pagesCrawled}</Mono></td>
-              <td className="px-4 py-3"><Mono className="text-xs">{j.pagesFailed}</Mono></td>
-              <td className="px-4 py-3"><Mono className="text-xs">{j.newDocuments}</Mono></td>
+              <td className="px-4 py-3 font-mono text-sm text-ink-3">{j.startedAt.toLocaleString("en-GB")}</td>
+              <td className="px-4 py-3 text-sm tabular-nums">{formatCount(j.pagesCrawled)}</td>
+              <td className="px-4 py-3 text-sm tabular-nums">{formatCount(j.pagesFailed)}</td>
+              <td className="px-4 py-3 text-sm tabular-nums">{formatCount(j.newDocuments)}</td>
             </tr>
           ))}
         </tbody>

@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
+import { requireAdmin } from "@/lib/auth-guards";
 import { prisma } from "@/lib/db";
 import { VerificationQueueRow } from "@/components/admin/verification-queue-row";
+import { plural } from "@/lib/ui/format";
+
+export const metadata: Metadata = { title: "Verification queue" };
+
+const th = "px-4 py-3 text-left text-[13px] font-bold text-ink-3";
 
 export default async function AdminVerificationPage() {
+  await requireAdmin();
   const scholarships = await prisma.scholarship.findMany({
     where: { verificationStatus: { in: ["UNVERIFIED", "PENDING_VERIFICATION", "CONFLICTING"] } },
     orderBy: { createdAt: "desc" },
@@ -9,28 +17,28 @@ export default async function AdminVerificationPage() {
 
   return (
     <div>
-      <p className="mb-4 text-sm text-muted-foreground">
-        {scholarships.length} scholarship{scholarships.length === 1 ? "" : "s"} awaiting verification.
-        &quot;Re-check&quot; re-runs the same cross-reference logic the ingestion pipeline uses; &quot;Verify&quot;/&quot;Reject&quot;
-        are manual admin overrides.
+      <p className="mb-4 max-w-[80ch] text-[15px] text-ink-2">
+        {plural(scholarships.length, "scholarship")} awaiting verification. &ldquo;Re-check&rdquo; re-runs the same
+        cross-reference logic the ingestion pipeline uses; &ldquo;Verify&rdquo; and &ldquo;Reject&rdquo; are manual admin
+        overrides.
       </p>
       {scholarships.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
+        <div className="rounded-panel border border-dashed border-line-strong bg-white p-12 text-center text-ink-3">
           Nothing pending — every scholarship is verified or rejected.
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-2xl border border-border">
-          <table className="w-full text-sm">
-            <thead className="border-b border-border bg-surface text-left text-xs text-muted-foreground uppercase">
+        <div className="overflow-x-auto rounded-panel bg-white shadow-hairline">
+          <table className="w-full min-w-[880px] text-[15px]">
+            <thead className="border-b border-line">
               <tr>
-                <th className="px-4 py-3 font-medium">Scholarship</th>
-                <th className="px-4 py-3 font-medium">Authority</th>
-                <th className="px-4 py-3 font-medium">Status</th>
-                <th className="px-4 py-3 font-medium">Official Source</th>
-                <th className="px-4 py-3 font-medium">Actions</th>
+                <th scope="col" className={th}>Scholarship</th>
+                <th scope="col" className={th}>Authority</th>
+                <th scope="col" className={th}>Status</th>
+                <th scope="col" className={th}>Official source</th>
+                <th scope="col" className={th}>Actions</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-border">
+            <tbody className="divide-y divide-line">
               {scholarships.map((s) => (
                 <VerificationQueueRow
                   key={s.id}

@@ -30,6 +30,12 @@ export function HeroAntigravityBackground({
   // this component only ever mounts client-side (dynamic ssr:false), so
   // `window` is always available here.
   const [webgl] = useState(supportsWebGL);
+  // Data saver: the same cookie the app uses, or the browser's own setting.
+  const [saver] = useState(() => {
+    const cookie = /(?:^|;\s*)ks_ds=1(?:;|$)/.test(document.cookie);
+    const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+    return cookie || Boolean(conn?.saveData);
+  });
   const [wide, setWide] = useState(() => window.matchMedia("(min-width: 640px)").matches);
 
   useEffect(() => {
@@ -39,7 +45,7 @@ export function HeroAntigravityBackground({
     return () => mql.removeEventListener("change", onChange);
   }, []);
 
-  if (reduceMotion || !webgl || !wide || !eventSource) return null;
+  if (reduceMotion || saver || !webgl || !wide || !eventSource) return null;
 
   return (
     <div className="absolute inset-0" aria-hidden>
@@ -52,7 +58,7 @@ export function HeroAntigravityBackground({
         waveAmplitude={1.1}
         particleSize={1.6}
         lerpSpeed={0.08}
-        colors={["#0b4f8c", "#2e8b57", "#3d8bd1"]}
+        colors={["#9CC8F2", "#6FD39B", "#3D8BD1"]}
         autoAnimate
         rotationSpeed={0.06}
         depthFactor={0.6}

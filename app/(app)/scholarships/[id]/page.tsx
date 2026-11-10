@@ -60,6 +60,8 @@ const getScholarship = cache(async (id: string) =>
 );
 
 export async function generateMetadata({ params }: PageProps<"/scholarships/[id]">): Promise<Metadata> {
+  // Metadata renders alongside the page, so it checks the session itself.
+  if (!(await auth())?.user) return { title: "Scholarship" };
   const { id } = await params;
   const s = await getScholarship(id);
   return { title: s ? s.name : "Scholarship not found" };

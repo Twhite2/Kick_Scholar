@@ -225,21 +225,23 @@ export function KeyDates({ dates, intakes, now }: { dates: KeyDate[]; intakes: s
         Key dates
       </h2>
       <ol className="mt-4 space-y-0">
+        {/* A real timeline: what has passed, then "you are here", then what's ahead. */}
+        {dated
+          .filter((d) => d.date! < nowIso)
+          .map((d) => (
+            <TimelineItem key={`${d.label}-${d.date}`} label={d.label} date={formatFullDate(d.date!)} past />
+          ))}
         <TimelineItem
           filled
           label="You are here"
           date={`Today, ${formatFullDate(now).replace(/ \d{4}$/, "")}`}
-          last={dated.length === 0}
+          last={!dated.some((d) => d.date! >= nowIso)}
         />
-        {dated.map((d, i) => (
-          <TimelineItem
-            key={`${d.label}-${d.date}`}
-            label={d.label}
-            date={formatFullDate(d.date!)}
-            past={d.date! < nowIso}
-            last={i === dated.length - 1}
-          />
-        ))}
+        {dated
+          .filter((d) => d.date! >= nowIso)
+          .map((d, i, upcoming) => (
+            <TimelineItem key={`${d.label}-${d.date}`} label={d.label} date={formatFullDate(d.date!)} last={i === upcoming.length - 1} />
+          ))}
       </ol>
       {(undated.length > 0 || intakes.length > 0) && (
         <div className="mt-4 space-y-1.5 border-t border-line pt-4 text-sm text-ink-2">

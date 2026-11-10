@@ -17,6 +17,10 @@ const sans = Atkinson_Hyperlegible_Next({
   subsets: ["latin"],
   variable: "--font-atkinson",
   display: "swap",
+  // next/font has no metric overrides for this family yet, so name a plain
+  // system fallback rather than a mis-sized adjusted one.
+  adjustFontFallback: false,
+  fallback: ["system-ui", "Segoe UI", "Arial", "sans-serif"],
 });
 
 export const metadata: Metadata = {

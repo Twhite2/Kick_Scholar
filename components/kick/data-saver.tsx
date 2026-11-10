@@ -40,24 +40,29 @@ export function DataSaverProvider({
   children: React.ReactNode;
 }) {
   const router = useRouter();
-  const [on, setOnState] = useState(initialOn);
+  // The server's value, unless the student has just flipped the switch.
+  const [override, setOverride] = useState<boolean | null>(null);
+  const on = override ?? initialOn;
   const [pending, startTransition] = useTransition();
 
   const setOn = useCallback(
     (next: boolean) => {
-      setOnState(next);
+      setOverride(next);
       writeCookie(next);
       startTransition(() => router.refresh());
     },
     [router],
   );
 
-  // No cookie yet and the browser says it is saving data: turn it on once.
+  // No cookie yet and the browser says it is saving data: record that and
+  // re-render on the server, which then sends the light markup.
   useEffect(() => {
     if (hasChoice || initialOn) return;
     const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
-    if (connection?.saveData) setOn(true);
-  }, [hasChoice, initialOn, setOn]);
+    if (!connection?.saveData) return;
+    writeCookie(true);
+    router.refresh();
+  }, [hasChoice, initialOn, router]);
 
   return <Ctx.Provider value={{ on, pending, setOn }}>{children}</Ctx.Provider>;
 }
