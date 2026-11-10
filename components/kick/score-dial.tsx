@@ -20,10 +20,14 @@ export function ScoreDial({
   size,
   tone = "light",
   animate = true,
+  label,
   className,
 }: {
   score: number;
-  strength: Strength;
+  /** Drives colour and the spoken strength. Omit for averages, which have none. */
+  strength?: Strength;
+  /** Accessible name when there is no strength (e.g. an average). */
+  label?: string;
   size: DialSize;
   tone?: "light" | "night";
   animate?: boolean;
@@ -32,12 +36,18 @@ export function ScoreDial({
   const { r, stroke, font } = GEOMETRY[size];
   const c = size / 2;
   const value = Math.max(0, Math.min(100, Math.round(score)));
-  const accent = tone === "night" ? STRENGTH_ACCENT_NIGHT[strength] : STRENGTH_ACCENT[strength];
+  const accent = strength
+    ? tone === "night"
+      ? STRENGTH_ACCENT_NIGHT[strength]
+      : STRENGTH_ACCENT[strength]
+    : tone === "night"
+      ? "var(--on-night-link)"
+      : "var(--kick-blue)";
 
   return (
     <div
       role="img"
-      aria-label={dialLabel(value, strength)}
+      aria-label={strength ? dialLabel(value, strength) : (label ?? `${value} percent`)}
       className={cn(
         "relative inline-flex shrink-0 items-center justify-center rounded-full",
         tone === "light" && "bg-white shadow-tile-on-image",

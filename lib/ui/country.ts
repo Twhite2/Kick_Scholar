@@ -92,3 +92,14 @@ export function destinationScene(code: string | null | undefined): SceneName {
 export function sceneUrl(scene: SceneName): string {
   return `/scenes/${scene}.svg`;
 }
+
+/**
+ * Every country as an English (en-GB) name, sorted — the values the
+ * nationality picker stores. The matcher compares nationality to source
+ * country names case-insensitively ("Nigeria"), so names, not codes.
+ */
+export function countryNameOptions(codes: readonly string[]): string[] {
+  return [...new Set(codes.map((c) => countryName(c)).filter((n) => n && !/^[A-Z]{2}$/.test(n)))].sort((a, b) =>
+    a.localeCompare(b, "en-GB"),
+  );
+}
