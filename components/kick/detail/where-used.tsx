@@ -87,7 +87,7 @@ export function WhereUsed({
         <div>
           <h3 className="text-base font-bold text-ink">Officially linked to</h3>
           <p className="mt-0.5 text-sm text-ink-3">Named directly by the source.</p>
-          <ul role="list" className="mt-3 grid gap-2.5 md:grid-cols-2">
+          <ul role="list" className="mt-3 grid grid-cols-1 gap-2.5 md:grid-cols-2">
             {explicit.slice(0, PREVIEW).map((r) => (
               <li key={r.id}>
                 <Row row={r} />
@@ -107,7 +107,7 @@ export function WhereUsed({
             {ruleParts.length > 0 ? ` (${ruleParts.join(" · ")})` : ""} — not confirmed by the provider. Check with the
             institution before applying.
           </p>
-          <ul role="list" className="mt-3 grid gap-2.5 md:grid-cols-2">
+          <ul role="list" className="mt-3 grid grid-cols-1 gap-2.5 md:grid-cols-2">
             {inferred.slice(0, PREVIEW).map((r) => (
               <li key={r.id}>
                 <Row row={r} />

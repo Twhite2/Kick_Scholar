@@ -107,10 +107,11 @@ export function MatchPosterCard({
           >
             <p className="flex min-w-0 items-center gap-2 type-meta text-ink-3">
               <CountryFlag code={inst.countryCode} />
-              <span className="truncate">
-                {inst.name}
-                <span className="sr-only">{place ? `, ${place}` : ""}</span>
-              </span>
+              <span className="truncate">{inst.name}</span>
+              {/* Outside the truncated span: an absolutely positioned sr-only
+                  element inside it sits at the end of the full text and
+                  widens the page. */}
+              {place && <span className="sr-only">, {place}</span>}
             </p>
             <ul className="mt-auto flex flex-col gap-1.5 type-meta" role="list">
               {card.bestFunding && (

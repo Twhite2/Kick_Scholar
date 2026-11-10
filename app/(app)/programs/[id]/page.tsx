@@ -283,7 +283,7 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
         </div>
       </div>
 
-      <div className="mx-auto max-w-[1328px] px-gutter">
+      <div className="box-content max-w-[1328px] px-gutter">
         <FactGrid facts={facts} className="mt-6" />
 
         <div className="mt-6 flex flex-wrap items-start gap-6">

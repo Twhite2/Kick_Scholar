@@ -165,7 +165,7 @@ export default async function UniversityPage({ params, searchParams }: PageProps
         photoHref={`/institutions/${id}?photo=1`}
       />
 
-      <div className="mx-auto max-w-[1328px] px-gutter">
+      <div className="box-content max-w-[1328px] px-gutter">
         <div className="mt-6 grid gap-3 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
           <FactGrid facts={facts} className="contents" />
           {university.rorId && (
@@ -195,7 +195,7 @@ export default async function UniversityPage({ params, searchParams }: PageProps
         </div>
       )}
 
-      <div className="mx-auto mt-12 flex max-w-[1328px] flex-col gap-6 px-gutter">
+      <div className="box-content mt-12 flex max-w-[1328px] flex-col gap-6 px-gutter">
         <Panel id="programmes" title="All programmes">
           {university.programs.length === 0 ? (
             <p className="text-[15px] text-ink-3">
@@ -203,7 +203,7 @@ export default async function UniversityPage({ params, searchParams }: PageProps
             </p>
           ) : (
             <>
-              <ul role="list" className="grid gap-2.5 md:grid-cols-2">
+              <ul role="list" className="grid grid-cols-1 gap-2.5 md:grid-cols-2">
                 {university.programs.map((p) => (
                   <li key={p.id}>
                     <Link

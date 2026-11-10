@@ -56,7 +56,7 @@ export function PosterGridSkeleton({ count = 8 }: { count?: number }) {
   return (
     <div
       aria-hidden="true"
-      className="mx-auto grid max-w-[1328px] gap-5 px-gutter [grid-template-columns:repeat(auto-fill,minmax(240px,1fr))]"
+      className="box-content grid max-w-[1328px] gap-5 px-gutter [grid-template-columns:repeat(auto-fill,minmax(240px,1fr))]"
     >
       {Array.from({ length: count }, (_, i) => (
         <Skeleton key={i} className="aspect-[272/384] rounded-poster" />
