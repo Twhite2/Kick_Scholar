@@ -362,6 +362,26 @@ model University {
   logoUrl       String?
   description   String?
   accreditation String[]
+
+  // Media for the UI, filled by scripts/enrich-institution-media.ts. URLs
+  // point at our own storage, never at the third-party origin. Cover credit
+  // and licence are kept because Commons images require attribution.
+  logoSource      String? // 'wikidata' | 'logo.dev' | 'brandfetch' | 'manual'
+  logoCheckedAt   DateTime?
+  coverUrl        String?
+  coverWidth      Int?
+  coverHeight     Int?
+  coverColor      String? // #RRGGBB average colour, shown while the image loads
+  coverCredit     String?
+  coverLicense    String?
+  coverLicenseUrl String?
+  coverSourceUrl  String?
+  coverCheckedAt  DateTime?
+  wikidataId      String?
+  domain          String?
+  acronym         String?
+  // Set by an admin override; the media script never overwrites locked rows.
+  mediaLocked     Boolean   @default(false)
   contactEmail  String?
 
   // Stable external identity from the Research Organization Registry (CC0).
@@ -648,6 +668,9 @@ model User {
   role          UserRole  @default(STUDENT)
   emailVerified DateTime?
   image         String?
+  // When the student last opened Home. Read before it is updated, so "new
+  // since your last visit" counts survive a refresh (see lib/home).
+  homeLastVisitedAt DateTime?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
