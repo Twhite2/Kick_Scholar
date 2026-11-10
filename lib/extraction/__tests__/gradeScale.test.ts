@@ -16,6 +16,15 @@ const req = (over: Partial<Parameters<typeof normaliseGradeDirection>[0]> = {}) 
 });
 
 describe("normaliseGradeDirection", () => {
+  it("moves a credit count filed as a grade to DEGREE_PREREQUISITE", () => {
+    const { requirement, corrected } = normaliseGradeDirection(
+      req({ operator: "EQ", value: "210", unit: "ECTS credits", sourceQuote: "a Bachelor's degree with 210 ECTS credits" }),
+    );
+    expect(corrected).toBe(true);
+    expect(requirement.requirementType).toBe("DEGREE_PREREQUISITE");
+    expect(normaliseGradeDirection(req({ value: "B", unit: "ECTS grade" })).requirement.requirementType).toBe("MIN_GPA");
+  });
+
   it('flips "at least 2.7" on the German scale to a <= comparison', () => {
     const { requirement, corrected } = normaliseGradeDirection(req());
     expect(corrected).toBe(true);

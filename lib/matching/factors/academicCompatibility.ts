@@ -1,26 +1,13 @@
 import type { FactorScore, MatchTarget, StudentProfileForMatching } from "../types";
 import { compareNumeric } from "../compare";
+import { convertStudentGrade, requirementScale } from "../gradeConversion";
 
 /**
  * Compares the student's GPA against any stated MIN_GPA requirement or
- * eligibility criterion. Trusts the requirement's operator direction as
- * extracted (e.g. LTE for an inverted German 1.0-best scale) rather than
- * re-deriving grade-scale semantics here — see extraction's sourceQuote
- * discipline for why that's the right layer to get this correct.
- *
- * KNOWN LIMITATION: StudentProfile.currentGpa is a single raw number with no
- * semantic scale tag (just a numeric gpaScale like 4.0), so this factor
- * cannot tell whether a given requirement expects a standard 4.0-best scale
- * or an inverted one (e.g. German 1.0-best/4.0-pass) different from the
- * student's own. Comparing one currentGpa value against requirements from
- * sources with incompatible scale conventions can silently produce a wrong
- * verdict. Confirmed against real data: the same profile GPA correctly
- * passed a German-scale LTE requirement and correctly failed a standard-
- * scale GTE requirement it should have passed, for the right reason by
- * accident rather than a real scale-aware comparison. Fixing this properly
- * needs StudentProfile to capture which scale convention the student's GPA
- * is in (or a per-requirement scale-conversion step in normalization) —
- * out of scope for the MVP matching engine.
+ * eligibility criterion, after converting the student's grade onto the
+ * requirement's scale (see gradeConversion.ts). Trusts the requirement's
+ * operator direction as extracted — German-scale rows arrive as LTE/LT,
+ * corrected at load time by normaliseGradeDirections.
  */
 export function academicCompatibility(
   profile: StudentProfileForMatching,
@@ -50,8 +37,48 @@ export function academicCompatibility(
   }
 
   const requiredValue =
-    "value" in gpaRequirement ? Number(gpaRequirement.value) : (gpaRequirement.numericValue ?? NaN);
-  const meets = compareNumeric(gpaRequirement.operator, requiredValue, profile.currentGpa);
+    "value" in gpaRequirement
+      ? Number(gpaRequirement.value.replace(",", "."))
+      : (gpaRequirement.numericValue ?? NaN);
+
+  // A value like "2.5 (German scale)" used to become NaN and compare false,
+  // telling the student they'd failed a requirement nobody evaluated.
+  if (!Number.isFinite(requiredValue)) {
+    return {
+      factor: "ACADEMIC_COMPATIBILITY",
+      score: null,
+      weight: 0,
+      explanation: "A GPA requirement is stated but its value couldn't be read — check the official page.",
+    };
+  }
+
+  const scale = requirementScale(
+    gpaRequirement.operator,
+    requiredValue,
+    "unit" in gpaRequirement ? gpaRequirement.unit : null,
+  );
+  if (scale === null) {
+    return {
+      factor: "ACADEMIC_COMPATIBILITY",
+      score: null,
+      weight: 0,
+      explanation: "No minimum GPA is published for this opportunity — cannot assess.",
+    };
+  }
+  const studentGrade = convertStudentGrade(profile.currentGpa, profile.gpaScale, scale);
+
+  if (studentGrade === null) {
+    return {
+      factor: "ACADEMIC_COMPATIBILITY",
+      score: null,
+      weight: 0,
+      explanation:
+        "This GPA requirement uses the German scale (1.0 best). Add your GPA scale to your profile so we can convert your grade.",
+      missingProfileData: "GPA scale",
+    };
+  }
+
+  const meets = compareNumeric(gpaRequirement.operator, requiredValue, studentGrade);
 
   if (meets === null) {
     return {
@@ -62,12 +89,18 @@ export function academicCompatibility(
     };
   }
 
+  const scaleName = scale.kind === "german" ? "the German scale" : `a ${scale.max}-point scale`;
+  const yours =
+    studentGrade === profile.currentGpa
+      ? `Your GPA (${profile.currentGpa})`
+      : `Your GPA (${profile.currentGpa}, about ${studentGrade} on ${scaleName})`;
+
   return {
     factor: "ACADEMIC_COMPATIBILITY",
     score: meets ? 100 : 30,
     weight: 0,
     explanation: meets
-      ? `Your GPA (${profile.currentGpa}) meets the stated requirement.`
-      : `Your GPA (${profile.currentGpa}) does not meet the stated requirement (${gpaRequirement.operator} ${requiredValue}).`,
+      ? `${yours} meets the stated requirement.`
+      : `${yours} does not meet the stated requirement (${gpaRequirement.operator} ${requiredValue}).`,
   };
 }

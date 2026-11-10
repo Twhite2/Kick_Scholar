@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { TARGET_COUNTRIES } from "@/lib/constants/countries";
 
 // Lives outside lib/actions/profile.ts on purpose: a "use server" file may
 // only export async functions — a zod schema (or any other value) exported
@@ -26,7 +27,9 @@ export const profileInputSchema = z.object({
     .enum(["HIGH_SCHOOL", "BACHELOR", "MASTER", "PHD", "DIPLOMA", "CERTIFICATE", "OTHER"])
     .nullable(),
   desiredFields: z.array(z.string()),
-  preferredCountries: z.array(z.string()),
+  preferredCountries: z.array(
+    z.string().refine((code) => code in TARGET_COUNTRIES, "Unknown country code"),
+  ),
   budgetMaxPerYear: z.number().nullable(),
   budgetCurrency: z.string().nullable(),
   workExperienceMonths: z.number().nullable(),

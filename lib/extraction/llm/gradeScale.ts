@@ -96,6 +96,18 @@ export function isGermanScaleGrade(req: GradeRequirementLike): boolean {
 }
 
 /**
+ * "210 ECTS credits" or "80 credit points" from a previous degree is a size
+ * requirement, not a grade, but the model sometimes files it as MIN_GPA.
+ * Left there, matching read 210 as a grade on a 100-point scale.
+ * "ECTS grade B" is a grade, hence the lookahead.
+ */
+const CREDIT_UNIT = /credit|\bects\b(?!\s*grade)|\bcp\b/i;
+
+export function isCreditRequirement(req: GradeRequirementLike): boolean {
+  return req.requirementType === "MIN_GPA" && CREDIT_UNIT.test(req.unit ?? "");
+}
+
+/**
  * Returns the requirement with its operator corrected, plus whether anything
  * changed. The quote is never touched — it stays exactly as the page wrote it,
  * so the audit trail still shows "at least 2.7" next to the LTE that actually
@@ -104,6 +116,9 @@ export function isGermanScaleGrade(req: GradeRequirementLike): boolean {
 export function normaliseGradeDirection<T extends GradeRequirementLike>(
   req: T,
 ): { requirement: T; corrected: boolean } {
+  if (isCreditRequirement(req)) {
+    return { requirement: { ...req, requirementType: "DEGREE_PREREQUISITE" }, corrected: true };
+  }
   if (!isGermanScaleGrade(req)) return { requirement: req, corrected: false };
   const flipped = FLIP[req.operator];
   if (!flipped) return { requirement: req, corrected: false };

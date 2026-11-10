@@ -8,6 +8,7 @@ import { Plus, Trash2 } from "lucide-react";
 import { updateProfile } from "@/lib/actions/profile";
 import { profileInputSchema, type ProfileInput } from "@/lib/actions/profile-schema";
 import { TARGET_COUNTRIES } from "@/lib/constants/countries";
+import { cn } from "@/lib/utils";
 import { TagInput } from "./tag-input";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -128,7 +129,7 @@ export function ProfileForm({ defaultValues }: { defaultValues: ProfileInput }) 
       <Card>
         <CardHeader>
           <CardTitle>Study preferences</CardTitle>
-          <CardDescription>What you're looking for and what you can afford.</CardDescription>
+          <CardDescription>What you&apos;re looking for and what you can afford.</CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4 sm:grid-cols-2">
           <div className="space-y-2">
@@ -168,12 +169,33 @@ export function ProfileForm({ defaultValues }: { defaultValues: ProfileInput }) 
               control={control}
               name="preferredCountries"
               render={({ field }) => (
-                <TagInput value={field.value} onChange={field.onChange} placeholder="e.g. DE, FI — press Enter" />
+                <div className="flex flex-wrap gap-2">
+                  {Object.entries(TARGET_COUNTRIES).map(([code, name]) => {
+                    const selected = field.value.includes(code);
+                    return (
+                      <button
+                        key={code}
+                        type="button"
+                        aria-pressed={selected}
+                        onClick={() =>
+                          field.onChange(
+                            selected ? field.value.filter((c) => c !== code) : [...field.value, code],
+                          )
+                        }
+                        className={cn(
+                          "rounded-full border px-3 py-1 text-sm transition-colors",
+                          selected
+                            ? "border-primary bg-primary text-primary-foreground"
+                            : "border-border hover:bg-muted",
+                        )}
+                      >
+                        {name}
+                      </button>
+                    );
+                  })}
+                </div>
               )}
             />
-            <p className="text-xs text-muted-foreground">
-              {Object.entries(TARGET_COUNTRIES).map(([code, name]) => `${code} (${name})`).join(", ")}
-            </p>
           </div>
           <div className="space-y-2">
             <Label htmlFor="budgetMaxPerYear">Max budget per year</Label>

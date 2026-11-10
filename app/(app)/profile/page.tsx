@@ -4,6 +4,7 @@ import { prisma } from "@/lib/db";
 import { ProfileForm } from "@/components/profile/profile-form";
 import { ProfileCompletionRing } from "@/components/profile/profile-completion-ring";
 import type { ProfileInput } from "@/lib/actions/profile-schema";
+import { isKnownCountry } from "@/lib/constants/countries";
 
 export default async function ProfilePage() {
   const session = await auth();
@@ -25,7 +26,11 @@ export default async function ProfilePage() {
     fieldOfStudy: profile?.fieldOfStudy ?? null,
     desiredDegreeLevel: profile?.desiredDegreeLevel ?? null,
     desiredFields: profile?.desiredFields ?? [],
-    preferredCountries: profile?.preferredCountries ?? [],
+    // Older profiles were free text ("GE", "germany"); keep only real codes so
+    // the form can still be saved.
+    preferredCountries: (profile?.preferredCountries ?? [])
+      .map((c) => c.toUpperCase())
+      .filter(isKnownCountry),
     budgetMaxPerYear: profile?.budgetMaxPerYear ? Number(profile.budgetMaxPerYear) : null,
     budgetCurrency: profile?.budgetCurrency ?? null,
     workExperienceMonths: profile?.workExperienceMonths ?? null,
