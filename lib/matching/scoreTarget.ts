@@ -6,6 +6,7 @@ import { languageCompatibility } from "./factors/languageCompatibility";
 import { budgetCompatibility } from "./factors/budgetCompatibility";
 import { scholarshipCriteria } from "./factors/scholarshipCriteria";
 import { workExperience } from "./factors/workExperience";
+import { aggregateScore } from "./aggregate";
 import { classify } from "./classify";
 import { explain } from "./explain";
 import { DEFAULT_WEIGHTS, ENGINE_VERSION } from "./weights";
@@ -39,12 +40,7 @@ export function scoreTarget(
     return { ...result, weight: DEFAULT_WEIGHTS[result.factor] };
   });
 
-  const assessed = factorScores.filter((f) => f.score !== null);
-  const totalWeight = assessed.reduce((sum, f) => sum + f.weight, 0);
-  const score =
-    totalWeight > 0
-      ? Math.round(assessed.reduce((sum, f) => sum + f.score! * f.weight, 0) / totalWeight)
-      : 0;
+  const score = aggregateScore(factorScores);
 
   const matchStrength = classify(score, factorScores, isVerified);
   const { strengths, missingRequirements, warnings, recommendedActions } = explain(factorScores);

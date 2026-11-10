@@ -4,12 +4,22 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Pointer devices that can hover precisely: the only place hover previews
+   open. Touch taps go straight to the page. */
+@custom-variant can-hover {
+  @media (hover: hover) and (pointer: fine) {
+    @slot;
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-mono);
-  --font-heading: var(--font-sans);
+  --font-sans: var(--font-atkinson), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-atkinson), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-display);
+  /* System monospace only: admin tables may use it for URLs and IDs. */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -41,16 +51,55 @@
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
 
-  /* KickScholar semantic colors — see the brand color language in the plan:
-     blue = discovery/navigation/primary, green = funding/qualification,
-     red = deadlines/missing requirements, white = space/clarity. */
+  /* KickScholar colour language (docs/ui-remodel.md §5.1). Colour carries
+     meaning only: blue = discovery and actions, green = money and
+     qualification, red = deadlines and missing requirements. */
   --color-success: var(--success);
   --color-success-foreground: var(--success-foreground);
-  --color-kick-blue: var(--kick-blue);
-  --color-kick-green: var(--kick-green);
-  --color-kick-red: var(--kick-red);
   --color-surface: var(--surface);
   --color-surface-alt: var(--surface-alt);
+
+  --color-night: var(--night);
+  --color-night-raised: var(--night-raised);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-track: var(--track);
+  --color-kick-blue: var(--kick-blue);
+  --color-kick-blue-hover: var(--kick-blue-hover);
+  --color-blue-tint: var(--blue-tint);
+  --color-kick-green: var(--kick-green);
+  --color-green-text: var(--green-text);
+  --color-green-tint: var(--green-tint);
+  --color-kick-red: var(--kick-red);
+  --color-red-text: var(--red-text);
+  --color-red-deep: var(--red-deep);
+  --color-red-tint: var(--red-tint);
+  --color-grey-tint: var(--grey-tint);
+  --color-slate: var(--slate);
+  --color-unverified: var(--unverified);
+  --color-on-night: var(--on-night);
+  --color-on-night-muted: var(--on-night-muted);
+  --color-on-night-success: var(--on-night-success);
+  --color-on-night-danger: var(--on-night-danger);
+  --color-on-night-link: var(--on-night-link);
+  --color-on-night-line: var(--on-night-line);
+  --color-focus: var(--focus);
+  --color-poster-full: var(--poster-full);
+  --color-poster-tuition: var(--poster-tuition);
+  --color-poster-other: var(--poster-other);
+  --color-saver-bg: var(--saver-bg);
+  --color-saver-ink: var(--saver-ink);
+
+  /* Elevation: only these five (§5.4). */
+  --shadow-hairline: 0 1px 2px rgba(7, 29, 51, 0.06), 0 0 0 1px var(--line);
+  --shadow-raised: 0 22px 48px rgba(7, 29, 51, 0.18), 0 2px 6px rgba(7, 29, 51, 0.08);
+  --shadow-preview: 0 22px 44px rgba(7, 29, 51, 0.2), 0 0 0 2px var(--kick-blue);
+  --shadow-tile-on-image: 0 0 0 1px rgba(14, 27, 42, 0.06), 0 6px 16px rgba(7, 29, 51, 0.18);
+  --shadow-tile-on-white: 0 0 0 1px #e1e6ec;
 
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
@@ -59,128 +108,284 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --radius-tile: 16px;
+  --radius-poster: 18px;
+  --radius-panel: 20px;
+  --radius-feature: 22px;
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: oklch(0.18 0.02 250);
-  --card: #ffffff;
-  --card-foreground: oklch(0.18 0.02 250);
-  --popover: #ffffff;
-  --popover-foreground: oklch(0.18 0.02 250);
-
-  /* KickScholar Blue — primary brand, discovery/navigation */
-  --primary: #0b4f8c;
-  --primary-foreground: #ffffff;
-
-  --secondary: #f4f6f8;
-  --secondary-foreground: oklch(0.18 0.02 250);
-  --muted: #f8fafc;
-  --muted-foreground: oklch(0.5 0.02 250);
-  --accent: #f4f6f8;
-  --accent-foreground: #0b4f8c;
-
-  /* KickScholar Red — deadlines / missing requirements / urgency */
-  --destructive: #c62828;
-  --destructive-foreground: #ffffff;
-
-  /* KickScholar Green — funding / qualification / positive matches */
-  --success: #2e8b57;
-  --success-foreground: #ffffff;
-
+  /* Base palette */
+  --night: #071d33;
+  --night-raised: #0d2c4a;
+  --paper: #f3f5f8;
+  --ink: #0e1b2a;
+  --ink-2: #2b3a4b;
+  --ink-3: #546477;
+  --line: #e4e9ef;
+  --line-strong: #c9d3de;
+  --track: #e5eaf0;
   --kick-blue: #0b4f8c;
+  --kick-blue-hover: #083a68;
+  --blue-tint: #e7f0f9;
+  /* Kick Green is for icons, arcs, bars and text of 24px or more (4.25:1). */
   --kick-green: #2e8b57;
+  --green-text: #1f7a4d;
+  --green-tint: #e6f4ec;
   --kick-red: #c62828;
-  --surface: #f8fafc;
-  --surface-alt: #f4f6f8;
+  --red-text: #b3261e;
+  --red-deep: #8e1f1a;
+  --red-tint: #fdecec;
+  --grey-tint: #eef1f4;
+  --slate: #3a4a5e;
+  /* Non-text only: the dial arc for "Needs verification". */
+  --unverified: #6b7a8c;
+  --on-night: #ffffff;
+  --on-night-muted: #b8c7d8;
+  --on-night-success: #6fd39b;
+  --on-night-danger: #ff9c94;
+  --on-night-link: #9cc8f2;
+  --on-night-line: rgba(255, 255, 255, 0.18);
+  --notify: #ff6b6b;
+  --focus: #3d8bd1;
+  --poster-full: #145c3a;
+  --poster-tuition: #0b3f70;
+  --poster-other: #3a4a5e;
+  --saver-bg: #fff4d6;
+  --saver-ink: #5c4300;
 
-  --border: oklch(0.9 0.01 250);
-  --input: oklch(0.9 0.01 250);
-  --ring: #0b4f8c;
-  --chart-1: #0b4f8c;
-  --chart-2: #2e8b57;
-  --chart-3: #c62828;
-  --chart-4: oklch(0.6 0.05 250);
-  --chart-5: oklch(0.4 0.02 250);
+  --gutter: clamp(16px, 4vw, 56px);
+
+  /* shadcn tokens, remapped onto the palette above */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: #ffffff;
+  --card-foreground: var(--ink);
+  --popover: #ffffff;
+  --popover-foreground: var(--ink);
+  --primary: var(--kick-blue);
+  --primary-foreground: #ffffff;
+  --secondary: var(--blue-tint);
+  --secondary-foreground: var(--kick-blue);
+  --muted: var(--grey-tint);
+  --muted-foreground: var(--ink-3);
+  --accent: var(--blue-tint);
+  --accent-foreground: var(--kick-blue);
+  --destructive: var(--kick-red);
+  --destructive-foreground: #ffffff;
+  --success: var(--green-text);
+  --success-foreground: #ffffff;
+  --surface: var(--paper);
+  --surface-alt: var(--grey-tint);
+  --border: var(--line);
+  --input: var(--line-strong);
+  --ring: var(--focus);
+  --chart-1: var(--kick-blue);
+  --chart-2: var(--kick-green);
+  --chart-3: var(--kick-red);
+  --chart-4: var(--unverified);
+  --chart-5: var(--slate);
   --radius: 0.625rem;
-  --sidebar: #f8fafc;
-  --sidebar-foreground: oklch(0.18 0.02 250);
-  --sidebar-primary: #0b4f8c;
+  --sidebar: #ffffff;
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--kick-blue);
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #f4f6f8;
-  --sidebar-accent-foreground: #0b4f8c;
-  --sidebar-border: oklch(0.9 0.01 250);
-  --sidebar-ring: #0b4f8c;
-}
-
-.dark {
-  --background: oklch(0.16 0.02 250);
-  --foreground: oklch(0.96 0.005 250);
-  --card: oklch(0.2 0.02 250);
-  --card-foreground: oklch(0.96 0.005 250);
-  --popover: oklch(0.2 0.02 250);
-  --popover-foreground: oklch(0.96 0.005 250);
-
-  --primary: #3d8bd1;
-  --primary-foreground: oklch(0.16 0.02 250);
-
-  --secondary: oklch(0.27 0.02 250);
-  --secondary-foreground: oklch(0.96 0.005 250);
-  --muted: oklch(0.27 0.02 250);
-  --muted-foreground: oklch(0.7 0.02 250);
-  --accent: oklch(0.27 0.02 250);
-  --accent-foreground: #6fb1e6;
-
-  --destructive: #e57373;
-  --destructive-foreground: oklch(0.16 0.02 250);
-
-  --success: #4caf7d;
-  --success-foreground: oklch(0.16 0.02 250);
-
-  --kick-blue: #3d8bd1;
-  --kick-green: #4caf7d;
-  --kick-red: #e57373;
-  --surface: oklch(0.21 0.02 250);
-  --surface-alt: oklch(0.25 0.02 250);
-
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: #3d8bd1;
-  --chart-1: #3d8bd1;
-  --chart-2: #4caf7d;
-  --chart-3: #e57373;
-  --chart-4: oklch(0.6 0.05 250);
-  --chart-5: oklch(0.75 0.02 250);
-  --sidebar: oklch(0.19 0.02 250);
-  --sidebar-foreground: oklch(0.96 0.005 250);
-  --sidebar-primary: #3d8bd1;
-  --sidebar-primary-foreground: oklch(0.16 0.02 250);
-  --sidebar-accent: oklch(0.27 0.02 250);
-  --sidebar-accent-foreground: #6fb1e6;
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: #3d8bd1;
+  --sidebar-accent: var(--blue-tint);
+  --sidebar-accent-foreground: var(--kick-blue);
+  --sidebar-border: var(--line);
+  --sidebar-ring: var(--focus);
 }
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
+    @apply border-border;
   }
   html {
     @apply font-sans;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-paper text-ink;
+    font-feature-settings: "kern";
+  }
+  /* One visible focus style on every surface, night included (§13). */
+  :focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+  /* Smallest text in the app is 13px; never let tiny defaults sneak in. */
+  ::placeholder {
+    color: var(--ink-3);
+    opacity: 1;
   }
 }
 
-@keyframes kick-aurora-drift {
-  0%,
-  100% {
-    transform: translate3d(0, 0, 0) scale(1);
+/* ---------------------------------------------------------------------------
+   Type scale (§5.3). Numbers are always tabular; headings use Bricolage.
+   --------------------------------------------------------------------------- */
+@utility type-display-xl {
+  font-family: var(--font-display);
+  font-size: clamp(42px, 5.2vw, 72px);
+  line-height: 0.98;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+@utility type-display-l {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4.2vw, 60px);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+@utility type-page-h1 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  @media (width >= 48rem) {
+    font-size: 40px;
+  }
+}
+@utility type-section-h2 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  @media (width >= 48rem) {
+    font-size: 26px;
+  }
+}
+@utility type-poster-title {
+  font-family: var(--font-display);
+  font-size: 17px;
+  line-height: 1.22;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  @media (width >= 48rem) {
+    font-size: 18px;
+  }
+}
+@utility type-card-title {
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+@utility type-body-sm {
+  font-size: 15px;
+  line-height: 1.45;
+}
+@utility type-meta {
+  font-size: 14px;
+  line-height: 1.4;
+}
+@utility type-caption {
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+@utility type-countdown {
+  font-family: var(--font-display);
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  @media (width >= 48rem) {
+    font-size: 44px;
+  }
+}
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+/* Page gutter: everything left-aligns to it, rails bleed off the right. */
+@utility px-gutter {
+  padding-inline: var(--gutter);
+}
+@utility pl-gutter {
+  padding-left: var(--gutter);
+}
+@utility mx-gutter {
+  margin-inline: var(--gutter);
+}
+
+/* Horizontal rails scroll by touch, trackpad and keyboard, without a visible
+   scrollbar (§9.1.4). */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Clamp helpers (Tailwind's line-clamp exists, kept explicit for posters). */
+@utility clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+@utility clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/* Covers: one consistent treatment so mixed-quality photos read as a family. */
+.ks-cover-photo {
+  filter: saturate(0.92) contrast(1.02);
+}
+
+/* Flags (flag-icons). Explicit 4:3 box and a hairline ring so pale flags
+   (Finland, Japan) don't dissolve into white cards. */
+.ks-flag {
+  display: inline-block;
+  flex: none;
+  width: 20px;
+  height: 15px;
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1px rgba(14, 27, 42, 0.15);
+}
+.ks-flag[data-tone="night"] {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+/* Score dial: the arc draws once on first paint (§5.5). */
+@keyframes ks-dial-draw {
+  from {
+    stroke-dasharray: 0 100;
+  }
+}
+.ks-dial-arc[data-animate="true"] {
+  animation: ks-dial-draw 600ms ease-out both;
+}
+
+/* Save toggle: a short pop when the bookmark fills. */
+@keyframes ks-pop {
+  0% {
+    transform: scale(1);
   }
   50% {
-    transform: translate3d(0, -14px, 0) scale(1.06);
+    transform: scale(1.15);
   }
+  100% {
+    transform: scale(1);
+  }
+}
+.ks-pop {
+  animation: ks-pop 150ms ease-out;
+}
+
+/* Hover preview on posters: fade only, never a layout-shifting scale. */
+.ks-fade {
+  transition: opacity 150ms ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -191,5 +396,8 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+  .animate-pulse {
+    animation: none !important;
   }
 }
