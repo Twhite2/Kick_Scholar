@@ -35,11 +35,15 @@ const BLOCKER_STEP: Partial<Record<Blocker["kind"], string>> = {
   WORK_EXPERIENCE_MISSING: "Add your work experience",
 };
 
+const LANGUAGE_NAME = /^(english|german|french|dutch|swedish|norwegian|danish|finnish|spanish|italian)$/i;
+
 function documentFor(r: RequirementLike): string | null {
   const test = r.testName?.trim();
   switch (r.type) {
     case "LANGUAGE_TEST":
     case "LANGUAGE":
+      // Some sources name the language rather than a test ("English").
+      if (test && LANGUAGE_NAME.test(test)) return `proof of ${test.charAt(0).toUpperCase()}${test.slice(1).toLowerCase()}`;
       return test ? `${test} result` : "language test result";
     case "STANDARDIZED_TEST":
       return test ? `${test} score report` : "test score report";

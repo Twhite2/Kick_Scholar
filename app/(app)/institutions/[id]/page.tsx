@@ -1,25 +1,50 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { cache } from "react";
 import { notFound, redirect } from "next/navigation";
-import { ExternalLink, MapPin, CalendarDays } from "lucide-react";
+import { CalendarDays, ExternalLink } from "lucide-react";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Mono } from "@/components/ui/mono";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { COUNTRY_LABELS } from "@/lib/constants/countryNames";
+import { getDataSaver } from "@/lib/ui/data-saver";
+import { countryName } from "@/lib/ui/country";
+import { formatCount, formatDuration } from "@/lib/ui/format";
+import { degreeLabel } from "@/lib/ui/requirements";
+import { institutionFaceSelect, toInstitutionFace } from "@/lib/cards/faces";
+import { buildProgrammeCards } from "@/lib/cards/programme-cards";
+import { buildScholarshipCards } from "@/lib/cards/scholarship-cards";
+import { getComparisonProfile } from "@/lib/detail/shared";
+import { DetailBanner } from "@/components/kick/detail/banner";
+import { FactGrid, Panel, type Fact } from "@/components/kick/detail/panels";
+import { CountryFlag } from "@/components/kick/country-flag";
+import { Pill } from "@/components/kick/badges";
+import { Rail } from "@/components/kick/rail";
+import { MatchPosterCard } from "@/components/kick/match-poster-card";
+import { FundingPoster } from "@/components/kick/funding-poster";
 
 /** Enough to show the shape of the answer without an endless wall of rows. */
 const LIST_LIMIT = 40;
 
-export default async function InstitutionDetailPage({ params }: PageProps<"/institutions/[id]">) {
-  const session = await auth();
-  if (!session?.user) redirect("/login");
-  const { id } = await params;
+const FIELD_LABEL: Record<string, string> = {
+  STEM: "STEM",
+  BUSINESS: "Business",
+  HUMANITIES: "Humanities",
+  SOCIAL_SCIENCES: "Social sciences",
+  ARTS: "Arts",
+  HEALTH: "Health",
+  LAW: "Law",
+  EDUCATION: "Education",
+  OTHER: "Other",
+};
 
-  const university = await prisma.university.findUnique({
+const getUniversity = cache(async (id: string) =>
+  prisma.university.findUnique({
     where: { id },
-    include: {
+    select: {
+      ...institutionFaceSelect,
+      type: true,
+      foundedYear: true,
+      website: true,
+      rorId: true,
       programs: {
         orderBy: { name: "asc" },
         take: LIST_LIMIT,
@@ -29,172 +54,222 @@ export default async function InstitutionDetailPage({ params }: PageProps<"/inst
         // Source-stated links first, then the most confident inferences.
         orderBy: [{ linkMethod: "asc" }, { confidence: "desc" }],
         take: LIST_LIMIT,
-        include: { scholarship: { select: { id: true, name: true, providerName: true } } },
+        select: { linkMethod: true, scholarshipId: true },
       },
       _count: { select: { programs: true, fundingOpportunities: true } },
     },
-  });
+  }),
+);
 
+export async function generateMetadata({ params }: PageProps<"/institutions/[id]">): Promise<Metadata> {
+  const { id } = await params;
+  const u = await getUniversity(id);
+  return { title: u ? u.name : "University not found" };
+}
+
+export default async function UniversityPage({ params, searchParams }: PageProps<"/institutions/[id]">) {
+  const session = await auth();
+  if (!session?.user) redirect("/login");
+  const userId = session.user.id;
+  const { id } = await params;
+  const query = await searchParams;
+  const now = new Date();
+
+  const university = await getUniversity(id);
   if (!university) notFound();
 
-  const explicit = university.fundingOpportunities.filter((f) => f.linkMethod === "EXPLICIT_SOURCE");
-  const inferred = university.fundingOpportunities.filter((f) => f.linkMethod === "RULE_INFERENCE");
+  const face = toInstitutionFace(university);
+  const [profile, dataSaver, matches, saved, tracked] = await Promise.all([
+    getComparisonProfile(userId),
+    getDataSaver(),
+    prisma.match.findMany({
+      where: { userId, matchType: "PROGRAM", program: { universityId: id } },
+      orderBy: { score: "desc" },
+      take: 20,
+      select: { programId: true, score: true, matchStrength: true, factorScores: true },
+    }),
+    prisma.savedOpportunity.findMany({ where: { userId }, select: { programId: true, scholarshipId: true } }),
+    prisma.application.findMany({ where: { userId, programId: { not: null } }, select: { programId: true } }),
+  ]);
+
+  const savedProgrammes = new Set(saved.flatMap((s) => (s.programId ? [s.programId] : [])));
+  const savedScholarships = new Set(saved.flatMap((s) => (s.scholarshipId ? [s.scholarshipId] : [])));
+  const trackedSet = new Set(tracked.map((t) => t.programId));
+  const matchedIds = matches.flatMap((m) => (m.programId ? [m.programId] : []));
+  const [matchCards, scholarshipCards] = await Promise.all([
+    profile && matchedIds.length > 0
+      ? buildProgrammeCards(matchedIds, {
+          matches: new Map(matches.map((m) => [m.programId!, m])),
+          saved: savedProgrammes,
+          profile: { currentGpa: profile.currentGpa, languageProficiencies: profile.languageProficiencies },
+          now,
+        })
+      : Promise.resolve([]),
+    buildScholarshipCards([...new Set(university.fundingOpportunities.map((f) => f.scholarshipId))], {
+      matches: new Map(),
+      saved: savedScholarships,
+      now,
+    }),
+  ]);
+  const cardById = new Map(scholarshipCards.map((c) => [c.id, c]));
+  const explicit = [...new Set(university.fundingOpportunities.filter((f) => f.linkMethod === "EXPLICIT_SOURCE").map((f) => f.scholarshipId))].flatMap((i) => cardById.get(i) ?? []);
+  const inferred = [...new Set(university.fundingOpportunities.filter((f) => f.linkMethod === "RULE_INFERENCE").map((f) => f.scholarshipId))].flatMap((i) => cardById.get(i) ?? []);
+
+  const facts: Fact[] = [
+    { label: "Programmes", value: formatCount(university._count.programs) },
+    { label: "Linked scholarships", value: formatCount(university._count.fundingOpportunities) },
+  ];
+  const place = [university.city, countryName(university.country)].filter(Boolean).join(", ");
 
   return (
-    <div className="mx-auto max-w-4xl space-y-6 px-4 py-8 md:px-8 md:py-12">
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">{university.name}</h1>
-          <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground">
-            <span className="flex items-center gap-1.5">
-              <MapPin className="size-4" />
-              {university.city}, {COUNTRY_LABELS[university.country] ?? university.country}
+    <div className="pb-16">
+      <DetailBanner
+        face={face}
+        institutionLink={false}
+        subtitle={
+          <div className="flex flex-col gap-1.5 text-[15px] text-on-night-muted">
+            <span className="flex items-center gap-2 font-bold text-white">
+              <CountryFlag code={university.country} tone="night" />
+              {place}
             </span>
             {university.foundedYear && (
-              <span className="flex items-center gap-1.5">
-                <CalendarDays className="size-4" />
+              <span className="flex items-center gap-2">
+                <CalendarDays aria-hidden="true" className="size-4" />
                 Founded {university.foundedYear}
               </span>
             )}
-            {university.type && <Badge variant="outline">{university.type}</Badge>}
-          </p>
-        </div>
-        <Button
-          variant="outline"
-          render={
-            <a href={university.website} target="_blank" rel="noopener noreferrer">
-              Website <ExternalLink className="ml-1.5 size-4" />
+          </div>
+        }
+        crumbs={[
+          { label: "Universities", href: "/institutions" },
+          { label: countryName(university.country), href: `/institutions?country=${encodeURIComponent(university.country)}` },
+          { label: university.name },
+        ]}
+        title={university.name}
+        pills={university.type ? <Pill tone="night">{university.type === "PUBLIC" ? "Public university" : "Private university"}</Pill> : null}
+        aside={
+          university.website ? (
+            <a
+              href={university.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center gap-2 rounded-full border border-white/45 px-6 text-base font-bold text-white hover:bg-white/10"
+            >
+              Website <ExternalLink aria-hidden="true" className="size-[18px]" />
+              <span className="sr-only">(opens in a new tab)</span>
             </a>
-          }
-        />
-      </div>
+          ) : null
+        }
+        dataSaver={dataSaver}
+        showPhoto={query.photo === "1"}
+        photoHref={`/institutions/${id}?photo=1`}
+      />
 
-      <dl className="grid grid-cols-2 gap-4 rounded-xl border border-border p-4 text-sm sm:grid-cols-3">
-        <div>
-          <dt className="text-muted-foreground">Programmes</dt>
-          <dd className="font-medium">
-            <Mono>{university._count.programs}</Mono>
-          </dd>
-        </div>
-        <div>
-          <dt className="text-muted-foreground">Linked scholarships</dt>
-          <dd className="font-medium">
-            <Mono>{university._count.fundingOpportunities}</Mono>
-          </dd>
-        </div>
-        {university.rorId && (
-          <div>
-            <dt className="text-muted-foreground">ROR identifier</dt>
-            <dd className="font-medium">
+      <div className="mx-auto max-w-[1328px] px-gutter">
+        <div className="mt-6 grid gap-3 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
+          <FactGrid facts={facts} className="contents" />
+          {university.rorId && (
+            <div className="rounded-tile bg-white px-4 py-3.5 shadow-hairline">
+              <p className="text-[13px] text-ink-3">ROR identifier</p>
               <a
                 href={`https://ror.org/${university.rorId}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-kick-blue hover:underline"
+                className="mt-1 inline-flex items-center gap-1.5 font-mono text-lg font-bold text-kick-blue hover:underline"
               >
-                <Mono>{university.rorId}</Mono>
+                {university.rorId} <ExternalLink aria-hidden="true" className="size-4" />
+                <span className="sr-only">(opens ror.org in a new tab)</span>
               </a>
-            </dd>
-          </div>
-        )}
-      </dl>
+            </div>
+          )}
+        </div>
+      </div>
 
-      <Tabs defaultValue="programs">
-        <TabsList>
-          <TabsTrigger value="programs">Programmes</TabsTrigger>
-          <TabsTrigger value="funding">Scholarships</TabsTrigger>
-        </TabsList>
+      {matchCards.length > 0 && (
+        <div className="mt-12">
+          <Rail id="matched" title="Programmes you match here" prevLabel="Previous programmes" nextLabel="More programmes">
+            {matchCards.map((c) => (
+              <MatchPosterCard key={c.id} card={c} tracking={trackedSet.has(c.id)} now={now} />
+            ))}
+          </Rail>
+        </div>
+      )}
 
-        <TabsContent value="programs" className="space-y-3 pt-4">
+      <div className="mx-auto mt-12 flex max-w-[1328px] flex-col gap-6 px-gutter">
+        <Panel id="programmes" title="All programmes">
           {university.programs.length === 0 ? (
-            <p className="text-sm text-muted-foreground">
-              No programmes recorded for this institution yet. Its scholarships still apply at the
-              institution level.
+            <p className="text-[15px] text-ink-3">
+              No programmes recorded for this institution yet. Its scholarships still apply at the institution level.
             </p>
           ) : (
             <>
-              {university.programs.map((p) => (
-                <Link
-                  key={p.id}
-                  href={`/programs/${p.id}`}
-                  className="flex items-center justify-between gap-3 rounded-xl border border-border p-4 transition-colors hover:bg-muted"
-                >
-                  <div className="min-w-0">
-                    <p className="truncate text-sm font-medium">{p.name}</p>
-                    <p className="text-xs text-muted-foreground">
-                      {p.fieldCategory.replace(/_/g, " ").toLowerCase()}
-                      {p.durationMonths ? ` · ${p.durationMonths} months` : ""}
-                    </p>
-                  </div>
-                  <Badge variant="outline">{p.degreeLevel.replace("_", " ")}</Badge>
-                </Link>
-              ))}
+              <ul role="list" className="grid gap-2.5 md:grid-cols-2">
+                {university.programs.map((p) => (
+                  <li key={p.id}>
+                    <Link
+                      href={`/programs/${p.id}`}
+                      className="flex min-h-[64px] items-center justify-between gap-3 rounded-tile bg-paper px-4 py-3 transition-shadow hover:shadow-preview"
+                    >
+                      <span className="min-w-0">
+                        <span className="block truncate text-[15px] font-bold text-ink">{p.name}</span>
+                        <span className="block text-sm text-ink-3">
+                          {FIELD_LABEL[p.fieldCategory] ?? p.fieldCategory}
+                          {formatDuration(p.durationMonths) ? ` · ${formatDuration(p.durationMonths)}` : ""}
+                        </span>
+                      </span>
+                      {degreeLabel(p.degreeLevel) && <Pill>{degreeLabel(p.degreeLevel)}</Pill>}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
               {university._count.programs > LIST_LIMIT && (
-                <p className="text-xs text-muted-foreground">
-                  and {university._count.programs - LIST_LIMIT} more
+                <p className="mt-3 text-sm text-ink-3">
+                  and {formatCount(university._count.programs - LIST_LIMIT)} more.{" "}
+                  <Link href={`/programs?q=${encodeURIComponent(university.name)}`} className="font-bold text-kick-blue hover:underline">
+                    Search them all
+                  </Link>
                 </p>
               )}
             </>
           )}
-        </TabsContent>
+        </Panel>
 
-        <TabsContent value="funding" className="space-y-5 pt-4">
-          {university.fundingOpportunities.length === 0 ? (
-            <p className="text-sm text-muted-foreground">
-              No scholarships linked to this institution yet.
-            </p>
+        <Panel id="scholarships" title="Scholarships">
+          {explicit.length + inferred.length === 0 ? (
+            <p className="text-[15px] text-ink-3">No scholarships linked to this institution yet.</p>
           ) : (
-            <>
+            <div className="space-y-8">
               {[
-                {
-                  title: "Officially linked",
-                  note: "Named directly by the scholarship provider.",
-                  rows: explicit,
-                },
+                { title: "Officially linked", note: "Named directly by the scholarship provider.", cards: explicit },
                 {
                   title: "May apply here",
                   note: "Matched from each scholarship's own stated rules, not confirmed by the provider. Check before applying.",
-                  rows: inferred,
+                  cards: inferred,
                 },
-              ].map(({ title, note, rows }) =>
-                rows.length === 0 ? null : (
-                  <div key={title} className="space-y-2">
-                    <div>
-                      <h4 className="text-sm font-semibold">{title}</h4>
-                      <p className="text-xs text-muted-foreground">{note}</p>
-                    </div>
-                    {rows.map((fo) => (
-                      <Link
-                        key={fo.id}
-                        href={`/scholarships/${fo.scholarshipId}`}
-                        className="flex items-center justify-between gap-3 rounded-xl border border-border p-4 transition-colors hover:bg-muted"
-                      >
-                        <div className="min-w-0">
-                          <p className="truncate text-sm font-medium">{fo.scholarship.name}</p>
-                          <p className="truncate text-xs text-muted-foreground">
-                            {fo.scholarship.providerName}
-                          </p>
-                        </div>
-                        <Badge
-                          variant={fo.linkMethod === "EXPLICIT_SOURCE" ? "secondary" : "outline"}
-                        >
-                          {fo.fundingType.replace(/_/g, " ")}
-                        </Badge>
-                      </Link>
-                    ))}
+              ]
+                .filter((g) => g.cards.length > 0)
+                .map((g) => (
+                  <div key={g.title}>
+                    <h3 className="text-base font-bold text-ink">{g.title}</h3>
+                    <p className="mt-0.5 mb-4 text-sm text-ink-3">{g.note}</p>
+                    <ul role="list" className="grid gap-4 [grid-template-columns:repeat(auto-fill,minmax(240px,1fr))]">
+                      {g.cards.map((c) => (
+                        <li key={c.id}>
+                          <FundingPoster card={c} mode="compact" now={now} />
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                ),
-              )}
+                ))}
               {university._count.fundingOpportunities > LIST_LIMIT && (
-                <p className="text-xs text-muted-foreground">
-                  and {university._count.fundingOpportunities - LIST_LIMIT} more matching the same
-                  rules
+                <p className="text-sm text-ink-3">
+                  and {formatCount(university._count.fundingOpportunities - LIST_LIMIT)} more matching the same rules
                 </p>
               )}
-            </>
+            </div>
           )}
-        </TabsContent>
-      </Tabs>
+        </Panel>
+      </div>
     </div>
   );
 }

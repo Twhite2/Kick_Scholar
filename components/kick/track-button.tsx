@@ -2,6 +2,7 @@
 
 import { useState, useTransition } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Check, ClipboardList } from "lucide-react";
 import { startApplication } from "@/lib/actions/applications";
 import { cn } from "@/lib/utils";
@@ -17,6 +18,8 @@ export function TrackButton({
   title,
   initialTracking,
   variant = "primary",
+  refreshOnTrack = false,
+  onTracked,
   className,
 }: {
   targetType: "PROGRAM" | "SCHOLARSHIP";
@@ -24,8 +27,12 @@ export function TrackButton({
   title: string;
   initialTracking: boolean;
   variant?: "primary" | "outline" | "icon";
+  /** Re-render the page after tracking, e.g. so "Your next steps" shows the checklist. */
+  refreshOnTrack?: boolean;
+  onTracked?: () => void;
   className?: string;
 }) {
+  const router = useRouter();
   const [tracking, setTracking] = useState(initialTracking);
   const [error, setError] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
@@ -34,8 +41,13 @@ export function TrackButton({
     setError(null);
     startTransition(async () => {
       const result = await startApplication(targetType, targetId);
-      if ("error" in result && result.error) setError(result.error);
-      else setTracking(true);
+      if ("error" in result && result.error) {
+        setError(result.error);
+        return;
+      }
+      setTracking(true);
+      onTracked?.();
+      if (refreshOnTrack) router.refresh();
     });
   }
 
