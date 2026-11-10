@@ -5,3 +5,9 @@ pydantic>=2
 # entity-expansion attacks. Currently arrives transitively via crawl4ai, but
 # pinned explicitly here because crawl4ai_crawler.py imports it directly.
 defusedxml>=0.7
+
+# Python on Windows ignores the OS certificate store, so HTTPS sitemap fetches
+# fail verification without an explicit CA bundle. That failure was silent:
+# sitemap expansion returned zero URLs and the crawler fell back to
+# link-following, harvesting the wrong pages.
+certifi>=2026.7

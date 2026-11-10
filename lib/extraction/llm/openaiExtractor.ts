@@ -6,7 +6,7 @@ import {
   type LlmScholarshipFields,
   type LlmProgramFields,
 } from "./outputSchemas";
-import { filterByQuote, isPlausibleNumeric, type QuoteRejection } from "./quoteGuard";
+import { checkQuote, filterByQuote, isPlausibleNumeric, type QuoteRejection } from "./quoteGuard";
 import { normaliseGradeDirections } from "./gradeScale";
 
 /**
@@ -169,9 +169,20 @@ export async function enrichScholarship(
   const elig = filterByQuote(plausible, markdown);
   const appl = filterByQuote(parsed.applicability, markdown);
 
+  // providerName is a scalar rather than a sub-fact, so it needs the same
+  // check applied by hand. An awarding organisation the page never names is
+  // exactly the kind of plausible-looking invention this guard exists for —
+  // and it would be stored on a record the product presents as cited.
+  const providerQuoteOk =
+    parsed.providerName !== null &&
+    parsed.providerNameQuote !== null &&
+    checkQuote(parsed.providerNameQuote, markdown).ok;
+  const providerDropped = parsed.providerName !== null && !providerQuoteOk;
+
   return {
     fields: {
       ...parsed,
+      providerName: providerQuoteOk ? parsed.providerName : null,
       eligibility: elig.kept,
       applicability: appl.kept,
     },
@@ -183,6 +194,9 @@ export async function enrichScholarship(
         quote: "(numeric threshold outside plausible range)",
         reason: "not-in-source" as QuoteRejection,
       })),
+      ...(providerDropped
+        ? [{ quote: "(provider name without a verifiable quote)", reason: "not-in-source" as QuoteRejection }]
+        : []),
     ],
   };
 }

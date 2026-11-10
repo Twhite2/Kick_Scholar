@@ -50,3 +50,10 @@ __pycache__/
 # raw crawl artifacts (large, regenerable — never the source of truth)
 /data/raw/*
 !/data/raw/.gitkeep
+
+# database dumps - large, regenerable, and shared out of band rather than
+# committed. The catalogue dump is 62 MB raw.
+/data/dumps/
+
+# DiscoverUni/KIS dataset download - 426 MB, fetched from HESA, not committed.
+/on_*/
