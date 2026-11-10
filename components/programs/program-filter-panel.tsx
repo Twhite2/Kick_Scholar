@@ -37,6 +37,10 @@ export function ProgramFilterPanel() {
       const params = new URLSearchParams(searchParams.toString());
       if (value && value !== "all") params.set(key, value);
       else params.delete(key);
+      // Changing a filter changes how many results there are, so any page
+      // number carried over from the previous query is meaningless — and often
+      // out of range, which would land the user on an empty page.
+      params.delete("page");
       startTransition(() => {
         router.replace(`${pathname}?${params.toString()}`, { scroll: false });
       });

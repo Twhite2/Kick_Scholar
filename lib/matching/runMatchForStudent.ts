@@ -26,6 +26,45 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
   }
   const profile = studentProfileToMatchInput(profileRow);
 
+  // Scholarships are scored first so programmes can reuse the verdicts.
+  // Judging each scholarship once (151 of them) and counting the results per
+  // programme is what keeps this cheap: the alternative re-evaluates the same
+  // criteria for every one of the 18,290 links.
+  const scholarships = await prisma.scholarship.findMany({ include: { eligibility: true } });
+  const scholarshipVerdict = new Map<string, boolean>();
+  for (const scholarship of scholarships) {
+    const result = scoreTarget(
+      profile,
+      scholarshipToMatchTarget(scholarship),
+      scholarship.verificationStatus === "VERIFIED",
+    );
+    // "Eligible" means nothing the scholarship states rules the student out.
+    // A criterion the profile cannot answer is not counted as a failure —
+    // it is unknown, and treating unknown as disqualifying would understate
+    // every incomplete profile.
+    const eligible = !result.factorScores.some((f) => f.hardFail);
+    scholarshipVerdict.set(scholarship.id, eligible);
+  }
+
+  // Which scholarships reach each programme, counting both the links made to
+  // the programme itself and those made to its university as a whole.
+  const links = await prisma.fundingOpportunity.findMany({
+    select: { scholarshipId: true, programId: true, universityId: true },
+  });
+  const byProgram = new Map<string, Set<string>>();
+  const byUniversity = new Map<string, Set<string>>();
+  for (const link of links) {
+    if (link.programId) {
+      const set = byProgram.get(link.programId) ?? new Set<string>();
+      set.add(link.scholarshipId);
+      byProgram.set(link.programId, set);
+    } else if (link.universityId) {
+      const set = byUniversity.get(link.universityId) ?? new Set<string>();
+      set.add(link.scholarshipId);
+      byUniversity.set(link.universityId, set);
+    }
+  }
+
   const programs = await prisma.program.findMany({
     where: profile.desiredDegreeLevel ? { degreeLevel: profile.desiredDegreeLevel } : undefined,
     include: { requirements: true, university: true },
@@ -33,7 +72,14 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
 
   let programMatches = 0;
   for (const program of programs) {
-    const target = programToMatchTarget(program);
+    const reachable = new Set<string>([
+      ...(byProgram.get(program.id) ?? []),
+      ...(byUniversity.get(program.universityId) ?? []),
+    ]);
+    let eligible = 0;
+    for (const id of reachable) if (scholarshipVerdict.get(id)) eligible += 1;
+
+    const target = programToMatchTarget(program, { total: reachable.size, eligible });
     const result = scoreTarget(profile, target, program.verificationStatus === "VERIFIED");
     if (result.score < MIN_SCORE_TO_STORE) continue;
 
@@ -64,8 +110,6 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
     }
     programMatches += 1;
   }
-
-  const scholarships = await prisma.scholarship.findMany({ include: { eligibility: true } });
 
   let scholarshipMatches = 0;
   for (const scholarship of scholarships) {

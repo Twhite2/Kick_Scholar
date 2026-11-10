@@ -16,4 +16,17 @@ export const DEFAULT_WEIGHTS: Record<FactorKey, number> = {
   WORK_EXPERIENCE: 0.05,
 };
 
-export const ENGINE_VERSION = "2026.08.1";
+/**
+ * Bump whenever scoring semantics change, so stored Match.engineVersion says
+ * which rules produced a score and old rows can be told apart from new ones.
+ *
+ * 2026.09.1 — work-experience requirements are converted from their stated
+ * unit into months before comparison. Previously every value was read as
+ * months, so "5 years" was compared as 5 and "18 weeks" as 18.
+ *
+ * 2026.09.2 — SCHOLARSHIP_ELIGIBILITY now scores on programmes, as the share
+ * of linked scholarships the student qualifies for. It previously returned
+ * "Not applicable" for every programme, since a programme has no eligibility
+ * rules of its own.
+ */
+export const ENGINE_VERSION = "2026.09.2";

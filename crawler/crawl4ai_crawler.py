@@ -106,10 +106,28 @@ def _fetch_text(url: str, user_agent: str, timeout: int = 30) -> str:
     browser per sitemap would be pure overhead.
     """
     import gzip
+    import ssl
     import urllib.request
 
+    # Python on Windows does not use the OS certificate store, so urlopen
+    # raises CERTIFICATE_VERIFY_FAILED against perfectly valid HTTPS sitemaps.
+    # That failure was invisible: expand_sitemaps catches it, reports it on a
+    # stdout line the Node wrapper does not surface, and returns zero URLs -
+    # so the crawler silently fell back to link-following and harvested the
+    # wrong pages entirely. Point it at certifi's bundle instead. Verification
+    # stays ON; only the trust store changes.
+    context = ssl.create_default_context()
+    try:
+        import certifi
+
+        context.load_verify_locations(cafile=certifi.where())
+    except ImportError:
+        # certifi is in requirements.txt; if it is somehow absent, fall back to
+        # the default store rather than disabling verification.
+        pass
+
     req = urllib.request.Request(url, headers={"User-Agent": user_agent})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
+    with urllib.request.urlopen(req, timeout=timeout, context=context) as resp:
         raw = resp.read()
     if url.endswith(".gz") or raw[:2] == b"\x1f\x8b":
         raw = gzip.decompress(raw)

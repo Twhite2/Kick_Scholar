@@ -70,8 +70,26 @@ function sectionize(markdown: string): Map<string, string> {
 }
 
 /** Collapses markdown bullets/whitespace into a quotable single-line string. */
-function flatten(text: string): string {
+/**
+ * Removes markdown emphasis without touching the words.
+ *
+ * `flatten` only stripped list bullets at the start of a line, so inline
+ * emphasis survived into stored values: 68 of the 149 DAAD scholarships were
+ * named "... **- DAAD**", and deadlines read "**31 July of each year**".
+ * Those asterisks are rendering syntax, not part of the fact, and they were
+ * being shown to users verbatim.
+ */
+function stripEmphasis(text: string): string {
   return text
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1") // links keep their label only
+    .replace(/(\*\*|__)(.*?)\1/g, "$2") // bold
+    .replace(/(^|\W)[*_]([^*_\n]+)[*_](\W|$)/g, "$1$2$3") // italic
+    .replace(/[*_`]/g, "") // any stragglers
+    .replace(/ /g, " ");
+}
+
+function flatten(text: string): string {
+  return stripEmphasis(text)
     .replace(/^\s*[*-]\s+/gm, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -97,7 +115,15 @@ export class DaadScholarshipParser implements SourceParser {
     // The programme title is the first `## ` heading after the banner.
     const titleMatch = body.match(/^##\s+(.+)$/m);
     if (!titleMatch) return null;
-    const name = titleMatch[1].replace(/\s*_?\+?_?\s*$/, "").trim();
+    const name = stripEmphasis(titleMatch[1])
+      // DAAD appends its own brand to the heading as a bullet separator:
+      // "RISE Germany - Research Internships in Science and Engineering - DAAD".
+      // That is site furniture, not part of the scholarship's name, and it
+      // repeated on 68 of 149 records.
+      .replace(/\s*[•·|–-]\s*DAAD\s*$/i, "")
+      .replace(/\s*_?\+?_?\s*$/, "")
+      .replace(/\s+/g, " ")
+      .trim();
     if (!name) return null;
 
     const sections = sectionize(body);

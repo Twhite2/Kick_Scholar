@@ -146,10 +146,38 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
       const uniNormalized = normalizeUniversity(uniByName);
       universityId = universityIdByDedupeKey.get(uniNormalized.dedupeKey) ?? universityId;
     } else {
-      const existingUni = await prisma.university.findFirst({
+      const exact = await prisma.university.findFirst({
         where: { name: extractedProgram.universityName },
       });
-      if (existingUni) universityId = existingUni.id;
+      if (exact) {
+        universityId = exact.id;
+      } else {
+        // Exact name matching is too brittle for real catalogues. The UK
+        // course dataset publishes legal names - "University of Glasgow
+        // Court", "The Nottingham Trent University", "Prifysgol Aberystwyth" -
+        // against a university catalogue built from common names, and 18,486
+        // courses were dropped for want of a match. The same trigram matcher
+        // the deduplication layer already uses handles these, and it is gated
+        // to one country so it cannot wander between them.
+        // The country comes from the source, not the programme: a programme
+        // record carries none, and the trigram matcher is gated by country so
+        // that similar names in different countries can never merge. Without
+        // one, fuzzy matching is skipped entirely rather than run unbounded.
+        const country = sourceConfig.country;
+        if (country) {
+          const guessed = normalizeUniversity({
+            name: extractedProgram.universityName,
+            country,
+            city: "",
+            website: extractedProgram.universityWebsite,
+            description: null,
+            sourceUrl: extractedProgram.sourceUrl,
+            sourceQuote: extractedProgram.universityName,
+          });
+          const candidates = await matchUniversityCandidates(prisma, guessed);
+          if (candidates.length > 0) universityId = candidates[0].id;
+        }
+      }
     }
     if (!universityId) {
       result.warnings.push(`Skipped program "${extractedProgram.name}": no matching university found`);

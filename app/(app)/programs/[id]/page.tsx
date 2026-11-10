@@ -37,6 +37,19 @@ export default async function ProgramDetailPage({ params }: PageProps<"/programs
 
   if (!program) notFound();
 
+  // A scholarship whose rules bind only by country is linked to the whole
+  // university, not to each of its programmes — that is the linker choosing
+  // the coarsest level that says something true. Those rows carry programId
+  // null, so `program.fundingOpportunities` never sees them, and a programme
+  // could show "no scholarships" while its university had thousands. Two
+  // thirds of all links (11,346 of 18,290) sit at that level.
+  const universityFunding = await prisma.fundingOpportunity.findMany({
+    where: { universityId: program.universityId, programId: null },
+    orderBy: [{ linkMethod: "asc" }, { confidence: "desc" }],
+    take: 40,
+    include: { scholarship: true },
+  });
+
   const factorScores = (match?.factorScores as unknown as FactorScore[] | undefined) ?? [];
 
   return (
@@ -168,7 +181,7 @@ export default async function ProgramDetailPage({ params }: PageProps<"/programs
         </TabsContent>
 
         <TabsContent value="funding" className="space-y-3 pt-4">
-          {program.fundingOpportunities.length === 0 ? (
+          {program.fundingOpportunities.length + universityFunding.length === 0 ? (
             <p className="text-sm text-muted-foreground">
               No scholarships linked to this programme yet — check the Scholarships page for
               opportunities that may still apply.
@@ -227,6 +240,11 @@ export default async function ProgramDetailPage({ params }: PageProps<"/programs
                       "May apply here",
                       "Matched from each scholarship's own stated rules — not confirmed by the provider. Check before applying.",
                       inferred,
+                    )}
+                    {section(
+                      `Open across ${program.university.name}`,
+                      "Bound to the institution rather than this specific programme — the scholarship's rules name a country, not a subject or degree level.",
+                      universityFunding,
                     )}
                   </div>
                 );

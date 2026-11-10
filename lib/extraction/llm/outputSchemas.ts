@@ -80,6 +80,18 @@ export const LlmApplicabilitySchema = z.object({
 });
 
 export const LlmScholarshipFieldsSchema = z.object({
+  providerName: z
+    .string()
+    .nullable()
+    .describe(
+      "The organisation that AWARDS this funding — the university, foundation, government body or company paying for it. NOT the website you are reading, and NOT the name of the scholarship itself. It is usually named in the opening paragraph. Null if the page never names it.",
+    ),
+  providerNameQuote: z
+    .string()
+    .nullable()
+    .describe(
+      "The VERBATIM sentence naming that organisation, copied exactly from the page. Null whenever providerName is null.",
+    ),
   eligibility: z
     .array(LlmEligibilitySchema)
     .describe("Every eligibility rule the page states. Empty array if none are stated — do not invent any."),

@@ -15,7 +15,32 @@ export function scholarshipCriteria(
   target: MatchTarget,
 ): FactorScore {
   if (target.eligibility.length === 0) {
-    return { factor: "SCHOLARSHIP_ELIGIBILITY", score: null, weight: 0, explanation: "Not applicable." };
+    // A programme carries no eligibility rules itself, but the scholarships
+    // linked to it do. Answering "how many of these could you actually win?"
+    // is the question this product exists for, so it is scored rather than
+    // dismissed as not applicable.
+    const linked = target.linkedScholarships;
+    if (linked && linked.total > 0) {
+      const share = Math.round((linked.eligible / linked.total) * 100);
+      return {
+        factor: "SCHOLARSHIP_ELIGIBILITY",
+        score: share,
+        weight: 0,
+        explanation:
+          linked.eligible === 0
+            ? `None of the ${linked.total} scholarships linked to this programme match your profile.`
+            : `You meet the stated criteria for ${linked.eligible} of ${linked.total} scholarships linked to this programme.`,
+      };
+    }
+    return {
+      factor: "SCHOLARSHIP_ELIGIBILITY",
+      score: null,
+      weight: 0,
+      explanation:
+        linked && linked.total === 0
+          ? "No scholarships are linked to this programme yet."
+          : "Not applicable.",
+    };
   }
 
   const failures: string[] = [];

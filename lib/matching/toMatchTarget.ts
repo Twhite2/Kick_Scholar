@@ -39,7 +39,16 @@ function toNumber(value: number | { toNumber(): number } | null): number | null 
   return typeof value === "number" ? value : value.toNumber();
 }
 
-export function programToMatchTarget(program: ProgramWithRelations): MatchTarget {
+export function programToMatchTarget(
+  program: ProgramWithRelations,
+  /**
+   * How many of the scholarships linked to this programme the student
+   * qualifies for. Computed by the caller, which scores every scholarship
+   * once and reuses the verdicts, rather than re-evaluating them per
+   * programme.
+   */
+  linkedScholarships?: { total: number; eligible: number } | null,
+): MatchTarget {
   return {
     degreeLevel: program.degreeLevel,
     fieldCategory: program.fieldCategory,
@@ -49,6 +58,7 @@ export function programToMatchTarget(program: ProgramWithRelations): MatchTarget
     tuitionCurrency: program.tuitionCurrency,
     requirements: program.requirements as MatchTarget["requirements"],
     eligibility: [],
+    linkedScholarships: linkedScholarships ?? null,
   };
 }
 

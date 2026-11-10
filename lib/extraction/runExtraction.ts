@@ -58,6 +58,7 @@ interface DiskDocument {
 async function documentsFromDisk(
   sourceId: string | undefined,
   limit?: number,
+  latestRunOnly = false,
 ): Promise<DiskDocument[]> {
   const rawRoot = path.join(REPO_ROOT, "data", "raw");
   const sourceDirs = sourceId
@@ -81,6 +82,18 @@ async function documentsFromDisk(
     } catch {
       continue;
     }
+
+    // A re-crawl writes a NEW run directory beside the old one, and pages
+    // whose content changed since then have a different checksum - so the
+    // checksum dedupe below keeps BOTH versions and the source yields two
+    // records for one scholarship. Re-crawling DAAD produced 249 records from
+    // 149 pages exactly this way.
+    //
+    // Not the default, because a long crawl resumed across several sessions
+    // legitimately spans several run directories, and taking only the newest
+    // would discard most of it. A refresh of an already-complete source wants
+    // this; a resumed first pass does not.
+    if (latestRunOnly && runs.length > 1) runs = [runs[0]];
 
     for (const run of runs) {
       const runDir = path.join(sourceDir, run);
@@ -141,6 +154,12 @@ export async function runExtraction(
     /** Stop after this much spend, as a safety rail on a long run. */
     maxUsd?: number;
     /**
+     * Read only the most recent crawl run for each source, ignoring earlier
+     * ones. Use when refreshing a source that has already been crawled in
+     * full; see documentsFromDisk for why it is not the default.
+     */
+    latestRunOnly?: boolean;
+    /**
      * Skip documents that already have an LLM-enriched extraction file.
      *
      * A long run is interrupted by ordinary things — a laptop sleeping, the
@@ -171,7 +190,7 @@ export async function runExtraction(
   };
 
   const documents = opts.fromDisk
-    ? await documentsFromDisk(opts.sourceId, opts.limit)
+    ? await documentsFromDisk(opts.sourceId, opts.limit, opts.latestRunOnly)
     : await prisma.sourceDocument.findMany({
         where: opts.sourceId ? { sourceId: opts.sourceId } : undefined,
         orderBy: { fetchedAt: "desc" },
@@ -264,6 +283,15 @@ export async function runExtraction(
             scholarships: [
               {
                 ...scholarship,
+                // The parser owns providerName wherever the page states it in
+                // a fielded way. The model only fills the gap — for Bright
+                // Scholarship that is 524 of 1,788 posts, which would
+                // otherwise fall back to using the scholarship's own title as
+                // its awarding organisation.
+                ...(parsed.coverage.unfilled.includes("scholarships[0].providerName") &&
+                r.fields.providerName
+                  ? { providerName: r.fields.providerName }
+                  : {}),
                 // coverageType stays with the parser: it derives STIPEND
                 // deterministically from "per month" wording, whereas the
                 // model returned three different answers for one page.
@@ -342,7 +370,18 @@ export async function runExtraction(
       result.warnings.push(`${document.url}: ${warning}`);
     }
 
-    if (!opts.dryRun) {
+    // A parser that recognised the page but found no record on it has done its
+    // job; writing an empty file for that outcome just accumulates noise. The
+    // curated government sources produced 423 such files across five sources,
+    // against 1,758 real ones, because most pages on a scholarship site are
+    // about alumni, news or privacy. The coverage warnings still report why
+    // each page was passed over.
+    const hasRecords =
+      validated.data.scholarships.length > 0 ||
+      validated.data.programs.length > 0 ||
+      validated.data.universities.length > 0;
+
+    if (!opts.dryRun && hasRecords) {
       const outPath = extractionFilePath(document.sourceId, document.id);
       await mkdir(path.dirname(outPath), { recursive: true });
       await writeFile(outPath, `${JSON.stringify(validated.data, null, 2)}\n`, "utf-8");
@@ -372,6 +411,7 @@ async function runAsCli() {
   const dryRun = args.includes("--dry-run");
   const fromDisk = args.includes("--from-disk");
   const llm = args.includes("--llm");
+  const latestRunOnly = args.includes("--latest-run");
   const skipEnriched = args.includes("--skip-enriched");
   const maxUsdRaw = flag("max-usd");
 
@@ -385,6 +425,7 @@ async function runAsCli() {
       fromDisk,
       llm,
       skipEnriched,
+      latestRunOnly,
       maxUsd: maxUsdRaw ? Number(maxUsdRaw) : undefined,
     });
 

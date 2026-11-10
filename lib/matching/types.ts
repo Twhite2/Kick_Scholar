@@ -93,6 +93,20 @@ export interface MatchTarget {
   tuitionCurrency: string | null;
   requirements: RequirementLike[];
   eligibility: EligibilityLike[];
+  /**
+   * For a programme: how many of the scholarships that could fund it the
+   * student actually qualifies for.
+   *
+   * A programme has no eligibility rules of its own, so this factor used to
+   * report "Not applicable" on every programme — the single most useful
+   * question the product can answer was left blank. It is an aggregate rather
+   * than a merged rule list on purpose: pooling several scholarships'
+   * criteria into one set would AND them together, so a single scholarship
+   * restricted to one nationality would disqualify the student from the
+   * programme itself. Each scholarship is judged on its own and the results
+   * are counted.
+   */
+  linkedScholarships?: { total: number; eligible: number } | null;
 }
 
 export interface MatchResult {
