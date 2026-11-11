@@ -7,12 +7,13 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { getDataSaver } from "@/lib/ui/data-saver";
 import { countryName } from "@/lib/ui/country";
-import { formatCount, formatDuration } from "@/lib/ui/format";
+import { formatCount, formatStudyLength } from "@/lib/ui/format";
 import { degreeLabel } from "@/lib/ui/requirements";
 import { institutionFaceSelect, toInstitutionFace } from "@/lib/cards/faces";
 import { buildProgrammeCards } from "@/lib/cards/programme-cards";
 import { buildScholarshipCards } from "@/lib/cards/scholarship-cards";
 import { getComparisonProfile } from "@/lib/detail/shared";
+import { applicantGroupFor } from "@/lib/deadlines/applicant-group";
 import { DetailBanner } from "@/components/kick/detail/banner";
 import { FactGrid, Panel, type Fact } from "@/components/kick/detail/panels";
 import { CountryFlag } from "@/components/kick/country-flag";
@@ -48,7 +49,7 @@ const getUniversity = cache(async (id: string) =>
       programs: {
         orderBy: { name: "asc" },
         take: LIST_LIMIT,
-        select: { id: true, name: true, degreeLevel: true, fieldCategory: true, durationMonths: true },
+        select: { id: true, name: true, degreeLevel: true, fieldCategory: true, durationMonths: true, studyMode: true },
       },
       fundingOpportunities: {
         // Source-stated links first, then the most confident inferences.
@@ -98,6 +99,7 @@ export default async function UniversityPage({ params, searchParams }: PageProps
   const savedScholarships = new Set(saved.flatMap((s) => (s.scholarshipId ? [s.scholarshipId] : [])));
   const trackedSet = new Set(tracked.map((t) => t.programId));
   const matchedIds = matches.flatMap((m) => (m.programId ? [m.programId] : []));
+  const applicantGroup = applicantGroupFor(profile?.nationality);
   const [matchCards, scholarshipCards] = await Promise.all([
     profile && matchedIds.length > 0
       ? buildProgrammeCards(matchedIds, {
@@ -105,12 +107,14 @@ export default async function UniversityPage({ params, searchParams }: PageProps
           saved: savedProgrammes,
           profile: { currentGpa: profile.currentGpa, languageProficiencies: profile.languageProficiencies },
           now,
+          applicantGroup,
         })
       : Promise.resolve([]),
     buildScholarshipCards([...new Set(university.fundingOpportunities.map((f) => f.scholarshipId))], {
       matches: new Map(),
       saved: savedScholarships,
       now,
+      applicantGroup,
     }),
   ]);
   const cardById = new Map(scholarshipCards.map((c) => [c.id, c]));
@@ -216,7 +220,7 @@ export default async function UniversityPage({ params, searchParams }: PageProps
                         <span className="block truncate text-[15px] font-bold text-ink">{p.name}</span>
                         <span className="block text-sm text-ink-3">
                           {FIELD_LABEL[p.fieldCategory] ?? p.fieldCategory}
-                          {formatDuration(p.durationMonths) ? ` · ${formatDuration(p.durationMonths)}` : ""}
+                          {formatStudyLength(p.durationMonths, p.studyMode, { short: true }) ? ` · ${formatStudyLength(p.durationMonths, p.studyMode, { short: true })}` : ""}
                         </span>
                       </span>
                       {degreeLabel(p.degreeLevel) && <Pill>{degreeLabel(p.degreeLevel)}</Pill>}

@@ -4,7 +4,9 @@ import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { institutionFaceSelect, providerFace, toInstitutionFace } from "@/lib/cards/faces";
-import { buildProgrammeCards, startOfToday } from "@/lib/cards/programme-cards";
+import { buildProgrammeCards, upcomingDeadlineWhere } from "@/lib/cards/programme-cards";
+import type { ApplicantGroup } from "@/lib/deadlines/applicant-group";
+import { getApplicantGroup } from "@/lib/deadlines/viewer-group";
 import { buildScholarshipCards, providerInstitutions } from "@/lib/cards/scholarship-cards";
 import { daysUntil } from "@/lib/ui/format";
 import { cn } from "@/lib/utils";
@@ -36,7 +38,7 @@ export default async function PlanPage({ searchParams }: PageProps<"/plan">) {
   const now = new Date();
   const params = await searchParams;
 
-  const [applications, saved, matches, profile] = await Promise.all([
+  const [applications, saved, matches, profile, applicantGroup] = await Promise.all([
     loadApplications(userId, now),
     prisma.savedOpportunity.findMany({ where: { userId }, orderBy: { savedAt: "desc" }, select: { programId: true, scholarshipId: true } }),
     prisma.match.findMany({ where: { userId }, select: { programId: true, scholarshipId: true, score: true, matchStrength: true, factorScores: true } }),
@@ -44,6 +46,7 @@ export default async function PlanPage({ searchParams }: PageProps<"/plan">) {
       where: { userId },
       select: { currentGpa: true, languageProficiencies: { select: { testName: true, score: true } } },
     }),
+    getApplicantGroup(userId),
   ]);
   const tab = params.tab === "saved" || params.tab === "applications" ? params.tab : applications.length > 0 ? "applications" : "saved";
   const trackedProgrammes = new Set(applications.flatMap((a) => (a.programId ? [a.programId] : [])));
@@ -91,13 +94,16 @@ export default async function PlanPage({ searchParams }: PageProps<"/plan">) {
           trackedProgrammes={trackedProgrammes}
           trackedScholarships={trackedScholarships}
           now={now}
+          applicantGroup={applicantGroup}
         />
       )}
     </div>
   );
 }
 
-function loadApplications(userId: string, now: Date) {
+async function loadApplications(userId: string, now: Date) {
+  // EU-only or non-EU-only dates that are not this student's never count as theirs.
+  const applicantGroup = await getApplicantGroup(userId);
   return prisma.application.findMany({
     where: { userId },
     orderBy: { createdAt: "desc" },
@@ -112,14 +118,14 @@ function loadApplications(userId: string, now: Date) {
         select: {
           name: true,
           university: { select: institutionFaceSelect },
-          deadlines: { where: { date: { gte: startOfToday(now) } }, orderBy: { date: "asc" }, take: 1, select: { date: true } },
+          deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
         },
       },
       scholarship: {
         select: {
           name: true,
           providerName: true,
-          deadlines: { where: { date: { gte: startOfToday(now) } }, orderBy: { date: "asc" }, take: 1, select: { date: true } },
+          deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
         },
       },
     },
@@ -196,6 +202,7 @@ async function SavedTab({
   trackedProgrammes,
   trackedScholarships,
   now,
+  applicantGroup,
 }: {
   savedProgrammeIds: string[];
   savedScholarshipIds: string[];
@@ -204,6 +211,7 @@ async function SavedTab({
   trackedProgrammes: Set<string>;
   trackedScholarships: Set<string>;
   now: Date;
+  applicantGroup: ApplicantGroup | null;
 }) {
   if (savedProgrammeIds.length + savedScholarshipIds.length === 0) {
     return (
@@ -224,8 +232,8 @@ async function SavedTab({
   const programmeMatches = new Map(matches.flatMap((m) => (m.programId ? [[m.programId, m] as const] : [])));
   const scholarshipMatches = new Map(matches.flatMap((m) => (m.scholarshipId ? [[m.scholarshipId, m] as const] : [])));
   const [programmes, scholarships] = await Promise.all([
-    buildProgrammeCards(savedProgrammeIds, { matches: programmeMatches, saved: new Set(savedProgrammeIds), profile, now }),
-    buildScholarshipCards(savedScholarshipIds, { matches: scholarshipMatches, saved: new Set(savedScholarshipIds), now }),
+    buildProgrammeCards(savedProgrammeIds, { matches: programmeMatches, saved: new Set(savedProgrammeIds), profile, now, applicantGroup }),
+    buildScholarshipCards(savedScholarshipIds, { matches: scholarshipMatches, saved: new Set(savedScholarshipIds), now, applicantGroup }),
   ]);
 
   return (

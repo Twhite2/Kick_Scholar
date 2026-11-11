@@ -161,6 +161,28 @@ export function formatDuration(months: number | null | undefined): string | null
   return plural(months, "month");
 }
 
+/**
+ * Length and study mode as one fact: "2 years, full-time", "1 year
+ * full-time, part-time available", "Part-time". Where a course runs both
+ * ways, the stated length is the full-time one. `short` fits a poster line:
+ * "1 year, full or part-time".
+ */
+export function formatStudyLength(
+  months: number | null | undefined,
+  mode: string | null | undefined,
+  { short = false }: { short?: boolean } = {},
+): string | null {
+  const length = formatDuration(months);
+  const m = mode?.toLowerCase() ?? null;
+  if (m === "full-time") return length ? `${length}, full-time` : "Full-time";
+  if (m === "full-time or part-time") {
+    if (short) return length ? `${length}, full or part-time` : "Full or part-time";
+    return length ? `${length} full-time, part-time available` : "Full-time or part-time";
+  }
+  if (m === "part-time") return length ? `${length}, part-time` : "Part-time";
+  return length;
+}
+
 export function greeting(now: DateInput = new Date()): "morning" | "afternoon" | "evening" {
   const { hour } = lagosParts(toDate(now));
   if (hour < 12) return "morning";

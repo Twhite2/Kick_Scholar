@@ -366,7 +366,7 @@ model University {
   // Media for the UI, filled by scripts/enrich-institution-media.ts. URLs
   // point at our own storage, never at the third-party origin. Cover credit
   // and licence are kept because Commons images require attribution.
-  logoSource      String? // 'wikidata' | 'logo.dev' | 'brandfetch' | 'manual'
+  logoSource      String? // 'wikidata' | 'site-icon' | 'logo.dev' | 'manual'
   logoCheckedAt   DateTime?
   coverUrl        String?
   coverWidth      Int?
@@ -433,6 +433,7 @@ model Program {
   applicationFee         Decimal?
   applicationFeeCurrency String?
   intakes                String[] // e.g. ["Winter", "Summer"]
+  studyMode              String? // "Full-time", "Part-time" or "Full-time or part-time", as the source states
   programUrl             String
   description            String?
   creditSystem           String?
@@ -584,6 +585,7 @@ model Scholarship {
   country           String? // null = open to students studying in multiple countries
   amount            Decimal?
   amountCurrency    String?
+  amountPeriod      String? // MONTH | YEAR | ONCE | TOTAL — what the amount is per, as the source states
   coverageType      ScholarshipCoverageType
   description       String?
   applicationUrl    String

@@ -16,3 +16,8 @@ The student UI rebuilt to docs/ui-remodel.md.
 - **Admin:** current tab marked, sentence-case headings, a confirmation before rejecting, media coverage tiles, and role checks in every admin page.
 - **Landing and sign-in:** billboard-style hero with a labelled example card, sign-up links that return to the catalogue, a footer without dead links, and a night panel on sign-in.
 - **Database:** adds `User.homeLastVisitedAt` and the University media columns.
+- **Recovered data** (docs/ui-remodel-data-gaps.md): deadline dates for 1,052 programmes and 34 scholarships, study mode for 11,480 programmes, length for UK courses, and 26 DAAD scholarship amounts, each with how often it is paid. All come from pages and datasets already on disk. `npm run data:backfill` re-applies them; `npm run deadlines:refresh` moves passed annual deadlines on. Adds `Program.studyMode` and `Scholarship.amountPeriod`.
+- **EU / non-EU deadlines:** each student sees only the dates for their group, from the nationality on their profile, on cards, Home, My plan, detail pages and the calendar feed.
+- **Posters and facts** read "2 years, full-time" and "€992 a month".
+- **Brand:** the KickScholar logo pack in the shell, landing, sign-in, error and credits pages, plus favicon, app icons, web manifest and link-preview images.
+- **Media script:** falls back to the site's own icon and the Wikipedia lead image, passes over wide wordmarks, survives dropped connections, and writes its report row by row.

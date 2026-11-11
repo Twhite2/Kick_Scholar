@@ -59,7 +59,7 @@ export function FundingPoster({
   now?: Date;
 }) {
   const band = posterBand(card.coverage);
-  const amount = posterAmount({ coverage: card.coverage, amount: card.amount?.value ?? null, currency: card.amount?.currency ?? null });
+  const amount = posterAmount({ coverage: card.coverage, amount: card.amount?.value ?? null, currency: card.amount?.currency ?? null, per: card.amount?.per ?? null });
   const face = card.provider.institution ?? providerFace(card.provider.name);
   const compact = mode === "compact";
   const deadline = scholarshipDeadlineText(card, now);
@@ -86,16 +86,17 @@ export function FundingPoster({
           <Coins aria-hidden="true" className="size-4" />
           {COVERAGE_LABEL[card.coverage]}
         </p>
-        <p
-          className={cn(
-            "mt-2.5 font-display leading-none font-[750] tracking-[-0.03em] tabular-nums md:mt-3",
-            !amount.confirmed && "text-[24px] md:text-[30px]",
-          )}
-          style={amount.confirmed ? { fontSize: compact ? Math.min(amount.size, 38) : amount.size } : undefined}
-        >
-          {amount.text}
-        </p>
-        {amount.per && <p className="mt-1.5 text-sm text-white/[.88]">{amount.per}</p>}
+        {/* The compact band is 120px with the logo at 97px: "a month" sits
+            beside the amount there instead of below it. */}
+        <div className={cn("mt-2.5 md:mt-3", compact && "flex flex-wrap items-baseline gap-x-2")}>
+          <p
+            className={cn("font-display leading-none font-[750] tracking-[-0.03em] tabular-nums", !amount.confirmed && "text-[24px] md:text-[30px]")}
+            style={amount.confirmed ? { fontSize: compact ? Math.min(amount.size, 38) : amount.size } : undefined}
+          >
+            {amount.text}
+          </p>
+          {amount.per && <p className={cn("text-sm text-white/[.88]", !compact && "mt-1.5")}>{amount.per}</p>}
+        </div>
       </div>
       <div className="absolute top-1.5 right-1.5 z-10">
         <SaveButton targetType="scholarship" targetId={card.id} title={card.title} initialSaved={card.saved} variant="onImage" />

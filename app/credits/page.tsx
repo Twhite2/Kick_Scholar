@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { prisma } from "@/lib/db";
+import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
 
 export const metadata: Metadata = { title: "Photo credits" };
 export const dynamic = "force-dynamic";
@@ -19,8 +20,8 @@ export default async function CreditsPage() {
   return (
     <main className="min-h-screen pb-16">
       <div className="px-gutter py-6">
-        <Link href="/" className="inline-flex min-h-11 items-center font-display text-2xl font-[750] tracking-[-0.03em] text-kick-blue">
-          KickScholar
+        <Link href="/" aria-label="KickScholar home" className="inline-flex min-h-11 items-center">
+          <KickScholarLogo aria-hidden className="h-7 w-auto" />
         </Link>
       </div>
       <div className="box-content max-w-[860px] px-gutter">

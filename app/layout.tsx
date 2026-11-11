@@ -23,9 +23,18 @@ const sans = Atkinson_Hyperlegible_Next({
   fallback: ["system-ui", "Segoe UI", "Arial", "sans-serif"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
+// Icons, manifest and the link-preview image come from the logo pack as
+// file conventions in app/ (favicon.ico, icon.svg, apple-icon.png,
+// manifest.webmanifest, opengraph-image.png, twitter-image.png).
 export const metadata: Metadata = {
+  ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
   title: { template: "%s | KickScholar", default: "KickScholar" },
   description: "Find universities and scholarships you actually qualify for.",
+  applicationName: "KickScholar",
+  openGraph: { siteName: "KickScholar", type: "website", locale: "en_GB" },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {

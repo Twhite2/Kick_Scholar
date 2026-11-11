@@ -6,6 +6,7 @@ import { ClipboardList, Compass, House, Search, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { TOP_NAV, isExploreRoute, isNightRoute } from "@/lib/ui/nav";
 import { DataSaverBanner } from "@/components/kick/data-saver";
+import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
 import { AvatarMenu, type ShellUser } from "./avatar-menu";
 
 /**
@@ -48,14 +49,9 @@ function TopBar({ user, pathname, night }: { user: ShellUser; pathname: string; 
           : "sticky top-0 border-b border-line bg-white/95 backdrop-blur supports-backdrop-filter:bg-white/85",
       )}
     >
-      <Link
-        href="/dashboard"
-        className={cn(
-          "inline-flex min-h-11 items-center font-display text-[22px] font-[750] tracking-[-0.03em] md:text-2xl",
-          night ? "text-white" : "text-kick-blue",
-        )}
-      >
-        KickScholar
+      {/* The logo: reversed on the night bar, colour on the light one (logo/README.txt). */}
+      <Link href="/dashboard" aria-label="KickScholar home" className="inline-flex min-h-11 shrink-0 items-center">
+        <KickScholarLogo aria-hidden tone={night ? "reversed" : "colour"} className="h-[22px] w-auto md:h-7" />
       </Link>
 
       <nav aria-label="Main" className="hidden md:block">

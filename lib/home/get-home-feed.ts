@@ -17,7 +17,8 @@ import { applicationsCloseLine, formatMoney, lowerFirst, plural } from "@/lib/ui
 import { basisLine, buildReasons, languageRequirementText } from "@/lib/ui/reasons";
 import { isStrength } from "@/lib/ui/strength";
 import { institutionFaceSelect, providerFace, toInstitutionFace } from "@/lib/cards/faces";
-import { buildProgrammeCardsWithRows, startOfToday, type ProgrammeMatchRow } from "@/lib/cards/programme-cards";
+import { buildProgrammeCardsWithRows, startOfToday, upcomingDeadlineWhere, type ProgrammeMatchRow } from "@/lib/cards/programme-cards";
+import { applicantGroupFor, deadlineWhereFor } from "@/lib/deadlines/applicant-group";
 import { buildScholarshipCards, providerInstitutions } from "@/lib/cards/scholarship-cards";
 import {
   LIMITS,
@@ -89,6 +90,7 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
     prisma.studentProfile.findUnique({
       where: { userId },
       select: {
+        nationality: true,
         currentGpa: true,
         workExperienceMonths: true,
         preferredCountries: true,
@@ -125,6 +127,8 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
     currentGpa: profile.currentGpa,
     languageProficiencies: profile.languageProficiencies,
   };
+  // EU-only or non-EU-only dates that are not this student's never count as theirs.
+  const applicantGroup = applicantGroupFor(profile.nationality);
 
   // 1. Every match, light: scores, strengths, factor scores, country, age.
   const [matchRows, savedRows, applicationRows] = await Promise.all([
@@ -157,14 +161,14 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
           select: {
             name: true,
             university: { select: institutionFaceSelect },
-            deadlines: { where: { date: { gte: startOfToday(now) } }, orderBy: { date: "asc" }, take: 1, select: { date: true } },
+            deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
           },
         },
         scholarship: {
           select: {
             name: true,
             providerName: true,
-            deadlines: { where: { date: { gte: startOfToday(now) } }, orderBy: { date: "asc" }, take: 1, select: { date: true } },
+            deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
           },
         },
       },
@@ -194,7 +198,7 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
   );
   const savedProgrammes = new Set(savedRows.flatMap((s) => (s.programId ? [s.programId] : [])));
   const savedScholarships = new Set(savedRows.flatMap((s) => (s.scholarshipId ? [s.scholarshipId] : [])));
-  const programmeCtx = { matches: matchByTarget, saved: savedProgrammes, profile: reasonProfile, now };
+  const programmeCtx = { matches: matchByTarget, saved: savedProgrammes, profile: reasonProfile, now, applicantGroup };
 
   // 2. Selections that need nothing more than the match rows.
   const strong = selectStrongMatches(matches);
@@ -213,6 +217,7 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
       : await prisma.applicationDeadline.findMany({
           where: {
             date: { gte: startOfToday(now), lt: windowEnd },
+            AND: [deadlineWhereFor(applicantGroup)],
             OR: [
               ...(qualifyingProgrammeIds.length ? [{ programId: { in: qualifyingProgrammeIds } }] : []),
               ...(qualifyingScholarshipIds.length ? [{ scholarshipId: { in: qualifyingScholarshipIds } }] : []),
@@ -240,7 +245,7 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
 
   const [{ cards: programmeCards, rows: programmeRows, linked }, fundingCards, oneAwayScholarships] = await Promise.all([
     buildProgrammeCardsWithRows(programmeIds, programmeCtx),
-    buildScholarshipCards(funding.items.map((m) => m.targetId), { matches: matchByTarget, saved: savedScholarships, now }),
+    buildScholarshipCards(funding.items.map((m) => m.targetId), { matches: matchByTarget, saved: savedScholarships, now, applicantGroup }),
     prisma.scholarship.findMany({
       where: { id: { in: oneAway.filter((c) => c.match.kind === "SCHOLARSHIP").map((c) => c.match.targetId) } },
       select: { id: true, name: true, providerName: true, eligibility: { select: { criterionType: true, numericValue: true, textValue: true } } },

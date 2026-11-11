@@ -37,6 +37,29 @@ const SOURCE_ID = "src-discover-uni";
 /** Where a course page lives, when the dataset gives one. */
 const DISCOVER_UNI_COURSE = "https://discoveruni.gov.uk";
 
+/**
+ * Study mode and length from a KISCOURSE row. KISMODE: 1 full-time,
+ * 2 part-time, 3 both. NUMSTAGE counts the course's stages, which are years
+ * for full-time study; a part-time stage is not a year, so no length is
+ * claimed for part-time-only courses.
+ */
+export function courseShape(row: Record<string, string>): { studyMode: string | null; durationMonths: number | null } {
+  // The release pads the code ("01"), so compare it as a number.
+  const raw = pick(row, "KISMODE");
+  const mode = /^\d+$/.test(raw) ? Number(raw) : null;
+  const studyMode = mode === 1 ? "Full-time" : mode === 2 ? "Part-time" : mode === 3 ? "Full-time or part-time" : null;
+  const stages = Number(pick(row, "NUMSTAGE"));
+  const fullTime = mode === 1 || mode === 3;
+  const durationMonths = fullTime && Number.isInteger(stages) && stages > 0 && stages <= 8 ? stages * 12 : null;
+  return { studyMode, durationMonths };
+}
+
+export function mergeModes(a: string | null, b: string | null): string | null {
+  if (!a) return b;
+  if (!b || a === b) return a;
+  return "Full-time or part-time";
+}
+
 export interface DiscoverUniResult {
   institutionsRead: number;
   coursesRead: number;
@@ -93,7 +116,7 @@ function titleCaseIfShouting(name: string): string {
  * Returns empty for anything that still will not parse, so a malformed entry
  * is skipped rather than stored as a broken link.
  */
-function normaliseUrl(raw: string): string {
+export function normaliseUrl(raw: string): string {
   const value = raw.trim();
   if (!value) return "";
   const candidate = /^https?:\/\//i.test(value) ? value : `https://${value}`;
@@ -124,7 +147,7 @@ function normaliseUrl(raw: string): string {
  * and Commonwealth fund. There are no standalone postgraduate courses in this
  * dataset at all.
  */
-function degreeLevelFromAward(label: string): string | null {
+export function degreeLevelFromAward(label: string): string | null {
   const l = label.trim();
   if (!l) return null;
 
@@ -275,7 +298,16 @@ export async function importDiscoverUni(
       normaliseUrl(pick(row, "CRSEURL", "COURSEURL", "URL")) || DISCOVER_UNI_COURSE;
     const fieldCategory = inferFieldCategory(title) ?? "OTHER";
 
+    const { studyMode, durationMonths } = courseShape(row);
     const list = byInstitution.get(institution.name) ?? [];
+    // The release lists full-time and part-time versions of one course as
+    // separate rows; the loader keeps one programme per course, so merge them.
+    const twin = list.find((p) => p.name === title && p.degreeLevel === (degreeLevel as never));
+    if (twin) {
+      twin.studyMode = mergeModes(twin.studyMode, studyMode);
+      twin.durationMonths = twin.durationMonths ?? durationMonths;
+      continue;
+    }
     list.push({
       universityName: institution.name,
       // Taken from the release, never invented: the loader matches on it when
@@ -285,7 +317,7 @@ export async function importDiscoverUni(
       degreeLevel: degreeLevel as never,
       fieldOfStudy: title,
       fieldCategory: fieldCategory as never,
-      durationMonths: null,
+      durationMonths,
       instructionLanguages: ["English"],
       // Fees are published per fee regime and per year, which this importer
       // does not attempt to resolve, so nothing is claimed.
@@ -294,6 +326,7 @@ export async function importDiscoverUni(
       tuitionCurrency: null,
       tuitionPeriod: null as never,
       intakes: [],
+      studyMode,
       programUrl: courseUrl,
       description: award ? `Leads to a ${award}.` : null,
       sourceUrl: courseUrl,

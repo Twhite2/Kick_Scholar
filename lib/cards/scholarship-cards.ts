@@ -1,10 +1,11 @@
 import { prisma } from "@/lib/db";
-import type { InstitutionFace, ScholarshipCardData } from "@/lib/types/cards";
+import type { ApplicantGroup } from "@/lib/deadlines/applicant-group";
+import type { AmountPer, InstitutionFace, ScholarshipCardData } from "@/lib/types/cards";
 import { isCoverage } from "@/lib/ui/coverage";
 import { institutionFaceSelect, toInstitutionFace } from "./faces";
-import { matchInfo, startOfToday, type ProgrammeMatchRow } from "./programme-cards";
+import { matchInfo, upcomingDeadlineWhere, type ProgrammeMatchRow } from "./programme-cards";
 
-export const scholarshipCardSelect = (now = new Date()) =>
+export const scholarshipCardSelect = (now = new Date(), group: ApplicantGroup | null = null) =>
   ({
     id: true,
     name: true,
@@ -12,11 +13,12 @@ export const scholarshipCardSelect = (now = new Date()) =>
     coverageType: true,
     amount: true,
     amountCurrency: true,
+    amountPeriod: true,
     verified: true,
     deadlineText: true,
     country: true,
     deadlines: {
-      where: { date: { gte: startOfToday(now) } },
+      where: upcomingDeadlineWhere(now, group),
       orderBy: { date: "asc" },
       take: 1,
       select: { date: true },
@@ -56,8 +58,15 @@ export async function providerInstitutions(scholarshipIds: string[]): Promise<Ma
 
 type ScholarshipRow = Awaited<ReturnType<typeof fetchScholarships>>[number];
 
-async function fetchScholarships(ids: string[], now: Date) {
-  return prisma.scholarship.findMany({ where: { id: { in: ids } }, select: scholarshipCardSelect(now) });
+async function fetchScholarships(ids: string[], now: Date, group: ApplicantGroup | null = null) {
+  return prisma.scholarship.findMany({ where: { id: { in: ids } }, select: scholarshipCardSelect(now, group) });
+}
+
+const PER: Record<string, AmountPer> = { MONTH: "month", YEAR: "year", ONCE: "once", TOTAL: "total" };
+
+/** The schema's MONTH / YEAR / ONCE / TOTAL as the card's `per`. */
+export function amountPer(period: string | null | undefined): AmountPer | null {
+  return (period && PER[period]) || null;
 }
 
 export function toScholarshipCard(
@@ -71,7 +80,7 @@ export function toScholarshipCard(
     title: s.name,
     provider: { name: s.providerName, institution: provider ?? null },
     coverage: isCoverage(s.coverageType) ? s.coverageType : "UNKNOWN",
-    amount: amount && amount > 0 && s.amountCurrency ? { value: amount, currency: s.amountCurrency } : null,
+    amount: amount && amount > 0 && s.amountCurrency ? { value: amount, currency: s.amountCurrency, per: amountPer(s.amountPeriod) } : null,
     sourceVerified: s.verified,
     nextDeadline: s.deadlines[0]?.date?.toISOString() ?? null,
     deadlineText: s.deadlineText,
@@ -82,11 +91,11 @@ export function toScholarshipCard(
 
 export async function buildScholarshipCards(
   ids: string[],
-  ctx: { matches: Map<string, ProgrammeMatchRow>; saved: Set<string>; now?: Date },
+  ctx: { matches: Map<string, ProgrammeMatchRow>; saved: Set<string>; now?: Date; applicantGroup?: ApplicantGroup | null },
 ): Promise<ScholarshipCardData[]> {
   if (ids.length === 0) return [];
   const now = ctx.now ?? new Date();
-  const [rows, providers] = await Promise.all([fetchScholarships(ids, now), providerInstitutions(ids)]);
+  const [rows, providers] = await Promise.all([fetchScholarships(ids, now, ctx.applicantGroup ?? null), providerInstitutions(ids)]);
   const byId = new Map(rows.map((r) => [r.id, r]));
   return ids.flatMap((id) => {
     const row = byId.get(id);

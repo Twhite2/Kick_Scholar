@@ -15,7 +15,8 @@ import { basisLine } from "@/lib/ui/reasons";
 import { actionHref, cleanSourceText, criterionLabel, degreeLabel, scholarshipRows } from "@/lib/ui/requirements";
 import { institutionFaceSelect, providerFace, toInstitutionFace } from "@/lib/cards/faces";
 import { matchInfo } from "@/lib/cards/programme-cards";
-import { buildScholarshipCards, providerInstitutions } from "@/lib/cards/scholarship-cards";
+import { amountPer, buildScholarshipCards, providerInstitutions } from "@/lib/cards/scholarship-cards";
+import { applicantGroupFor, deadlineAppliesTo, intakeLabel } from "@/lib/deadlines/applicant-group";
 import { getComparisonProfile, joinList, usefulDeadlineText } from "@/lib/detail/shared";
 import { BannerScoreCard, NightBreadcrumb } from "@/components/kick/detail/banner";
 import { AdviceLists, FactGrid, KeyDates, Panel, ProvenanceCard, RequirementComparison, ScoreBreakdown, type Fact, type KeyDate } from "@/components/kick/detail/panels";
@@ -41,6 +42,7 @@ const getScholarship = cache(async (id: string) =>
       country: true,
       amount: true,
       amountCurrency: true,
+      amountPeriod: true,
       coverageType: true,
       description: true,
       applicationUrl: true,
@@ -54,7 +56,7 @@ const getScholarship = cache(async (id: string) =>
       eligibility: {
         select: { id: true, criterionType: true, operator: true, valueList: true, numericValue: true, textValue: true, description: true, verified: true },
       },
-      deadlines: { select: { id: true, deadlineType: true, date: true, dateText: true }, orderBy: { date: "asc" } },
+      deadlines: { select: { id: true, deadlineType: true, date: true, dateText: true, intake: true }, orderBy: { date: "asc" } },
     },
   }),
 );
@@ -113,11 +115,15 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
   ]);
 
   const coverage = isCoverage(s.coverageType) ? s.coverageType : "UNKNOWN";
-  const amount = posterAmount({ coverage, amount: s.amount === null ? null : Number(s.amount), currency: s.amountCurrency });
+  const amount = posterAmount({ coverage, amount: s.amount === null ? null : Number(s.amount), currency: s.amountCurrency, per: amountPer(s.amountPeriod) });
   const face = providers.get(id) ?? providerFace(s.providerName);
   const factors = (match?.factorScores as unknown as FactorScore[] | undefined) ?? [];
   const info = matchInfo(match ?? undefined, s.verified);
-  const nextDated = s.deadlines.find((d) => d.date && daysUntil(d.date, now) >= 0) ?? null;
+  // The other group's EU / non-EU dates are not this student's deadlines.
+  const applicantGroup = applicantGroupFor(profile?.nationality);
+  const deadlines = s.deadlines.filter((d) => deadlineAppliesTo(d.intake, applicantGroup));
+  const upcoming = deadlines.filter((d) => d.date && daysUntil(d.date, now) >= 0);
+  const nextDated = upcoming[0] ?? null;
   const countOf = (m: string) => linkCounts.find((c) => c.linkMethod === m)?._count._all ?? 0;
 
   const toRow = (l: (typeof explicitLinks)[number]): WhereRow => ({
@@ -135,7 +141,7 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
     { label: "Amount", value: amount.text, note: amount.per },
     { label: "Coverage", value: COVERAGE_LABEL[coverage] },
   ];
-  const deadlineText = usefulDeadlineText(s.deadlineText) ?? usefulDeadlineText(s.deadlines.find((d) => !d.date)?.dateText);
+  const deadlineText = usefulDeadlineText(s.deadlineText) ?? usefulDeadlineText(deadlines.find((d) => !d.date)?.dateText);
   if (nextDated?.date) {
     const days = daysUntil(nextDated.date, now);
     facts.push({ label: "Deadline", value: formatDate(nextDated.date, now), note: closesIn(days), noteTone: isUrgent(days) ? "red" : "muted" });
@@ -162,8 +168,9 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
     deadline: nextDated?.date ?? null,
     now,
   });
-  const keyDates = s.deadlines.flatMap((d): KeyDate[] => {
-    if (d.date) return [{ label: "Application deadline", date: d.date.toISOString() }];
+  const keyDates = deadlines.flatMap((d): KeyDate[] => {
+    const intake = intakeLabel(d.intake);
+    if (d.date) return [{ label: `Application deadline${intake ? ` (${intake})` : ""}`, date: d.date.toISOString() }];
     const text = usefulDeadlineText(d.dateText);
     return text ? [{ label: "Deadline", date: null, text }] : [];
   });
@@ -189,7 +196,7 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
     similar.length >= 3
       ? await buildScholarshipCards(
           similar.flatMap((m) => (m.scholarshipId ? [m.scholarshipId] : [])),
-          { matches: new Map(similar.map((m) => [m.scholarshipId!, m])), saved: new Set(savedRows.map((r) => r.scholarshipId!)), now },
+          { matches: new Map(similar.map((m) => [m.scholarshipId!, m])), saved: new Set(savedRows.map((r) => r.scholarshipId!)), now, applicantGroup },
         )
       : [];
 
@@ -346,16 +353,17 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
 
             <Panel id="application" title="Application">
               <div className="space-y-4">
-                {s.deadlines.some((d) => d.date) ? (
+                {upcoming.length > 0 ? (
                   <ul role="list" className="space-y-2">
-                    {s.deadlines
-                      .filter((d) => d.date)
-                      .map((d) => (
-                        <li key={d.id} className="flex items-center justify-between rounded-tile bg-paper px-4 py-3">
-                          <span className="text-[15px] font-bold text-ink">Application deadline</span>
-                          <span className="text-[15px] font-bold text-kick-red tabular-nums">{formatFullDate(d.date!)}</span>
-                        </li>
-                      ))}
+                    {upcoming.map((d) => (
+                      <li key={d.id} className="flex items-center justify-between gap-4 rounded-tile bg-paper px-4 py-3">
+                        <span className="text-[15px] font-bold text-ink">
+                          Application deadline
+                          {intakeLabel(d.intake) && <span className="block text-sm font-normal text-ink-3">{intakeLabel(d.intake)}</span>}
+                        </span>
+                        <span className="shrink-0 text-[15px] font-bold text-kick-red tabular-nums">{formatFullDate(d.date!)}</span>
+                      </li>
+                    ))}
                   </ul>
                 ) : s.deadlineText ? (
                   <p className="max-w-[70ch] text-[15px] text-ink-2">{cleanSourceText(s.deadlineText)}</p>

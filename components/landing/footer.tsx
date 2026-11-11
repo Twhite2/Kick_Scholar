@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
 
 /**
  * Only links to pages that exist (docs/ui-remodel.md §9.11). About, Contact,
@@ -33,7 +34,7 @@ export function LandingFooter() {
       <div className="px-gutter py-16">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <span className="font-display text-2xl font-[750] tracking-[-0.03em] text-kick-blue">KickScholar</span>
+            <KickScholarLogo className="h-7 w-auto" />
             <p className="mt-3 max-w-[240px] text-[15px] text-ink-3">Find universities and scholarships you actually qualify for.</p>
           </div>
           {COLUMNS.map((col) => (

@@ -3,7 +3,7 @@ import { Check, CircleAlert, Clock, Coins, GraduationCap } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { ProgrammeCardData } from "@/lib/types/cards";
 import { countryName } from "@/lib/ui/country";
-import { closesIn, daysUntil, formatDuration, isUrgent } from "@/lib/ui/format";
+import { closesIn, daysUntil, formatStudyLength, isUrgent } from "@/lib/ui/format";
 import { CoverImage } from "./cover-image";
 import { CountryFlag } from "./country-flag";
 import { InstitutionLogo } from "./institution-logo";
@@ -36,7 +36,7 @@ export function MatchPosterCard({
   const inst = card.institution;
   const days = card.nextDeadline ? daysUntil(card.nextDeadline, now) : null;
   const urgent = isUrgent(days);
-  const duration = formatDuration(card.durationMonths);
+  const duration = formatStudyLength(card.durationMonths, card.studyMode, { short: true });
   const href = `/programs/${card.id}`;
   const place = [inst.city, countryName(inst.countryCode)].filter(Boolean).join(", ");
 

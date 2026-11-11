@@ -151,6 +151,8 @@ export const ExtractedProgramSchema = z.object({
   tuitionCurrency: z.string().length(3).nullable().default(null),
   tuitionPeriod: TuitionPeriodSchema.nullable().default(null),
   intakes: z.array(z.string()).default([]),
+  // "Full-time", "Part-time" or "Full-time or part-time", when the source says.
+  studyMode: z.string().nullable().default(null),
   programUrl: z.url(),
   description: z.string().nullable().default(null),
   sourceUrl: z.url(),
@@ -202,6 +204,8 @@ export const ExtractedScholarshipSchema = z.object({
   applicationUrl: z.url(),
   deadlineText: z.string().nullable().default(null),
   isRenewable: z.boolean().nullable().default(null),
+  // What the amount is per: MONTH, YEAR, ONCE or TOTAL. Null when not stated.
+  amountPeriod: z.enum(["MONTH", "YEAR", "ONCE", "TOTAL"]).nullable().default(null),
   // Set when this record was found via a DISCOVERY-authority source rather
   // than read directly off an official page.
   discoveredFrom: z.string().nullable().default(null),

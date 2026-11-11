@@ -13,6 +13,7 @@ import {
 } from "@/fixtures/home-feed.sample";
 import { STRENGTH_ORDER } from "@/lib/ui/strength";
 import { Button } from "@/components/ui/button";
+import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
 import { InstitutionLogo, type LogoSize } from "@/components/kick/institution-logo";
 import { CountryFlag } from "@/components/kick/country-flag";
 import { ScoreDial } from "@/components/kick/score-dial";
@@ -61,6 +62,23 @@ export default function KitPage() {
         <h1 className="type-page-h1 text-ink">Component kit</h1>
         <p className="mt-2 type-body-sm text-ink-3">Sample data only (fixtures/home-feed.sample.ts). Dates are relative to 10 Nov 2026.</p>
       </div>
+
+      <KitSection title="Logo">
+        <div className="grid gap-4 sm:grid-cols-3">
+          <div className="flex items-center justify-center rounded-panel bg-white p-8 shadow-hairline">
+            <KickScholarLogo className="h-9 w-auto" />
+          </div>
+          <div className="flex items-center justify-center rounded-panel bg-night p-8">
+            <KickScholarLogo tone="reversed" className="h-9 w-auto" />
+          </div>
+          <div className="flex items-center justify-center gap-6 rounded-panel bg-white p-8 shadow-hairline">
+            <KickScholarLogo variant="symbol" className="h-10 w-auto" />
+            <span className="rounded-panel bg-night p-3">
+              <KickScholarLogo variant="symbol" tone="reversed" className="h-10 w-auto" />
+            </span>
+          </div>
+        </div>
+      </KitSection>
 
       <KitSection title="Type">
         <div className="space-y-3 rounded-panel bg-white p-6 shadow-hairline">

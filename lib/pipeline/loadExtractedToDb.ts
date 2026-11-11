@@ -1,3 +1,4 @@
+import { rollForward } from "../extraction/parsers/dates";
 import "dotenv/config";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
@@ -239,8 +240,18 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
       programId = candidates[0].id;
       const existing = await prisma.program.findUniqueOrThrow({
         where: { id: programId },
-        select: { primarySourceId: true },
+        select: { primarySourceId: true, durationMonths: true, studyMode: true, intakes: true },
       });
+      // The same source re-reading its own page may now state what it didn't
+      // before (a length, a study mode, intakes). Fill those gaps; never
+      // overwrite a value, and never touch another source's record.
+      if (existing.primarySourceId === extraction.sourceId) {
+        const fill: Record<string, unknown> = {};
+        if (existing.durationMonths === null && normalized.durationMonths !== null) fill.durationMonths = normalized.durationMonths;
+        if (existing.studyMode === null && extractedProgram.studyMode) fill.studyMode = extractedProgram.studyMode;
+        if (existing.intakes.length === 0 && extractedProgram.intakes.length > 0) fill.intakes = extractedProgram.intakes;
+        if (Object.keys(fill).length > 0) await prisma.program.update({ where: { id: programId }, data: fill });
+      }
       await upsertCitation(prisma, {
         sourceableType: "PROGRAM",
         sourceableId: programId,
@@ -258,6 +269,7 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
           fieldOfStudy: normalized.fieldOfStudy,
           fieldCategory: normalized.fieldCategory,
           durationMonths: normalized.durationMonths,
+          studyMode: extractedProgram.studyMode ?? null,
           instructionLanguages: normalized.instructionLanguages,
           tuitionType: normalized.tuitionType,
           tuitionAmount: normalized.tuitionAmount,
@@ -325,12 +337,15 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
         },
       });
     }
+    const loadedAt = new Date();
     for (const dl of extractedProgram.deadlines) {
       await prisma.applicationDeadline.create({
         data: {
           programId,
           deadlineType: dl.deadlineType,
-          date: dl.date ? new Date(dl.date) : null,
+          // Annual dates ("until 15 July") move to their next occurrence;
+          // dates the page gives a year for are kept as stated.
+          date: dl.date ? rollForward(new Date(dl.date), dl.dateText, loadedAt) : null,
           dateText: dl.dateText,
           intake: dl.intake,
           primarySourceId: extraction.sourceId,
@@ -375,8 +390,20 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
       scholarshipId = candidates[0].id;
       const existing = await prisma.scholarship.findUniqueOrThrow({
         where: { id: scholarshipId },
-        select: { primarySourceId: true },
+        select: { primarySourceId: true, amount: true },
       });
+      // Same rule as programmes: a source may fill the amount its own record
+      // was missing, never replace one.
+      if (existing.primarySourceId === extraction.sourceId && existing.amount === null && normalized.amount !== null) {
+        await prisma.scholarship.update({
+          where: { id: scholarshipId },
+          data: {
+            amount: normalized.amount,
+            amountCurrency: normalized.amountCurrency,
+            amountPeriod: extractedScholarship.amountPeriod ?? null,
+          },
+        });
+      }
       await upsertCitation(prisma, {
         sourceableType: "SCHOLARSHIP",
         sourceableId: scholarshipId,
@@ -397,6 +424,7 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
           country: normalized.country,
           amount: normalized.amount,
           amountCurrency: normalized.amountCurrency,
+          amountPeriod: normalized.amount !== null ? (extractedScholarship.amountPeriod ?? null) : null,
           coverageType: normalized.coverageType,
           description: normalized.description,
           applicationUrl: normalized.applicationUrl,
@@ -505,7 +533,7 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
         data: {
           scholarshipId,
           deadlineType: dl.deadlineType,
-          date: dl.date ? new Date(dl.date) : null,
+          date: dl.date ? rollForward(new Date(dl.date), dl.dateText, new Date()) : null,
           dateText: dl.dateText,
           intake: dl.intake,
           primarySourceId: extraction.sourceId,

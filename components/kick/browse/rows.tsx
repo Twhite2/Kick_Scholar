@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import type { InstitutionFace, ProgrammeCardData, ScholarshipCardData } from "@/lib/types/cards";
 import { countryName } from "@/lib/ui/country";
 import { COVERAGE_LABEL, posterAmount } from "@/lib/ui/coverage";
-import { closesIn, daysUntil, formatCount, formatDuration, isUrgent } from "@/lib/ui/format";
+import { closesIn, daysUntil, formatCount, formatStudyLength, isUrgent } from "@/lib/ui/format";
 import { providerFace } from "@/lib/cards/faces";
 import { InstitutionLogo } from "../institution-logo";
 import { CountryFlag } from "../country-flag";
@@ -20,7 +20,7 @@ const stretched = "before:absolute before:inset-0 before:rounded-tile before:con
 export function ProgrammeRow({ card, now = new Date() }: { card: ProgrammeCardData; now?: Date }) {
   const inst = card.institution;
   const days = card.nextDeadline ? daysUntil(card.nextDeadline, now) : null;
-  const duration = formatDuration(card.durationMonths);
+  const duration = formatStudyLength(card.durationMonths, card.studyMode, { short: true });
   return (
     <article className={rowClass}>
       <InstitutionLogo name={inst.name} logoUrl={inst.logoUrl} acronym={inst.acronym} seed={inst.id} size={52} className="hidden sm:inline-flex" />
@@ -64,7 +64,7 @@ export function ProgrammeRow({ card, now = new Date() }: { card: ProgrammeCardDa
 /** Scholarship as a list row. */
 export function ScholarshipRow({ card, now = new Date() }: { card: ScholarshipCardData; now?: Date }) {
   const face = card.provider.institution ?? providerFace(card.provider.name);
-  const amount = posterAmount({ coverage: card.coverage, amount: card.amount?.value ?? null, currency: card.amount?.currency ?? null });
+  const amount = posterAmount({ coverage: card.coverage, amount: card.amount?.value ?? null, currency: card.amount?.currency ?? null, per: card.amount?.per ?? null });
   const urgent = card.nextDeadline ? isUrgent(daysUntil(card.nextDeadline, now)) : false;
   return (
     <article className={rowClass}>
@@ -80,7 +80,12 @@ export function ScholarshipRow({ card, now = new Date() }: { card: ScholarshipCa
           <span className="flex items-center gap-1.5 font-bold text-green-text">
             <Coins aria-hidden="true" className="size-4 text-kick-green" />
             {COVERAGE_LABEL[card.coverage]}
-            {amount.confirmed && <span className="text-ink-2">· {amount.text}</span>}
+            {amount.confirmed && (
+              <span className="text-ink-2">
+                · {amount.text}
+                {amount.per && ` ${amount.per}`}
+              </span>
+            )}
           </span>
           <span className={cn(urgent ? "font-bold text-kick-red" : "text-ink-3")}>{scholarshipDeadlineText(card, now)}</span>
           <SourceBadge verified={card.sourceVerified} className="relative z-10" />

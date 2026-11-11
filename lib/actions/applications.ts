@@ -7,6 +7,8 @@ import type { ApplicationStatus } from "@/lib/generated/prisma/enums";
 import type { FactorScore } from "@/lib/matching/types";
 import { blockersOf } from "@/lib/ui/blockers";
 import { deriveNextSteps } from "@/lib/ui/next-steps";
+import { upcomingDeadlineWhere } from "@/lib/cards/programme-cards";
+import { getApplicantGroup } from "@/lib/deadlines/viewer-group";
 
 const STATUS_ORDER: ApplicationStatus[] = [
   "SAVED",
@@ -32,13 +34,14 @@ async function seedChecklist(
   targetId: string,
 ): Promise<string[]> {
   const now = new Date();
+  const applicantGroup = await getApplicantGroup(userId);
   if (opportunityType === "PROGRAM") {
     const [program, match] = await Promise.all([
       prisma.program.findUnique({
         where: { id: targetId },
         select: {
           requirements: { select: { requirementType: true, testName: true } },
-          deadlines: { where: { date: { gte: now } }, orderBy: { date: "asc" }, take: 1, select: { date: true } },
+          deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
         },
       }),
       prisma.match.findFirst({ where: { userId, programId: targetId }, select: { factorScores: true } }),
@@ -57,7 +60,7 @@ async function seedChecklist(
       where: { id: targetId },
       select: {
         eligibility: { select: { criterionType: true, textValue: true } },
-        deadlines: { where: { date: { gte: now } }, orderBy: { date: "asc" }, take: 1, select: { date: true } },
+        deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
       },
     }),
     prisma.match.findFirst({ where: { userId, scholarshipId: targetId }, select: { factorScores: true } }),

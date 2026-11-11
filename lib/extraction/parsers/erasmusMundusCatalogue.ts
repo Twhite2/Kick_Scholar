@@ -126,6 +126,7 @@ export class ErasmusMundusCatalogueParser implements SourceParser {
         country: null,
         amount: null,
         amountCurrency: null,
+        amountPeriod: null,
         // The catalogue states that a programme is EU-funded but not what each
         // one covers; that varies by consortium and lives on their own site.
         coverageType: "UNKNOWN",

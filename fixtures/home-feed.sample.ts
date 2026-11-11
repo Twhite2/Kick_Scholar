@@ -38,6 +38,7 @@ export const sampleFeatured: FeaturedProgramme[] = [
     title: "MSc in Computer Science",
     degree: "MASTER",
     durationMonths: 24,
+    studyMode: "Full-time",
     institution: UH,
     tuition: { kind: "amount", amount: 18000, currency: "EUR", per: "year" },
     bestFunding: { label: "Full tuition scholarship", positive: true },
@@ -59,6 +60,7 @@ export const sampleFeatured: FeaturedProgramme[] = [
     title: "MSc in Data Science",
     degree: "MASTER",
     durationMonths: 24,
+    studyMode: "Full-time",
     institution: RWTH,
     tuition: { kind: "free" },
     bestFunding: { label: "No tuition fees", positive: true },
@@ -80,6 +82,7 @@ export const sampleFeatured: FeaturedProgramme[] = [
     title: "MSc in Sustainable Energy Technology",
     degree: "MASTER",
     durationMonths: 24,
+    studyMode: "Full-time",
     institution: TUD,
     tuition: { kind: "amount", amount: 20500, currency: "EUR", per: "year" },
     bestFunding: { label: "Partial tuition scholarship", positive: true },
@@ -126,6 +129,7 @@ const poster = (
   title,
   degree: "MASTER",
   durationMonths: months,
+  studyMode: "Full-time",
   institution: inst,
   tuition: { kind: "unknown" },
   bestFunding: { label: funding, positive },
@@ -187,9 +191,9 @@ const fund = (
 
 export const sampleFunding: ScholarshipCardData[] = [
   fund("f1", "University of Helsinki Scholarship", "University of Helsinki", "FULL_TUITION", null, true, "Closes 2 Jan"),
-  fund("f2", "Erasmus Mundus Joint Masters scholarship", "European Commission", "FULL_FUNDING", { value: 1400, currency: "EUR" }, true, "Varies by course"),
-  fund("f3", "Scholarships for Global Professionals", "Swedish Institute", "FULL_FUNDING", { value: 12000, currency: "SEK" }, true, "Opens in December"),
-  fund("f4", "Holland Scholarship", "Dutch Ministry of Education with universities", "VARIES", { value: 5000, currency: "EUR" }, true, "Closes 1 Feb"),
+  fund("f2", "Erasmus Mundus Joint Masters scholarship", "European Commission", "FULL_FUNDING", { value: 1400, currency: "EUR", per: "month" }, true, "Varies by course"),
+  fund("f3", "Scholarships for Global Professionals", "Swedish Institute", "FULL_FUNDING", { value: 12000, currency: "SEK", per: "month" }, true, "Opens in December"),
+  fund("f4", "Holland Scholarship", "Dutch Ministry of Education with universities", "VARIES", { value: 5000, currency: "EUR", per: "once" }, true, "Closes 1 Feb"),
   fund("f5", "Master Mind Scholarships", "Flemish Government", "UNKNOWN", null, false, "Check with provider"),
 ];
 

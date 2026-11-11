@@ -216,8 +216,12 @@ export function createGenericScholarshipParser(
             providerName: identity.providerName,
             providerType: identity.providerType,
             country: identity.country,
+            // Not parsed: these sites crawl as whole pages (overviews, fee and
+            // rent tables, lists of several programmes), so a figure on the page
+            // is rarely this one award's amount. Left to the LLM pass.
             amount: null,
             amountCurrency: null,
+            amountPeriod: null,
             // Claimed only by the LLM, from the page's own wording.
             coverageType: "UNKNOWN",
             description: lead ? lead.slice(0, 1500) : null,

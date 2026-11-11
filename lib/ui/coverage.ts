@@ -70,14 +70,18 @@ export function isCoverage(value: unknown): value is Coverage {
  * ("a month", "every year") is not in the data, so no per-line is invented
  * for amounts.
  */
+/** How often a stated amount is paid, as the poster's second line. */
+export const AMOUNT_PER_LABEL = { month: "a month", year: "a year", once: "one-off", total: "in total" } as const;
+
 export function posterAmount(input: {
   coverage: Coverage;
   amount: number | null;
   currency: string | null;
+  per?: keyof typeof AMOUNT_PER_LABEL | null;
 }): { text: string; size: number; per: string | null; confirmed: boolean } {
   if (input.amount !== null && input.amount > 0 && input.currency) {
     const text = formatMoney(input.amount, input.currency);
-    return { text, size: amountFontSize(text), per: null, confirmed: true };
+    return { text, size: amountFontSize(text), per: input.per ? AMOUNT_PER_LABEL[input.per] : null, confirmed: true };
   }
   if (input.coverage === "FULL_TUITION") {
     return { text: "100%", size: amountFontSize("100%"), per: "of tuition", confirmed: true };

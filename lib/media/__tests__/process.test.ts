@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import sharp from "sharp";
-import { coverRejection, processCover, processLogo } from "../process";
+import { coverRejection, logoAspect, MAX_LOGO_ASPECT, processCover, processLogo } from "../process";
 
 const image = (width: number, height: number, background = { r: 30, g: 90, b: 160, alpha: 1 }) =>
   sharp({ create: { width, height, channels: 4, background } }).png().toBuffer();
@@ -25,6 +25,18 @@ describe("processing", () => {
     expect((await sharp(w256).metadata()).width).toBe(256);
     expect((await sharp(w256).metadata()).height).toBe(256);
     expect((await sharp(w128).metadata()).width).toBe(128);
+  });
+
+  it("measures what a logo draws, not its padding", async () => {
+    // A 400 x 100 wordmark centred on a white 600 x 600 canvas is 4:1.
+    const wordmark = await sharp({ create: { width: 600, height: 600, channels: 4, background: { r: 255, g: 255, b: 255, alpha: 1 } } })
+      .composite([{ input: await image(400, 100), top: 250, left: 100 }])
+      .png()
+      .toBuffer();
+    expect(await logoAspect(wordmark)).toBeCloseTo(4, 1);
+    expect(await logoAspect(await image(200, 200))).toBeCloseTo(1, 1);
+    // The stored square tile still measures as the wordmark it holds.
+    expect(await logoAspect((await processLogo(wordmark)).w256)).toBeGreaterThan(MAX_LOGO_ASPECT);
   });
 
   it("crops covers to 16:9 without upscaling and finds the average colour", async () => {

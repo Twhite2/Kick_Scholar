@@ -5,9 +5,10 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import type { FactorScore } from "@/lib/matching/types";
 import { institutionFaceSelect, toInstitutionFace } from "@/lib/cards/faces";
-import { matchInfo, tuitionLabel, tuitionOf } from "@/lib/cards/programme-cards";
+import { matchInfo, tuitionLabel, tuitionOf, upcomingDeadlineWhere } from "@/lib/cards/programme-cards";
+import { getApplicantGroup } from "@/lib/deadlines/viewer-group";
 import { countryName } from "@/lib/ui/country";
-import { formatDate, formatDuration, plural } from "@/lib/ui/format";
+import { formatDate, formatStudyLength, plural } from "@/lib/ui/format";
 import { STRENGTH_LABEL } from "@/lib/ui/strength";
 import { programmeRows } from "@/lib/ui/requirements";
 import { capitalise, getComparisonProfile, joinList, splitLanguages } from "@/lib/detail/shared";
@@ -31,6 +32,7 @@ export default async function ComparePage({ searchParams }: PageProps<"/compare"
     .filter(Boolean)
     .slice(0, MAX);
 
+  const applicantGroup = await getApplicantGroup(userId);
   const [programmes, matches, profile] = await Promise.all([
     ids.length
       ? prisma.program.findMany({
@@ -39,6 +41,7 @@ export default async function ComparePage({ searchParams }: PageProps<"/compare"
             id: true,
             name: true,
             durationMonths: true,
+            studyMode: true,
             intakes: true,
             instructionLanguages: true,
             tuitionType: true,
@@ -49,7 +52,7 @@ export default async function ComparePage({ searchParams }: PageProps<"/compare"
             universityId: true,
             university: { select: institutionFaceSelect },
             requirements: { select: { id: true, requirementType: true, testName: true, operator: true, value: true, unit: true, description: true } },
-            deadlines: { where: { date: { gte: now } }, orderBy: { date: "asc" }, take: 1, select: { date: true } },
+            deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
             _count: { select: { fundingOpportunities: true } },
           },
         })
@@ -96,7 +99,7 @@ export default async function ComparePage({ searchParams }: PageProps<"/compare"
       face: toInstitutionFace(p.university),
       match: matchInfo(m, p.verified),
       tuition: tuitionLabel(tuitionOf(p)) ?? "Not yet published",
-      length: formatDuration(p.durationMonths) ?? "Not published",
+      length: formatStudyLength(p.durationMonths, p.studyMode) ?? "Not published",
       starts: p.intakes.length ? joinList(p.intakes.map(capitalise)) : "Not published",
       deadline: p.deadlines[0]?.date ? formatDate(p.deadlines[0].date, now) : "Not published yet",
       languages: splitLanguages(p.instructionLanguages).length ? joinList(splitLanguages(p.instructionLanguages)) : "Not published",

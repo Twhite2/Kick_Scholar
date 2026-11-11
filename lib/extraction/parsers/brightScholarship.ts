@@ -287,6 +287,7 @@ export class BrightScholarshipParser implements SourceParser {
           country,
           amount: null,
           amountCurrency: null,
+          amountPeriod: null,
           coverageType: coverageType as never,
           description,
           applicationUrl: doc.url,

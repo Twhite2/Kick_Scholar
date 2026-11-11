@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
 
 // The catalogue needs an account, so signed-out links go to sign-up and come
 // back to the catalogue afterwards (docs/ui-remodel.md §9.11).
@@ -33,11 +34,8 @@ export function LandingNavbar() {
       )}
     >
       <div className="flex h-16 items-center justify-between gap-4 px-gutter md:h-20">
-        <Link
-          href="/"
-          className={cn("inline-flex min-h-11 items-center font-display text-[22px] font-[750] tracking-[-0.03em] md:text-2xl", scrolled ? "text-kick-blue" : "text-white")}
-        >
-          KickScholar
+        <Link href="/" aria-label="KickScholar home" className="inline-flex min-h-11 shrink-0 items-center">
+          <KickScholarLogo aria-hidden tone={scrolled ? "colour" : "reversed"} className="h-[22px] w-auto md:h-7" />
         </Link>
 
         <nav aria-label="Main" className="hidden md:block">
@@ -87,7 +85,9 @@ export function LandingNavbar() {
           </SheetTrigger>
           <SheetContent side="right" className="w-72 bg-white">
             <SheetHeader>
-              <SheetTitle className="font-display text-xl font-bold text-kick-blue">KickScholar</SheetTitle>
+              <SheetTitle>
+                <KickScholarLogo className="h-6 w-auto" />
+              </SheetTitle>
             </SheetHeader>
             <nav aria-label="Main" className="flex flex-col gap-1 px-3">
               {LINKS.map((link) => (

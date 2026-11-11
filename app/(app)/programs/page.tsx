@@ -4,6 +4,7 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { parseProgrammeParams, programmeOrderBy, programmeWhere } from "@/lib/catalogue/params";
 import { buildProgrammeCards } from "@/lib/cards/programme-cards";
+import { getApplicantGroup } from "@/lib/deadlines/viewer-group";
 import { TARGET_COUNTRIES } from "@/lib/constants/countries";
 import { countryName } from "@/lib/ui/country";
 import { formatCount, plural } from "@/lib/ui/format";
@@ -102,6 +103,7 @@ export default async function ProgrammesPage({ searchParams }: PageProps<"/progr
     saved: new Set(saved.map((s) => s.programId!)),
     profile: profile ?? null,
     now,
+    applicantGroup: await getApplicantGroup(userId),
   });
   const trackedSet = new Set(tracked.map((t) => t.programId));
 

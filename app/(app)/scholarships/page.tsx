@@ -4,6 +4,7 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { parseScholarshipParams, scholarshipWhere } from "@/lib/catalogue/params";
 import { buildScholarshipCards } from "@/lib/cards/scholarship-cards";
+import { getApplicantGroup } from "@/lib/deadlines/viewer-group";
 import { TARGET_COUNTRIES } from "@/lib/constants/countries";
 import { countryName } from "@/lib/ui/country";
 import { COVERAGE_LABEL } from "@/lib/ui/coverage";
@@ -71,6 +72,7 @@ export default async function ScholarshipsPage({ searchParams }: PageProps<"/sch
     matches: new Map(matches.map((m) => [m.scholarshipId!, m])),
     saved: new Set(saved.map((s) => s.scholarshipId!)),
     now,
+    applicantGroup: await getApplicantGroup(userId),
   });
 
   const rangeStart = total === 0 ? 0 : skip + 1;

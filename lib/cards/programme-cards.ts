@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { deadlineWhereFor, type ApplicantGroup } from "@/lib/deadlines/applicant-group";
 import type { FactorScore } from "@/lib/matching/types";
 import type { MatchInfo, ProgrammeCardData, Tuition } from "@/lib/types/cards";
 import { COVERAGE_LABEL, isCoverage } from "@/lib/ui/coverage";
@@ -24,6 +25,8 @@ export interface CardContext {
   saved: Set<string>;
   profile: ReasonContext["profile"];
   now?: Date;
+  /** From the student's nationality: hides the other group's EU / non-EU deadlines. */
+  applicantGroup?: ApplicantGroup | null;
 }
 
 export function startOfToday(now = new Date()): Date {
@@ -33,12 +36,21 @@ export function startOfToday(now = new Date()): Date {
   return new Date(d.getTime() - 60 * 60 * 1000);
 }
 
-export const programmeCardSelect = (now = new Date()) =>
+/**
+ * Deadlines still ahead that apply to the student. The EU / non-EU rule sits
+ * in AND so it can join a query that already has its own OR.
+ */
+export function upcomingDeadlineWhere(now: Date, group: ApplicantGroup | null = null) {
+  return { date: { gte: startOfToday(now) }, AND: [deadlineWhereFor(group)] };
+}
+
+export const programmeCardSelect = (now = new Date(), group: ApplicantGroup | null = null) =>
   ({
     id: true,
     name: true,
     degreeLevel: true,
     durationMonths: true,
+    studyMode: true,
     fieldCategory: true,
     tuitionType: true,
     tuitionAmount: true,
@@ -49,7 +61,7 @@ export const programmeCardSelect = (now = new Date()) =>
     university: { select: { ...institutionFaceSelect, type: true } },
     requirements: { select: { requirementType: true, testName: true, value: true, unit: true } },
     deadlines: {
-      where: { date: { gte: startOfToday(now) } },
+      where: upcomingDeadlineWhere(now, group),
       orderBy: { date: "asc" },
       take: 1,
       select: { date: true },
@@ -58,8 +70,8 @@ export const programmeCardSelect = (now = new Date()) =>
 
 type ProgrammeRow = Awaited<ReturnType<typeof fetchProgrammes>>[number];
 
-async function fetchProgrammes(ids: string[], now: Date) {
-  return prisma.program.findMany({ where: { id: { in: ids } }, select: programmeCardSelect(now) });
+async function fetchProgrammes(ids: string[], now: Date, group: ApplicantGroup | null = null) {
+  return prisma.program.findMany({ where: { id: { in: ids } }, select: programmeCardSelect(now, group) });
 }
 
 export function tuitionOf(p: {
@@ -176,6 +188,7 @@ export function toProgrammeCard(
     title: p.name,
     degree: p.degreeLevel,
     durationMonths: p.durationMonths,
+    studyMode: p.studyMode,
     institution: toInstitutionFace(p.university),
     tuition,
     bestFunding: bestFundingFor(tuition, linked),
@@ -190,7 +203,7 @@ export function toProgrammeCard(
 export async function buildProgrammeCards(ids: string[], ctx: CardContext): Promise<ProgrammeCardData[]> {
   if (ids.length === 0) return [];
   const now = ctx.now ?? new Date();
-  const rows = await fetchProgrammes(ids, now);
+  const rows = await fetchProgrammes(ids, now, ctx.applicantGroup ?? null);
   const linked = await officialFundingFor(rows);
   const byId = new Map(rows.map((r) => [r.id, r]));
   return ids.flatMap((id) => {
@@ -203,7 +216,7 @@ export async function buildProgrammeCards(ids: string[], ctx: CardContext): Prom
 export async function buildProgrammeCardsWithRows(ids: string[], ctx: CardContext) {
   if (ids.length === 0) return { cards: [] as ProgrammeCardData[], rows: new Map<string, ProgrammeRow>(), linked: new Map<string, LinkedFunding[]>() };
   const now = ctx.now ?? new Date();
-  const rows = await fetchProgrammes(ids, now);
+  const rows = await fetchProgrammes(ids, now, ctx.applicantGroup ?? null);
   const linked = await officialFundingFor(rows);
   const byId = new Map(rows.map((r) => [r.id, r]));
   const cards = ids.flatMap((id) => {

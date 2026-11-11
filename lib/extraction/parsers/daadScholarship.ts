@@ -1,3 +1,5 @@
+import { parseScholarshipAmount } from "./amounts";
+import { parseDeadlineText } from "./dates";
 import type { ExtractionFile } from "../schemas";
 import type { SourceDocumentInput } from "../types";
 import type { ParserResult, SourceParser } from "./types";
@@ -173,12 +175,6 @@ export class DaadScholarshipParser implements SourceParser {
     if (isMonthlyStipend) filled.push("scholarships[0].coverageType");
     else unfilled.push("scholarships[0].coverageType");
 
-    // amount is deliberately NOT parsed. These pages routinely quote several
-    // tiers in one section ("1,300 EUR" for graduates, "1,600 EUR" for
-    // post-docs, plus a "500 EUR" travel allowance) and picking one would
-    // fabricate a headline figure the page never states.
-    if (valueRaw) unfilled.push("scholarships[0].amount");
-
     // The deadline is very often prose ("Application deadlines differ and may
     // be requested at the individual institutions"), never a parseable date.
     // Storing it as deadlineText honours the schema rule against inventing a
@@ -215,6 +211,17 @@ export class DaadScholarshipParser implements SourceParser {
         ? firstSentence(descriptionRaw)
         : name;
 
+    // The stipend as the "Value" section states it ("A monthly payment of 992
+    // euros"), and any dates the deadline wording gives ("1 March and 1
+    // September of each year"). Prose with no date stays deadlineText only.
+    // A section quoting several tiers ("1,300 EUR" for graduates, "1,600 EUR"
+    // for post-docs) gives no amount: picking one would state a headline
+    // figure the page never does.
+    const stated = valueRaw ? parseScholarshipAmount(valueRaw) : null;
+    if (stated) filled.push("scholarships[0].amount");
+    else if (valueRaw) unfilled.push("scholarships[0].amount");
+    const datedDeadlines = deadlineRaw ? parseDeadlineText(deadlineRaw, new Date()) : [];
+
     const extraction: ExtractionFile = {
       sourceId: this.sourceId,
       sourceDocumentId: doc.sourceDocumentId,
@@ -228,8 +235,9 @@ export class DaadScholarshipParser implements SourceParser {
           providerName: "DAAD (German Academic Exchange Service)",
           providerType: "NATIONAL_EDUCATION_PORTAL",
           country: "DE",
-          amount: null,
-          amountCurrency: null,
+          amount: stated?.amount ?? null,
+          amountCurrency: stated?.currency ?? null,
+          amountPeriod: stated?.period ?? null,
           coverageType,
           description,
           applicationUrl: doc.url,
@@ -243,7 +251,14 @@ export class DaadScholarshipParser implements SourceParser {
           eligibility: [],
           // Left to the LLM stage — the page states these as prose.
           applicability: [],
-          deadlines: [],
+          deadlines: datedDeadlines.map((d) => ({
+            deadlineType: "SCHOLARSHIP_APPLICATION" as const,
+            date: d.date,
+            dateText: d.dateText,
+            intake: d.intake,
+            sourceQuote: d.sourceQuote,
+            sourceUrl: null,
+          })),
         },
       ],
     };

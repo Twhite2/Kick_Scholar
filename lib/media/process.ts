@@ -21,6 +21,20 @@ export async function processLogo(input: Buffer): Promise<{ w256: Buffer; w128: 
   return { w256, w128 };
 }
 
+/**
+ * Wider than this, a logo is a wordmark ("Fachhochschule Dortmund" set in one
+ * line) that shrinks to an unreadable strip in a square tile; the monogram
+ * reads better. Calibrated on stored logos at 52px: compact marks up to about
+ * 2.5:1 (ESCP, EURECOM) stay legible, 3:1 and wider do not.
+ */
+export const MAX_LOGO_ASPECT = 2.6;
+
+/** Width over height of what a logo actually draws, ignoring uniform borders and transparent padding. */
+export async function logoAspect(input: Buffer): Promise<number> {
+  const { info } = await sharp(input).trim({ threshold: 12 }).png().toBuffer({ resolveWithObject: true });
+  return info.height > 0 ? info.width / info.height : 1;
+}
+
 export const COVER_WIDTHS = [640, 1280, 1920] as const;
 
 /** Why a candidate cover photo is not used, or null if it is acceptable. */

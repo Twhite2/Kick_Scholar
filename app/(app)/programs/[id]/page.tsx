@@ -7,7 +7,8 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import type { FactorScore } from "@/lib/matching/types";
 import { getDataSaver } from "@/lib/ui/data-saver";
-import { closesIn, daysUntil, formatDate, formatDuration, formatMoney, isUrgent } from "@/lib/ui/format";
+import { applicantGroupFor, deadlineAppliesTo, intakeLabel } from "@/lib/deadlines/applicant-group";
+import { closesIn, daysUntil, formatDate, formatDuration, formatMoney, formatStudyLength, isUrgent } from "@/lib/ui/format";
 import { countryName } from "@/lib/ui/country";
 import { blockersOf } from "@/lib/ui/blockers";
 import { deriveNextSteps } from "@/lib/ui/next-steps";
@@ -43,6 +44,7 @@ const getProgramme = cache(async (id: string) =>
       fieldOfStudy: true,
       fieldCategory: true,
       durationMonths: true,
+      studyMode: true,
       instructionLanguages: true,
       tuitionType: true,
       tuitionAmount: true,
@@ -118,7 +120,10 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
   const tuition = tuitionOf(program);
   const linked = (await officialFundingFor([program])).get(program.id) ?? [];
   const languages = splitLanguages(program.instructionLanguages);
-  const nextDated = program.deadlines.find((d) => d.date && daysUntil(d.date, now) >= 0) ?? null;
+  // The other group's EU / non-EU dates are not this student's deadlines.
+  const applicantGroup = applicantGroupFor(profile?.nationality);
+  const deadlines = program.deadlines.filter((d) => deadlineAppliesTo(d.intake, applicantGroup));
+  const nextDated = deadlines.find((d) => d.date && daysUntil(d.date, now) >= 0) ?? null;
 
   // --- Funding groups -------------------------------------------------------
   const explicitIds = program.fundingOpportunities.filter((f) => f.linkMethod === "EXPLICIT_SOURCE").map((f) => f.scholarshipId);
@@ -129,6 +134,7 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
     matches: new Map(),
     saved: savedSet,
     now,
+    applicantGroup,
   });
   const cardById = new Map(fundingCards.map((c) => [c.id, c]));
   const group = (ids: string[]) => ids.flatMap((i) => cardById.get(i) ?? []);
@@ -176,7 +182,9 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
     noteTone: (tuition.kind === "amount" && coversTuition) || tuition.kind === "free" ? "green" : "muted",
   });
   const duration = formatDuration(program.durationMonths);
-  if (duration) facts.push({ label: "Length", value: duration });
+  if (duration) facts.push({ label: "Length", value: duration, note: program.studyMode ?? null });
+  else if (program.studyMode) facts.push({ label: "Study mode", value: program.studyMode });
+  const lengthPill = formatStudyLength(program.durationMonths, program.studyMode);
   if (program.intakes.length > 0) facts.push({ label: "Starts", value: joinList(program.intakes.map(capitalise)) });
   if (nextDated?.date) {
     const days = daysUntil(nextDated.date, now);
@@ -196,8 +204,9 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
   });
 
   // --- Key dates ------------------------------------------------------------
-  const keyDates = program.deadlines.flatMap((d): KeyDate[] => {
-    const label = `${DEADLINE_LABEL[d.deadlineType] ?? "Deadline"}${d.intake ? ` (${d.intake})` : ""}`;
+  const keyDates = deadlines.flatMap((d): KeyDate[] => {
+    const intake = intakeLabel(d.intake);
+    const label = `${DEADLINE_LABEL[d.deadlineType] ?? "Deadline"}${intake ? ` (${intake})` : ""}`;
     if (d.date) return [{ label, date: d.date.toISOString() }];
     const text = usefulDeadlineText(d.dateText);
     return text ? [{ label, date: null, text }] : [];
@@ -232,6 +241,7 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
       saved: new Set(savedRows.flatMap((s) => (s.programId ? [s.programId] : []))),
       profile: profile ? { currentGpa: profile.currentGpa, languageProficiencies: profile.languageProficiencies } : null,
       now,
+      applicantGroup,
     });
     trackedSet = new Set(trackedRows.flatMap((a) => (a.programId ? [a.programId] : [])));
   }
@@ -242,7 +252,7 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
     <>
       <SourceBadge verified={program.verified} tone="night" />
       {languages.includes("English") && <Pill tone="night">Taught in English</Pill>}
-      {duration && <Pill tone="night">{duration}</Pill>}
+      {lengthPill && <Pill tone="night">{lengthPill}</Pill>}
       {degreeLabel(program.degreeLevel) && <Pill tone="night">{degreeLabel(program.degreeLevel)}</Pill>}
     </>
   );

@@ -51,6 +51,8 @@ export interface ProgrammeCardData {
   title: string;
   degree: string | null;
   durationMonths: number | null;
+  /** "Full-time", "Part-time", "Full-time or part-time", as the source states it. */
+  studyMode: string | null;
   institution: InstitutionFace;
   tuition: Tuition;
   /** "No tuition fees", "Full tuition scholarship", "€18,000 a year". */
@@ -63,12 +65,15 @@ export interface ProgrammeCardData {
   saved: boolean;
 }
 
+export type AmountPer = "month" | "year" | "once" | "total";
+
 export interface ScholarshipCardData {
   id: string;
   title: string;
   provider: { name: string; institution: InstitutionFace | null };
   coverage: Coverage;
-  amount: { value: number; currency: string } | null;
+  /** `per` is how often it is paid, when the source says ("a monthly payment of 992 euros"). */
+  amount: { value: number; currency: string; per: AmountPer | null } | null;
   sourceVerified: boolean;
   nextDeadline: string | null;
   deadlineText: string | null;
