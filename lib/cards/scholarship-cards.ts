@@ -2,6 +2,7 @@ import { prisma } from "@/lib/db";
 import type { ApplicantGroup } from "@/lib/deadlines/applicant-group";
 import type { AmountPer, InstitutionFace, ScholarshipCardData } from "@/lib/types/cards";
 import { isCoverage } from "@/lib/ui/coverage";
+import { LISTED_SCHOLARSHIP } from "@/lib/scholarships/listed";
 import { institutionFaceSelect, toInstitutionFace } from "./faces";
 import { matchInfo, upcomingDeadlineWhere, type ProgrammeMatchRow } from "./programme-cards";
 
@@ -59,7 +60,7 @@ export async function providerInstitutions(scholarshipIds: string[]): Promise<Ma
 type ScholarshipRow = Awaited<ReturnType<typeof fetchScholarships>>[number];
 
 async function fetchScholarships(ids: string[], now: Date, group: ApplicantGroup | null = null) {
-  return prisma.scholarship.findMany({ where: { id: { in: ids } }, select: scholarshipCardSelect(now, group) });
+  return prisma.scholarship.findMany({ where: { id: { in: ids }, ...LISTED_SCHOLARSHIP }, select: scholarshipCardSelect(now, group) });
 }
 
 const PER: Record<string, AmountPer> = { MONTH: "month", YEAR: "year", ONCE: "once", TOTAL: "total" };

@@ -19,6 +19,7 @@ import { isStrength } from "@/lib/ui/strength";
 import { institutionFaceSelect, providerFace, toInstitutionFace } from "@/lib/cards/faces";
 import { buildProgrammeCardsWithRows, startOfToday, upcomingDeadlineWhere, type ProgrammeMatchRow } from "@/lib/cards/programme-cards";
 import { applicantGroupFor, deadlineWhereFor } from "@/lib/deadlines/applicant-group";
+import { LISTED_SCHOLARSHIP } from "@/lib/scholarships/listed";
 import { buildScholarshipCards, providerInstitutions } from "@/lib/cards/scholarship-cards";
 import {
   LIMITS,
@@ -247,7 +248,7 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
     buildProgrammeCardsWithRows(programmeIds, programmeCtx),
     buildScholarshipCards(funding.items.map((m) => m.targetId), { matches: matchByTarget, saved: savedScholarships, now, applicantGroup }),
     prisma.scholarship.findMany({
-      where: { id: { in: oneAway.filter((c) => c.match.kind === "SCHOLARSHIP").map((c) => c.match.targetId) } },
+      where: { id: { in: oneAway.filter((c) => c.match.kind === "SCHOLARSHIP").map((c) => c.match.targetId) }, ...LISTED_SCHOLARSHIP },
       select: { id: true, name: true, providerName: true, eligibility: { select: { criterionType: true, numericValue: true, textValue: true } } },
     }),
   ]);
@@ -315,7 +316,7 @@ export const getHomeFeed = cache(async (userId: string, now: Date = new Date()):
       ? prisma.program.findMany({ where: { id: { in: closingProgrammeIds } }, select: { id: true, name: true, university: { select: institutionFaceSelect } } })
       : [],
     closingScholarshipIds.length
-      ? prisma.scholarship.findMany({ where: { id: { in: closingScholarshipIds } }, select: { id: true, name: true, providerName: true } })
+      ? prisma.scholarship.findMany({ where: { id: { in: closingScholarshipIds }, ...LISTED_SCHOLARSHIP }, select: { id: true, name: true, providerName: true } })
       : [],
     providerInstitutions(closingScholarshipIds),
   ]);
@@ -426,7 +427,7 @@ export async function getStarterFeed() {
       FROM "Program" p JOIN "University" u ON u."id" = p."universityId"
       GROUP BY u."country" ORDER BY count DESC LIMIT 10`,
     prisma.scholarship.findMany({
-      where: { coverageType: "FULL_FUNDING" },
+      where: { coverageType: "FULL_FUNDING", ...LISTED_SCHOLARSHIP },
       orderBy: [{ verified: "desc" }, { confidence: "desc" }, { name: "asc" }],
       take: 12,
       select: { id: true },

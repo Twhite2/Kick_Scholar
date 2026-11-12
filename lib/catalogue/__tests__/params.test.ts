@@ -56,19 +56,24 @@ describe("programme URLs keep their meaning", () => {
   });
 });
 
+// Every scholarship query lists only records that are awards (lib/scholarships/listed.ts).
+const listed = { verificationStatus: { not: "REJECTED" } };
+
 describe("scholarship URLs keep their meaning", () => {
   it("?country=DE&coverage=FULL_FUNDING&verified=true", () => {
     expect(scholarshipWhere(parseScholarshipParams(parse("country=DE&coverage=FULL_FUNDING&verified=true")))).toEqual({
+      ...listed,
       country: "DE",
       coverageType: "FULL_FUNDING",
       verified: true,
     });
   });
   it("verified=false is not a filter (as before)", () => {
-    expect(scholarshipWhere(parseScholarshipParams(parse("verified=false")))).toEqual({});
+    expect(scholarshipWhere(parseScholarshipParams(parse("verified=false")))).toEqual(listed);
   });
   it("?q=daad searches name and provider", () => {
     expect(scholarshipWhere(parseScholarshipParams(parse("q=daad")))).toEqual({
+      ...listed,
       OR: [
         { name: { contains: "daad", mode: "insensitive" } },
         { providerName: { contains: "daad", mode: "insensitive" } },

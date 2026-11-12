@@ -1,5 +1,6 @@
 import type { Prisma } from "@/lib/generated/prisma/client";
 import type { DegreeLevel, FieldCategory, ScholarshipCoverageType, TuitionType } from "@/lib/generated/prisma/enums";
+import { LISTED_SCHOLARSHIP } from "@/lib/scholarships/listed";
 
 /**
  * Catalogue URL parsing and query building (docs/ui-remodel.md §9.6).
@@ -108,6 +109,7 @@ export function scholarshipWhere(
   opts: { onlyIds?: string[] } = {},
 ): Prisma.ScholarshipWhereInput {
   return {
+    ...LISTED_SCHOLARSHIP,
     ...(f.q
       ? {
           OR: [

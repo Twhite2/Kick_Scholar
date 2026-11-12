@@ -14,6 +14,7 @@ import { ApplicationCard, type BoardCard } from "@/components/kick/plan/applicat
 import { MatchPosterCard } from "@/components/kick/match-poster-card";
 import { FundingPoster } from "@/components/kick/funding-poster";
 import { TrackButton } from "@/components/kick/track-button";
+import { SaveButton } from "@/components/kick/save-button";
 
 export const metadata: Metadata = { title: "My plan" };
 
@@ -125,6 +126,7 @@ async function loadApplications(userId: string, now: Date) {
         select: {
           name: true,
           providerName: true,
+          verificationStatus: true,
           deadlines: { where: upcomingDeadlineWhere(now, applicantGroup), orderBy: { date: "asc" }, take: 1, select: { date: true } },
         },
       },
@@ -153,7 +155,9 @@ async function ApplicationsTab({ applications, now }: { applications: Applicatio
       id: a.id,
       title: a.program?.name ?? a.scholarship?.name ?? "",
       href: a.opportunityType === "PROGRAM" ? `/programs/${a.programId}` : `/scholarships/${a.scholarshipId}`,
-      organisation: a.program?.university.name ?? a.scholarship?.providerName ?? "",
+      organisation:
+        a.program?.university.name ??
+        (a.scholarship ? `${a.scholarship.providerName}${a.scholarship.verificationStatus === "REJECTED" ? " · No longer listed" : ""}` : ""),
       institution: a.program
         ? toInstitutionFace(a.program.university)
         : a.scholarship
@@ -235,6 +239,13 @@ async function SavedTab({
     buildProgrammeCards(savedProgrammeIds, { matches: programmeMatches, saved: new Set(savedProgrammeIds), profile, now, applicantGroup }),
     buildScholarshipCards(savedScholarshipIds, { matches: scholarshipMatches, saved: new Set(savedScholarshipIds), now, applicantGroup }),
   ]);
+  // Saved records later found not to be awards drop out of the cards; list
+  // them so the student sees why and can clear them.
+  const listedIds = new Set(scholarships.map((c) => c.id));
+  const unlisted = await prisma.scholarship.findMany({
+    where: { id: { in: savedScholarshipIds.filter((id) => !listedIds.has(id)) }, verificationStatus: "REJECTED" },
+    select: { id: true, name: true },
+  });
 
   return (
     <div className="mt-8 space-y-12">
@@ -263,6 +274,24 @@ async function SavedTab({
               <li key={c.id} className="flex flex-col gap-2.5">
                 <FundingPoster card={c} mode="grid" now={now} />
                 <TrackButton targetType="SCHOLARSHIP" targetId={c.id} title={c.title} initialTracking={trackedScholarships.has(c.id)} variant="outline" className="w-full" />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {unlisted.length > 0 && (
+        <section aria-labelledby="saved-unlisted" className="px-gutter">
+          <h2 id="saved-unlisted" className="type-section-h2 text-ink">
+            No longer listed <span className="font-normal text-ink-3 tabular-nums">· {unlisted.length}</span>
+          </h2>
+          <p className="mt-1 max-w-[70ch] type-body-sm text-ink-3">These were pages from a provider&apos;s website, not scholarships you can apply for.</p>
+          <ul role="list" className="mt-4 max-w-[760px] space-y-2">
+            {unlisted.map((s) => (
+              <li key={s.id} className="flex items-center justify-between gap-4 rounded-tile bg-white px-4 py-3 shadow-hairline">
+                <Link href={`/scholarships/${s.id}`} className="min-w-0 truncate text-[15px] font-bold text-ink hover:text-kick-blue">
+                  {s.name}
+                </Link>
+                <SaveButton targetType="scholarship" targetId={s.id} title={s.name} initialSaved />
               </li>
             ))}
           </ul>

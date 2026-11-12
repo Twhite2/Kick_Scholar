@@ -158,7 +158,7 @@ export function createGenericScholarshipParser(
 
       if (identity.emitWhen && !identity.emitWhen.test(doc.url)) {
         warnings.push(
-          `"${name}" describes an award covered by another page on this source - no separate record`,
+          `"${name}" is not one of this source's award pages - kept as evidence, no record`,
         );
         return { extraction: empty, coverage: { filled, unfilled, warnings } };
       }

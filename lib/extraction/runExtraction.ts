@@ -230,11 +230,15 @@ export async function runExtraction(
       continue;
     }
 
+    // The crawler saves the page's HTML beside its markdown.
+    const html = await readFile(path.join(REPO_ROOT, document.markdownPath.replace(/\.md$/, ".html")), "utf-8").catch(() => undefined);
+
     const input: SourceDocumentInput = {
       sourceDocumentId: document.id,
       sourceId: document.sourceId,
       url: document.url,
       markdown,
+      html,
     };
 
     const parser = findParser(input);

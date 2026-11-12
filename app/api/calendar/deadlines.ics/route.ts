@@ -2,6 +2,7 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { deadlineWhereFor, intakeLabel } from "@/lib/deadlines/applicant-group";
 import { getApplicantGroup } from "@/lib/deadlines/viewer-group";
+import { LISTED_SCHOLARSHIP } from "@/lib/scholarships/listed";
 
 /**
  * The deadlines of everything a student has saved or is tracking, as an
@@ -51,7 +52,7 @@ export async function GET(request: Request) {
             AND: [deadlineWhereFor(applicantGroup)],
             OR: [
               ...(programIds.length ? [{ programId: { in: programIds } }] : []),
-              ...(scholarshipIds.length ? [{ scholarshipId: { in: scholarshipIds } }] : []),
+              ...(scholarshipIds.length ? [{ scholarshipId: { in: scholarshipIds }, scholarship: LISTED_SCHOLARSHIP }] : []),
             ],
           },
           select: {

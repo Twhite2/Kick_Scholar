@@ -56,6 +56,7 @@ Run in this order. Each step is a CLI script; most accept `--dry-run`.
 | 6 | `npm run link:build` | Links scholarships to institutions (`EXPLICIT_SOURCE` vs `RULE_INFERENCE`) |
 | 7 | `npm run match:run -- <userId>` | Recomputes one student's matches (also runs on profile save) |
 | 8 | `npm run data:backfill -- [--dry-run] [--verbose]` | Re-reads crawled pages and the Discover Uni release (an `on_*` folder) for deadline dates, study mode, UK course length and DAAD scholarship amounts; patches extraction files and the database |
+| 8b | `npm run data:cleanup-scholarships -- [--dry-run]` | Takes website pages captured as scholarships ("About us", "Find a course") out of the catalogue, merging those that belong to an award; reversible from the admin verification page |
 | 9 | `npm run deadlines:refresh` | Moves passed annual deadlines to their next occurrence (run monthly) |
 | 10 | `npm run media:enrich -- --with-programmes --only-missing` | Logos and campus photos from ROR, Wikidata, Commons and the institutions' own sites (needs `MEDIA_BOT_CONTACT`); `--recheck-wide-logos` re-checks stored logos |
 

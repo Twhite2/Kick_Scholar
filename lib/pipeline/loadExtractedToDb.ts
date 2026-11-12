@@ -19,6 +19,7 @@ import { shouldOverwriteScalar } from "../deduplication/mergeRecords";
 import { crossReferenceCheck } from "../verification/crossReferenceCheck";
 import { loadAllConfigs } from "../sources/registry";
 import { isCliEntrypoint } from "../cliEntrypoint";
+import { isAwardPage } from "../extraction/parsers/index";
 
 export interface LoadResult {
   universitiesCreated: number;
@@ -27,6 +28,8 @@ export interface LoadResult {
   programsMerged: number;
   scholarshipsCreated: number;
   scholarshipsMerged: number;
+  /** Page records from curated sources that describe no award (AWARD_PAGES). */
+  scholarshipsSkippedNotAward: number;
   /** German-scale grade comparisons flipped to the direction the page means. */
   gradeDirectionsCorrected: number;
   warnings: string[];
@@ -70,6 +73,7 @@ function emptyResult(): LoadResult {
     programsMerged: 0,
     scholarshipsCreated: 0,
     scholarshipsMerged: 0,
+    scholarshipsSkippedNotAward: 0,
     gradeDirectionsCorrected: 0,
     warnings: [],
   };
@@ -361,17 +365,29 @@ export async function loadExtractedFile(prisma: PrismaClient, filePath: string):
   }
 
   // --- Scholarships ------------------------------------------------------------
+  // Records published together (MEXT's seven types on one page) are distinct by
+  // definition: one must never fuzzy-merge into its sibling just because their
+  // names share a long prefix and their page.
+  const siblingKeys = new Set(extraction.scholarships.map((s) => normalizeScholarship(s).dedupeKey));
   for (const extractedScholarship of extraction.scholarships) {
+    // Extraction files written before AWARD_PAGES still hold whole-site page
+    // records ("About us", "Accommodation"); they never become scholarships.
+    if (!isAwardPage(extraction.sourceId, extractedScholarship.sourceUrl)) {
+      result.scholarshipsSkippedNotAward += 1;
+      continue;
+    }
     const normalized = normalizeScholarship(extractedScholarship);
     result.warnings.push(...normalized.warnings);
 
     // Pass provenance so a fuzzy name match can't merge two scholarships this
     // same source published at different URLs (see matchScholarshipCandidates).
-    const candidates = await matchScholarshipCandidates(prisma, {
-      ...normalized,
-      sourceId: extraction.sourceId,
-      sourceUrl: extractedScholarship.sourceUrl,
-    });
+    const candidates = (
+      await matchScholarshipCandidates(prisma, {
+        ...normalized,
+        sourceId: extraction.sourceId,
+        sourceUrl: extractedScholarship.sourceUrl,
+      })
+    ).filter((c) => c.matchedOn === "dedupeKey" || c.dedupeKey === normalized.dedupeKey || !siblingKeys.has(c.dedupeKey));
     const provenance = {
       primarySourceId: extraction.sourceId,
       sourceUrl: extractedScholarship.sourceUrl,
@@ -587,6 +603,7 @@ async function runAsCli() {
     programsMerged: 0,
     scholarshipsCreated: 0,
     scholarshipsMerged: 0,
+    scholarshipsSkippedNotAward: 0,
     gradeDirectionsCorrected: 0,
     warnings: [] as string[],
   };
@@ -601,6 +618,7 @@ async function runAsCli() {
         totals.programsMerged += r.programsMerged;
         totals.scholarshipsCreated += r.scholarshipsCreated;
         totals.scholarshipsMerged += r.scholarshipsMerged;
+        totals.scholarshipsSkippedNotAward += r.scholarshipsSkippedNotAward;
         totals.gradeDirectionsCorrected += r.gradeDirectionsCorrected;
         totals.warnings.push(...r.warnings);
       } catch (err) {

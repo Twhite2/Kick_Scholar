@@ -4,6 +4,7 @@ import { PrismaPg } from "@prisma/adapter-pg";
 import { scoreTarget } from "./scoreTarget";
 import { programToMatchTarget, scholarshipToMatchTarget, studentProfileToMatchInput } from "./toMatchTarget";
 import { ENGINE_VERSION } from "./weights";
+import { LISTED_SCHOLARSHIP } from "../scholarships/listed";
 import { isCliEntrypoint } from "../cliEntrypoint";
 
 const MIN_SCORE_TO_STORE = 20;
@@ -30,7 +31,8 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
   // Judging each scholarship once (151 of them) and counting the results per
   // programme is what keeps this cheap: the alternative re-evaluates the same
   // criteria for every one of the 18,290 links.
-  const scholarships = await prisma.scholarship.findMany({ include: { eligibility: true } });
+  // Unlisted (REJECTED) records are not awards; they are never scored.
+  const scholarships = await prisma.scholarship.findMany({ where: LISTED_SCHOLARSHIP, include: { eligibility: true } });
   const scholarshipVerdict = new Map<string, boolean>();
   for (const scholarship of scholarships) {
     const result = scoreTarget(
@@ -49,6 +51,7 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
   // Which scholarships reach each programme, counting both the links made to
   // the programme itself and those made to its university as a whole.
   const links = await prisma.fundingOpportunity.findMany({
+    where: { scholarship: LISTED_SCHOLARSHIP },
     select: { scholarshipId: true, programId: true, universityId: true },
   });
   const byProgram = new Map<string, Set<string>>();
@@ -138,6 +141,9 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
     }
     scholarshipMatches += 1;
   }
+
+  // A scholarship unlisted since the last run keeps no match.
+  await prisma.match.deleteMany({ where: { userId, scholarship: { verificationStatus: "REJECTED" } } });
 
   return { programMatches, scholarshipMatches };
 }

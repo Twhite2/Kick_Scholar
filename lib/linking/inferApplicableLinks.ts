@@ -1,5 +1,6 @@
 import type { PrismaClient } from "@/lib/generated/prisma/client";
 import { deriveRules, isLinkable, type ScholarshipRules } from "./rules";
+import { LISTED_SCHOLARSHIP } from "../scholarships/listed";
 
 /**
  * Expands each scholarship's own eligibility rules across the catalogue to
@@ -219,8 +220,19 @@ export async function inferApplicableLinks(
     outcomes: [],
   };
 
+  // Inferred links of unlisted (REJECTED) records go; they are not awards.
+  if (!opts.dryRun) {
+    const unlisted = await prisma.fundingOpportunity.deleteMany({
+      where: {
+        linkMethod: "RULE_INFERENCE",
+        scholarship: { verificationStatus: "REJECTED", ...(opts.scholarshipId ? { id: opts.scholarshipId } : {}) },
+      },
+    });
+    result.linksDeleted += unlisted.count;
+  }
+
   const scholarships = await prisma.scholarship.findMany({
-    where: opts.scholarshipId ? { id: opts.scholarshipId } : undefined,
+    where: opts.scholarshipId ? { id: opts.scholarshipId, ...LISTED_SCHOLARSHIP } : LISTED_SCHOLARSHIP,
     select: {
       id: true,
       name: true,
