@@ -245,13 +245,17 @@ export function scholarshipRows(
 
   const ask = (c: (typeof criteria)[number]) => {
     if (c.valueList.length > 0) {
-      // Country criteria may store ISO codes; print names.
-      const names = c.valueList.map((v) => (/^[A-Z]{2}$/.test(v) ? countryName(v) : v));
+      // Country criteria may store ISO codes and degree criteria enum values
+      // ("MASTER"); print names.
+      const names = c.valueList.map((v) =>
+        c.criterionType === "DEGREE_LEVEL" ? (degreeLabel(v) ?? v) : /^[A-Z]{2}$/.test(v) ? countryName(v) : v,
+      );
       const list = names.slice(0, 6).join(", ");
       return c.valueList.length > 6 ? `${list} and ${c.valueList.length - 6} more` : list;
     }
     if (c.numericValue !== null) {
-      if (c.criterionType === "MAX_AGE") return `${c.numericValue} or younger`;
+      // "under 40 years of age" (LT) is 39 or younger; "29 or younger" (LTE) includes 29.
+      if (c.criterionType === "MAX_AGE") return c.operator === "LT" ? `Under ${c.numericValue}` : `${c.numericValue} or younger`;
       if (c.criterionType === "WORK_EXPERIENCE") return `${c.numericValue} months`;
       return `At least ${c.numericValue}`;
     }

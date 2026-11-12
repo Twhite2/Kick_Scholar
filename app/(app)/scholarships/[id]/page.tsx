@@ -421,33 +421,40 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
  * tracked it can still reach it from My plan and remove it there.
  */
 function NoLongerListed({ name, providerName, sourceUrl }: { name: string; providerName: string; sourceUrl: string }) {
+  // Detail routes float the top bar over a dark banner, so this page keeps one.
   return (
-    <div className="px-gutter pt-10 pb-16">
-      <div className="max-w-[640px] rounded-panel bg-white p-6 shadow-hairline md:p-8">
-        <p className="flex items-center gap-2 type-caption text-ink-3">
+    <div className="pb-16">
+      <section aria-labelledby="page-title" className="bg-night px-gutter pt-24 pb-10 text-white md:pt-28">
+        <p className="flex items-center gap-2 type-caption text-white/80">
           <Info aria-hidden="true" className="size-4" />
           No longer listed
         </p>
-        <h1 className="mt-3 type-page-h1 text-ink">{name}</h1>
-        <p className="mt-3 text-base text-ink-2">
-          This was a page from {providerName}&apos;s website, not a scholarship you can apply for, so it has been taken out of the catalogue.
-        </p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link href="/scholarships" className="inline-flex h-11 items-center rounded-full bg-kick-blue px-5 text-[15px] font-bold text-white">
-            Browse scholarships
-          </Link>
-          <Link href="/plan?tab=saved" className="inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-kick-blue">
-            Open My plan
-          </Link>
-          <a
-            href={sourceUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex h-11 items-center gap-1.5 rounded-full px-3 text-[15px] font-bold text-kick-blue hover:underline"
-          >
-            The page on {providerName.split(" (")[0]}&apos;s site
-            <ExternalLink aria-hidden="true" className="size-4" />
-          </a>
+        <h1 id="page-title" className="mt-3 max-w-[860px] type-page-h1">
+          {name}
+        </h1>
+      </section>
+      <div className="px-gutter pt-8">
+        <div className="max-w-[640px] rounded-panel bg-white p-6 shadow-hairline md:p-8">
+          <p className="text-base text-ink-2">
+            This was a page from {providerName}&apos;s website, not a scholarship you can apply for, so it has been taken out of the catalogue.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link href="/scholarships" className="inline-flex h-11 items-center rounded-full bg-kick-blue px-5 text-[15px] font-bold text-white">
+              Browse scholarships
+            </Link>
+            <Link href="/plan?tab=saved" className="inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-kick-blue">
+              Open My plan
+            </Link>
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-11 items-center gap-1.5 rounded-full px-3 text-[15px] font-bold text-kick-blue hover:underline"
+            >
+              The page on {providerName.split(" (")[0]}&apos;s site
+              <ExternalLink aria-hidden="true" className="size-4" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
