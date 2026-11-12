@@ -24,7 +24,9 @@
     "media:enrich": "tsx scripts/enrich-institution-media.ts",
     "data:backfill": "tsx scripts/backfill-hidden-facts.ts",
     "deadlines:refresh": "tsx scripts/backfill-hidden-facts.ts --refresh-only",
-    "data:cleanup-scholarships": "tsx scripts/cleanup-scholarship-records.ts"
+    "data:cleanup-scholarships": "tsx scripts/cleanup-scholarship-records.ts",
+    "data:erasmus-mundus": "tsx scripts/import-erasmus-mundus.ts",
+    "links:hosts": "tsx scripts/link-stated-hosts.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",
