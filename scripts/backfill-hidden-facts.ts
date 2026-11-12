@@ -306,6 +306,28 @@ function findCsvFile(dir: string, name: string): string | null {
   return hit ? path.join(dir, hit) : null;
 }
 
+/**
+ * Discover Uni lists undergraduate courses only. Its integrated master's and
+ * Scottish MAs were once filed as MASTER and matched graduates looking for a
+ * postgraduate master's; they are first degrees (degreeLevelFromAward).
+ */
+async function ukFirstDegrees(prisma: PrismaClient, opts: Options, t: Totals) {
+  if (opts.db) {
+    const where = { primarySourceId: "src-discover-uni", degreeLevel: "MASTER" as const };
+    t.ukFirstDegrees += opts.dryRun
+      ? await prisma.program.count({ where })
+      : (await prisma.program.updateMany({ where, data: { degreeLevel: "BACHELOR" } })).count;
+  }
+  if (opts.files) {
+    for (const file of extractionFiles("src-discover-uni")) {
+      const before = readFileSync(file, "utf8");
+      const data = JSON.parse(before);
+      for (const p of data.programs ?? []) if (p.degreeLevel === "MASTER") p.degreeLevel = "BACHELOR";
+      if (writeIfChanged(file, before, data, opts.dryRun)) t.ukFirstDegreeFiles += 1;
+    }
+  }
+}
+
 async function discoverUni(prisma: PrismaClient, opts: Options, t: Totals) {
   if (!opts.kisDir) return;
   const coursesFile = findCsvFile(opts.kisDir, "KISCOURSE");
@@ -445,6 +467,8 @@ async function main() {
     ukDurations: 0,
     ukStudyModes: 0,
     ukAmbiguous: 0,
+    ukFirstDegrees: 0,
+    ukFirstDegreeFiles: 0,
     annualDeadlinesMoved: 0,
   };
   try {
@@ -456,6 +480,7 @@ async function main() {
     await daadProgrammes(prisma, opts, t);
     await scholarships(prisma, opts, t);
     await discoverUni(prisma, opts, t);
+    await ukFirstDegrees(prisma, opts, t);
     if (opts.db) t.annualDeadlinesMoved = await refreshAnnualDeadlines(prisma, opts.dryRun);
     console.log(`${opts.dryRun ? "Dry run: nothing written.\n" : ""}${Object.entries(t).map(([k, v]) => `  ${k.padEnd(28)} ${v}`).join("\n")}`);
   } finally {

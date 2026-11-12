@@ -142,10 +142,10 @@ export function normaliseUrl(raw: string): string {
  * a later release is classified rather than dropped.
  *
  * Note for anyone matching UK scholarships against this: Discover Uni covers
- * undergraduate study only. The master's awards here are INTEGRATED master's,
- * entered from school at 18, not the one-year taught master's that Chevening
- * and Commonwealth fund. There are no standalone postgraduate courses in this
- * dataset at all.
+ * undergraduate study only. The master's awards here are INTEGRATED master's
+ * and Scottish MAs, entered from school at 18, not the one-year taught
+ * master's that Chevening and Commonwealth fund, so they are filed as
+ * BACHELOR. There are no standalone postgraduate courses in this dataset.
  */
 export function degreeLevelFromAward(label: string): string | null {
   const l = label.trim();
@@ -164,11 +164,13 @@ export function degreeLevelFromAward(label: string): string | null {
   // Doctorates, which this dataset is not expected to contain.
   if (/^(PhD|DPhil|EdD|DBA)$/i.test(l)) return "PHD";
 
-  // Every remaining M-award in this release is an integrated master's: MEng,
-  // MSci, MArch, MOptom, MLaw, MDes and about thirty more. Enumerating them
-  // left 275 courses classified as nothing, so the rule is general and the
-  // exceptions above are explicit.
-  if (/^M[A-Za-z]/i.test(l)) return "MASTER";
+  // Every remaining M-award in this release is an integrated master's (MEng,
+  // MSci, MArch, MOptom and about thirty more) or a Scottish MA, which is a
+  // first degree. All are entered from school at 18, so for matching they are
+  // undergraduate study: filed as MASTER they matched graduates looking for a
+  // postgraduate master's to 1,903 school-leaver courses. The award itself
+  // stays in the description ("Leads to a MEng.").
+  if (/^M[A-Za-z]/i.test(l)) return "BACHELOR";
 
   // First degrees, including the single-letter professional ones.
   if (/^(B[A-Za-z]*|LLB|BVMS|BVSc)/i.test(l)) return "BACHELOR";

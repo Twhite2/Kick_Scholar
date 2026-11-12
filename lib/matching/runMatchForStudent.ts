@@ -74,6 +74,7 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
   });
 
   let programMatches = 0;
+  const storedPrograms: string[] = [];
   for (const program of programs) {
     const reachable = new Set<string>([
       ...(byProgram.get(program.id) ?? []),
@@ -112,9 +113,11 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
       });
     }
     programMatches += 1;
+    storedPrograms.push(program.id);
   }
 
   let scholarshipMatches = 0;
+  const storedScholarships: string[] = [];
   for (const scholarship of scholarships) {
     const target = scholarshipToMatchTarget(scholarship);
     const result = scoreTarget(profile, target, scholarship.verificationStatus === "VERIFIED");
@@ -140,10 +143,14 @@ export async function runMatchForStudent(prisma: PrismaClient, userId: string): 
       });
     }
     scholarshipMatches += 1;
+    storedScholarships.push(scholarship.id);
   }
 
-  // A scholarship unlisted since the last run keeps no match.
-  await prisma.match.deleteMany({ where: { userId, scholarship: { verificationStatus: "REJECTED" } } });
+  // Matches this run did not store are stale: the target changed level, was
+  // unlisted, or no longer scores. Without this they lingered for good (a
+  // UK first degree reclassified as a bachelor's kept its master's match).
+  await prisma.match.deleteMany({ where: { userId, matchType: "PROGRAM", programId: { notIn: storedPrograms } } });
+  await prisma.match.deleteMany({ where: { userId, matchType: "SCHOLARSHIP", scholarshipId: { notIn: storedScholarships } } });
 
   return { programMatches, scholarshipMatches };
 }

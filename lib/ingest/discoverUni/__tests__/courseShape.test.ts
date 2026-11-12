@@ -1,5 +1,15 @@
 import { describe, it, expect } from "vitest";
-import { courseShape, mergeModes } from "../importDiscoverUni";
+import { courseShape, degreeLevelFromAward, mergeModes } from "../importDiscoverUni";
+
+describe("degreeLevelFromAward", () => {
+  it("files integrated master's and Scottish MAs as first degrees", () => {
+    for (const award of ["MEng", "MSci", "MPhys", "MA", "MA(SocSci)", "MPharm"]) expect(degreeLevelFromAward(award)).toBe("BACHELOR");
+    expect(degreeLevelFromAward("BSc")).toBe("BACHELOR");
+    expect(degreeLevelFromAward("MBChB")).toBe("BACHELOR");
+    expect(degreeLevelFromAward("HND")).toBe("DIPLOMA");
+    expect(degreeLevelFromAward("PhD")).toBe("PHD");
+  });
+});
 
 describe("courseShape", () => {
   it("reads the zero-padded KISMODE codes the release ships", () => {
