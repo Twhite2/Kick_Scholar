@@ -16,9 +16,25 @@ import { compareNumeric } from "../compare";
  * 2026)" where a student types "IELTS". Matching is by test family.
  */
 
-type Language = "ENGLISH" | "GERMAN";
+type Language =
+  | "ENGLISH"
+  | "GERMAN"
+  | "FRENCH"
+  | "SPANISH"
+  | "ITALIAN"
+  | "PORTUGUESE"
+  | "DUTCH"
+  | "SWEDISH"
+  | "POLISH"
+  | "TURKISH"
+  | "CHINESE"
+  | "JAPANESE";
 
-const TEST_FAMILIES: Array<{ family: string; pattern: RegExp; language: Language | null }> = [
+/**
+ * `lowerIsBetter`: JLPT runs from N1 (highest) to N5, so a student's N1
+ * meets a requirement of N2. Every other family scores upwards.
+ */
+const TEST_FAMILIES: Array<{ family: string; pattern: RegExp; language: Language | null; lowerIsBetter?: boolean }> = [
   { family: "IELTS", pattern: /ielts/i, language: "ENGLISH" },
   { family: "TOEFL", pattern: /toefl/i, language: "ENGLISH" },
   { family: "PTE", pattern: /\bpte\b/i, language: "ENGLISH" },
@@ -27,6 +43,23 @@ const TEST_FAMILIES: Array<{ family: string; pattern: RegExp; language: Language
   { family: "TESTDAF", pattern: /testdaf/i, language: "GERMAN" },
   { family: "DSH", pattern: /\bdsh\b/i, language: "GERMAN" },
   { family: "GOETHE", pattern: /goethe/i, language: "GERMAN" },
+  // French: DELF and DALF are graded by CEFR level ("DELF B2"), TCF and TEF by score.
+  { family: "DELF", pattern: /\bdelf\b/i, language: "FRENCH" },
+  { family: "DALF", pattern: /\bdalf\b/i, language: "FRENCH" },
+  { family: "TCF", pattern: /\btcf\b/i, language: "FRENCH" },
+  { family: "TEF", pattern: /\btef\b/i, language: "FRENCH" },
+  { family: "DELE", pattern: /\bdele\b/i, language: "SPANISH" },
+  { family: "SIELE", pattern: /\bsiele\b/i, language: "SPANISH" },
+  { family: "CILS", pattern: /\bcils\b/i, language: "ITALIAN" },
+  { family: "CELI", pattern: /\bceli\b/i, language: "ITALIAN" },
+  { family: "PLIDA", pattern: /\bplida\b/i, language: "ITALIAN" },
+  { family: "CELPE", pattern: /celpe-?bras|\bcaple\b/i, language: "PORTUGUESE" },
+  { family: "NT2", pattern: /\bnt2\b/i, language: "DUTCH" },
+  { family: "TISUS", pattern: /\btisus\b/i, language: "SWEDISH" },
+  { family: "TOMER", pattern: /t[öo]mer|t[üu]rk[çc]e yeterlik/i, language: "TURKISH" },
+  // Chinese: HSK levels 1-6 (1-9 since 2021), higher is better.
+  { family: "HSK", pattern: /\bhsk\b/i, language: "CHINESE" },
+  { family: "JLPT", pattern: /\bjlpt\b|japanese.language proficiency test/i, language: "JAPANESE", lowerIsBetter: true },
   // Language-neutral brands: the language comes from the rest of the name.
   { family: "TELC", pattern: /\btelc\b/i, language: null },
   { family: "UNICERT", pattern: /unicert/i, language: null },
@@ -39,11 +72,49 @@ function testFamily(name: string | null): string | null {
   return TEST_FAMILIES.find((t) => t.pattern.test(name))?.family ?? null;
 }
 
+const LANGUAGE_NAMES: Array<[Language, RegExp]> = [
+  ["ENGLISH", /english/i],
+  ["GERMAN", /german|deutsch/i],
+  ["FRENCH", /french|fran[cç]ais/i],
+  ["SPANISH", /spanish|espa[nñ]ol|castellano/i],
+  ["ITALIAN", /italian|italiano/i],
+  ["PORTUGUESE", /portugu[eê]s/i],
+  ["DUTCH", /dutch|nederlands/i],
+  ["SWEDISH", /swedish|svenska/i],
+  ["POLISH", /polish|polski/i],
+  ["TURKISH", /turkish|t[üu]rk[çc]e/i],
+  ["CHINESE", /chinese|mandarin|putonghua/i],
+  ["JAPANESE", /japanese/i],
+];
+
 function languageOf(name: string | null): Language | null {
   if (!name) return null;
-  if (/english/i.test(name)) return "ENGLISH";
-  if (/german|deutsch/i.test(name)) return "GERMAN";
+  const named = LANGUAGE_NAMES.find(([, re]) => re.test(name))?.[0];
+  if (named) return named;
   return TEST_FAMILIES.find((t) => t.pattern.test(name))?.language ?? null;
+}
+
+const lowerIsBetter = (family: string | null) => Boolean(family && TEST_FAMILIES.find((t) => t.family === family)?.lowerIsBetter);
+
+/** "6,5" -> 6.5; "N2" -> 2 (JLPT); "HSK 4" -> 4. */
+function levelNumber(value: string | null | undefined): number | null {
+  if (!value) return null;
+  const v = value.trim();
+  const plain = Number(v.replace(",", "."));
+  if (Number.isFinite(plain)) return plain;
+  const level = v.match(/^(?:N|HSK\s*)([1-9])$/i)?.[1];
+  return level ? Number(level) : null;
+}
+
+/** A student's score, or the level written into the test name ("JLPT N2", "HSK 5"). */
+function studentScore(p: StudentLanguageProficiencyLike): number | null {
+  if (p.score !== null) return p.score;
+  return levelNumber(p.testName?.match(/\b(N[1-5]|HSK\s*[1-9])\b/i)?.[1]);
+}
+
+/** The comparison for a family where a lower level is the better one. */
+function flip(operator: Alternative["operator"]): Alternative["operator"] {
+  return operator === "GTE" || operator === "EQ" ? "LTE" : operator === "GT" ? "LT" : operator === "LTE" ? "GTE" : operator === "LT" ? "GT" : operator;
 }
 
 function cefrRank(text: string | null): number | null {
@@ -66,7 +137,8 @@ const SCORE_TO_CEFR: Record<string, Array<[number, number]>> = {
 };
 
 function studentCefrRank(p: StudentLanguageProficiencyLike): number | null {
-  const stated = cefrRank(p.cefrLevel);
+  // A level the student set, or one in the test's name ("DELF B2", "DELE C1").
+  const stated = cefrRank(p.cefrLevel) ?? cefrRank(p.testName);
   if (stated !== null) return stated;
   const family = testFamily(p.testName);
   if (p.score === null || family === null) return null;
@@ -102,13 +174,12 @@ function alternatives(target: MatchTarget): Alternative[] {
     .filter((r) => r.requirementType === "LANGUAGE_TEST")
     .map((r) => {
       const context = `${r.testName ?? ""} ${r.unit ?? ""}`;
-      const numeric = Number(r.value.replace(",", "."));
       return {
         label: r.testName ?? r.value,
         language: languageOf(context),
         family: testFamily(context),
         operator: r.operator,
-        score: Number.isFinite(numeric) ? numeric : null,
+        score: levelNumber(r.value),
         cefr: cefrRank(r.value),
         text: `${r.operator} ${r.value}`,
       };
@@ -139,9 +210,11 @@ function evaluate(alt: Alternative, proficiencies: StudentLanguageProficiencyLik
   let sawComparable = false;
   for (const p of proficiencies) {
     if (alt.score !== null && alt.family !== null && testFamily(p.testName) === alt.family) {
-      if (p.score !== null && sameScoreScale(alt.family, alt.score, p.score)) {
+      const score = studentScore(p);
+      if (score !== null && sameScoreScale(alt.family, alt.score, score)) {
         sawComparable = true;
-        if (compareNumeric(alt.operator === "EQ" ? "GTE" : alt.operator, alt.score, p.score)) return true;
+        const operator = alt.operator === "EQ" ? "GTE" : alt.operator;
+        if (compareNumeric(lowerIsBetter(alt.family) ? flip(operator) : operator, alt.score, score)) return true;
       }
     }
     if (alt.cefr !== null) {
