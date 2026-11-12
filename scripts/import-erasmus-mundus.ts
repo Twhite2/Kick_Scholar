@@ -10,6 +10,7 @@ import { canonicalizeUrl } from "../lib/normalization/canonicalUrl";
 import { inferFieldCategory } from "../lib/extraction/parsers/fieldCategory";
 import { writeExplicitLinks, type StatedLink } from "../lib/linking/explicitLinks";
 import type { ExtractionFile } from "../lib/extraction/schemas";
+import { InstitutionResolver, addFromRor, institutionIndex, resolveLocally, type InstitutionIndex } from "../lib/ingest/registers/resolveInstitution";
 
 /**
  * Erasmus Mundus Joint Masters as programmes, with their consortia.
@@ -34,7 +35,7 @@ import type { ExtractionFile } from "../lib/extraction/schemas";
  *   - explicit links tie the scholarship to that programme and to every
  *     partner institution ("Officially linked" in the UI).
  *
- *   npm run data:erasmus-mundus -- [--dir data/erasmus-plus] [--dry-run]
+ *   npm run data:erasmus-mundus -- [--dir data/erasmus-plus] [--dry-run] [--add-institutions]
  */
 
 const SOURCE_ID = "src-erasmus-mundus";
@@ -43,39 +44,8 @@ const SOURCE_ID = "src-erasmus-mundus";
 // Reading the project lists
 // ---------------------------------------------------------------------------
 
-/** RFC 4180 rows with the delimiter the file uses (the Commission's exports vary). */
-export function parseDelimited(text: string): string[][] {
-  const firstLine = text.slice(0, text.indexOf("\n") >>> 0);
-  const delim = (firstLine.match(/;/g)?.length ?? 0) > (firstLine.match(/,/g)?.length ?? 0) ? ";" : ",";
-  const rows: string[][] = [];
-  let row: string[] = [];
-  let cell = "";
-  let quoted = false;
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    if (quoted) {
-      if (c === '"') {
-        if (text[i + 1] === '"') {
-          cell += '"';
-          i++;
-        } else quoted = false;
-      } else cell += c;
-    } else if (c === '"') quoted = true;
-    else if (c === delim) {
-      row.push(cell);
-      cell = "";
-    } else if (c === "\n" || c === "\r") {
-      if (c === "\r" && text[i + 1] === "\n") i++;
-      row.push(cell);
-      if (row.some((v) => v.trim() !== "")) rows.push(row);
-      row = [];
-      cell = "";
-    } else cell += c;
-  }
-  row.push(cell);
-  if (row.some((v) => v.trim() !== "")) rows.push(row);
-  return rows;
-}
+import { parseDelimited } from "../lib/ingest/registers/csv";
+export { parseDelimited };
 
 export interface ProjectColumns {
   id: number;
@@ -168,59 +138,15 @@ export function organisationsOf(row: string[], cols: ProjectColumns): Organisati
 }
 
 // ---------------------------------------------------------------------------
-// Resolving organisations to institutions
+// Resolving organisations to institutions: the national registers' resolver
+// (website, exact name in the country, then ROR's affiliation matcher).
 // ---------------------------------------------------------------------------
 
-/** "https://www.unibo.it/en" -> "unibo.it". */
-export function hostOf(url: string | null | undefined): string | null {
-  if (!url) return null;
-  try {
-    const host = new URL(/^https?:\/\//i.test(url) ? url : `https://${url}`).hostname.toLowerCase();
-    return host.replace(/^www\d?\./, "") || null;
-  } catch {
-    return null;
-  }
-}
+export { hostOf } from "../lib/ingest/registers/resolveInstitution";
 
-const fold = (s: string) =>
-  s
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
-
-interface UniversityIndex {
-  byHost: Map<string, string>;
-  byName: Map<string, string>;
-  names: Map<string, string>;
-}
-
-async function universityIndex(prisma: PrismaClient): Promise<UniversityIndex> {
-  const rows = await prisma.university.findMany({ select: { id: true, name: true, country: true, website: true, domain: true } });
-  const byHost = new Map<string, string>();
-  const byName = new Map<string, string>();
-  const names = new Map<string, string>();
-  for (const u of rows) {
-    names.set(u.id, u.name);
-    for (const h of [hostOf(u.website), u.domain?.toLowerCase().replace(/^www\./, "") ?? null]) if (h && !byHost.has(h)) byHost.set(h, u.id);
-    byName.set(`${fold(u.name)}|${u.country}`, u.id);
-  }
-  return { byHost, byName, names };
-}
-
-export function resolveOrganisation(org: Organisation, index: Pick<UniversityIndex, "byHost" | "byName">): string | null {
-  const host = hostOf(org.website);
-  if (host) {
-    // "www.en.unibo.it" and "unibo.it" are the same institution: try each parent domain down to two labels.
-    const labels = host.split(".");
-    for (let i = 0; i <= labels.length - 2; i++) {
-      const hit = index.byHost.get(labels.slice(i).join("."));
-      if (hit) return hit;
-    }
-  }
-  if (org.country) return index.byName.get(`${fold(org.name)}|${org.country}`) ?? null;
-  return null;
+/** Website or exact name only, with no network: what the tests pin down. */
+export function resolveOrganisation(org: Organisation, index: Pick<InstitutionIndex, "byHost" | "byName">): string | null {
+  return resolveLocally({ name: org.name, country: org.country ?? "", website: org.website }, index);
 }
 
 // ---------------------------------------------------------------------------
@@ -228,6 +154,8 @@ export function resolveOrganisation(org: Organisation, index: Pick<UniversityInd
 interface Options {
   dir: string;
   dryRun: boolean;
+  /** Add an institution ROR knows but the catalogue lacks (see addFromRor). */
+  addInstitutions?: boolean;
 }
 
 export async function importErasmusMundus(prisma: PrismaClient, opts: Options) {
@@ -251,7 +179,10 @@ export async function importErasmusMundus(prisma: PrismaClient, opts: Options) {
     where: { primarySourceId: SOURCE_ID, verificationStatus: { not: "REJECTED" } },
     select: { id: true, name: true, applicationUrl: true, sourceUrl: true, officialSourceUrl: true, description: true },
   });
-  const index = await universityIndex(prisma);
+  const resolver = new InstitutionResolver(await institutionIndex(prisma), {
+    useRor: true,
+    addMissing: opts.addInstitutions && !opts.dryRun ? (rorId) => addFromRor(prisma, rorId) : undefined,
+  });
 
   const extraction: ExtractionFile = {
     sourceId: SOURCE_ID,
@@ -274,7 +205,12 @@ export async function importErasmusMundus(prisma: PrismaClient, opts: Options) {
     if (!orgs) continue;
     totals.foundInLists += 1;
 
-    const resolved = orgs.map((o) => ({ org: o, universityId: resolveOrganisation(o, index) }));
+    const resolved: Array<{ org: Organisation; universityId: string | null }> = [];
+    for (const o of orgs) {
+      // Without a country, ROR's matcher cannot be checked, so only the website or name counts.
+      const universityId = o.country ? await resolver.resolve({ name: o.name, country: o.country, website: o.website }) : resolver.resolveLocal({ name: o.name, country: "", website: o.website });
+      resolved.push({ org: o, universityId });
+    }
     for (const r of resolved) {
       if (r.universityId) continue;
       const key = r.org.country ?? "??";
@@ -292,7 +228,7 @@ export async function importErasmusMundus(prisma: PrismaClient, opts: Options) {
     const countries = [...new Set(orgs.map((o) => o.country).filter(Boolean))];
     const programUrl = canonicalizeUrl(s.applicationUrl);
     extraction.programs.push({
-      universityName: index.names.get(coordinator.universityId)!,
+      universityName: resolver.nameOf(coordinator.universityId).name,
       universityWebsite: programUrl,
       name: s.name,
       degreeLevel: "MASTER",
@@ -344,7 +280,11 @@ export async function importErasmusMundus(prisma: PrismaClient, opts: Options) {
 async function main() {
   const argv = process.argv.slice(2);
   const i = argv.indexOf("--dir");
-  const opts: Options = { dir: path.resolve(i >= 0 ? argv[i + 1] : path.join("data", "erasmus-plus")), dryRun: argv.includes("--dry-run") };
+  const opts: Options = {
+    dir: path.resolve(i >= 0 ? argv[i + 1] : path.join("data", "erasmus-plus")),
+    dryRun: argv.includes("--dry-run"),
+    addInstitutions: argv.includes("--add-institutions"),
+  };
   const prisma = new PrismaClient({ adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL! }) });
   try {
     const r = await importErasmusMundus(prisma, opts);

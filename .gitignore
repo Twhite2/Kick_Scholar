@@ -61,3 +61,7 @@ __pycache__/
 # Locally stored institution media (logos, covers) and media script reports.
 /public/media/
 /tmp/
+
+# Raw downloads for bulk imports (national registers, Erasmus+ project lists)
+/data/registers/
+/data/erasmus-plus/
