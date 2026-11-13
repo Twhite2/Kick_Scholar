@@ -126,4 +126,24 @@ describe("language alternatives", () => {
     expect(f.score).toBe(0);
     expect(f.missingProfileData).toBe("German");
   });
+
+  it("compares Chinese HSK levels, including a level written in the test name", () => {
+    expect(languageScore([lang("HSK", "4")], [{ testName: "HSK", score: 5, cefrLevel: null }]).score).toBe(100);
+    expect(languageScore([lang("HSK", "5")], [{ testName: "HSK 4", score: null, cefrLevel: null }]).score).toBe(20);
+  });
+
+  it("reads JLPT the right way round: N1 is the highest level", () => {
+    expect(languageScore([lang("JLPT", "N2")], [{ testName: "JLPT N1", score: null, cefrLevel: null }]).score).toBe(100);
+    expect(languageScore([lang("Japanese-Language Proficiency Test", "N2")], [{ testName: "JLPT", score: 3, cefrLevel: null }]).score).toBe(20);
+  });
+
+  it("answers a French CEFR requirement from a DELF level in the test name", () => {
+    expect(languageScore([lang("French", "B2")], [{ testName: "DELF B2", score: null, cefrLevel: null }]).score).toBe(100);
+    expect(languageScore([lang("French", "C1")], [{ testName: "DELF B2", score: null, cefrLevel: null }]).score).toBe(20);
+  });
+
+  it("never answers a Chinese requirement with an English score", () => {
+    const f = languageScore([lang("Chinese", "B2")], [{ testName: "IELTS", score: 8, cefrLevel: null }]);
+    expect(f.score).toBe(0);
+  });
 });

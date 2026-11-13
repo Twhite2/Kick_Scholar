@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // The crawler's Python virtualenv ships Playwright's bundled JavaScript,
+    // which is not ours and is large enough to crash the formatter.
+    "crawler/.venv/**",
   ]),
 ]);
 

@@ -1,0 +1,31 @@
+{
+  "id": "src-duo-nl",
+  "name": "DUO: register of recognised higher-education programmes (Netherlands)",
+  "type": "EDUCATION_DATABASE",
+  "country": "NL",
+  "baseUrl": "https://onderwijsdata.duo.nl/datasets/overzicht-erkenningen-ho",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "WEEKLY",
+  "status": "PAUSED",
+  "seedUrls": [
+    "https://onderwijsdata.duo.nl/datasets/overzicht-erkenningen-ho"
+  ],
+  "sitemapUrls": [],
+  "sitemapUrlPattern": null,
+  "sitemapMaxUrls": 1,
+  "urlPatternMode": "regex",
+  "urlPatterns": {
+    "include": [
+      "onderwijsdata.duo.nl"
+    ],
+    "exclude": []
+  },
+  "maxDepth": 0,
+  "maxPages": 1,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "shape": "Not crawled. Bulk register import - see lib/ingest/registers and npm run data:register -- --country NL. Status stays PAUSED so the crawler never picks it up."
+  },
+  "notes": "Overzicht Erkenningen ho (CC BY), DUO's daily-updated open register of every recognised Dutch bachelor's and master's programme; replaced the CROHO download. Master's (WO-MA, HBO-MA) are imported, current records only. Download ho_erkenningen_rio.csv into data/registers/nl/."
+}

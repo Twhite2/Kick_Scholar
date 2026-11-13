@@ -24,6 +24,8 @@ function computeCompleteness(input: ProfileInput): number {
 
 export interface UpdateProfileResult {
   error?: string;
+  /** Validation messages keyed by field path ("currentGpa", "languageProficiencies.0.testName"). */
+  fieldErrors?: Record<string, string>;
   profileCompleteness?: number;
   programMatches?: number;
   scholarshipMatches?: number;
@@ -46,7 +48,13 @@ export async function updateProfile(input: ProfileInput): Promise<UpdateProfileR
 
   const parsed = profileInputSchema.safeParse(input);
   if (!parsed.success) {
-    return { error: parsed.error.issues[0]?.message ?? "Invalid profile data" };
+    // Returned per field so the form can show each message under its input.
+    const fieldErrors: Record<string, string> = {};
+    for (const issue of parsed.error.issues) {
+      const path = issue.path.join(".");
+      if (path && !fieldErrors[path]) fieldErrors[path] = issue.message;
+    }
+    return { error: "Some details need fixing before we can save.", fieldErrors };
   }
   const data = parsed.data;
   const profileCompleteness = computeCompleteness(data);

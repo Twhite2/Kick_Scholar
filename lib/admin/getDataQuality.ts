@@ -13,6 +13,10 @@ export interface DataQualityReport {
   totalSources: number;
   activeSources: number;
   pausedSources: number;
+  /** Media coverage (docs/ui-remodel.md §9.12). */
+  institutionsWithLogo: number;
+  institutionsWithCover: number;
+  institutionsWithNeither: number;
 }
 
 export async function getDataQuality(): Promise<DataQualityReport> {
@@ -28,6 +32,9 @@ export async function getDataQuality(): Promise<DataQualityReport> {
     totalSources,
     activeSources,
     pausedSources,
+    institutionsWithLogo,
+    institutionsWithCover,
+    institutionsWithNeither,
   ] = await Promise.all([
     prisma.university.count(),
     prisma.program.count(),
@@ -40,6 +47,9 @@ export async function getDataQuality(): Promise<DataQualityReport> {
     prisma.source.count(),
     prisma.source.count({ where: { status: "ACTIVE" } }),
     prisma.source.count({ where: { status: "PAUSED" } }),
+    prisma.university.count({ where: { logoUrl: { not: null } } }),
+    prisma.university.count({ where: { coverUrl: { not: null } } }),
+    prisma.university.count({ where: { logoUrl: null, coverUrl: null } }),
   ]);
 
   return {
@@ -55,5 +65,8 @@ export async function getDataQuality(): Promise<DataQualityReport> {
     totalSources,
     activeSources,
     pausedSources,
+    institutionsWithLogo,
+    institutionsWithCover,
+    institutionsWithNeither,
   };
 }

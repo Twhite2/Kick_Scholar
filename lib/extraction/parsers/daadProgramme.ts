@@ -1,3 +1,4 @@
+import { parseDaadApplicationPeriods, type ApplicationPeriods } from "./dates";
 import type { ExtractionFile } from "../schemas";
 import type { SourceDocumentInput } from "../types";
 import type { ParserResult, SourceParser } from "./types";
@@ -31,6 +32,7 @@ const LABEL = {
   beginning: "Beginning",
   applicationPeriods: "Application periods",
   tuitionPerSemester: "Tuition fees per semester",
+  studyMode: "Full-time / part-time",
 } as const;
 
 /**
@@ -190,6 +192,45 @@ function moneyFrom(text: string | null): { amount: number; currency: string } | 
   return { amount, currency: m[2].toUpperCase() };
 }
 
+/**
+ * "Full-time / part-time" lists the modes as bullets: "* full-time",
+ * "* part-time (study alongside work)".
+ */
+export function studyModeFrom(block: string | null): string | null {
+  if (!block) return null;
+  const full = /full[- ]time/i.test(block);
+  const part = /part[- ]time/i.test(block);
+  if (full && part) return "Full-time or part-time";
+  if (full) return "Full-time";
+  if (part) return "Part-time";
+  return null;
+}
+
+/** The study mode a whole DAAD page states, for backfilling older extractions. */
+export function studyModeFromPage(markdown: string): string | null {
+  return studyModeFrom(rawBlock(contentAfterChrome(markdown), LABEL.studyMode));
+}
+
+type ExtractedDeadlines = ExtractionFile["programs"][number]["deadlines"];
+
+/** Dated deadlines when the page states dates, else its own wording as text. */
+export function deadlinesFrom(periods: ApplicationPeriods, applicationPeriodsText: string | null): ExtractedDeadlines {
+  if (periods.deadlines.length > 0) {
+    return periods.deadlines.map((d) => ({
+      deadlineType: "APPLICATION" as never,
+      date: d.date,
+      dateText: d.dateText,
+      intake: d.intake,
+      sourceQuote: d.sourceQuote,
+      sourceUrl: null,
+    }));
+  }
+  const text = periods.note ?? applicationPeriodsText;
+  return text
+    ? [{ deadlineType: "APPLICATION" as never, date: null, dateText: text, intake: null, sourceQuote: text, sourceUrl: null }]
+    : [];
+}
+
 function emptyExtraction(doc: SourceDocumentInput): ExtractionFile {
   return {
     sourceId: "src-daad-programmes",
@@ -323,8 +364,16 @@ export class DaadProgrammeParser implements SourceParser {
     if (inferred) filled.push("programs[0].fieldCategory");
     else unfilled.push("programs[0].fieldCategory");
 
+    // Application periods are annual ("For the winter semester: until 15
+    // May"), per applicant group. Each becomes a dated deadline resolved to its
+    // next occurrence, with the page's own wording kept as dateText; blocks
+    // that state no date ("please check the website") stay text only.
+    const periods = parseDaadApplicationPeriods(doc.markdown, new Date());
     const applicationPeriods = get(LABEL.applicationPeriods);
+    if (periods.deadlines.length > 0) filled.push("programs[0].deadlines");
     unfilled.push("programs[0].requirements");
+    const studyMode = studyModeFrom(rawBlock(body, LABEL.studyMode));
+    if (studyMode) filled.push("programs[0].studyMode");
 
     const extraction: ExtractionFile = {
       sourceId: this.sourceId,
@@ -357,26 +406,13 @@ export class DaadProgrammeParser implements SourceParser {
           tuitionCurrency,
           tuitionPeriod: tuitionPeriod as never,
           intakes,
+          studyMode,
           programUrl: doc.url,
           description: null,
           sourceUrl: doc.url,
           sourceQuote: degreeText ? `Degree ${degreeText}` : name,
           requirements: [],
-          deadlines: applicationPeriods
-            ? [
-                {
-                  deadlineType: "APPLICATION" as never,
-                  date: null,
-                  // Application periods are prose ("For application deadline
-                  // please check the website"), never a parseable date — so
-                  // this stays dateText rather than inventing one.
-                  dateText: applicationPeriods,
-                  intake: null,
-                  sourceQuote: applicationPeriods,
-                  sourceUrl: null,
-                },
-              ]
-            : [],
+          deadlines: deadlinesFrom(periods, applicationPeriods),
         },
       ],
       scholarships: [],

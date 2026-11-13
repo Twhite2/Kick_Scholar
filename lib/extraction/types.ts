@@ -5,6 +5,8 @@ export interface SourceDocumentInput {
   sourceId: string;
   url: string;
   markdown: string;
+  /** The page as crawled, when the crawl kept it. Tables with merged cells survive only here. */
+  html?: string;
 }
 
 /**

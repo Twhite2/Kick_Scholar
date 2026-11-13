@@ -1,153 +1,173 @@
+import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
-import { ProgramFilterPanel } from "@/components/programs/program-filter-panel";
-import { ProgramCard, type ProgramCardData } from "@/components/programs/program-card";
+import { parseProgrammeParams, programmeOrderBy, programmeWhere } from "@/lib/catalogue/params";
+import { buildProgrammeCards } from "@/lib/cards/programme-cards";
+import { getApplicantGroup } from "@/lib/deadlines/viewer-group";
+import { TARGET_COUNTRIES } from "@/lib/constants/countries";
+import { countryName } from "@/lib/ui/country";
+import { formatCount, plural } from "@/lib/ui/format";
+import { CatalogueHeader, EmptyResults, ExploreSwitcher, ViewToggle } from "@/components/kick/browse/layout";
+import { ClearAll, FilterChip, QualifyChip, SearchBox, SortSelect } from "@/components/kick/browse/controls";
+import { ProgrammeRow } from "@/components/kick/browse/rows";
+import { MatchPosterCard } from "@/components/kick/match-poster-card";
 import { Pagination } from "@/components/ui/pagination";
-import type { DegreeLevel, FieldCategory, TuitionType, Prisma } from "@/lib/generated/prisma/client";
 
-/**
- * Divisible by both grid widths (2 and 3 columns), so the last row is never
- * ragged at either breakpoint.
- */
+/** Divisible by 2, 3 and 4 columns, so the last row is never ragged. */
 const PAGE_SIZE = 24;
 
-export default async function ProgramsPage({ searchParams }: PageProps<"/programs">) {
+const DEGREES = [
+  { value: "BACHELOR", label: "Bachelor's" },
+  { value: "MASTER", label: "Master's" },
+  { value: "PHD", label: "PhD" },
+];
+const FIELDS = [
+  { value: "STEM", label: "STEM" },
+  { value: "BUSINESS", label: "Business" },
+  { value: "HUMANITIES", label: "Humanities" },
+  { value: "SOCIAL_SCIENCES", label: "Social sciences" },
+  { value: "ARTS", label: "Arts" },
+  { value: "HEALTH", label: "Health" },
+  { value: "LAW", label: "Law" },
+  { value: "EDUCATION", label: "Education" },
+];
+const TUITION = [
+  { value: "FREE", label: "No tuition fees" },
+  { value: "PAID", label: "Paid" },
+];
+const SORTS = [
+  { value: "match", label: "Best match" },
+  { value: "name", label: "Name (A–Z)" },
+  { value: "tuition", label: "Tuition (low to high)" },
+];
+
+export async function generateMetadata({ searchParams }: PageProps<"/programs">): Promise<Metadata> {
+  const q = (await searchParams).q;
+  return { title: typeof q === "string" && q ? `Search: ${q} in Programmes` : "Programmes" };
+}
+
+export default async function ProgrammesPage({ searchParams }: PageProps<"/programs">) {
   const session = await auth();
   if (!session?.user) redirect("/login");
   const userId = session.user.id;
+  const now = new Date();
 
   const params = await searchParams;
-  const q = typeof params.q === "string" ? params.q : undefined;
-  const country = typeof params.country === "string" ? params.country : undefined;
-  const degree = typeof params.degree === "string" ? params.degree : undefined;
-  const field = typeof params.field === "string" ? params.field : undefined;
-  const tuition = typeof params.tuition === "string" ? params.tuition : undefined;
-  const sort = typeof params.sort === "string" ? params.sort : "match";
-  const requestedPage = Number(typeof params.page === "string" ? params.page : "1");
-  const page = Number.isFinite(requestedPage) && requestedPage > 0 ? Math.floor(requestedPage) : 1;
+  const f = parseProgrammeParams(params);
 
-  const where: Prisma.ProgramWhereInput = {
-    ...(q
-      ? {
-          OR: [
-            { name: { contains: q, mode: "insensitive" } },
-            { university: { name: { contains: q, mode: "insensitive" } } },
-          ],
-        }
-      : {}),
-    ...(country ? { university: { country } } : {}),
-    ...(degree ? { degreeLevel: degree as DegreeLevel } : {}),
-    ...(field ? { fieldCategory: field as FieldCategory } : {}),
-    ...(tuition ? { tuitionType: tuition as TuitionType } : {}),
-  };
-
-  // The catalogue is 1,400+ programmes and growing with every crawl. Rendering
-  // it whole is what this page used to do; it now returns one page at a time.
-  const total = await prisma.program.count({ where });
-  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-  const currentPage = Math.min(page, totalPages);
-  const skip = (currentPage - 1) * PAGE_SIZE;
-
-  const [matches, saved] = await Promise.all([
+  const [matches, saved, tracked, profile] = await Promise.all([
     prisma.match.findMany({
       where: { userId, matchType: "PROGRAM" },
-      select: { programId: true, score: true, matchStrength: true },
+      select: { programId: true, score: true, matchStrength: true, factorScores: true },
     }),
-    prisma.savedOpportunity.findMany({
-      where: { userId, opportunityType: "PROGRAM" },
-      select: { programId: true },
+    prisma.savedOpportunity.findMany({ where: { userId, opportunityType: "PROGRAM" }, select: { programId: true } }),
+    prisma.application.findMany({ where: { userId, programId: { not: null } }, select: { programId: true } }),
+    prisma.studentProfile.findUnique({
+      where: { userId },
+      select: { currentGpa: true, languageProficiencies: { select: { testName: true, score: true } } },
     }),
   ]);
 
-  let programs: Prisma.ProgramGetPayload<{ include: { university: true } }>[];
+  const qualifyIds = f.qualify
+    ? matches.filter((m) => m.matchStrength !== "MISSING_REQUIREMENT" && m.programId).map((m) => m.programId!)
+    : undefined;
+  const where = programmeWhere(f, { onlyIds: qualifyIds });
 
-  if (sort === "match") {
-    // Match scores live in a per-user Match table, so the database cannot order
-    // the Program query by them. Ordering the page slice alone would be wrong —
-    // it would sort 24 arbitrary rows rather than pick the best 24 — so the
-    // filtered id set is ordered first and only the chosen page is hydrated.
-    // Ids are cheap: no joins and no row payload, unlike the full fetch this
-    // replaces.
+  // The catalogue is 12,000+ programmes; one page at a time.
+  const [total, unfilteredByQualify] = await Promise.all([
+    prisma.program.count({ where }),
+    f.qualify ? prisma.program.count({ where: programmeWhere(f) }) : Promise.resolve(0),
+  ]);
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  const page = Math.min(f.page, totalPages);
+  const skip = (page - 1) * PAGE_SIZE;
+
+  let pageIds: string[];
+  if (f.sort === "match") {
+    // Scores live in a per-user table, so the database can't order by them.
+    // Order the filtered ids first, then hydrate only the chosen page.
     const ids = await prisma.program.findMany({ where, select: { id: true } });
     const scoreById = new Map(matches.map((m) => [m.programId, m.score]));
-    const pageIds = ids
+    pageIds = ids
       .map((r) => r.id)
       .sort((a, b) => (scoreById.get(b) ?? -1) - (scoreById.get(a) ?? -1))
       .slice(skip, skip + PAGE_SIZE);
-
-    const rows = await prisma.program.findMany({
-      where: { id: { in: pageIds } },
-      include: { university: true },
-    });
-    // `IN` does not preserve the order it was given, so restore it here.
-    const byId = new Map(rows.map((r) => [r.id, r]));
-    programs = pageIds.map((id) => byId.get(id)).filter((p) => p !== undefined);
   } else {
-    programs = await prisma.program.findMany({
-      where,
-      include: { university: true },
-      orderBy: sort === "tuition" ? { tuitionAmount: "asc" } : { name: "asc" },
-      skip,
-      take: PAGE_SIZE,
-    });
+    const rows = await prisma.program.findMany({ where, orderBy: programmeOrderBy(f.sort), skip, take: PAGE_SIZE, select: { id: true } });
+    pageIds = rows.map((r) => r.id);
   }
 
-  const matchByProgram = new Map(matches.map((m) => [m.programId, m]));
-  const savedProgramIds = new Set(saved.map((s) => s.programId));
-
-  const cards: ProgramCardData[] = programs.map((p) => {
-    const match = matchByProgram.get(p.id);
-    return {
-      id: p.id,
-      name: p.name,
-      degreeLevel: p.degreeLevel,
-      fieldOfStudy: p.fieldOfStudy,
-      durationMonths: p.durationMonths,
-      tuitionType: p.tuitionType,
-      tuitionAmount: p.tuitionAmount ? Number(p.tuitionAmount) : null,
-      tuitionCurrency: p.tuitionCurrency,
-      university: { name: p.university.name, country: p.university.country, city: p.university.city },
-      match: match ? { score: match.score, matchStrength: match.matchStrength } : null,
-      saved: savedProgramIds.has(p.id),
-    };
+  const cards = await buildProgrammeCards(pageIds, {
+    matches: new Map(matches.map((m) => [m.programId!, m])),
+    saved: new Set(saved.map((s) => s.programId!)),
+    profile: profile ?? null,
+    now,
+    applicantGroup: await getApplicantGroup(userId),
   });
+  const trackedSet = new Set(tracked.map((t) => t.programId));
 
   const rangeStart = total === 0 ? 0 : skip + 1;
   const rangeEnd = skip + cards.length;
+  const summary =
+    total === 0
+      ? "0 programmes found"
+      : f.qualify
+        ? `${formatCount(total)} match your profile, out of ${formatCount(unfilteredByQualify)}`
+        : `Showing ${formatCount(rangeStart)}–${formatCount(rangeEnd)} of ${plural(total, "programme")}`;
+
+  const countries = Object.keys(TARGET_COUNTRIES)
+    .map((code) => ({ value: code, label: countryName(code) }))
+    .sort((a, b) => a.label.localeCompare(b.label));
 
   return (
-    <div className="mx-auto max-w-6xl space-y-6 px-4 py-8 md:px-8 md:py-12">
-      <div>
-        <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">Programs</h1>
-        <p className="mt-1 text-muted-foreground">
-          {total === 0
-            ? "0 programs found"
-            : `Showing ${rangeStart}–${rangeEnd} of ${total} programs`}
-        </p>
+    <div className="pb-16">
+      <ExploreSwitcher current="/programs" />
+      <CatalogueHeader title="Programmes" summary={summary} />
+
+      <div className="mt-5 space-y-3 px-gutter">
+        <div className="max-w-[720px]">
+          <SearchBox label="Search programmes or universities" placeholder="Search programmes or universities" resultLabel={plural(total, "result")} />
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <FilterChip paramKey="country" label="Country" options={countries} />
+          <FilterChip paramKey="degree" label="Degree" options={DEGREES} />
+          <FilterChip paramKey="field" label="Field" options={FIELDS} />
+          <FilterChip paramKey="tuition" label="Tuition" options={TUITION} />
+          {profile && <QualifyChip />}
+          <ClearAll keys={["q", "country", "degree", "field", "tuition", "qualify"]} />
+          <div className="ml-auto flex flex-wrap items-center gap-2">
+            <SortSelect options={SORTS} fallback="match" />
+            <ViewToggle params={params} pathname="/programs" />
+          </div>
+        </div>
       </div>
 
-      <ProgramFilterPanel />
-
-      {cards.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-border p-12 text-center text-muted-foreground">
-          No programs match your filters yet.
-        </div>
-      ) : (
-        <>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {cards.map((program) => (
-              <ProgramCard key={program.id} program={program} />
+      <div className="mt-6">
+        {cards.length === 0 ? (
+          <EmptyResults message="No programmes match your filters yet." clearHref="/programs" />
+        ) : f.view === "list" ? (
+          <ul role="list" className="box-content flex max-w-[1328px] flex-col gap-3 px-gutter">
+            {cards.map((c) => (
+              <li key={c.id}>
+                <ProgrammeRow card={c} now={now} />
+              </li>
             ))}
-          </div>
-          <Pagination
-            basePath="/programs"
-            params={params}
-            page={currentPage}
-            totalPages={totalPages}
-          />
-        </>
-      )}
+          </ul>
+        ) : (
+          <ul role="list" className="box-content grid max-w-[1328px] gap-5 px-gutter [grid-template-columns:repeat(auto-fill,minmax(240px,1fr))]">
+            {cards.map((c) => (
+              <li key={c.id}>
+                <MatchPosterCard card={c} mode="grid" tracking={trackedSet.has(c.id)} now={now} />
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+
+      <div className="mt-10 px-gutter">
+        <Pagination basePath="/programs" params={params} page={page} totalPages={totalPages} />
+      </div>
     </div>
   );
 }

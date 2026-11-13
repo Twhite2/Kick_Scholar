@@ -62,10 +62,11 @@ export function Pagination({
 }) {
   if (totalPages <= 1) return null;
 
+  // 44px pills; the current page is Kick Blue (docs/ui-remodel.md §9.6).
   const linkClass =
-    "inline-flex h-9 min-w-9 items-center justify-center rounded-lg border border-border px-3 text-sm transition-colors hover:bg-muted";
+    "inline-flex h-11 min-w-11 items-center justify-center rounded-full border border-line-strong bg-white px-4 text-[15px] font-bold text-ink tabular-nums transition-colors hover:border-kick-blue hover:text-kick-blue";
   const disabledClass =
-    "inline-flex h-9 min-w-9 items-center justify-center rounded-lg border border-border px-3 text-sm text-muted-foreground opacity-50";
+    "inline-flex h-11 min-w-11 items-center justify-center rounded-full border border-line px-4 text-[15px] font-bold text-ink-3 opacity-60";
 
   return (
     <nav className="flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">
@@ -83,7 +84,7 @@ export function Pagination({
 
       {pageWindow(page, totalPages).map((entry, i) =>
         entry === "gap" ? (
-          <span key={`gap-${i}`} className="px-1 text-muted-foreground">
+          <span key={`gap-${i}`} aria-hidden="true" className="px-1 text-ink-3">
             …
           </span>
         ) : (
@@ -93,7 +94,7 @@ export function Pagination({
             aria-current={entry === page ? "page" : undefined}
             className={cn(
               linkClass,
-              entry === page && "border-primary bg-primary text-primary-foreground hover:bg-primary",
+              entry === page && "border-kick-blue bg-kick-blue text-white hover:bg-kick-blue hover:text-white",
             )}
           >
             {entry}

@@ -1,0 +1,31 @@
+{
+  "id": "src-monmaster-fr",
+  "name": "Mon Master: national master's platform (France)",
+  "type": "EDUCATION_DATABASE",
+  "country": "FR",
+  "baseUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-mon_master/",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "WEEKLY",
+  "status": "PAUSED",
+  "seedUrls": [
+    "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-mon_master/"
+  ],
+  "sitemapUrls": [],
+  "sitemapUrlPattern": null,
+  "sitemapMaxUrls": 1,
+  "urlPatternMode": "regex",
+  "urlPatterns": {
+    "include": [
+      "data.enseignementsup-recherche.gouv.fr"
+    ],
+    "exclude": []
+  },
+  "maxDepth": 0,
+  "maxPages": 1,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "shape": "Not crawled. Bulk register import - see lib/ingest/registers and npm run data:register -- --country FR. Status stays PAUSED."
+  },
+  "notes": "Mon Master open data (Licence Ouverte 2.0), the ministry's dataset of every master's track open for applications, one row per track per session. The latest session is imported; names stay in French. Export fr-esr-mon_master as CSV into data/registers/fr/."
+}

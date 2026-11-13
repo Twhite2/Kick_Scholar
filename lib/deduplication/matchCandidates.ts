@@ -11,6 +11,25 @@ export interface MatchCandidate {
 const SIMILARITY_THRESHOLD = 0.6;
 
 /**
+ * Names that say nothing about which award a record is ("Scholarships",
+ * "Fellowships"). Two such records share a name by accident, never by being
+ * the same award: MEXT's "Scholarships" page merged into the Commonwealth
+ * Commission's "Scholarships" overview this way. They match only on their
+ * exact dedupe key.
+ */
+const GENERIC_NAME = /^(the )?(scholarships?|fellowships?|grants?|awards?|funding|bursar(y|ies)|programmes?|programs?)$/i;
+
+export function isGenericScholarshipName(name: string): boolean {
+  return GENERIC_NAME.test(name.trim());
+}
+
+/**
+ * Across sources, a fuzzy name match also needs providers that look alike,
+ * so one provider's award is never merged into another provider's.
+ */
+const PROVIDER_SIMILARITY = 0.3;
+
+/**
  * Ranks existing University rows against a normalized candidate. Exact
  * dedupeKey match short-circuits (score 1.0); otherwise falls back to
  * pg_trgm name similarity, hard-gated to the same country so "University of
@@ -112,6 +131,8 @@ export async function matchScholarshipCandidates(
     sourceId?: string;
     /** The record's own page URL within that source. */
     sourceUrl?: string;
+    /** The awarding body; across sources, fuzzy matches must name a similar one. */
+    providerName?: string;
   },
 ): Promise<MatchCandidate[]> {
   const exact = await prisma.scholarship.findUnique({ where: { dedupeKey: candidate.dedupeKey } });
@@ -119,8 +140,11 @@ export async function matchScholarshipCandidates(
     return [{ id: exact.id, dedupeKey: exact.dedupeKey, name: exact.name, similarity: 1, matchedOn: "dedupeKey" }];
   }
 
+  if (isGenericScholarshipName(candidate.name)) return [];
+
   const guardSourceId = candidate.sourceId ?? null;
   const guardSourceUrl = candidate.sourceUrl ?? null;
+  const guardProvider = candidate.providerName ?? null;
 
   const fuzzy = await prisma.$queryRaw<Array<{ id: string; dedupeKey: string; name: string; similarity: number }>>`
     SELECT id, "dedupeKey", name, similarity(name, ${candidate.name}) AS similarity
@@ -130,6 +154,11 @@ export async function matchScholarshipCandidates(
         ${guardSourceId}::text IS NOT NULL
         AND "primarySourceId" = ${guardSourceId}::text
         AND "sourceUrl" IS DISTINCT FROM ${guardSourceUrl}::text
+      )
+      AND NOT (
+        ${guardProvider}::text IS NOT NULL
+        AND "primarySourceId" IS DISTINCT FROM ${guardSourceId}::text
+        AND similarity("providerName", ${guardProvider}::text) <= ${PROVIDER_SIMILARITY}
       )
     ORDER BY similarity DESC
     LIMIT 5

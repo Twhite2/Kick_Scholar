@@ -1,0 +1,31 @@
+{
+  "id": "src-cricos-au",
+  "name": "CRICOS: courses for overseas students (Australia)",
+  "type": "EDUCATION_DATABASE",
+  "country": "AU",
+  "baseUrl": "https://data.gov.au/data/dataset/cricos",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "WEEKLY",
+  "status": "PAUSED",
+  "seedUrls": [
+    "https://data.gov.au/data/dataset/cricos"
+  ],
+  "sitemapUrls": [],
+  "sitemapUrlPattern": null,
+  "sitemapMaxUrls": 1,
+  "urlPatternMode": "regex",
+  "urlPatterns": {
+    "include": [
+      "data.gov.au"
+    ],
+    "exclude": []
+  },
+  "maxDepth": 0,
+  "maxPages": 1,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "shape": "Not crawled. Bulk register import - see lib/ingest/registers and npm run data:register -- --country AU. Status stays PAUSED."
+  },
+  "notes": "Commonwealth Register of Institutions and Courses for Overseas Students (CC BY 2.5 AU), published monthly by the Department of Education. Master's and doctoral courses are imported with their language, length and tuition fee. Download cricos-courses.csv and cricos-institutions.csv into data/registers/au/."
+}

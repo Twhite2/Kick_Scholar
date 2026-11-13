@@ -1,29 +1,33 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
-import { Sidebar } from "@/components/layout/sidebar";
-import { TopBar } from "@/components/layout/top-bar";
-import { BottomNav } from "@/components/layout/bottom-nav";
+import { getDataSaver, hasDataSaverChoice } from "@/lib/ui/data-saver";
+import { AppShell } from "@/components/kick/app-shell/app-shell";
+import { DataSaverProvider } from "@/components/kick/data-saver";
+import { CompareProvider, CompareTray } from "@/components/kick/compare-tray";
 
-export default async function AppLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default async function AppLayout({ children }: { children: React.ReactNode }) {
+  // Every route in the signed-in zone checks the session on the server.
   const session = await auth();
   if (!session?.user) {
     redirect("/login");
   }
 
-  const isAdmin = session.user.role === "ADMIN";
+  const [dataSaver, hasChoice] = await Promise.all([getDataSaver(), hasDataSaverChoice()]);
 
   return (
-    <div className="flex min-h-screen w-full">
-      <Sidebar isAdmin={isAdmin} />
-      <div className="flex min-w-0 flex-1 flex-col">
-        <TopBar user={session.user} isAdmin={isAdmin} />
-        <main className="flex-1 pb-20 md:pb-0">{children}</main>
-      </div>
-      <BottomNav />
-    </div>
+    <DataSaverProvider initialOn={dataSaver} hasChoice={hasChoice}>
+      <CompareProvider>
+        <AppShell
+          user={{
+            name: session.user.name ?? null,
+            email: session.user.email ?? null,
+            isAdmin: session.user.role === "ADMIN",
+          }}
+        >
+          {children}
+        </AppShell>
+        <CompareTray />
+      </CompareProvider>
+    </DataSaverProvider>
   );
 }

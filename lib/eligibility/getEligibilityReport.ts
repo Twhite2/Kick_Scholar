@@ -1,6 +1,8 @@
 import { prisma } from "@/lib/db";
 import type { FactorScore, FactorKey } from "@/lib/matching/types";
 import type { MatchStrength } from "@/lib/generated/prisma/enums";
+import type { InstitutionFace } from "@/lib/types/cards";
+import { institutionFaceSelect, providerFace, toInstitutionFace } from "@/lib/cards/faces";
 
 /**
  * A summary of where a student stands, not a dump of everything they match.
@@ -94,6 +96,8 @@ export interface EligibilityReport {
     score: number;
     matchStrength: MatchStrength;
     href: string;
+    /** The institution (or provider) behind it, for its logo. */
+    face: InstitutionFace;
   }>;
 }
 
@@ -205,8 +209,8 @@ export async function getEligibilityReport(userId: string): Promise<EligibilityR
       factorScores: true,
       missingRequirements: true,
       recommendedActions: true,
-      program: { select: { name: true } },
-      scholarship: { select: { name: true } },
+      program: { select: { name: true, university: { select: institutionFaceSelect } } },
+      scholarship: { select: { name: true, providerName: true } },
     },
   });
 
@@ -285,6 +289,7 @@ export async function getEligibilityReport(userId: string): Promise<EligibilityR
       score: m.score,
       matchStrength: m.matchStrength,
       href: m.matchType === "PROGRAM" ? `/programs/${m.programId}` : `/scholarships/${m.scholarshipId}`,
+      face: m.program ? toInstitutionFace(m.program.university) : providerFace(m.scholarship?.providerName ?? ""),
     })),
   };
 }
