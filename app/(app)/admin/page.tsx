@@ -12,7 +12,7 @@ function StatTile({ label, value, tone = "default" }: { label: string; value: nu
       <p
         className={cn(
           "font-display text-[28px] leading-none font-[750] tabular-nums",
-          tone === "warning" && "text-kick-red",
+          tone === "warning" && "text-alert-red",
           tone === "success" && "text-green-text",
           tone === "default" && "text-ink",
         )}

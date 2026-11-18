@@ -25,7 +25,7 @@ function CompletenessRing({ completeness }: { completeness: number }) {
             r={25}
             fill="none"
             strokeWidth={5}
-            stroke={value >= 100 ? "var(--kick-green)" : "var(--kick-blue)"}
+            stroke={value >= 100 ? "var(--find-green)" : "var(--varsity-blue)"}
             strokeLinecap="round"
             pathLength={100}
             strokeDasharray={`${value} 100`}

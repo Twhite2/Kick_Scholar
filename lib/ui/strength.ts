@@ -44,11 +44,11 @@ export const STRENGTH_TONE: Record<Strength, StrengthTone> = {
 
 /** Dial arc colour on light surfaces. */
 export const STRENGTH_ACCENT: Record<Strength, string> = {
-  STRONG_MATCH: "var(--kick-green)",
-  LIKELY_ELIGIBLE: "var(--kick-green)",
-  POTENTIAL_MATCH: "var(--kick-blue)",
+  STRONG_MATCH: "var(--find-green)",
+  LIKELY_ELIGIBLE: "var(--find-green)",
+  POTENTIAL_MATCH: "var(--varsity-blue)",
   NEEDS_VERIFICATION: "var(--unverified)",
-  MISSING_REQUIREMENT: "var(--kick-red)",
+  MISSING_REQUIREMENT: "var(--alert-red)",
 };
 
 /** Dial arc colour on night surfaces, where the light accents lose contrast. */
@@ -64,7 +64,7 @@ export const STRENGTH_ACCENT_NIGHT: Record<Strength, string> = {
 export const STRENGTH_BADGE_CLASS: Record<Strength, string> = {
   STRONG_MATCH: "bg-green-tint text-green-text",
   LIKELY_ELIGIBLE: "bg-green-tint text-green-text",
-  POTENTIAL_MATCH: "bg-blue-tint text-kick-blue",
+  POTENTIAL_MATCH: "bg-blue-tint text-varsity-blue",
   NEEDS_VERIFICATION: "bg-grey-tint text-slate",
   MISSING_REQUIREMENT: "bg-red-tint text-red-text",
 };

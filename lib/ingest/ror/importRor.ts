@@ -55,7 +55,7 @@ async function fetchCountry(
     const res = await fetchImpl(url, {
       headers: {
         "User-Agent":
-          "KickScholarBot/0.1 (+https://kickscholar.example; educational-data-research)",
+          "VarsityFindBot/0.1 (+https://varsityfind.example; educational-data-research)",
       },
     });
     if (!res.ok) throw new Error(`ROR ${country} page ${page}: HTTP ${res.status}`);

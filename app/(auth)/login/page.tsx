@@ -75,7 +75,7 @@ export default function LoginPage() {
         className="mt-8 text-center text-[15px] text-ink-3"
       >
         Don&apos;t have an account?{" "}
-        <Link href={next ? `/signup?next=${encodeURIComponent(next)}` : "/signup"} className="font-bold text-kick-blue hover:underline">
+        <Link href={next ? `/signup?next=${encodeURIComponent(next)}` : "/signup"} className="font-bold text-varsity-blue hover:underline">
           Sign up
         </Link>
       </motion.p>

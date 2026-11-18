@@ -50,7 +50,7 @@ export default async function AdminCrawlJobsPage() {
                       : j.status === "FAILED"
                         ? "bg-red-tint text-red-text"
                         : j.status === "PARTIAL"
-                          ? "bg-blue-tint text-kick-blue"
+                          ? "bg-blue-tint text-varsity-blue"
                           : "bg-grey-tint text-slate",
                   )}
                 >

@@ -108,8 +108,8 @@ export function CompareButton({ item, className }: { item: CompareItem; classNam
       className={cn(
         "inline-flex size-11 shrink-0 items-center justify-center rounded-full border transition-colors disabled:opacity-40",
         selected
-          ? "border-kick-blue bg-blue-tint text-kick-blue"
-          : "border-line-strong bg-white text-ink hover:border-kick-blue hover:text-kick-blue",
+          ? "border-varsity-blue bg-blue-tint text-varsity-blue"
+          : "border-line-strong bg-white text-ink hover:border-varsity-blue hover:text-varsity-blue",
         className,
       )}
     >

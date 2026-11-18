@@ -18,7 +18,7 @@ export function ExploreSwitcher({ current }: { current: (typeof EXPLORE)[number]
                 aria-current={active ? "page" : undefined}
                 className={cn(
                   "flex h-10 items-center justify-center rounded-full text-sm font-bold",
-                  active ? "bg-white text-kick-blue shadow-hairline" : "text-slate",
+                  active ? "bg-white text-varsity-blue shadow-hairline" : "text-slate",
                 )}
               >
                 {item.label}
@@ -51,7 +51,7 @@ export function ViewToggle({ params, pathname }: { params: SearchParamsRecord; p
         href={`${pathname}${withParam(params, "view", null)}`}
         aria-current={!list ? "true" : undefined}
         scroll={false}
-        className={cn(item, !list ? "bg-white text-kick-blue shadow-hairline" : "text-slate hover:text-ink")}
+        className={cn(item, !list ? "bg-white text-varsity-blue shadow-hairline" : "text-slate hover:text-ink")}
       >
         <LayoutGrid aria-hidden="true" className="size-4" /> Posters
       </Link>
@@ -59,7 +59,7 @@ export function ViewToggle({ params, pathname }: { params: SearchParamsRecord; p
         href={`${pathname}${withParam(params, "view", "list")}`}
         aria-current={list ? "true" : undefined}
         scroll={false}
-        className={cn(item, list ? "bg-white text-kick-blue shadow-hairline" : "text-slate hover:text-ink")}
+        className={cn(item, list ? "bg-white text-varsity-blue shadow-hairline" : "text-slate hover:text-ink")}
       >
         <List aria-hidden="true" className="size-4" /> List
       </Link>
@@ -74,7 +74,7 @@ export function EmptyResults({ message, clearHref }: { message: string; clearHre
       <p className="text-base text-ink-2">{message}</p>
       <Link
         href={clearHref}
-        className="mt-4 inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-kick-blue hover:text-kick-blue"
+        className="mt-4 inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-varsity-blue hover:text-varsity-blue"
       >
         Clear filters
       </Link>

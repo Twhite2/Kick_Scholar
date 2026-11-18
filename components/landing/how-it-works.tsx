@@ -9,13 +9,13 @@ const STEPS = [
     n: "01",
     icon: UserCircle2,
     title: "Build your profile",
-    body: "Tell KickScholar about your education, grades, field, nationality, study level, and preferences.",
+    body: "Tell VarsityFind about your education, grades, field, nationality, study level, and preferences.",
   },
   {
     n: "02",
     icon: ListChecks,
     title: "Check your eligibility",
-    body: "KickScholar compares your profile against sourced university and scholarship requirements.",
+    body: "VarsityFind compares your profile against sourced university and scholarship requirements.",
   },
   {
     n: "03",

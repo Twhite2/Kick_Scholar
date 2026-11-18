@@ -1,4 +1,4 @@
-"""Crawl4AI implementation of the KickScholar `Crawler` contract.
+"""Crawl4AI implementation of the VarsityFind `Crawler` contract.
 
 TypeScript side (lib/crawler/types.ts) documents the same conceptual
 interface — crawlPage / crawlSite / extractLinks — so a future crawler
@@ -64,8 +64,8 @@ class SiteCrawlConfig:
     # "script_heavy_shell" and discards it.
     delay_before_return_html: float = 2.0
     user_agent: str = (
-        "KickScholarBot/0.1 (+https://kickscholar.example; "
-        "educational-data-research; contact: admin@kickscholar.example)"
+        "VarsityFindBot/0.1 (+https://varsityfind.example; "
+        "educational-data-research; contact: admin@varsityfind.example)"
     )
 
 

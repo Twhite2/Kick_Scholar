@@ -60,7 +60,7 @@ export function NextSteps({
         </span>
       </div>
       <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-track" aria-hidden="true">
-        <div className="h-full rounded-full bg-kick-blue" style={{ width: `${pct}%` }} />
+        <div className="h-full rounded-full bg-varsity-blue" style={{ width: `${pct}%` }} />
       </div>
       <ul role="list" className="mt-4 space-y-3">
         {items.map((item) => {
@@ -73,7 +73,7 @@ export function NextSteps({
                 type="checkbox"
                 checked={checked}
                 onChange={(e) => toggle(item.docId, e.target.checked)}
-                className="mt-0.5 size-[22px] shrink-0 cursor-pointer accent-kick-blue"
+                className="mt-0.5 size-[22px] shrink-0 cursor-pointer accent-varsity-blue"
               />
               <div className="min-w-0">
                 <label htmlFor={id} className={checked ? "cursor-pointer text-[15px] font-bold text-ink-3" : "cursor-pointer text-[15px] font-bold text-ink"}>
@@ -81,7 +81,7 @@ export function NextSteps({
                 </label>
                 {item.step?.note && <p className="text-sm text-ink-3">{item.step.note}</p>}
                 {item.step?.action && !checked && (
-                  <Link href={item.step.action.href} className="inline-flex min-h-11 items-center text-sm font-bold text-kick-blue hover:underline">
+                  <Link href={item.step.action.href} className="inline-flex min-h-11 items-center text-sm font-bold text-varsity-blue hover:underline">
                     {item.step.action.label}
                   </Link>
                 )}
@@ -92,7 +92,7 @@ export function NextSteps({
       </ul>
       {!tracking && prompt && (
         <div role="status" className="mt-4 rounded-xl bg-blue-tint p-3.5">
-          <p className="text-sm font-bold text-kick-blue">Track this application to save your progress</p>
+          <p className="text-sm font-bold text-varsity-blue">Track this application to save your progress</p>
           <div className="mt-2.5">
             <TrackButton
               targetType={target.type}

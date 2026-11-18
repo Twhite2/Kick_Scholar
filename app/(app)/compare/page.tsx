@@ -82,7 +82,7 @@ export default async function ComparePage({ searchParams }: PageProps<"/compare"
         <p className="mt-3 text-base text-ink-3">
           Add two or three programmes with the compare button on any programme, then open the comparison from the tray.
         </p>
-        <Link href="/programs" className="mt-6 inline-flex h-12 items-center rounded-full bg-kick-blue px-6 font-bold text-white hover:bg-kick-blue-hover">
+        <Link href="/programs" className="mt-6 inline-flex h-12 items-center rounded-full bg-varsity-blue px-6 font-bold text-white hover:bg-varsity-blue-hover">
           Browse programmes
         </Link>
       </div>
@@ -146,7 +146,7 @@ export default async function ComparePage({ searchParams }: PageProps<"/compare"
                 <th key={c.p.id} scope="col" className="min-w-[220px] border-l border-line p-4 align-top">
                   <div className="flex flex-col gap-3">
                     <InstitutionLogo name={c.face.name} logoUrl={c.face.logoUrl} acronym={c.face.acronym} seed={c.face.id} size={46} />
-                    <Link href={`/programs/${c.p.id}`} className="type-card-title text-ink hover:text-kick-blue">
+                    <Link href={`/programs/${c.p.id}`} className="type-card-title text-ink hover:text-varsity-blue">
                       {c.p.name}
                     </Link>
                     <span className="text-sm font-normal text-ink-3">{c.face.name}</span>

@@ -73,7 +73,7 @@ export default async function PlanPage({ searchParams }: PageProps<"/plan">) {
                   className={cn(
                     "relative inline-flex min-h-12 items-center text-base font-bold tabular-nums",
                     "after:absolute after:inset-x-0 after:-bottom-px after:h-[3px] after:rounded-full after:content-['']",
-                    tab === t.key ? "text-kick-blue after:bg-kick-blue" : "text-ink-3 hover:text-ink",
+                    tab === t.key ? "text-varsity-blue after:bg-varsity-blue" : "text-ink-3 hover:text-ink",
                   )}
                 >
                   {t.label}
@@ -141,7 +141,7 @@ async function ApplicationsTab({ applications, now }: { applications: Applicatio
     return (
       <div className="mx-gutter mt-8 rounded-panel border border-dashed border-line-strong bg-white px-6 py-12 text-center">
         <p className="text-base text-ink-2">No applications yet. Open a programme or scholarship and choose &ldquo;Track this application&rdquo; to start.</p>
-        <Link href="/programs" className="mt-4 inline-flex h-11 items-center rounded-full bg-kick-blue px-5 text-[15px] font-bold text-white hover:bg-kick-blue-hover">
+        <Link href="/programs" className="mt-4 inline-flex h-11 items-center rounded-full bg-varsity-blue px-5 text-[15px] font-bold text-white hover:bg-varsity-blue-hover">
           Browse programmes
         </Link>
       </div>
@@ -179,7 +179,7 @@ async function ApplicationsTab({ applications, now }: { applications: Applicatio
               id={`col-${col.status}`}
               className={cn(
                 "flex items-center justify-between gap-2 border-b-2 pb-2 text-base font-bold tabular-nums",
-                col.status === "ACCEPTED" ? "border-kick-green text-green-text" : col.status === "REJECTED" ? "border-kick-red text-red-text" : "border-line-strong text-ink",
+                col.status === "ACCEPTED" ? "border-find-green text-green-text" : col.status === "REJECTED" ? "border-alert-red text-red-text" : "border-line-strong text-ink",
               )}
             >
               {col.label} ({items.length})
@@ -222,10 +222,10 @@ async function SavedTab({
       <div className="mx-gutter mt-8 rounded-panel border border-dashed border-line-strong bg-white px-6 py-12 text-center">
         <p className="text-base text-ink-2">Nothing saved yet. Browse programmes or scholarships and tap the bookmark to save them here.</p>
         <div className="mt-4 flex flex-wrap justify-center gap-3">
-          <Link href="/programs" className="inline-flex h-11 items-center rounded-full bg-kick-blue px-5 text-[15px] font-bold text-white hover:bg-kick-blue-hover">
+          <Link href="/programs" className="inline-flex h-11 items-center rounded-full bg-varsity-blue px-5 text-[15px] font-bold text-white hover:bg-varsity-blue-hover">
             Browse programmes
           </Link>
-          <Link href="/scholarships" className="inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-kick-blue">
+          <Link href="/scholarships" className="inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-varsity-blue">
             Browse scholarships
           </Link>
         </div>
@@ -288,7 +288,7 @@ async function SavedTab({
           <ul role="list" className="mt-4 max-w-[760px] space-y-2">
             {unlisted.map((s) => (
               <li key={s.id} className="flex items-center justify-between gap-4 rounded-tile bg-white px-4 py-3 shadow-hairline">
-                <Link href={`/scholarships/${s.id}`} className="min-w-0 truncate text-[15px] font-bold text-ink hover:text-kick-blue">
+                <Link href={`/scholarships/${s.id}`} className="min-w-0 truncate text-[15px] font-bold text-ink hover:text-varsity-blue">
                   {s.name}
                 </Link>
                 <SaveButton targetType="scholarship" targetId={s.id} title={s.name} initialSaved />

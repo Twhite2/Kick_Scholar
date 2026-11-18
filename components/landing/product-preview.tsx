@@ -11,7 +11,7 @@ export function ProductPreview() {
           See it before you build your profile.
         </h2>
         <p className="mt-3 max-w-xl text-muted-foreground">
-          A preview of how KickScholar presents your matches — clear,
+          A preview of how VarsityFind presents your matches — clear,
           ranked, and explained.
         </p>
       </Reveal>
@@ -37,7 +37,7 @@ export function ProductPreview() {
                     MSc Computer Science
                   </p>
                 </div>
-                <Mono className="text-lg font-semibold text-kick-blue">
+                <Mono className="text-lg font-semibold text-varsity-blue">
                   92%
                 </Mono>
               </div>

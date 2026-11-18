@@ -32,7 +32,7 @@ export function ExpandableGrid({
           type="button"
           onClick={() => setOpen((o) => !o)}
           aria-expanded={open}
-          className="mt-4 inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-kick-blue hover:text-kick-blue"
+          className="mt-4 inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-varsity-blue hover:text-varsity-blue"
         >
           {open ? "Show fewer" : `Show all ${items.length}${noun ? ` ${noun}` : ""}`}
         </button>

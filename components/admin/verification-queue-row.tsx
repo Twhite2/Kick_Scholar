@@ -55,7 +55,7 @@ export function VerificationQueueRow({
             href={scholarship.officialSourceUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="block max-w-[240px] truncate font-mono text-sm text-kick-blue hover:underline"
+            className="block max-w-[240px] truncate font-mono text-sm text-varsity-blue hover:underline"
           >
             {scholarship.officialSourceUrl}
           </a>
@@ -84,7 +84,7 @@ export function VerificationQueueRow({
           </Button>
           {/* Rejecting removes it from the queue, so it asks first (§9.12). */}
           <AlertDialog.Root>
-            <AlertDialog.Trigger render={<Button type="button" size="sm" variant="outline" disabled={isPending} className="text-red-text hover:border-kick-red hover:text-red-text" />}>
+            <AlertDialog.Trigger render={<Button type="button" size="sm" variant="outline" disabled={isPending} className="text-red-text hover:border-alert-red hover:text-red-text" />}>
               Reject
             </AlertDialog.Trigger>
             <AlertDialog.Portal>

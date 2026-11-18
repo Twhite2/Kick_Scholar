@@ -35,7 +35,7 @@ export function Hero({ visual }: { visual: React.ReactNode }) {
             Find universities and scholarships you actually qualify for.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-on-night-muted">
-            KickScholar matches your academic profile against real, sourced eligibility data, so you can discover
+            VarsityFind matches your academic profile against real, sourced eligibility data, so you can discover
             opportunities that fit you, understand why you qualify, and know what to do next.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">

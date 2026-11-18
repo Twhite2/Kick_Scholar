@@ -26,8 +26,8 @@ export function userAgent(): string {
   if (!contact) {
     throw new Error("Set MEDIA_BOT_CONTACT (an email or URL people can reach you at) before calling Wikimedia APIs.");
   }
-  const site = process.env.MEDIA_BOT_URL?.trim() || "https://kickscholar.example";
-  return `KickScholarMediaBot/1.0 (${site}; ${contact})`;
+  const site = process.env.MEDIA_BOT_URL?.trim() || "https://varsityfind.example";
+  return `VarsityFindMediaBot/1.0 (${site}; ${contact})`;
 }
 
 let lastWikimediaCall = 0;
@@ -42,7 +42,7 @@ async function request(url: string, opts: { wikimedia: boolean; binary?: boolean
       lastWikimediaCall = Date.now();
     }
     const res = await fetch(url, {
-      headers: { "User-Agent": opts.wikimedia ? userAgent() : "KickScholarMediaBot/1.0", Accept: opts.binary ? "*/*" : "application/json" },
+      headers: { "User-Agent": opts.wikimedia ? userAgent() : "VarsityFindMediaBot/1.0", Accept: opts.binary ? "*/*" : "application/json" },
       redirect: "follow",
       signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     });
@@ -193,7 +193,7 @@ export async function fetchSiteIcon(website: string): Promise<Buffer | null> {
   let base: URL;
   try {
     const res = await fetch(website, {
-      headers: { "User-Agent": "KickScholarMediaBot/1.0 (+https://github.com/Twhite2/Kick_Scholar)", Accept: "text/html" },
+      headers: { "User-Agent": "VarsityFindMediaBot/1.0 (+https://github.com/Twhite2/Kick_Scholar)", Accept: "text/html" },
       redirect: "follow",
       signal: AbortSignal.timeout(15_000),
     });
@@ -222,7 +222,7 @@ export async function fetchSiteIcon(website: string): Promise<Buffer | null> {
   if (!best) return null;
   try {
     const res = await fetch(new URL(best.href, base), {
-      headers: { "User-Agent": "KickScholarMediaBot/1.0 (+https://github.com/Twhite2/Kick_Scholar)" },
+      headers: { "User-Agent": "VarsityFindMediaBot/1.0 (+https://github.com/Twhite2/Kick_Scholar)" },
       signal: AbortSignal.timeout(15_000),
     });
     if (!res.ok || !/image\/(png|jpeg|webp|x-icon|vnd.microsoft.icon)/i.test(res.headers.get("content-type") ?? "image/png")) {

@@ -96,7 +96,7 @@ export default async function HomePage() {
               id="pickup-title"
               title="Pick up where you left off"
               actions={
-                <Link href="/plan?tab=applications" className="inline-flex min-h-11 items-center text-[15px] font-bold text-kick-blue hover:underline">
+                <Link href="/plan?tab=applications" className="inline-flex min-h-11 items-center text-[15px] font-bold text-varsity-blue hover:underline">
                   Open My plan
                 </Link>
               }
@@ -118,10 +118,10 @@ export default async function HomePage() {
               Add more details to your profile, or widen your preferred countries and fields.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
-              <Link href="/profile" className="inline-flex h-12 items-center rounded-full bg-kick-blue px-6 font-bold text-white hover:bg-kick-blue-hover">
+              <Link href="/profile" className="inline-flex h-12 items-center rounded-full bg-varsity-blue px-6 font-bold text-white hover:bg-varsity-blue-hover">
                 Edit profile
               </Link>
-              <Link href="/programs" className="inline-flex h-12 items-center rounded-full border border-line-strong bg-white px-6 font-bold text-ink hover:border-kick-blue">
+              <Link href="/programs" className="inline-flex h-12 items-center rounded-full border border-line-strong bg-white px-6 font-bold text-ink hover:border-varsity-blue">
                 Browse programmes
               </Link>
             </div>
@@ -148,7 +148,7 @@ export default async function HomePage() {
                 id="closing"
                 title="Closing soon"
                 description={
-                  <a href="/api/calendar/deadlines.ics" className="font-bold text-kick-blue underline-offset-2 hover:underline">
+                  <a href="/api/calendar/deadlines.ics" className="font-bold text-varsity-blue underline-offset-2 hover:underline">
                     Add deadlines to calendar
                   </a>
                 }

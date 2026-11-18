@@ -13,7 +13,7 @@ import {
 } from "@/fixtures/home-feed.sample";
 import { STRENGTH_ORDER } from "@/lib/ui/strength";
 import { Button } from "@/components/ui/button";
-import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
+import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
 import { InstitutionLogo, type LogoSize } from "@/components/kick/institution-logo";
 import { CountryFlag } from "@/components/kick/country-flag";
 import { ScoreDial } from "@/components/kick/score-dial";
@@ -49,7 +49,7 @@ function KitSection({ title, children, bleed = false }: { title: string; childre
 }
 
 /**
- * Every KickScholar component at once, with sample data (docs/ui-remodel.md
+ * Every VarsityFind component at once, with sample data (docs/ui-remodel.md
  * §8). Our Storybook, and the place for screenshots. 404 in production.
  */
 export default function KitPage() {
@@ -66,15 +66,15 @@ export default function KitPage() {
       <KitSection title="Logo">
         <div className="grid gap-4 sm:grid-cols-3">
           <div className="flex items-center justify-center rounded-panel bg-white p-8 shadow-hairline">
-            <KickScholarLogo className="h-9 w-auto" />
+            <VarsityFindLogo className="h-9 w-auto" />
           </div>
           <div className="flex items-center justify-center rounded-panel bg-night p-8">
-            <KickScholarLogo tone="reversed" className="h-9 w-auto" />
+            <VarsityFindLogo tone="reversed" className="h-9 w-auto" />
           </div>
           <div className="flex items-center justify-center gap-6 rounded-panel bg-white p-8 shadow-hairline">
-            <KickScholarLogo variant="symbol" className="h-10 w-auto" />
+            <VarsityFindLogo variant="symbol" className="h-10 w-auto" />
             <span className="rounded-panel bg-night p-3">
-              <KickScholarLogo variant="symbol" tone="reversed" className="h-10 w-auto" />
+              <VarsityFindLogo variant="symbol" tone="reversed" className="h-10 w-auto" />
             </span>
           </div>
         </div>

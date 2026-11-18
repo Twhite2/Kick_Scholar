@@ -76,7 +76,7 @@ export function Rail({
 
   const headingId = `${id}-heading`;
   const navButton =
-    "inline-flex size-11 items-center justify-center rounded-full border border-line-strong bg-white text-ink transition-colors hover:border-kick-blue hover:text-kick-blue disabled:cursor-default disabled:opacity-40 disabled:hover:border-line-strong disabled:hover:text-ink [@media(hover:none)]:hidden";
+    "inline-flex size-11 items-center justify-center rounded-full border border-line-strong bg-white text-ink transition-colors hover:border-varsity-blue hover:text-varsity-blue disabled:cursor-default disabled:opacity-40 disabled:hover:border-line-strong disabled:hover:text-ink [@media(hover:none)]:hidden";
 
   return (
     <section aria-labelledby={headingId} className={cn("relative", className)}>
@@ -94,7 +94,7 @@ export function Rail({
           {seeAll && (
             <Link
               href={seeAll.href}
-              className="inline-flex min-h-11 items-center text-[15px] font-bold text-kick-blue hover:underline"
+              className="inline-flex min-h-11 items-center text-[15px] font-bold text-varsity-blue hover:underline"
             >
               {seeAll.label}
             </Link>

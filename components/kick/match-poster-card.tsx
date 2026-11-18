@@ -90,7 +90,7 @@ export function MatchPosterCard({
         <h3 className="type-poster-title clamp-2 text-ink">
           <Link
             href={href}
-            className="rounded-sm outline-offset-4 before:absolute before:inset-0 before:z-0 before:rounded-poster before:content-[''] hover:text-kick-blue"
+            className="rounded-sm outline-offset-4 before:absolute before:inset-0 before:z-0 before:rounded-poster before:content-[''] hover:text-varsity-blue"
           >
             {card.title}
           </Link>
@@ -116,7 +116,7 @@ export function MatchPosterCard({
             <ul className="mt-auto flex flex-col gap-1.5 type-meta" role="list">
               {card.bestFunding && (
                 <li className={cn("flex items-center gap-2", card.bestFunding.positive ? "font-bold text-green-text" : "text-ink-2")}>
-                  <Coins aria-hidden="true" className={cn("size-4 shrink-0", card.bestFunding.positive ? "text-kick-green" : "text-ink-3")} />
+                  <Coins aria-hidden="true" className={cn("size-4 shrink-0", card.bestFunding.positive ? "text-find-green" : "text-ink-3")} />
                   <span className="truncate">{card.bestFunding.label}</span>
                 </li>
               )}
@@ -127,8 +127,8 @@ export function MatchPosterCard({
                 </li>
               )}
               {days !== null && days >= 0 && (
-                <li className={cn("flex items-center gap-2", urgent ? "font-bold text-kick-red" : "text-ink-2")}>
-                  <Clock aria-hidden="true" className={cn("size-4 shrink-0", urgent ? "text-kick-red" : "text-ink-3")} />
+                <li className={cn("flex items-center gap-2", urgent ? "font-bold text-alert-red" : "text-ink-2")}>
+                  <Clock aria-hidden="true" className={cn("size-4 shrink-0", urgent ? "text-alert-red" : "text-ink-3")} />
                   <span className="truncate">{closesIn(days)}</span>
                 </li>
               )}
@@ -148,9 +148,9 @@ export function MatchPosterCard({
                 {card.reasons.map((r) => (
                   <li key={r.text} className="flex items-start gap-2 text-ink-2">
                     {r.met ? (
-                      <Check aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-kick-green" />
+                      <Check aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-find-green" />
                     ) : (
-                      <CircleAlert aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-kick-red" />
+                      <CircleAlert aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-alert-red" />
                     )}
                     <span className="clamp-2">
                       <span className="sr-only">{r.met ? "Meets: " : "Gap: "}</span>
@@ -169,7 +169,7 @@ export function MatchPosterCard({
               <Link
                 href={href}
                 tabIndex={-1}
-                className="inline-flex h-11 flex-1 items-center justify-center rounded-full bg-kick-blue px-4 text-[15px] font-bold text-white hover:bg-kick-blue-hover"
+                className="inline-flex h-11 flex-1 items-center justify-center rounded-full bg-varsity-blue px-4 text-[15px] font-bold text-white hover:bg-varsity-blue-hover"
               >
                 Open programme
               </Link>

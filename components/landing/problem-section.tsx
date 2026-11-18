@@ -38,8 +38,8 @@ export function ProblemSection() {
       </div>
 
       <Reveal delay={0.3}>
-        <p className="mt-10 text-xl font-semibold text-kick-blue">
-          KickScholar brings it together.
+        <p className="mt-10 text-xl font-semibold text-varsity-blue">
+          VarsityFind brings it together.
         </p>
       </Reveal>
     </section>

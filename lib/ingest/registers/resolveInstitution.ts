@@ -73,7 +73,7 @@ export function resolveLocally(inst: RegisterInstitution, index: Pick<Institutio
 }
 
 const ROR_API = "https://api.ror.org/v2/organizations";
-const USER_AGENT = "KickScholarBot/0.1 (+https://github.com/Twhite2/Kick_Scholar)";
+const USER_AGENT = "VarsityFindBot/0.1 (+https://github.com/Twhite2/Kick_Scholar)";
 
 interface RorAffiliationItem {
   chosen?: boolean;

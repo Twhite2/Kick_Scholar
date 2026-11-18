@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
-import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
+import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
 
 export default async function AuthLayout({ children }: { children: React.ReactNode }) {
   const session = await auth();
@@ -23,8 +23,8 @@ export default async function AuthLayout({ children }: { children: React.ReactNo
         </div>
 
         <div className="flex flex-col justify-center p-8 md:p-12">
-          <Link href="/" aria-label="KickScholar home" className="mb-8 inline-flex min-h-11 w-fit items-center">
-            <KickScholarLogo aria-hidden className="h-8 w-auto" />
+          <Link href="/" aria-label="VarsityFind home" className="mb-8 inline-flex min-h-11 w-fit items-center">
+            <VarsityFindLogo aria-hidden className="h-8 w-auto" />
           </Link>
           {children}
         </div>

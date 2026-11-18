@@ -181,7 +181,7 @@ export default async function UniversityPage({ params, searchParams }: PageProps
                 href={`https://ror.org/${university.rorId}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-1 inline-flex items-center gap-1.5 font-mono text-lg font-bold text-kick-blue hover:underline"
+                className="mt-1 inline-flex items-center gap-1.5 font-mono text-lg font-bold text-varsity-blue hover:underline"
               >
                 {university.rorId} <ExternalLink aria-hidden="true" className="size-4" />
                 <span className="sr-only">(opens ror.org in a new tab)</span>
@@ -231,7 +231,7 @@ export default async function UniversityPage({ params, searchParams }: PageProps
               {university._count.programs > LIST_LIMIT && (
                 <p className="mt-3 text-sm text-ink-3">
                   and {formatCount(university._count.programs - LIST_LIMIT)} more.{" "}
-                  <Link href={`/programs?q=${encodeURIComponent(university.name)}`} className="font-bold text-kick-blue hover:underline">
+                  <Link href={`/programs?q=${encodeURIComponent(university.name)}`} className="font-bold text-varsity-blue hover:underline">
                     Search them all
                   </Link>
                 </p>

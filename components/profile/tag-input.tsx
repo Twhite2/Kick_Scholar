@@ -31,7 +31,7 @@ export function TagInput({
       {value.length > 0 && (
         <ul role="list" className="flex flex-wrap gap-2">
           {value.map((tag) => (
-            <li key={tag} className="inline-flex h-9 items-center gap-1 rounded-full bg-blue-tint pr-1 pl-3.5 text-[15px] font-bold text-kick-blue">
+            <li key={tag} className="inline-flex h-9 items-center gap-1 rounded-full bg-blue-tint pr-1 pl-3.5 text-[15px] font-bold text-varsity-blue">
               {tag}
               <button
                 type="button"

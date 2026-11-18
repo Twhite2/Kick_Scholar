@@ -27,7 +27,7 @@ export function AdminTabs() {
                 className={cn(
                   "relative inline-flex min-h-12 items-center text-[15px] font-bold",
                   "after:absolute after:inset-x-0 after:-bottom-px after:h-[3px] after:rounded-full after:content-['']",
-                  current ? "text-kick-blue after:bg-kick-blue" : "text-ink-3 hover:text-ink",
+                  current ? "text-varsity-blue after:bg-varsity-blue" : "text-ink-3 hover:text-ink",
                 )}
               >
                 {item.label}

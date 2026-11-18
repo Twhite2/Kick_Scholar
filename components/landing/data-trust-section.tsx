@@ -19,7 +19,7 @@ export function DataTrustSection() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-24 md:px-12">
       <Reveal>
-        <div className="flex items-center gap-2 text-kick-blue">
+        <div className="flex items-center gap-2 text-varsity-blue">
           <ShieldCheck className="size-5" />
           <span className="text-sm font-medium">Sourced, not guessed</span>
         </div>

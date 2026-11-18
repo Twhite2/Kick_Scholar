@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
+import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
 
 /**
  * Only links to pages that exist (docs/ui-remodel.md §9.11). About, Contact,
@@ -34,7 +34,7 @@ export function LandingFooter() {
       <div className="px-gutter py-16">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <KickScholarLogo className="h-7 w-auto" />
+            <VarsityFindLogo className="h-7 w-auto" />
             <p className="mt-3 max-w-[240px] text-[15px] text-ink-3">Find universities and scholarships you actually qualify for.</p>
           </div>
           {COLUMNS.map((col) => (
@@ -52,7 +52,7 @@ export function LandingFooter() {
             </div>
           ))}
         </div>
-        <div className="mt-12 border-t border-line pt-6 text-[13px] text-ink-3">© {new Date().getFullYear()} KickScholar.</div>
+        <div className="mt-12 border-t border-line pt-6 text-[13px] text-ink-3">© {new Date().getFullYear()} VarsityFind.</div>
       </div>
     </footer>
   );
