@@ -434,7 +434,7 @@ Contents, left to right, height 80px, padding `18px var(--gutter)`:
 
 1. Logo (`VarsityFindLogo` from the logo pack in `logo/`, 22px tall, 28px from `md`; tone `reversed` on night, `colour` on light) → `/dashboard`, the link labelled "VarsityFind home" and the logo `aria-hidden`.
 2. Nav: Home, Programmes, Scholarships, Universities, My plan. Current item has `aria-current="page"`.
-3. Search pill (44px tall, "Search programmes or universities") → `/programs?focus=search`, which autofocuses the catalogue search box.
+3. Search field (44px tall, 300px wide from `xl`; `components/kick/app-shell/header-search.tsx`). Clicking it never leaves the page: it is a combobox. From 2 characters it shows, under the field, up to 5 programmes, 3 universities and 3 scholarships from `GET /api/search?q=` (same filters as each catalogue, so unlisted scholarships never appear), each with a "See all N" row. Arrow keys move through them, Enter opens the highlighted one, and Enter alone searches the catalogue of the current section (`/scholarships?q=` on scholarship pages, `/institutions?q=` on university pages, `/programs?q=` elsewhere); the placeholder names that catalogue. Escape closes the list, then clears the text. On night pages the field is translucent and turns white while focused. Below `xl` a 44px search icon button opens the same search as a full-screen sheet with a Cancel button; Escape or Cancel closes it and returns focus to the button.
 4. Notification bell: render **only** when a notifications feature exists. It doesn't today, so hide it.
 5. Avatar button (44px, Varsity Blue, first initial, 2px ring `rgba(255,255,255,.35)` on night) opening a menu: name/email, Profile, Eligibility report, Data saver (switch), Admin (admins only), Sign out.
 

@@ -11,6 +11,7 @@ The student UI rebuilt to docs/ui-remodel.md.
 - **My plan** (`/plan`) merges Saved and Applications; the old URLs redirect. Accepted and rejected applications can be moved back, and tracking seeds a document checklist.
 - **Profile:** section anchors, searchable nationality, currency select, and errors shown under each field.
 - **Shell:** top bar on every width plus a four-tab bar on phones (no sidebar or drawer), page titles, loading skeletons, and error and not-found pages.
+- **Search in the top bar** is a real search field, no longer a link to the programmes page. Typing suggests programmes, universities and scholarships (`/api/search`); Enter opens a suggestion or searches the catalogue of the section you're in. On phones and tablets the search button opens it full screen.
 - **Data saver** (cookie, honours `Save-Data`) hides pictures across the app.
 - **Media pipeline:** `npm run media:enrich` fetches logos and Commons photos via ROR and Wikidata, with credit and licence, plus a `/credits` page.
 - **Admin:** current tab marked, sentence-case headings, a confirmation before rejecting, media coverage tiles, and role checks in every admin page.

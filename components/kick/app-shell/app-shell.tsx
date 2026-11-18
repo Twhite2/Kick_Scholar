@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ClipboardList, Compass, House, Search, User } from "lucide-react";
+import { ClipboardList, Compass, House, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { TOP_NAV, isExploreRoute, isNightRoute } from "@/lib/ui/nav";
 import { DataSaverBanner } from "@/components/kick/data-saver";
 import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
 import { AvatarMenu, type ShellUser } from "./avatar-menu";
+import { HeaderSearch } from "./header-search";
 
 /**
  * The signed-in shell (docs/ui-remodel.md §7): a top bar on every width — a
@@ -84,28 +85,7 @@ function TopBar({ user, pathname, night }: { user: ShellUser; pathname: string; 
       </nav>
 
       <div className="ml-auto flex items-center gap-2 md:gap-3">
-        <Link
-          href="/programs?focus=search"
-          className={cn(
-            "hidden h-11 items-center gap-2.5 rounded-full px-4 text-[15px] whitespace-nowrap xl:inline-flex",
-            night
-              ? "bg-white/10 text-[#D5E0EC] hover:bg-white/15"
-              : "border border-line-strong bg-white text-ink-3 hover:border-ink-3",
-          )}
-        >
-          <Search aria-hidden="true" className="size-[18px]" />
-          Search programmes or universities
-        </Link>
-        <Link
-          href="/programs?focus=search"
-          aria-label="Search programmes or universities"
-          className={cn(
-            "inline-flex size-11 items-center justify-center rounded-full xl:hidden",
-            night ? "text-white hover:bg-white/10" : "text-ink hover:bg-grey-tint",
-          )}
-        >
-          <Search aria-hidden="true" className="size-5" />
-        </Link>
+        <HeaderSearch night={night} pathname={pathname} />
         <AvatarMenu user={user} tone={night ? "night" : "light"} />
       </div>
     </header>
