@@ -1,7 +1,7 @@
-# KickScholar UI remodel — implementation brief for Claude Code
+# VarsityFind UI remodel — implementation brief for Claude Code
 
 Version 1.0 · 10 November 2026 · Owner: Jarvis (VisionJar Labs Ltd)
-Applies to: the KickScholar Next.js app, as described in the "User Interface Reference" of 10 Nov 2026 (branch `feat/ingestion-extractionlinking`).
+Applies to: the VarsityFind Next.js app (named KickScholar until 18 Nov 2026), as described in the "User Interface Reference" of 10 Nov 2026 (branch `feat/ingestion-extractionlinking`).
 
 ---
 
@@ -18,7 +18,7 @@ Applies to: the KickScholar Next.js app, as described in the "User Interface Ref
 
 ## 1. Goal
 
-Turn KickScholar from a generic dashboard into a product students want to open every week.
+Turn VarsityFind from a generic dashboard into a product students want to open every week.
 
 - **Home** becomes a personalised, Netflix-style discovery surface: a cinematic "top match" billboard and horizontal rails, each rail with its own card format.
 - **Every programme, scholarship and university gets a recognisable face**: logo, country flag, cover image. Programmes look like photo posters; scholarships look like money posters.
@@ -71,7 +71,7 @@ Retention loops the UI MUST deliver (data permitting, after Phase 2):
 
 | Topic | Decision | Notes |
 | --- | --- | --- |
-| Palette | Keep shipped Kick Blue `#0B4F8C`, Kick Green `#2E8B57`, Kick Red `#C62828`. Add **Night** `#071D33` for immersive surfaces | Update `FRONTEND.md` to match (closes the spec-vs-shipped palette gap) |
+| Palette | Keep shipped Varsity Blue `#0B4F8C`, Find Green `#2E8B57`, Alert Red `#C62828`. Add **Night** `#071D33` for immersive surfaces | Update `FRONTEND.md` to match (closes the spec-vs-shipped palette gap) |
 | Fonts | Bricolage Grotesque (display) + Atkinson Hyperlegible Next (UI text) | JetBrains Mono and Inter retired from the student UI |
 | Spelling | British English in UI copy ("Programmes", "colour") | Route paths unchanged (`/programs`) |
 | Navigation | Top bar on desktop; 4-tab bottom bar on phones | Sidebar and hamburger drawer removed |
@@ -110,13 +110,13 @@ Add these as CSS variables in `app/globals.css`. Names are chosen not to collide
 | `--line` | `#E4E9EF` | Hairlines, card outlines |
 | `--line-strong` | `#C9D3DE` | Outline buttons, icon buttons, inputs |
 | `--track` | `#E5EAF0` | Dial tracks, progress tracks, skeletons |
-| `--kick-blue` | `#0B4F8C` | Primary actions, links, active nav, discovery |
-| `--kick-blue-hover` | `#083A68` | Hover/pressed for Kick Blue |
+| `--varsity-blue` | `#0B4F8C` | Primary actions, links, active nav, discovery |
+| `--varsity-blue-hover` | `#083A68` | Hover/pressed for Varsity Blue |
 | `--blue-tint` | `#E7F0F9` | Pills, icon tiles, secondary buttons |
-| `--kick-green` | `#2E8B57` | Icons, dial arcs, bars. **Not for text under 24px** (4.25:1) |
+| `--find-green` | `#2E8B57` | Icons, dial arcs, bars. **Not for text under 24px** (4.25:1) |
 | `--green-text` | `#1F7A4D` | Green text on white or green tint |
 | `--green-tint` | `#E6F4EC` | Verified badge background |
-| `--kick-red` | `#C62828` | Deadline/missing icons and text on white |
+| `--alert-red` | `#C62828` | Deadline/missing icons and text on white |
 | `--red-text` | `#B3261E` | Red text on red tint (ticket stubs) |
 | `--red-deep` | `#8E1F1A` | Body text inside red tint boxes |
 | `--red-tint` | `#FDECEC` | Gap boxes, urgent ticket stubs |
@@ -138,7 +138,7 @@ Add these as CSS variables in `app/globals.css`. Names are chosen not to collide
 
 Country tints (data saver and missing-photo fallback): FI `#10304F`; SE, NO, DK, IE `#2C5D7A`; DE `#2E5B82`; NL `#A54A33`; BE, FR, GB `#3B4763`; any other `#3A4A5E`. White text passes on all of them.
 
-Remap shadcn tokens to the new palette: `--background: var(--paper)`, `--foreground: var(--ink)`, `--primary: var(--kick-blue)`, `--primary-foreground: #fff`, `--destructive: var(--kick-red)`, `--border: var(--line)`, `--input: var(--line-strong)`, `--ring: var(--focus)`, `--muted-foreground: var(--ink-3)`. Keep `--surface` and `--surface-alt` but point them at `--paper` and `--grey-tint`.
+Remap shadcn tokens to the new palette: `--background: var(--paper)`, `--foreground: var(--ink)`, `--primary: var(--varsity-blue)`, `--primary-foreground: #fff`, `--destructive: var(--alert-red)`, `--border: var(--line)`, `--input: var(--line-strong)`, `--ring: var(--focus)`, `--muted-foreground: var(--ink-3)`. Keep `--surface` and `--surface-alt` but point them at `--paper` and `--grey-tint`.
 
 Tailwind (v4 shape; if the project is on v3, add the same names under `theme.extend.colors` and `fontFamily` in `tailwind.config` instead):
 
@@ -153,12 +153,12 @@ Tailwind (v4 shape; if the project is on v3, add the same names under `theme.ext
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
   --color-track: var(--track);
-  --color-kick-blue: var(--kick-blue);
+  --color-varsity-blue: var(--varsity-blue);
   --color-blue-tint: var(--blue-tint);
-  --color-kick-green: var(--kick-green);
+  --color-find-green: var(--find-green);
   --color-green-text: var(--green-text);
   --color-green-tint: var(--green-tint);
-  --color-kick-red: var(--kick-red);
+  --color-alert-red: var(--alert-red);
   --color-red-text: var(--red-text);
   --color-red-deep: var(--red-deep);
   --color-red-tint: var(--red-tint);
@@ -185,13 +185,13 @@ Computed with the WCAG 2 formula. Only these pairs are used for text.
 | Ink-2 `#2B3A4B` on white | 11.61 | All text |
 | Ink-3 `#546477` on white | 6.06 | All text |
 | Ink-3 on paper | 5.55 | All text |
-| Kick Blue on white | 8.36 | All text |
-| Kick Blue on blue tint | 7.26 | All text |
-| White on Kick Blue | 8.36 | All text |
-| Kick Green `#2E8B57` on white | 4.25 | **Icons, bars, text ≥ 24px only** |
+| Varsity Blue on white | 8.36 | All text |
+| Varsity Blue on blue tint | 7.26 | All text |
+| White on Varsity Blue | 8.36 | All text |
+| Find Green `#2E8B57` on white | 4.25 | **Icons, bars, text ≥ 24px only** |
 | Green text `#1F7A4D` on white | 5.32 | All text |
 | Green text on green tint | 4.69 | All text |
-| Kick Red on white | 5.62 | All text |
+| Alert Red on white | 5.62 | All text |
 | Red text `#B3261E` on red tint | 5.72 | All text |
 | Red deep `#8E1F1A` on red tint | 7.79 | All text |
 | Slate on grey tint | 7.98 | All text |
@@ -274,7 +274,7 @@ Elevation (only these):
 | --- | --- | --- |
 | hairline | `0 1px 2px rgba(7,29,51,.06), 0 0 0 1px var(--line)` | Every card on paper |
 | raised | `0 22px 48px rgba(7,29,51,.18), 0 2px 6px rgba(7,29,51,.08)` | Unlock card, popovers, compare tray |
-| preview | `0 22px 44px rgba(7,29,51,.20), 0 0 0 2px var(--kick-blue)` | Poster in hover-preview state |
+| preview | `0 22px 44px rgba(7,29,51,.20), 0 0 0 2px var(--varsity-blue)` | Poster in hover-preview state |
 | tile-on-image | `0 0 0 1px rgba(14,27,42,.06), 0 6px 16px rgba(7,29,51,.18)` | Logo tiles and dials over images |
 | tile-on-white | `0 0 0 1px #E1E6EC` | Logo tiles on white cards |
 
@@ -393,11 +393,11 @@ Strength rules (unchanged from today):
 
 | Strength | When | Accent |
 | --- | --- | --- |
-| Strong match | Verified data, score ≥ 85 | `--kick-green` |
-| Likely eligible | Verified data, score 70–84 | `--kick-green` |
-| Potential match | Verified 45–69, or unverified < 70 | `--kick-blue` |
+| Strong match | Verified data, score ≥ 85 | `--find-green` |
+| Likely eligible | Verified data, score 70–84 | `--find-green` |
+| Potential match | Verified 45–69, or unverified < 70 | `--varsity-blue` |
 | Needs verification | Unverified, score ≥ 70 | `--unverified` |
-| Missing requirement | Fails a requirement outright, or verified < 45 | `--kick-red` |
+| Missing requirement | Fails a requirement outright, or verified < 45 | `--alert-red` |
 
 ```ts
 type ScoreDialProps = {
@@ -427,23 +427,23 @@ Two variants, chosen from the pathname in the app shell:
 
 | Variant | Routes | Look |
 | --- | --- | --- |
-| `night` | `/dashboard`, `/programs/[id]`, `/scholarships/[id]`, `/institutions/[id]` | Transparent, absolutely positioned over the page's night banner (`top: 0`, full width, z-index 30). The banner reserves 80px at the top. White wordmark; links `--on-night-muted`; current link white with a 2px white underline; search pill `rgba(255,255,255,.1)` with `#D5E0EC` text |
-| `light` | Everything else | White bar, hairline bottom border, sticky with backdrop blur (current behaviour). Wordmark Kick Blue; links ink-3; current link Kick Blue with a 2px underline |
+| `night` | `/dashboard`, `/programs/[id]`, `/scholarships/[id]`, `/institutions/[id]` | Transparent, absolutely positioned over the page's night banner (`top: 0`, full width, z-index 30). The banner reserves 80px at the top. Reversed logo; links `--on-night-muted`; current link white with a 2px white underline; search pill `rgba(255,255,255,.1)` with `#D5E0EC` text |
+| `light` | Everything else | White bar, hairline bottom border, sticky with backdrop blur (current behaviour). Logo in colour; links ink-3; current link Varsity Blue with a 2px underline |
 
 Contents, left to right, height 80px, padding `18px var(--gutter)`:
 
-1. Wordmark "KickScholar" (Bricolage 750, 24px, −0.03em) → `/dashboard`.
+1. Logo (`VarsityFindLogo` from the logo pack in `logo/`, 22px tall, 28px from `md`; tone `reversed` on night, `colour` on light) → `/dashboard`, the link labelled "VarsityFind home" and the logo `aria-hidden`.
 2. Nav: Home, Programmes, Scholarships, Universities, My plan. Current item has `aria-current="page"`.
 3. Search pill (44px tall, "Search programmes or universities") → `/programs?focus=search`, which autofocuses the catalogue search box.
 4. Notification bell: render **only** when a notifications feature exists. It doesn't today, so hide it.
-5. Avatar button (44px, Kick Blue, first initial, 2px ring `rgba(255,255,255,.35)` on night) opening a menu: name/email, Profile, Eligibility report, Data saver (switch), Admin (admins only), Sign out.
+5. Avatar button (44px, Varsity Blue, first initial, 2px ring `rgba(255,255,255,.35)` on night) opening a menu: name/email, Profile, Eligibility report, Data saver (switch), Admin (admins only), Sign out.
 
 MAY: on night pages, after the user scrolls past the banner, swap to the sticky light variant.
 
 ### 7.2 Phones (< 768px)
 
 - Header: on night pages a transparent night row (wordmark 22px, search icon button, avatar); elsewhere white.
-- Bottom tab bar, four tabs: **Home** (`/dashboard`, `House`), **Explore** (`/programs`, `Compass`), **My plan** (`/plan`, `ClipboardList`), **Profile** (`/profile`, `User`). 64px plus `env(safe-area-inset-bottom)`. Labels 13px. Active tab Kick Blue. Content keeps bottom padding 80px plus the inset.
+- Bottom tab bar, four tabs: **Home** (`/dashboard`, `House`), **Explore** (`/programs`, `Compass`), **My plan** (`/plan`, `ClipboardList`), **Profile** (`/profile`, `User`). 64px plus `env(safe-area-inset-bottom)`. Labels 13px. Active tab Varsity Blue. Content keeps bottom padding 80px plus the inset.
 - Explore pages show a segmented control at the top: Programmes | Scholarships | Universities.
 - The hamburger drawer is removed. Eligibility is reachable from the Home unlock card, Profile and the avatar menu; Admin from the avatar menu.
 
@@ -461,9 +461,9 @@ MAY: on night pages, after the user scrolls past the banner, swap to the sticky 
 | Compare | `/compare?type=program&ids=a,b,c` (new, Phase 4c) | |
 | Admin | `/admin/*` | Avatar menu, admins only |
 
-### 7.4 Page titles (closes "every tab is titled KickScholar")
+### 7.4 Page titles (closes "every tab is titled VarsityFind")
 
-Root layout: `title: { template: "%s | KickScholar", default: "KickScholar" }`. Each route sets its own: "Home", "Programmes", "Scholarships", "Universities", "My plan", "Your profile", "Eligibility report". Detail pages use `generateMetadata`: "{Programme} at {Institution}", "{Scholarship}", "{Institution}". Catalogue with a query: "Search: {q} in Programmes".
+Root layout: `title: { template: "%s | VarsityFind", default: "VarsityFind" }`. Each route sets its own: "Home", "Programmes", "Scholarships", "Universities", "My plan", "Your profile", "Eligibility report". Detail pages use `generateMetadata`: "{Programme} at {Institution}", "{Scholarship}", "{Institution}". Catalogue with a query: "Search: {q} in Programmes".
 
 ### 7.5 Loading, error, not found (closes known gaps)
 
@@ -475,7 +475,7 @@ Root layout: `title: { template: "%s | KickScholar", default: "KickScholar" }`. 
 
 ## 8. New components
 
-Put KickScholar components in `components/kick/`. Leave shadcn primitives in `components/ui/` alone apart from token-driven styling. Server components by default; `"use client"` only where noted.
+Put VarsityFind components in `components/kick/`. Leave shadcn primitives in `components/ui/` alone apart from token-driven styling. Server components by default; `"use client"` only where noted.
 
 | Component | File | Client | Spec |
 | --- | --- | --- | --- |
@@ -520,7 +520,7 @@ Desktop wireframe (1440 wide). `[ ]` marks icons; there are no emoji in the real
 
 ```
 ┌──────────────────────────────── night zone, about 740px ───────────────────────────────┐
-│ KickScholar  Home  Programmes  Scholarships  Universities  My plan  [Search…]   (T)    │
+│ VarsityFind  Home  Programmes  Scholarships  Universities  My plan  [Search…]   (T)    │
 │                                                                                         │
 │ [UH] University of Helsinki                         ░░░░ cover image, right 74%, ░░░░░ │
 │      [flag] Helsinki, Finland                       ░░░░ fading into night on the ░░░░ │
@@ -583,9 +583,9 @@ Data rules:
 #### 9.1.2 Unlock card
 
 - Overlaps the billboard: `margin-top: -68px; position: relative; z-index: 4`, inside the gutter, max-width 1120px, radius 22, `raised` shadow, padding `20px 24px`, flex-wrap row:
-  - Icon tile 52px, blue tint, `KeyRound` 26px Kick Blue.
+  - Icon tile 52px, blue tint, `KeyRound` 26px Varsity Blue.
   - Text block (`flex: 1 1 380px`): title 18px 700, body 15px ink-3.
-  - Actions: primary pill 48px (Kick Blue) + optional outline pill 48px.
+  - Actions: primary pill 48px (Varsity Blue) + optional outline pill 48px.
 - Source: the top improvement action from the eligibility engine ("What you can do to improve it", already ordered by how many opportunities it unlocks). Copy templates in §14.4.
 - If there's no action and profile completeness < 100%: title "Finish your profile to sharpen your matches", body "{n} of 8 details added.", button "Finish profile".
 - If neither: don't render it, and give the billboard its normal bottom edge (the next section must not slide up under the billboard).
@@ -597,8 +597,8 @@ Data rules:
 - Data: the user's applications not in Accepted or Rejected, sorted by nearest future deadline (unknown last), then most recently updated. Max 3. Hide the section when empty.
 - Grid `repeat(auto-fill, minmax(300px, 1fr))`, gap 16px, max-width 1328px.
 - Card: radius 18, hairline, padding 18, column gap 14:
-  1. Logo 44 (`surface="white"`) + title (16px 700) over organisation (14px ink-3) + stage pill (13px 700): In progress → blue tint/Kick Blue; Saved, Planning → grey tint/slate; Submitted → green tint/green text.
-  2. "{done} of {total} documents ready" + deadline ("Closes 2 Jan", ink-3) above an 8px progress bar (track `--track`, fill Kick Blue).
+  1. Logo 44 (`surface="white"`) + title (16px 700) over organisation (14px ink-3) + stage pill (13px 700): In progress → blue tint/Varsity Blue; Saved, Planning → grey tint/slate; Submitted → green tint/green text.
+  2. "{done} of {total} documents ready" + deadline ("Closes 2 Jan", ink-3) above an 8px progress bar (track `--track`, fill Varsity Blue).
   3. "Next: {first unchecked document, lower-case first letter}" + "Continue" pill (blue tint, 44px) → `/plan?tab=applications#app-{id}`.
 - No checklist yet: row 2 says "No checklist yet"; row 3 says "Next: add your document checklist".
 
@@ -622,8 +622,8 @@ Anatomy (desktop):
 - Logo 52 at top 127, left 16, overlapping the cover edge (`surface="image"`).
 - Body padding `34px 16px 16px`, column gap 6:
   - Title link (poster title style, 2-line clamp) → detail page.
-  - **Normal state**: university line (flag + name, ellipsis, 14px ink-3); facts pinned to the bottom (`margin-top: auto`), 14px with 16px icons: funding (`Coins`, green text 700 when it's positive funding such as free tuition or a linked scholarship, otherwise ink-2), length (`GraduationCap`, "2 years, full-time"), deadline (`Clock`, "Closes in 53 days"; Kick Red text and icon when ≤ 14 days).
-  - **Preview state** (replaces the university line and facts): up to 3 reasons (14px; `Check` Kick Green / `CircleAlert` Kick Red), then an action row: "Open programme" (Kick Blue pill 44px, `flex: 1`), Compare (44px outline icon button), Track (44px outline icon button).
+  - **Normal state**: university line (flag + name, ellipsis, 14px ink-3); facts pinned to the bottom (`margin-top: auto`), 14px with 16px icons: funding (`Coins`, green text 700 when it's positive funding such as free tuition or a linked scholarship, otherwise ink-2), length (`GraduationCap`, "2 years, full-time"), deadline (`Clock`, "Closes in 53 days"; Alert Red text and icon when ≤ 14 days).
+  - **Preview state** (replaces the university line and facts): up to 3 reasons (14px; `Check` Find Green / `CircleAlert` Alert Red), then an action row: "Open programme" (Varsity Blue pill 44px, `flex: 1`), Compare (44px outline icon button), Track (44px outline icon button).
 - Fixed height so the preview never shifts layout.
 - Preview opens on pointer hover after 250ms, or on keyboard focus inside the card (`:focus-within`). Only on `(hover: hover) and (pointer: fine)`. Touch devices never show it.
 - Mobile size drops the length fact (funding and deadline only) and uses logo 44 at top 111; the dial stays 46.
@@ -634,7 +634,7 @@ Data: programme matches with strength Strong match or Likely eligible, score des
 
 **Closing soon — `DeadlineTicket`** (desktop 340 × 132; mobile 300 × 124, stub 84px):
 
-- Stub 96px wide: days number (countdown style) over "days left" (13px 700). ≤ 14 days: red tint background, red text. Otherwise blue tint, Kick Blue. 1 day → "1 day left"; 0 → "Today" with no label.
+- Stub 96px wide: days number (countdown style) over "days left" (13px 700). ≤ 14 days: red tint background, red text. Otherwise blue tint, Varsity Blue. 1 day → "1 day left"; 0 → "Today" with no label.
 - Perforation: 2px dashed `#D5DCE4` vertical line, inset 14px top and bottom. Notches: 18px circles in `--paper` centred on the perforation at the top and bottom edges (−9px), so they look punched out.
 - Body padding `14px 16px`: logo 32 + organisation (13px ink-3, ellipsis); title (card title, 2 lines); "Closes {Sun 22 Nov}" with `Calendar` 14px (13px ink-3).
 - Data: programme and scholarship matches (not Missing requirement) with a future deadline within 45 days, soonest first, max 12. Hide the rail when empty.
@@ -654,7 +654,7 @@ Data: programme matches with strength Strong match or Likely eligible, score des
 **One requirement away — `OneAwayCard`** (360px wide, height follows content; rail stretches all cards to the tallest):
 
 - Logo 44 + title (16px 700) over organisation (14px ink-3).
-- Gap box: red tint, radius 12, padding `10px 12px`, `CircleAlert` 18px Kick Red, text 14px/1.4 red deep. Compose as "{requirement}. {your status}." (for example "Needs IELTS 6.5 with at least 6.0 in each part. You have not added a test yet.").
+- Gap box: red tint, radius 12, padding `10px 12px`, `CircleAlert` 18px Alert Red, text 14px/1.4 red deep. Compose as "{requirement}. {your status}." (for example "Needs IELTS 6.5 with at least 6.0 in each part. You have not added a test yet.").
 - Bottom row: "Match rises from {from} to {to}" (green text 700, `TrendingUp`) + action pill (outline, 44px) labelled per blocker type (§14.4).
 - Data: matches whose current strength is Potential match or Missing requirement, that have exactly one blocker, and whose projected score (§10.4) reaches 70 or more. Sort by projected gain desc. Max 10. No projection available → drop the "rises" line and keep the card.
 
@@ -714,21 +714,21 @@ More like this (rail of MatchPosterCards)
 
 - **Banner**: like the billboard with the cover at 70% width and content bottom-aligned (padding `28px var(--gutter) 44px`). Breadcrumb links in `#D5E0EC`. Logo 72. H1 Display L. Pills: `SourceBadge` night variant, then neutral pills (`rgba(255,255,255,.1)` background, `#E3EBF4` text) for teaching language, duration and mode, degree. Score card on the right: background `rgba(7,29,51,.72)`, 1px `rgba(255,255,255,.18)` border, radius 20, padding `18px 22px`: dial 88 night + strength (Bricolage 22px 700) + basis (14px on-night-muted) + "See the breakdown" (on-night-link → `#why`). No match: replace the card with a link "Complete your profile to see your match". Photo credit (when a photo is shown): bottom-right, 13px on-night-muted, "Photo: {credit}, {licence}" linking to the source page.
 - **Action bar**: white, hairline bottom, padding `14px var(--gutter)`, wraps.
-  - Primary "Track this application" (Kick Blue pill 48px, `ClipboardList`): calls the existing create-application action (seeds the checklist, §9.7). Then it becomes "Tracking in My plan" (green tint, green text, `Check`) linking to `/plan?tab=applications`. This closes the "applications can only be started from Saved" gap.
+  - Primary "Track this application" (Varsity Blue pill 48px, `ClipboardList`): calls the existing create-application action (seeds the checklist, §9.7). Then it becomes "Tracking in My plan" (green tint, green text, `Check`) linking to `/plan?tab=applications`. This closes the "applications can only be started from Saved" gap.
   - Secondary "Apply on the university site" (outline pill 48px, `ExternalLink`), new tab, `rel="noopener noreferrer"`.
   - Icon buttons (44px outline): Save (`aria-pressed`), Compare (Phase 4c), Share (Web Share API; fallback copies the URL and shows "Link copied").
-- **Fact grid**: `repeat(auto-fit, minmax(180px, 1fr))`, gap 12, tiles radius 16 hairline padding `14px 16px`: label (13px ink-3), value (Bricolage 20px 700), note (13px). Tiles: Tuition (Free / amount / Varies / "Not yet published"; note in green text when funding covers it), Length (note: credits if known), Starts (intakes), Applications (window or next deadline; note "Closes in {n} days", Kick Red when ≤ 14), Taught in. Hide tiles with no data.
+- **Fact grid**: `repeat(auto-fit, minmax(180px, 1fr))`, gap 12, tiles radius 16 hairline padding `14px 16px`: label (13px ink-3), value (Bricolage 20px 700), note (13px). Tiles: Tuition (Free / amount / Varies / "Not yet published"; note in green text when funding covers it), Length (note: credits if known), Starts (intakes), Applications (window or next deadline; note "Closes in {n} days", Alert Red when ≤ 14), Taught in. Hide tiles with no data.
 - **Why you match** (`#why`), panel radius 20 padding 24:
   - Intro (15px ink-3): "Your profile, checked against the requirements on the university's admissions page."
-  - `RequirementComparison`: a visual header row (Requirement | They ask for | You have; 13px 700 ink-3) and one row per requirement: status icon (met `CircleCheck` Kick Green; missing `CircleAlert` Kick Red; unknown `CircleHelp` ink-3), requirement (700), what they ask (ink-2), what you have (ink; missing → red text 700 "Not added yet" plus action links from §14.4). Build it as a semantic `<table>` (`<th scope="col">` headers; the requirement name as `<th scope="row">`) with `table-layout: fixed` and column widths 28px / 22% / 44% / auto via `<colgroup>`, inside an `overflow-x: auto` box with `min-width: 560px` so phones scroll it sideways. Rows separated by 1px `--line` top borders, cell padding 14px.
-  - "Score breakdown": grid `repeat(auto-fill, minmax(200px, 1fr))`, gap `12px 24px`: label + value% + 8px bar (≥ 70 Kick Green, 40–69 Kick Blue, < 40 Kick Red; not scorable → empty grey bar and "N/A").
+  - `RequirementComparison`: a visual header row (Requirement | They ask for | You have; 13px 700 ink-3) and one row per requirement: status icon (met `CircleCheck` Find Green; missing `CircleAlert` Alert Red; unknown `CircleHelp` ink-3), requirement (700), what they ask (ink-2), what you have (ink; missing → red text 700 "Not added yet" plus action links from §14.4). Build it as a semantic `<table>` (`<th scope="col">` headers; the requirement name as `<th scope="row">`) with `table-layout: fixed` and column widths 28px / 22% / 44% / auto via `<colgroup>`, inside an `overflow-x: auto` box with `min-width: 560px` so phones scroll it sideways. Rows separated by 1px `--line` top borders, cell padding 14px.
+  - "Score breakdown": grid `repeat(auto-fill, minmax(200px, 1fr))`, gap `12px 24px`: label + value% + 8px bar (≥ 70 Find Green, 40–69 Varsity Blue, < 40 Alert Red; not scorable → empty grey bar and "N/A").
   - "What's holding your score back" (heading in ink with a red `CircleAlert` icon) and "What you can do" (blue `TrendingUp`): existing content, restyled as lists with links.
   - No match: keep today's prompt "Complete your profile to see why you match this programme." with a link.
 - **Funding for this programme** (`#funding`): the three existing groups with their explanations verbatim (§14.3), each a grid of compact `FundingPoster`s (`repeat(auto-fill, minmax(240px, 1fr))`), max 12 shown then "Show all {n}" expands (keep the current 40-row data cap). Empty copy unchanged.
 - **Entry requirements** (`#requirements`): list rows: type (14px 700), text, `RequirementBadge` on the right. Empty copy unchanged.
 - **About this programme** (`#overview`): description (max 70ch), field, intakes if not in the fact grid. Empty copy unchanged.
-- **Aside — Your next steps** (`NextSteps`): header "Your next steps" + "{done} of {n} done" + 6px progress bar. List (§10.5) with 22px checkboxes (`accent-color: var(--kick-blue)`), label (15px 700) and note (14px ink-3). When tracking, ticks sync with the application's document checklist. When not tracking, ticking shows an inline prompt "Track this application to save your progress" with the Track button.
-- **Aside — Key dates** (`KeyDates`): vertical timeline. First item "Today, {10 Nov}" / "You are here" with a filled Kick Blue dot; then each real deadline and intake in date order with hollow dots; past dates in ink-3. Never invent dates (no "results" date unless stored).
+- **Aside — Your next steps** (`NextSteps`): header "Your next steps" + "{done} of {n} done" + 6px progress bar. List (§10.5) with 22px checkboxes (`accent-color: var(--varsity-blue)`), label (15px 700) and note (14px ink-3). When tracking, ticks sync with the application's document checklist. When not tracking, ticking shows an inline prompt "Track this application to save your progress" with the Track button.
+- **Aside — Key dates** (`KeyDates`): vertical timeline. First item "Today, {10 Nov}" / "You are here" with a filled Varsity Blue dot; then each real deadline and intake in date order with hollow dots; past dates in ink-3. Never invent dates (no "results" date unless stored).
 - **Aside — Where this comes from** (`ProvenanceCard`): "Sourced from the {source name} page. Last checked on {3 Nov 2026}." + "View the source page" (external) + "Report something wrong" (`mailto:` the support address; hidden if unset).
 - **More like this**: `MatchPosterCard` rail, same field and degree level, other programmes, ordered by the user's score (or alphabetically without a profile), max 12, hidden under 3 items.
 - The university name everywhere on this page links to `/institutions/[id]` (closes the "directory is a dead end" gap).
@@ -764,7 +764,7 @@ Shared Browse layout:
 - **Posters view (Phase 4a)**: grid `repeat(auto-fill, minmax(240px, 1fr))`, gap 20. Programmes use `MatchPosterCard` in fluid mode; scholarships use `FundingPoster` in fluid mode. 24 per page as today (12 with data saver, MAY).
 - **List view (Phase 4b, MAY)**: rows (radius 16, hairline, padding `14px 16px`, gap 16): logo 52, title link (16px 700), flag + city + university (14px ink-3), facts inline with icons (tuition, length, closes), `ScoreDial` 46 light, `SaveButton` outline. At ≥ 1280px: list (`flex: 999 1 560px`) beside a sticky preview pane (`flex: 1 1 400px`, top 96px) showing the selected item: cover 200px, logo, title, dial 60 + strength, top 3 reasons, 2×2 facts, "Open programme page", "Add to compare". Each row has a "Preview" icon button (44px, `aria-label="Preview {title}"`); the title link still navigates.
 - **Universities catalogue**: cards with logo 52, name, flag + full country name + city, type, counts (programmes, scholarships). Keep its filters (country with counts, show, sort).
-- Pagination: keep the numbered `Pagination` component (restyle: 44px pills, current Kick Blue). Delete the unused `Pager` from `main` (closes the duplicate-component gap).
+- Pagination: keep the numbered `Pagination` component (restyle: 44px pills, current Varsity Blue). Delete the unused `Pager` from `main` (closes the duplicate-component gap).
 - Empty state: today's sentence in British spelling ("No programmes match your filters yet.") plus a "Clear filters" button.
 - **Compare (Phase 4c)**: `CompareTray` appears when at least one item is added: fixed at the bottom (above the mobile tab bar), night background, radius 20, `raised` shadow, max-width 960 centred, padding `14px 18px`: label "Compare", up to 3 chips (logo 32 + title + remove `X`), an empty slot "Add one more", primary "Compare {n}" → `/compare?type=program&ids=…`. State in a React context backed by `localStorage` key `ks-compare-program` (wrapped in try/catch). `/compare` renders a table: one column per item (logo, title, university, dial, strength) and rows Tuition, Length, Starts, Next deadline, Taught in, Linked funding, Requirements met/missing, Location. First column sticky; horizontal scroll on phones.
 
@@ -791,7 +791,7 @@ Shared Browse layout:
 
 ### 9.9 Eligibility report — `/eligibility`
 
-Restyle with the new components, same content order: two score tiles (`ScoreDial` 88 for "Your strongest opportunities", plain number for the catalogue average), strength counts as `StrengthBadge`s with counts, `ScoreBreakdown`, blockers (ink heading with red icon, rows with logo links), actions (Kick Blue icon), strongest matches list with logos and dials. "Browse all" target: see open question 7.
+Restyle with the new components, same content order: two score tiles (`ScoreDial` 88 for "Your strongest opportunities", plain number for the catalogue average), strength counts as `StrengthBadge`s with counts, `ScoreBreakdown`, blockers (ink heading with red icon, rows with logo links), actions (Varsity Blue icon), strongest matches list with logos and dials. "Browse all" target: see open question 7.
 
 ### 9.10 Auth — `/login`, `/signup`
 
@@ -806,7 +806,7 @@ Keep layout and behaviour. Apply tokens and fonts; inputs 48px, radius 12, visib
 
 ### 9.12 Admin
 
-- Light shell. Tabs mark the current page (`aria-current="page"`, Kick Blue underline) (closes a gap).
+- Light shell. Tabs mark the current page (`aria-current="page"`, Varsity Blue underline) (closes a gap).
 - Headings sentence case.
 - Verification queue: "Reject" opens a Base UI AlertDialog: "Reject this scholarship? It will leave the queue." Buttons "Reject" (destructive) and "Cancel" (closes a gap).
 - Data quality: add a "Media coverage" group in Phase 6: Institutions with logo, With cover photo, With neither.
@@ -957,7 +957,7 @@ mediaLocked      boolean    default false; the pipeline never overwrites locked 
 3. **Wikimedia Commons**: `GET https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File:{name}&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600` → `thumburl`, `extmetadata.Artist`, `LicenseShortName`, `LicenseUrl`.
 4. **Logo fallback by domain**: Logo.dev (`https://img.logo.dev/{domain}?token=…`, env `LOGO_DEV_TOKEN`) or Brandfetch. The old Clearbit Logo API shut down in December 2025; don't use it. Read the chosen provider's current docs and terms (attribution, caching, rate limits) before enabling it.
 
-Wikimedia etiquette (required by their policy): send a descriptive `User-Agent` with contact details, for example `KickScholarMediaBot/1.0 (https://<site>; <contact email>)`; stay at or under 2 requests per second; back off on 429 and 5xx and respect `Retry-After`.
+Wikimedia etiquette (required by their policy): send a descriptive `User-Agent` with contact details, for example `VarsityFindMediaBot/1.0 (https://<site>; <contact email>)`; stay at or under 2 requests per second; back off on 429 and 5xx and respect `Retry-After`.
 
 ### 11.3 Processing (sharp)
 
@@ -1015,7 +1015,7 @@ Per-user match data is dynamic. Shared programme, scholarship and institution de
 
 ## 13. Accessibility (WCAG 2.2 AA)
 
-- Text colours only from §5.2. Kick Green is never text under 24px.
+- Text colours only from §5.2. Find Green is never text under 24px.
 - Colour is never the only signal: strength = dial colour + number + word; deadlines = red + clock icon + words; requirement status = icon + words.
 - Every interactive target is at least 44×44px (icon buttons keep a 44px hit area even when the visible disc is 36px).
 - Visible focus everywhere: 3px `--focus` outline, 2px offset, including inside rails and on night surfaces.
@@ -1091,7 +1091,7 @@ Unlock body copy for the English-test case: "Add your IELTS or TOEFL result. Som
 | --- | --- | --- |
 | No loading screens | `loading.tsx` skeletons | 1 |
 | No custom error / 404 pages | `error.tsx`, `not-found.tsx` | 1 |
-| Every tab titled "KickScholar" | Route metadata | 1 |
+| Every tab titled "VarsityFind" | Route metadata | 1 |
 | Brand spec vs shipped palette | `FRONTEND.md` updated to shipped palette + Night | 1 |
 | Catalogue search fires per keystroke | 300ms debounce + transition | 4 |
 | Two pagination components | Delete unused `Pager` | 4 |

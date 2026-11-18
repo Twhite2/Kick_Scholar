@@ -152,11 +152,11 @@ describe("money, counts and durations", () => {
 
 describe("strength", () => {
   it("maps each strength to its accent and words", () => {
-    expect(STRENGTH_ACCENT.STRONG_MATCH).toBe("var(--kick-green)");
-    expect(STRENGTH_ACCENT.LIKELY_ELIGIBLE).toBe("var(--kick-green)");
-    expect(STRENGTH_ACCENT.POTENTIAL_MATCH).toBe("var(--kick-blue)");
+    expect(STRENGTH_ACCENT.STRONG_MATCH).toBe("var(--find-green)");
+    expect(STRENGTH_ACCENT.LIKELY_ELIGIBLE).toBe("var(--find-green)");
+    expect(STRENGTH_ACCENT.POTENTIAL_MATCH).toBe("var(--varsity-blue)");
     expect(STRENGTH_ACCENT.NEEDS_VERIFICATION).toBe("var(--unverified)");
-    expect(STRENGTH_ACCENT.MISSING_REQUIREMENT).toBe("var(--kick-red)");
+    expect(STRENGTH_ACCENT.MISSING_REQUIREMENT).toBe("var(--alert-red)");
     expect(STRENGTH_LABEL.NEEDS_VERIFICATION).toBe("Needs verification");
     expect(dialLabel(92, "STRONG_MATCH")).toBe("92 percent match, Strong match");
     expect(isTopStrength("NEEDS_VERIFICATION")).toBe(false);

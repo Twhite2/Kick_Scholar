@@ -51,7 +51,7 @@ export function ApplicationCard({ card }: { card: BoardCard }) {
 
   const inst = card.institution;
   const button =
-    "inline-flex h-11 items-center gap-1.5 rounded-full border border-line-strong bg-white px-3.5 text-sm font-bold text-ink transition-colors hover:border-kick-blue hover:text-kick-blue disabled:opacity-40";
+    "inline-flex h-11 items-center gap-1.5 rounded-full border border-line-strong bg-white px-3.5 text-sm font-bold text-ink transition-colors hover:border-varsity-blue hover:text-varsity-blue disabled:opacity-40";
 
   return (
     <article id={`app-${card.id}`} className="scroll-mt-28 rounded-tile bg-white p-4 shadow-hairline target:shadow-preview">
@@ -59,7 +59,7 @@ export function ApplicationCard({ card }: { card: BoardCard }) {
         {inst && <InstitutionLogo name={inst.name} logoUrl={inst.logoUrl} acronym={inst.acronym} seed={inst.id} size={40} />}
         <div className="min-w-0">
           <h3 className="type-card-title clamp-2">
-            <Link href={card.href} className="text-ink hover:text-kick-blue">
+            <Link href={card.href} className="text-ink hover:text-varsity-blue">
               {card.title}
             </Link>
           </h3>
@@ -71,7 +71,7 @@ export function ApplicationCard({ card }: { card: BoardCard }) {
         <p
           className={cn(
             "mt-3 inline-flex h-7 items-center gap-1.5 rounded-full px-2.5 type-caption",
-            isUrgent(card.daysLeft) ? "bg-red-tint text-red-text" : "bg-blue-tint text-kick-blue",
+            isUrgent(card.daysLeft) ? "bg-red-tint text-red-text" : "bg-blue-tint text-varsity-blue",
           )}
         >
           <Clock aria-hidden="true" className="size-3.5" />
@@ -90,7 +90,7 @@ export function ApplicationCard({ card }: { card: BoardCard }) {
                   type="checkbox"
                   checked={Boolean(done[d.id])}
                   onChange={(e) => toggle(d.id, e.target.checked)}
-                  className="size-[20px] shrink-0 cursor-pointer accent-kick-blue"
+                  className="size-[20px] shrink-0 cursor-pointer accent-varsity-blue"
                 />
                 <label htmlFor={id} className={cn("cursor-pointer text-sm leading-snug", done[d.id] ? "text-ink-3" : "text-ink")}>
                   {d.name}
@@ -120,7 +120,7 @@ export function ApplicationCard({ card }: { card: BoardCard }) {
           value={draft}
           onChange={(e) => setDraft(e.target.value)}
           placeholder="Add document"
-          className="h-11 min-w-0 flex-1 rounded-full border border-line-strong bg-white px-3.5 text-sm text-ink placeholder:text-ink-3 focus-visible:border-kick-blue"
+          className="h-11 min-w-0 flex-1 rounded-full border border-line-strong bg-white px-3.5 text-sm text-ink placeholder:text-ink-3 focus-visible:border-varsity-blue"
         />
         <button type="submit" disabled={!draft.trim() || isPending} aria-label="Add document" className={cn(button, "w-11 justify-center px-0")}>
           <Plus aria-hidden="true" className="size-4" />
@@ -143,7 +143,7 @@ export function ApplicationCard({ card }: { card: BoardCard }) {
             type="button"
             disabled={isPending}
             onClick={() => run(() => markRejected(card.id))}
-            className={cn(button, "text-red-text hover:border-kick-red hover:text-red-text")}
+            className={cn(button, "text-red-text hover:border-alert-red hover:text-red-text")}
           >
             <X aria-hidden="true" className="size-4" /> Mark rejected
           </button>

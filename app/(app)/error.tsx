@@ -23,7 +23,7 @@ export default function AppError({ error, reset }: { error: Error & { digest?: s
         aria-labelledby="error-title"
         className={cn("mx-auto flex max-w-xl flex-col items-start gap-4 px-gutter py-16 md:py-24", night && "text-white")}
       >
-        <CircleAlert aria-hidden="true" className={cn("size-8", night ? "text-on-night-danger" : "text-kick-red")} />
+        <CircleAlert aria-hidden="true" className={cn("size-8", night ? "text-on-night-danger" : "text-alert-red")} />
         <h1 id="error-title" className="type-page-h1">
           This page didn&apos;t load
         </h1>

@@ -16,7 +16,7 @@ export function OneAwayCard({ item }: { item: OneAwayItem }) {
           <h3 className="type-card-title clamp-2 text-ink">
             <Link
               href={item.href}
-              className="before:absolute before:inset-0 before:rounded-tile before:content-[''] hover:text-kick-blue"
+              className="before:absolute before:inset-0 before:rounded-tile before:content-[''] hover:text-varsity-blue"
             >
               {item.title}
             </Link>
@@ -25,7 +25,7 @@ export function OneAwayCard({ item }: { item: OneAwayItem }) {
         </div>
       </div>
       <div className="flex gap-2.5 rounded-xl bg-red-tint px-3 py-2.5">
-        <CircleAlert aria-hidden="true" className="mt-px size-[18px] shrink-0 text-kick-red" />
+        <CircleAlert aria-hidden="true" className="mt-px size-[18px] shrink-0 text-alert-red" />
         <p className="text-sm leading-[1.4] text-red-deep">
           <span className="sr-only">Gap: </span>
           {item.gap}
@@ -34,14 +34,14 @@ export function OneAwayCard({ item }: { item: OneAwayItem }) {
       <div className="mt-auto flex flex-wrap items-center justify-between gap-3">
         {item.to !== null && (
           <p className="flex items-center gap-1.5 text-sm font-bold text-green-text tabular-nums">
-            <TrendingUp aria-hidden="true" className="size-4 shrink-0 text-kick-green" />
+            <TrendingUp aria-hidden="true" className="size-4 shrink-0 text-find-green" />
             Match rises from {item.from} to {item.to}
           </p>
         )}
         {item.action && (
           <Link
             href={item.action.href}
-            className="relative z-10 inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-4 text-[15px] font-bold text-ink hover:border-kick-blue hover:text-kick-blue"
+            className="relative z-10 inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-4 text-[15px] font-bold text-ink hover:border-varsity-blue hover:text-varsity-blue"
           >
             {item.action.label}
           </Link>

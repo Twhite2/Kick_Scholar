@@ -95,7 +95,7 @@ export function DataSaverSwitch({ className, tone = "light" }: { className?: str
         aria-hidden="true"
         className={cn(
           "relative inline-flex h-7 w-12 shrink-0 rounded-full transition-colors",
-          on ? "bg-kick-blue" : "bg-line-strong",
+          on ? "bg-varsity-blue" : "bg-line-strong",
         )}
       >
         <span

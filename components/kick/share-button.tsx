@@ -34,7 +34,7 @@ export function ShareButton({ title, className }: { title: string; className?: s
         onClick={share}
         aria-label={`Share ${title}`}
         className={cn(
-          "inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-line-strong bg-white text-ink transition-colors hover:border-kick-blue hover:text-kick-blue",
+          "inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-line-strong bg-white text-ink transition-colors hover:border-varsity-blue hover:text-varsity-blue",
           className,
         )}
       >

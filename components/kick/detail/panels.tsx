@@ -54,7 +54,7 @@ export function FactGrid({ facts, className }: { facts: Fact[]; className?: stri
               className={cn(
                 "mt-1 text-[13px]",
                 f.noteTone === "green" && "font-bold text-green-text",
-                f.noteTone === "red" && "font-bold text-kick-red",
+                f.noteTone === "red" && "font-bold text-alert-red",
                 (!f.noteTone || f.noteTone === "muted") && "text-ink-3",
               )}
             >
@@ -97,8 +97,8 @@ export function RequirementComparison({ rows }: { rows: ComparisonRow[] }) {
           {rows.map((r) => (
             <tr key={r.key} className="border-t border-line align-top">
               <td className="py-3.5">
-                {r.status === "met" && <CircleCheck aria-hidden="true" className="size-5 text-kick-green" />}
-                {r.status === "missing" && <CircleAlert aria-hidden="true" className="size-5 text-kick-red" />}
+                {r.status === "met" && <CircleCheck aria-hidden="true" className="size-5 text-find-green" />}
+                {r.status === "missing" && <CircleAlert aria-hidden="true" className="size-5 text-alert-red" />}
                 {r.status === "unknown" && <CircleHelp aria-hidden="true" className="size-5 text-ink-3" />}
                 <span className="sr-only">{STATUS_WORD[r.status]}</span>
               </td>
@@ -112,7 +112,7 @@ export function RequirementComparison({ rows }: { rows: ComparisonRow[] }) {
                 ) : r.action ? (
                   <span className="flex flex-col items-start gap-1">
                     <span className="font-bold text-red-text">Not added yet</span>
-                    <Link href={r.action.href} className="inline-flex min-h-11 items-center font-bold text-kick-blue underline-offset-2 hover:underline">
+                    <Link href={r.action.href} className="inline-flex min-h-11 items-center font-bold text-varsity-blue underline-offset-2 hover:underline">
                       {r.action.label}
                     </Link>
                   </span>
@@ -138,7 +138,7 @@ export function ScoreBreakdown({
   return (
     <div className="grid gap-x-6 gap-y-4 [grid-template-columns:repeat(auto-fill,minmax(200px,1fr))]">
       {factors.map((f) => {
-        const color = f.score === null ? "" : f.score >= 70 ? "bg-kick-green" : f.score >= 40 ? "bg-kick-blue" : "bg-kick-red";
+        const color = f.score === null ? "" : f.score >= 70 ? "bg-find-green" : f.score >= 40 ? "bg-varsity-blue" : "bg-alert-red";
         return (
           <div key={f.factor}>
             <div className="flex items-baseline justify-between gap-3 text-[15px]">
@@ -172,7 +172,7 @@ export function AdviceLists({
       {blockers.length > 0 && (
         <div>
           <h3 className="flex items-center gap-2 text-base font-bold text-ink">
-            <CircleAlert aria-hidden="true" className="size-5 text-kick-red" />
+            <CircleAlert aria-hidden="true" className="size-5 text-alert-red" />
             What&apos;s holding your score back
           </h3>
           <ul role="list" className="mt-3 space-y-2">
@@ -187,7 +187,7 @@ export function AdviceLists({
       {actions.length > 0 && (
         <div>
           <h3 className="flex items-center gap-2 text-base font-bold text-ink">
-            <TrendingUp aria-hidden="true" className="size-5 text-kick-blue" />
+            <TrendingUp aria-hidden="true" className="size-5 text-varsity-blue" />
             What you can do
           </h3>
           <ul role="list" className="mt-3 space-y-2">
@@ -195,7 +195,7 @@ export function AdviceLists({
               <li key={a.text}>
                 <Link
                   href={a.href}
-                  className="flex min-h-11 items-center rounded-xl bg-blue-tint px-3 py-2.5 text-sm font-bold text-kick-blue hover:underline"
+                  className="flex min-h-11 items-center rounded-xl bg-blue-tint px-3 py-2.5 text-sm font-bold text-varsity-blue hover:underline"
                 >
                   {a.text}
                 </Link>
@@ -284,7 +284,7 @@ function TimelineItem({
         aria-hidden="true"
         className={cn(
           "absolute top-1.5 left-0 size-[13px] rounded-full border-2",
-          filled ? "border-kick-blue bg-kick-blue" : past ? "border-line-strong bg-white" : "border-kick-blue bg-white",
+          filled ? "border-varsity-blue bg-varsity-blue" : past ? "border-line-strong bg-white" : "border-varsity-blue bg-white",
         )}
       />
       <p className={cn("text-[15px] font-bold", past ? "text-ink-3" : "text-ink")}>{date}</p>
@@ -325,7 +325,7 @@ export function ProvenanceCard({
           href={sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex min-h-11 items-center gap-1.5 font-bold text-kick-blue hover:underline"
+          className="inline-flex min-h-11 items-center gap-1.5 font-bold text-varsity-blue hover:underline"
         >
           View the source page <ExternalLink aria-hidden="true" className="size-4" />
           <span className="sr-only">(opens in a new tab)</span>
@@ -335,7 +335,7 @@ export function ProvenanceCard({
             href={officialUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-h-11 items-center gap-1.5 font-bold text-kick-blue hover:underline"
+            className="inline-flex min-h-11 items-center gap-1.5 font-bold text-varsity-blue hover:underline"
           >
             Official source <ExternalLink aria-hidden="true" className="size-4" />
             <span className="sr-only">(opens in a new tab)</span>

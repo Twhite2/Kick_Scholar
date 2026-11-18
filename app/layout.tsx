@@ -30,10 +30,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 // manifest.webmanifest, opengraph-image.png, twitter-image.png).
 export const metadata: Metadata = {
   ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
-  title: { template: "%s | KickScholar", default: "KickScholar" },
+  title: { template: "%s | VarsityFind", default: "VarsityFind" },
   description: "Find universities and scholarships you actually qualify for.",
-  applicationName: "KickScholar",
-  openGraph: { siteName: "KickScholar", type: "website", locale: "en_GB" },
+  applicationName: "VarsityFind",
+  openGraph: { siteName: "VarsityFind", type: "website", locale: "en_GB" },
   twitter: { card: "summary_large_image" },
 };
 

@@ -62,9 +62,9 @@ export function Pagination({
 }) {
   if (totalPages <= 1) return null;
 
-  // 44px pills; the current page is Kick Blue (docs/ui-remodel.md §9.6).
+  // 44px pills; the current page is Varsity Blue (docs/ui-remodel.md §9.6).
   const linkClass =
-    "inline-flex h-11 min-w-11 items-center justify-center rounded-full border border-line-strong bg-white px-4 text-[15px] font-bold text-ink tabular-nums transition-colors hover:border-kick-blue hover:text-kick-blue";
+    "inline-flex h-11 min-w-11 items-center justify-center rounded-full border border-line-strong bg-white px-4 text-[15px] font-bold text-ink tabular-nums transition-colors hover:border-varsity-blue hover:text-varsity-blue";
   const disabledClass =
     "inline-flex h-11 min-w-11 items-center justify-center rounded-full border border-line px-4 text-[15px] font-bold text-ink-3 opacity-60";
 
@@ -94,7 +94,7 @@ export function Pagination({
             aria-current={entry === page ? "page" : undefined}
             className={cn(
               linkClass,
-              entry === page && "border-kick-blue bg-kick-blue text-white hover:bg-kick-blue hover:text-white",
+              entry === page && "border-varsity-blue bg-varsity-blue text-white hover:bg-varsity-blue hover:text-white",
             )}
           >
             {entry}

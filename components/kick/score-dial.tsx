@@ -42,7 +42,7 @@ export function ScoreDial({
       : STRENGTH_ACCENT[strength]
     : tone === "night"
       ? "var(--on-night-link)"
-      : "var(--kick-blue)";
+      : "var(--varsity-blue)";
 
   return (
     <div

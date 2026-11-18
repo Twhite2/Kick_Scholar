@@ -17,7 +17,7 @@ const WIKIDATA_SPARQL = "https://query.wikidata.org/sparql";
 const BATCH_SIZE = 50;
 
 const USER_AGENT =
-  "KickScholarBot/0.1 (+https://kickscholar.example; educational-data-research)";
+  "VarsityFindBot/0.1 (+https://varsityfind.example; educational-data-research)";
 
 /**
  * Every Wikidata class that is a `subclass of*` "higher education

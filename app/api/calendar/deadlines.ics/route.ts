@@ -67,7 +67,7 @@ export async function GET(request: Request) {
 
   const origin = new URL(request.url).origin;
   const stamp = `${new Date().toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`;
-  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//KickScholar//Deadlines//EN", "CALSCALE:GREGORIAN", "X-WR-CALNAME:KickScholar deadlines"];
+  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//VarsityFind//Deadlines//EN", "CALSCALE:GREGORIAN", "X-WR-CALNAME:VarsityFind deadlines"];
   for (const d of deadlines) {
     if (!d.date) continue;
     const intake = intakeLabel(d.intake);
@@ -76,7 +76,7 @@ export async function GET(request: Request) {
     const end = new Date(d.date.getTime() + 86_400_000);
     lines.push(
       "BEGIN:VEVENT",
-      `UID:${d.id}@kickscholar`,
+      `UID:${d.id}@varsityfind`,
       `DTSTAMP:${stamp}`,
       `DTSTART;VALUE=DATE:${day(d.date)}`,
       `DTEND;VALUE=DATE:${day(end)}`,
@@ -90,7 +90,7 @@ export async function GET(request: Request) {
   return new Response(`${lines.join("\r\n")}\r\n`, {
     headers: {
       "Content-Type": "text/calendar; charset=utf-8",
-      "Content-Disposition": 'attachment; filename="kickscholar-deadlines.ics"',
+      "Content-Disposition": 'attachment; filename="varsityfind-deadlines.ics"',
       "Cache-Control": "private, no-store",
     },
   });

@@ -14,7 +14,7 @@ import { SourceBadge, Pill } from "../badges";
 import { scholarshipDeadlineText } from "../funding-poster";
 
 const rowClass = "relative flex items-center gap-4 rounded-tile bg-white px-4 py-3.5 shadow-hairline transition-shadow can-hover:hover:shadow-preview";
-const stretched = "before:absolute before:inset-0 before:rounded-tile before:content-[''] hover:text-kick-blue";
+const stretched = "before:absolute before:inset-0 before:rounded-tile before:content-[''] hover:text-varsity-blue";
 
 /** Programme as a list row (§9.6 list view). */
 export function ProgrammeRow({ card, now = new Date() }: { card: ProgrammeCardData; now?: Date }) {
@@ -37,7 +37,7 @@ export function ProgrammeRow({ card, now = new Date() }: { card: ProgrammeCardDa
         <ul role="list" className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-sm">
           {card.bestFunding && (
             <li className={cn("flex items-center gap-1.5", card.bestFunding.positive ? "font-bold text-green-text" : "text-ink-2")}>
-              <Coins aria-hidden="true" className={cn("size-4", card.bestFunding.positive ? "text-kick-green" : "text-ink-3")} />
+              <Coins aria-hidden="true" className={cn("size-4", card.bestFunding.positive ? "text-find-green" : "text-ink-3")} />
               {card.bestFunding.label}
             </li>
           )}
@@ -48,7 +48,7 @@ export function ProgrammeRow({ card, now = new Date() }: { card: ProgrammeCardDa
             </li>
           )}
           {days !== null && days >= 0 && (
-            <li className={cn("flex items-center gap-1.5", isUrgent(days) ? "font-bold text-kick-red" : "text-ink-2")}>
+            <li className={cn("flex items-center gap-1.5", isUrgent(days) ? "font-bold text-alert-red" : "text-ink-2")}>
               <Clock aria-hidden="true" className="size-4" />
               {closesIn(days)}
             </li>
@@ -78,7 +78,7 @@ export function ScholarshipRow({ card, now = new Date() }: { card: ScholarshipCa
         <p className="mt-0.5 truncate type-meta text-ink-3">{card.provider.name}</p>
         <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-sm">
           <span className="flex items-center gap-1.5 font-bold text-green-text">
-            <Coins aria-hidden="true" className="size-4 text-kick-green" />
+            <Coins aria-hidden="true" className="size-4 text-find-green" />
             {COVERAGE_LABEL[card.coverage]}
             {amount.confirmed && (
               <span className="text-ink-2">
@@ -87,7 +87,7 @@ export function ScholarshipRow({ card, now = new Date() }: { card: ScholarshipCa
               </span>
             )}
           </span>
-          <span className={cn(urgent ? "font-bold text-kick-red" : "text-ink-3")}>{scholarshipDeadlineText(card, now)}</span>
+          <span className={cn(urgent ? "font-bold text-alert-red" : "text-ink-3")}>{scholarshipDeadlineText(card, now)}</span>
           <SourceBadge verified={card.sourceVerified} className="relative z-10" />
         </div>
       </div>

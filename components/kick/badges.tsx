@@ -96,7 +96,7 @@ export function Pill({
         PILL,
         tone === "night" && "bg-white/10 text-[#E3EBF4]",
         tone === "light" && "bg-grey-tint text-slate",
-        tone === "blue" && "bg-blue-tint text-kick-blue",
+        tone === "blue" && "bg-blue-tint text-varsity-blue",
         className,
       )}
     >

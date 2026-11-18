@@ -17,7 +17,7 @@ export const STAGE_LABEL: Record<ApplicationStage, string> = {
 const STAGE_CLASS: Record<ApplicationStage, string> = {
   SAVED: "bg-grey-tint text-slate",
   PLANNING: "bg-grey-tint text-slate",
-  IN_PROGRESS: "bg-blue-tint text-kick-blue",
+  IN_PROGRESS: "bg-blue-tint text-varsity-blue",
   SUBMITTED: "bg-green-tint text-green-text",
   ACCEPTED: "bg-green-tint text-green-text",
   REJECTED: "bg-red-tint text-red-text",
@@ -61,7 +61,7 @@ export function ApplicationProgressCard({ app, now = new Date() }: { app: Applic
           aria-valuemax={100}
           aria-valuenow={pct}
         >
-          <div className="h-full rounded-full bg-kick-blue" style={{ width: `${pct}%` }} />
+          <div className="h-full rounded-full bg-varsity-blue" style={{ width: `${pct}%` }} />
         </div>
       </div>
       <div className="flex items-center justify-between gap-3">
@@ -71,7 +71,7 @@ export function ApplicationProgressCard({ app, now = new Date() }: { app: Applic
         </p>
         <Link
           href={`/plan?tab=applications#app-${app.id}`}
-          className="inline-flex h-11 shrink-0 items-center rounded-full bg-blue-tint px-5 text-[15px] font-bold text-kick-blue hover:bg-[#d6e6f5]"
+          className="inline-flex h-11 shrink-0 items-center rounded-full bg-blue-tint px-5 text-[15px] font-bold text-varsity-blue hover:bg-[#d6e6f5]"
         >
           Continue<span className="sr-only"> with {app.title}</span>
         </Link>

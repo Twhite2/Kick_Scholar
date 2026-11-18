@@ -33,7 +33,7 @@ export function ScholarshipSection() {
             Find funding alongside the degree you&apos;re applying for.
           </h2>
           <p className="mt-3 max-w-xl text-muted-foreground">
-            KickScholar doesn&apos;t only match universities — it surfaces
+            VarsityFind doesn&apos;t only match universities — it surfaces
             the funding opportunities that go with them.
           </p>
         </Reveal>

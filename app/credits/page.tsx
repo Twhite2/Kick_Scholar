@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { prisma } from "@/lib/db";
-import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
+import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
 
 export const metadata: Metadata = { title: "Photo credits" };
 export const dynamic = "force-dynamic";
@@ -20,8 +20,8 @@ export default async function CreditsPage() {
   return (
     <main className="min-h-screen pb-16">
       <div className="px-gutter py-6">
-        <Link href="/" aria-label="KickScholar home" className="inline-flex min-h-11 items-center">
-          <KickScholarLogo aria-hidden className="h-7 w-auto" />
+        <Link href="/" aria-label="VarsityFind home" className="inline-flex min-h-11 items-center">
+          <VarsityFindLogo aria-hidden className="h-7 w-auto" />
         </Link>
       </div>
       <div className="box-content max-w-[860px] px-gutter">
@@ -36,7 +36,7 @@ export default async function CreditsPage() {
           <ul role="list" className="mt-8 divide-y divide-line rounded-panel bg-white shadow-hairline">
             {photos.map((p) => (
               <li key={p.id} className="flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
-                <Link href={`/institutions/${p.id}`} className="font-bold text-ink hover:text-kick-blue">
+                <Link href={`/institutions/${p.id}`} className="font-bold text-ink hover:text-varsity-blue">
                   {p.name}
                 </Link>
                 <p className="text-sm text-ink-3">

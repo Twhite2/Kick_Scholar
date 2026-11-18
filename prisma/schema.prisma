@@ -1,4 +1,4 @@
-// KickScholar data model.
+// VarsityFind data model.
 
 generator client {
   provider        = "prisma-client"
@@ -659,7 +659,7 @@ model ScholarshipEligibility {
 // @auth/prisma-adapter's PrismaAdapter hardcodes `prisma.user.*` calls — the
 // Prisma model backing Auth.js identity must literally be named `User`. It
 // plays exactly the role the spec describes as "Student": the authenticated
-// person using KickScholar. Domain-specific fields live on StudentProfile.
+// person using VarsityFind. Domain-specific fields live on StudentProfile.
 // ---------------------------------------------------------------------------
 
 model User {

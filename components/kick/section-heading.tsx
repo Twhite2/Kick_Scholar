@@ -37,7 +37,7 @@ export function SectionHeading({
 /** Blue "4 new since Friday" pill next to a rail heading. */
 export function NewPill({ children }: { children: React.ReactNode }) {
   return (
-    <span className="inline-flex h-7 items-center rounded-full bg-blue-tint px-2.5 type-caption text-kick-blue tabular-nums">
+    <span className="inline-flex h-7 items-center rounded-full bg-blue-tint px-2.5 type-caption text-varsity-blue tabular-nums">
       {children}
     </span>
   );

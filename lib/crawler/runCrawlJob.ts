@@ -10,8 +10,10 @@ import type { CrawlManifest } from "./types";
 
 const REPO_ROOT = path.resolve(import.meta.dirname, "..", "..");
 // venv layout differs by platform: Scripts/python.exe on Windows, bin/python
-// elsewhere. KICKSCHOLAR_PYTHON overrides both (e.g. a system interpreter).
+// elsewhere. VARSITYFIND_PYTHON overrides both (e.g. a system interpreter);
+// KICKSCHOLAR_PYTHON, its name before the rename, still works.
 const VENV_PYTHON =
+  process.env.VARSITYFIND_PYTHON ??
   process.env.KICKSCHOLAR_PYTHON ??
   path.join(
     REPO_ROOT,

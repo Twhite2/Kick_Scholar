@@ -53,7 +53,7 @@ function FieldError({ id, message }: { id: string; message?: string }) {
   if (!message) return null;
   return (
     <p id={id} className="mt-1.5 flex items-center gap-1.5 text-sm font-bold text-red-text">
-      <CircleAlert aria-hidden="true" className="size-4 shrink-0 text-kick-red" />
+      <CircleAlert aria-hidden="true" className="size-4 shrink-0 text-alert-red" />
       {message}
     </p>
   );
@@ -90,8 +90,8 @@ function NationalityPicker({
       <FieldLabel htmlFor={id}>Nationality</FieldLabel>
       <Combobox.InputGroup
         className={cn(
-          "relative flex h-12 items-center rounded-xl border bg-white transition-colors focus-within:border-kick-blue hover:border-ink-3",
-          invalid ? "border-kick-red" : "border-line-strong",
+          "relative flex h-12 items-center rounded-xl border bg-white transition-colors focus-within:border-varsity-blue hover:border-ink-3",
+          invalid ? "border-alert-red" : "border-line-strong",
         )}
       >
         <Combobox.Input
@@ -123,7 +123,7 @@ function NationalityPicker({
                 <Combobox.Item
                   key={item}
                   value={item}
-                  className="flex min-h-11 cursor-default items-center justify-between gap-3 rounded-xl px-3 text-[15px] text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-kick-blue data-selected:font-bold"
+                  className="flex min-h-11 cursor-default items-center justify-between gap-3 rounded-xl px-3 text-[15px] text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-varsity-blue data-selected:font-bold"
                 >
                   {item}
                   <Combobox.ItemIndicator>
@@ -333,7 +333,7 @@ export function ProfileForm({
                         onClick={() => field.onChange(selected ? field.value.filter((c) => c !== code) : [...field.value, code])}
                         className={cn(
                           "inline-flex h-11 items-center gap-2 rounded-full border px-4 text-[15px] font-bold transition-colors",
-                          selected ? "border-kick-blue bg-blue-tint text-kick-blue" : "border-line-strong bg-white text-ink hover:border-kick-blue",
+                          selected ? "border-varsity-blue bg-blue-tint text-varsity-blue" : "border-line-strong bg-white text-ink hover:border-varsity-blue",
                         )}
                       >
                         <CountryFlag code={code} />
@@ -462,13 +462,13 @@ export function ProfileForm({
         <div role="status" aria-live="polite" className="min-w-0 flex-1 text-[15px]">
           {serverError && (
             <p className="flex items-center gap-2 font-bold text-red-text">
-              <CircleAlert aria-hidden="true" className="size-4 shrink-0 text-kick-red" />
+              <CircleAlert aria-hidden="true" className="size-4 shrink-0 text-alert-red" />
               {serverError}
             </p>
           )}
           {!serverError && Object.keys(errors).length > 0 && (
             <p className="flex items-center gap-2 font-bold text-red-text">
-              <CircleAlert aria-hidden="true" className="size-4 shrink-0 text-kick-red" />
+              <CircleAlert aria-hidden="true" className="size-4 shrink-0 text-alert-red" />
               Some details need fixing before we can save.
             </p>
           )}

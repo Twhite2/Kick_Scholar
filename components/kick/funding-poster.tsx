@@ -117,7 +117,7 @@ export function FundingPoster({
         <h3 className="type-card-title clamp-2 text-ink">
           <Link
             href={`/scholarships/${card.id}`}
-            className="before:absolute before:inset-0 before:z-0 before:rounded-poster before:content-[''] hover:text-kick-blue"
+            className="before:absolute before:inset-0 before:z-0 before:rounded-poster before:content-[''] hover:text-varsity-blue"
           >
             {card.title}
           </Link>
@@ -125,7 +125,7 @@ export function FundingPoster({
         <p className="truncate type-meta text-ink-3">{card.provider.name}</p>
         <div className={cn("flex flex-wrap items-center justify-between gap-2", compact ? "mt-3" : "mt-auto")}>
           <SourceBadge verified={card.sourceVerified} className="relative z-10" />
-          <span className={cn("text-[13px]", urgent ? "font-bold text-kick-red" : "text-ink-3")}>{deadline}</span>
+          <span className={cn("text-[13px]", urgent ? "font-bold text-alert-red" : "text-ink-3")}>{deadline}</span>
         </div>
       </div>
     </article>

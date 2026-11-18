@@ -21,7 +21,7 @@ export function NotFoundPanel({
         aria-labelledby="not-found-title"
         className={cn("mx-auto flex max-w-xl flex-col items-start gap-4 px-gutter py-16 md:py-24", night && "text-white")}
       >
-        <Compass aria-hidden="true" className={cn("size-8", night ? "text-on-night-link" : "text-kick-blue")} />
+        <Compass aria-hidden="true" className={cn("size-8", night ? "text-on-night-link" : "text-varsity-blue")} />
         <h1 id="not-found-title" className="type-page-h1">
           We can&apos;t find that {thing}
         </h1>

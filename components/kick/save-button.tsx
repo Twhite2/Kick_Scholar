@@ -79,7 +79,7 @@ export function SaveButton({
         <span
           className={cn(
             "inline-flex size-9 items-center justify-center rounded-full bg-white shadow-tile-on-image transition-colors",
-            saved ? "text-kick-blue" : "text-ink group-hover/save:text-kick-blue",
+            saved ? "text-varsity-blue" : "text-ink group-hover/save:text-varsity-blue",
           )}
         >
           {icon}
@@ -96,8 +96,8 @@ export function SaveButton({
       aria-pressed={saved}
       aria-label={`Save ${title}`}
       className={cn(
-        "inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-line-strong bg-white transition-colors hover:border-kick-blue",
-        saved ? "text-kick-blue" : "text-ink",
+        "inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-line-strong bg-white transition-colors hover:border-varsity-blue",
+        saved ? "text-varsity-blue" : "text-ink",
         className,
       )}
     >

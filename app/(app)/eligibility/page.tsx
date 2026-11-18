@@ -25,7 +25,7 @@ function AdviceRow({ advice, tone }: { advice: RankedAdvice; tone: "red" | "blue
       <div className="flex items-start justify-between gap-4">
         <div className="min-w-0">
           {tone === "blue" ? (
-            <Link href={actionHref(advice.text)} className="text-[15px] font-bold text-kick-blue hover:underline">
+            <Link href={actionHref(advice.text)} className="text-[15px] font-bold text-varsity-blue hover:underline">
               {advice.text}
             </Link>
           ) : (
@@ -42,7 +42,7 @@ function AdviceRow({ advice, tone }: { advice: RankedAdvice; tone: "red" | "blue
           {advice.examples.map((e, i) => (
             <span key={e.href}>
               {i > 0 && ", "}
-              <Link href={e.href} className="font-bold text-kick-blue hover:underline">
+              <Link href={e.href} className="font-bold text-varsity-blue hover:underline">
                 {e.name}
               </Link>
             </span>
@@ -65,7 +65,7 @@ export default async function EligibilityPage() {
       <div className="box-content max-w-[640px] px-gutter py-16">
         <h1 className="type-page-h1 text-ink">Eligibility report</h1>
         <p className="mt-3 text-base text-ink-3">Complete your profile first to see your eligibility breakdown.</p>
-        <Link href="/profile" className="mt-6 inline-flex h-12 items-center rounded-full bg-kick-blue px-6 font-bold text-white hover:bg-kick-blue-hover">
+        <Link href="/profile" className="mt-6 inline-flex h-12 items-center rounded-full bg-varsity-blue px-6 font-bold text-white hover:bg-varsity-blue-hover">
           Complete your profile
         </Link>
       </div>
@@ -125,7 +125,7 @@ export default async function EligibilityPage() {
       {report.blockers.length > 0 && (
         <section aria-labelledby="blockers-title">
           <h2 id="blockers-title" className="flex items-center gap-2 type-section-h2 text-ink">
-            <CircleAlert aria-hidden="true" className="size-6 text-kick-red" />
+            <CircleAlert aria-hidden="true" className="size-6 text-alert-red" />
             What&apos;s holding your score back
           </h2>
           <p className="mt-1 type-body-sm text-ink-3">Ordered by how many of your matches each one affects.</p>
@@ -145,7 +145,7 @@ export default async function EligibilityPage() {
       {report.recommendedActions.length > 0 && (
         <section aria-labelledby="actions-title">
           <h2 id="actions-title" className="flex items-center gap-2 type-section-h2 text-ink">
-            <TrendingUp aria-hidden="true" className="size-6 text-kick-blue" />
+            <TrendingUp aria-hidden="true" className="size-6 text-varsity-blue" />
             What you can do to improve it
           </h2>
           <p className="mt-1 type-body-sm text-ink-3">Biggest win first, by how many opportunities it would unlock.</p>
@@ -165,7 +165,7 @@ export default async function EligibilityPage() {
               Your strongest matches
             </h2>
             {/* Target kept as before; see open question 7 in docs/ui-remodel.md. */}
-            <Link href="/scholarships" className="inline-flex min-h-11 items-center gap-1.5 text-[15px] font-bold text-kick-blue hover:underline">
+            <Link href="/scholarships" className="inline-flex min-h-11 items-center gap-1.5 text-[15px] font-bold text-varsity-blue hover:underline">
               Browse all <ArrowRight aria-hidden="true" className="size-4" />
             </Link>
           </div>

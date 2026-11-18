@@ -272,7 +272,7 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
             href={s.applicationUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-12 items-center gap-2 rounded-full border border-line-strong bg-white px-5 text-base font-bold text-ink hover:border-kick-blue hover:text-kick-blue"
+            className="inline-flex h-12 items-center gap-2 rounded-full border border-line-strong bg-white px-5 text-base font-bold text-ink hover:border-varsity-blue hover:text-varsity-blue"
           >
             Apply now <ExternalLink aria-hidden="true" className="size-[18px]" />
             <span className="sr-only">(opens in a new tab)</span>
@@ -320,7 +320,7 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
                 </div>
               ) : (
                 <p className="text-[15px] text-ink-3">
-                  <Link href="/profile" className="font-bold text-kick-blue hover:underline">
+                  <Link href="/profile" className="font-bold text-varsity-blue hover:underline">
                     Complete your profile
                   </Link>{" "}
                   to see why you match this scholarship.
@@ -366,7 +366,7 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
                           Application deadline
                           {intakeLabel(d.intake) && <span className="block text-sm font-normal text-ink-3">{intakeLabel(d.intake)}</span>}
                         </span>
-                        <span className="shrink-0 text-[15px] font-bold text-kick-red tabular-nums">{formatFullDate(d.date!)}</span>
+                        <span className="shrink-0 text-[15px] font-bold text-alert-red tabular-nums">{formatFullDate(d.date!)}</span>
                       </li>
                     ))}
                   </ul>
@@ -379,7 +379,7 @@ export default async function ScholarshipPage({ params }: PageProps<"/scholarshi
                   href={s.applicationUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex h-12 items-center gap-2 rounded-full bg-kick-blue px-6 text-base font-bold text-white hover:bg-kick-blue-hover"
+                  className="inline-flex h-12 items-center gap-2 rounded-full bg-varsity-blue px-6 text-base font-bold text-white hover:bg-varsity-blue-hover"
                 >
                   Apply now <ExternalLink aria-hidden="true" className="size-[18px]" />
                   <span className="sr-only">(opens in a new tab)</span>
@@ -439,17 +439,17 @@ function NoLongerListed({ name, providerName, sourceUrl }: { name: string; provi
             This was a page from {providerName}&apos;s website, not a scholarship you can apply for, so it has been taken out of the catalogue.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link href="/scholarships" className="inline-flex h-11 items-center rounded-full bg-kick-blue px-5 text-[15px] font-bold text-white">
+            <Link href="/scholarships" className="inline-flex h-11 items-center rounded-full bg-varsity-blue px-5 text-[15px] font-bold text-white">
               Browse scholarships
             </Link>
-            <Link href="/plan?tab=saved" className="inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-kick-blue">
+            <Link href="/plan?tab=saved" className="inline-flex h-11 items-center rounded-full border border-line-strong bg-white px-5 text-[15px] font-bold text-ink hover:border-varsity-blue">
               Open My plan
             </Link>
             <a
               href={sourceUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex h-11 items-center gap-1.5 rounded-full px-3 text-[15px] font-bold text-kick-blue hover:underline"
+              className="inline-flex h-11 items-center gap-1.5 rounded-full px-3 text-[15px] font-bold text-varsity-blue hover:underline"
             >
               The page on {providerName.split(" (")[0]}&apos;s site
               <ExternalLink aria-hidden="true" className="size-4" />

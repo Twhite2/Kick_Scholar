@@ -51,7 +51,7 @@
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
 
-  /* KickScholar colour language (docs/ui-remodel.md §5.1). Colour carries
+  /* VarsityFind colour language (docs/ui-remodel.md §5.1). Colour carries
      meaning only: blue = discovery and actions, green = money and
      qualification, red = deadlines and missing requirements. */
   --color-success: var(--success);
@@ -68,13 +68,13 @@
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
   --color-track: var(--track);
-  --color-kick-blue: var(--kick-blue);
-  --color-kick-blue-hover: var(--kick-blue-hover);
+  --color-varsity-blue: var(--varsity-blue);
+  --color-varsity-blue-hover: var(--varsity-blue-hover);
   --color-blue-tint: var(--blue-tint);
-  --color-kick-green: var(--kick-green);
+  --color-find-green: var(--find-green);
   --color-green-text: var(--green-text);
   --color-green-tint: var(--green-tint);
-  --color-kick-red: var(--kick-red);
+  --color-alert-red: var(--alert-red);
   --color-red-text: var(--red-text);
   --color-red-deep: var(--red-deep);
   --color-red-tint: var(--red-tint);
@@ -97,7 +97,7 @@
   /* Elevation: only these five (§5.4). */
   --shadow-hairline: 0 1px 2px rgba(7, 29, 51, 0.06), 0 0 0 1px var(--line);
   --shadow-raised: 0 22px 48px rgba(7, 29, 51, 0.18), 0 2px 6px rgba(7, 29, 51, 0.08);
-  --shadow-preview: 0 22px 44px rgba(7, 29, 51, 0.2), 0 0 0 2px var(--kick-blue);
+  --shadow-preview: 0 22px 44px rgba(7, 29, 51, 0.2), 0 0 0 2px var(--varsity-blue);
   --shadow-tile-on-image: 0 0 0 1px rgba(14, 27, 42, 0.06), 0 6px 16px rgba(7, 29, 51, 0.18);
   --shadow-tile-on-white: 0 0 0 1px #e1e6ec;
 
@@ -125,14 +125,14 @@
   --line: #e4e9ef;
   --line-strong: #c9d3de;
   --track: #e5eaf0;
-  --kick-blue: #0b4f8c;
-  --kick-blue-hover: #083a68;
+  --varsity-blue: #0b4f8c;
+  --varsity-blue-hover: #083a68;
   --blue-tint: #e7f0f9;
-  /* Kick Green is for icons, arcs, bars and text of 24px or more (4.25:1). */
-  --kick-green: #2e8b57;
+  /* Find Green is for icons, arcs, bars and text of 24px or more (4.25:1). */
+  --find-green: #2e8b57;
   --green-text: #1f7a4d;
   --green-tint: #e6f4ec;
-  --kick-red: #c62828;
+  --alert-red: #c62828;
   --red-text: #b3261e;
   --red-deep: #8e1f1a;
   --red-tint: #fdecec;
@@ -163,15 +163,15 @@
   --card-foreground: var(--ink);
   --popover: #ffffff;
   --popover-foreground: var(--ink);
-  --primary: var(--kick-blue);
+  --primary: var(--varsity-blue);
   --primary-foreground: #ffffff;
   --secondary: var(--blue-tint);
-  --secondary-foreground: var(--kick-blue);
+  --secondary-foreground: var(--varsity-blue);
   --muted: var(--grey-tint);
   --muted-foreground: var(--ink-3);
   --accent: var(--blue-tint);
-  --accent-foreground: var(--kick-blue);
-  --destructive: var(--kick-red);
+  --accent-foreground: var(--varsity-blue);
+  --destructive: var(--alert-red);
   --destructive-foreground: #ffffff;
   --success: var(--green-text);
   --success-foreground: #ffffff;
@@ -180,18 +180,18 @@
   --border: var(--line);
   --input: var(--line-strong);
   --ring: var(--focus);
-  --chart-1: var(--kick-blue);
-  --chart-2: var(--kick-green);
-  --chart-3: var(--kick-red);
+  --chart-1: var(--varsity-blue);
+  --chart-2: var(--find-green);
+  --chart-3: var(--alert-red);
   --chart-4: var(--unverified);
   --chart-5: var(--slate);
   --radius: 0.625rem;
   --sidebar: #ffffff;
   --sidebar-foreground: var(--ink);
-  --sidebar-primary: var(--kick-blue);
+  --sidebar-primary: var(--varsity-blue);
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: var(--blue-tint);
-  --sidebar-accent-foreground: var(--kick-blue);
+  --sidebar-accent-foreground: var(--varsity-blue);
   --sidebar-border: var(--line);
   --sidebar-ring: var(--focus);
 }

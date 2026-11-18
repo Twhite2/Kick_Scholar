@@ -1,10 +1,10 @@
-You are working on the KickScholar frontend.
+You are working on the VarsityFind frontend.
 
 I want you to redesign the landing page into a polished, premium, modern education/academic-intelligence platform.
 
 IMPORTANT:
 Do NOT simply tweak the existing hero section.
-Treat this as a full landing-page design upgrade while preserving the existing KickScholar identity, color scheme, functionality, routes, authentication behavior, and existing project architecture.
+Treat this as a full landing-page design upgrade while preserving the existing VarsityFind identity, color scheme, functionality, routes, authentication behavior, and existing project architecture.
 
 First inspect the existing codebase and understand:
 - Framework
@@ -22,11 +22,11 @@ Do not replace working infrastructure unnecessarily.
 PRODUCT CONTEXT
 ==================================================
 
-KickScholar helps students discover universities and scholarships they actually qualify for.
+VarsityFind helps students discover universities and scholarships they actually qualify for.
 
 The core product proposition is:
 
-"Tell KickScholar about yourself, and it tells you where you can realistically study and what funding opportunities you can pursue."
+"Tell VarsityFind about yourself, and it tells you where you can realistically study and what funding opportunities you can pursue."
 
 The platform should communicate that it is NOT just another scholarship listing website.
 
@@ -70,23 +70,23 @@ I want the new page to feel like a real, funded, modern technology startup — s
 
 But DO NOT copy any of these websites.
 
-KickScholar should have its own visual identity.
+VarsityFind should have its own visual identity.
 
 ==================================================
 COLOR SYSTEM
 ==================================================
 
-Preserve the existing KickScholar color direction. The shipped palette is the
+Preserve the existing VarsityFind color direction. The shipped palette is the
 source of truth (updated for the UI remodel; full token list in
 docs/ui-remodel.md §5.1):
 
-Kick Blue (primary, discovery, actions):
+Varsity Blue (primary, discovery, actions):
 #0B4F8C
 
-Kick Green (money, qualification):
+Find Green (money, qualification):
 #2E8B57  (icons, bars and text of 24px or more; use #1F7A4D for smaller text)
 
-Kick Red (deadlines, missing requirements):
+Alert Red (deadlines, missing requirements):
 #C62828
 
 Night (immersive surfaces: Home billboard, detail banners):
@@ -202,7 +202,7 @@ SECTION 1 — NAVIGATION
 Keep a clean top navigation.
 
 Left:
-KickScholar logo/wordmark.
+VarsityFind logo/wordmark.
 
 Right:
 - How it works
@@ -237,11 +237,11 @@ Use selective color emphasis:
 "scholarships"
 "qualify for"
 
-Use the KickScholar blue and green.
+Use the VarsityFind blue and green.
 
 Supporting copy:
 
-"KickScholar matches your academic profile against real, sourced eligibility data — so you can discover opportunities that fit you, understand why you qualify, and know what to do next."
+"VarsityFind matches your academic profile against real, sourced eligibility data — so you can discover opportunities that fit you, understand why you qualify, and know what to do next."
 
 CTA:
 
@@ -264,7 +264,7 @@ Do NOT leave the hero as mostly empty white space.
 
 Create a sophisticated interactive visual on the right side or beneath the headline.
 
-The visual should represent the KickScholar matching engine.
+The visual should represent the VarsityFind matching engine.
 
 For example:
 
@@ -335,7 +335,7 @@ For example:
 SECTION 4 — THE PROBLEM
 ==================================================
 
-Introduce the problem KickScholar solves.
+Introduce the problem VarsityFind solves.
 
 Heading:
 
@@ -353,7 +353,7 @@ Visually represent this as a messy fragmented process.
 
 Then transition into:
 
-"KickScholar brings it together."
+"VarsityFind brings it together."
 
 Use a subtle animation showing many fragmented sources converging into one organized profile.
 
@@ -370,7 +370,7 @@ Heading:
 Step 01
 "Build your profile"
 
-Tell KickScholar about your:
+Tell VarsityFind about your:
 - education
 - grades
 - field
@@ -381,7 +381,7 @@ Tell KickScholar about your:
 Step 02
 "Check your eligibility"
 
-KickScholar compares your profile against sourced university and scholarship requirements.
+VarsityFind compares your profile against sourced university and scholarship requirements.
 
 Step 03
 "Explore your matches"
@@ -412,7 +412,7 @@ SECTION 6 — PRODUCT PREVIEW
 
 This is very important.
 
-Show what the actual KickScholar application/dashboard experience looks like.
+Show what the actual VarsityFind application/dashboard experience looks like.
 
 Create a large browser/dashboard mockup.
 
@@ -479,7 +479,7 @@ English proficiency
 IELTS 6.5
 ⚠ Required
 
-This demonstrates the actual intelligence/value of KickScholar.
+This demonstrates the actual intelligence/value of VarsityFind.
 
 The important idea:
 
@@ -495,7 +495,7 @@ Use red only for clearly failed requirements.
 SECTION 8 — SCHOLARSHIP DISCOVERY
 ==================================================
 
-Create a section explaining that KickScholar doesn't only match universities.
+Create a section explaining that VarsityFind doesn't only match universities.
 
 It also finds funding opportunities.
 
@@ -522,7 +522,7 @@ Heading:
 
 "Eligibility data you can understand."
 
-Explain that KickScholar uses sourced requirements and presents the reasoning behind matches.
+Explain that VarsityFind uses sourced requirements and presents the reasoning behind matches.
 
 Show:
 
@@ -595,7 +595,7 @@ FOOTER
 
 Create a professional footer.
 
-KickScholar
+VarsityFind
 
 Product:
 - Universities
@@ -808,9 +808,9 @@ IMPORTANT PRODUCT DESIGN RULE
 The page should tell a story:
 
 1. I have a problem.
-2. KickScholar understands the problem.
+2. VarsityFind understands the problem.
 3. I create my profile.
-4. KickScholar evaluates me.
+4. VarsityFind evaluates me.
 5. I see universities I qualify for.
 6. I see scholarships I qualify for.
 7. I understand WHY I qualify.
@@ -925,7 +925,7 @@ Most importantly:
 
 DO NOT stop after making the hero prettier.
 
-I want a complete, high-quality landing page redesign that communicates the KickScholar product clearly and makes the current screenshot feel like an early prototype.
+I want a complete, high-quality landing page redesign that communicates the VarsityFind product clearly and makes the current screenshot feel like an early prototype.
 
 The final result should feel like:
 

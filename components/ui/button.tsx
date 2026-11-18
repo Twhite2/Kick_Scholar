@@ -10,13 +10,13 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-kick-blue text-white hover:bg-kick-blue-hover",
+        default: "bg-varsity-blue text-white hover:bg-varsity-blue-hover",
         outline:
-          "border-line-strong bg-white text-ink hover:border-kick-blue hover:text-kick-blue aria-expanded:border-kick-blue",
-        secondary: "bg-blue-tint text-kick-blue hover:bg-[#d6e6f5]",
+          "border-line-strong bg-white text-ink hover:border-varsity-blue hover:text-varsity-blue aria-expanded:border-varsity-blue",
+        secondary: "bg-blue-tint text-varsity-blue hover:bg-[#d6e6f5]",
         ghost: "text-ink hover:bg-grey-tint aria-expanded:bg-grey-tint",
-        destructive: "bg-kick-red text-white hover:bg-red-deep",
-        link: "h-auto! rounded-none px-0! text-kick-blue underline-offset-4 hover:underline",
+        destructive: "bg-alert-red text-white hover:bg-red-deep",
+        link: "h-auto! rounded-none px-0! text-varsity-blue underline-offset-4 hover:underline",
         white: "bg-white text-ink hover:bg-[#E3EBF4]",
         outlineNight: "border-white/45 bg-transparent text-white hover:bg-white/10",
       },

@@ -1,4 +1,4 @@
-// The study destinations KickScholar covers: every country with institutions
+// The study destinations VarsityFind covers: every country with institutions
 // in the catalogue, from the original European list to the destinations of
 // the scholarships now carried (Japan for MEXT, Türkiye for Türkiye
 // Burslari, China, Australia, and the Erasmus Mundus partner countries).

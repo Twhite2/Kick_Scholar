@@ -21,7 +21,7 @@ export function UnlockCard({ unlock, className }: { unlock: UnlockData; classNam
           aria-hidden="true"
           className="inline-flex size-[52px] shrink-0 items-center justify-center rounded-[14px] bg-blue-tint"
         >
-          <KeyRound className="size-[26px] text-kick-blue" />
+          <KeyRound className="size-[26px] text-varsity-blue" />
         </span>
         <div className="min-w-0">
           <h2 id="unlock-title" className="text-lg leading-snug font-bold text-ink">
@@ -33,14 +33,14 @@ export function UnlockCard({ unlock, className }: { unlock: UnlockData; classNam
       <div className="flex flex-col gap-2 sm:flex-row md:shrink-0">
         <Link
           href={unlock.primary.href}
-          className="inline-flex h-12 items-center justify-center rounded-full bg-kick-blue px-6 text-base font-bold text-white hover:bg-kick-blue-hover"
+          className="inline-flex h-12 items-center justify-center rounded-full bg-varsity-blue px-6 text-base font-bold text-white hover:bg-varsity-blue-hover"
         >
           {unlock.primary.label}
         </Link>
         {unlock.secondary && (
           <Link
             href={unlock.secondary.href}
-            className="inline-flex h-12 items-center justify-center rounded-full border border-line-strong bg-white px-6 text-base font-bold text-ink hover:border-kick-blue hover:text-kick-blue"
+            className="inline-flex h-12 items-center justify-center rounded-full border border-line-strong bg-white px-6 text-base font-bold text-ink hover:border-varsity-blue hover:text-varsity-blue"
           >
             {unlock.secondary.label}
           </Link>

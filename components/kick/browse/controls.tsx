@@ -97,7 +97,7 @@ export function SearchBox({
         onChange={(e) => setValue(e.target.value)}
         placeholder={placeholder}
         autoComplete="off"
-        className="h-12 w-full rounded-full border border-line-strong bg-white pr-4 pl-12 text-base text-ink placeholder:text-ink-3 hover:border-ink-3 focus-visible:border-kick-blue"
+        className="h-12 w-full rounded-full border border-line-strong bg-white pr-4 pl-12 text-base text-ink placeholder:text-ink-3 hover:border-ink-3 focus-visible:border-varsity-blue"
       />
       <p className="sr-only" aria-live="polite">
         {isPending ? "Searching…" : searched ? resultLabel : ""}
@@ -141,8 +141,8 @@ export function FilterChip({
           className={cn(
             chipBase,
             active
-              ? "border-blue-tint bg-blue-tint pr-11 pl-4 text-kick-blue"
-              : "border-line-strong bg-white pr-3 pl-4 text-ink hover:border-kick-blue",
+              ? "border-blue-tint bg-blue-tint pr-11 pl-4 text-varsity-blue"
+              : "border-line-strong bg-white pr-3 pl-4 text-ink hover:border-varsity-blue",
           )}
         >
           {active ? `${label}: ${items[value!]}` : label}
@@ -155,7 +155,7 @@ export function FilterChip({
                 <Select.Item
                   key={o.value}
                   value={o.value}
-                  className="flex min-h-11 cursor-default items-center justify-between gap-3 rounded-xl px-3 text-[15px] text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-kick-blue data-selected:font-bold"
+                  className="flex min-h-11 cursor-default items-center justify-between gap-3 rounded-xl px-3 text-[15px] text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-varsity-blue data-selected:font-bold"
                 >
                   <Select.ItemText>{o.label}</Select.ItemText>
                   <Select.ItemIndicator>
@@ -172,7 +172,7 @@ export function FilterChip({
           type="button"
           onClick={() => update({ [paramKey]: null })}
           aria-label={`Clear ${label.toLowerCase()} filter`}
-          className="relative z-10 -ml-10 inline-flex size-9 items-center justify-center rounded-full text-kick-blue hover:bg-white/70"
+          className="relative z-10 -ml-10 inline-flex size-9 items-center justify-center rounded-full text-varsity-blue hover:bg-white/70"
         >
           <X aria-hidden="true" className="size-4" />
         </button>
@@ -193,7 +193,7 @@ export function QualifyChip() {
       className={cn(
         chipBase,
         "px-4",
-        on ? "border-green-tint bg-green-tint text-green-text" : "border-line-strong bg-white text-ink hover:border-kick-blue",
+        on ? "border-green-tint bg-green-tint text-green-text" : "border-line-strong bg-white text-ink hover:border-varsity-blue",
       )}
     >
       {on && <Check aria-hidden="true" className="size-4" />}I qualify
@@ -209,7 +209,7 @@ export function ClearAll({ keys }: { keys: string[] }) {
     <button
       type="button"
       onClick={() => update(Object.fromEntries(keys.map((k) => [k, null])))}
-      className="inline-flex min-h-11 items-center px-2 text-[15px] font-bold text-kick-blue underline-offset-2 hover:underline"
+      className="inline-flex min-h-11 items-center px-2 text-[15px] font-bold text-varsity-blue underline-offset-2 hover:underline"
     >
       Clear all
     </button>
@@ -224,7 +224,7 @@ export function SortSelect({ options, fallback }: { options: ChipOption[]; fallb
   const items = Object.fromEntries(options.map((o) => [o.value, o.label]));
   return (
     <Select.Root value={value in items ? value : fallback} onValueChange={(v) => update({ sort: v === fallback ? null : (v as string) })} items={items}>
-      <Select.Trigger className={cn(chipBase, "border-line-strong bg-white pr-3 pl-4 text-ink hover:border-kick-blue")}>
+      <Select.Trigger className={cn(chipBase, "border-line-strong bg-white pr-3 pl-4 text-ink hover:border-varsity-blue")}>
         <span className="font-normal text-ink-3">Sort:</span>
         <Select.Value />
         <ChevronDown aria-hidden="true" className="size-4 text-ink-3" />
@@ -236,7 +236,7 @@ export function SortSelect({ options, fallback }: { options: ChipOption[]; fallb
               <Select.Item
                 key={o.value}
                 value={o.value}
-                className="flex min-h-11 cursor-default items-center justify-between gap-3 rounded-xl px-3 text-[15px] text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-kick-blue data-selected:font-bold"
+                className="flex min-h-11 cursor-default items-center justify-between gap-3 rounded-xl px-3 text-[15px] text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-varsity-blue data-selected:font-bold"
               >
                 <Select.ItemText>{o.label}</Select.ItemText>
                 <Select.ItemIndicator>

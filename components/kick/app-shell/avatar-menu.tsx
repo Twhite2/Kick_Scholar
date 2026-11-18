@@ -17,7 +17,7 @@ function initial(user: ShellUser) {
 }
 
 const itemClass =
-  "flex min-h-11 w-full cursor-default items-center rounded-xl px-3 text-[15px] font-bold text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-kick-blue";
+  "flex min-h-11 w-full cursor-default items-center rounded-xl px-3 text-[15px] font-bold text-ink outline-none select-none data-highlighted:bg-blue-tint data-highlighted:text-varsity-blue";
 
 /** Avatar button and account menu (§7.1): Profile, Eligibility report, Data saver, Admin, Sign out. */
 export function AvatarMenu({ user, tone }: { user: ShellUser; tone: "night" | "light" }) {
@@ -28,7 +28,7 @@ export function AvatarMenu({ user, tone }: { user: ShellUser; tone: "night" | "l
       <Menu.Trigger
         aria-label="Account menu"
         className={cn(
-          "inline-flex size-11 shrink-0 items-center justify-center rounded-full bg-kick-blue font-display text-lg font-bold text-white",
+          "inline-flex size-11 shrink-0 items-center justify-center rounded-full bg-varsity-blue font-display text-lg font-bold text-white",
           tone === "night" && "ring-2 ring-white/35",
         )}
       >
@@ -62,7 +62,7 @@ export function AvatarMenu({ user, tone }: { user: ShellUser; tone: "night" | "l
                 aria-hidden="true"
                 className={cn(
                   "relative inline-flex h-7 w-12 shrink-0 rounded-full transition-colors",
-                  on ? "bg-kick-blue" : "bg-line-strong",
+                  on ? "bg-varsity-blue" : "bg-line-strong",
                 )}
               >
                 <span

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { KickScholarLogo } from "@/components/kick/kickscholar-logo";
+import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
 
 // The catalogue needs an account, so signed-out links go to sign-up and come
 // back to the catalogue afterwards (docs/ui-remodel.md §9.11).
@@ -34,8 +34,8 @@ export function LandingNavbar() {
       )}
     >
       <div className="flex h-16 items-center justify-between gap-4 px-gutter md:h-20">
-        <Link href="/" aria-label="KickScholar home" className="inline-flex min-h-11 shrink-0 items-center">
-          <KickScholarLogo aria-hidden tone={scrolled ? "colour" : "reversed"} className="h-[22px] w-auto md:h-7" />
+        <Link href="/" aria-label="VarsityFind home" className="inline-flex min-h-11 shrink-0 items-center">
+          <VarsityFindLogo aria-hidden tone={scrolled ? "colour" : "reversed"} className="h-[22px] w-auto md:h-7" />
         </Link>
 
         <nav aria-label="Main" className="hidden md:block">
@@ -64,7 +64,7 @@ export function LandingNavbar() {
             href="/signup"
             className={cn(
               "inline-flex h-11 items-center rounded-full px-5 text-[15px] font-bold",
-              scrolled ? "bg-kick-blue text-white hover:bg-kick-blue-hover" : "bg-white text-ink hover:bg-[#E3EBF4]",
+              scrolled ? "bg-varsity-blue text-white hover:bg-varsity-blue-hover" : "bg-white text-ink hover:bg-[#E3EBF4]",
             )}
           >
             Sign up
@@ -86,7 +86,7 @@ export function LandingNavbar() {
           <SheetContent side="right" className="w-72 bg-white">
             <SheetHeader>
               <SheetTitle>
-                <KickScholarLogo className="h-6 w-auto" />
+                <VarsityFindLogo className="h-6 w-auto" />
               </SheetTitle>
             </SheetHeader>
             <nav aria-label="Main" className="flex flex-col gap-1 px-3">
@@ -100,7 +100,7 @@ export function LandingNavbar() {
               <Link href="/login" className="inline-flex h-11 items-center justify-center rounded-full border border-line-strong font-bold text-ink">
                 Log in
               </Link>
-              <Link href="/signup" className="inline-flex h-11 items-center justify-center rounded-full bg-kick-blue font-bold text-white">
+              <Link href="/signup" className="inline-flex h-11 items-center justify-center rounded-full bg-varsity-blue font-bold text-white">
                 Sign up
               </Link>
             </div>

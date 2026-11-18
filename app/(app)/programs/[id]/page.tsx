@@ -282,7 +282,7 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
             href={program.programUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-12 items-center gap-2 rounded-full border border-line-strong bg-white px-5 text-base font-bold text-ink hover:border-kick-blue hover:text-kick-blue"
+            className="inline-flex h-12 items-center gap-2 rounded-full border border-line-strong bg-white px-5 text-base font-bold text-ink hover:border-varsity-blue hover:text-varsity-blue"
           >
             Apply on the university site <ExternalLink aria-hidden="true" className="size-[18px]" />
             <span className="sr-only">(opens in a new tab)</span>
@@ -317,7 +317,7 @@ export default async function ProgrammePage({ params, searchParams }: PageProps<
                 </div>
               ) : (
                 <p className="text-[15px] text-ink-3">
-                  <Link href="/profile" className="font-bold text-kick-blue hover:underline">
+                  <Link href="/profile" className="font-bold text-varsity-blue hover:underline">
                     Complete your profile
                   </Link>{" "}
                   to see why you match this programme.

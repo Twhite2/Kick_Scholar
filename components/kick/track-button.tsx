@@ -89,7 +89,7 @@ export function TrackButton({
         disabled={isPending}
         aria-label={`Track ${title}`}
         className={cn(
-          "inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-line-strong bg-white text-ink transition-colors hover:border-kick-blue hover:text-kick-blue disabled:opacity-60",
+          "inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-line-strong bg-white text-ink transition-colors hover:border-varsity-blue hover:text-varsity-blue disabled:opacity-60",
           className,
         )}
       >
@@ -107,8 +107,8 @@ export function TrackButton({
         className={cn(
           "inline-flex shrink-0 items-center justify-center gap-2 rounded-full px-5 font-bold transition-colors disabled:opacity-70",
           variant === "primary"
-            ? "h-12 bg-kick-blue text-base text-white hover:bg-kick-blue-hover"
-            : "h-11 border border-line-strong bg-white text-[15px] text-ink hover:border-kick-blue hover:text-kick-blue",
+            ? "h-12 bg-varsity-blue text-base text-white hover:bg-varsity-blue-hover"
+            : "h-11 border border-line-strong bg-white text-[15px] text-ink hover:border-varsity-blue hover:text-varsity-blue",
           className,
         )}
       >
@@ -116,7 +116,7 @@ export function TrackButton({
         {isPending ? "Adding to My plan…" : variant === "primary" ? "Track this application" : "Track application"}
       </button>
       {error && (
-        <span role="alert" className="text-[13px] font-bold text-kick-red">
+        <span role="alert" className="text-[13px] font-bold text-alert-red">
           {error}
         </span>
       )}

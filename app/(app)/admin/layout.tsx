@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { requireAdmin } from "@/lib/auth-guards";
 import { AdminTabs } from "@/components/admin/admin-tabs";
 
-export const metadata: Metadata = { title: { template: "%s | Admin | KickScholar", default: "Admin" } };
+export const metadata: Metadata = { title: { template: "%s | Admin | VarsityFind", default: "Admin" } };
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   // Admin routes require the ADMIN role, checked on the server — here and in

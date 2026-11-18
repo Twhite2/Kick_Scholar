@@ -1,4 +1,7 @@
-# KickScholar
+# VarsityFind
+
+Formerly KickScholar. The repository (`Kick_Scholar`) and the local database
+(`kickscholar`) keep the old name; everything students see says VarsityFind.
 
 Matches students to study programmes and scholarships using data crawled from
 official sources. Every fact in the product carries its source, authority
@@ -30,7 +33,7 @@ npm run dev
 | `AUTH_SECRET` | yes | Auth.js session signing (`npx auth secret` generates one) |
 | `OPENAI_API_KEY` | only for `--llm` | Extraction enrichment |
 | `EXTRACTION_MODEL` | no | Defaults to `gpt-4o-mini` |
-| `KICKSCHOLAR_PYTHON` | no | Python interpreter for the crawler; defaults to `crawler/.venv` |
+| `VARSITYFIND_PYTHON` | no | Python interpreter for the crawler; defaults to `crawler/.venv` (the old name, `KICKSCHOLAR_PYTHON`, still works) |
 
 Crawler (only needed to fetch new pages):
 

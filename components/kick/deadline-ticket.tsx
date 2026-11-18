@@ -21,7 +21,7 @@ export function DeadlineTicket({ item, now = new Date() }: { item: DeadlineItem;
       <div
         className={cn(
           "flex w-[84px] shrink-0 flex-col items-center justify-center rounded-l-tile text-center md:w-[96px]",
-          urgent ? "bg-red-tint text-red-text" : "bg-blue-tint text-kick-blue",
+          urgent ? "bg-red-tint text-red-text" : "bg-blue-tint text-varsity-blue",
         )}
       >
         <span className={cn("type-countdown", value === "Today" && "text-[24px]! md:text-[26px]!")}>{value}</span>
@@ -46,7 +46,7 @@ export function DeadlineTicket({ item, now = new Date() }: { item: DeadlineItem;
         <h3 className="mt-1.5 type-card-title clamp-2 text-ink">
           <Link
             href={item.href}
-            className="before:absolute before:inset-0 before:rounded-tile before:content-[''] hover:text-kick-blue"
+            className="before:absolute before:inset-0 before:rounded-tile before:content-[''] hover:text-varsity-blue"
           >
             {item.title}
           </Link>
