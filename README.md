@@ -34,6 +34,7 @@ npm run dev
 | `OPENAI_API_KEY` | only for `--llm` | Extraction enrichment |
 | `EXTRACTION_MODEL` | no | Defaults to `gpt-4o-mini` |
 | `VARSITYFIND_PYTHON` | no | Python interpreter for the crawler; defaults to `crawler/.venv` (the old name, `KICKSCHOLAR_PYTHON`, still works) |
+| `SIGNUP_MODE` | no | `invite` closes sign-up and shows the waitlist instead; unset or `open` keeps it open |
 
 Crawler (only needed to fetch new pages):
 
@@ -69,6 +70,29 @@ Run in this order. Each step is a CLI script; most accept `--dry-run`.
 Re-running any step is safe: records are dedupe-matched, citations are unique
 per (record, source), and inferred links and matches are replaced, not
 appended.
+
+## Waitlist
+
+With `SIGNUP_MODE=invite`, `/signup` (where every "Sign up" link points) shows
+the waitlist instead: email, target degree, up to three destination countries
+and an optional nationality. `/waitlist` is the same form at a shareable
+address. Existing users log in as usual.
+
+- **Inviting:** Admin → Waitlist invites the longest-waiting students, filtered
+  by degree and country, or one person at a time. Each invite is a personal
+  `/signup?invite=…` link that works for 30 days and only for that email. The
+  links are shown once (only a hash is stored), and the app sends no email, so
+  copy them and send them yourself. "New link" replaces a lost one; the old one
+  stops working.
+- **Joining:** the account is created for the invited email, the entry is
+  marked joined, and the profile form starts from the waitlist answers.
+  Anyone on the list who signs up while sign-up is open is marked joined too.
+- **Abuse:** the form gives the same reply for new, repeated and
+  already-registered emails, never edits an existing entry, has a honeypot
+  field, and allows 5 entries an hour per network (keyed HMAC of the IP).
+- **Privacy:** "Delete" removes an entry for good.
+- The landing page is prerendered, so its sign-up wording follows the
+  `SIGNUP_MODE` set at build time.
 
 ## Verification rules
 

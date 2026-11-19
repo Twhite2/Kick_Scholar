@@ -9,6 +9,7 @@ const ADMIN_NAV = [
   { href: "/admin/sources", label: "Sources" },
   { href: "/admin/crawl-jobs", label: "Crawl jobs" },
   { href: "/admin/verification", label: "Verification queue" },
+  { href: "/admin/waitlist", label: "Waitlist" },
 ];
 
 /** Admin tabs that mark the current page (docs/ui-remodel.md §9.12). */

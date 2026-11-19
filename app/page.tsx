@@ -11,11 +11,15 @@ import { DataTrustSection } from "@/components/landing/data-trust-section";
 import { DiscoverySection } from "@/components/landing/discovery-section";
 import { FinalCta } from "@/components/landing/final-cta";
 import { LandingFooter } from "@/components/landing/footer";
+import { signupMode } from "@/lib/waitlist/core";
 
 export default function Home() {
+  // The landing page is prerendered, so this is read when the site is built:
+  // rebuild after changing SIGNUP_MODE. The sign-up page itself reads it per request.
+  const inviteOnly = signupMode() === "invite";
   return (
     <div className="flex flex-1 flex-col bg-paper">
-      <LandingNavbar />
+      <LandingNavbar inviteOnly={inviteOnly} />
       <main className="flex flex-1 flex-col">
         <Hero visual={<IllustrativeMatchCard />} />
         <TrustStrip />
@@ -26,7 +30,7 @@ export default function Home() {
         <ScholarshipSection />
         <DataTrustSection />
         <DiscoverySection />
-        <FinalCta />
+        <FinalCta inviteOnly={inviteOnly} />
       </main>
       <LandingFooter />
     </div>

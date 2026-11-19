@@ -1,96 +1,36 @@
-"use client";
+import type { Metadata } from "next";
+import { SignupForm } from "@/components/auth/signup-form";
+import { WaitlistForm } from "@/components/auth/waitlist-form";
+import { signupMode } from "@/lib/waitlist/core";
+import { findUsableInvite } from "@/lib/waitlist/invites";
+import { waitlistFormProps } from "@/lib/waitlist/form-props";
 
-import Link from "next/link";
-import { useActionState } from "react";
-import { useSearchParams } from "next/navigation";
-import { motion, useReducedMotion, type Variants } from "framer-motion";
-import { signup } from "@/lib/actions/auth";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+const param = (v: string | string[] | undefined) => (typeof v === "string" ? v : "");
 
-const item: Variants = {
-  hidden: { opacity: 0, y: 12 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.4, delay: i * 0.06, ease: [0.16, 1, 0.3, 1] },
-  }),
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return { title: signupMode() === "invite" ? "Join the waitlist" : "Create your account" };
+}
 
-export default function SignupPage() {
-  const [state, formAction, pending] = useActionState(signup, undefined);
-  const reduceMotion = useReducedMotion();
-  // Where to return after signing in (the action only accepts same-site paths).
-  const next = useSearchParams().get("next") ?? "";
-  const animProps = (i: number) =>
-    reduceMotion
-      ? {}
-      : { custom: i, initial: "hidden", animate: "visible", variants: item };
+/**
+ * Sign-up, or the waitlist while SIGNUP_MODE=invite. Every "Sign up" link on
+ * the site points here, so switching modes needs no other change; an invite
+ * link (/signup?invite=…) opens the account form for that invite.
+ */
+export default async function SignupPage({ searchParams }: PageProps<"/signup">) {
+  const params = await searchParams;
+  const next = param(params.next);
+  const token = param(params.invite);
 
-  return (
-    <div className="w-full max-w-sm">
-      <motion.h1 {...animProps(0)} className="type-page-h1 text-ink">
-        Create your account
-      </motion.h1>
-      <motion.p {...animProps(1)} className="mt-2 text-base text-ink-3">
-        {/^\/(programs|scholarships|institutions)/.test(next)
-          ? "Create a free account to browse. It takes a minute, and your matches start from your profile."
-          : "Find universities and scholarships you actually qualify for."}
-      </motion.p>
+  const invite = token ? await findUsableInvite(token) : null;
+  if (invite) return <SignupForm next={next} invite={{ token, email: invite.email }} />;
 
-      <motion.form {...animProps(2)} action={formAction} className="mt-8 space-y-5">
-        <input type="hidden" name="next" value={next} />
-        <div className="space-y-2">
-          <Label htmlFor="name">Name</Label>
-          <Input
-            id="name"
-            name="name"
-            autoComplete="name"
-            required
-          />
-        </div>
-        <div className="space-y-2">
-          <Label htmlFor="email">Email</Label>
-          <Input
-            id="email"
-            name="email"
-            type="email"
-            autoComplete="email"
-            placeholder="m@example.com"
-            required
-          />
-        </div>
-        <div className="space-y-2">
-          <Label htmlFor="password">Password</Label>
-          <Input
-            id="password"
-            name="password"
-            type="password"
-            autoComplete="new-password"
-            minLength={8}
-            required
-          />
-        </div>
-        {state?.error && (
-          <p role="alert" className="text-[15px] font-bold text-red-text">
-            {state.error}
-          </p>
-        )}
-        <Button type="submit" className="w-full" size="xl" disabled={pending}>
-          {pending ? "Creating account…" : "Sign up"}
-        </Button>
-      </motion.form>
-
-      <motion.p
-        {...animProps(3)}
-        className="mt-8 text-center text-[15px] text-ink-3"
-      >
-        Already have an account?{" "}
-        <Link href={next ? `/login?next=${encodeURIComponent(next)}` : "/login"} className="font-bold text-varsity-blue hover:underline">
-          Log in
-        </Link>
-      </motion.p>
-    </div>
-  );
+  if (signupMode() === "invite") {
+    return (
+      <WaitlistForm
+        {...waitlistFormProps(params)}
+        notice={token ? "That invite link has expired or has already been used. Join again below and we'll send you a new one." : undefined}
+      />
+    );
+  }
+  return <SignupForm next={next} />;
 }

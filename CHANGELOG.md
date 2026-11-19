@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased: waitlist
+
+- **Invite-only sign-up** behind `SIGNUP_MODE=invite`: `/signup` becomes a waitlist (email, target degree, up to three countries, optional nationality), with `/waitlist` as a shareable address.
+- **Admin → Waitlist:** totals, what people waiting want (by degree and country), "invite the next N" filtered by degree and country, and per-person invite, new link and delete. Invite links are personal, work for 30 days, and are shown once.
+- **Joining** with an invite creates the account for the invited email, marks the entry joined, and pre-fills the profile from the waitlist answers.
+- **Database:** adds `WaitlistEntry` and `WaitlistStatus`.
+
 ## Unreleased: UI remodel (`feat/ui-remodel`)
 
 The student UI rebuilt to docs/ui-remodel.md.

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Reveal } from "./reveal";
 
-export function FinalCta() {
+export function FinalCta({ inviteOnly = false }: { inviteOnly?: boolean }) {
   return (
     <section className="border-t border-line bg-night text-white">
       <div className="mx-auto max-w-3xl px-gutter py-24 text-center">
@@ -22,7 +22,9 @@ export function FinalCta() {
               Explore scholarships
             </Link>
           </div>
-          <p className="mt-3 text-sm text-on-night-muted">Create a free account to browse.</p>
+          <p className="mt-3 text-sm text-on-night-muted">
+            {inviteOnly ? "We're opening a few places at a time. Join the waitlist for an invite." : "Create a free account to browse."}
+          </p>
         </Reveal>
       </div>
     </section>

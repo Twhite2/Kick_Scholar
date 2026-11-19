@@ -51,19 +51,27 @@ export default async function ProfilePage() {
     where: { userId: session.user.id },
     include: { languageProficiencies: true },
   });
+  // Before the first save, start from what they told the waitlist. Nothing is
+  // stored until they save, so matching only ever runs on a profile they saw.
+  const fromWaitlist = profile
+    ? null
+    : await prisma.waitlistEntry.findUnique({
+        where: { userId: session.user.id },
+        select: { nationality: true, desiredDegreeLevel: true, preferredCountries: true },
+      });
 
   const defaultValues: ProfileInput = {
-    nationality: profile?.nationality ?? null,
+    nationality: profile?.nationality ?? fromWaitlist?.nationality ?? null,
     dateOfBirth: profile?.dateOfBirth ? profile.dateOfBirth.toISOString().slice(0, 10) : null,
     currentEducationLevel: profile?.currentEducationLevel ?? null,
     currentGpa: profile?.currentGpa ? Number(profile.currentGpa) : null,
     gpaScale: profile?.gpaScale ? Number(profile.gpaScale) : null,
     fieldOfStudy: profile?.fieldOfStudy ?? null,
-    desiredDegreeLevel: profile?.desiredDegreeLevel ?? null,
+    desiredDegreeLevel: profile?.desiredDegreeLevel ?? fromWaitlist?.desiredDegreeLevel ?? null,
     desiredFields: profile?.desiredFields ?? [],
     // Older profiles were free text ("GE", "germany"); keep only real codes so
     // the form can still be saved.
-    preferredCountries: (profile?.preferredCountries ?? []).map((c) => c.toUpperCase()).filter(isKnownCountry),
+    preferredCountries: (profile?.preferredCountries ?? fromWaitlist?.preferredCountries ?? []).map((c) => c.toUpperCase()).filter(isKnownCountry),
     budgetMaxPerYear: profile?.budgetMaxPerYear ? Number(profile.budgetMaxPerYear) : null,
     budgetCurrency: profile?.budgetCurrency ?? "EUR",
     workExperienceMonths: profile?.workExperienceMonths ?? null,

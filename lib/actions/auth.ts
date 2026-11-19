@@ -5,6 +5,8 @@ import bcrypt from "bcryptjs";
 import { AuthError } from "next-auth";
 import { prisma } from "@/lib/db";
 import { signIn, signOut } from "@/lib/auth";
+import { normalizeEmail, signupMode } from "@/lib/waitlist/core";
+import { findUsableInvite } from "@/lib/waitlist/invites";
 
 const signupSchema = z.object({
   name: z.string().trim().min(1, "Name is required"),
@@ -41,16 +43,41 @@ export async function signup(
   if (!parsed.success) {
     return { error: parsed.error.issues[0]?.message ?? "Invalid input" };
   }
-  const { name, email, password } = parsed.data;
+  const { name, password } = parsed.data;
+  let { email } = parsed.data;
 
   try {
+    // While sign-up is invite-only (SIGNUP_MODE=invite), an account needs a
+    // working invite link, and is made for the email the invite went to.
+    const inviteToken = formData.get("invite");
+    const invite = await findUsableInvite(typeof inviteToken === "string" ? inviteToken : null);
+    if (signupMode() === "invite" && !invite) {
+      return {
+        error: inviteToken
+          ? "This invite link has expired or has already been used. Join the waitlist and we'll send you a new one."
+          : "VarsityFind is invite-only for now. Join the waitlist to get an invite.",
+      };
+    }
+    if (invite) {
+      email = invite.email;
+      formData.set("email", invite.email); // login() below reads it from here
+    }
+
     const existing = await prisma.user.findUnique({ where: { email } });
     if (existing) {
       return { error: "An account with this email already exists" };
     }
 
     const passwordHash = await bcrypt.hash(password, 10);
-    await prisma.user.create({ data: { name, email, passwordHash } });
+    await prisma.$transaction(async (tx) => {
+      const user = await tx.user.create({ data: { name, email, passwordHash } });
+      // Whoever was waiting under this email has now joined, invited or not.
+      // The link is spent: clearing its hash means it can't be used twice.
+      await tx.waitlistEntry.updateMany({
+        where: { email: normalizeEmail(email), status: { not: "JOINED" } },
+        data: { status: "JOINED", joinedAt: new Date(), userId: user.id, inviteTokenHash: null },
+      });
+    });
   } catch (error) {
     // Previously this threw straight through and rendered a 500 error page.
     console.error("[auth] signup failed:", error);

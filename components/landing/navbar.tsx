@@ -16,7 +16,8 @@ const LINKS = [
 ];
 
 /** Night over the hero, white once the page scrolls. */
-export function LandingNavbar() {
+/** `inviteOnly`: sign-up is closed (SIGNUP_MODE=invite), so the button leads to the waitlist. */
+export function LandingNavbar({ inviteOnly = false }: { inviteOnly?: boolean }) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -67,7 +68,7 @@ export function LandingNavbar() {
               scrolled ? "bg-varsity-blue text-white hover:bg-varsity-blue-hover" : "bg-white text-ink hover:bg-[#E3EBF4]",
             )}
           >
-            Sign up
+            {inviteOnly ? "Join the waitlist" : "Sign up"}
           </Link>
         </div>
 
@@ -101,7 +102,7 @@ export function LandingNavbar() {
                 Log in
               </Link>
               <Link href="/signup" className="inline-flex h-11 items-center justify-center rounded-full bg-varsity-blue font-bold text-white">
-                Sign up
+                {inviteOnly ? "Join the waitlist" : "Sign up"}
               </Link>
             </div>
           </SheetContent>

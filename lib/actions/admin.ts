@@ -1,17 +1,9 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
+import { requireAdminAction as requireAdmin } from "@/lib/admin/require-admin-action";
 import { crossReferenceCheck } from "@/lib/verification/crossReferenceCheck";
-
-async function requireAdmin() {
-  const session = await auth();
-  if (!session?.user || session.user.role !== "ADMIN") {
-    throw new Error("Admin access required");
-  }
-  return session.user;
-}
 
 /** Re-runs the automated cross-reference check (same logic the pipeline uses at load time). */
 export async function adminRecheckScholarship(scholarshipId: string) {

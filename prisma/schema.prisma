@@ -224,6 +224,12 @@ enum UserRole {
   ADMIN
 }
 
+enum WaitlistStatus {
+  WAITING
+  INVITED
+  JOINED
+}
+
 enum ApplicationStatus {
   SAVED
   PLANNING
@@ -682,6 +688,35 @@ model User {
   applications       Application[]
   accounts           Account[]
   sessions           Session[]
+  waitlistEntry      WaitlistEntry?
+}
+
+// A student waiting for an invite (lib/waitlist). The answers decide who is
+// invited first — the destinations and levels the catalogue serves best — and
+// pre-fill the profile after sign-up. Only a hash of the invite token is
+// kept; the link itself is shown to the admin once, when it is made.
+model WaitlistEntry {
+  id                 String         @id @default(cuid())
+  email              String         @unique // lowercased
+  desiredDegreeLevel DegreeLevel?
+  preferredCountries String[]
+  nationality        String? // a country name, as the profile stores it
+  // Where they came from (utm_source or referring site), for the admin.
+  source             String?
+  // HMAC of the requester's IP, only to cap sign-ups per network.
+  ipHash             String?
+  status             WaitlistStatus @default(WAITING)
+  inviteTokenHash    String?        @unique
+  invitedAt          DateTime?
+  inviteExpiresAt    DateTime?
+  joinedAt           DateTime?
+  userId             String?        @unique
+  user               User?          @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+
+  @@index([status, createdAt])
+  @@index([ipHash, createdAt])
 }
 
 model StudentProfile {
