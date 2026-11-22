@@ -94,6 +94,37 @@ address. Existing users log in as usual.
 - The landing page is prerendered, so its sign-up wording follows the
   `SIGNUP_MODE` set at build time.
 
+## Hosting on Render
+
+`render.yaml` is a Render Blueprint for the web app and its Postgres database,
+both in Frankfurt. In Render: **New → Blueprint**, pick this repository, enter
+`NEXT_PUBLIC_SITE_URL` when asked, then **Apply**. Each deploy builds `main`,
+runs `prisma migrate deploy`, and starts with sign-up invite-only.
+
+The new database starts empty. To fill it, take the database's **External
+Database URL** from Render and run, from a machine with the catalogue:
+
+```bash
+# Catalogue only: no user accounts, profiles, matches or waitlist entries
+pg_dump -d kickscholar --data-only --no-owner --no-privileges \
+  -t '"Source"' -t '"CrawlJob"' -t '"SourceDocument"' -t '"SourceCitation"' \
+  -t '"University"' -t '"Program"' -t '"ProgramRequirement"' -t '"Scholarship"' \
+  -t '"ScholarshipEligibility"' -t '"FundingOpportunity"' -t '"ApplicationDeadline"' \
+  | psql "$RENDER_EXTERNAL_URL"
+
+# The media files aren't hosted yet (see below)
+psql "$RENDER_EXTERNAL_URL" -c 'UPDATE "University" SET "logoUrl" = NULL, "logoSource" = NULL, "logoCheckedAt" = NULL,
+  "coverUrl" = NULL, "coverWidth" = NULL, "coverHeight" = NULL, "coverColor" = NULL, "coverCredit" = NULL,
+  "coverLicense" = NULL, "coverLicenseUrl" = NULL, "coverSourceUrl" = NULL, "coverCheckedAt" = NULL'
+
+DATABASE_URL="$RENDER_EXTERNAL_URL" npm run admin:create -- --email findvarsity@gmail.com
+```
+
+Logos and photos live in `public/media`, which is not in git, so the hosted
+copy clears the universities' media paths. The app then shows monograms and
+illustrated covers until the media has a hosted home (`MEDIA_STORE`,
+`NEXT_PUBLIC_MEDIA_BASE_URL`).
+
 ## Verification rules
 
 - A record from a **PRIMARY** source (the official page) is verified on insert.

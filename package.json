@@ -27,6 +27,7 @@
     "data:cleanup-scholarships": "tsx scripts/cleanup-scholarship-records.ts",
     "data:erasmus-mundus": "tsx scripts/import-erasmus-mundus.ts",
     "links:hosts": "tsx scripts/link-stated-hosts.ts",
+    "admin:create": "tsx scripts/create-admin.ts",
     "data:register": "tsx scripts/import-register.ts"
   },
   "dependencies": {

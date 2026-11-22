@@ -1,0 +1,48 @@
+# Render Blueprint: the VarsityFind web app and its Postgres database.
+# In the Render dashboard: New > Blueprint > pick this repository > Apply.
+# Frankfurt is Render's closest region to West Africa; it can't be changed later.
+
+databases:
+  - name: varsityfind-db
+    databaseName: varsityfind
+    user: varsityfind
+    region: frankfurt
+    # Smallest paid plan. "free" works too, but Render deletes free databases
+    # after 30 days.
+    plan: 0.1c-256mb
+    postgresMajorVersion: "16"
+
+services:
+  - type: web
+    name: varsityfind
+    runtime: node
+    region: frankfurt
+    # Smallest paid plan: it stays awake (free services sleep after 15 idle
+    # minutes) and it can run preDeployCommand.
+    plan: 0.5c-512mb
+    branch: main
+    buildCommand: npm ci && npx prisma generate && npm run build
+    # Applies new database migrations before each release goes live.
+    preDeployCommand: npx prisma migrate deploy
+    startCommand: npm start
+    healthCheckPath: /login
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: varsityfind-db
+          property: connectionString
+      - key: AUTH_SECRET
+        generateValue: true
+      # Auth.js runs behind Render's proxy.
+      - key: AUTH_TRUST_HOST
+        value: "true"
+      # Pre-launch: sign-up is closed and /signup shows the waitlist.
+      - key: SIGNUP_MODE
+        value: invite
+      # The public address, e.g. https://varsityfind.onrender.com or your own
+      # domain: link previews (Open Graph images) are built from it. It is
+      # read at build time, so redeploy after changing it.
+      - key: NEXT_PUBLIC_SITE_URL
+        sync: false
