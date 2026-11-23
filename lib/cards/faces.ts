@@ -48,6 +48,18 @@ export function isOwnMediaUrl(url: string | null | undefined): url is string {
   return Boolean(base && url.startsWith(base));
 }
 
+/**
+ * Where the browser loads a stored media path from. The database keeps
+ * site-relative paths (/media/logos/…); when the files are hosted on their
+ * own site (NEXT_PUBLIC_MEDIA_BASE_URL, e.g. the media static site in
+ * production) those paths are served from there. Without it, from this app's
+ * public/ folder, as in development.
+ */
+export function mediaSrc(url: string): string {
+  const base = process.env.NEXT_PUBLIC_MEDIA_BASE_URL?.replace(/\/+$/, "");
+  return base && url.startsWith("/media/") ? `${base}${url}` : url;
+}
+
 export function toInstitutionFace(u: InstitutionFaceRow): InstitutionFace {
   const hasCover = isOwnMediaUrl(u.coverUrl) && u.coverWidth && u.coverHeight;
   return {
@@ -56,10 +68,10 @@ export function toInstitutionFace(u: InstitutionFaceRow): InstitutionFace {
     acronym: u.acronym,
     countryCode: u.country || null,
     city: u.city || null,
-    logoUrl: isOwnMediaUrl(u.logoUrl) ? u.logoUrl : null,
+    logoUrl: isOwnMediaUrl(u.logoUrl) ? mediaSrc(u.logoUrl) : null,
     cover: hasCover
       ? {
-          url: u.coverUrl!,
+          url: mediaSrc(u.coverUrl!),
           width: u.coverWidth!,
           height: u.coverHeight!,
           color: u.coverColor,
