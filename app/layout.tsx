@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible_Next, Bricolage_Grotesque } from "next/font/google";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 
@@ -23,17 +24,17 @@ const sans = Atkinson_Hyperlegible_Next({
   fallback: ["system-ui", "Segoe UI", "Arial", "sans-serif"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
 // Icons, manifest and the link-preview image come from the logo pack as
 // file conventions in app/ (favicon.ico, icon.svg, apple-icon.png,
-// manifest.webmanifest, opengraph-image.png, twitter-image.png).
+// manifest.webmanifest, opengraph-image.png, twitter-image.png). Canonical
+// links are set page by page: a canonical here would be inherited by every
+// page and point them all at the home page.
 export const metadata: Metadata = {
-  ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
-  title: { template: "%s | VarsityFind", default: "VarsityFind" },
-  description: "Find universities and scholarships you actually qualify for.",
-  applicationName: "VarsityFind",
-  openGraph: { siteName: "VarsityFind", type: "website", locale: "en_GB" },
+  metadataBase: new URL(SITE_URL),
+  title: { template: `%s | ${SITE_NAME}`, default: SITE_NAME },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  openGraph: { siteName: SITE_NAME, type: "website", locale: "en_GB" },
   twitter: { card: "summary_large_image" },
 };
 

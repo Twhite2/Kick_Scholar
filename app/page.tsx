@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { LandingNavbar } from "@/components/landing/navbar";
 import { Hero } from "@/components/landing/hero";
 import { IllustrativeMatchCard } from "@/components/landing/illustrative-match-card";
@@ -12,6 +13,14 @@ import { DiscoverySection } from "@/components/landing/discovery-section";
 import { FinalCta } from "@/components/landing/final-cta";
 import { LandingFooter } from "@/components/landing/footer";
 import { signupMode } from "@/lib/waitlist/core";
+import { SITE_DESCRIPTION, SITE_TITLE, siteJsonLd } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: { absolute: SITE_TITLE },
+  description: SITE_DESCRIPTION,
+  alternates: { canonical: "/" },
+  openGraph: { url: "/", title: SITE_TITLE, description: SITE_DESCRIPTION },
+};
 
 export default function Home() {
   // The landing page is prerendered, so this is read when the site is built:
@@ -19,6 +28,8 @@ export default function Home() {
   const inviteOnly = signupMode() === "invite";
   return (
     <div className="flex flex-1 flex-col bg-paper">
+      {/* Who we are, for search results (Organization and WebSite). */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd()).replace(/</g, "\\u003c") }} />
       <LandingNavbar inviteOnly={inviteOnly} />
       <main className="flex flex-1 flex-col">
         <Hero visual={<IllustrativeMatchCard />} />

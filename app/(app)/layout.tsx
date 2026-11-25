@@ -1,9 +1,13 @@
+import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 import { getDataSaver, hasDataSaverChoice } from "@/lib/ui/data-saver";
 import { AppShell } from "@/components/kick/app-shell/app-shell";
 import { DataSaverProvider } from "@/components/kick/data-saver";
 import { CompareProvider, CompareTray } from "@/components/kick/compare-tray";
+
+/** The signed-in zone is personal: never in search (robots.txt keeps crawlers out too). */
+export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   // Every route in the signed-in zone checks the session on the server.

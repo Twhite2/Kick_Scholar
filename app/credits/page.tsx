@@ -3,7 +3,8 @@ import Link from "next/link";
 import { prisma } from "@/lib/db";
 import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
 
-export const metadata: Metadata = { title: "Photo credits" };
+// Attribution for the photos: linked from every page, not a search result.
+export const metadata: Metadata = { title: "Photo credits", robots: { index: false, follow: true } };
 export const dynamic = "force-dynamic";
 
 /**
