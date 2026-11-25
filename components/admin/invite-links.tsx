@@ -30,27 +30,45 @@ export function CopyButton({ text, label = "Copy link" }: { text: string; label?
   );
 }
 
+/** Whether an invite's email went out, as a small status label. */
+export function EmailedLabel({ emailed }: { emailed: boolean }) {
+  return emailed ? (
+    <span className="inline-flex h-6 items-center rounded-full bg-green-tint px-2.5 text-sm font-bold text-green-text">Emailed</span>
+  ) : (
+    <span className="inline-flex h-6 items-center rounded-full bg-red-tint px-2.5 text-sm font-bold text-red-text">Not emailed: send the link</span>
+  );
+}
+
 /**
- * Freshly made invite links. They are shown only now: the database keeps a
- * hash, so a link that is lost has to be made again ("New link").
+ * Freshly made invites. Each is emailed to its student; the links are shown
+ * too, once, for any email that didn't go out. The database keeps only a
+ * hash, so a lost link has to be made again ("New link").
  */
-export function IssuedInviteList({ invites }: { invites: Array<{ id: string; email: string; path: string }> }) {
+export function IssuedInviteList({ invites }: { invites: Array<{ id: string; email: string; path: string; emailed: boolean }> }) {
   if (invites.length === 0) return null;
-  const all = invites.map((i) => `${i.email}\t${absoluteInviteUrl(i.path)}`).join("\n");
+  const failed = invites.filter((i) => !i.emailed);
+  const all = (failed.length ? failed : invites).map((i) => `${i.email}\t${absoluteInviteUrl(i.path)}`).join("\n");
+  const summary =
+    failed.length === 0
+      ? `${invites.length === 1 ? "1 invite" : `${invites.length} invites`} emailed.`
+      : failed.length === invites.length
+        ? `${invites.length === 1 ? "The invite email" : "The invite emails"} didn't go out. Send each link to its student yourself.`
+        : `${invites.length - failed.length} emailed; ${failed.length} didn't go out. Send those links yourself.`;
   return (
     <div className="mt-4 rounded-tile bg-blue-tint p-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="text-[15px] font-bold text-ink">
-          {invites.length === 1 ? "1 invite link" : `${invites.length} invite links`}. Send each one to its student. They
-          won&rsquo;t be shown again.
+          {summary} The links won&rsquo;t be shown again.
         </p>
-        {invites.length > 1 && <CopyButton text={all} label="Copy all (email, link)" />}
+        {invites.length > 1 && <CopyButton text={all} label={failed.length ? "Copy unsent (email, link)" : "Copy all (email, link)"} />}
       </div>
       <ul className="mt-3 divide-y divide-line">
         {invites.map((i) => (
           <li key={i.id} className="flex flex-wrap items-center justify-between gap-3 py-2.5">
             <div className="min-w-0">
-              <p className="font-bold text-ink">{i.email}</p>
+              <p className="flex flex-wrap items-center gap-2 font-bold text-ink">
+                {i.email} <EmailedLabel emailed={i.emailed} />
+              </p>
               <p className="truncate font-mono text-sm text-ink-3">{absoluteInviteUrl(i.path)}</p>
             </div>
             <CopyButton text={absoluteInviteUrl(i.path)} />

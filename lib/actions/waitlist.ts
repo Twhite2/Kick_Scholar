@@ -8,7 +8,8 @@ import { prisma } from "@/lib/db";
 import { requireAdminAction } from "@/lib/admin/require-admin-action";
 import { TARGET_COUNTRIES } from "@/lib/constants/countries";
 import { sendEmail } from "@/lib/email/send";
-import { waitlistConfirmationEmail } from "@/lib/email/templates";
+import { inviteEmail, waitlistConfirmationEmail } from "@/lib/email/templates";
+import { SITE_URL } from "@/lib/site";
 import {
   MAX_JOINS_PER_IP_PER_HOUR,
   WAITLIST_DEGREES,
@@ -116,6 +117,34 @@ export interface IssuedInvite {
   email: string;
   /** Site-relative; the admin page prefixes its own origin. */
   path: string;
+  /** Whether the invite email went out. If not, the admin sends the link by hand. */
+  emailed: boolean;
+}
+
+type NewInvite = Omit<IssuedInvite, "emailed"> & { expiresAt: Date };
+
+/**
+ * Emails each new invite its personal link, a few at a time, and reports
+ * which went out. A failure never undoes the invite: the link is still
+ * shown to the admin to send by hand.
+ */
+async function emailInvites(invites: NewInvite[]): Promise<IssuedInvite[]> {
+  const out: IssuedInvite[] = new Array(invites.length);
+  let next = 0;
+  const worker = async () => {
+    while (next < invites.length) {
+      const i = next++;
+      const { expiresAt, ...invite } = invites[i];
+      const result = await sendEmail({
+        to: invite.email,
+        tag: "waitlist-invite",
+        ...inviteEmail({ email: invite.email, inviteUrl: `${SITE_URL}${invite.path}`, expiresAt }),
+      });
+      out[i] = { ...invite, emailed: result.sent };
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(5, invites.length) }, worker));
+  return out;
 }
 
 const inviteNextSchema = z.object({
@@ -128,18 +157,19 @@ const inviteNextSchema = z.object({
 });
 
 /** Gives an entry a fresh link. Any link it had before stops working. */
-async function issueInvite(id: string, allowFrom: Array<"WAITING" | "INVITED">): Promise<IssuedInvite | null> {
+async function issueInvite(id: string, allowFrom: Array<"WAITING" | "INVITED">): Promise<NewInvite | null> {
   const token = generateInviteToken();
   const now = new Date();
+  const expiresAt = inviteExpiry(now);
   // updateMany with the status in the filter, so two admins inviting at once
   // can't both hand out a link for the same person.
   const { count } = await prisma.waitlistEntry.updateMany({
     where: { id, status: { in: allowFrom } },
-    data: { status: "INVITED", inviteTokenHash: hashInviteToken(token), invitedAt: now, inviteExpiresAt: inviteExpiry(now) },
+    data: { status: "INVITED", inviteTokenHash: hashInviteToken(token), invitedAt: now, inviteExpiresAt: expiresAt },
   });
   if (count === 0) return null;
   const entry = await prisma.waitlistEntry.findUniqueOrThrow({ where: { id }, select: { email: true } });
-  return { id, email: entry.email, path: invitePath(token) };
+  return { id, email: entry.email, path: invitePath(token), expiresAt };
 }
 
 /** Invites the longest-waiting students, optionally only those aiming for a given degree or country. */
@@ -158,21 +188,26 @@ export async function adminInviteNext(input: { count: number; degree: string | n
     select: { id: true },
   });
 
-  const issued: IssuedInvite[] = [];
+  const issued: NewInvite[] = [];
   for (const { id } of candidates) {
     const invite = await issueInvite(id, ["WAITING"]);
     if (invite) issued.push(invite);
   }
+  const sent = await emailInvites(issued);
   revalidatePath("/admin/waitlist");
-  return issued;
+  return sent;
 }
 
 /** Invites one student, or makes a new link for one already invited (the old link stops working). */
 export async function adminInviteEntry(id: string): Promise<IssuedInvite | null> {
   await requireAdminAction();
   const invite = await issueInvite(z.string().min(1).parse(id), ["WAITING", "INVITED"]);
-  revalidatePath("/admin/waitlist");
-  return invite;
+  const [sent] = invite ? await emailInvites([invite]) : [null];
+  // No revalidatePath here: refreshing the list would move the student to the
+  // Invited tab and take their row, with its link and email status, off the
+  // screen at once. The row shows the new state itself; counts catch up on
+  // the next load.
+  return sent;
 }
 
 /** Deletes an entry outright, for someone who asks to be taken off the list. */

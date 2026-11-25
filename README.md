@@ -80,10 +80,11 @@ address. Existing users log in as usual.
 
 - **Inviting:** Admin → Waitlist invites the longest-waiting students, filtered
   by degree and country, or one person at a time. Each invite is a personal
-  `/signup?invite=…` link that works for 30 days and only for that email. The
-  links are shown once (only a hash is stored), and the app sends no email, so
-  copy them and send them yourself. "New link" replaces a lost one; the old one
-  stops working.
+  `/signup?invite=…` link that works for 30 days and only for that email, and
+  each is emailed to its student ("Your VarsityFind invite is here"). The page
+  marks each invite **Emailed** or **Not emailed**, and shows the links once
+  (only a hash is stored), so any that didn't go out can be sent by hand.
+  "New link" emails a fresh link; the old one stops working.
 - **Joining:** the account is created for the invited email, the entry is
   marked joined, and the profile form starts from the waitlist answers.
   Anyone on the list who signs up while sign-up is open is marked joined too.
@@ -96,10 +97,14 @@ address. Existing users log in as usual.
 
 ## Email
 
-New waitlist entries get a "You're on the list" email, and new accounts a
-welcome email. Both come from `info@varsityfind.com` in the site's design
-(`lib/email/templates.ts`) and go out after the page has responded, so a
-slow or failed email never holds up or breaks signing up.
+New waitlist entries get a "You're on the list" email, invited students
+their personal link ("Your VarsityFind invite is here"), and new accounts a
+welcome email. All come from `info@varsityfind.com` in the site's design
+(`lib/email/templates.ts`). The confirmation and welcome go out after the
+page has responded, so a slow or failed email never holds up or breaks
+signing up; invites are sent while the admin waits, so the page can say
+which went out. Mailjet's free plan allows a limited number of emails a
+day, so invite large batches over several days.
 
 - **Sending:** Mailjet's Send API over HTTPS (`lib/email/send.ts`), because
   Render's free plan blocks SMTP. Set `MAILJET_API_KEY`, `MAILJET_SECRET_KEY`

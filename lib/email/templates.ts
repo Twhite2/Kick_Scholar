@@ -403,3 +403,89 @@ export function welcomeEmail(input: WelcomeEmailInput, opts: TemplateOptions = {
 
   return { subject, html, text };
 }
+
+// ---------------------------------------------------------------------------
+// Invite: "It's your turn"
+// ---------------------------------------------------------------------------
+
+export interface InviteEmailInput {
+  email: string;
+  /** The personal sign-up link (absolute). */
+  inviteUrl: string;
+  expiresAt: Date;
+}
+
+const INVITE_STEPS: Array<[string, string]> = [
+  ["Create your account", "Open your invite link and choose a password. It takes about a minute."],
+  ["Add your grades", "Your degree, CGPA, grading scale and any English test score. Your waitlist answers are filled in already."],
+  ["See what you qualify for", "Programmes and scholarships matched to you, each requirement checked against what you have."],
+];
+
+const longDate = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+
+export function inviteEmail(input: InviteEmailInput, opts: TemplateOptions = {}): RenderedEmail {
+  const siteUrl = opts.siteUrl ?? SITE_URL;
+  const assetBase = opts.assetBase ?? siteUrl;
+  const until = longDate(input.expiresAt);
+
+  const linkPanel = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:${C.paper};border-radius:18px;">
+    <tr><td align="center" style="padding:28px 24px 24px;">
+      ${button("Create your account", input.inviteUrl)}
+      <p style="margin:18px 0 0;font-family:${BODY};font-size:14px;line-height:1.6;color:${C.ink3};">
+        Your link works until <strong style="color:${C.ink};">${escapeHtml(until)}</strong>, and only for <strong style="color:${C.ink};">${escapeHtml(input.email)}</strong>.
+      </p>
+    </td></tr>
+  </table>`;
+
+  const body = [
+    paragraph("Your place on the VarsityFind waitlist has come up. Your account is waiting: create it and see the programmes and scholarships you actually qualify for."),
+    gap(6),
+    linkPanel,
+    gap(30),
+    sectionTitle("What happens next"),
+    stepCards(INVITE_STEPS),
+    gap(18),
+    catalogueBand(),
+    gap(26),
+    paragraph(
+      `Button not working? Copy this link into your browser:<br><a href="${input.inviteUrl}" style="color:${C.blue};word-break:break-all;">${escapeHtml(input.inviteUrl)}</a>`,
+      `font-size:13px;color:${C.ink3};margin:0;`,
+    ),
+  ].join("\n");
+
+  const subject = "Your VarsityFind invite is here";
+  const html = layout({
+    title: subject,
+    preheader: `It's your turn. Your personal link works until ${until}.`,
+    hero: hero({
+      eyebrow: "Your invite is here",
+      headline: `It's your ${accent("turn")}`,
+      subtitle: "The doors are open. Create your account and see where your grades can take you.",
+      banner: "banner-invite.png",
+      siteUrl,
+      assetBase,
+    }),
+    body,
+    footer: "You're getting this email because this address joined the VarsityFind waitlist. The link is personal: please don't forward it. Not expecting this? You can ignore it.",
+    siteUrl,
+  });
+
+  const text = [
+    "It's your turn",
+    "The doors are open. Create your account and see where your grades can take you.",
+    "",
+    "Your place on the VarsityFind waitlist has come up. Your account is waiting: create it and see the programmes and scholarships you actually qualify for.",
+    "",
+    `Create your account: ${input.inviteUrl}`,
+    `Your link works until ${until}, and only for ${input.email}.`,
+    "",
+    "WHAT HAPPENS NEXT",
+    ...INVITE_STEPS.map(([title, line], i) => `${i + 1}. ${title}: ${line}`),
+    "",
+    `VarsityFind: ${CATALOGUE.map(([n, l]) => `${n} ${l}`).join(", ")}.`,
+    "",
+    "You're getting this email because this address joined the VarsityFind waitlist. The link is personal: please don't forward it. Not expecting this? You can ignore it.",
+  ].join("\n");
+
+  return { subject, html, text };
+}

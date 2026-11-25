@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { waitlistConfirmationEmail, welcomeEmail } from "../lib/email/templates";
+import { inviteEmail, waitlistConfirmationEmail, welcomeEmail } from "../lib/email/templates";
 
 const root = path.resolve(import.meta.dirname, "..");
 const out = path.join(root, "tmp", "email-preview");
@@ -21,6 +21,10 @@ const emails = {
     { assetBase },
   ),
   welcome: welcomeEmail({ name: "Ada Okafor", email: "ada.okafor@example.com" }, { assetBase }),
+  invite: inviteEmail(
+    { email: "ada.okafor@example.com", inviteUrl: "https://www.varsityfind.com/signup?invite=example-token", expiresAt: new Date(Date.now() + 30 * 86400000) },
+    { assetBase },
+  ),
 };
 
 for (const [name, email] of Object.entries(emails)) {

@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { parseAddress, sendEmail } from "../send";
-import { escapeHtml, waitlistConfirmationEmail, welcomeEmail } from "../templates";
+import { escapeHtml, inviteEmail, waitlistConfirmationEmail, welcomeEmail } from "../templates";
 
 afterEach(() => vi.unstubAllGlobals());
 
@@ -80,5 +80,19 @@ describe("sendEmail", () => {
   it("reads display-name addresses", () => {
     expect(parseAddress("VarsityFind <info@varsityfind.com>")).toEqual({ name: "VarsityFind", email: "info@varsityfind.com" });
     expect(parseAddress("info@varsityfind.com")).toEqual({ name: null, email: "info@varsityfind.com" });
+  });
+});
+
+describe("invite", () => {
+  it("carries the personal link, its expiry and the address it works for", () => {
+    const url = "https://www.varsityfind.com/signup?invite=abc_123-XYZ";
+    const e = inviteEmail({ email: "ada@example.com", inviteUrl: url, expiresAt: new Date("2026-12-25T10:00:00Z") }, site);
+    expect(e.subject).toBe("Your VarsityFind invite is here");
+    expect(e.html).toContain(`href="${url}"`);
+    expect(e.html).toContain("25 December 2026");
+    expect(e.html).toContain("ada@example.com");
+    expect(e.html).toContain('src="https://www.varsityfind.com/email/banner-invite.png"');
+    expect(e.text).toContain(`Create your account: ${url}`);
+    expect(e.text).toContain("works until 25 December 2026, and only for ada@example.com");
   });
 });

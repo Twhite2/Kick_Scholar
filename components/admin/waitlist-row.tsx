@@ -5,7 +5,7 @@ import { AlertDialog } from "@base-ui/react/alert-dialog";
 import { adminDeleteEntry, adminInviteEntry, type IssuedInvite } from "@/lib/actions/waitlist";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { absoluteInviteUrl, CopyButton } from "./invite-links";
+import { absoluteInviteUrl, CopyButton, EmailedLabel } from "./invite-links";
 
 export interface WaitlistRowData {
   id: string;
@@ -30,6 +30,9 @@ export function WaitlistRow({ entry }: { entry: WaitlistRowData }) {
   const [pending, startTransition] = useTransition();
   const [link, setLink] = useState<IssuedInvite | null>(null);
   const [error, setError] = useState(false);
+  // The list isn't refreshed after an invite (that would move the row to the
+  // Invited tab and hide its link), so the row shows the new status itself.
+  const status = link ? "INVITED" : entry.status;
 
   const invite = () =>
     startTransition(async () => {
@@ -50,6 +53,7 @@ export function WaitlistRow({ entry }: { entry: WaitlistRowData }) {
         {entry.source && <p className="text-sm text-ink-3">via {entry.source}</p>}
         {link && (
           <div className="mt-2 flex flex-wrap items-center gap-2">
+            <EmailedLabel emailed={link.emailed} />
             <span className="max-w-[260px] truncate font-mono text-sm text-ink-3">{absoluteInviteUrl(link.path)}</span>
             <CopyButton text={absoluteInviteUrl(link.path)} />
           </div>
@@ -60,16 +64,16 @@ export function WaitlistRow({ entry }: { entry: WaitlistRowData }) {
       <td className="px-4 py-3.5 text-sm text-ink-2">{entry.countries || "Anywhere"}</td>
       <td className="px-4 py-3.5 text-sm text-ink-2">{entry.nationality ?? "Not given"}</td>
       <td className="px-4 py-3.5">
-        <span className={cn("inline-flex h-7 items-center rounded-full px-2.5 type-caption", STATUS_STYLE[entry.status])}>
-          {entry.status === "INVITED" && entry.inviteExpired ? "Invite expired" : entry.status.charAt(0) + entry.status.slice(1).toLowerCase()}
+        <span className={cn("inline-flex h-7 items-center rounded-full px-2.5 type-caption", STATUS_STYLE[status])}>
+          {link ? "Invited just now" : status === "INVITED" && entry.inviteExpired ? "Invite expired" : status.charAt(0) + status.slice(1).toLowerCase()}
         </span>
-        <p className="mt-1 font-mono text-sm text-ink-3">{entry.dateLabel}</p>
+        {!link && <p className="mt-1 font-mono text-sm text-ink-3">{entry.dateLabel}</p>}
       </td>
       <td className="px-4 py-3.5">
-        {entry.status !== "JOINED" && (
+        {status !== "JOINED" && (
           <div className="flex flex-wrap gap-2">
-            <Button type="button" size="sm" variant={entry.status === "WAITING" ? "default" : "outline"} disabled={pending} onClick={invite}>
-              {entry.status === "WAITING" ? "Invite" : "New link"}
+            <Button type="button" size="sm" variant={status === "WAITING" ? "default" : "outline"} disabled={pending} onClick={invite}>
+              {status === "WAITING" ? "Invite" : "New link"}
             </Button>
             <AlertDialog.Root>
               <AlertDialog.Trigger
