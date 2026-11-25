@@ -94,6 +94,22 @@ address. Existing users log in as usual.
 - The landing page is prerendered, so its sign-up wording follows the
   `SIGNUP_MODE` set at build time.
 
+## Email
+
+New waitlist entries get a "You're on the list" email, and new accounts a
+welcome email. Both come from `info@varsityfind.com` in the site's design
+(`lib/email/templates.ts`) and go out after the page has responded, so a
+slow or failed email never holds up or breaks signing up.
+
+- **Sending:** Mailjet's Send API over HTTPS (`lib/email/send.ts`), because
+  Render's free plan blocks SMTP. Set `MAILJET_API_KEY`, `MAILJET_SECRET_KEY`
+  and `EMAIL_FROM`. Without the keys, emails are logged instead of sent.
+- **Who gets one:** only a genuinely new waitlist entry. Someone re-entering
+  an email, or with an account already, sees the same reply on screen but
+  gets no email, so the form can't spam an inbox or reveal who has signed up.
+- **Preview:** `npm run email:preview` writes both emails to
+  `tmp/email-preview/`, to open in a browser.
+
 ## Hosting on Render
 
 `render.yaml` is a Render Blueprint for the web app and its Postgres database,

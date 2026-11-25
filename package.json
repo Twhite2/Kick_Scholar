@@ -29,6 +29,7 @@
     "data:erasmus-mundus": "tsx scripts/import-erasmus-mundus.ts",
     "links:hosts": "tsx scripts/link-stated-hosts.ts",
     "admin:create": "tsx scripts/create-admin.ts",
+    "email:preview": "tsx scripts/email-preview.ts",
     "data:register": "tsx scripts/import-register.ts"
   },
   "dependencies": {

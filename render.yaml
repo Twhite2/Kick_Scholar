@@ -46,3 +46,11 @@ services:
       # read at build time, so redeploy after changing it.
       - key: NEXT_PUBLIC_SITE_URL
         sync: false
+      # Email through Mailjet's API (Render's free plan blocks SMTP). Without
+      # the keys, emails are only logged.
+      - key: MAILJET_API_KEY
+        sync: false
+      - key: MAILJET_SECRET_KEY
+        sync: false
+      - key: EMAIL_FROM
+        value: VarsityFind <info@varsityfind.com>

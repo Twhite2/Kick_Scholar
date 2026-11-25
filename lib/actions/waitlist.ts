@@ -2,10 +2,13 @@
 
 import { headers } from "next/headers";
 import { revalidatePath } from "next/cache";
+import { after } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/db";
 import { requireAdminAction } from "@/lib/admin/require-admin-action";
 import { TARGET_COUNTRIES } from "@/lib/constants/countries";
+import { sendEmail } from "@/lib/email/send";
+import { waitlistConfirmationEmail } from "@/lib/email/templates";
 import {
   MAX_JOINS_PER_IP_PER_HOUR,
   WAITLIST_DEGREES,
@@ -81,6 +84,21 @@ export async function joinWaitlist(_prev: WaitlistActionState, formData: FormDat
         ipHash,
       },
     });
+    // Only a new entry gets an email. Repeats and existing accounts see the
+    // same reply on screen but get nothing, so the form can't be used to
+    // flood someone's inbox or to learn who has signed up.
+    after(() =>
+      sendEmail({
+        to: input.email,
+        tag: "waitlist-confirmation",
+        ...waitlistConfirmationEmail({
+          email: input.email,
+          degree: input.desiredDegreeLevel,
+          countries: input.preferredCountries,
+          nationality: input.nationality,
+        }),
+      }),
+    );
     return joined;
   } catch (err) {
     if (isUniqueViolation(err)) return joined; // already on the list

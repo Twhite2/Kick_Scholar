@@ -3,7 +3,10 @@
 import { z } from "zod";
 import bcrypt from "bcryptjs";
 import { AuthError } from "next-auth";
+import { after } from "next/server";
 import { prisma } from "@/lib/db";
+import { sendEmail } from "@/lib/email/send";
+import { welcomeEmail } from "@/lib/email/templates";
 import { signIn, signOut } from "@/lib/auth";
 import { normalizeEmail, signupMode } from "@/lib/waitlist/core";
 import { findUsableInvite } from "@/lib/waitlist/invites";
@@ -78,6 +81,9 @@ export async function signup(
         data: { status: "JOINED", joinedAt: new Date(), userId: user.id, inviteTokenHash: null },
       });
     });
+    // Sent once the response is on its way: a slow or failed email never
+    // holds up or breaks signing up.
+    after(() => sendEmail({ to: email, toName: name, tag: "welcome", ...welcomeEmail({ name, email }) }));
   } catch (error) {
     // Previously this threw straight through and rendered a 500 error page.
     console.error("[auth] signup failed:", error);
