@@ -10,7 +10,8 @@ describe("waitlist confirmation", () => {
   it("confirms the address and repeats the answers in words", () => {
     const e = waitlistConfirmationEmail({ email: "ada@example.com", degree: "MASTER", countries: ["DE", "NL"], nationality: "NG" }, site);
     expect(e.subject).toBe("You're on the VarsityFind waitlist");
-    for (const part of ["You&#39;re on the list", "ada@example.com", "Master&#39;s", "Germany, Netherlands", "Nigeria"]) expect(e.html).toContain(part);
+    for (const part of ["You&#39;re on the", "ada@example.com", "Master&#39;s", ">Germany<", ">Netherlands<", ">Nigeria<", "20,000+"]) expect(e.html).toContain(part);
+    expect(e.html).toContain('src="https://www.varsityfind.com/email/banner-waitlist.png"');
     expect(e.text).toContain("Where you'd like to study: Germany, Netherlands");
     expect(e.html).toContain('src="https://www.varsityfind.com/email/varsityfind-logo-reversed.png"');
     expect(e.html).toContain('href="https://www.varsityfind.com/"');
