@@ -1,0 +1,31 @@
+{
+  "id": "src-ucas-dates",
+  "name": "UCAS: dates and deadlines for undergraduate applications",
+  "type": "NATIONAL_EDUCATION_PORTAL",
+  "country": "GB",
+  "baseUrl": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+  "authorityLevel": "PRIMARY",
+  "crawlFrequency": "MANUAL",
+  "status": "PAUSED",
+  "seedUrls": [
+    "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications"
+  ],
+  "sitemapUrls": [],
+  "sitemapUrlPattern": null,
+  "sitemapMaxUrls": 1,
+  "urlPatternMode": "regex",
+  "urlPatterns": {
+    "include": [
+      "www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications"
+    ],
+    "exclude": []
+  },
+  "maxDepth": 0,
+  "maxPages": 1,
+  "rateLimitMs": 3000,
+  "respectRobotsTxt": true,
+  "extractionHints": {
+    "shape": "Not crawled. The dates are checked by hand each cycle and set in lib/deadlines/national.ts; npm run deadlines:national applies them. Status stays PAUSED."
+  },
+  "notes": "UCAS's national application calendar for undergraduate study in the UK, applied by rule to full-time UK undergraduate courses: the equal consideration date, the last date before Clearing, and the earlier date for Oxford, Cambridge, medicine, dentistry and veterinary courses."
+}
