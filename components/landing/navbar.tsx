@@ -62,7 +62,7 @@ export function LandingNavbar({ inviteOnly = false }: { inviteOnly?: boolean }) 
             Log in
           </Link>
           <Link
-            href="/signup"
+            href={inviteOnly ? "/waitlist" : "/signup"}
             className={cn(
               "inline-flex h-11 items-center rounded-full px-5 text-[15px] font-bold",
               scrolled ? "bg-varsity-blue text-white hover:bg-varsity-blue-hover" : "bg-white text-ink hover:bg-[#E3EBF4]",
@@ -101,7 +101,7 @@ export function LandingNavbar({ inviteOnly = false }: { inviteOnly?: boolean }) 
               <Link href="/login" className="inline-flex h-11 items-center justify-center rounded-full border border-line-strong font-bold text-ink">
                 Log in
               </Link>
-              <Link href="/signup" className="inline-flex h-11 items-center justify-center rounded-full bg-varsity-blue font-bold text-white">
+              <Link href={inviteOnly ? "/waitlist" : "/signup"} className="inline-flex h-11 items-center justify-center rounded-full bg-varsity-blue font-bold text-white">
                 {inviteOnly ? "Join the waitlist" : "Sign up"}
               </Link>
             </div>

@@ -6,7 +6,7 @@ import { VarsityFindLogo } from "@/components/kick/varsityfind-logo";
  * guides, destinations, Privacy and Terms are hidden until they are written;
  * Privacy and Terms should exist before public launch (flagged, not drafted).
  */
-const COLUMNS: Array<{ title: string; items: Array<{ label: string; href: string }> }> = [
+const columns = (inviteOnly: boolean): Array<{ title: string; items: Array<{ label: string; href: string }> }> => [
   {
     title: "Product",
     items: [
@@ -18,7 +18,7 @@ const COLUMNS: Array<{ title: string; items: Array<{ label: string; href: string
   {
     title: "Your account",
     items: [
-      { label: "Create a free account", href: "/signup" },
+      inviteOnly ? { label: "Join the waitlist", href: "/waitlist" } : { label: "Create a free account", href: "/signup" },
       { label: "Log in", href: "/login" },
     ],
   },
@@ -28,7 +28,9 @@ const COLUMNS: Array<{ title: string; items: Array<{ label: string; href: string
   },
 ];
 
-export function LandingFooter() {
+/** `inviteOnly`: sign-up is closed (SIGNUP_MODE=invite), so the account link leads to the waitlist. */
+export function LandingFooter({ inviteOnly = false }: { inviteOnly?: boolean }) {
+  const COLUMNS = columns(inviteOnly);
   return (
     <footer className="border-t border-line bg-white">
       <div className="px-gutter py-16">

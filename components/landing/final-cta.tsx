@@ -10,16 +10,17 @@ export function FinalCta({ inviteOnly = false }: { inviteOnly?: boolean }) {
           <p className="mt-4 text-lg text-on-night-muted">Build your profile and discover opportunities matched to you.</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link
-              href="/signup"
+              href={inviteOnly ? "/waitlist" : "/signup"}
               className="inline-flex h-[52px] items-center rounded-full bg-white px-7 text-base font-bold text-ink hover:bg-[#E3EBF4]"
             >
-              Find my matches
+              {inviteOnly ? "Join the waitlist" : "Find my matches"}
             </Link>
+            {/* While invite-only, "Explore scholarships" would only reach the waitlist too. */}
             <Link
-              href="/signup?next=/scholarships"
+              href={inviteOnly ? "#how-it-works" : "/signup?next=/scholarships"}
               className="inline-flex h-[52px] items-center rounded-full border border-white/45 px-7 text-base font-bold text-white hover:bg-white/10"
             >
-              Explore scholarships
+              {inviteOnly ? "See how it works" : "Explore scholarships"}
             </Link>
           </div>
           <p className="mt-3 text-sm text-on-night-muted">

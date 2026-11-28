@@ -15,7 +15,8 @@ const HeroAntigravityBackground = dynamic(
  * background, a scene on the right, one-colour headline, and a mock match
  * card that is labelled as an example.
  */
-export function Hero({ visual }: { visual: React.ReactNode }) {
+/** `inviteOnly`: sign-up is closed (SIGNUP_MODE=invite), so the main button leads to the waitlist. */
+export function Hero({ visual, inviteOnly = false }: { visual: React.ReactNode; inviteOnly?: boolean }) {
   const [heroEl, setHeroEl] = useState<HTMLElement | null>(null);
 
   return (
@@ -40,10 +41,10 @@ export function Hero({ visual }: { visual: React.ReactNode }) {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
-              href="/signup"
+              href={inviteOnly ? "/waitlist" : "/signup"}
               className="inline-flex h-[52px] items-center justify-center rounded-full bg-white px-7 text-base font-bold text-ink hover:bg-[#E3EBF4]"
             >
-              Find my matches
+              {inviteOnly ? "Join the waitlist" : "Find my matches"}
             </Link>
             <Link
               href="#how-it-works"

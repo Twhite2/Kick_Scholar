@@ -32,7 +32,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd()).replace(/</g, "\\u003c") }} />
       <LandingNavbar inviteOnly={inviteOnly} />
       <main className="flex flex-1 flex-col">
-        <Hero visual={<IllustrativeMatchCard />} />
+        <Hero visual={<IllustrativeMatchCard />} inviteOnly={inviteOnly} />
         <TrustStrip />
         <ProblemSection />
         <HowItWorks />
@@ -43,7 +43,7 @@ export default function Home() {
         <DiscoverySection />
         <FinalCta inviteOnly={inviteOnly} />
       </main>
-      <LandingFooter />
+      <LandingFooter inviteOnly={inviteOnly} />
     </div>
   );
 }
